@@ -1,0 +1,68 @@
+{
+  "source_file": "_STEPFILE_UTDTloopWithOpticsAndHXRev9_9_18_26.step",
+  "sha256_matches": true,
+  "method": "Independent STEP reload; project boundary vertices onto each long main-pipe cylinder axis, compare with analytical V bounds",
+  "checks": [
+    {
+      "path": "UTDTloopWithOpticsAndHXRev9_9_18_26/NAUO1/NAUO62",
+      "face": 4,
+      "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev9_9_18_26/NAUO1/NAUO62",
+      "face": 5,
+      "vertex_projection_endpoint_error_mm": 0.0
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev9_9_18_26/NAUO1/NAUO62",
+      "face": 6,
+      "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev9_9_18_26/NAUO1/NAUO62",
+      "face": 7,
+      "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev9_9_18_26/NAUO1/NAUO62",
+      "face": 8,
+      "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev9_9_18_26/NAUO1/NAUO62",
+      "face": 10,
+      "vertex_projection_endpoint_error_mm": 0.0
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev9_9_18_26/NAUO2/NAUO61",
+      "face": 3,
+      "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev9_9_18_26/NAUO2/NAUO61",
+      "face": 5,
+      "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev9_9_18_26/NAUO2/NAUO61",
+      "face": 6,
+      "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev9_9_18_26/NAUO2/NAUO61",
+      "face": 7,
+      "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev9_9_18_26/NAUO2/NAUO61",
+      "face": 9,
+      "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev9_9_18_26/NAUO2/NAUO61",
+      "face": 10,
+      "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+    }
+  ],
+  "max_endpoint_error_mm": 2.2737367544323206e-13
+}

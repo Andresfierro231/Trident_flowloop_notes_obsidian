@@ -1,0 +1,12 @@
+{
+  "source_sha256_matches": true,
+  "pages": 8,
+  "corners": 8,
+  "sensor_references": 22,
+  "ordered_coordinate_rows": 36,
+  "station_sums_and_nearest_ends_pass": true,
+  "jacket_chain_pass": true,
+  "coordinate_loop_closure_pass": true,
+  "independent_face_bound_error_mm": 9.094947017729282e-13,
+  "PDF_sensor_ids_and_source_names_present": true
+}

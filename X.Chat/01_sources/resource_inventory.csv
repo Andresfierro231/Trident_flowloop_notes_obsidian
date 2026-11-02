@@ -1,0 +1,198 @@
+path,extension,size_bytes,role,content_review
+0. Overview and intro/Digital I&C - Andres Notes.md,.md,130,source_note,inventory_only_not_proof_of_reading
+0. Overview and intro/Home Note.md,.md,1120,source_note,inventory_only_not_proof_of_reading
+0. Overview and intro/Trident - STNCL Loops.md,.md,1307,source_note,inventory_only_not_proof_of_reading
+"0. Overview and intro/Trident Notes, Questions, and follow ups.md",.md,2854,source_note,inventory_only_not_proof_of_reading
+1. Setup and Geometry/1.1.0 Geometry notes.md,.md,2970,source_note,inventory_only_not_proof_of_reading
+1. Setup and Geometry/1.1.0 Heaters and coolers.md,.md,1065,source_note,inventory_only_not_proof_of_reading
+1. Setup and Geometry/1.1.1 Geometry pics.md,.md,2625,source_note,inventory_only_not_proof_of_reading
+1. Setup and Geometry/1.1.2 Sensors.md,.md,2169,source_note,inventory_only_not_proof_of_reading
+1. Setup and Geometry/1.1.2.1 EPIC ACU Senor Names.md,.md,1324,source_note,inventory_only_not_proof_of_reading
+1. Setup and Geometry/1.2 Main Material Props.md,.md,1945,source_note,inventory_only_not_proof_of_reading
+1. Setup and Geometry/1.2.1 Prop 30 ThermoPhys Props.md,.md,519,source_note,inventory_only_not_proof_of_reading
+1. Setup and Geometry/1.2.2 Steel Pipe Properties.md,.md,817,source_note,inventory_only_not_proof_of_reading
+1. Setup and Geometry/1.A Appendix Notes.md,.md,0,source_note,inventory_only_not_proof_of_reading
+1. Setup and Geometry/1.A.1 ACU Loop is bigger than VCU loop.md,.md,1614,source_note,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/316L_correlations_vs_NRC (1).pdf,.pdf,59658,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/316L_correlations_vs_NRC.pdf,.pdf,63981,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260911080943.png,.png,76521,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260916145752.png,.png,125169,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260916150018.png,.png,96527,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260916154132.png,.png,86682,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260916165634.png,.png,36339,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260916171707.png,.png,57958,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260916171722.png,.png,14937,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260918112110.png,.png,90807,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260918112233.png,.png,59839,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260918162121.png,.png,173414,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260918162620.png,.png,137939,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260921122948.png,.png,251021,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260921123601.png,.png,62512,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260921123630.png,.png,69018,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260921124359.png,.png,3621817,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260924212606.png,.png,127486,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260924212642.png,.png,133242,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260924212656.png,.png,141904,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260925081141.png,.png,153322,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260925081737.png,.png,43446,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260925211935.png,.png,103904,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260926180243.png,.png,120912,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260926180745.png,.png,115117,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260926180810.png,.png,116159,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260926180902.png,.png,45864,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20260926180930.png,.png,66310,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261006125106.png,.png,10923,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261006125128.png,.png,11975,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261006125244.png,.png,12163,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261006125306.png,.png,11263,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261006130427.png,.png,11868,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261006130451.png,.png,11726,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261006130522.png,.png,11726,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261006132553.png,.png,101446,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261006133638.png,.png,75565,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261006134025.png,.png,98117,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261006134600.png,.png,113186,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261006134905.png,.png,91999,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261006134932.png,.png,97051,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261006140846.png,.png,100700,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261014092143.png,.png,610374,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261014094551.png,.png,138010,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261014105153.png,.png,129088,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/Pasted image 20261022173050.png,.png,5300457,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev7_Rev8_CAD_Comparison.md,.md,4767,source_note,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev7_Rev8_CAD_Comparison.pdf,.pdf,972610,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev7_Rev8_CAD_Comparison.xlsx,.xlsx,38050,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Engineering_Drawings 1.pdf,.pdf,269651,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Engineering_Drawings.pdf,.pdf,294641,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/README.md,.md,5705,source_note,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Contact_Solutions.csv,.csv,5516,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Coordinates.csv,.csv,6230,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Diameters.csv,.csv,1968,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Engineering_Data.json,.json,165212,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Probe_Shafts.csv,.csv,2119,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Segments.csv,.csv,4304,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Sensor_Stations.csv,.csv,19644,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/deliverable_validation.json,.json,351,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/derived.json,.json,82661,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/reconstructed_bends.json,.json,60600,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/surface_contact_solutions.json,.json,8168,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/drawings/VCU_Rev8_CAD_Engineering_Drawings.pdf,.pdf,269651,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/cad_projection.json,.json,350988,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/contact_audit.log,.log,4160,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/extraction.log,.log,8186,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/projection.log,.log,417,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/rev8.json,.json,1910188,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/rev8_mesh.json,.json,2763584,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/rev8_verification.json,.json,2107,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/audit_surface_contacts.py,.py,756,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/build_model_data.py,.py,15915,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/cad_model.py,.py,1640,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/derive_rev8.py,.py,11808,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/draw_engineering.py,.py,31356,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/extract_rev8.py,.py,6472,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/inspect_step.py,.py,5140,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/project_cad.py,.py,1190,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/reconstruct_bends.py,.py,2418,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/validate_deliverable.py,.py,2251,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/verify_rev8.py,.py,2582,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/source/UTDTloopWithOpticsAndHXRev8(1).STEP,.step,4196659,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/MANIFEST.json,.json,7713,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/README.txt,.txt,11405,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/VCU_Rev9_CAD_Engineering_Drawings.pdf,.pdf,328199,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev8_to_Rev9_Dimension_Changes.csv,.csv,1086,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev8_to_Rev9_Sensor_Changes.csv,.csv,8474,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_All_Cylindrical_Faces.csv,.csv,457734,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Branch_Connections.csv,.csv,1123,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Contact_Solutions.csv,.csv,5434,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Coordinates.csv,.csv,14205,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Data_Dictionary.json,.json,49164,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Diameters.csv,.csv,2563,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Dimensions.csv,.csv,42501,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Engineering_Data.json,.json,275746,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Heater_Clamps.csv,.csv,1918,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Pipe_Axes.csv,.csv,8553,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Probe_Shafts.csv,.csv,2358,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Segments.csv,.csv,4414,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Sensor_Stations.csv,.csv,20255,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/deliverable_validation.json,.json,1435,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/geometry.json,.json,65193,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/reconstructed_bends.json,.json,30309,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/bend_reconstruction.log,.log,622,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/cad_projection.json,.json,436431,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/contacts.log,.log,1487,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/derived_summary.txt,.txt,2190,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/inventory.log,.log,8434,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/projection.log,.log,872,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/rev9.json,.json,2215168,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/rev9_inventory.json,.json,2196613,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/rev9_verification.json,.json,2239,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/reference/README.txt,.txt,243,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/reference/VCU_Rev8_Engineering_Data.json,.json,165212,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/build_model_data.py,.py,25077,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/cad_model.py,.py,1657,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/derive_geometry.py,.py,6028,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/draw_engineering.py,.py,32748,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/enrich_data.py,.py,7655,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/environment_versions.json,.json,212,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/extract_contacts.py,.py,1894,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/extract_inventory.py,.py,4459,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/inspect_step.py,.py,5140,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/load_vcu_rev9.py,.py,1640,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/project_cad.py,.py,1243,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/rebuild.py,.py,922,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/reconstruct_bends.py,.py,1987,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/validate_deliverable.py,.py,6179,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/verify_rev9.py,.py,2582,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/source/_STEPFILE_UTDTloopWithOpticsAndHXRev9_9_18_26.step,.step,4259443,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package copy.zip,.zip,2354207,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_Compact_Sensors_Heights.pdf,.pdf,64207,attachment_or_source_asset,inventory_only_not_proof_of_reading
+1. Setup and Geometry/attachments/VCU_Rev9_Simplified_Sensors_Lengths.pdf,.pdf,65189,attachment_or_source_asset,inventory_only_not_proof_of_reading
+2. Model Notes/0.0 Intro to Model.md,.md,9217,source_note,inventory_only_not_proof_of_reading
+A. Appendix/A.1 Interesting Pictures and drawing.md,.md,155,source_note,inventory_only_not_proof_of_reading
+A. Appendix/Interesting_pictures_local/ACU_Engineering_Reference_RevB (1).pdf,.pdf,1095802,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/Interesting_pictures_local/ACU_Loop_Section.png,.png,329418,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/Interesting_pictures_local/ACU_Loop_Simple (1).png,.png,207123,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/Interesting_pictures_local/Loop_Images_Editable (1).zip,.zip,1324262,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/Interesting_pictures_local/VCU_Loop_Engineering_Blueprint_Rev8.pdf,.pdf,1207809,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/Interesting_pictures_local/VCU_Loop_Section.png,.png,332984,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/Interesting_pictures_local/VCU_style_simplified_sensor_locations.png,.png,963782,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/A-000109_CHK1.pdf,.pdf,316001,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/As designed documentation.md,.md,2174,source_note,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/Base.base,.base,244,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000117a 1.pdf,.pdf,266728,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000117b 1.pdf,.pdf,254689,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000118 1.pdf,.pdf,326426,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000118 updated.pdf,.pdf,326426,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000118.pdf,.pdf,321874,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000151.pdf,.pdf,249818,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000153.pdf,.pdf,566880,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000158.pdf,.pdf,471306,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000159.pdf,.pdf,251446,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000164.pdf,.pdf,451115,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000167 1.pdf,.pdf,587635,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000167.pdf,.pdf,587635,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000167_SENSOR SECTION VIEW_CHK1.pdf,.pdf,346774,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000183 1.pdf,.pdf,268029,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/D-000187_CHK1.pdf,.pdf,308779,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/Gentry's ACU Flow-Loop Specifications.md,.md,6179,source_note,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/SaltLoopV1BDrawing.pdf,.pdf,482931,attachment_or_source_asset,inventory_only_not_proof_of_reading
+A. Appendix/local_version_drawings_frozen/What things are.md,.md,3571,source_note,inventory_only_not_proof_of_reading
+M. Meeting Notes/'26 Oct 08 - Comp Trident Flow Loop Team.md,.md,2387,source_note,inventory_only_not_proof_of_reading
+M. Meeting Notes/'26 Oct 13 - Neutron OS with Ben booth.md,.md,653,source_note,inventory_only_not_proof_of_reading
+M. Meeting Notes/'26 Oct 14 - ACU desired ROM capabilities - Tim Head.md,.md,1778,source_note,inventory_only_not_proof_of_reading
+M. Meeting Notes/'26 Oct 14 - feedback abstract - Clarno meeting.md,.md,1646,source_note,inventory_only_not_proof_of_reading
+M. Meeting Notes/'26 Oct 16 - Luciano Ideas.md,.md,2097,source_note,inventory_only_not_proof_of_reading
+M. Meeting Notes/'26 Oct 16 - VCU exp team meeting.md,.md,3813230,source_note,inventory_only_not_proof_of_reading
+M. Meeting Notes/'26 Sep 08 - Dilan Trident VCU.md,.md,1126,source_note,inventory_only_not_proof_of_reading
+M. Meeting Notes/'26 Sep 09 - Carasik Email.md,.md,785,source_note,inventory_only_not_proof_of_reading
+M. Meeting Notes/'26 Sep 29 - Group Meeting.md,.md,335,source_note,inventory_only_not_proof_of_reading
+M. Meeting Notes/Attachments/Pasted image 20261013142511.png,.png,104309,attachment_or_source_asset,inventory_only_not_proof_of_reading
+M. Meeting Notes/Attachments/Pasted image 20261013142523.png,.png,104309,attachment_or_source_asset,inventory_only_not_proof_of_reading
+M. Meeting Notes/Attachments/Pasted image 20261022171306.png,.png,345460,attachment_or_source_asset,inventory_only_not_proof_of_reading
+Research/Clarno's Special assignment/Instructions.md,.md,1737,source_note,inventory_only_not_proof_of_reading
+Research/Clarno's Special assignment/Nick's Steady State Heat Transfer Analysis.md,.md,0,source_note,inventory_only_not_proof_of_reading
+Table of Contents.base,.base,754,attachment_or_source_asset,inventory_only_not_proof_of_reading
+attachments/Pasted image 20260821141504.png,.png,123954,attachment_or_source_asset,inventory_only_not_proof_of_reading
+attachments/Slack message documentation.md,.md,51,source_note,inventory_only_not_proof_of_reading
+attachments/attachments/Slack message documentation.png,.png,438548,attachment_or_source_asset,inventory_only_not_proof_of_reading
+attachments/trident_longhorn_I_hate.png,.png,87245,attachment_or_source_asset,inventory_only_not_proof_of_reading

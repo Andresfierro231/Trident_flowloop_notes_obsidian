@@ -1,0 +1,110 @@
+component UTDTloopWithOpticsAndHXRev8 UTDTloopWithOpticsAndHXRev8
+component UTDTloopWithOpticsAndHXRev8/NAUO1 UT_Trident_Halfloop_With_Holders
+component UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45 MSRloopRev2
+component UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO46 Fiber_Holder
+component UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO46/NAUO47 4837N25_Standard-Wall Unthreaded Stainless Steel Pipe_4837N25
+component UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO46/NAUO48 89785K226_Smooth-Bore Seamless 316 Stainless Steel Tubing_89785K226
+component UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO46/NAUO49 89785K323_Smooth-Bore Seamless 316 Stainless Steel Tubing_89785K323
+component UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO46/NAUO50 5182K242_Yor-Lok Fitting for Stainless Steel Tubing_5182K242
+component UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO46/NAUO51 5182K242_Yor-Lok Fitting for Stainless Steel Tubing_5182K242
+component UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO46/NAUO52 89785K226_Smooth-Bore Seamless 316 Stainless Steel Tubing_89785K226
+component UTDTloopWithOpticsAndHXRev8/NAUO2 UT_Trident_Halfloop_With_Holders
+component UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45 MSRloopRev2
+component UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO46 Fiber_Holder
+component UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO46/NAUO47 4837N25_Standard-Wall Unthreaded Stainless Steel Pipe_4837N25
+component UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO46/NAUO48 89785K226_Smooth-Bore Seamless 316 Stainless Steel Tubing_89785K226
+component UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO46/NAUO49 89785K323_Smooth-Bore Seamless 316 Stainless Steel Tubing_89785K323
+component UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO46/NAUO50 5182K242_Yor-Lok Fitting for Stainless Steel Tubing_5182K242
+component UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO46/NAUO51 5182K242_Yor-Lok Fitting for Stainless Steel Tubing_5182K242
+component UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO46/NAUO52 89785K226_Smooth-Bore Seamless 316 Stainless Steel Tubing_89785K226
+component UTDTloopWithOpticsAndHXRev8/NAUO3 Pipe8in
+component UTDTloopWithOpticsAndHXRev8/NAUO4 expansiontank
+component UTDTloopWithOpticsAndHXRev8/NAUO5 Pipe8in
+component UTDTloopWithOpticsAndHXRev8/NAUO6 Exhanger(3ftUTDT)
+component UTDTloopWithOpticsAndHXRev8/NAUO6/NAUO40 3in3ftCutSS_44635K443
+component UTDTloopWithOpticsAndHXRev8/NAUO6/NAUO41 8983K211_Multipurpose 304 Stainless Steel Sheet_8983K211
+component UTDTloopWithOpticsAndHXRev8/NAUO6/NAUO42 8983K211_Multipurpose 304 Stainless Steel Sheet_8983K211
+component UTDTloopWithOpticsAndHXRev8/NAUO6/NAUO43 9157K35_Standard-Wall 304-304L Stainless Steel Threaded Pipe Nipple_9157K35
+component UTDTloopWithOpticsAndHXRev8/NAUO6/NAUO44 9157K35_Standard-Wall 304-304L Stainless Steel Threaded Pipe Nipple_9157K35
+component UTDTloopWithOpticsAndHXRev8/NAUO7 Fiber_Holder_30deg
+component UTDTloopWithOpticsAndHXRev8/NAUO7/NAUO31 30TC Main Pipe_4837N25
+component UTDTloopWithOpticsAndHXRev8/NAUO7/NAUO32 30TC Guide Tube_89785K226
+component UTDTloopWithOpticsAndHXRev8/NAUO7/NAUO33 30TC Fiber Tube_89785K323
+component UTDTloopWithOpticsAndHXRev8/NAUO7/NAUO34 30TC Fiber YorLok_5182K242
+component UTDTloopWithOpticsAndHXRev8/NAUO7/NAUO35 30TC Fiber YorLok_5182K242
+component UTDTloopWithOpticsAndHXRev8/NAUO7/NAUO36 30TC Guide Tube_89785K226
+component UTDTloopWithOpticsAndHXRev8/NAUO7/NAUO37 30TC Guide Tube_89785K226
+component UTDTloopWithOpticsAndHXRev8/NAUO7/NAUO38 30TC Fiber YorLok_5182K242
+component UTDTloopWithOpticsAndHXRev8/NAUO7/NAUO39 30TC TC
+component UTDTloopWithOpticsAndHXRev8/NAUO8 Fiber_Holder_30deg
+component UTDTloopWithOpticsAndHXRev8/NAUO8/NAUO31 30TC Main Pipe_4837N25
+component UTDTloopWithOpticsAndHXRev8/NAUO8/NAUO32 30TC Guide Tube_89785K226
+component UTDTloopWithOpticsAndHXRev8/NAUO8/NAUO33 30TC Fiber Tube_89785K323
+component UTDTloopWithOpticsAndHXRev8/NAUO8/NAUO34 30TC Fiber YorLok_5182K242
+component UTDTloopWithOpticsAndHXRev8/NAUO8/NAUO35 30TC Fiber YorLok_5182K242
+component UTDTloopWithOpticsAndHXRev8/NAUO8/NAUO36 30TC Guide Tube_89785K226
+component UTDTloopWithOpticsAndHXRev8/NAUO8/NAUO37 30TC Guide Tube_89785K226
+component UTDTloopWithOpticsAndHXRev8/NAUO8/NAUO38 30TC Fiber YorLok_5182K242
+component UTDTloopWithOpticsAndHXRev8/NAUO8/NAUO39 30TC TC
+component UTDTloopWithOpticsAndHXRev8/NAUO9 TC_No_Fiber_Holder
+component UTDTloopWithOpticsAndHXRev8/NAUO9/NAUO25 89785K434_Smooth-Bore Seamless 316 Stainless Steel Tubing (1)_89785K434
+component UTDTloopWithOpticsAndHXRev8/NAUO9/NAUO26 5182K91_Yor-Lok Fitting for Stainless Steel Tubing (1)_5182K91
+component UTDTloopWithOpticsAndHXRev8/NAUO9/NAUO27 TC
+component UTDTloopWithOpticsAndHXRev8/NAUO9/NAUO27/NAUO29 Part1
+component UTDTloopWithOpticsAndHXRev8/NAUO9/NAUO27/NAUO30 Part2
+component UTDTloopWithOpticsAndHXRev8/NAUO9/NAUO28 Part3
+component UTDTloopWithOpticsAndHXRev8/NAUO10 Surface_Thermocoulpes
+component UTDTloopWithOpticsAndHXRev8/NAUO11 Surface_Thermocoulpes
+component UTDTloopWithOpticsAndHXRev8/NAUO12 Surface_Thermocoulpes
+component UTDTloopWithOpticsAndHXRev8/NAUO13 Surface_Thermocoulpes
+component UTDTloopWithOpticsAndHXRev8/NAUO14 Surface_Thermocoulpes
+component UTDTloopWithOpticsAndHXRev8/NAUO15 Surface_Thermocoulpes
+component UTDTloopWithOpticsAndHXRev8/NAUO16 Surface_Thermocoulpes
+component UTDTloopWithOpticsAndHXRev8/NAUO17 Surface_Thermocoulpes
+component UTDTloopWithOpticsAndHXRev8/NAUO18 Surface_Thermocoulpes
+component UTDTloopWithOpticsAndHXRev8/NAUO19 Surface_Thermocoulpes
+component UTDTloopWithOpticsAndHXRev8/NAUO20 Surface_Thermocoulpes
+component UTDTloopWithOpticsAndHXRev8/NAUO21 Surface_Thermocoulpes
+component UTDTloopWithOpticsAndHXRev8/NAUO22 TC_No_Fiber_Holder
+component UTDTloopWithOpticsAndHXRev8/NAUO22/NAUO25 89785K434_Smooth-Bore Seamless 316 Stainless Steel Tubing (1)_89785K434
+component UTDTloopWithOpticsAndHXRev8/NAUO22/NAUO26 5182K91_Yor-Lok Fitting for Stainless Steel Tubing (1)_5182K91
+component UTDTloopWithOpticsAndHXRev8/NAUO22/NAUO27 TC
+component UTDTloopWithOpticsAndHXRev8/NAUO22/NAUO27/NAUO29 Part1
+component UTDTloopWithOpticsAndHXRev8/NAUO22/NAUO27/NAUO30 Part2
+component UTDTloopWithOpticsAndHXRev8/NAUO22/NAUO28 Part3
+component UTDTloopWithOpticsAndHXRev8/NAUO23 TC_No_Fiber_Holder
+component UTDTloopWithOpticsAndHXRev8/NAUO23/NAUO25 89785K434_Smooth-Bore Seamless 316 Stainless Steel Tubing (1)_89785K434
+component UTDTloopWithOpticsAndHXRev8/NAUO23/NAUO26 5182K91_Yor-Lok Fitting for Stainless Steel Tubing (1)_5182K91
+component UTDTloopWithOpticsAndHXRev8/NAUO23/NAUO27 TC
+component UTDTloopWithOpticsAndHXRev8/NAUO23/NAUO27/NAUO29 Part1
+component UTDTloopWithOpticsAndHXRev8/NAUO23/NAUO27/NAUO30 Part2
+component UTDTloopWithOpticsAndHXRev8/NAUO23/NAUO28 Part3
+component UTDTloopWithOpticsAndHXRev8/NAUO24 TC_No_Fiber_Holder
+component UTDTloopWithOpticsAndHXRev8/NAUO24/NAUO25 89785K434_Smooth-Bore Seamless 316 Stainless Steel Tubing (1)_89785K434
+component UTDTloopWithOpticsAndHXRev8/NAUO24/NAUO26 5182K91_Yor-Lok Fitting for Stainless Steel Tubing (1)_5182K91
+component UTDTloopWithOpticsAndHXRev8/NAUO24/NAUO27 TC
+component UTDTloopWithOpticsAndHXRev8/NAUO24/NAUO27/NAUO29 Part1
+component UTDTloopWithOpticsAndHXRev8/NAUO24/NAUO27/NAUO30 Part2
+component UTDTloopWithOpticsAndHXRev8/NAUO24/NAUO28 Part3
+Walking complete 88
+surface contact UTDTloopWithOpticsAndHXRev8/NAUO10
+surface contact UTDTloopWithOpticsAndHXRev8/NAUO11
+surface contact UTDTloopWithOpticsAndHXRev8/NAUO12
+surface contact UTDTloopWithOpticsAndHXRev8/NAUO13
+surface contact UTDTloopWithOpticsAndHXRev8/NAUO14
+surface contact UTDTloopWithOpticsAndHXRev8/NAUO15
+surface contact UTDTloopWithOpticsAndHXRev8/NAUO16
+surface contact UTDTloopWithOpticsAndHXRev8/NAUO17
+surface contact UTDTloopWithOpticsAndHXRev8/NAUO18
+surface contact UTDTloopWithOpticsAndHXRev8/NAUO19
+surface contact UTDTloopWithOpticsAndHXRev8/NAUO20
+surface contact UTDTloopWithOpticsAndHXRev8/NAUO21
+mount UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO46
+mount UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO46
+mount UTDTloopWithOpticsAndHXRev8/NAUO7
+mount UTDTloopWithOpticsAndHXRev8/NAUO8
+mount UTDTloopWithOpticsAndHXRev8/NAUO9
+mount UTDTloopWithOpticsAndHXRev8/NAUO22
+mount UTDTloopWithOpticsAndHXRev8/NAUO23
+mount UTDTloopWithOpticsAndHXRev8/NAUO24
+UTDTloopWithOpticsAndHXRev8(1).STEP 88 records

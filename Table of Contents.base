@@ -1,0 +1,36 @@
+views:
+  - type: table
+    name: ToC_VCU_ACU_Shared_Research
+    filters:
+      and:
+        - file.inFolder("VCU ACU Shared Research")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - file.mtime
+      - file.size
+      - file.ext
+    sort:
+      - property: file.folder
+        direction: DESC
+      - property: file.name
+        direction: DESC
+      - property: file.size
+        direction: DESC
+    columnSize:
+      file.name: 470
+      file.size: 127
+  - type: list
+    name: List_view
+    groupBy:
+      property: file.folder
+      direction: ASC
+    sort:
+      - property: file.folder
+        direction: ASC
+    cardSize: 290
+    imageAspectRatio: 1.35
+    imageFit: contain

@@ -1,0 +1,11 @@
+{
+  "cadquery": "2.7.0",
+  "cadquery-ocp": "7.8.1.1.post1",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "reportlab": "4.4.9",
+  "pypdf": "6.10.0",
+  "pandas": "2.2.3",
+  "PyMuPDF": "1.26.6",
+  "Pillow": "12.3.0"
+}

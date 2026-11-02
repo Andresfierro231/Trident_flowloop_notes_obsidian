@@ -1,0 +1,154 @@
+{
+  "snapshot": "/Users/andres/Box-Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z",
+  "saved_completion_status": "complete_verified",
+  "saved_completion_date": "2026-10-26",
+  "interpretation": "Receipt inspected; this task verified selected extracted Markdown hashes, not the full backup or live HPC state.",
+  "markdown_extracted_to_scratch": 1560,
+  "report_markdown_cataloged": 791,
+  "selected_source_routes": [
+    {
+      "id": "HC01",
+      "member": "trident_modeling_initiative/reports/IMPORTANT_REPORTS.md",
+      "area": "reports",
+      "sha256": "d3b5600a59edb25643928025caa315832068b02361edbc3532b9ec9de5e7319d",
+      "bytes": 48920,
+      "hash_matches_inventory": true,
+      "reading_depth": "Maintained report/derivation/decision entry; selected route rows read"
+    },
+    {
+      "id": "HC02",
+      "member": "trident_modeling_initiative/docs/project/RESEARCH_ROADMAP.md",
+      "area": "working",
+      "sha256": "242f9109c668c6de61134da74182762d1437e071d7ca5eef3d834ea27e15334f",
+      "bytes": 7009,
+      "hash_matches_inventory": true,
+      "reading_depth": "Approved three-stage scope; full text read"
+    },
+    {
+      "id": "HC03",
+      "member": "trident_modeling_initiative/docs/data/DATA_CONTRACT.md",
+      "area": "working",
+      "sha256": "825a7c1e941b9d2fdc4b47a942081c1bfb271d2aaebadbe8f7fb1a7360c9a646",
+      "bytes": 6155,
+      "hash_matches_inventory": true,
+      "reading_depth": "Raw-to-observation fields, window/role/provenance contract; full text read"
+    },
+    {
+      "id": "HC04",
+      "member": "trident_modeling_initiative/docs/data/OBSERVATION_COMPARISON_PIPELINE.md",
+      "area": "working",
+      "sha256": "ce3046d269bec01fdaf65fc7819b9a53fee2fc7f25a336f5a67905e579fe7d06",
+      "bytes": 6441,
+      "hash_matches_inventory": true,
+      "reading_depth": "Implemented ACU adapter/observation bridge and unresolved qualification; full text read"
+    },
+    {
+      "id": "HC05",
+      "member": "trident_modeling_initiative/docs/theory/README.md",
+      "area": "working",
+      "sha256": "4eaeb3b7621c1c6320342449aa73fc41792cc451ee6080e1ce2fa63155303353",
+      "bytes": 4290,
+      "hash_matches_inventory": true,
+      "reading_depth": "Theory family index; entry read"
+    },
+    {
+      "id": "HC06",
+      "member": "trident_modeling_initiative/docs/theory/TAMU_ROM_RECONSTRUCTION.md",
+      "area": "working",
+      "sha256": "16d0d07b51c7e3a849a5767dd7f9e2bafa0a35622aec937ada2ba3214fe54f1c",
+      "bytes": 1578,
+      "hash_matches_inventory": true,
+      "reading_depth": "Manual/continuation/source boundaries; full text read"
+    },
+    {
+      "id": "HC07",
+      "member": "trident_modeling_initiative/reports/research/2026/10/2026-10-20_TAMU-BUOY-009_buoyancy_studies/2026-10-21/TAMU-TRIDENT-015_trident_applicability/REPORT.md",
+      "area": "reports",
+      "sha256": "25ed85900df287b5a4c51640bc403b962aa904f31b9ad342f42f3e570d69a58f",
+      "bytes": 19065,
+      "hash_matches_inventory": true,
+      "reading_depth": "Transfer table and first mechanism sections read; later sections remain pointers"
+    },
+    {
+      "id": "HC08",
+      "member": "trident_modeling_initiative/docs/decisions/2026-10-26_TAMU-TRIDENT-016_batch-studies.md",
+      "area": "working",
+      "sha256": "ac6d0b52af9aea212d43bafc64bfbb72f557dfd87245dbd1c3efb637e51667be",
+      "bytes": 1857,
+      "hash_matches_inventory": true,
+      "reading_depth": "Bounded historical TAMU campaign authorization; full text read, completion not inferred"
+    },
+    {
+      "id": "HC09",
+      "member": "trident_modeling_initiative/docs/theory/VCU_NONLINEAR_CONDITIONAL_BOUNDARY.md",
+      "area": "working",
+      "sha256": "78de63cdeeba372fbcfc01d8dc0e17bfffd1b2e3ee2cd0ec0ad6d0133ad002c3",
+      "bytes": 3761,
+      "hash_matches_inventory": true,
+      "reading_depth": "Nonlinear conditional shell model, initialization and evidence limits; full text read"
+    },
+    {
+      "id": "HC10",
+      "member": "trident_modeling_initiative/docs/decisions/2026-10-22_CAL-019_nominal_heater_power.md",
+      "area": "working",
+      "sha256": "e3cdbdd1696ed0cbb64df533a17ca53fc639b4c7221f94e65f04656fb699497f",
+      "bytes": 3486,
+      "hash_matches_inventory": true,
+      "reading_depth": "Accepted nominal heater assumptions and net-fluid boundary distinction; full text read"
+    },
+    {
+      "id": "HC11",
+      "member": "trident_modeling_initiative/reports/data/VCU_EXPERIMENT_INDEX.md",
+      "area": "reports",
+      "sha256": "f91dd269bbdb97f1eda8e2569699c8bf550b1ce8f4735687d2a8d0e3eb827a9f",
+      "bytes": 50940,
+      "hash_matches_inventory": true,
+      "reading_depth": "Run-index header and selected rows read; per-run files not fully audited"
+    },
+    {
+      "id": "HC12",
+      "member": "trident_modeling_initiative/docs/experiments/RESEARCH_DATA_REQUIREMENTS.md",
+      "area": "working",
+      "sha256": "d90da7b5d0762eb16d861db06b40065d1adc23d757d9b10a70ed10194c4b210a",
+      "bytes": 10851,
+      "hash_matches_inventory": true,
+      "reading_depth": "Existing data-request sequence and nominal-power amendment; relevant sections read"
+    },
+    {
+      "id": "HC13",
+      "member": "trident_modeling_initiative/docs/dashboard/README.md",
+      "area": "working",
+      "sha256": "e95d7a11a370d773d03e9846768c7a80b71fa949560be36d59d24c1ad02852b1",
+      "bytes": 2500,
+      "hash_matches_inventory": true,
+      "reading_depth": "Collaborative interface requirements/status; full text read"
+    },
+    {
+      "id": "HC14",
+      "member": "trident_modeling_initiative/docs/uncertainty/README.md",
+      "area": "working",
+      "sha256": "9e26d06d6b88f990ebef3cad656ba2b47ab92e70599dc5d9bafaf7d4bd75df03",
+      "bytes": 3006,
+      "hash_matches_inventory": true,
+      "reading_depth": "Core uncertainty contract/status; full text read"
+    },
+    {
+      "id": "HC15",
+      "member": "trident_modeling_initiative/reports/proposal/2026/10/phd_research_framework/2026-10-21/DOC-035_clarno_program_context/README.md",
+      "area": "reports",
+      "sha256": "c4fc1a30990ca686a9b003a494def80353a4b361f141cf357add3bc414c1f170",
+      "bytes": 12739,
+      "hash_matches_inventory": true,
+      "reading_depth": "Program-reference entry and role/scope context; selected sections read"
+    },
+    {
+      "id": "HC16",
+      "member": "trident_modeling_initiative/reports/solver/2026/10/clarno_solver_guide/2026-10-21/RPT-001_friday_writeup/README.md",
+      "area": "reports",
+      "sha256": "ac3437bb63a0cb8000b1a86508d4589c7c45fa6cb6ca5a36e2a9a9a3d7a2a3f1",
+      "bytes": 21949,
+      "hash_matches_inventory": true,
+      "reading_depth": "Continuing solver-report entry and later-study routes; selected updates read"
+    }
+  ]
+}

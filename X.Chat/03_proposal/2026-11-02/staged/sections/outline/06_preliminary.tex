@@ -1,0 +1,53 @@
+% Bullet-only intermediate outline; November 2 author direction and source review.
+\section{Preliminary Work and Research Readiness}
+\noindent\small Source labels: \href{run:doc_support/reconciliation/2026-11-02/SOURCES.md}{source map}; \href{run:doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md}{master's and citation pointers}.\normalsize
+
+\subsection{Master's work: an existing end-to-end reduction example}
+\begin{itemize}[leftmargin=*]
+\item Author direction: use the completed master's work to establish feasibility before describing proposed aims. The next experimental demonstration should show that we understand the experimental data and can reproduce temperatures; it is proposed work, not a completed ACU/VCU result. [AD-20261102-02--03]\cite{fierro2026cfdoneD}
+\item Start with the TAMU problem, CFD reference and sensor meanings; show how fields become matched mass, energy, pressure and temperature quantities. Keep the distinct CFD time-averaging windows explicit. [MS01: Chapters 2--3; claim manifest]
+\item Explain the working steady model: energy transport around the loop, temperature periodicity, buoyancy--resistance balance, separate thermal paths, and fluid/wall observations. This establishes a practical implementation route. [MS01: Chapter 4]
+\item Present one temperature-versus-location comparison and its exact case population, supplied inputs, fitted choices and sensor policy. Link the underlying score rows and figure manifest; author selects the plot. [MS01: Chapter 5; figure-manifest F10/F11]
+\item Label the master's assessment retrospective: nominal CFD cases informed development and the heater-power cases had been previously encountered. These results support feasibility and lessons, not independent ACU/VCU validation. [MS01: abstract; Chapter 6]
+\end{itemize}
+
+\subsection{Lessons that motivate the PhD}
+\begin{itemize}[leftmargin=*]
+\item Temperature and circulation objectives can favor different fitted settings; show both rather than selecting a temperature score as evidence of correct flow. [MS01: Chapter 6, answers to the research questions]
+\item A lower temperature error can coexist with incorrect allocation of cooler and junction heat removal. Carry local energy budgets alongside temperature agreement. [MS01: Chapter 5; figure-manifest F09]
+\item Preserve the sensor policy: the primary wall aggregate omits TW4--TW6 and unmatched TW10; restoring TW4--TW6 changes the earlier models' grades. Do not describe the omitted sensors as invalid. [MS01: claim provenance; final revision summary]
+\item Use hydraulic/thermal development and observation meaning to choose candidate repairs; a fitted residual loss or resistance is not automatically a measured hardware property. [MS01: Chapters 5--6; Review A Sections 4--7]
+\item The tested two-stream heat exchange did not improve temperatures, and the fixed-inlet alternative violated mixing. Recirculation in TAMU motivates a bounded question; it does not establish ACU/VCU recirculation or a transferable coefficient. [MS01: Chapter 6]
+\item PhD step beyond this work: assess a reproducible reduction/closure/observation procedure using qualified experiment and CFD evidence, with uncertainty and unused assessment conditions. Reproducing a temperature trace is an initial demonstration; an additional method benefit or supported limit is the research contribution. [Review B Sections 7, 10--11]
+\end{itemize}
+
+\subsection{TRIDENT 1D groundwork and evidence status}
+\begin{itemize}[leftmargin=*]
+\item Use the model-introduction note to explain segmented fluid/pipe/optional insulation states, zero/prescribed/coupled steady flow and conservation outputs. Its synthetic examples establish numerical behavior, not facility prediction. [N09]
+\item A saved October 20 modeling-project copy supplies dated research records; it is not asserted to be the newest executable checkout. No code-location decision is required to organize this outline. [R01--R05; AD-20261102-01]
+\item CAL-008 ambient-only comparisons, CAL-009 startup assumptions and CAL-010 startup-conditioned model comparisons are prior research groundwork. Preserve their supplied initial/boundary information and mixed results. [R03--R05]
+\end{itemize}
+
+\subsection{Next feasibility demonstration: understand data and reproduce temperatures}
+\begin{itemize}[leftmargin=*]
+\item Assemble a documented case: facility/configuration, timestamps, units, channel map, calibration, heating/cooling/ambient history and known data gaps. Use Nick's plan and existing notes to define the evidence needed; do not assume a new run exists. [N03--N08; Review A Section 15]
+\item For each temperature, state whether it is a primary-fluid probe, wall/contact sensor or fiber measurement and specify the corresponding model observation. Separate measured values, averaged values and inferred bulk states. [Review A Section 5]\cite{jcgm2020measurementmodels}
+\item First reproduce an accepted development case using declared inputs and fitted quantities; report per-sensor residuals, spatial patterns, energy closure and uncertainty. Call this reproduction or calibration when target data inform the model.
+\item Then freeze those choices and compare against a separate eligible condition when available. Identify whether assessment information was previously inspected; avoid relabeling retrospective cases as blind. [Review A Sections 10--11]
+\item Show what the temperature comparison teaches about boundary conditions, loss paths and observation mapping. A CFD-conditioned map, measured-startup trajectory and autonomous forward prediction receive separate labels and scores.
+\item Fill later: selected experiment, controlling data location and eligible assessment cases. Keep transition/operator stages visible; this answer defines the immediate feasibility emphasis, not their final minimum scope. [AD-20261102-02]
+\end{itemize}
+
+\subsection{Later HPC studies and what they add to readiness}
+\begin{itemize}[leftmargin=*]
+\item Use the maintained important-report index and the newer saved checkpoint to locate the strongest existing demonstration. [HC01/HC11/HC16]
+\begin{itemize}
+\item The saved reports include later VCU run-condition/steady-window, boundary, regional-resistance and downcomer comparisons beyond CAL-008--010. Their assumptions and supplied temperature/boundary inputs must accompany any figure selected.
+\item The local researcher cataloged report metadata and read selected source sections; this does not certify every result or establish the live HPC state. The written HPC request asks for the best existing reproduction and eligibility evidence.
+\end{itemize}
+\item Use the isolated TAMU developing-profile work as a mechanism/reduction benchmark with explicit transfer limits. [HC06--HC08]
+\begin{itemize}
+\item The reconstruction/manual and applicability report motivate distinctions among transported temperature, area-density/buoyancy and probe observations, and separate thermal/hydraulic ownership.
+\item The October26 batch-study decision establishes bounded authorization, not completion or accepted ACU/VCU coefficients. Obtain the later receipt/report before presenting its outcomes.
+\end{itemize}
+\end{itemize}

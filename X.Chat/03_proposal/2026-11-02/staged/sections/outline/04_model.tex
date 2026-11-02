@@ -1,0 +1,42 @@
+% Bullet-only intermediate outline; author review pending.
+\section{The Custom 1D Model and Observation Mapping}
+\noindent\small Source labels: \href{run:doc_support/reconciliation/2026-11-02/SOURCES.md}{reconciliation source map}; \href{run:doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md}{figure pointers}.\normalsize
+
+\subsection{Starting representation}
+\begin{itemize}[leftmargin=*]
+\item Divide the loop into axial cells with fluid, pipe and optional insulation temperatures; declare heater, cooler, ambient and axial/radial heat paths. [N09; N10]
+\item Explain M0 radial diagnostic, M1 stagnant segmented loop, M2 prescribed signed-flow transport, and M3 coupled buoyancy/resistance root. These are distinct from the empirical reduced-zone response family. [N09]
+\item Fill: minimal equations, sign conventions, property choices and conservation ledger; identify source derivation and implementation location. Do not rederive all background theory. [G01: Theory motivation]
+\item Use stored energy and signed enthalpy fluxes as the starting balance; evaluate each shared transfer once with opposite signs for adjacent volumes. Define state, units, positive loop direction and property temperature before presenting the reduced equations. [Review A Section 2, EQ-01--03]
+\item For temperature-dependent heat capacity, use an enthalpy difference obtained by integrating $c_p(T)$; distinguish fluid, pipe and optional insulation storage. A steady M3 algebraic circulation balance does not itself provide transient inertia. [Review A Sections 2--3]
+\end{itemize}
+
+\subsection{Closures and observation operators}
+\begin{itemize}[leftmargin=*]
+\item Start from attempted master closures, then characterize hydraulic/thermal development before choosing transfer-law descriptors. Keep closure selection separate from sensor mapping. [October 14 directions; literature A Sections 4, 13--14]
+\item Compare bulk enthalpy, centerline/radial/angular fluid temperature and wall/contact sensor responses according to their distinct meanings. [G01: Proposed methodology; literature A Section 5]
+\item Treat simple local-to-average ratios as historical candidates; test conditioning and conservation before adopting a universal mapping. [G01 indices 8879--8950, 10284--10431; literature A Section 14]
+\item Write the observation model schematically as $y_k=H_k(x,u,\theta)+b_k+\varepsilon_k$: location/footprint and contact or filtering belong in $H_k$, shared calibration in $b_k$, and residual variation in $\varepsilon_k$. Choose those terms from evidence rather than inventing independent noise. [Review A Section 5]\cite{jcgm2020measurementmodels}
+\item If a proposed profile descriptor requires contemporaneous CFD or measured primary temperature, classify that result as conditional reconstruction. An autonomous forward closure must obtain its descriptors from the retained state and allowed inputs. [Review A Sections 1, 14]
+\end{itemize}
+
+\subsection{Use-time information}
+\begin{itemize}[leftmargin=*]
+\item Steady forward prediction: prescribed operating inputs and qualified configuration predict withheld primary outputs.
+\item Startup-conditioned trajectories may use measured initial temperatures and supplied later ambient; label that information and do not call it an autonomous forecast. [R04--R05]
+\item CFD-conditioned reconstruction, full-forward ROM prediction and later sensor-updated estimation need separate contracts and scores. [literature A Sections 1, 11]
+\end{itemize}
+
+\subsection{Reproducible inputs and numerical choices}
+\begin{itemize}[leftmargin=*]
+\item Explain the model end to end using its resolved configuration and ledgers, as requested in the earlier Moser discussion. [GP10--GP11; HC05; Review A Section 12]
+\begin{itemize}
+\item Declare geometry units, state order, property basis, source assignment, cooler form, axial/radial discretization and observation locations.
+\item Record defaults and overrides, refinement, nonlinear tolerances and root-selection outcomes. Numerical parameters belong to verification/sensitivity, not physical calibration.
+\end{itemize}
+\item Keep the three temperature roles explicit when evaluating developing-profile additions. [GP12--GP13; HC06--HC07; Review A Sections 5, 14]
+\begin{itemize}
+\item Transported enthalpy, area-density/buoyancy and local probe response need not share one temperature; test whether a low-order profile or covariance relation materially changes the target.
+\item Historical local/mean temperature or pressure ratios are candidates; test reference dependence, small denominators and flux preservation before adopting them. Do not transfer TAMU coefficients or sensor meanings automatically.
+\end{itemize}
+\end{itemize}

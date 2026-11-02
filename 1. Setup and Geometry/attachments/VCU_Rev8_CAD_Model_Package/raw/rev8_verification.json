@@ -1,0 +1,68 @@
+{
+  "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+  "sha256_matches": true,
+  "method": "Independent STEP reload; project boundary vertices onto each long main-pipe cylinder axis, compare with analytical V bounds",
+  "checks": [
+    {
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45",
+      "face": 3,
+      "vertex_projection_endpoint_error_mm": 9.094947017729282e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45",
+      "face": 5,
+      "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45",
+      "face": 6,
+      "vertex_projection_endpoint_error_mm": 4.687428401686771e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45",
+      "face": 9,
+      "vertex_projection_endpoint_error_mm": 0.0
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45",
+      "face": 11,
+      "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45",
+      "face": 12,
+      "vertex_projection_endpoint_error_mm": 4.687428401686771e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45",
+      "face": 3,
+      "vertex_projection_endpoint_error_mm": 2.3437142008433856e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45",
+      "face": 5,
+      "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45",
+      "face": 6,
+      "vertex_projection_endpoint_error_mm": 0.0
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45",
+      "face": 9,
+      "vertex_projection_endpoint_error_mm": 2.3437142008433856e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45",
+      "face": 11,
+      "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45",
+      "face": 12,
+      "vertex_projection_endpoint_error_mm": 0.0
+    }
+  ],
+  "max_endpoint_error_mm": 9.094947017729282e-13
+}

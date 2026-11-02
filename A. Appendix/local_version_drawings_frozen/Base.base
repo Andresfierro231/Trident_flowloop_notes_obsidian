@@ -1,0 +1,11 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Andres_Obsidian_Notes_Box/FlowLoop_Notes/local_version_drawings_frozen")
+  - type: table
+    name: descript
+    order:
+      - file.name
+      - file.ctime

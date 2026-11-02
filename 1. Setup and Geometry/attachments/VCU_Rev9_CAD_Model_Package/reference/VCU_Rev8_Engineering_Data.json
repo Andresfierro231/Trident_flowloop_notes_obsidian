@@ -1,0 +1,6001 @@
+{
+  "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+  "source_sha256": "c40a7e6ce597a35cdaa9d7358835b242df408750b021385c1653d02a0871bf1e",
+  "extraction_date": "2026-09-26",
+  "units": "mm",
+  "CAD_unit_conversion": "STEP declares INCH; OCCT system length unit is millimetres",
+  "coordinate_frame": {
+    "origin_CAD_xyz_mm": [
+      629.8066323905703,
+      852.1241951408306,
+      3306.139984197984
+    ],
+    "origin_tag": "B",
+    "x": "origin_CAD_Z - CAD_Z",
+    "y": "CAD_Y - origin_CAD_Y",
+    "n": "CAD_X - origin_CAD_X",
+    "n_note": "n is out of plane and must be retained for 3D models"
+  },
+  "corner_definition": "Two straight-axis endpoints per rounded corner, not a single sharp vertex. C,D,G,H are axial limits of trimmed cylinder faces.",
+  "corner_points": [
+    {
+      "tag": "B",
+      "CAD_xyz_mm": [
+        629.8066323905703,
+        852.1241951408306,
+        3306.139984197984
+      ],
+      "local_xyz_mm": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "definition": "Straight-cylinder endpoint coincident with exact torus centerline tangent"
+    },
+    {
+      "tag": "C",
+      "CAD_xyz_mm": [
+        629.8066323905703,
+        2287.500239466807,
+        3306.139984197984
+      ],
+      "local_xyz_mm": [
+        -0.0,
+        1435.3760443259766,
+        0.0
+      ],
+      "definition": "Straight-cylinder axial limit at spline transition"
+    },
+    {
+      "tag": "D",
+      "CAD_xyz_mm": [
+        629.8066323905703,
+        2363.672809605065,
+        3252.318749981442
+      ],
+      "local_xyz_mm": [
+        53.82123421654205,
+        1511.5486144642346,
+        0.0
+      ],
+      "definition": "Straight-cylinder axial limit at spline transition"
+    },
+    {
+      "tag": "E",
+      "CAD_xyz_mm": [
+        630.0784032149418,
+        2097.522266235054,
+        1742.904148333889
+      ],
+      "local_xyz_mm": [
+        1563.2358358640952,
+        1245.3980710942233,
+        0.2717708243715151
+      ],
+      "definition": "Straight-cylinder endpoint coincident with exact torus centerline tangent"
+    },
+    {
+      "tag": "F",
+      "CAD_xyz_mm": [
+        630.0674397443526,
+        2022.4799163954574,
+        1679.9361393063734
+      ],
+      "local_xyz_mm": [
+        1626.2038448916107,
+        1170.3557212546268,
+        0.26080735378229747
+      ],
+      "definition": "Straight-cylinder endpoint coincident with exact torus centerline tangent"
+    },
+    {
+      "tag": "G",
+      "CAD_xyz_mm": [
+        629.8213206841004,
+        587.103893170081,
+        1679.9361355857804
+      ],
+      "local_xyz_mm": [
+        1626.2038486122037,
+        -265.02030197074953,
+        0.014688293530184637
+      ],
+      "definition": "Straight-cylinder axial limit at spline transition"
+    },
+    {
+      "tag": "H",
+      "CAD_xyz_mm": [
+        629.8066323905695,
+        510.93132429109966,
+        1733.7573695802791
+      ],
+      "local_xyz_mm": [
+        1572.382614617705,
+        -341.1928708497309,
+        -7.958078640513122e-13
+      ],
+      "definition": "Straight-cylinder axial limit at spline transition"
+    },
+    {
+      "tag": "A",
+      "CAD_xyz_mm": [
+        629.8066323905703,
+        777.0818443612998,
+        3243.1719753362036
+      ],
+      "local_xyz_mm": [
+        62.96800886178062,
+        -75.0423507795308,
+        0.0
+      ],
+      "definition": "Straight-cylinder endpoint coincident with exact torus centerline tangent"
+    }
+  ],
+  "segments": [
+    {
+      "revision": "rev8",
+      "segment": "heater",
+      "from_tag": "H",
+      "to_tag": "A",
+      "start_CAD_X_mm": 629.8066323905695,
+      "start_CAD_Y_mm": 510.93132429109966,
+      "start_CAD_Z_mm": 1733.7573695802791,
+      "end_CAD_X_mm": 629.8066323905703,
+      "end_CAD_Y_mm": 777.0818443612998,
+      "end_CAD_Z_mm": 3243.1719753362036,
+      "delta_CAD_X_mm": 7.958078640513122e-13,
+      "delta_CAD_Y_mm": 266.1505200702001,
+      "delta_CAD_Z_mm": 1509.4146057559244,
+      "dx_mm": -1509.4146057559244,
+      "dy_mm": 266.1505200702001,
+      "dz_normal_mm": 7.958078640513122e-13,
+      "vertical_span_mm": 266.1505200702001,
+      "horizontal_span_mm": 1509.4146057559244,
+      "chord_mm": 1532.699759053596,
+      "centerline_length_mm": 1532.6997590535902,
+      "axis_joint_gap_mm": 8.914817008242309e-12,
+      "bend_radius_mm": null,
+      "bend_angle_deg": null,
+      "length_basis": "sum of unique cylindrical-axis lengths",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "cad_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face6; UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face12; UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face3; UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face9"
+    },
+    {
+      "revision": "rev8",
+      "segment": "lower_left_bend",
+      "from_tag": "A",
+      "to_tag": "B",
+      "start_CAD_X_mm": 629.8066323905703,
+      "start_CAD_Y_mm": 777.0818443612998,
+      "start_CAD_Z_mm": 3243.1719753362036,
+      "end_CAD_X_mm": 629.8066323905703,
+      "end_CAD_Y_mm": 852.1241951408306,
+      "end_CAD_Z_mm": 3306.139984197984,
+      "delta_CAD_X_mm": 0.0,
+      "delta_CAD_Y_mm": 75.0423507795308,
+      "delta_CAD_Z_mm": 62.96800886178062,
+      "dx_mm": -62.96800886178062,
+      "dy_mm": 75.0423507795308,
+      "dz_normal_mm": 0.0,
+      "vertical_span_mm": 75.0423507795308,
+      "horizontal_span_mm": 62.96800886178062,
+      "chord_mm": 97.96083171622946,
+      "centerline_length_mm": 106.39527120157483,
+      "axis_joint_gap_mm": 0.0,
+      "bend_radius_mm": 76.19999999999996,
+      "bend_angle_deg": 80.00000000000041,
+      "length_basis": "exact torus centerline arc",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "cad_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face1"
+    },
+    {
+      "revision": "rev8",
+      "segment": "upcomer",
+      "from_tag": "B",
+      "to_tag": "C",
+      "start_CAD_X_mm": 629.8066323905703,
+      "start_CAD_Y_mm": 852.1241951408306,
+      "start_CAD_Z_mm": 3306.139984197984,
+      "end_CAD_X_mm": 629.8066323905703,
+      "end_CAD_Y_mm": 2287.500239466807,
+      "end_CAD_Z_mm": 3306.139984197984,
+      "delta_CAD_X_mm": 0.0,
+      "delta_CAD_Y_mm": 1435.3760443259766,
+      "delta_CAD_Z_mm": 0.0,
+      "dx_mm": -0.0,
+      "dy_mm": 1435.3760443259766,
+      "dz_normal_mm": 0.0,
+      "vertical_span_mm": 1435.3760443259766,
+      "horizontal_span_mm": 0.0,
+      "chord_mm": 1435.3760443259766,
+      "centerline_length_mm": 1435.3760443259766,
+      "axis_joint_gap_mm": 0.0,
+      "bend_radius_mm": null,
+      "bend_angle_deg": null,
+      "length_basis": "straight centerline",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "cad_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face5; UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face11"
+    },
+    {
+      "revision": "rev8",
+      "segment": "upper_left_bend",
+      "from_tag": "C",
+      "to_tag": "D",
+      "start_CAD_X_mm": 629.8066323905703,
+      "start_CAD_Y_mm": 2287.500239466807,
+      "start_CAD_Z_mm": 3306.139984197984,
+      "end_CAD_X_mm": 629.8066323905703,
+      "end_CAD_Y_mm": 2363.672809605065,
+      "end_CAD_Z_mm": 3252.318749981442,
+      "delta_CAD_X_mm": 0.0,
+      "delta_CAD_Y_mm": 76.17257013825792,
+      "delta_CAD_Z_mm": -53.82123421654205,
+      "dx_mm": 53.82123421654205,
+      "dy_mm": 76.17257013825792,
+      "dz_normal_mm": 0.0,
+      "vertical_span_mm": 76.17257013825792,
+      "horizontal_span_mm": 53.82123421654205,
+      "chord_mm": 93.2683531218371,
+      "centerline_length_mm": null,
+      "axis_joint_gap_mm": 0.0,
+      "bend_radius_mm": null,
+      "bend_angle_deg": null,
+      "length_basis": "endpoint chord only; exact centerline arc not established",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "cad_faces": "",
+      "recovered_spine_length_mm": 99.57828501693332,
+      "spine_endpoint_residuals_mm": [
+        0.0086235065498786,
+        1.0310129428751686
+      ],
+      "recovered_length_is_exact_hydraulic_length": false
+    },
+    {
+      "revision": "rev8",
+      "segment": "cooler",
+      "from_tag": "D",
+      "to_tag": "E",
+      "start_CAD_X_mm": 629.8066323905703,
+      "start_CAD_Y_mm": 2363.672809605065,
+      "start_CAD_Z_mm": 3252.318749981442,
+      "end_CAD_X_mm": 630.0784032149418,
+      "end_CAD_Y_mm": 2097.522266235054,
+      "end_CAD_Z_mm": 1742.904148333889,
+      "delta_CAD_X_mm": 0.2717708243715151,
+      "delta_CAD_Y_mm": -266.1505433700113,
+      "delta_CAD_Z_mm": -1509.4146016475531,
+      "dx_mm": 1509.4146016475531,
+      "dy_mm": -266.1505433700113,
+      "dz_normal_mm": 0.2717708243715151,
+      "vertical_span_mm": 266.1505433700113,
+      "horizontal_span_mm": 1509.4146016475531,
+      "chord_mm": 1532.6997831481463,
+      "centerline_length_mm": 1532.6997590535902,
+      "axis_joint_gap_mm": 0.2717708254013537,
+      "bend_radius_mm": null,
+      "bend_angle_deg": null,
+      "length_basis": "sum of unique cylindrical-axis lengths; offset joint retained, no healing",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "cad_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face3; UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face9; UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face6; UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face12"
+    },
+    {
+      "revision": "rev8",
+      "segment": "upper_right_bend",
+      "from_tag": "E",
+      "to_tag": "F",
+      "start_CAD_X_mm": 630.0784032149418,
+      "start_CAD_Y_mm": 2097.522266235054,
+      "start_CAD_Z_mm": 1742.904148333889,
+      "end_CAD_X_mm": 630.0674397443526,
+      "end_CAD_Y_mm": 2022.4799163954574,
+      "end_CAD_Z_mm": 1679.9361393063734,
+      "delta_CAD_X_mm": -0.01096347058921765,
+      "delta_CAD_Y_mm": -75.04234983959645,
+      "delta_CAD_Z_mm": -62.96800902751556,
+      "dx_mm": 62.96800902751556,
+      "dy_mm": -75.04234983959645,
+      "dz_normal_mm": -0.01096347058921765,
+      "vertical_span_mm": 75.04234983959645,
+      "horizontal_span_mm": 62.96800902751556,
+      "chord_mm": 97.96083171622907,
+      "centerline_length_mm": 106.39527120157483,
+      "axis_joint_gap_mm": 0.0,
+      "bend_radius_mm": 76.19999999999996,
+      "bend_angle_deg": 80.00000000000041,
+      "length_basis": "exact torus centerline arc",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "cad_faces": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face1"
+    },
+    {
+      "revision": "rev8",
+      "segment": "downcomer",
+      "from_tag": "F",
+      "to_tag": "G",
+      "start_CAD_X_mm": 630.0674397443526,
+      "start_CAD_Y_mm": 2022.4799163954574,
+      "start_CAD_Z_mm": 1679.9361393063734,
+      "end_CAD_X_mm": 629.8213206841004,
+      "end_CAD_Y_mm": 587.103893170081,
+      "end_CAD_Z_mm": 1679.9361355857804,
+      "delta_CAD_X_mm": -0.24611906025211283,
+      "delta_CAD_Y_mm": -1435.3760232253762,
+      "delta_CAD_Z_mm": -3.7205929857009323e-06,
+      "dx_mm": 3.7205929857009323e-06,
+      "dy_mm": -1435.3760232253762,
+      "dz_normal_mm": -0.24611906025211283,
+      "vertical_span_mm": 1435.3760232253762,
+      "horizontal_span_mm": 3.7205929857009323e-06,
+      "chord_mm": 1435.3760443259764,
+      "centerline_length_mm": 1435.3760443259764,
+      "axis_joint_gap_mm": 0.0,
+      "bend_radius_mm": null,
+      "bend_angle_deg": null,
+      "length_basis": "straight centerline",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "cad_faces": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face5; UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face11"
+    },
+    {
+      "revision": "rev8",
+      "segment": "lower_right_bend",
+      "from_tag": "G",
+      "to_tag": "H",
+      "start_CAD_X_mm": 629.8213206841004,
+      "start_CAD_Y_mm": 587.103893170081,
+      "start_CAD_Z_mm": 1679.9361355857804,
+      "end_CAD_X_mm": 629.8066323905695,
+      "end_CAD_Y_mm": 510.93132429109966,
+      "end_CAD_Z_mm": 1733.7573695802791,
+      "delta_CAD_X_mm": -0.014688293530980445,
+      "delta_CAD_Y_mm": -76.1725688789814,
+      "delta_CAD_Z_mm": 53.8212339944987,
+      "dx_mm": -53.8212339944987,
+      "dy_mm": -76.1725688789814,
+      "dz_normal_mm": -0.014688293530980445,
+      "vertical_span_mm": 76.1725688789814,
+      "horizontal_span_mm": 53.8212339944987,
+      "chord_mm": 93.26835312183717,
+      "centerline_length_mm": null,
+      "axis_joint_gap_mm": 0.0,
+      "bend_radius_mm": null,
+      "bend_angle_deg": null,
+      "length_basis": "endpoint chord only; exact centerline arc not established",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "cad_faces": "",
+      "recovered_spine_length_mm": 99.57828500736201,
+      "spine_endpoint_residuals_mm": [
+        0.008623506549804169,
+        1.0310129428751538
+      ],
+      "recovered_length_is_exact_hydraulic_length": false
+    }
+  ],
+  "virtual_corners_local_xy_mm": {
+    "VLL": [
+      0.0,
+      -63.93939189570915
+    ],
+    "VUL": [
+      0.0,
+      1521.0387510482728
+    ],
+    "VUR": [
+      1626.2038447258756,
+      1234.2951112081869
+    ],
+    "VLR": [
+      1626.2038488342473,
+      -350.6830065771369
+    ]
+  },
+  "virtual_corner_spans": [
+    {
+      "leg": "upcomer",
+      "from": "VLL",
+      "to": "VUL",
+      "dx_mm": 0.0,
+      "dy_mm": 1584.978142943982,
+      "projected_axis_intersection_length_mm": 1584.978142943982,
+      "basis": "Virtual sharp-corner intersections in drawing plane; not developed physical pipe length"
+    },
+    {
+      "leg": "cooler",
+      "from": "VUL",
+      "to": "VUR",
+      "dx_mm": 1626.2038447258756,
+      "dy_mm": -286.74363984008596,
+      "projected_axis_intersection_length_mm": 1651.290664780117,
+      "basis": "Virtual sharp-corner intersections in drawing plane; not developed physical pipe length"
+    },
+    {
+      "leg": "downcomer",
+      "from": "VUR",
+      "to": "VLR",
+      "dx_mm": 4.108371740585426e-06,
+      "dy_mm": -1584.9781177853238,
+      "projected_axis_intersection_length_mm": 1584.9781177853238,
+      "basis": "Virtual sharp-corner intersections in drawing plane; not developed physical pipe length"
+    },
+    {
+      "leg": "heater",
+      "from": "VLR",
+      "to": "VLL",
+      "dx_mm": -1626.2038488342473,
+      "dy_mm": 286.74361468142774,
+      "projected_axis_intersection_length_mm": 1651.290664457318,
+      "basis": "Virtual sharp-corner intersections in drawing plane; not developed physical pipe length"
+    }
+  ],
+  "jacket": {
+    "shell_start_xyz_mm": [
+      629.8066323905705,
+      2315.4114943406494,
+      2978.6152301315165
+    ],
+    "shell_end_xyz_mm": [
+      629.8066323905703,
+      2138.709279349006,
+      1976.4871707632058
+    ],
+    "outer_start_xyz_mm": [
+      629.8066323905705,
+      2316.5141602688345,
+      2984.868759363144
+    ],
+    "outer_end_xyz_mm": [
+      629.8066323905703,
+      2137.606613420821,
+      1970.233641531578
+    ],
+    "flow_direction": [
+      -2.2344385661501554e-16,
+      -0.17364817766692636,
+      -0.9848077530122088
+    ],
+    "pre_mm": 271.5758378224127,
+    "shell_mm": 1017.5874999999996,
+    "complete_mm": 1030.2874999999997,
+    "post_mm": 230.8364212311974,
+    "shell_Ro_mm": 44.45000000000001,
+    "shell_Ri_mm": 38.9636,
+    "end_plates": [
+      {
+        "path": "UTDTloopWithOpticsAndHXRev8/NAUO6/NAUO41",
+        "min": -6.349999999999867,
+        "max": 3.548349835823582e-13,
+        "thickness": 6.350000000000223
+      },
+      {
+        "path": "UTDTloopWithOpticsAndHXRev8/NAUO6/NAUO42",
+        "min": 1017.5874999999995,
+        "max": 1023.9374999999998,
+        "thickness": 6.35000000000025
+      }
+    ],
+    "source_path": "UTDTloopWithOpticsAndHXRev8/NAUO6/NAUO40",
+    "endplate_hole_radius_mm": 16.827499999999997
+  },
+  "ports": [
+    {
+      "id": "PORT-A",
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO6/NAUO43",
+      "inner_radius_mm": 13.322299999999988,
+      "outer_land_radius_mm": 16.70049999999999,
+      "axis_start_xyz_mm": [
+        630.1286246781107,
+        2347.2922983610442,
+        2921.4101123322466
+      ],
+      "axis_end_xyz_mm": [
+        630.524383230392,
+        2397.319014028149,
+        2912.589052603905
+      ],
+      "bore_axis_length_mm": 50.800000000000175,
+      "axis_crossing_on_cooler_xyz_mm": [
+        629.8066323905705,
+        2306.5901669151694,
+        2928.5869962784964
+      ],
+      "axis_skew_mm": 5.084229945850415e-13,
+      "station_from_D_mm": 328.7258378224124,
+      "station_from_complete_jacket_start_mm": 57.14999999999969
+    },
+    {
+      "id": "PORT-B",
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO6/NAUO44",
+      "inner_radius_mm": 13.322299999999988,
+      "outer_land_radius_mm": 16.70049999999999,
+      "axis_start_xyz_mm": [
+        629.5383915368369,
+        2113.8987080436887,
+        2034.0576055212878
+      ],
+      "axis_end_xyz_mm": [
+        629.1426329845556,
+        2063.871992376584,
+        2042.878665249629
+      ],
+      "bore_axis_length_mm": 50.80000000000013,
+      "axis_crossing_on_cooler_xyz_mm": [
+        629.8066323905703,
+        2147.8062732565318,
+        2028.0787869241317
+      ],
+      "axis_skew_mm": 2.2737367544323206e-13,
+      "station_from_D_mm": 1243.1258378224134,
+      "station_from_complete_jacket_start_mm": 971.5500000000006
+    }
+  ],
+  "auxiliary_axes": [
+    {
+      "component": "TLEP",
+      "start_xyz_mm": [
+        629.8066323905705,
+        2366.3183443443695,
+        3234.247003220955
+      ],
+      "end_xyz_mm": [
+        629.8066323905705,
+        2836.2183443443696,
+        3234.247003220955
+      ],
+      "length_mm": 469.9000000000001,
+      "source_path": "UTDTloopWithOpticsAndHXRev8/NAUO3",
+      "outer_radius_mm": 16.700499999999998,
+      "inner_radius_mm": 13.461999999999998,
+      "reference_corner": "D",
+      "start_delta_from_corner_local_mm": [
+        18.071746760487258,
+        2.6455347393043667,
+        2.2737367544323206e-13
+      ]
+    },
+    {
+      "component": "expansion_tank",
+      "start_xyz_mm": [
+        629.8066323905703,
+        2835.9643443443697,
+        3234.2470032209544
+      ],
+      "end_xyz_mm": [
+        629.8066323905703,
+        3147.11434434437,
+        3234.2470032209544
+      ],
+      "length_mm": 311.1500000000001,
+      "source_path": "UTDTloopWithOpticsAndHXRev8/NAUO4",
+      "outer_radius_mm": 101.6,
+      "inner_radius_mm": 99.04689114405232,
+      "reference_corner": null,
+      "start_delta_from_corner_local_mm": null
+    },
+    {
+      "component": "BREP",
+      "start_xyz_mm": [
+        629.8068631302724,
+        515.4635438464755,
+        1751.8291163442523
+      ],
+      "end_xyz_mm": [
+        629.72629097159,
+        45.56355075419293,
+        1751.8291151262395
+      ],
+      "length_mm": 469.90000000000003,
+      "source_path": "UTDTloopWithOpticsAndHXRev8/NAUO5",
+      "outer_radius_mm": 16.700499999999998,
+      "inner_radius_mm": 13.461999999999998,
+      "reference_corner": "H",
+      "start_delta_from_corner_local_mm": [
+        -18.071746763973124,
+        4.532219555375889,
+        0.00023073970294262836
+      ]
+    }
+  ],
+  "diameters": [
+    {
+      "item": "Main swept loop",
+      "outer_radius_mm": 16.7005,
+      "inner_radius_mm": null,
+      "outer_diameter_mm": 33.401,
+      "inner_diameter_mm": null,
+      "wall_thickness_mm": null,
+      "source_path": "NAUO1/NAUO45; NAUO2/NAUO45",
+      "faces": "3,5,6,9,11,12",
+      "note": "Export models solid pipe envelope. Main bore is not encoded; do not infer it from exit tubes or sensor spools.",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP"
+    },
+    {
+      "item": "TLEP / BREP",
+      "outer_radius_mm": 16.700499999999998,
+      "inner_radius_mm": 13.461999999999998,
+      "outer_diameter_mm": 33.400999999999996,
+      "inner_diameter_mm": 26.923999999999996,
+      "wall_thickness_mm": 3.2385,
+      "source_path": "NAUO3; NAUO5",
+      "faces": "2 outer; 1 inner",
+      "note": "Annular exit tube cylinders",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP"
+    },
+    {
+      "item": "Cooling jacket shell",
+      "outer_radius_mm": 44.45000000000001,
+      "inner_radius_mm": 38.9636,
+      "outer_diameter_mm": 88.90000000000002,
+      "inner_diameter_mm": 77.9272,
+      "wall_thickness_mm": 5.48640000000001,
+      "source_path": "NAUO6/NAUO40",
+      "faces": "4 outer; 3 inner",
+      "note": "Full cylindrical shell span",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP"
+    },
+    {
+      "item": "Jacket end plates",
+      "outer_radius_mm": 44.45,
+      "inner_radius_mm": 16.827499999999997,
+      "outer_diameter_mm": 88.9,
+      "inner_diameter_mm": 33.654999999999994,
+      "wall_thickness_mm": 27.622500000000006,
+      "source_path": "NAUO6/NAUO41; NAUO42",
+      "faces": "2 outer; 1 hole",
+      "note": "Each plate 6.350 mm axial thickness; Ri is through-hole radius",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP"
+    },
+    {
+      "item": "Jacket port nipples",
+      "outer_radius_mm": 16.70049999999999,
+      "inner_radius_mm": 13.322299999999988,
+      "outer_diameter_mm": 33.40099999999998,
+      "inner_diameter_mm": 26.644599999999976,
+      "wall_thickness_mm": 3.378200000000003,
+      "source_path": "NAUO6/NAUO43; NAUO44",
+      "faces": "1 outer land; 27 bore",
+      "note": "Outer value is cylindrical land; thread geometry is not summarized by this diameter",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP"
+    },
+    {
+      "item": "LF / combined LF-PTC spools",
+      "outer_radius_mm": 16.7005,
+      "inner_radius_mm": 13.3223,
+      "outer_diameter_mm": 33.401,
+      "inner_diameter_mm": 26.6446,
+      "wall_thickness_mm": 3.3782000000000014,
+      "source_path": "NAUO1/NAUO46/NAUO47; NAUO7/NAUO31",
+      "faces": "2/1; 5/4",
+      "note": "Local instrument spools only; 101.600 mm length",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP"
+    },
+    {
+      "item": "PTC / JTC mounting spools",
+      "outer_radius_mm": 16.764,
+      "inner_radius_mm": 12.7,
+      "outer_diameter_mm": 33.528,
+      "inner_diameter_mm": 25.4,
+      "wall_thickness_mm": 4.064,
+      "source_path": "NAUO9,22,23,24/NAUO28",
+      "faces": "3 outer; 2 bore",
+      "note": "Part3 mount; 76.200 mm length",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP"
+    },
+    {
+      "item": "TC sheath",
+      "outer_radius_mm": 1.5875,
+      "inner_radius_mm": null,
+      "outer_diameter_mm": 3.175,
+      "inner_diameter_mm": null,
+      "wall_thickness_mm": null,
+      "source_path": "NAUO7,8,9,22,23,24",
+      "faces": "See shaft table / JSON",
+      "note": "External modeled shaft only; sensing junction is not identified",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP"
+    },
+    {
+      "item": "Expansion tank shell",
+      "outer_radius_mm": 101.6,
+      "inner_radius_mm": 99.04689114405232,
+      "outer_diameter_mm": 203.2,
+      "inner_diameter_mm": 198.09378228810465,
+      "wall_thickness_mm": 2.55310885594767,
+      "source_path": "NAUO4",
+      "faces": "2 outer; 1 inner",
+      "note": "Outer axial span 311.150 mm; inner cylinder 310.896 mm",
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP"
+    }
+  ],
+  "exact_torus_bend_radii_mm": {
+    "centerline": 76.2,
+    "outer_tube_intrados": 59.4995,
+    "outer_tube_extrados": 92.90050000000001,
+    "note": "Envelope radii, not pipe bore radii; applies to A-B and E-F"
+  },
+  "sensors": [
+    {
+      "revision": "rev8",
+      "sensor_type": "STC",
+      "domain": "main_loop",
+      "CAD_X_mm": 646.4912372150981,
+      "CAD_Y_mm": 980.213782084134,
+      "CAD_Z_mm": 3305.411518619289,
+      "x_mm": 0.7284655786952499,
+      "height_y_mm": 128.0895869433034,
+      "normal_z_mm": 16.68460482452781,
+      "reference_basis": "Nearest point on main-pipe solid to modeled surface thermocouple",
+      "assembly_definition": "Surface_Thermocoulpes",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO13",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO13",
+      "surface_gap_mm": 1.6077746776921858e-13,
+      "distance_to_main_solid_mm": 1.6077746776921858e-13,
+      "distance_to_jacket_solid_mm": null,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "STC-02",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        646.4912372150981,
+        980.213782084134,
+        3305.411518619289
+      ],
+      "local_reference_xyz_mm": [
+        0.7284655786952499,
+        128.0895869433034,
+        16.68460482452781
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face5",
+      "main_leg_distance_is_applicable": true,
+      "segment": "upcomer",
+      "segment_start": "B",
+      "segment_end": "C",
+      "station_from_start_mm": 128.0895869433034,
+      "distance_to_end_mm": 1307.2864573826732,
+      "nearest_endpoint": "B",
+      "nearest_distance_mm": 128.0895869433034,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8066323905703,
+        980.213782084134,
+        3306.139984197984
+      ],
+      "axis_radial_offset_mm": 16.700500000000016,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO13",
+      "source_reference_path": "NAUO13",
+      "contact_solutions": [
+        {
+          "sensor_xyz_mm": [
+            646.491237215098,
+            980.2137820841341,
+            3305.411518619289
+          ],
+          "pipe_xyz_mm": [
+            646.4912372150981,
+            980.213782084134,
+            3305.411518619289
+          ],
+          "station_from_segment_start_mm": 128.0895869433034
+        },
+        {
+          "sensor_xyz_mm": [
+            646.491237215098,
+            954.813782084134,
+            3305.411518619289
+          ],
+          "pipe_xyz_mm": [
+            646.4912372150981,
+            954.8137820841339,
+            3305.411518619289
+          ],
+          "station_from_segment_start_mm": 102.68958694330331
+        }
+      ],
+      "number_contact_solutions": 2,
+      "minimum_distance_solution_station_range_mm": [
+        102.68958694330331,
+        128.0895869433034
+      ],
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "STC",
+      "domain": "main_loop",
+      "CAD_X_mm": 645.7776078824203,
+      "CAD_Y_mm": 1448.3107384170173,
+      "CAD_Z_mm": 3311.0220577419536,
+      "x_mm": -4.8820735439694545,
+      "height_y_mm": 596.1865432761867,
+      "normal_z_mm": 15.970975491850027,
+      "reference_basis": "Nearest point on main-pipe solid to modeled surface thermocouple",
+      "assembly_definition": "Surface_Thermocoulpes",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO12",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO12",
+      "surface_gap_mm": 1.1368683772161603e-13,
+      "distance_to_main_solid_mm": 1.1368683772161603e-13,
+      "distance_to_jacket_solid_mm": null,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "STC-03",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        645.7776078824203,
+        1448.3107384170173,
+        3311.0220577419536
+      ],
+      "local_reference_xyz_mm": [
+        -4.8820735439694545,
+        596.1865432761867,
+        15.970975491850027
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face5",
+      "main_leg_distance_is_applicable": true,
+      "segment": "upcomer",
+      "segment_start": "B",
+      "segment_end": "C",
+      "station_from_start_mm": 596.1865432761867,
+      "distance_to_end_mm": 839.1895010497899,
+      "nearest_endpoint": "B",
+      "nearest_distance_mm": 596.1865432761867,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8066323905703,
+        1448.3107384170173,
+        3306.139984197984
+      ],
+      "axis_radial_offset_mm": 16.700500000000023,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO12",
+      "source_reference_path": "NAUO12",
+      "contact_solutions": [
+        {
+          "sensor_xyz_mm": [
+            645.7776078824204,
+            1448.3107384170173,
+            3311.0220577419536
+          ],
+          "pipe_xyz_mm": [
+            645.7776078824203,
+            1448.3107384170173,
+            3311.0220577419536
+          ],
+          "station_from_segment_start_mm": 596.1865432761867
+        },
+        {
+          "sensor_xyz_mm": [
+            645.7776078824205,
+            1473.71427683424,
+            3311.0220577419536
+          ],
+          "pipe_xyz_mm": [
+            645.7776078824203,
+            1473.71427683424,
+            3311.0220577419536
+          ],
+          "station_from_segment_start_mm": 621.5900816934095
+        }
+      ],
+      "number_contact_solutions": 2,
+      "minimum_distance_solution_station_range_mm": [
+        596.1865432761867,
+        621.5900816934095
+      ],
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "STC",
+      "domain": "main_loop",
+      "CAD_X_mm": 646.0439554818457,
+      "CAD_Y_mm": 1849.1892825550299,
+      "CAD_Z_mm": 3308.7565748798925,
+      "x_mm": -2.616590681908292,
+      "height_y_mm": 997.0650874141993,
+      "normal_z_mm": 16.23732309127547,
+      "reference_basis": "Nearest point on main-pipe solid to modeled surface thermocouple",
+      "assembly_definition": "Surface_Thermocoulpes",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO11",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO11",
+      "surface_gap_mm": 0.0,
+      "distance_to_main_solid_mm": 0.0,
+      "distance_to_jacket_solid_mm": null,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "STC-04",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        646.0439554818457,
+        1849.1892825550299,
+        3308.7565748798925
+      ],
+      "local_reference_xyz_mm": [
+        -2.616590681908292,
+        997.0650874141993,
+        16.23732309127547
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face5",
+      "main_leg_distance_is_applicable": true,
+      "segment": "upcomer",
+      "segment_start": "B",
+      "segment_end": "C",
+      "station_from_start_mm": 997.0650874141993,
+      "distance_to_end_mm": 438.31095691177734,
+      "nearest_endpoint": "C",
+      "nearest_distance_mm": 438.31095691177734,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8066323905703,
+        1849.1892825550299,
+        3306.139984197984
+      ],
+      "axis_radial_offset_mm": 16.44679932288094,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO11",
+      "source_reference_path": "NAUO11",
+      "contact_solutions": [
+        {
+          "sensor_xyz_mm": [
+            646.0439554818457,
+            1849.1892825550299,
+            3308.7565748798925
+          ],
+          "pipe_xyz_mm": [
+            646.0439554818457,
+            1849.1892825550299,
+            3308.7565748798925
+          ],
+          "station_from_segment_start_mm": 997.0650874141993
+        }
+      ],
+      "number_contact_solutions": 1,
+      "minimum_distance_solution_station_range_mm": [
+        997.0650874141993,
+        997.0650874141993
+      ],
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "LF",
+      "domain": "main_loop",
+      "CAD_X_mm": 629.8066323905722,
+      "CAD_Y_mm": 2237.407035481292,
+      "CAD_Z_mm": 3306.1399841979696,
+      "x_mm": 1.4551915228366852e-11,
+      "height_y_mm": 1385.2828403404615,
+      "normal_z_mm": 1.9326762412674725e-12,
+      "reference_basis": "Fiber-holder mount-body centroid; not optical sensing range",
+      "assembly_definition": "Fiber_Holder",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO46",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO46/NAUO47",
+      "surface_gap_mm": null,
+      "distance_to_main_solid_mm": 0.0,
+      "distance_to_jacket_solid_mm": 321.63272986365143,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "LF-01",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        629.8066323905722,
+        2237.407035481292,
+        3306.1399841979696
+      ],
+      "local_reference_xyz_mm": [
+        1.4551915228366852e-11,
+        1385.2828403404615,
+        1.9326762412674725e-12
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face5",
+      "main_leg_distance_is_applicable": true,
+      "segment": "upcomer",
+      "segment_start": "B",
+      "segment_end": "C",
+      "station_from_start_mm": 1385.2828403404615,
+      "distance_to_end_mm": 50.093203985515174,
+      "nearest_endpoint": "C",
+      "nearest_distance_mm": 50.093203985515174,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8066323905703,
+        2237.407035481292,
+        3306.139984197984
+      ],
+      "axis_radial_offset_mm": 1.4679695986877074e-11,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO1/NAUO46",
+      "source_reference_path": "NAUO1/NAUO46/NAUO47",
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "STC",
+      "domain": "main_loop",
+      "CAD_X_mm": 646.4696778999356,
+      "CAD_Y_mm": 2304.917892453057,
+      "CAD_Z_mm": 3304.507923451353,
+      "x_mm": 1.6320607466313959,
+      "height_y_mm": 1452.7936973122264,
+      "normal_z_mm": 16.66304550936536,
+      "reference_basis": "Nearest point on main-pipe solid to modeled surface thermocouple",
+      "assembly_definition": "Surface_Thermocoulpes",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO14",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO14",
+      "surface_gap_mm": 0.0,
+      "distance_to_main_solid_mm": 0.0,
+      "distance_to_jacket_solid_mm": null,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "STC-05",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        646.4696778999356,
+        2304.917892453057,
+        3304.507923451353
+      ],
+      "local_reference_xyz_mm": [
+        1.6320607466313959,
+        1452.7936973122264,
+        16.66304550936536
+      ],
+      "station_basis": "Recovered spline spine; C* and D* are projections of C and D, not exact joined tangent nodes",
+      "main_leg_distance_is_applicable": true,
+      "segment": "upper_left_bend",
+      "segment_start": "C*",
+      "segment_end": "D*",
+      "station_from_start_mm": 17.54976641445265,
+      "distance_to_end_mm": 82.02851860248067,
+      "nearest_endpoint": "C*",
+      "nearest_distance_mm": 17.54976641445265,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8066323905703,
+        2304.94666974543,
+        3304.64923610474
+      ],
+      "axis_radial_offset_mm": 16.663669555225365,
+      "source_cad_path": "NAUO14",
+      "source_reference_path": "NAUO14",
+      "contact_solutions": [
+        {
+          "sensor_xyz_mm": [
+            646.4696778999356,
+            2304.917892453057,
+            3304.507923451353
+          ],
+          "pipe_xyz_mm": [
+            646.4696778999356,
+            2304.917892453057,
+            3304.507923451353
+          ]
+        }
+      ],
+      "number_contact_solutions": 1,
+      "minimum_distance_solution_station_range_mm": [
+        17.54976641445265,
+        17.54976641445265
+      ],
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "STC",
+      "domain": "main_loop",
+      "CAD_X_mm": 646.5047983807723,
+      "CAD_Y_mm": 2348.057584180093,
+      "CAD_Z_mm": 3162.15255540972,
+      "x_mm": 143.98742878826397,
+      "height_y_mm": 1495.9333890392622,
+      "normal_z_mm": 16.69816599020203,
+      "reference_basis": "Nearest point on main-pipe solid to modeled surface thermocouple",
+      "assembly_definition": "Surface_Thermocoulpes",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO15",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO15",
+      "surface_gap_mm": 4.547473508864641e-13,
+      "distance_to_main_solid_mm": 4.547473508864641e-13,
+      "distance_to_jacket_solid_mm": null,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "STC-06",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        646.5047983807723,
+        2348.057584180093,
+        3162.15255540972
+      ],
+      "local_reference_xyz_mm": [
+        143.98742878826397,
+        1495.9333890392622,
+        16.69816599020203
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face3",
+      "main_leg_distance_is_applicable": true,
+      "segment": "cooler",
+      "segment_start": "D",
+      "segment_end": "E",
+      "station_from_start_mm": 91.50792291274377,
+      "distance_to_end_mm": 1441.1918361408466,
+      "nearest_endpoint": "D",
+      "nearest_distance_mm": 91.50792291274377,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8066323905703,
+        2347.782625549182,
+        3162.2010380349284
+      ],
+      "axis_radial_offset_mm": 16.700499999999977,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO15",
+      "source_reference_path": "NAUO15",
+      "contact_solutions": [
+        {
+          "sensor_xyz_mm": [
+            646.5047983807723,
+            2348.057584180093,
+            3162.1525554097198
+          ],
+          "pipe_xyz_mm": [
+            646.5047983807723,
+            2348.057584180093,
+            3162.15255540972
+          ],
+          "station_from_segment_start_mm": 91.50792291274377
+        },
+        {
+          "sensor_xyz_mm": [
+            646.5047983807723,
+            2345.8179185164067,
+            3149.450780249235
+          ],
+          "pipe_xyz_mm": [
+            646.5047983807723,
+            2345.8179185164067,
+            3149.4507802492353
+          ],
+          "station_from_segment_start_mm": 104.40564342888945
+        }
+      ],
+      "number_contact_solutions": 2,
+      "minimum_distance_solution_station_range_mm": [
+        91.50792291274377,
+        104.40564342888945
+      ],
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "PTC",
+      "domain": "main_loop",
+      "CAD_X_mm": 629.7761316735784,
+      "CAD_Y_mm": 2336.324805800139,
+      "CAD_Z_mm": 3097.560409563199,
+      "x_mm": 208.57957463478533,
+      "height_y_mm": 1484.2006106593085,
+      "normal_z_mm": -0.030500716991809895,
+      "reference_basis": "TC mount-body centroid; not sensing junction",
+      "assembly_definition": "TC_No_Fiber_Holder",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO24",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO24/NAUO28",
+      "surface_gap_mm": null,
+      "distance_to_main_solid_mm": 0.0,
+      "distance_to_jacket_solid_mm": 126.87910811700706,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "PTC-01",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        629.7761316735784,
+        2336.324805800139,
+        3097.560409563199
+      ],
+      "local_reference_xyz_mm": [
+        208.57957463478533,
+        1484.2006106593085,
+        -0.030500716991809895
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face3",
+      "main_leg_distance_is_applicable": true,
+      "segment": "cooler",
+      "segment_start": "D",
+      "segment_end": "E",
+      "station_from_start_mm": 157.15614451074222,
+      "distance_to_end_mm": 1375.543614542848,
+      "nearest_endpoint": "D",
+      "nearest_distance_mm": 157.15614451074222,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8066323905703,
+        2336.3829315016146,
+        3097.550160433756
+      ],
+      "axis_radial_offset_mm": 0.06643745602726839,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO24",
+      "source_reference_path": "NAUO24/NAUO28",
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "LF",
+      "domain": "main_loop",
+      "CAD_X_mm": 630.0518595418113,
+      "CAD_Y_mm": 2116.225729892558,
+      "CAD_Z_mm": 1849.2215244431306,
+      "x_mm": 1456.9184597548535,
+      "height_y_mm": 1264.1015347517273,
+      "normal_z_mm": 0.2452271512410107,
+      "reference_basis": "Fiber-holder mount-body centroid; not optical sensing range",
+      "assembly_definition": "Fiber_Holder_30deg",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO7",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO7/NAUO31",
+      "surface_gap_mm": null,
+      "distance_to_main_solid_mm": 0.0,
+      "distance_to_jacket_solid_mm": 134.91064416177753,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "LF-03",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        630.0518595418113,
+        2116.225729892558,
+        1849.2215244431306
+      ],
+      "local_reference_xyz_mm": [
+        1456.9184597548535,
+        1264.1015347517273,
+        0.2452271512410107
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face3",
+      "main_leg_distance_is_applicable": true,
+      "segment": "cooler",
+      "segment_start": "D",
+      "segment_end": "E",
+      "station_from_start_mm": 1424.7497604011282,
+      "distance_to_end_mm": 107.949998652462,
+      "nearest_endpoint": "E",
+      "nearest_distance_mm": 107.949998652462,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8066323905703,
+        2116.2676100800195,
+        1849.2141398361243
+      ],
+      "axis_radial_offset_mm": 0.24888719980794605,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO7",
+      "source_reference_path": "NAUO7/NAUO31",
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "PTC",
+      "domain": "main_loop",
+      "CAD_X_mm": 630.0518595418113,
+      "CAD_Y_mm": 2116.225729892558,
+      "CAD_Z_mm": 1849.2215244431306,
+      "x_mm": 1456.9184597548535,
+      "height_y_mm": 1264.1015347517273,
+      "normal_z_mm": 0.2452271512410107,
+      "reference_basis": "Combined LF/PTC mount-body centroid; not sensing junction",
+      "assembly_definition": "Fiber_Holder_30deg",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO7",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO7/NAUO31",
+      "surface_gap_mm": null,
+      "distance_to_main_solid_mm": 0.0,
+      "distance_to_jacket_solid_mm": 134.91064416177753,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "PTC-03",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        630.0518595418113,
+        2116.225729892558,
+        1849.2215244431306
+      ],
+      "local_reference_xyz_mm": [
+        1456.9184597548535,
+        1264.1015347517273,
+        0.2452271512410107
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face3",
+      "main_leg_distance_is_applicable": true,
+      "segment": "cooler",
+      "segment_start": "D",
+      "segment_end": "E",
+      "station_from_start_mm": 1424.7497604011282,
+      "distance_to_end_mm": 107.949998652462,
+      "nearest_endpoint": "E",
+      "nearest_distance_mm": 107.949998652462,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8066323905703,
+        2116.2676100800195,
+        1849.2141398361243
+      ],
+      "axis_radial_offset_mm": 0.24888719980794605,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO7",
+      "source_reference_path": "NAUO7/NAUO31",
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "STC",
+      "domain": "main_loop",
+      "CAD_X_mm": 646.7776721545089,
+      "CAD_Y_mm": 2102.5343497793942,
+      "CAD_Z_mm": 1772.4968132560407,
+      "x_mm": 1533.6431709419435,
+      "height_y_mm": 1250.4101546385637,
+      "normal_z_mm": 16.97103976393862,
+      "reference_basis": "Nearest point on main-pipe solid to modeled surface thermocouple",
+      "assembly_definition": "Surface_Thermocoulpes",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO16",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO16",
+      "surface_gap_mm": 0.0,
+      "distance_to_main_solid_mm": 0.0,
+      "distance_to_jacket_solid_mm": null,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "STC-07",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        646.7776721545089,
+        2102.5343497793942,
+        1772.4968132560407
+      ],
+      "local_reference_xyz_mm": [
+        1533.6431709419435,
+        1250.4101546385637,
+        16.97103976393862
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face6",
+      "main_leg_distance_is_applicable": true,
+      "segment": "cooler",
+      "segment_start": "D",
+      "segment_end": "E",
+      "station_from_start_mm": 1502.6863340321738,
+      "distance_to_end_mm": 30.013425021416424,
+      "nearest_endpoint": "E",
+      "nearest_distance_mm": 30.013425021416424,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        630.0784032149418,
+        2102.734042795566,
+        1772.4616019894306
+      ],
+      "axis_radial_offset_mm": 16.700499999999842,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO16",
+      "source_reference_path": "NAUO16",
+      "contact_solutions": [
+        {
+          "sensor_xyz_mm": [
+            646.7776721545092,
+            2102.5343497793942,
+            1772.4968132560407
+          ],
+          "pipe_xyz_mm": [
+            646.7776721545089,
+            2102.5343497793942,
+            1772.4968132560407
+          ],
+          "station_from_segment_start_mm": 1502.6863340321738
+        },
+        {
+          "sensor_xyz_mm": [
+            646.7776721545092,
+            2104.773867518172,
+            1785.1977494926837
+          ],
+          "pipe_xyz_mm": [
+            646.7776721545089,
+            2104.773867518172,
+            1785.1977494926837
+          ],
+          "station_from_segment_start_mm": 1489.7894653816224
+        },
+        {
+          "sensor_xyz_mm": [
+            646.4884602067341,
+            2101.8305268081835,
+            1785.1959464457993
+          ],
+          "pipe_xyz_mm": [
+            646.4884602067341,
+            2101.8305268081835,
+            1785.1959464457993
+          ],
+          "station_from_segment_start_mm": 1490.3023467867158
+        },
+        {
+          "sensor_xyz_mm": [
+            646.5589215489897,
+            2107.7232825404403,
+            1785.1984814744242
+          ],
+          "pipe_xyz_mm": [
+            646.5589215489897,
+            2107.7232825404403,
+            1785.1984814744242
+          ],
+          "station_from_segment_start_mm": 1489.276583976529
+        },
+        {
+          "sensor_xyz_mm": [
+            646.4884602067335,
+            2099.59100906936,
+            1772.4950102091561
+          ],
+          "pipe_xyz_mm": [
+            646.4884602067335,
+            2099.59100906936,
+            1772.4950102091561
+          ],
+          "station_from_segment_start_mm": 1503.1992154372751
+        },
+        {
+          "sensor_xyz_mm": [
+            646.5589215489903,
+            2105.4837648017074,
+            1772.497545237781
+          ],
+          "pipe_xyz_mm": [
+            646.5589215489903,
+            2105.4837648017074,
+            1772.497545237781
+          ],
+          "station_from_segment_start_mm": 1502.1734526270727
+        }
+      ],
+      "number_contact_solutions": 6,
+      "minimum_distance_solution_station_range_mm": [
+        1489.276583976529,
+        1503.1992154372751
+      ],
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "STC",
+      "domain": "main_loop",
+      "CAD_X_mm": 646.7109361158005,
+      "CAD_Y_mm": 1870.4646046897915,
+      "CAD_Z_mm": 1678.9200612760146,
+      "x_mm": 1627.2199229219696,
+      "height_y_mm": 1018.3404095489609,
+      "normal_z_mm": 16.904303725230193,
+      "reference_basis": "Nearest point on main-pipe solid to modeled surface thermocouple",
+      "assembly_definition": "Surface_Thermocoulpes",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO17",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO17",
+      "surface_gap_mm": 0.005634271927856854,
+      "distance_to_main_solid_mm": 0.005634271927856854,
+      "distance_to_jacket_solid_mm": null,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "STC-08",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        646.7109361158005,
+        1870.4646046897915,
+        1678.9200612760146
+      ],
+      "local_reference_xyz_mm": [
+        1627.2199229219696,
+        1018.3404095489609,
+        16.904303725230193
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face5",
+      "main_leg_distance_is_applicable": true,
+      "segment": "downcomer",
+      "segment_start": "F",
+      "segment_end": "G",
+      "station_from_start_mm": 152.01245566976067,
+      "distance_to_end_mm": 1283.3635886562158,
+      "nearest_endpoint": "F",
+      "nearest_distance_mm": 152.01245566976067,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        630.0413746843399,
+        1870.4674629603405,
+        1679.9361389123467
+      ],
+      "axis_radial_offset_mm": 16.700500000000083,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO17",
+      "source_reference_path": "NAUO17",
+      "contact_solutions": [
+        {
+          "sensor_xyz_mm": [
+            646.7165599499385,
+            1870.4646037254927,
+            1678.9197184804275
+          ],
+          "pipe_xyz_mm": [
+            646.7109361158005,
+            1870.4646046897915,
+            1678.9200612760146
+          ],
+          "station_from_segment_start_mm": 152.01245566976067
+        }
+      ],
+      "number_contact_solutions": 1,
+      "minimum_distance_solution_station_range_mm": [
+        152.01245566976067,
+        152.01245566976067
+      ],
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "STC",
+      "domain": "main_loop",
+      "CAD_X_mm": 645.7039484849398,
+      "CAD_Y_mm": 1457.3576006938158,
+      "CAD_Z_mm": 1675.064875823481,
+      "x_mm": 1631.075108374503,
+      "height_y_mm": 605.2334055529852,
+      "normal_z_mm": 15.897316094369558,
+      "reference_basis": "Nearest point on main-pipe solid to modeled surface thermocouple",
+      "assembly_definition": "Surface_Thermocoulpes",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO18",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO18",
+      "surface_gap_mm": 0.0,
+      "distance_to_main_solid_mm": 0.0,
+      "distance_to_jacket_solid_mm": null,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "STC-09",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        645.7039484849398,
+        1457.3576006938158,
+        1675.064875823481
+      ],
+      "local_reference_xyz_mm": [
+        1631.075108374503,
+        605.2334055529852,
+        15.897316094369558
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face5",
+      "main_leg_distance_is_applicable": true,
+      "segment": "downcomer",
+      "segment_start": "F",
+      "segment_end": "G",
+      "station_from_start_mm": 565.119626267644,
+      "distance_to_end_mm": 870.2564180583324,
+      "nearest_endpoint": "F",
+      "nearest_distance_mm": 565.119626267644,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.9705405994234,
+        1457.3602984352972,
+        1679.9361378415447
+      ],
+      "axis_radial_offset_mm": 16.470255754494744,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO18",
+      "source_reference_path": "NAUO18",
+      "contact_solutions": [
+        {
+          "sensor_xyz_mm": [
+            645.7039484849398,
+            1457.3576006938158,
+            1675.064875823481
+          ],
+          "pipe_xyz_mm": [
+            645.7039484849398,
+            1457.3576006938158,
+            1675.064875823481
+          ],
+          "station_from_segment_start_mm": 565.119626267644
+        }
+      ],
+      "number_contact_solutions": 1,
+      "minimum_distance_solution_station_range_mm": [
+        565.119626267644,
+        565.119626267644
+      ],
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "STC",
+      "domain": "main_loop",
+      "CAD_X_mm": 646.5522082393593,
+      "CAD_Y_mm": 1001.5804512100882,
+      "CAD_Z_mm": 1681.101104666938,
+      "x_mm": 1625.0388795310462,
+      "height_y_mm": 149.45625606925762,
+      "normal_z_mm": 16.74557584878903,
+      "reference_basis": "Nearest point on main-pipe solid to modeled surface thermocouple",
+      "assembly_definition": "Surface_Thermocoulpes",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO19",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO19",
+      "surface_gap_mm": 3.410605131648481e-13,
+      "distance_to_main_solid_mm": 3.410605131648481e-13,
+      "distance_to_jacket_solid_mm": null,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "STC-10",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        646.5522082393593,
+        1001.5804512100882,
+        1681.101104666938
+      ],
+      "local_reference_xyz_mm": [
+        1625.0388795310462,
+        149.45625606925762,
+        16.74557584878903
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face5",
+      "main_leg_distance_is_applicable": true,
+      "segment": "downcomer",
+      "segment_start": "F",
+      "segment_end": "G",
+      "station_from_start_mm": 1020.8966235873975,
+      "distance_to_end_mm": 414.47942073857894,
+      "nearest_endpoint": "G",
+      "nearest_distance_mm": 414.47942073857894,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8923900640928,
+        1001.5833078156473,
+        1679.9361366601395
+      ],
+      "axis_radial_offset_mm": 16.70050000000002,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO19",
+      "source_reference_path": "NAUO19",
+      "contact_solutions": [
+        {
+          "sensor_xyz_mm": [
+            646.5522082393588,
+            1001.5804512100882,
+            1681.101104666938
+          ],
+          "pipe_xyz_mm": [
+            646.5522082393593,
+            1001.5804512100882,
+            1681.101104666938
+          ],
+          "station_from_segment_start_mm": 1020.8966235873975
+        },
+        {
+          "sensor_xyz_mm": [
+            646.5565634911799,
+            1026.9804508385143,
+            1681.1011047327765
+          ],
+          "pipe_xyz_mm": [
+            646.5565634911802,
+            1026.9804508385143,
+            1681.1011047327765
+          ],
+          "station_from_segment_start_mm": 995.4966235855812
+        }
+      ],
+      "number_contact_solutions": 2,
+      "minimum_distance_solution_station_range_mm": [
+        995.4966235855812,
+        1020.8966235873975
+      ],
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "LF",
+      "domain": "main_loop",
+      "CAD_X_mm": 629.8299099958294,
+      "CAD_Y_mm": 637.1970964192068,
+      "CAD_Z_mm": 1679.936135715641,
+      "x_mm": 1626.2038484823431,
+      "height_y_mm": -214.9270987216238,
+      "normal_z_mm": 0.023277605259181655,
+      "reference_basis": "Fiber-holder mount-body centroid; not optical sensing range",
+      "assembly_definition": "Fiber_Holder",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO46",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO46/NAUO47",
+      "surface_gap_mm": null,
+      "distance_to_main_solid_mm": 0.0,
+      "distance_to_jacket_solid_mm": 1489.1536537326908,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "LF-04",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        629.8299099958294,
+        637.1970964192068,
+        1679.936135715641
+      ],
+      "local_reference_xyz_mm": [
+        1626.2038484823431,
+        -214.9270987216238,
+        0.023277605259181655
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face5",
+      "main_leg_distance_is_applicable": true,
+      "segment": "downcomer",
+      "segment_start": "F",
+      "segment_end": "G",
+      "station_from_start_mm": 1385.282840340461,
+      "distance_to_end_mm": 50.0932039855154,
+      "nearest_endpoint": "G",
+      "nearest_distance_mm": 50.0932039855154,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8299099958273,
+        637.1970964192064,
+        1679.9361357156254
+      ],
+      "axis_radial_offset_mm": 1.584045671497929e-11,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO2/NAUO46",
+      "source_reference_path": "NAUO2/NAUO46/NAUO47",
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "STC",
+      "domain": "main_loop",
+      "CAD_X_mm": 646.2475503663545,
+      "CAD_Y_mm": 618.485216240069,
+      "CAD_Z_mm": 1676.892711316902,
+      "x_mm": 1629.2472728810822,
+      "height_y_mm": -233.63897890076157,
+      "normal_z_mm": 16.44091797578426,
+      "reference_basis": "Nearest point on main-pipe solid to modeled surface thermocouple",
+      "assembly_definition": "Surface_Thermocoulpes",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO20",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO20",
+      "surface_gap_mm": 0.09210185454551238,
+      "distance_to_main_solid_mm": 0.09210185454551238,
+      "distance_to_jacket_solid_mm": null,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "STC-11",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        646.2475503663545,
+        618.485216240069,
+        1676.892711316902
+      ],
+      "local_reference_xyz_mm": [
+        1629.2472728810822,
+        -233.63897890076157,
+        16.44091797578426
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face5",
+      "main_leg_distance_is_applicable": true,
+      "segment": "downcomer",
+      "segment_start": "F",
+      "segment_end": "G",
+      "station_from_start_mm": 1403.991905175324,
+      "distance_to_end_mm": 31.384139150652345,
+      "nearest_endpoint": "G",
+      "nearest_distance_mm": 31.384139150652345,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8267020159577,
+        618.4880318593741,
+        1679.9361356671302
+      ],
+      "axis_radial_offset_mm": 16.700500000000094,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO20",
+      "source_reference_path": "NAUO20",
+      "contact_solutions": [
+        {
+          "sensor_xyz_mm": [
+            646.3381099655451,
+            618.4852007121651,
+            1676.8759270872786
+          ],
+          "pipe_xyz_mm": [
+            646.2475503663545,
+            618.485216240069,
+            1676.892711316902
+          ],
+          "station_from_segment_start_mm": 1403.991905175324
+        }
+      ],
+      "number_contact_solutions": 1,
+      "minimum_distance_solution_station_range_mm": [
+        1403.991905175324,
+        1403.991905175324
+      ],
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "STC",
+      "domain": "main_loop",
+      "CAD_X_mm": 646.5070003669586,
+      "CAD_Y_mm": 524.3300031679041,
+      "CAD_Z_mm": 1809.3626389142692,
+      "x_mm": 1496.777345283715,
+      "height_y_mm": -327.79419197292646,
+      "normal_z_mm": 16.700367976388293,
+      "reference_basis": "Nearest point on main-pipe solid to modeled surface thermocouple",
+      "assembly_definition": "Surface_Thermocoulpes",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO21",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO21",
+      "surface_gap_mm": 3.2155493553843715e-13,
+      "distance_to_main_solid_mm": 3.2155493553843715e-13,
+      "distance_to_jacket_solid_mm": null,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "STC-12",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        646.5070003669586,
+        524.3300031679041,
+        1809.3626389142692
+      ],
+      "local_reference_xyz_mm": [
+        1496.777345283715,
+        -327.79419197292646,
+        16.700367976388293
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face3",
+      "main_leg_distance_is_applicable": true,
+      "segment": "heater",
+      "segment_start": "H",
+      "segment_end": "A",
+      "station_from_start_mm": 76.78331157879097,
+      "distance_to_end_mm": 1455.9164474747993,
+      "nearest_endpoint": "H",
+      "nearest_distance_mm": 76.78331157879097,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8066323905695,
+        524.2646064219891,
+        1809.3741701250244
+      ],
+      "axis_radial_offset_mm": 16.700499999999998,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO21",
+      "source_reference_path": "NAUO21",
+      "contact_solutions": [
+        {
+          "sensor_xyz_mm": [
+            646.5070003669583,
+            524.3300031679041,
+            1809.3626389142694
+          ],
+          "pipe_xyz_mm": [
+            646.5070003669586,
+            524.3300031679041,
+            1809.3626389142692
+          ],
+          "station_from_segment_start_mm": 76.78331157879097
+        },
+        {
+          "sensor_xyz_mm": [
+            646.5070003669583,
+            522.1233096193477,
+            1796.8478579108742
+          ],
+          "pipe_xyz_mm": [
+            646.5070003669586,
+            522.1233096193475,
+            1796.847857910874
+          ],
+          "station_from_segment_start_mm": 64.07546990602124
+        }
+      ],
+      "number_contact_solutions": 2,
+      "minimum_distance_solution_station_range_mm": [
+        64.07546990602124,
+        76.78331157879097
+      ],
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "PTC",
+      "domain": "main_loop",
+      "CAD_X_mm": 629.8045229033014,
+      "CAD_Y_mm": 528.1999102517341,
+      "CAD_Z_mm": 1832.07479234213,
+      "x_mm": 1474.0651918558542,
+      "height_y_mm": -323.9242848890965,
+      "normal_z_mm": -0.002109487268853627,
+      "reference_basis": "TC mount-body centroid; not sensing junction",
+      "assembly_definition": "TC_No_Fiber_Holder",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO23",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO23/NAUO28",
+      "surface_gap_mm": null,
+      "distance_to_main_solid_mm": 0.0,
+      "distance_to_jacket_solid_mm": 1574.1033518105837,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "PTC-04",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        629.8045229033014,
+        528.1999102517341,
+        1832.07479234213
+      ],
+      "local_reference_xyz_mm": [
+        1474.0651918558542,
+        -323.9242848890965,
+        -0.002109487268853627
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45/Face3",
+      "main_leg_distance_is_applicable": true,
+      "segment": "heater",
+      "segment_start": "H",
+      "segment_end": "A",
+      "station_from_start_mm": 99.82241867499852,
+      "distance_to_end_mm": 1432.8773403785917,
+      "nearest_endpoint": "H",
+      "nearest_distance_mm": 99.82241867499852,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8066323905695,
+        528.2653053843189,
+        1832.0632614158483
+      ],
+      "axis_radial_offset_mm": 0.06643745602623993,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO23",
+      "source_reference_path": "NAUO23/NAUO28",
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "LF",
+      "domain": "main_loop",
+      "CAD_X_mm": 629.785995256947,
+      "CAD_Y_mm": 768.3483680834864,
+      "CAD_Z_mm": 3193.9049351399462,
+      "x_mm": 112.23504905803793,
+      "height_y_mm": -83.77582705734415,
+      "normal_z_mm": -0.0206371336232678,
+      "reference_basis": "Fiber-holder mount-body centroid; not optical sensing range",
+      "assembly_definition": "Fiber_Holder_30deg",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO8",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO8/NAUO31",
+      "surface_gap_mm": null,
+      "distance_to_main_solid_mm": 0.0,
+      "distance_to_jacket_solid_mm": 1516.494426218945,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "LF-02",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        629.785995256947,
+        768.3483680834864,
+        3193.9049351399462
+      ],
+      "local_reference_xyz_mm": [
+        112.23504905803793,
+        -83.77582705734415,
+        -0.0206371336232678
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face6",
+      "main_leg_distance_is_applicable": true,
+      "segment": "heater",
+      "segment_start": "H",
+      "segment_end": "A",
+      "station_from_start_mm": 1482.6646436600122,
+      "distance_to_end_mm": 50.03511539357805,
+      "nearest_endpoint": "A",
+      "nearest_distance_mm": 50.03511539357805,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8066323905703,
+        768.3933377538502,
+        3193.8970057737474
+      ],
+      "axis_radial_offset_mm": 0.05011025229559642,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO8",
+      "source_reference_path": "NAUO8/NAUO31",
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "PTC",
+      "domain": "main_loop",
+      "CAD_X_mm": 629.785995256947,
+      "CAD_Y_mm": 768.3483680834864,
+      "CAD_Z_mm": 3193.9049351399462,
+      "x_mm": 112.23504905803793,
+      "height_y_mm": -83.77582705734415,
+      "normal_z_mm": -0.0206371336232678,
+      "reference_basis": "Combined LF/PTC mount-body centroid; not sensing junction",
+      "assembly_definition": "Fiber_Holder_30deg",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO8",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO8/NAUO31",
+      "surface_gap_mm": null,
+      "distance_to_main_solid_mm": 0.0,
+      "distance_to_jacket_solid_mm": 1516.494426218945,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "PTC-02",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        629.785995256947,
+        768.3483680834864,
+        3193.9049351399462
+      ],
+      "local_reference_xyz_mm": [
+        112.23504905803793,
+        -83.77582705734415,
+        -0.0206371336232678
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face6",
+      "main_leg_distance_is_applicable": true,
+      "segment": "heater",
+      "segment_start": "H",
+      "segment_end": "A",
+      "station_from_start_mm": 1482.6646436600122,
+      "distance_to_end_mm": 50.03511539357805,
+      "nearest_endpoint": "A",
+      "nearest_distance_mm": 50.03511539357805,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8066323905703,
+        768.3933377538502,
+        3193.8970057737474
+      ],
+      "axis_radial_offset_mm": 0.05011025229559642,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO8",
+      "source_reference_path": "NAUO8/NAUO31",
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "STC",
+      "domain": "main_loop",
+      "CAD_X_mm": 646.5071214831183,
+      "CAD_Y_mm": 773.2958056626665,
+      "CAD_Z_mm": 3221.8102014704104,
+      "x_mm": 84.32978272757373,
+      "height_y_mm": -78.82838947816413,
+      "normal_z_mm": 16.700489092548082,
+      "reference_basis": "Nearest point on main-pipe solid to modeled surface thermocouple",
+      "assembly_definition": "Surface_Thermocoulpes",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO10",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO10",
+      "surface_gap_mm": 3.410605131648481e-13,
+      "distance_to_main_solid_mm": 3.410605131648481e-13,
+      "distance_to_jacket_solid_mm": null,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "STC-01",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        646.5071214831183,
+        773.2958056626665,
+        3221.8102014704104
+      ],
+      "local_reference_xyz_mm": [
+        84.32978272757373,
+        -78.82838947816413,
+        16.700489092548082
+      ],
+      "station_source_faces": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45/Face6",
+      "main_leg_distance_is_applicable": true,
+      "segment": "heater",
+      "segment_start": "H",
+      "segment_end": "A",
+      "station_from_start_mm": 1511.0050798118696,
+      "distance_to_end_mm": 21.694679241720678,
+      "nearest_endpoint": "A",
+      "nearest_distance_mm": 21.694679241720678,
+      "projection_outside_segment": false,
+      "projected_axis_xyz_mm": [
+        629.8066323905703,
+        773.3146028459063,
+        3221.806887019844
+      ],
+      "axis_radial_offset_mm": 16.700499999999934,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO10",
+      "source_reference_path": "NAUO10",
+      "contact_solutions": [
+        {
+          "sensor_xyz_mm": [
+            646.5071214831187,
+            773.2958056626665,
+            3221.8102014704104
+          ],
+          "pipe_xyz_mm": [
+            646.5071214831183,
+            773.2958056626665,
+            3221.8102014704104
+          ],
+          "station_from_segment_start_mm": 1511.0050798118696
+        },
+        {
+          "sensor_xyz_mm": [
+            646.5071214831187,
+            771.0897163942523,
+            3209.298847509999
+          ],
+          "pipe_xyz_mm": [
+            646.5071214831183,
+            771.0897163942523,
+            3209.298847509999
+          ],
+          "station_from_segment_start_mm": 1498.3007180497457
+        }
+      ],
+      "number_contact_solutions": 2,
+      "minimum_distance_solution_station_range_mm": [
+        1498.3007180497457,
+        1511.0050798118696
+      ],
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "PTC",
+      "domain": "jacket_port",
+      "CAD_X_mm": 630.458322438541,
+      "CAD_Y_mm": 2397.3591447860895,
+      "CAD_Z_mm": 2912.584965662646,
+      "x_mm": 393.55501853533815,
+      "height_y_mm": 1545.234949645259,
+      "normal_z_mm": 0.6516900479707601,
+      "reference_basis": "TC mount-body centroid; not sensing junction",
+      "assembly_definition": "TC_No_Fiber_Holder",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO9",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO9/NAUO28",
+      "surface_gap_mm": null,
+      "distance_to_main_solid_mm": 75.4705204935095,
+      "distance_to_jacket_solid_mm": 50.59999523791946,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "JTC-A",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        630.458322438541,
+        2397.3591447860895,
+        2912.584965662646
+      ],
+      "local_reference_xyz_mm": [
+        393.55501853533815,
+        1545.234949645259,
+        0.6516900479707601
+      ],
+      "port_path": "UTDTloopWithOpticsAndHXRev8/NAUO6/NAUO43",
+      "main_leg_distance_is_applicable": false,
+      "segment": "PORT-A",
+      "segment_start": "PORT-A-IN",
+      "segment_end": "PORT-A-OUT",
+      "station_from_start_mm": 50.83971490249231,
+      "distance_to_end_mm": -0.03971490249213616,
+      "nearest_endpoint": "PORT-A-OUT",
+      "nearest_distance_mm": 0.03971490249213616,
+      "projection_outside_segment": true,
+      "projected_axis_xyz_mm": [
+        630.5246926302407,
+        2397.3581243851318,
+        2912.582156392744
+      ],
+      "axis_radial_offset_mm": 0.06643745601501894,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO9",
+      "source_reference_path": "NAUO9/NAUO28",
+      "physical_junction_is_defined": false
+    },
+    {
+      "revision": "rev8",
+      "sensor_type": "PTC",
+      "domain": "jacket_port",
+      "CAD_X_mm": 628.9946282540179,
+      "CAD_Y_mm": 2053.0929257515463,
+      "CAD_Z_mm": 2044.7571725756172,
+      "x_mm": 1261.382811622367,
+      "height_y_mm": 1200.9687306107157,
+      "normal_z_mm": -0.8120041365523321,
+      "reference_basis": "TC mount-body centroid; not sensing junction",
+      "assembly_definition": "TC_No_Fiber_Holder",
+      "assembly_path": "UTDTloopWithOpticsAndHXRev8/NAUO22",
+      "reference_path": "UTDTloopWithOpticsAndHXRev8/NAUO22/NAUO28",
+      "surface_gap_mm": null,
+      "distance_to_main_solid_mm": 79.47353817643106,
+      "distance_to_jacket_solid_mm": 54.38571718459219,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "sensor_id": "JTC-B",
+      "label_basis": "Comparison labels; STC/LF/PTC ordering follows collaborator schema by loop region, not verified DAQ channels; JTC/R7 labels supplemental",
+      "actual_reference_xyz_mm": [
+        628.9946282540179,
+        2053.0929257515463,
+        2044.7571725756172
+      ],
+      "local_reference_xyz_mm": [
+        1261.382811622367,
+        1200.9687306107157,
+        -0.8120041365523321
+      ],
+      "port_path": "UTDTloopWithOpticsAndHXRev8/NAUO6/NAUO44",
+      "main_leg_distance_is_applicable": false,
+      "segment": "PORT-B",
+      "segment_start": "PORT-B-IN",
+      "segment_end": "PORT-B-OUT",
+      "station_from_start_mm": 61.74232875330897,
+      "distance_to_end_mm": -10.942328753308836,
+      "nearest_endpoint": "PORT-B-OUT",
+      "nearest_distance_mm": 10.942328753308836,
+      "projection_outside_segment": true,
+      "projected_axis_xyz_mm": [
+        629.0573865242013,
+        2053.096229201825,
+        2044.7787230350636
+      ],
+      "axis_radial_offset_mm": 0.06643745602072787,
+      "station_basis": "Orthogonal projection of selected CAD reference onto the relevant cylindrical axis; sum unique axial spans if split",
+      "source_cad_path": "NAUO22",
+      "source_reference_path": "NAUO22/NAUO28",
+      "physical_junction_is_defined": false
+    }
+  ],
+  "sequential_coordinates": [
+    {
+      "tag": "B",
+      "kind": "Axis endpoint",
+      "CAD_xyz_mm": [
+        629.8066323905703,
+        852.1241951408306,
+        3306.139984197984
+      ],
+      "local_xyz_mm": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "upcomer"
+    },
+    {
+      "tag": "STC-02",
+      "kind": "Contact",
+      "CAD_xyz_mm": [
+        646.4912372150981,
+        980.213782084134,
+        3305.411518619289
+      ],
+      "local_xyz_mm": [
+        0.7284655786952499,
+        128.0895869433034,
+        16.68460482452781
+      ],
+      "reference": "upcomer"
+    },
+    {
+      "tag": "STC-03",
+      "kind": "Contact",
+      "CAD_xyz_mm": [
+        645.7776078824203,
+        1448.3107384170173,
+        3311.0220577419536
+      ],
+      "local_xyz_mm": [
+        -4.8820735439694545,
+        596.1865432761867,
+        15.970975491850027
+      ],
+      "reference": "upcomer"
+    },
+    {
+      "tag": "STC-04",
+      "kind": "Contact",
+      "CAD_xyz_mm": [
+        646.0439554818457,
+        1849.1892825550299,
+        3308.7565748798925
+      ],
+      "local_xyz_mm": [
+        -2.616590681908292,
+        997.0650874141993,
+        16.23732309127547
+      ],
+      "reference": "upcomer"
+    },
+    {
+      "tag": "LF-01",
+      "kind": "Mount",
+      "CAD_xyz_mm": [
+        629.8066323905722,
+        2237.407035481292,
+        3306.1399841979696
+      ],
+      "local_xyz_mm": [
+        1.4551915228366852e-11,
+        1385.2828403404615,
+        1.9326762412674725e-12
+      ],
+      "reference": "upcomer"
+    },
+    {
+      "tag": "C",
+      "kind": "Axis endpoint",
+      "CAD_xyz_mm": [
+        629.8066323905703,
+        2287.500239466807,
+        3306.139984197984
+      ],
+      "local_xyz_mm": [
+        -0.0,
+        1435.3760443259766,
+        0.0
+      ],
+      "reference": "upper_left_bend"
+    },
+    {
+      "tag": "STC-05",
+      "kind": "Contact",
+      "CAD_xyz_mm": [
+        646.4696778999356,
+        2304.917892453057,
+        3304.507923451353
+      ],
+      "local_xyz_mm": [
+        1.6320607466313959,
+        1452.7936973122264,
+        16.66304550936536
+      ],
+      "reference": "upper_left_bend"
+    },
+    {
+      "tag": "D",
+      "kind": "Axis endpoint",
+      "CAD_xyz_mm": [
+        629.8066323905703,
+        2363.672809605065,
+        3252.318749981442
+      ],
+      "local_xyz_mm": [
+        53.82123421654205,
+        1511.5486144642346,
+        0.0
+      ],
+      "reference": "cooler"
+    },
+    {
+      "tag": "STC-06",
+      "kind": "Contact",
+      "CAD_xyz_mm": [
+        646.5047983807723,
+        2348.057584180093,
+        3162.15255540972
+      ],
+      "local_xyz_mm": [
+        143.98742878826397,
+        1495.9333890392622,
+        16.69816599020203
+      ],
+      "reference": "cooler"
+    },
+    {
+      "tag": "PTC-01",
+      "kind": "Mount",
+      "CAD_xyz_mm": [
+        629.7761316735784,
+        2336.324805800139,
+        3097.560409563199
+      ],
+      "local_xyz_mm": [
+        208.57957463478533,
+        1484.2006106593085,
+        -0.030500716991809895
+      ],
+      "reference": "cooler"
+    },
+    {
+      "tag": "LF-03",
+      "kind": "Mount",
+      "CAD_xyz_mm": [
+        630.0518595418113,
+        2116.225729892558,
+        1849.2215244431306
+      ],
+      "local_xyz_mm": [
+        1456.9184597548535,
+        1264.1015347517273,
+        0.2452271512410107
+      ],
+      "reference": "cooler"
+    },
+    {
+      "tag": "PTC-03",
+      "kind": "Mount",
+      "CAD_xyz_mm": [
+        630.0518595418113,
+        2116.225729892558,
+        1849.2215244431306
+      ],
+      "local_xyz_mm": [
+        1456.9184597548535,
+        1264.1015347517273,
+        0.2452271512410107
+      ],
+      "reference": "cooler"
+    },
+    {
+      "tag": "STC-07",
+      "kind": "Contact",
+      "CAD_xyz_mm": [
+        646.7776721545089,
+        2102.5343497793942,
+        1772.4968132560407
+      ],
+      "local_xyz_mm": [
+        1533.6431709419435,
+        1250.4101546385637,
+        16.97103976393862
+      ],
+      "reference": "cooler"
+    },
+    {
+      "tag": "E",
+      "kind": "Axis endpoint",
+      "CAD_xyz_mm": [
+        630.0784032149418,
+        2097.522266235054,
+        1742.904148333889
+      ],
+      "local_xyz_mm": [
+        1563.2358358640952,
+        1245.3980710942233,
+        0.2717708243715151
+      ],
+      "reference": "upper_right_bend"
+    },
+    {
+      "tag": "F",
+      "kind": "Axis endpoint",
+      "CAD_xyz_mm": [
+        630.0674397443526,
+        2022.4799163954574,
+        1679.9361393063734
+      ],
+      "local_xyz_mm": [
+        1626.2038448916107,
+        1170.3557212546268,
+        0.26080735378229747
+      ],
+      "reference": "downcomer"
+    },
+    {
+      "tag": "STC-08",
+      "kind": "Contact",
+      "CAD_xyz_mm": [
+        646.7109361158005,
+        1870.4646046897915,
+        1678.9200612760146
+      ],
+      "local_xyz_mm": [
+        1627.2199229219696,
+        1018.3404095489609,
+        16.904303725230193
+      ],
+      "reference": "downcomer"
+    },
+    {
+      "tag": "STC-09",
+      "kind": "Contact",
+      "CAD_xyz_mm": [
+        645.7039484849398,
+        1457.3576006938158,
+        1675.064875823481
+      ],
+      "local_xyz_mm": [
+        1631.075108374503,
+        605.2334055529852,
+        15.897316094369558
+      ],
+      "reference": "downcomer"
+    },
+    {
+      "tag": "STC-10",
+      "kind": "Contact",
+      "CAD_xyz_mm": [
+        646.5522082393593,
+        1001.5804512100882,
+        1681.101104666938
+      ],
+      "local_xyz_mm": [
+        1625.0388795310462,
+        149.45625606925762,
+        16.74557584878903
+      ],
+      "reference": "downcomer"
+    },
+    {
+      "tag": "LF-04",
+      "kind": "Mount",
+      "CAD_xyz_mm": [
+        629.8299099958294,
+        637.1970964192068,
+        1679.936135715641
+      ],
+      "local_xyz_mm": [
+        1626.2038484823431,
+        -214.9270987216238,
+        0.023277605259181655
+      ],
+      "reference": "downcomer"
+    },
+    {
+      "tag": "STC-11",
+      "kind": "Contact",
+      "CAD_xyz_mm": [
+        646.2475503663545,
+        618.485216240069,
+        1676.892711316902
+      ],
+      "local_xyz_mm": [
+        1629.2472728810822,
+        -233.63897890076157,
+        16.44091797578426
+      ],
+      "reference": "downcomer"
+    },
+    {
+      "tag": "G",
+      "kind": "Axis endpoint",
+      "CAD_xyz_mm": [
+        629.8213206841004,
+        587.103893170081,
+        1679.9361355857804
+      ],
+      "local_xyz_mm": [
+        1626.2038486122037,
+        -265.02030197074953,
+        0.014688293530184637
+      ],
+      "reference": "lower_right_bend"
+    },
+    {
+      "tag": "H",
+      "kind": "Axis endpoint",
+      "CAD_xyz_mm": [
+        629.8066323905695,
+        510.93132429109966,
+        1733.7573695802791
+      ],
+      "local_xyz_mm": [
+        1572.382614617705,
+        -341.1928708497309,
+        -7.958078640513122e-13
+      ],
+      "reference": "heater"
+    },
+    {
+      "tag": "STC-12",
+      "kind": "Contact",
+      "CAD_xyz_mm": [
+        646.5070003669586,
+        524.3300031679041,
+        1809.3626389142692
+      ],
+      "local_xyz_mm": [
+        1496.777345283715,
+        -327.79419197292646,
+        16.700367976388293
+      ],
+      "reference": "heater"
+    },
+    {
+      "tag": "PTC-04",
+      "kind": "Mount",
+      "CAD_xyz_mm": [
+        629.8045229033014,
+        528.1999102517341,
+        1832.07479234213
+      ],
+      "local_xyz_mm": [
+        1474.0651918558542,
+        -323.9242848890965,
+        -0.002109487268853627
+      ],
+      "reference": "heater"
+    },
+    {
+      "tag": "LF-02",
+      "kind": "Mount",
+      "CAD_xyz_mm": [
+        629.785995256947,
+        768.3483680834864,
+        3193.9049351399462
+      ],
+      "local_xyz_mm": [
+        112.23504905803793,
+        -83.77582705734415,
+        -0.0206371336232678
+      ],
+      "reference": "heater"
+    },
+    {
+      "tag": "PTC-02",
+      "kind": "Mount",
+      "CAD_xyz_mm": [
+        629.785995256947,
+        768.3483680834864,
+        3193.9049351399462
+      ],
+      "local_xyz_mm": [
+        112.23504905803793,
+        -83.77582705734415,
+        -0.0206371336232678
+      ],
+      "reference": "heater"
+    },
+    {
+      "tag": "STC-01",
+      "kind": "Contact",
+      "CAD_xyz_mm": [
+        646.5071214831183,
+        773.2958056626665,
+        3221.8102014704104
+      ],
+      "local_xyz_mm": [
+        84.32978272757373,
+        -78.82838947816413,
+        16.700489092548082
+      ],
+      "reference": "heater"
+    },
+    {
+      "tag": "A",
+      "kind": "Axis endpoint",
+      "CAD_xyz_mm": [
+        629.8066323905703,
+        777.0818443612998,
+        3243.1719753362036
+      ],
+      "local_xyz_mm": [
+        62.96800886178062,
+        -75.0423507795308,
+        0.0
+      ],
+      "reference": "lower_left_bend"
+    },
+    {
+      "tag": "JTC-A",
+      "kind": "Mount",
+      "CAD_xyz_mm": [
+        630.458322438541,
+        2397.3591447860895,
+        2912.584965662646
+      ],
+      "local_xyz_mm": [
+        393.55501853533815,
+        1545.234949645259,
+        0.6516900479707601
+      ],
+      "reference": "PORT-A"
+    },
+    {
+      "tag": "JTC-B",
+      "kind": "Mount",
+      "CAD_xyz_mm": [
+        628.9946282540179,
+        2053.0929257515463,
+        2044.7571725756172
+      ],
+      "local_xyz_mm": [
+        1261.382811622367,
+        1200.9687306107157,
+        -0.8120041365523321
+      ],
+      "reference": "PORT-B"
+    },
+    {
+      "tag": "J-IN",
+      "kind": "Jacket axis",
+      "CAD_xyz_mm": [
+        629.8066323905705,
+        2316.5141602688345,
+        2984.868759363144
+      ],
+      "local_xyz_mm": [
+        321.27122483484027,
+        1464.389965128004,
+        2.2737367544323206e-13
+      ],
+      "reference": "Complete jacket outer end plane"
+    },
+    {
+      "tag": "J-OUT",
+      "kind": "Jacket axis",
+      "CAD_xyz_mm": [
+        629.8066323905703,
+        2137.606613420821,
+        1970.233641531578
+      ],
+      "local_xyz_mm": [
+        1335.906342666406,
+        1285.4824182799903,
+        0.0
+      ],
+      "reference": "Complete jacket outer end plane"
+    },
+    {
+      "tag": "TLEP-IN",
+      "kind": "Tube axis",
+      "CAD_xyz_mm": [
+        629.8066323905705,
+        2366.3183443443695,
+        3234.247003220955
+      ],
+      "local_xyz_mm": [
+        71.89298097702931,
+        1514.194149203539,
+        2.2737367544323206e-13
+      ],
+      "reference": "TLEP"
+    },
+    {
+      "tag": "TLEP-OUT",
+      "kind": "Tube axis",
+      "CAD_xyz_mm": [
+        629.8066323905705,
+        2836.2183443443696,
+        3234.247003220955
+      ],
+      "local_xyz_mm": [
+        71.89298097702931,
+        1984.094149203539,
+        2.2737367544323206e-13
+      ],
+      "reference": "TLEP"
+    },
+    {
+      "tag": "BREP-IN",
+      "kind": "Tube axis",
+      "CAD_xyz_mm": [
+        629.8068631302724,
+        515.4635438464755,
+        1751.8291163442523
+      ],
+      "local_xyz_mm": [
+        1554.310867853732,
+        -336.66065129435503,
+        0.0002307397021468205
+      ],
+      "reference": "BREP"
+    },
+    {
+      "tag": "BREP-OUT",
+      "kind": "Tube axis",
+      "CAD_xyz_mm": [
+        629.72629097159,
+        45.56355075419293,
+        1751.8291151262395
+      ],
+      "local_xyz_mm": [
+        1554.3108690717447,
+        -806.5606443866377,
+        -0.08034141898031066
+      ],
+      "reference": "BREP"
+    }
+  ],
+  "probe_shafts": [
+    {
+      "revision": "rev8",
+      "part_path": "UTDTloopWithOpticsAndHXRev8/NAUO7/NAUO39",
+      "part_definition": "30TC TC",
+      "parent_sensor_path": "UTDTloopWithOpticsAndHXRev8/NAUO7",
+      "shaft_start_CAD_X_mm": 710.1838610287259,
+      "shaft_start_CAD_Y_mm": 2242.590575681001,
+      "shaft_start_CAD_Z_mm": 1826.9399940858837,
+      "shaft_end_CAD_X_mm": 629.4586744273472,
+      "shaft_end_CAD_Y_mm": 2115.290300387927,
+      "shaft_end_CAD_Z_mm": 1849.3864672716684,
+      "length_mm": 152.40000000000018,
+      "radius_mm": 1.5875,
+      "face": 1,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "basis": "Geometric shaft endpoints; sensing junction not encoded"
+    },
+    {
+      "revision": "rev8",
+      "part_path": "UTDTloopWithOpticsAndHXRev8/NAUO8/NAUO39",
+      "part_definition": "30TC TC",
+      "parent_sensor_path": "UTDTloopWithOpticsAndHXRev8/NAUO8",
+      "shaft_start_CAD_X_mm": 692.0863326336857,
+      "shaft_start_CAD_Y_mm": 904.1102750018046,
+      "shaft_start_CAD_Z_mm": 3169.966449366136,
+      "shaft_end_CAD_X_mm": 629.3248109994094,
+      "shaft_end_CAD_Y_mm": 767.343375911266,
+      "shaft_end_CAD_Z_mm": 3194.0821437436302,
+      "length_mm": 152.4,
+      "radius_mm": 1.5875,
+      "face": 1,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "basis": "Geometric shaft endpoints; sensing junction not encoded"
+    },
+    {
+      "revision": "rev8",
+      "part_path": "UTDTloopWithOpticsAndHXRev8/NAUO9/NAUO27/NAUO29",
+      "part_definition": "Part1",
+      "parent_sensor_path": "UTDTloopWithOpticsAndHXRev8/NAUO9",
+      "shaft_start_CAD_X_mm": 826.7672835195744,
+      "shaft_start_CAD_Y_mm": 2388.863355140311,
+      "shaft_start_CAD_Z_mm": 2905.4330521073775,
+      "shaft_end_CAD_X_mm": 668.269240033837,
+      "shaft_end_CAD_Y_mm": 2395.6992006479804,
+      "shaft_end_CAD_Z_mm": 2911.195337017772,
+      "length_mm": 158.75,
+      "radius_mm": 1.5875,
+      "face": 1,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "basis": "Geometric shaft endpoints; sensing junction not encoded"
+    },
+    {
+      "revision": "rev8",
+      "part_path": "UTDTloopWithOpticsAndHXRev8/NAUO22/NAUO27/NAUO29",
+      "part_definition": "Part1",
+      "parent_sensor_path": "UTDTloopWithOpticsAndHXRev8/NAUO22",
+      "shaft_start_CAD_X_mm": 814.7595540689424,
+      "shaft_start_CAD_Y_mm": 2068.3439536670867,
+      "shaft_start_CAD_Z_mm": 2107.3617650143274,
+      "shaft_end_CAD_X_mm": 664.7704111629952,
+      "shaft_end_CAD_Y_mm": 2056.0539158717047,
+      "shaft_end_CAD_Z_mm": 2056.826881207917,
+      "length_mm": 158.75,
+      "radius_mm": 1.5875,
+      "face": 1,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "basis": "Geometric shaft endpoints; sensing junction not encoded"
+    },
+    {
+      "revision": "rev8",
+      "part_path": "UTDTloopWithOpticsAndHXRev8/NAUO23/NAUO27/NAUO29",
+      "part_definition": "Part1",
+      "parent_sensor_path": "UTDTloopWithOpticsAndHXRev8/NAUO23",
+      "shaft_start_CAD_X_mm": 636.2352506489167,
+      "shaft_start_CAD_Y_mm": 720.6819421454691,
+      "shaft_start_CAD_Z_mm": 1792.4534641382077,
+      "shaft_end_CAD_X_mm": 631.0271849992749,
+      "shaft_end_CAD_Y_mm": 565.2714194624348,
+      "shaft_end_CAD_Z_mm": 1824.422323854736,
+      "length_mm": 158.7499999999999,
+      "radius_mm": 1.5875,
+      "face": 1,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "basis": "Geometric shaft endpoints; sensing junction not encoded"
+    },
+    {
+      "revision": "rev8",
+      "part_path": "UTDTloopWithOpticsAndHXRev8/NAUO24/NAUO27/NAUO29",
+      "part_definition": "Part1",
+      "parent_sensor_path": "UTDTloopWithOpticsAndHXRev8/NAUO24",
+      "shaft_start_CAD_X_mm": 720.1759974197394,
+      "shaft_start_CAD_Y_mm": 2507.2214675700816,
+      "shaft_start_CAD_Z_mm": 3061.7451645006818,
+      "shaft_end_CAD_X_mm": 647.1741748563148,
+      "shaft_end_CAD_Y_mm": 2369.2454077313023,
+      "shaft_end_CAD_Z_mm": 3090.6398580236073,
+      "length_mm": 158.74999999999974,
+      "radius_mm": 1.5875,
+      "face": 1,
+      "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "basis": "Geometric shaft endpoints; sensing junction not encoded"
+    }
+  ],
+  "reconstructed_bends": [
+    {
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45",
+      "face": 4,
+      "from_tag": "C",
+      "to_tag": "D",
+      "endpoint_projection_parameters": [
+        0.9972938364653128,
+        0.020571041656571313
+      ],
+      "endpoint_residuals_mm": [
+        0.0086235065498786,
+        1.0310129428751686
+      ],
+      "recovered_spine_length_mm": 99.57828501693332,
+      "basis": "Mean of opposed U=0,0.5 points on BSpline support surface; bounds are closest spine points to extracted straight-axis endpoints; not a healed exact hydraulic centerline",
+      "max_opposite_midpoint_disagreement_mm": 1.6553053431563326e-12,
+      "max_profile_radius_error_mm": 0.0005433645524099973,
+      "polyline_xyz_mm": [
+        [
+          629.8066323905703,
+          2287.4999856334093,
+          3306.1486039679244
+        ],
+        [
+          629.8066323905703,
+          2287.8318205582373,
+          3306.1576508446847
+        ],
+        [
+          629.8066323905703,
+          2288.1636888466683,
+          3306.1652518848896
+        ],
+        [
+          629.8066323905703,
+          2288.4955844664214,
+          3306.1714070719854
+        ],
+        [
+          629.8066323905703,
+          2288.8275013686766,
+          3306.176116330145
+        ],
+        [
+          629.8066323905703,
+          2289.1594335034606,
+          3306.179379583078
+        ],
+        [
+          629.8066323905703,
+          2289.4913747827068,
+          3306.181196812965
+        ],
+        [
+          629.8066323905703,
+          2289.8233191004256,
+          3306.1815680311247
+        ],
+        [
+          629.8066323905703,
+          2290.155260350625,
+          3306.180493248878
+        ],
+        [
+          629.8066323905703,
+          2290.487192428684,
+          3306.177972473819
+        ],
+        [
+          629.8066323905703,
+          2290.8191092403476,
+          3306.1740056698386
+        ],
+        [
+          629.8066323905703,
+          2291.1510046142703,
+          3306.168592971021
+        ],
+        [
+          629.8066323905703,
+          2291.4828723555156,
+          3306.1617345696586
+        ],
+        [
+          629.8066323905703,
+          2291.8147062691482,
+          3306.153430658046
+        ],
+        [
+          629.8066323905703,
+          2292.1465001602337,
+          3306.1436814284757
+        ],
+        [
+          629.8066323905703,
+          2292.4782478338366,
+          3306.13248707324
+        ],
+        [
+          629.8066323905703,
+          2292.8099430950215,
+          3306.119847784633
+        ],
+        [
+          629.8066323905703,
+          2293.1415797488535,
+          3306.105763754947
+        ],
+        [
+          629.8066323905703,
+          2293.4731516003967,
+          3306.090235176476
+        ],
+        [
+          629.8066323905703,
+          2293.804652455178,
+          3306.0732621269135
+        ],
+        [
+          629.8066323905703,
+          2294.1360760815487,
+          3306.0548445561753
+        ],
+        [
+          629.8066323905703,
+          2294.4674162004094,
+          3306.034983001773
+        ],
+        [
+          629.8066323905703,
+          2294.798666530584,
+          3306.0136780480334
+        ],
+        [
+          629.8066323905703,
+          2295.1298207908967,
+          3305.990930279281
+        ],
+        [
+          629.8066323905703,
+          2295.4608727001732,
+          3305.9667402798414
+        ],
+        [
+          629.8066323905703,
+          2295.7918159772366,
+          3305.9411086340415
+        ],
+        [
+          629.8066323905703,
+          2296.1226443409123,
+          3305.9140359262046
+        ],
+        [
+          629.8066323905703,
+          2296.4533515100247,
+          3305.885522740658
+        ],
+        [
+          629.8066323905703,
+          2296.783931203398,
+          3305.855569661727
+        ],
+        [
+          629.8066323905703,
+          2297.114377139857,
+          3305.824177273736
+        ],
+        [
+          629.8066323905703,
+          2297.4446830382262,
+          3305.7913461610115
+        ],
+        [
+          629.8066323905703,
+          2297.7748426173307,
+          3305.757076907879
+        ],
+        [
+          629.8066323905703,
+          2298.104849595994,
+          3305.721370098664
+        ],
+        [
+          629.8066323905703,
+          2298.434697693041,
+          3305.6842263176914
+        ],
+        [
+          629.8066323905703,
+          2298.764380627297,
+          3305.6456461492876
+        ],
+        [
+          629.8066323905703,
+          2299.0938921175853,
+          3305.6056301777776
+        ],
+        [
+          629.8066323905703,
+          2299.423225882731,
+          3305.564178987487
+        ],
+        [
+          629.8066323905703,
+          2299.7523756415594,
+          3305.521293162741
+        ],
+        [
+          629.8066323905703,
+          2300.0813349674336,
+          3305.476973089454
+        ],
+        [
+          629.8066323905703,
+          2300.410096514225,
+          3305.4312180674688
+        ],
+        [
+          629.8066323905703,
+          2300.7386539502036,
+          3305.3840290746625
+        ],
+        [
+          629.8066323905703,
+          2301.0670011946677,
+          3305.335407457069
+        ],
+        [
+          629.8066323905703,
+          2301.3951321669165,
+          3305.285354560723
+        ],
+        [
+          629.8066323905703,
+          2301.723040786247,
+          3305.23387173166
+        ],
+        [
+          629.8066323905703,
+          2302.0507209719594,
+          3305.1809603159145
+        ],
+        [
+          629.8066323905703,
+          2302.378166643351,
+          3305.1266216595204
+        ],
+        [
+          629.8066323905703,
+          2302.7053717197205,
+          3305.070857108513
+        ],
+        [
+          629.8066323905703,
+          2303.0323301203657,
+          3305.0136680089263
+        ],
+        [
+          629.8066323905703,
+          2303.359035764586,
+          3304.955055706796
+        ],
+        [
+          629.8066323905703,
+          2303.68548257168,
+          3304.8950215481564
+        ],
+        [
+          629.8066323905703,
+          2304.0116644609448,
+          3304.833566879042
+        ],
+        [
+          629.8066323905703,
+          2304.3375753516793,
+          3304.770693045488
+        ],
+        [
+          629.8066323905703,
+          2304.663209163183,
+          3304.7064013935287
+        ],
+        [
+          629.8066323905703,
+          2304.9885598147534,
+          3304.6406932691984
+        ],
+        [
+          629.8066323905703,
+          2305.3136212256886,
+          3304.5735700185323
+        ],
+        [
+          629.8066323905703,
+          2305.6383873152877,
+          3304.5050329875653
+        ],
+        [
+          629.8066323905703,
+          2305.9628520028486,
+          3304.4350835223313
+        ],
+        [
+          629.8066323905703,
+          2306.2870092076705,
+          3304.3637229688657
+        ],
+        [
+          629.8066323905703,
+          2306.6108528490504,
+          3304.2909526732033
+        ],
+        [
+          629.8066323905703,
+          2306.9343768462886,
+          3304.2167739813785
+        ],
+        [
+          629.8066323905703,
+          2307.2575751186823,
+          3304.141188239426
+        ],
+        [
+          629.8066323905703,
+          2307.58044158553,
+          3304.06419679338
+        ],
+        [
+          629.8066323905703,
+          2307.90297016613,
+          3303.985800989276
+        ],
+        [
+          629.8066323905703,
+          2308.2251547797814,
+          3303.9060021731484
+        ],
+        [
+          629.8066323905703,
+          2308.546989345782,
+          3303.8248016910316
+        ],
+        [
+          629.8066323905703,
+          2308.868467783431,
+          3303.7422008889607
+        ],
+        [
+          629.8066323905703,
+          2309.189584012026,
+          3303.6582011129703
+        ],
+        [
+          629.8066323905703,
+          2309.5103319508653,
+          3303.5728037090953
+        ],
+        [
+          629.8066323905703,
+          2309.830705519248,
+          3303.48601002337
+        ],
+        [
+          629.8066323905703,
+          2310.150698636472,
+          3303.397821401829
+        ],
+        [
+          629.8066323905703,
+          2310.4703052218365,
+          3303.3082391905073
+        ],
+        [
+          629.8066323905703,
+          2310.789519194639,
+          3303.217264735439
+        ],
+        [
+          629.8066323905703,
+          2311.1083344741787,
+          3303.1248993826603
+        ],
+        [
+          629.8066323905703,
+          2311.4267449797535,
+          3303.0311444782046
+        ],
+        [
+          629.8066323905703,
+          2311.7447446306614,
+          3302.9360013681066
+        ],
+        [
+          629.8066323905703,
+          2312.0623273462024,
+          3302.8394713984017
+        ],
+        [
+          629.8066323905703,
+          2312.3794870398115,
+          3302.741555906812
+        ],
+        [
+          629.8066323905703,
+          2312.696214406511,
+          3302.6422518147656
+        ],
+        [
+          629.8066323905703,
+          2313.0125009767694,
+          3302.5415577709227
+        ],
+        [
+          629.8066323905703,
+          2313.3283411470147,
+          3302.4394766124037
+        ],
+        [
+          629.8066323905703,
+          2313.643729313675,
+          3302.3360111763295
+        ],
+        [
+          629.8066323905703,
+          2313.9586598731785,
+          3302.23116429982
+        ],
+        [
+          629.8066323905703,
+          2314.2731272219535,
+          3302.124938819996
+        ],
+        [
+          629.8066323905703,
+          2314.5871257564277,
+          3302.017337573977
+        ],
+        [
+          629.8066323905703,
+          2314.9006498730296,
+          3301.908363398885
+        ],
+        [
+          629.8066323905703,
+          2315.2136939681864,
+          3301.7980191318393
+        ],
+        [
+          629.8066323905703,
+          2315.526252438327,
+          3301.6863076099603
+        ],
+        [
+          629.8066323905703,
+          2315.8383196798795,
+          3301.573231670369
+        ],
+        [
+          629.8066323905703,
+          2316.149890089271,
+          3301.4587941501854
+        ],
+        [
+          629.8066323905703,
+          2316.4609580629312,
+          3301.3429978865297
+        ],
+        [
+          629.8066323905703,
+          2316.771517997287,
+          3301.2258457165235
+        ],
+        [
+          629.8066323905703,
+          2317.0815642887674,
+          3301.107340477286
+        ],
+        [
+          629.8066323905703,
+          2317.391091333799,
+          3300.987485005938
+        ],
+        [
+          629.8066323905703,
+          2317.7000935288106,
+          3300.8662821396
+        ],
+        [
+          629.8066323905703,
+          2318.008565270231,
+          3300.7437347153927
+        ],
+        [
+          629.8066323905703,
+          2318.3165009544873,
+          3300.619845570436
+        ],
+        [
+          629.8066323905703,
+          2318.6238949780086,
+          3300.4946175418504
+        ],
+        [
+          629.8066323905703,
+          2318.930741737222,
+          3300.3680534667565
+        ],
+        [
+          629.8066323905703,
+          2319.2370356285555,
+          3300.240156182275
+        ],
+        [
+          629.8066323905703,
+          2319.542771048438,
+          3300.1109285255257
+        ],
+        [
+          629.8066323905703,
+          2319.8479423932977,
+          3299.98037333363
+        ],
+        [
+          629.8066323905703,
+          2320.1525440595615,
+          3299.8484934437065
+        ],
+        [
+          629.8066323905703,
+          2320.456570443658,
+          3299.7152916928776
+        ],
+        [
+          629.8066323905703,
+          2320.760015942016,
+          3299.5807709182627
+        ],
+        [
+          629.8066323905703,
+          2321.0628749510624,
+          3299.444933956983
+        ],
+        [
+          629.8066323905703,
+          2321.3651418672266,
+          3299.307783646158
+        ],
+        [
+          629.8066323905703,
+          2321.666811086935,
+          3299.1693228229083
+        ],
+        [
+          629.8066323905703,
+          2321.9678770066175,
+          3299.0295543243546
+        ],
+        [
+          629.8066323905703,
+          2322.2683340227013,
+          3298.888480987617
+        ],
+        [
+          629.8066323905703,
+          2322.568176531614,
+          3298.746105649817
+        ],
+        [
+          629.8066323905703,
+          2322.867398929784,
+          3298.6024311480733
+        ],
+        [
+          629.8066323905703,
+          2323.16599561364,
+          3298.457460319508
+        ],
+        [
+          629.8066323905703,
+          2323.4639609796095,
+          3298.31119600124
+        ],
+        [
+          629.8066323905703,
+          2323.761289424121,
+          3298.163641030391
+        ],
+        [
+          629.8066323905703,
+          2324.0579753436023,
+          3298.0147982440803
+        ],
+        [
+          629.8066323905703,
+          2324.3540131344807,
+          3297.86467047943
+        ],
+        [
+          629.8066323905703,
+          2324.649397193186,
+          3297.7132605735583
+        ],
+        [
+          629.8066323905703,
+          2324.9441219161445,
+          3297.5605713635878
+        ],
+        [
+          629.8066323905703,
+          2325.238181699786,
+          3297.4066056866372
+        ],
+        [
+          629.8066323905703,
+          2325.5315709405368,
+          3297.251366379828
+        ],
+        [
+          629.8066323905703,
+          2325.8242840348266,
+          3297.0948562802805
+        ],
+        [
+          629.8066323905703,
+          2326.116315379082,
+          3296.9370782251144
+        ],
+        [
+          629.8066323905703,
+          2326.4076593697328,
+          3296.7780350514504
+        ],
+        [
+          629.8066323905703,
+          2326.698310403205,
+          3296.61772959641
+        ],
+        [
+          629.8066323905703,
+          2326.9882628759283,
+          3296.4561646971115
+        ],
+        [
+          629.8066323905703,
+          2327.2775111843303,
+          3296.2933431906777
+        ],
+        [
+          629.8066323905703,
+          2327.566049724839,
+          3296.129267914227
+        ],
+        [
+          629.8066323905703,
+          2327.853872893883,
+          3295.963941704882
+        ],
+        [
+          629.8066323905703,
+          2328.140975087889,
+          3295.797367399761
+        ],
+        [
+          629.8066323905703,
+          2328.4273507032867,
+          3295.6295478359852
+        ],
+        [
+          629.8066323905703,
+          2328.712994136503,
+          3295.4604858506755
+        ],
+        [
+          629.8066323905703,
+          2328.997899783966,
+          3295.2901842809515
+        ],
+        [
+          629.8066323905703,
+          2329.2820620421053,
+          3295.118645963935
+        ],
+        [
+          629.8066323905703,
+          2329.565475307347,
+          3294.945873736744
+        ],
+        [
+          629.8066323905703,
+          2329.84813397612,
+          3294.7718704365016
+        ],
+        [
+          629.8066323905703,
+          2330.1300324448534,
+          3294.5966389003265
+        ],
+        [
+          629.8066323905703,
+          2330.411165109974,
+          3294.42018196534
+        ],
+        [
+          629.8066323905703,
+          2330.69152636791,
+          3294.242502468662
+        ],
+        [
+          629.8066323905703,
+          2330.97111061509,
+          3294.063603247413
+        ],
+        [
+          629.8066323905703,
+          2331.2499122479408,
+          3293.8834871387135
+        ],
+        [
+          629.8066323905703,
+          2331.527925662892,
+          3293.7021569796843
+        ],
+        [
+          629.8066323905703,
+          2331.8051452563714,
+          3293.5196156074453
+        ],
+        [
+          629.8066323905703,
+          2332.0815654248063,
+          3293.3358658591173
+        ],
+        [
+          629.8066323905703,
+          2332.357180564626,
+          3293.1509105718205
+        ],
+        [
+          629.8066323905703,
+          2332.6319850722575,
+          3292.9647525826754
+        ],
+        [
+          629.8066323905703,
+          2332.905973344129,
+          3292.7773947288024
+        ],
+        [
+          629.8066323905703,
+          2333.1791397766688,
+          3292.5888398473217
+        ],
+        [
+          629.8066323905703,
+          2333.4514787663047,
+          3292.399090775354
+        ],
+        [
+          629.8066323905703,
+          2333.722984709466,
+          3292.2081503500194
+        ],
+        [
+          629.8066323905703,
+          2333.9936520025794,
+          3292.0160214084394
+        ],
+        [
+          629.8066323905703,
+          2334.2634750420734,
+          3291.822706787733
+        ],
+        [
+          629.8066323905703,
+          2334.532448224376,
+          3291.628209325021
+        ],
+        [
+          629.8066323905703,
+          2334.800565945916,
+          3291.4325318574247
+        ],
+        [
+          629.8066323905703,
+          2335.067822511725,
+          3291.235677296836
+        ],
+        [
+          629.8066323905703,
+          2335.334210724709,
+          3291.0376504940173
+        ],
+        [
+          629.8066323905703,
+          2335.599725340125,
+          3290.838456442266
+        ],
+        [
+          629.8066323905703,
+          2335.864361996354,
+          3290.638099661045
+        ],
+        [
+          629.8066323905703,
+          2336.1281163317767,
+          3290.4365846698183
+        ],
+        [
+          629.8066323905703,
+          2336.3909839847747,
+          3290.2339159880494
+        ],
+        [
+          629.8066323905703,
+          2336.652960593728,
+          3290.030098135201
+        ],
+        [
+          629.8066323905703,
+          2336.9140417970184,
+          3289.8251356307383
+        ],
+        [
+          629.8066323905703,
+          2337.1742232330266,
+          3289.619032994123
+        ],
+        [
+          629.8066323905703,
+          2337.433500540134,
+          3289.4117947448194
+        ],
+        [
+          629.8066323905703,
+          2337.6918693567213,
+          3289.203425402291
+        ],
+        [
+          629.8066323905703,
+          2337.9493253211695,
+          3288.9939294860014
+        ],
+        [
+          629.8066323905703,
+          2338.2058640718597,
+          3288.783311515413
+        ],
+        [
+          629.8066323905703,
+          2338.4614812471723,
+          3288.5715760099906
+        ],
+        [
+          629.8066323905703,
+          2338.7161724854896,
+          3288.3587274891966
+        ],
+        [
+          629.8066323905703,
+          2338.9699334251914,
+          3288.144770472495
+        ],
+        [
+          629.8066323905703,
+          2339.2227597046594,
+          3287.92970947935
+        ],
+        [
+          629.8066323905703,
+          2339.4746469622746,
+          3287.713549029224
+        ],
+        [
+          629.8066323905703,
+          2339.7255908364173,
+          3287.4962936415805
+        ],
+        [
+          629.8066323905703,
+          2339.9755869654696,
+          3287.2779478358834
+        ],
+        [
+          629.8066323905703,
+          2340.224630987812,
+          3287.0585161315958
+        ],
+        [
+          629.8066323905703,
+          2340.4727185418246,
+          3286.8380030481812
+        ],
+        [
+          629.8066323905703,
+          2340.71984526589,
+          3286.6164131051037
+        ],
+        [
+          629.8066323905703,
+          2340.966006798388,
+          3286.393750821826
+        ],
+        [
+          629.8066323905703,
+          2341.2111987777007,
+          3286.170020717812
+        ],
+        [
+          629.8066323905703,
+          2341.455416842208,
+          3285.945227312525
+        ],
+        [
+          629.8066323905703,
+          2341.6986566302917,
+          3285.719375125428
+        ],
+        [
+          629.8066323905703,
+          2341.9409137803323,
+          3285.4924686759855
+        ],
+        [
+          629.8066323905703,
+          2342.182183930711,
+          3285.264512483661
+        ],
+        [
+          629.8066323905703,
+          2342.4224627198087,
+          3285.035511067916
+        ],
+        [
+          629.8066323905703,
+          2342.6617457860075,
+          3284.8054689482165
+        ],
+        [
+          629.8066323905703,
+          2342.9000287676863,
+          3284.5743906440243
+        ],
+        [
+          629.8066323905703,
+          2343.1373073032273,
+          3284.3422806748035
+        ],
+        [
+          629.8066323905703,
+          2343.3735770310122,
+          3284.1091435600174
+        ],
+        [
+          629.8066323905703,
+          2343.608833589421,
+          3283.8749838191297
+        ],
+        [
+          629.8066323905703,
+          2343.843072616835,
+          3283.639805971604
+        ],
+        [
+          629.8066323905703,
+          2344.076289751635,
+          3283.4036145369028
+        ],
+        [
+          629.8066323905703,
+          2344.308480632202,
+          3283.16641403449
+        ],
+        [
+          629.8066323905703,
+          2344.539640896918,
+          3282.9282089838302
+        ],
+        [
+          629.8066323905703,
+          2344.769766184163,
+          3282.6890039043856
+        ],
+        [
+          629.8066323905703,
+          2344.998852132318,
+          3282.4488033156204
+        ],
+        [
+          629.8066323905703,
+          2345.2268943797644,
+          3282.207611736997
+        ],
+        [
+          629.8066323905703,
+          2345.453888564883,
+          3281.96543368798
+        ],
+        [
+          629.8066323905703,
+          2345.6798303260553,
+          3281.722273688032
+        ],
+        [
+          629.8066323905703,
+          2345.9047153016613,
+          3281.4781362566173
+        ],
+        [
+          629.8066323905703,
+          2346.128539130083,
+          3281.2330259131986
+        ],
+        [
+          629.8066323905703,
+          2346.3512974497007,
+          3280.98694717724
+        ],
+        [
+          629.8066323905703,
+          2346.572985898896,
+          3280.739904568205
+        ],
+        [
+          629.8066323905703,
+          2346.7936001160497,
+          3280.491902605556
+        ],
+        [
+          629.8066323905703,
+          2347.0131357395426,
+          3280.242945808758
+        ],
+        [
+          629.8066323905703,
+          2347.231588407756,
+          3279.9930386972733
+        ],
+        [
+          629.8066323905703,
+          2347.4489537590707,
+          3279.742185790566
+        ],
+        [
+          629.8066323905703,
+          2347.6652274318676,
+          3279.4903916080993
+        ],
+        [
+          629.8066323905703,
+          2347.880405064528,
+          3279.237660669336
+        ],
+        [
+          629.8066323905703,
+          2348.094482295433,
+          3278.9839974937413
+        ],
+        [
+          629.8066323905703,
+          2348.307454762963,
+          3278.729406600777
+        ],
+        [
+          629.8066323905703,
+          2348.5193181054997,
+          3278.4738925099073
+        ],
+        [
+          629.8066323905703,
+          2348.730067961424,
+          3278.2174597405956
+        ],
+        [
+          629.8066323905703,
+          2348.9396999691166,
+          3277.9601128123054
+        ],
+        [
+          629.8066323905703,
+          2349.1482097669586,
+          3277.7018562445
+        ],
+        [
+          629.8066323905703,
+          2349.355592993331,
+          3277.442694556643
+        ],
+        [
+          629.8066323905703,
+          2349.561845286615,
+          3277.182632268198
+        ],
+        [
+          629.8066323905703,
+          2349.7669622851918,
+          3276.921673898628
+        ],
+        [
+          629.8066323905703,
+          2349.970939627442,
+          3276.6598239673967
+        ],
+        [
+          629.8066323905703,
+          2350.1737729517463,
+          3276.397086993968
+        ],
+        [
+          629.8066323905703,
+          2350.3754578964863,
+          3276.133467497805
+        ],
+        [
+          629.8066323905703,
+          2350.575990100043,
+          3275.8689699983706
+        ],
+        [
+          629.8066323905703,
+          2350.775365200797,
+          3275.6035990151295
+        ],
+        [
+          629.8066323905703,
+          2350.97357883713,
+          3275.337359067544
+        ],
+        [
+          629.8066323905703,
+          2351.170626647422,
+          3275.0702546750786
+        ],
+        [
+          629.8066323905703,
+          2351.366504270055,
+          3274.802290357196
+        ],
+        [
+          629.8066323905703,
+          2351.561207343409,
+          3274.5334706333597
+        ],
+        [
+          629.8066323905703,
+          2351.7547315058664,
+          3274.2638000230336
+        ],
+        [
+          629.8066323905703,
+          2351.947072395807,
+          3273.99328304568
+        ],
+        [
+          629.8066323905703,
+          2352.1382256516126,
+          3273.721924220765
+        ],
+        [
+          629.8066323905703,
+          2352.3281869116636,
+          3273.4497280677488
+        ],
+        [
+          629.8066323905703,
+          2352.5169518143407,
+          3273.1766991060977
+        ],
+        [
+          629.8066323905703,
+          2352.704516734997,
+          3272.902842794981
+        ],
+        [
+          629.8066323905703,
+          2352.8908827930427,
+          3272.6281703755903
+        ],
+        [
+          629.8066323905703,
+          2353.0760477955614,
+          3272.352688424934
+        ],
+        [
+          629.8066323905703,
+          2353.2600086653647,
+          3272.0764023575884
+        ],
+        [
+          629.8066323905703,
+          2353.4427623252636,
+          3271.799317588133
+        ],
+        [
+          629.8066323905703,
+          2353.6243056980693,
+          3271.521439531143
+        ],
+        [
+          629.8066323905703,
+          2353.8046357065923,
+          3271.2427736011973
+        ],
+        [
+          629.8066323905703,
+          2353.983749273644,
+          3270.9633252128733
+        ],
+        [
+          629.8066323905703,
+          2354.161643322035,
+          3270.6830997807483
+        ],
+        [
+          629.8066323905703,
+          2354.338314774577,
+          3270.4021027194
+        ],
+        [
+          629.8066323905703,
+          2354.5137605540813,
+          3270.120339443405
+        ],
+        [
+          629.8066323905703,
+          2354.6879775833577,
+          3269.837815367342
+        ],
+        [
+          629.8066323905703,
+          2354.8609627852184,
+          3269.554535905788
+        ],
+        [
+          629.8066323905703,
+          2355.032713082474,
+          3269.2705064733204
+        ],
+        [
+          629.8066323905703,
+          2355.203225397935,
+          3268.985732484516
+        ],
+        [
+          629.8066323905703,
+          2355.3724966544137,
+          3268.700219353954
+        ],
+        [
+          629.8066323905703,
+          2355.540523774721,
+          3268.41397249621
+        ],
+        [
+          629.8066323905703,
+          2355.7073036816664,
+          3268.126997325863
+        ],
+        [
+          629.8066323905703,
+          2355.8728332980627,
+          3267.83929925749
+        ],
+        [
+          629.8066323905703,
+          2356.0371095467194,
+          3267.5508837056673
+        ],
+        [
+          629.8066323905703,
+          2356.200129350449,
+          3267.261756084975
+        ],
+        [
+          629.8066323905703,
+          2356.361889632062,
+          3266.971921809988
+        ],
+        [
+          629.8066323905703,
+          2356.522387314369,
+          3266.681386295285
+        ],
+        [
+          629.8066323905703,
+          2356.681619320182,
+          3266.390154955443
+        ],
+        [
+          629.8066323905703,
+          2356.839582572311,
+          3266.0982332050403
+        ],
+        [
+          629.8066323905703,
+          2356.9962739935677,
+          3265.8056264586535
+        ],
+        [
+          629.8066323905703,
+          2357.151690506763,
+          3265.5123401308606
+        ],
+        [
+          629.8066323905703,
+          2357.305829034708,
+          3265.2183796362388
+        ],
+        [
+          629.8066323905703,
+          2357.458686500214,
+          3264.9237503893664
+        ],
+        [
+          629.8066323905703,
+          2357.6102598260914,
+          3264.6284578048194
+        ],
+        [
+          629.8066323905703,
+          2357.7605459351516,
+          3264.332507297176
+        ],
+        [
+          629.8066323905703,
+          2357.909541750206,
+          3264.035904281015
+        ],
+        [
+          629.8066323905703,
+          2358.057244194065,
+          3263.738654170912
+        ],
+        [
+          629.8066323905703,
+          2358.2036501895395,
+          3263.440762381445
+        ],
+        [
+          629.8066323905703,
+          2358.3487566594413,
+          3263.1422343271915
+        ],
+        [
+          629.8066323905703,
+          2358.4925605265817,
+          3262.8430754227293
+        ],
+        [
+          629.8066323905703,
+          2358.6350587137704,
+          3262.543291082636
+        ],
+        [
+          629.8066323905703,
+          2358.7762481438194,
+          3262.2428867214885
+        ],
+        [
+          629.8066323905703,
+          2358.916125744214,
+          3261.9418677599174
+        ],
+        [
+          629.8066323905703,
+          2359.0546895054113,
+          3261.640240908365
+        ],
+        [
+          629.8066323905703,
+          2359.1919376283295,
+          3261.3380128504696
+        ],
+        [
+          629.8066323905703,
+          2359.3278677046624,
+          3261.0351894167243
+        ],
+        [
+          629.8066323905703,
+          2359.462477326103,
+          3260.7317764376257
+        ],
+        [
+          629.8066323905703,
+          2359.595764084345,
+          3260.4277797436675
+        ],
+        [
+          629.8066323905703,
+          2359.727725571083,
+          3260.123205165346
+        ],
+        [
+          629.8066323905703,
+          2359.8583593780095,
+          3259.8180585331534
+        ],
+        [
+          629.8066323905703,
+          2359.987663096819,
+          3259.512345677587
+        ],
+        [
+          629.8066323905703,
+          2360.1156343192047,
+          3259.206072429141
+        ],
+        [
+          629.8066323905703,
+          2360.2422706368607,
+          3258.8992446183092
+        ],
+        [
+          629.8066323905703,
+          2360.3675696414803,
+          3258.5918680755867
+        ],
+        [
+          629.8066323905703,
+          2360.4915289247574,
+          3258.2839486314692
+        ],
+        [
+          629.8066323905703,
+          2360.614146078385,
+          3257.9754921164513
+        ],
+        [
+          629.8066323905703,
+          2360.7354186940584,
+          3257.6665043610265
+        ],
+        [
+          629.8066323905703,
+          2360.85534436347,
+          3257.356991195691
+        ],
+        [
+          629.8066323905703,
+          2360.9739206783133,
+          3257.0469584509397
+        ],
+        [
+          629.8066323905703,
+          2361.091145230282,
+          3256.7364119572662
+        ],
+        [
+          629.8066323905703,
+          2361.2070156110713,
+          3256.4253575451658
+        ],
+        [
+          629.8066323905703,
+          2361.321529412373,
+          3256.113801045134
+        ],
+        [
+          629.8066323905703,
+          2361.4346845139985,
+          3255.8017483579733
+        ],
+        [
+          629.8066323905703,
+          2361.5464791959917,
+          3255.4892054441725
+        ],
+        [
+          629.8066323905703,
+          2361.656911454623,
+          3255.176178168534
+        ],
+        [
+          629.8066323905703,
+          2361.7659792816335,
+          3254.862672394596
+        ],
+        [
+          629.8066323905703,
+          2361.873680668764,
+          3254.5486939858947
+        ],
+        [
+          629.8066323905703,
+          2361.980013607756,
+          3254.234248805969
+        ],
+        [
+          629.8066323905703,
+          2362.0849760903493,
+          3253.9193427183554
+        ],
+        [
+          629.8066323905703,
+          2362.188566108286,
+          3253.603981586592
+        ],
+        [
+          629.8066323905703,
+          2362.290781653307,
+          3253.288171274216
+        ],
+        [
+          629.8066323905703,
+          2362.3916207242173,
+          3252.9719176442477
+        ],
+        [
+          629.8066323905703,
+          2362.491081493561,
+          3252.655226542303
+        ],
+        [
+          629.8066323905703,
+          2362.5891621817336,
+          3252.3381037995514
+        ],
+        [
+          629.8066323905703,
+          2362.685860979638,
+          3252.020555247847
+        ]
+      ],
+      "STC05_parameter": 0.8251588257621411,
+      "STC05_recovered_spine_xyz_mm": [
+        629.8066323905703,
+        2304.94666974543,
+        3304.64923610474
+      ],
+      "STC05_distance_from_projected_C_mm": 17.54976641445265,
+      "STC05_distance_to_projected_D_mm": 82.02851860248067,
+      "STC05_radial_distance_mm": 16.663669555225365
+    },
+    {
+      "path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45",
+      "face": 4,
+      "from_tag": "G",
+      "to_tag": "H",
+      "endpoint_projection_parameters": [
+        0.9972938364656504,
+        0.020571041750813777
+      ],
+      "endpoint_residuals_mm": [
+        0.008623506549804169,
+        1.0310129428751538
+      ],
+      "recovered_spine_length_mm": 99.57828500736201,
+      "basis": "Mean of opposed U=0,0.5 points on BSpline support surface; bounds are closest spine points to extracted straight-axis endpoints; not a healed exact hydraulic centerline",
+      "max_opposite_midpoint_disagreement_mm": 7.008127344043915e-13,
+      "max_profile_radius_error_mm": 0.0005433645525307895,
+      "polyline_xyz_mm": [
+        [
+          629.8213209882362,
+          587.1041470034872,
+          1679.927515815846
+        ],
+        [
+          629.8212643631525,
+          586.7723120835462,
+          1679.918468938231
+        ],
+        [
+          629.8212076886343,
+          586.4404438000054,
+          1679.9108678971697
+        ],
+        [
+          629.8211509657156,
+          586.1085481851471,
+          1679.9047127092163
+        ],
+        [
+          629.821094195431,
+          585.7766312877914,
+          1679.9000034501987
+        ],
+        [
+          629.8210373788158,
+          585.4446991579105,
+          1679.8967401964062
+        ],
+        [
+          629.8209805169136,
+          585.1127578835707,
+          1679.8949229656591
+        ],
+        [
+          629.820923610771,
+          584.7808135707628,
+          1679.8945517466377
+        ],
+        [
+          629.820866661436,
+          584.4488723254773,
+          1679.8956265280226
+        ],
+        [
+          629.8208096699552,
+          584.1169402523368,
+          1679.8981473022177
+        ],
+        [
+          629.8207526373726,
+          583.7850234455943,
+          1679.9021141053342
+        ],
+        [
+          629.8206955647504,
+          583.4531280765971,
+          1679.907526803287
+        ],
+        [
+          629.8206384531566,
+          583.1212603402801,
+          1679.9143852037832
+        ],
+        [
+          629.8205813036592,
+          582.7894264315786,
+          1679.9226891145295
+        ],
+        [
+          629.8205241173264,
+          582.4576325454278,
+          1679.9324383432327
+        ],
+        [
+          629.8204668952262,
+          582.1258848767627,
+          1679.9436326976
+        ],
+        [
+          629.8204096384266,
+          581.7941896205184,
+          1679.956271985338
+        ],
+        [
+          629.8203523479954,
+          581.4625529716302,
+          1679.9703560141536
+        ],
+        [
+          629.8202950250011,
+          581.1309811250333,
+          1679.9858845917543
+        ],
+        [
+          629.8202376705078,
+          580.7994802752007,
+          1680.0028576404452
+        ],
+        [
+          629.8201802855829,
+          580.4680566537811,
+          1680.0212752103112
+        ],
+        [
+          629.8201228713189,
+          580.1367165398747,
+          1680.0411367638405
+        ],
+        [
+          629.8200654288106,
+          579.8054662146565,
+          1680.0624417167069
+        ],
+        [
+          629.8200079591529,
+          579.4743119593022,
+          1680.0851894845848
+        ],
+        [
+          629.8199504634401,
+          579.1432600549871,
+          1680.1093794831493
+        ],
+        [
+          629.8198929427673,
+          578.8123167828863,
+          1680.1350111280742
+        ],
+        [
+          629.8198353982289,
+          578.4814884241757,
+          1680.1620838350345
+        ],
+        [
+          629.8197778309196,
+          578.1507812600303,
+          1680.1905970197042
+        ],
+        [
+          629.8197202419342,
+          577.8202015716255,
+          1680.2205500977584
+        ],
+        [
+          629.8196626323672,
+          577.4897556401369,
+          1680.251942484871
+        ],
+        [
+          629.8196050033133,
+          577.1594497467395,
+          1680.2847735967166
+        ],
+        [
+          629.8195473558676,
+          576.829290172609,
+          1680.3190428489702
+        ],
+        [
+          629.8194896911241,
+          576.4992831989206,
+          1680.3547496573055
+        ],
+        [
+          629.8194320101779,
+          576.1694351068497,
+          1680.3918934373978
+        ],
+        [
+          629.8193743141237,
+          575.8397521775718,
+          1680.4304736049212
+        ],
+        [
+          629.819316604056,
+          575.5102406922621,
+          1680.4704895755501
+        ],
+        [
+          629.8192588810696,
+          575.1809069320959,
+          1680.511940764959
+        ],
+        [
+          629.819201146259,
+          574.8517571782489,
+          1680.5548265888226
+        ],
+        [
+          629.8191434007381,
+          574.5227978573561,
+          1680.5991466612275
+        ],
+        [
+          629.8190856457452,
+          574.1940363155472,
+          1680.6449016823294
+        ],
+        [
+          629.8190278823954,
+          573.8654788845516,
+          1680.6920906742528
+        ],
+        [
+          629.8189701117723,
+          573.5371316450709,
+          1680.7407122909624
+        ],
+        [
+          629.818912334959,
+          573.2090006778066,
+          1680.7907651864239
+        ],
+        [
+          629.818854553039,
+          572.8810920634598,
+          1680.8422480146025
+        ],
+        [
+          629.8187967670956,
+          572.5534118827325,
+          1680.8951594294638
+        ],
+        [
+          629.8187389782122,
+          572.2259662163258,
+          1680.9494980849727
+        ],
+        [
+          629.8186811874718,
+          571.8987611449413,
+          1681.0052626350948
+        ],
+        [
+          629.8186233959582,
+          571.5718027492808,
+          1681.0624517337958
+        ],
+        [
+          629.8185656047544,
+          571.2450971100452,
+          1681.12106403504
+        ],
+        [
+          629.8185078149439,
+          570.9186503079363,
+          1681.1810981927933
+        ],
+        [
+          629.8184500276101,
+          570.5924684236558,
+          1681.2425528610213
+        ],
+        [
+          629.818392243836,
+          570.2665575379046,
+          1681.305426693689
+        ],
+        [
+          629.8183344647052,
+          569.9409237313848,
+          1681.3697183447618
+        ],
+        [
+          629.818276691301,
+          569.6155730847977,
+          1681.435426468205
+        ],
+        [
+          629.8182189247067,
+          569.2905116788445,
+          1681.5025497179838
+        ],
+        [
+          629.8181611660057,
+          568.965745594227,
+          1681.5710867480639
+        ],
+        [
+          629.8181034162812,
+          568.6412809116464,
+          1681.64103621241
+        ],
+        [
+          629.8180456766166,
+          568.3171237118046,
+          1681.7123967649877
+        ],
+        [
+          629.8179879480954,
+          567.9932800754026,
+          1681.785167059763
+        ],
+        [
+          629.8179302318007,
+          567.6697560831424,
+          1681.8593457507
+        ],
+        [
+          629.8178725288159,
+          567.346557815725,
+          1681.934931491765
+        ],
+        [
+          629.8178148402243,
+          567.0236913538522,
+          1682.011922936923
+        ],
+        [
+          629.8177571671093,
+          566.7011627782252,
+          1682.0903187401393
+        ],
+        [
+          629.8176995105542,
+          566.3789781695459,
+          1682.170117555379
+        ],
+        [
+          629.8176418716424,
+          566.0571436085153,
+          1682.251318036608
+        ],
+        [
+          629.8175842514572,
+          565.7356651758353,
+          1682.3339188377909
+        ],
+        [
+          629.8175266510818,
+          565.4145489522073,
+          1682.4179186128936
+        ],
+        [
+          629.8174690715998,
+          565.0938010183326,
+          1682.5033160158814
+        ],
+        [
+          629.8174115140944,
+          564.7734274549127,
+          1682.590109700719
+        ],
+        [
+          629.8173539796487,
+          564.4534343426492,
+          1682.6782983213725
+        ],
+        [
+          629.8172964693465,
+          564.1338277622438,
+          1682.7678805318064
+        ],
+        [
+          629.8172389842707,
+          563.8146137943974,
+          1682.858854985987
+        ],
+        [
+          629.817181525505,
+          563.4957985198118,
+          1682.9512203378788
+        ],
+        [
+          629.8171240941324,
+          563.1773880191887,
+          1683.0449752414477
+        ],
+        [
+          629.8170666912363,
+          562.8593883732294,
+          1683.1401183506587
+        ],
+        [
+          629.8170093179002,
+          562.5418056626354,
+          1683.2366483194771
+        ],
+        [
+          629.8169519752082,
+          562.2246459739692,
+          1683.3345638101803
+        ],
+        [
+          629.8168946646626,
+          561.9079186122104,
+          1683.4338679013404
+        ],
+        [
+          629.8168373876747,
+          561.5916320468899,
+          1683.5345619442971
+        ],
+        [
+          629.8167801452913,
+          561.2757918815792,
+          1683.6366431019303
+        ],
+        [
+          629.816722938559,
+          560.9604037198501,
+          1683.7401085371193
+        ],
+        [
+          629.8166657685241,
+          560.6454731652746,
+          1683.8449554127437
+        ],
+        [
+          629.8166086362335,
+          560.3310058214245,
+          1683.951180891683
+        ],
+        [
+          629.8165515427338,
+          560.0170072918714,
+          1684.0587821368172
+        ],
+        [
+          629.8164944890715,
+          559.7034831801875,
+          1684.1677563110254
+        ],
+        [
+          629.8164374762932,
+          559.3904390899444,
+          1684.2781005771876
+        ],
+        [
+          629.8163805054455,
+          559.077880624714,
+          1684.3898120981828
+        ],
+        [
+          629.8163235775751,
+          558.7658133880681,
+          1684.5028880368914
+        ],
+        [
+          629.8162666937285,
+          558.4542429835785,
+          1684.6173255561923
+        ],
+        [
+          629.8162098549524,
+          558.1431750148171,
+          1684.7331218189656
+        ],
+        [
+          629.8161530622932,
+          557.8326150853558,
+          1684.8502739880905
+        ],
+        [
+          629.8160963167977,
+          557.5225687987661,
+          1684.968779226447
+        ],
+        [
+          629.8160396195126,
+          557.2130417586202,
+          1685.0886346969141
+        ],
+        [
+          629.8159829714842,
+          556.9040395684898,
+          1685.209837562372
+        ],
+        [
+          629.8159263737593,
+          556.5955678319467,
+          1685.3323849857
+        ],
+        [
+          629.8158698273844,
+          556.2876321525628,
+          1685.4562741297777
+        ],
+        [
+          629.8158133334064,
+          555.9802381339098,
+          1685.5815021574845
+        ],
+        [
+          629.8157568928715,
+          555.6733913795596,
+          1685.7080662317005
+        ],
+        [
+          629.8157005068265,
+          555.3670974930842,
+          1685.8359635153047
+        ],
+        [
+          629.8156441763178,
+          555.061362078055,
+          1685.9651911711771
+        ],
+        [
+          629.8155879023925,
+          554.7561907380442,
+          1686.0957463621976
+        ],
+        [
+          629.8155316860966,
+          554.4515890766237,
+          1686.2276262512448
+        ],
+        [
+          629.8154755284771,
+          554.147562697365,
+          1686.360828001199
+        ],
+        [
+          629.8154194305807,
+          553.8441172038401,
+          1686.4953487749399
+        ],
+        [
+          629.8153633934535,
+          553.5412581996209,
+          1686.6311857353467
+        ],
+        [
+          629.8153074181425,
+          553.2389912882791,
+          1686.7683360452988
+        ],
+        [
+          629.8152515056943,
+          552.9373220733864,
+          1686.9067968676766
+        ],
+        [
+          629.8151956571553,
+          552.636256158515,
+          1687.0465653653591
+        ],
+        [
+          629.8151398735722,
+          552.3357991472367,
+          1687.1876387012258
+        ],
+        [
+          629.8150841559916,
+          552.035956643123,
+          1687.3300140381568
+        ],
+        [
+          629.8150285054603,
+          551.7367342497457,
+          1687.4736885390312
+        ],
+        [
+          629.8149729230245,
+          551.4381375706771,
+          1687.618659366729
+        ],
+        [
+          629.814917409731,
+          551.1401722094886,
+          1687.7649236841291
+        ],
+        [
+          629.8148619666267,
+          550.8428437697522,
+          1687.9124786541117
+        ],
+        [
+          629.8148065947578,
+          550.5461578550398,
+          1688.0613214395567
+        ],
+        [
+          629.8147512951709,
+          550.2501200689233,
+          1688.211449203343
+        ],
+        [
+          629.8146960689128,
+          549.9547360149741,
+          1688.3628591083502
+        ],
+        [
+          629.8146409170301,
+          549.6600112967643,
+          1688.515548317458
+        ],
+        [
+          629.8145858405693,
+          549.3659515178658,
+          1688.6695139935468
+        ],
+        [
+          629.8145308405772,
+          549.0725622818504,
+          1688.8247532994951
+        ],
+        [
+          629.8144759181,
+          548.7798491922899,
+          1688.9812633981828
+        ],
+        [
+          629.8144210741847,
+          548.4878178527563,
+          1689.13904145249
+        ],
+        [
+          629.8143663098778,
+          548.196473866821,
+          1689.2980846252954
+        ],
+        [
+          629.8143116262257,
+          547.9058228380561,
+          1689.4583900794792
+        ],
+        [
+          629.8142570242753,
+          547.6158703700336,
+          1689.619954977921
+        ],
+        [
+          629.814202505073,
+          547.326622066325,
+          1689.7827764835004
+        ],
+        [
+          629.8141480696655,
+          547.0380835305023,
+          1689.9468517590967
+        ],
+        [
+          629.8140937190994,
+          546.7502603661374,
+          1690.1121779675893
+        ],
+        [
+          629.8140394544213,
+          546.4631581768018,
+          1690.2787522718586
+        ],
+        [
+          629.8139852766777,
+          546.1767825660677,
+          1690.4465718347833
+        ],
+        [
+          629.8139311869154,
+          545.8911391375068,
+          1690.6156338192438
+        ],
+        [
+          629.8138771861808,
+          545.6062334946911,
+          1690.7859353881192
+        ],
+        [
+          629.8138232755206,
+          545.3220712411919,
+          1690.9574737042892
+        ],
+        [
+          629.8137694559814,
+          545.0386579805818,
+          1691.1302459306335
+        ],
+        [
+          629.8137157286097,
+          544.7559993164318,
+          1691.3042492300312
+        ],
+        [
+          629.8136620944524,
+          544.4741008523143,
+          1691.4794807653625
+        ],
+        [
+          629.8136085545559,
+          544.192968191801,
+          1691.6559376995067
+        ],
+        [
+          629.8135551099667,
+          543.9126069384638,
+          1691.8336171953435
+        ],
+        [
+          629.8135017617315,
+          543.6330226958743,
+          1692.0125164157525
+        ],
+        [
+          629.8134485108969,
+          543.3542210676046,
+          1692.1926325236132
+        ],
+        [
+          629.8133953585098,
+          543.0762076572262,
+          1692.373962681805
+        ],
+        [
+          629.8133423056162,
+          542.7989880683112,
+          1692.556504053208
+        ],
+        [
+          629.8132893532631,
+          542.5225679044315,
+          1692.7402538007018
+        ],
+        [
+          629.813236502497,
+          542.2469527691586,
+          1692.925209087165
+        ],
+        [
+          629.8131837543647,
+          541.9721482660646,
+          1693.1113670754785
+        ],
+        [
+          629.8131311099125,
+          541.6981599987212,
+          1693.2987249285209
+        ],
+        [
+          629.8130785701874,
+          541.4249935707003,
+          1693.4872798091722
+        ],
+        [
+          629.8130261362353,
+          541.1526545855737,
+          1693.6770288803123
+        ],
+        [
+          629.8129738091036,
+          540.8811486469132,
+          1693.86796930482
+        ],
+        [
+          629.8129215898384,
+          540.6104813582908,
+          1694.0600982455755
+        ],
+        [
+          629.8128694794865,
+          540.3406583232779,
+          1694.2534128654581
+        ],
+        [
+          629.8128174790944,
+          540.071685145447,
+          1694.447910327348
+        ],
+        [
+          629.8127655897089,
+          539.8035674283692,
+          1694.6435877941237
+        ],
+        [
+          629.8127138123943,
+          539.5363108670115,
+          1694.8404423538934
+        ],
+        [
+          629.8126621485314,
+          539.2699226584693,
+          1695.038469155895
+        ],
+        [
+          629.8126105991705,
+          539.0044080474852,
+          1695.2376632068308
+        ],
+        [
+          629.8125591651961,
+          538.7397713956782,
+          1695.4380199872373
+        ],
+        [
+          629.8125078474928,
+          538.4760170646668,
+          1695.6395349776512
+        ],
+        [
+          629.8124566469451,
+          538.2131494160706,
+          1695.8422036586094
+        ],
+        [
+          629.8124055644373,
+          537.9511728115081,
+          1696.0460215106477
+        ],
+        [
+          629.812354600854,
+          537.690091612598,
+          1696.2509840143032
+        ],
+        [
+          629.8123037570798,
+          537.42991018096,
+          1696.4570866501122
+        ],
+        [
+          629.8122530339992,
+          537.170632878212,
+          1696.664324898611
+        ],
+        [
+          629.8122024324969,
+          536.9122640659737,
+          1696.8726942403368
+        ],
+        [
+          629.812151953457,
+          536.6548081058634,
+          1697.0821901558259
+        ],
+        [
+          629.8121015977642,
+          536.3982693595007,
+          1697.2928081256146
+        ],
+        [
+          629.8120513663032,
+          536.1426521885039,
+          1697.5045436302394
+        ],
+        [
+          629.8120012599582,
+          535.8879609544922,
+          1697.7173921502376
+        ],
+        [
+          629.8119512796139,
+          535.6342000190845,
+          1697.9313491661449
+        ],
+        [
+          629.8119014261548,
+          535.3813737438995,
+          1698.146410158498
+        ],
+        [
+          629.8118517004655,
+          535.1294864905566,
+          1698.3625706078337
+        ],
+        [
+          629.8118021034303,
+          534.8785426206741,
+          1698.5798259946887
+        ],
+        [
+          629.811752635934,
+          534.6285464958714,
+          1698.798171799599
+        ],
+        [
+          629.8117032988607,
+          534.3795024777672,
+          1699.0176035031013
+        ],
+        [
+          629.8116540930953,
+          534.1314149279805,
+          1699.2381165857325
+        ],
+        [
+          629.8116050195222,
+          533.8842882081299,
+          1699.459706528029
+        ],
+        [
+          629.8115560790259,
+          533.6381266798348,
+          1699.6823688105274
+        ],
+        [
+          629.8115072724908,
+          533.3929347047138,
+          1699.9060989137638
+        ],
+        [
+          629.8114586008015,
+          533.1487166443858,
+          1700.130892318275
+        ],
+        [
+          629.8114100648427,
+          532.9054768604699,
+          1700.3567445045983
+        ],
+        [
+          629.8113616654986,
+          532.6632197145849,
+          1700.583650953269
+        ],
+        [
+          629.8113134036539,
+          532.4219495683496,
+          1700.8116071448242
+        ],
+        [
+          629.811265280193,
+          532.1816707833832,
+          1701.0406085598008
+        ],
+        [
+          629.8112172960006,
+          531.9423877213044,
+          1701.270650678735
+        ],
+        [
+          629.8111694519611,
+          531.7041047437322,
+          1701.501728982163
+        ],
+        [
+          629.8111217489588,
+          531.4668262122854,
+          1701.7338389506222
+        ],
+        [
+          629.8110741878786,
+          531.2305564885828,
+          1701.9669760646484
+        ],
+        [
+          629.8110267696048,
+          530.9952999342438,
+          1702.2011358047785
+        ],
+        [
+          629.8109794950221,
+          530.7610609108867,
+          1702.4363136515487
+        ],
+        [
+          629.8109323650148,
+          530.527843780131,
+          1702.6725050854961
+        ],
+        [
+          629.8108853804674,
+          530.2956529035953,
+          1702.9097055871566
+        ],
+        [
+          629.8108385422646,
+          530.0644926428984,
+          1703.1479106370678
+        ],
+        [
+          629.8107918512908,
+          529.8343673596595,
+          1703.387115715765
+        ],
+        [
+          629.8107453084305,
+          529.6052814154971,
+          1703.6273163037854
+        ],
+        [
+          629.8106989145682,
+          529.3772391720306,
+          1703.8685078816654
+        ],
+        [
+          629.8106526705885,
+          529.1502449908787,
+          1704.1106859299418
+        ],
+        [
+          629.8106065773759,
+          528.9243032336601,
+          1704.3538459291508
+        ],
+        [
+          629.8105606358149,
+          528.6994182619942,
+          1704.597983359829
+        ],
+        [
+          629.8105148467899,
+          528.4755944374995,
+          1704.8430937025132
+        ],
+        [
+          629.8104692111856,
+          528.2528361217951,
+          1705.0891724377398
+        ],
+        [
+          629.8104237298865,
+          528.0311476764997,
+          1705.3362150460453
+        ],
+        [
+          629.8103784037769,
+          527.8105334632324,
+          1705.5842170079661
+        ],
+        [
+          629.8103332337415,
+          527.5909978436121,
+          1705.8331738040392
+        ],
+        [
+          629.8102882206648,
+          527.3725451792578,
+          1706.0830809148008
+        ],
+        [
+          629.8102433654313,
+          527.1551798317881,
+          1706.3339338207877
+        ],
+        [
+          629.8101986689255,
+          526.9389061628223,
+          1706.5857280025357
+        ],
+        [
+          629.8101541320319,
+          526.723728533979,
+          1706.8384589405825
+        ],
+        [
+          629.810109755635,
+          526.5096513068772,
+          1707.092122115464
+        ],
+        [
+          629.8100655406195,
+          526.2966788431359,
+          1707.3467130077165
+        ],
+        [
+          629.8100214878696,
+          526.0848155043741,
+          1707.6022270978774
+        ],
+        [
+          629.8099775982699,
+          525.8740656522104,
+          1707.8586598664822
+        ],
+        [
+          629.8099338727052,
+          525.6644336482639,
+          1708.1160067940682
+        ],
+        [
+          629.8098903120597,
+          525.4559238541535,
+          1708.3742633611716
+        ],
+        [
+          629.809846917218,
+          525.2485406314981,
+          1708.6334250483292
+        ],
+        [
+          629.8098036890647,
+          525.0422883419167,
+          1708.8934873360774
+        ],
+        [
+          629.8097606284841,
+          524.8371713470281,
+          1709.1544457049526
+        ],
+        [
+          629.8097177363609,
+          524.6331940084511,
+          1709.4162956354917
+        ],
+        [
+          629.8096750135796,
+          524.430360687805,
+          1709.679032608231
+        ],
+        [
+          629.8096324610248,
+          524.2286757467083,
+          1709.9426521037071
+        ],
+        [
+          629.8095900795807,
+          524.02814354678,
+          1710.2071496024564
+        ],
+        [
+          629.8095478701323,
+          523.8287684496393,
+          1710.472520585016
+        ],
+        [
+          629.8095058335637,
+          523.6305548169048,
+          1710.7387605319213
+        ],
+        [
+          629.8094639707595,
+          523.4335070101955,
+          1711.0058649237103
+        ],
+        [
+          629.8094222826041,
+          523.2376293911303,
+          1711.2738292409185
+        ],
+        [
+          629.8093807699825,
+          523.0429263213282,
+          1711.542648964083
+        ],
+        [
+          629.8093394337786,
+          522.8494021624081,
+          1711.8123195737398
+        ],
+        [
+          629.8092982748775,
+          522.6570612759888,
+          1712.0828365504262
+        ],
+        [
+          629.8092572941632,
+          522.4659080236893,
+          1712.354195374678
+        ],
+        [
+          629.8092164925204,
+          522.2759467671285,
+          1712.6263915270324
+        ],
+        [
+          629.8091758708338,
+          522.0871818679252,
+          1712.8994204880255
+        ],
+        [
+          629.8091354298897,
+          521.8996169507272,
+          1713.1732767984854
+        ],
+        [
+          629.8090951698362,
+          521.7132508961245,
+          1713.447949217223
+        ],
+        [
+          629.809055091248,
+          521.5280858970325,
+          1713.7234311672294
+        ],
+        [
+          629.8090151948165,
+          521.3441250306403,
+          1713.9997172339267
+        ],
+        [
+          629.8089754812332,
+          521.1613713741365,
+          1714.276802002738
+        ],
+        [
+          629.8089359511894,
+          520.97982800471,
+          1714.5546800590853
+        ],
+        [
+          629.8088966053763,
+          520.7994979995501,
+          1714.833345988391
+        ],
+        [
+          629.8088574444852,
+          520.6203844358453,
+          1715.1127943760787
+        ],
+        [
+          629.8088184692076,
+          520.4424903907844,
+          1715.3930198075698
+        ],
+        [
+          629.8087796802347,
+          520.2658189415567,
+          1715.6740168682873
+        ],
+        [
+          629.808741078258,
+          520.0903731653509,
+          1715.9557801436536
+        ],
+        [
+          629.8087026639687,
+          519.9161561393557,
+          1716.2383042190913
+        ],
+        [
+          629.8086644380584,
+          519.7431709407603,
+          1716.5215836800226
+        ],
+        [
+          629.8086264012179,
+          519.5714206467533,
+          1716.8056131118708
+        ],
+        [
+          629.8085885541391,
+          519.4009083345238,
+          1717.0903871000578
+        ],
+        [
+          629.8085508975131,
+          519.2316370812605,
+          1717.375900230006
+        ],
+        [
+          629.8085134320313,
+          519.0636099641526,
+          1717.6621470871385
+        ],
+        [
+          629.8084761583849,
+          518.8968300603888,
+          1717.9491222568772
+        ],
+        [
+          629.8084390772653,
+          518.7313004471579,
+          1718.236820324645
+        ],
+        [
+          629.8084021893642,
+          518.5670242016489,
+          1718.5252358758644
+        ],
+        [
+          629.8083654953723,
+          518.4040044010507,
+          1718.8143634959583
+        ],
+        [
+          629.8083289959814,
+          518.242244122552,
+          1719.1041977703485
+        ],
+        [
+          629.8082926918826,
+          518.081746443342,
+          1719.3947332844577
+        ],
+        [
+          629.8082565837674,
+          517.9225144406093,
+          1719.6859646237085
+        ],
+        [
+          629.8082206723271,
+          517.7645511915431,
+          1719.977886373524
+        ],
+        [
+          629.8081849582532,
+          517.6078597733319,
+          1720.2704931193255
+        ],
+        [
+          629.8081494422365,
+          517.452443263165,
+          1720.5637794465365
+        ],
+        [
+          629.8081141249689,
+          517.298304738231,
+          1720.8577399405794
+        ],
+        [
+          629.8080790071416,
+          517.1454472757189,
+          1721.1523691868767
+        ],
+        [
+          629.8080440894457,
+          516.9938739528175,
+          1721.4476617708506
+        ],
+        [
+          629.808009372573,
+          516.843587846716,
+          1721.7436122779238
+        ],
+        [
+          629.8079748572144,
+          516.6945920346028,
+          1722.040215293519
+        ],
+        [
+          629.8079405440615,
+          516.5468895936672,
+          1722.3374654030586
+        ],
+        [
+          629.8079064338054,
+          516.4004836010978,
+          1722.6353571919649
+        ],
+        [
+          629.8078725271378,
+          516.2553771340836,
+          1722.9338852456606
+        ],
+        [
+          629.8078388247496,
+          516.1115732698137,
+          1723.2330441495685
+        ],
+        [
+          629.8078053273325,
+          515.9690750854766,
+          1723.5328284891107
+        ],
+        [
+          629.8077720355777,
+          515.8278856582614,
+          1723.83323284971
+        ],
+        [
+          629.8077389501759,
+          515.6880080606837,
+          1724.1342518107363
+        ],
+        [
+          629.8077060716746,
+          515.5494443022842,
+          1724.4358786617472
+        ],
+        [
+          629.8076734005845,
+          515.4121961821459,
+          1724.7381067191045
+        ],
+        [
+          629.8076409374944,
+          515.276266108575,
+          1725.0409301523136
+        ],
+        [
+          629.807608682994,
+          515.141656489878,
+          1725.3443431308804
+        ],
+        [
+          629.8075766376722,
+          515.0083697343609,
+          1725.6483398243092
+        ],
+        [
+          629.8075448021184,
+          514.8764082503303,
+          1725.9529144021058
+        ],
+        [
+          629.8075131769219,
+          514.7457744460922,
+          1726.2580610337754
+        ],
+        [
+          629.8074817626716,
+          514.6164707299531,
+          1726.5637738888227
+        ],
+        [
+          629.807450559957,
+          514.4884995102191,
+          1726.8700471367533
+        ],
+        [
+          629.8074195693671,
+          514.3618631951965,
+          1727.176874947072
+        ],
+        [
+          629.8073887914913,
+          514.2365641931915,
+          1727.4842514892848
+        ],
+        [
+          629.807358226919,
+          514.1126049125107,
+          1727.7921709328962
+        ],
+        [
+          629.807327876239,
+          513.9899877614599,
+          1728.1006274474116
+        ],
+        [
+          629.8072977400409,
+          513.8687151483459,
+          1728.4096152023362
+        ],
+        [
+          629.8072678189137,
+          513.7487894814744,
+          1728.7191283671752
+        ],
+        [
+          629.8072381134467,
+          513.6302131691523,
+          1729.029161111434
+        ],
+        [
+          629.807208624229,
+          513.5129886196854,
+          1729.3397076046176
+        ],
+        [
+          629.8071793518501,
+          513.3971182413802,
+          1729.650762016231
+        ],
+        [
+          629.807150296899,
+          513.2826044425428,
+          1729.96231851578
+        ],
+        [
+          629.8071214599177,
+          513.1694493433622,
+          1730.2743712024617
+        ],
+        [
+          629.8070928413813,
+          513.0576546637955,
+          1730.5869141157864
+        ],
+        [
+          629.8070644418108,
+          512.9472224075714,
+          1730.8999413909519
+        ],
+        [
+          629.8070362617275,
+          512.8381545829491,
+          1731.2134471644208
+        ],
+        [
+          629.8070083016536,
+          512.7304531981874,
+          1731.5274255726556
+        ],
+        [
+          629.8069805621102,
+          512.6241202615455,
+          1731.8418707521191
+        ],
+        [
+          629.8069530436192,
+          512.5191577812823,
+          1732.1567768392729
+        ],
+        [
+          629.8069257467023,
+          512.4155677656569,
+          1732.4721379705807
+        ],
+        [
+          629.8068986718808,
+          512.3133522229282,
+          1732.7879482825042
+        ],
+        [
+          629.8068718196753,
+          512.2125131542905,
+          1733.1042019120239
+        ],
+        [
+          629.806845190576,
+          512.1130523871996,
+          1733.4208930135228
+        ],
+        [
+          629.8068187850643,
+          512.0149717012605,
+          1733.7380157558323
+        ],
+        [
+          629.8067926036265,
+          511.91827290557006,
+          1734.0555643070984
+        ]
+      ]
+    }
+  ],
+  "validation": {
+    "source_file": "UTDTloopWithOpticsAndHXRev8(1).STEP",
+    "sha256_matches": true,
+    "method": "Independent STEP reload; project boundary vertices onto each long main-pipe cylinder axis, compare with analytical V bounds",
+    "checks": [
+      {
+        "path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45",
+        "face": 3,
+        "vertex_projection_endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45",
+        "face": 5,
+        "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+      },
+      {
+        "path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45",
+        "face": 6,
+        "vertex_projection_endpoint_error_mm": 4.687428401686771e-13
+      },
+      {
+        "path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45",
+        "face": 9,
+        "vertex_projection_endpoint_error_mm": 0.0
+      },
+      {
+        "path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45",
+        "face": 11,
+        "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+      },
+      {
+        "path": "UTDTloopWithOpticsAndHXRev8/NAUO1/NAUO45",
+        "face": 12,
+        "vertex_projection_endpoint_error_mm": 4.687428401686771e-13
+      },
+      {
+        "path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45",
+        "face": 3,
+        "vertex_projection_endpoint_error_mm": 2.3437142008433856e-13
+      },
+      {
+        "path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45",
+        "face": 5,
+        "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+      },
+      {
+        "path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45",
+        "face": 6,
+        "vertex_projection_endpoint_error_mm": 0.0
+      },
+      {
+        "path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45",
+        "face": 9,
+        "vertex_projection_endpoint_error_mm": 2.3437142008433856e-13
+      },
+      {
+        "path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45",
+        "face": 11,
+        "vertex_projection_endpoint_error_mm": 2.2737367544323206e-13
+      },
+      {
+        "path": "UTDTloopWithOpticsAndHXRev8/NAUO2/NAUO45",
+        "face": 12,
+        "vertex_projection_endpoint_error_mm": 0.0
+      }
+    ],
+    "max_endpoint_error_mm": 9.094947017729282e-13
+  },
+  "sensor_label_basis": "Region/order aligned with the collaborator schema; STEP itself has no channel IDs. LF/PTC-02 and LF/PTC-03 share mounting bodies. JTC-A/B label two additional jacket-port assemblies.",
+  "limitations": [
+    "Active heater length and boundaries are not separately modeled. Heating-leg length is not an active heater length.",
+    "Main swept loop fluid bore is not encoded. Local instrument spool bores differ from exit tube bores.",
+    "Surface contact references can be non-unique. All minimum-distance solver solutions are retained; a physical sensing junction is not identified.",
+    "LF coordinates locate modeled mounts, not distributed optical sensing extents.",
+    "Spline bend reconstructions have endpoint residuals; exact joined hydraulic centerline lengths are not established.",
+    "Cooler straight axes have a 0.271771 mm assembly offset. No source geometry has been healed."
+  ]
+}

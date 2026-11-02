@@ -1,0 +1,28 @@
+% Bullet-only intermediate outline; author review pending.
+\section{Research Questions, Aims, and Staged Goals}
+\noindent\small Source labels: \href{run:doc_support/reconciliation/2026-11-02/SOURCES.md}{reconciliation source map}; \href{run:doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md}{figure pointers}.\normalsize
+
+\subsection{Framework contribution}
+\begin{itemize}[leftmargin=*]
+\item Develop and assess a CFD--experiment order-reduction framework; the resulting model is a fast, interpretable physics-based ROM. [R01; October 14 approved directions]
+\item Use the custom 1D solver as the main model now; CFD and experiments inform reduction, closure selection, learning, and assessment. [November 2 author direction; N09]
+\item Proposed organizing aims: (1) reduction and development-informed closures; (2) learning and observation-consistent temperature maps; (3) independent assessment and applicability. Refine these sentences with the author. [literature B Section 11]
+\item Organizing question: what information and reduced physics are needed to reproduce observed temperatures and then predict new conditions with defensible uncertainty? Keep the development-case demonstration distinct from the independent predictive test. [AD-20261102-02; Review A Sections 1, 10--11]
+\item For each aim specify one output, the permitted inputs, a comparator and an evidence product; organize by scientific question rather than by software package or a sequence of paper summaries. [G01: Theory motivation; Review B Section 11]
+\end{itemize}
+
+\subsection{Approved staged goals}
+\begin{itemize}[leftmargin=*]
+\item Stage 1: steady heat removal/losses, circulation, temperature extrema and supported operating margins. [R01--R02]
+\item Stage 2: transitions between operating conditions, thermal/hydraulic response, settling, and time-dependent margins. Stage approval is distinct from implementation readiness. [R01--R02]
+\item Stage 3: operational assistance and operator-facing model/data dashboard; collaborate with Ben Booth and NeutronOS. Controls and unattended operation need a separate agreed scope. [R01--R02]
+\item Uncertainty estimation and propagation are core across all stages. The older outline's blanket optional-transient/dashboard wording is superseded by R01/R02.
+\item Immediate feasibility emphasis is experimental-data interpretation and temperature reproduction, leaning on the master\textquotesingle{}s work. This does not remove approved transition/operator goals or establish their minimum dissertation demonstration. [AD-20261102-02]
+\end{itemize}
+
+\subsection{Spatial questions and boundaries}
+\begin{itemize}[leftmargin=*]
+\item Temperature first: centerline and radial profiles, with angular dependence where supported; richer velocity mapping is a later capability. [October 14 directions; G01: Shape functions]
+\item Overall circulation and local recirculation are separate outputs; investigate local extent and thermal consequence with qualified CFD, without inventing local experimental measurements. [R01]
+\item Fill: distinguish minimum dissertation demonstration, staged research goals, and later capabilities; retain symbolic criteria until justified.
+\end{itemize}

@@ -1,0 +1,50 @@
+% Bullet-only intermediate outline; author review pending.
+\section{Experimental and Computational Evidence}
+\noindent\small Source labels: \href{run:doc_support/reconciliation/2026-11-02/SOURCES.md}{reconciliation source map}; \href{run:doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md}{figure pointers}.\normalsize
+
+\subsection{Facility/source table to fill}
+\begin{itemize}[leftmargin=*]
+\item For each facility list geometry revision, fluid, materials/insulation, heater/cooler boundaries, sensor meanings and uncertainties. Keep historical and current configurations distinct. [N05--N08]
+\item Use Rev9/Rev8 records with explicit revision labels; do not select authoritative dimensions from appearance or an older generated drawing. [N05]
+\item VCU notes describe three mat and four band heaters; electrical input, deposition into solids/fluid, and net loop heat are different quantities. Use the accepted nominal dial-based specification where applicable and label its assumptions; metered electrical input and net fluid deposition remain separate evidence. [HC10] [N04; N06]
+\item Clarify PTC/STC/Luna roles by facility and date; do not merge the older six-PTC resistance exercise with the four-internal-TC VCU plan. [N08; N10; literature A Section 15]
+\item Give every reusable case a record linking facility, geometry/property version, run/time window, channel/coordinate map, boundary histories, exclusions and uncertainty source. Link to original photos/drawings through their source note; do not copy dimensions from an unqualified picture.
+\item Track four power quantities separately: command/dial setting, electrical input, deposited heat and net control-volume duty. Record measured versus assumed values and source provenance. [N04; N06; Review A Sections 8, 15]\cite{jcgm2020measurementmodels}
+\item The October22 CAL-019 decision accepts constant nominal20-ohm mats/48-ohm bands and dial=loaded RMS voltage for exploratory input calculations: three parallel mat/band pairs and one remaining band. For equal settings $X$, $P_{\mathrm{nominal}}=(7/30)X^2$ W. This is an accepted nominal assumption, not a measured resistance law, delivered thermal duty or recommended operating setting. [HC10]
+\item Extra electrical characterization can improve confidence but is not a prerequisite to the accepted nominal calculation. Preserve run-specific settings/off events and source-to-solid/fluid storage/contact/loss accounting. [HC10; Review A Sections 2, 8]
+\end{itemize}
+
+\subsection{Experiments and collaboration}
+\begin{itemize}[leftmargin=*]
+\item Map Nick's checkout and Phases 1--4 to configuration, noise/calibration, relaxation, energy anchors, and operating-condition/withheld assessments. Preserve original numbering and version. [N03--N04; R01]
+\item Any new data requirement enters the experiment-request matrix and discussion with Dr. Luciano; do not assume an uncommunicated run or sensor will be available. [R01--R02]
+\item Freeze development, model-selection and assessment roles before fitting; supplied boundaries cannot also be scored as independent outputs. [literature A Sections 10--11, 15]
+\item Phase 2 passive relaxation primarily supports response rates under its capacity/conductance assumptions. A Phase 3 case used to set an absolute energy scale becomes development evidence and cannot also remain blind assessment; preserve the original plan while recording a proposed role change. [G01: phase discussion; Review A Section 15]
+\item Create an experiment-to-model table: source phase/version, available signals, parameter/QoI addressed, supplied inputs, development/assessment role and remaining limitation. Communicate proposed changes through Dr. Luciano; this outline sends no requests.
+\end{itemize}
+
+\subsection{CFD deliverable specification}
+\begin{itemize}[leftmargin=*]
+\item Jointly define steady cases, field/integral exports, signed section fluxes, conjugate budgets, development descriptors, temperature profiles and sensor footprints. [literature A Section 14]
+\item Include units, geometry/property/boundary revisions, conservation and target-specific numerical sensitivity. Future transitions additionally require synchronized histories and initial-state information.
+\item Use current computational-team roles as planning context; older dated team notes do not verify November delivery or dataset readiness. [N11]
+\end{itemize}
+
+\subsection{Data lineage, quality and operating-condition groups}
+\begin{itemize}[leftmargin=*]
+\item Build a traceable data-to-model comparison record, following the existing data contract rather than a new disconnected spreadsheet. [GP15/19/21; HC03--HC04; Review A Sections 5, 10, 15]
+\begin{itemize}
+\item Keep raw files and original timestamps/units unchanged; map native channels to physical sensors and model observations using explicit configuration, calibration and source-row identities.
+\item Preserve mapped, synchronized, quality-flagged and accepted-window products as separate versioned transformations with parent IDs. Store measured statistics, CFD-reference quantities and model predictions with their distinct provenance and uncertainty.
+\end{itemize}
+\item Group operating conditions by actual inputs and configuration, then report within-group variation and evidence coverage. [GP14/18; Review A Sections 9--11]
+\begin{itemize}
+\item Use source/sink/environment histories and justified grouping tolerances; the historical five-bin examples are planning ideas, not a selected Cartesian test matrix.
+\item Distinguish classification as steady/transient, accepted statistical reporting windows and physical energy-equilibrium claims. CAL-012 and the later CAL-016 recorded-channel screens use different rules. [HC11]
+\end{itemize}
+\item Treat quality flags and exclusions as scientific choices requiring reasons and sensitivity checks. [GP21; HC03; Review A Sections 8, 15]
+\begin{itemize}
+\item The historical four-standard-deviation deletion idea is not an adopted universal rule; preserve flagged samples and consider genuine transients, autocorrelation and channel roles before exclusion.
+\item Record missingness, drift, calibration grouping and the effect of alternative window/channel policies; do not select a window because it minimizes the fitted-model residual.
+\end{itemize}
+\end{itemize}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-02",
+  "source_files": 197,
+  "source_markdown_notes": 33,
+  "link_occurrences": 144,
+  "link_statuses": {
+    "unresolved_in_scanned_roots": 7,
+    "resolved_shared_by_name": 53,
+    "resolved": 22,
+    "resolved_by_name": 58,
+    "ambiguous_shared": 1,
+    "inline_in_source": 3
+  },
+  "scan_scope": "Original Trident_FlowLoop_Notes files excluding X.Chat and hidden directories; explicit MainVault-prefixed targets checked directly. Unresolved basenames checked in shared Design_Documentation and Images from VCU for ANS. No global vault/Box filename search.",
+  "external_lookup_roots": [
+    "/Users/andres/Library/CloudStorage/Box-Box/VCU ACU Shared Research/Design_Documentation",
+    "/Users/andres/Library/CloudStorage/Box-Box/VCU ACU Shared Research/Images from VCU for ANS"
+  ],
+  "warning": "Unresolved means not found by this scoped resolver, not proof of a broken link, missing source or inaccessible remote file. Image contents and PDF page fragments were not validated."
+}

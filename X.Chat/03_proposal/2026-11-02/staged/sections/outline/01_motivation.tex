@@ -1,0 +1,27 @@
+% Bullet-only intermediate outline; author review pending.
+\section{Motivation and Research Problem}
+\noindent\small Source labels: \href{run:doc_support/reconciliation/2026-11-02/SOURCES.md}{reconciliation source map}; \href{run:doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md}{figure pointers}.\normalsize
+
+\subsection{Engineering purpose}
+\begin{itemize}[leftmargin=*]
+\item Predict circulation, heat-removal duty, losses, and relevant fluid/wall minimum and maximum temperatures as operating inputs change. [N01; N03; R01]
+\item Connect fast physical prediction to operator what-if questions, limit awareness, and freezing/trace-heating margins. Distinguish requested functions from demonstrated capabilities. [N01; G01: Intro; R01]
+\item Fill with primary citations: MSR thermal-hydraulic decisions and loop-history rationale; use Review B Sections 2--6, rather than assuming whole-reactor similarity.
+\item Ground the reactor motivation in temperature distribution, bulk/local salt velocity, source/removal allocation and property effects; use Brown et al., Table II and Section V. Nonnuclear loops test selected mechanisms and do not validate reactor neutronics, chemistry or complete safety behavior.\cite{brown2020msrphenomena}
+\item Use the original MSRE report as a metrology/property lesson. The review does not substantiate the notes\textquotesingle{} repeated 25\% heat-balance claim; distinguish power metrology, primary-exchanger property revision and air-radiator performance. [S47 dossier: conclusions, printed pp. 27--28]\cite{gabbard1970msre}
+\end{itemize}
+
+\subsection{Why ACU and VCU?}
+\begin{itemize}[leftmargin=*]
+\item Introduce ACU salt and VCU surrogate-fluid loops as distinct applications of the reduction framework; describe purpose and evidence separately. [G01: Intro; N05; N07]
+\item Use the documented Prop-30/propylene-glycol branch for VCU; historical mineral-oil wording is superseded. Run-specific composition and properties still need qualification. [N07; literature A Section 15]
+\item Figure placeholders: one hardware photograph and one geometry/sensor schematic per facility; choose from the figure-pointer index. [N05; N08]
+\end{itemize}
+
+\subsection{Reduction problem and research gap}
+\begin{itemize}[leftmargin=*]
+\item Explain how developing/asymmetric profiles can separate local sensor temperature from conserved bulk enthalpy transport. Avoid a universal salt-versus-water claim. [G01: Intro; literature A Sections 4--5]
+\item Ask how to select conservative closures and temperature maps that improve useful predictions or establish where simpler models are adequate. [literature B Sections 10--11]
+\item Use TAMU master findings as prior motivation, with their case and validation limits.\cite{fierro2026cfdoneD,reis2024molten}
+\item Introduce the following preliminary-work section as the bridge: the master\textquotesingle{}s establishes an executable reduction process and shows why matching temperatures alone cannot settle the physical interpretation. The PhD adds qualified experiment/CFD integration and an assessed selection procedure. [MS01; Review B Sections 7, 10--11]
+\end{itemize}

@@ -1,0 +1,162 @@
+{
+  "document_id": "1d8S-Tk6ZKrjZHhrIivAnODxTSWb5aB_OqZWOwVVBZP8",
+  "url": "https://docs.google.com/document/d/1d8S-Tk6ZKrjZHhrIivAnODxTSWb5aB_OqZWOwVVBZP8",
+  "read_date": "2026-11-02",
+  "modified_time": "2026-11-02T21:22:31.630Z",
+  "revision_id": "AHj4eMQl1jrHXCnNBKSdvpbu0op6RBbJq3T2Wyth2vVlfFH7HJVTsKBkvgay_-NZJZQIPcG52pOdJMhnVE6fNA",
+  "locator_policy": "Pair tab, heading and short quote with revision; numeric indexes shift as Google Docs changes.",
+  "headings": [
+    {
+      "tab_id": "t.0",
+      "start_index": 17,
+      "heading": "Intro"
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 23,
+      "heading": "Motivation"
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 4006,
+      "heading": "Definitions and Applications"
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 5151,
+      "heading": "Formalized Goal: "
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 6863,
+      "heading": "Theory Motivation for Chosen Methodology"
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 7897,
+      "heading": "Current state of the art"
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 8225,
+      "heading": "Scope of Work"
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 9301,
+      "heading": "Proposed Methodology "
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 12983,
+      "heading": "Initial Work"
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 13878,
+      "heading": "Future Work and Timeline"
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 14034,
+      "heading": "For Masters, by July 2026"
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 14132,
+      "heading": "For PhD, by December 2027"
+    },
+    {
+      "tab_id": "t.oqk72z9ekxce",
+      "start_index": 1468,
+      "heading": "FlowLoopDt "
+    },
+    {
+      "tab_id": "t.oqk72z9ekxce",
+      "start_index": 2215,
+      "heading": "Whenever making the sam input writer"
+    },
+    {
+      "tab_id": "t.oqk72z9ekxce",
+      "start_index": 2708,
+      "heading": "Shape function to use for PhD work"
+    },
+    {
+      "tab_id": "t.z2o5qsfswqej",
+      "start_index": 3,
+      "heading": "ACU loop ROM"
+    },
+    {
+      "tab_id": "t.9u2zr362q8er",
+      "start_index": 3679,
+      "heading": "Questions and tasks"
+    },
+    {
+      "tab_id": "t.s748eovr9xd7",
+      "start_index": 396,
+      "heading": "Timeline"
+    },
+    {
+      "tab_id": "t.wcv1ymyrszc4",
+      "start_index": 119,
+      "heading": "Candidacy: "
+    },
+    {
+      "tab_id": "t.wcv1ymyrszc4",
+      "start_index": 357,
+      "heading": "Clarno"
+    },
+    {
+      "tab_id": "t.wcv1ymyrszc4",
+      "start_index": 495,
+      "heading": "Criteria for success, graduation MVP"
+    },
+    {
+      "tab_id": "t.wcv1ymyrszc4",
+      "start_index": 653,
+      "heading": "Should I reach out to Webber and Moser? "
+    },
+    {
+      "tab_id": "t.wcv1ymyrszc4",
+      "start_index": 760,
+      "heading": "Resources: "
+    }
+  ],
+  "key_passages": [
+    {
+      "tab_id": "t.0",
+      "start_index": 6863,
+      "text": "Theory Motivation for Chosen Methodology"
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 7104,
+      "text": "Don’t rederive, show base equations and point to resource that goes through full derivation, then show the answer of the math that we are doing. "
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 7416,
+      "text": "Focus on what has been done up to now in the 1d model, not next necessary steps"
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 11448,
+      "text": "Step 1 for them: how well does it agree with measured data - post-processing results?"
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 12983,
+      "text": "Initial Work"
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 13552,
+      "text": "Prototype: Straight pipe"
+    },
+    {
+      "tab_id": "t.0",
+      "start_index": 13685,
+      "text": "Openfoam model of pipe, SAM model of pipe, % todo : we are no longer using SAM. "
+    }
+  ]
+}

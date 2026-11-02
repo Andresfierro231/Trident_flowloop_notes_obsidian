@@ -1,0 +1,8 @@
+quantity,rev8_mm,rev9_mm,delta_mm,basis
+upcomer_straight_reference_length,1435.3760443259766,1219.2000000000003,-216.17604432597636,Rev9 heating length is projected span with overlap removed; see qualification
+cooler_straight_reference_length,1532.6997590535902,1352.5500000000059,-180.14975905358438,Rev9 heating length is projected span with overlap removed; see qualification
+downcomer_straight_reference_length,1435.3760443259764,1228.6685597466649,-206.70748457931154,Rev9 heating length is projected span with overlap removed; see qualification
+heater_straight_reference_length,1532.6997590535902,1346.4962148518246,-186.20354420176568,Rev9 heating length is projected span with overlap removed; see qualification
+jacket_pre_mm,271.5758378224127,127.56180941009107,-144.01402841232164,Outer end plates included in complete jacket
+jacket_complete_mm,1030.2874999999997,1030.2874999999983,-1.3642420526593924e-12,Outer end plates included in complete jacket
+jacket_post_mm,230.8364212311974,194.70069058991646,-36.13573064128093,Outer end plates included in complete jacket

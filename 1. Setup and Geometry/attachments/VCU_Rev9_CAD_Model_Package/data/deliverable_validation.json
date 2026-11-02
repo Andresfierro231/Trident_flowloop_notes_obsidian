@@ -1,0 +1,45 @@
+{
+  "source_sha256_matches": true,
+  "pages": 8,
+  "CAD_assembly_records": 99,
+  "corners": 8,
+  "sensor_references": 23,
+  "coordinate_rows": 57,
+  "pipe_axis_records": 22,
+  "numeric_dimension_rows": 199,
+  "CSV_row_counts": {
+    "VCU_Rev9_Coordinates.csv": 57,
+    "VCU_Rev9_Diameters.csv": 14,
+    "VCU_Rev9_Pipe_Axes.csv": 22,
+    "VCU_Rev8_to_Rev9_Sensor_Changes.csv": 23,
+    "VCU_Rev9_Sensor_Stations.csv": 23,
+    "VCU_Rev9_Segments.csv": 8,
+    "VCU_Rev9_All_Cylindrical_Faces.csv": 1226,
+    "VCU_Rev9_Heater_Clamps.csv": 4,
+    "VCU_Rev8_to_Rev9_Dimension_Changes.csv": 7,
+    "VCU_Rev9_Contact_Solutions.csv": 21,
+    "VCU_Rev9_Dimensions.csv": 199,
+    "VCU_Rev9_Probe_Shafts.csv": 7,
+    "VCU_Rev9_Branch_Connections.csv": 2
+  },
+  "station_sums_and_nearest_ends_pass": true,
+  "jacket_chain_pass": true,
+  "coordinate_loop_closure_pass": true,
+  "diameter_source_evidence_pass": true,
+  "null_unknowns_preserved": true,
+  "independent_face_bound_error_mm": 2.2737367544323206e-13,
+  "qualifications_not_healed": [
+    "heater overlap/offset",
+    "lower-right spline residuals",
+    "STC-01 gap",
+    "unknown bores and energized length",
+    "unassigned PTC-X channel"
+  ],
+  "PDF_sensor_ids_and_source_names_present": true,
+  "all_8_pages_rendered_and_visually_inspected": true,
+  "corrected_pages_reinspected": [
+    3,
+    5
+  ],
+  "pdf_sha256": "c7078accde01cc9f6ab3ab6c8ff6a509a2b73ef64b8ac9f92db28357772d4963"
+}

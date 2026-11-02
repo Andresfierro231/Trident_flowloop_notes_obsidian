@@ -1,0 +1,1631 @@
+{
+  "source_file": "_STEPFILE_UTDTloopWithOpticsAndHXRev9_9_18_26.step",
+  "source_sha256": "78c6ae52bf39084fbd9b1306d28dcbe2c1c4d5fccd334b0e68c861022a1bfbcf",
+  "coordinate_frame": {
+    "origin_CAD_xyz_mm": [
+      580.490685642161,
+      -2830.921838891466,
+      1990.8865097103596
+    ],
+    "origin_tag": "B",
+    "x": "B_CAD_Z - CAD_Z",
+    "y": "CAD_Y - B_CAD_Y",
+    "n": "CAD_X - B_CAD_X"
+  },
+  "CSV_encoding": "UTF-8",
+  "delimiter": ",",
+  "decimal_separator": ".",
+  "null_representation": {
+    "CSV": "blank field",
+    "JSON": null
+  },
+  "tables": [
+    {
+      "file": "VCU_Rev8_to_Rev9_Dimension_Changes.csv",
+      "rows": 7,
+      "meaning": "Rev8/Rev9 comparisons from separately datum-based CAD extractions.",
+      "columns": [
+        {
+          "name": "quantity",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "quantity"
+        },
+        {
+          "name": "rev8_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "rev8 mm"
+        },
+        {
+          "name": "rev9_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "rev9 mm"
+        },
+        {
+          "name": "delta_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "delta mm"
+        },
+        {
+          "name": "basis",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "basis"
+        }
+      ]
+    },
+    {
+      "file": "VCU_Rev8_to_Rev9_Sensor_Changes.csv",
+      "rows": 23,
+      "meaning": "Match by region/type label; PTC-X has no Rev8 counterpart.",
+      "columns": [
+        {
+          "name": "sensor_id",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "sensor id"
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "Dimension quality: CAD_derived, qualified_reconstruction, projected_span_with_overlap, unresolved_geometry or not_encoded."
+        },
+        {
+          "name": "rev9_path",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "rev9 path"
+        },
+        {
+          "name": "rev9_segment",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "rev9 segment"
+        },
+        {
+          "name": "rev9_station_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "rev9 station mm"
+        },
+        {
+          "name": "rev8_path",
+          "type": "string",
+          "nullable": true,
+          "unit": null,
+          "meaning": "rev8 path"
+        },
+        {
+          "name": "rev8_segment",
+          "type": "string",
+          "nullable": true,
+          "unit": null,
+          "meaning": "rev8 segment"
+        },
+        {
+          "name": "rev8_station_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "rev8 station mm"
+        },
+        {
+          "name": "delta_x_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Rev9 local x minus Rev8 local x using each revision own B datum."
+        },
+        {
+          "name": "delta_y_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Rev9 local y minus Rev8 local y using each revision own B datum."
+        },
+        {
+          "name": "delta_n_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Rev9 local n minus Rev8 local n using each revision own B datum."
+        },
+        {
+          "name": "delta_same_leg_station_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Station difference only when assigned to the same leg in both revisions."
+        },
+        {
+          "name": "basis",
+          "type": "string",
+          "nullable": true,
+          "unit": null,
+          "meaning": "basis"
+        }
+      ]
+    },
+    {
+      "file": "VCU_Rev9_All_Cylindrical_Faces.csv",
+      "rows": 1226,
+      "meaning": "Complete leaf cylinder inventory, including split faces and fittings; not a segment schedule.",
+      "columns": [
+        {
+          "name": "source_file",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "source file"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "path"
+        },
+        {
+          "name": "definition",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "definition"
+        },
+        {
+          "name": "face",
+          "type": "number",
+          "nullable": false,
+          "unit": null,
+          "meaning": "face"
+        },
+        {
+          "name": "radius_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "radius mm"
+        },
+        {
+          "name": "diameter_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "diameter mm"
+        },
+        {
+          "name": "axial_extent_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "axial extent mm"
+        },
+        {
+          "name": "start_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "start_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "start_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "note",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "note"
+        }
+      ]
+    },
+    {
+      "file": "VCU_Rev9_Branch_Connections.csv",
+      "rows": 2,
+      "meaning": "Closest points on extended branch/main axes, not a hydraulic junction assertion.",
+      "columns": [
+        {
+          "name": "id",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "id"
+        },
+        {
+          "name": "component",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "component"
+        },
+        {
+          "name": "main_segment",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "main segment"
+        },
+        {
+          "name": "main_station_from_start_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "main station from start mm"
+        },
+        {
+          "name": "branch_station_from_IN_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Coordinate on branch axis directed from IN toward OUT; crossing is behind IN when negative."
+        },
+        {
+          "name": "axis_skew_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "axis skew mm"
+        },
+        {
+          "name": "main_source_face",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "main source face"
+        },
+        {
+          "name": "branch_source_path",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "branch source path"
+        },
+        {
+          "name": "basis",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "basis"
+        },
+        {
+          "name": "main_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "main_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "main_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "branch_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "branch_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "branch_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "source_file",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "source file"
+        }
+      ]
+    },
+    {
+      "file": "VCU_Rev9_Contact_Solutions.csv",
+      "rows": 21,
+      "meaning": "All returned STC minimum-distance solutions, with separate pipe/body points.",
+      "columns": [
+        {
+          "name": "sensor_id",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "sensor id"
+        },
+        {
+          "name": "solution_index",
+          "type": "number",
+          "nullable": false,
+          "unit": null,
+          "meaning": "solution index"
+        },
+        {
+          "name": "segment",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "segment"
+        },
+        {
+          "name": "station_from_start_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Axial coordinate from segment_start to the projected reference."
+        },
+        {
+          "name": "gap_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Whole-body minimum distance for the indicated STC reference."
+        },
+        {
+          "name": "pipe_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global coordinate on main pipe returned by minimum-distance solver."
+        },
+        {
+          "name": "pipe_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global coordinate on main pipe returned by minimum-distance solver."
+        },
+        {
+          "name": "pipe_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global coordinate on main pipe returned by minimum-distance solver."
+        },
+        {
+          "name": "sensor_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global coordinate on STC body returned by minimum-distance solver."
+        },
+        {
+          "name": "sensor_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global coordinate on STC body returned by minimum-distance solver."
+        },
+        {
+          "name": "sensor_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global coordinate on STC body returned by minimum-distance solver."
+        },
+        {
+          "name": "source_path",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "CAD instance path, optionally with face evidence, below or including assembly root as stated."
+        },
+        {
+          "name": "source_file",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "source file"
+        }
+      ]
+    },
+    {
+      "file": "VCU_Rev9_Coordinates.csv",
+      "rows": 57,
+      "meaning": "Ordered geometric references; coordinates are not necessarily sensor junctions.",
+      "columns": [
+        {
+          "name": "id",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "id"
+        },
+        {
+          "name": "kind",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "kind"
+        },
+        {
+          "name": "reference",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "reference"
+        },
+        {
+          "name": "CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "x_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Local rightward position, B_CAD_Z minus CAD_Z."
+        },
+        {
+          "name": "y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Local upward height, CAD_Y minus B_CAD_Y."
+        },
+        {
+          "name": "n_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Local normal offset, CAD_X minus B_CAD_X."
+        },
+        {
+          "name": "source_path",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "CAD instance path, optionally with face evidence, below or including assembly root as stated."
+        },
+        {
+          "name": "source_file",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "source file"
+        }
+      ]
+    },
+    {
+      "file": "VCU_Rev9_Diameters.csv",
+      "rows": 14,
+      "meaning": "Representative cylinder radii/diameters and evidence. Missing bore means unknown.",
+      "columns": [
+        {
+          "name": "item",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "item"
+        },
+        {
+          "name": "outer_radius_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "outer radius mm"
+        },
+        {
+          "name": "inner_radius_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "inner radius mm"
+        },
+        {
+          "name": "outer_diameter_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "outer diameter mm"
+        },
+        {
+          "name": "inner_diameter_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Modeled local bore/hole only; blank when absent."
+        },
+        {
+          "name": "wall_thickness_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Outer minus inner radius for cylindrical walls; blank for end plates and unknown bores."
+        },
+        {
+          "name": "radial_width_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "For end plates only: outer radius minus clearance-hole radius, not axial thickness."
+        },
+        {
+          "name": "axial_thickness_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Plate thickness along pipe axis; blank for items not treated as plates."
+        },
+        {
+          "name": "source_path",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "CAD instance path, optionally with face evidence, below or including assembly root as stated."
+        },
+        {
+          "name": "faces",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "OCCT imported face numbers, outer then inner when both exist."
+        },
+        {
+          "name": "note",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "note"
+        },
+        {
+          "name": "source_file",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "source file"
+        }
+      ]
+    },
+    {
+      "file": "VCU_Rev9_Dimensions.csv",
+      "rows": 199,
+      "meaning": "Long-format dimension index with unit, status, basis and source evidence.",
+      "columns": [
+        {
+          "name": "revision",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "revision"
+        },
+        {
+          "name": "component",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "component"
+        },
+        {
+          "name": "feature",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "feature"
+        },
+        {
+          "name": "value",
+          "type": "number",
+          "nullable": true,
+          "unit": null,
+          "meaning": "Numeric dimension; interpret together with unit/status/basis. Blank means unknown/not applicable."
+        },
+        {
+          "name": "unit",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "unit"
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "Dimension quality: CAD_derived, qualified_reconstruction, projected_span_with_overlap, unresolved_geometry or not_encoded."
+        },
+        {
+          "name": "basis",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "basis"
+        },
+        {
+          "name": "source_file",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "source file"
+        },
+        {
+          "name": "source_path",
+          "type": "string",
+          "nullable": true,
+          "unit": null,
+          "meaning": "CAD instance path, optionally with face evidence, below or including assembly root as stated."
+        }
+      ]
+    },
+    {
+      "file": "VCU_Rev9_Heater_Clamps.csv",
+      "rows": 4,
+      "meaning": "Mechanical bore-axis centers/ends, not energized heater boundaries.",
+      "columns": [
+        {
+          "name": "path",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "path"
+        },
+        {
+          "name": "definition",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "definition"
+        },
+        {
+          "name": "station_from_H_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "station from H mm"
+        },
+        {
+          "name": "station_start_from_H_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "station start from H mm"
+        },
+        {
+          "name": "station_end_from_H_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "station end from H mm"
+        },
+        {
+          "name": "axial_width_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "axial width mm"
+        },
+        {
+          "name": "bore_radius_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "bore radius mm"
+        },
+        {
+          "name": "curved_outer_radius_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "curved outer radius mm"
+        },
+        {
+          "name": "axis_offset_from_pipe_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "axis offset from pipe mm"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "id"
+        },
+        {
+          "name": "center_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "center_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "center_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "start_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "start_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "start_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "source_file",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "source file"
+        }
+      ]
+    },
+    {
+      "file": "VCU_Rev9_Pipe_Axes.csv",
+      "rows": 22,
+      "meaning": "Explicit component axes; split heater pieces overlap; avoid double counting.",
+      "columns": [
+        {
+          "name": "id",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "id"
+        },
+        {
+          "name": "geometry_type",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "geometry type"
+        },
+        {
+          "name": "start_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "start_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "start_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "dx_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Signed local end minus start displacement."
+        },
+        {
+          "name": "dy_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Signed local end minus start displacement."
+        },
+        {
+          "name": "dn_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Signed local end minus start displacement."
+        },
+        {
+          "name": "length_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "length mm"
+        },
+        {
+          "name": "outer_radius_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "outer radius mm"
+        },
+        {
+          "name": "inner_radius_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "inner radius mm"
+        },
+        {
+          "name": "source_path",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "CAD instance path, optionally with face evidence, below or including assembly root as stated."
+        },
+        {
+          "name": "basis",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "basis"
+        },
+        {
+          "name": "source_file",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "source file"
+        }
+      ]
+    },
+    {
+      "file": "VCU_Rev9_Probe_Shafts.csv",
+      "rows": 7,
+      "meaning": "External sheath endpoints, not verified sensing junctions.",
+      "columns": [
+        {
+          "name": "sensor_id",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "sensor id"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "path"
+        },
+        {
+          "name": "face",
+          "type": "number",
+          "nullable": false,
+          "unit": null,
+          "meaning": "face"
+        },
+        {
+          "name": "length_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "length mm"
+        },
+        {
+          "name": "outer_radius_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "outer radius mm"
+        },
+        {
+          "name": "basis",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "basis"
+        },
+        {
+          "name": "source_file",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "source file"
+        },
+        {
+          "name": "start_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "start_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "start_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        }
+      ]
+    },
+    {
+      "file": "VCU_Rev9_Segments.csv",
+      "rows": 8,
+      "meaning": "Eight ordered loop segments; unknown continuous lengths are blank.",
+      "columns": [
+        {
+          "name": "segment",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "segment"
+        },
+        {
+          "name": "from_tag",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "from tag"
+        },
+        {
+          "name": "to_tag",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "to tag"
+        },
+        {
+          "name": "dx_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Signed local end minus start displacement."
+        },
+        {
+          "name": "dy_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Signed local end minus start displacement."
+        },
+        {
+          "name": "dn_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Signed local end minus start displacement."
+        },
+        {
+          "name": "chord_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "chord mm"
+        },
+        {
+          "name": "centerline_length_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Exact supported straight/torus length. Blank/null for unhealed H-A and spline G-H."
+        },
+        {
+          "name": "reference_length_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Stationing length; H-A is projected endpoint span with axial overlap removed."
+        },
+        {
+          "name": "source_file",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "source file"
+        },
+        {
+          "name": "unique_face_axis_length_sum_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "unique face axis length sum mm"
+        },
+        {
+          "name": "projected_union_length_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "projected union length mm"
+        },
+        {
+          "name": "projected_overlap_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Duplicated axial coverage between unique cylindrical pieces."
+        },
+        {
+          "name": "axis_offset_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Transverse separation of nominally collinear pipe-axis pieces."
+        },
+        {
+          "name": "length_basis",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "length basis"
+        },
+        {
+          "name": "inclination_from_horizontal_deg",
+          "type": "number",
+          "nullable": true,
+          "unit": "deg",
+          "meaning": "inclination from horizontal deg"
+        },
+        {
+          "name": "start_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "start_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "start_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "end_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "cad_faces",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "cad faces"
+        },
+        {
+          "name": "bend_radius_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "bend radius mm"
+        },
+        {
+          "name": "bend_angle_deg",
+          "type": "number",
+          "nullable": true,
+          "unit": "deg",
+          "meaning": "bend angle deg"
+        },
+        {
+          "name": "torus_endpoint_residual_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "torus endpoint residual mm"
+        },
+        {
+          "name": "recovered_spine_length_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Qualified support-surface reconstruction, not certified continuous hydraulic length."
+        }
+      ]
+    },
+    {
+      "file": "VCU_Rev9_Sensor_Stations.csv",
+      "rows": 23,
+      "meaning": "Sensor actual-reference and projected-axis XYZ, stations, sources and ambiguity.",
+      "columns": [
+        {
+          "name": "sensor_id",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "sensor id"
+        },
+        {
+          "name": "sensor_type",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "LF, STC or PTC. JTC-A/B use PTC type and jacket_port domain."
+        },
+        {
+          "name": "assembly_path",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "assembly path"
+        },
+        {
+          "name": "source_cad_path",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "source cad path"
+        },
+        {
+          "name": "reference_path",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "reference path"
+        },
+        {
+          "name": "source_reference_path",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "source reference path"
+        },
+        {
+          "name": "assembly_definition",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "assembly definition"
+        },
+        {
+          "name": "reference_basis",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "reference basis"
+        },
+        {
+          "name": "source_file",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "source file"
+        },
+        {
+          "name": "physical_junction_is_defined",
+          "type": "boolean",
+          "nullable": false,
+          "unit": null,
+          "meaning": "False for all sensor references in this source."
+        },
+        {
+          "name": "channel_label_in_CAD",
+          "type": "null",
+          "nullable": true,
+          "unit": null,
+          "meaning": "Blank/null: DAQ channel labels are not encoded."
+        },
+        {
+          "name": "label_basis",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "label basis"
+        },
+        {
+          "name": "domain",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "domain"
+        },
+        {
+          "name": "segment",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "segment"
+        },
+        {
+          "name": "segment_start",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "segment start"
+        },
+        {
+          "name": "segment_end",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "segment end"
+        },
+        {
+          "name": "station_from_start_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Axial coordinate from segment_start to the projected reference."
+        },
+        {
+          "name": "distance_to_end_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Segment reference length minus station. Negative for jacket TCs extending past the port bore axis."
+        },
+        {
+          "name": "nearest_endpoint",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "nearest endpoint"
+        },
+        {
+          "name": "nearest_distance_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Minimum absolute distance to either axial endpoint."
+        },
+        {
+          "name": "axis_radial_offset_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "3D distance between actual reference and its projected pipe/port axis."
+        },
+        {
+          "name": "projection_outside_segment",
+          "type": "boolean",
+          "nullable": false,
+          "unit": null,
+          "meaning": "True for a mount reference beyond the finite bore-axis segment (JTC mounts)."
+        },
+        {
+          "name": "station_source_faces",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "station source faces"
+        },
+        {
+          "name": "station_basis",
+          "type": "string",
+          "nullable": false,
+          "unit": null,
+          "meaning": "station basis"
+        },
+        {
+          "name": "surface_gap_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Minimum Euclidean separation between whole modeled STC body and nearest main-pipe solid."
+        },
+        {
+          "name": "number_contact_solutions",
+          "type": "number",
+          "nullable": true,
+          "unit": null,
+          "meaning": "number contact solutions"
+        },
+        {
+          "name": "CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate in millimetres; prefix indicates referenced endpoint/center."
+        },
+        {
+          "name": "projected_CAD_X_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate of station marker projected to pipe/port axis."
+        },
+        {
+          "name": "projected_CAD_Y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate of station marker projected to pipe/port axis."
+        },
+        {
+          "name": "projected_CAD_Z_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Global CAD coordinate of station marker projected to pipe/port axis."
+        },
+        {
+          "name": "x_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Local rightward position, B_CAD_Z minus CAD_Z."
+        },
+        {
+          "name": "y_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Local upward height, CAD_Y minus B_CAD_Y."
+        },
+        {
+          "name": "n_mm",
+          "type": "number",
+          "nullable": false,
+          "unit": "mm",
+          "meaning": "Local normal offset, CAD_X minus B_CAD_X."
+        },
+        {
+          "name": "contact_solution_s_min_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Minimum axial station among returned minimum-distance solutions."
+        },
+        {
+          "name": "contact_solution_s_max_mm",
+          "type": "number",
+          "nullable": true,
+          "unit": "mm",
+          "meaning": "Maximum axial station among returned minimum-distance solutions."
+        }
+      ]
+    }
+  ],
+  "qualified_fields": {
+    "actual_reference_xyz_mm": "JSON vector; STC pipe-side closest point or mount-body centroid, not sensing junction.",
+    "station_from_start_mm": "Axial coordinate from segment_start to the projected reference.",
+    "distance_to_end_mm": "Segment reference length minus station. Negative for jacket TCs extending past the port bore axis.",
+    "nearest_distance_mm": "Minimum absolute distance to either axial endpoint.",
+    "axis_radial_offset_mm": "3D distance between actual reference and its projected pipe/port axis.",
+    "centerline_length_mm": "Exact supported straight/torus length. Blank/null for unhealed H-A and spline G-H.",
+    "reference_length_mm": "Stationing length; H-A is projected endpoint span with axial overlap removed.",
+    "recovered_spine_length_mm": "Qualified support-surface reconstruction, not certified continuous hydraulic length.",
+    "projected_overlap_mm": "Duplicated axial coverage between unique cylindrical pieces.",
+    "axis_offset_mm": "Transverse separation of nominally collinear pipe-axis pieces.",
+    "inner_diameter_mm": "Modeled local bore/hole only; blank when absent.",
+    "wall_thickness_mm": "Outer minus inner radius for cylindrical walls; blank for end plates and unknown bores.",
+    "axial_thickness_mm": "Plate thickness along pipe axis; blank for items not treated as plates.",
+    "radial_width_mm": "For end plates only: outer radius minus clearance-hole radius, not axial thickness.",
+    "physical_junction_is_defined": "False for all sensor references in this source.",
+    "channel_label_in_CAD": "Blank/null: DAQ channel labels are not encoded.",
+    "projection_outside_segment": "True for a mount reference beyond the finite bore-axis segment (JTC mounts).",
+    "contact_solution_s_min_mm": "Minimum axial station among returned minimum-distance solutions.",
+    "contact_solution_s_max_mm": "Maximum axial station among returned minimum-distance solutions.",
+    "surface_gap_mm": "Minimum Euclidean separation between whole modeled STC body and nearest main-pipe solid.",
+    "gap_mm": "Whole-body minimum distance for the indicated STC reference.",
+    "source_path": "CAD instance path, optionally with face evidence, below or including assembly root as stated.",
+    "faces": "OCCT imported face numbers, outer then inner when both exist.",
+    "status": "Dimension quality: CAD_derived, qualified_reconstruction, projected_span_with_overlap, unresolved_geometry or not_encoded.",
+    "value": "Numeric dimension; interpret together with unit/status/basis. Blank means unknown/not applicable.",
+    "delta_x_mm": "Rev9 local x minus Rev8 local x using each revision own B datum.",
+    "delta_y_mm": "Rev9 local y minus Rev8 local y using each revision own B datum.",
+    "delta_n_mm": "Rev9 local n minus Rev8 local n using each revision own B datum.",
+    "delta_same_leg_station_mm": "Station difference only when assigned to the same leg in both revisions.",
+    "sensor_type": "LF, STC or PTC. JTC-A/B use PTC type and jacket_port domain.",
+    "branch_station_from_IN_mm": "Coordinate on branch axis directed from IN toward OUT; crossing is behind IN when negative."
+  },
+  "JSON_overview": {
+    "source_file": "str",
+    "source_sha256": "str",
+    "units": "str",
+    "origin_CAD_xyz_mm": "list",
+    "corners": "dict",
+    "segments": "list",
+    "virtual_corners_local_xy_mm": "dict",
+    "virtual_corner_spans": "list",
+    "extraction_date": "str",
+    "CAD_unit_conversion": "str",
+    "coordinate_frame": "dict",
+    "corner_points": "list",
+    "jacket": "dict",
+    "ports": "list",
+    "heater": "dict",
+    "sensors": "list",
+    "probe_shafts": "list",
+    "auxiliary_axes": "list",
+    "hoses": "list",
+    "drain": "dict",
+    "diameters": "list",
+    "sequential_coordinates": "list",
+    "reconstructed_bends": "list",
+    "rev8_dimension_comparison": "list",
+    "rev8_sensor_comparison": "list",
+    "limitations": "list",
+    "branch_connections": "list",
+    "tank_interface": "dict",
+    "verification": "dict",
+    "component_axes": "list",
+    "numeric_dimension_count": "int",
+    "component_axis_count": "int"
+  }
+}

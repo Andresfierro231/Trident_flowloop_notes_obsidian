@@ -1,0 +1,21 @@
+{
+  "request_id": "HX-20261102",
+  "status": "exported_file_not_acknowledged",
+  "path": "/Users/andres/Library/CloudStorage/Box-Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/06_hpc_exchange/2026-11-02/exports/HX-20261102_local_to_hpc.zip",
+  "sha256": "ac698a6ac5d1decc4cf5a4565a97e164c08624d64dd9c80a9f054a67c6b5e9e9",
+  "bytes": 78780,
+  "included_files": [
+    "06_hpc_exchange/README.md",
+    "06_hpc_exchange/QUESTION_REGISTER.md",
+    "06_hpc_exchange/2026-11-02/01_to_hpc.md",
+    "06_hpc_exchange/2026-11-02/02_from_hpc_TEMPLATE.md",
+    "00_navigation/LOCATIONS.md",
+    "00_navigation/LITERATURE_FOUNDATION.md",
+    "01_sources/HPC_REPORT_MAP.md",
+    "01_sources/hpc_source_manifest.json",
+    "01_sources/hpc_report_catalog.csv",
+    "02_synthesis/WORKING_UNDERSTANDING.md",
+    "02_synthesis/PLANNING_COVERAGE.md",
+    "04_decisions/DECISIONS.md"
+  ]
+}

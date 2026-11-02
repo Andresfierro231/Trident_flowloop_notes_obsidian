@@ -1,0 +1,43 @@
+% Bullet-only intermediate outline; author review pending.
+\section{Assessment, Uncertainty, and Applicability}
+\noindent\small Source labels: \href{run:doc_support/reconciliation/2026-11-02/SOURCES.md}{reconciliation source map}; \href{run:doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md}{figure pointers}.\normalsize
+
+\subsection{Verification and independent evidence}
+\begin{itemize}[leftmargin=*]
+\item Check ROM conservation and numerical sensitivity; qualify CFD reference uncertainty separately from experimental calibration and validation.
+\item Assess temperatures, circulation, duty, loss budgets, spatial reconstruction and cost separately, with engineering units and location/time meanings.
+\item Qualify ACU flow evidence; CFD flow at VCU is an uncertain reference, not direct experimental circulation validation. [literature A Sections 10--11]
+\item Temperature report: residuals in K by channel/location, channel-wise bias and RMSE, and declared time/space aggregation; report flow/duty and local heat budgets separately. Retain excluded channels with reasons and a sensitivity route. [MS01: score-policy lesson; Review A Section 10]
+\item Use the same case names and configuration versions from source data through reduction, calibration, plotting and proposal claims. A figure caption should state whether each series is measured, CFD-referenced, calibrated or independently predicted.
+\end{itemize}
+
+\subsection{Uncertainty throughout}
+\begin{itemize}[leftmargin=*]
+\item Carry primitive calibration/channel, power/deposition, boundary, property, geometry and initial-state uncertainties with shared dependencies.
+\item Derived duty/flow inherit their ingredients; do not count them again as independent observations.
+\item Distinguish measurement variability, installed accuracy, model discrepancy and numerical uncertainty. Propagate through steady and transition outputs. [N02--N04; R01; literature A Sections 8, 15]
+\item Use covariance-aware propagation when a local linear approximation is justified; reuse common calibration, property and input variables wherever they appear. Joint input sampling must preserve those same dependencies.\cite{jcgm2011vectorcovariance,jcgm2020measurementmodels}
+\item Separate a scenario envelope, parameter interval and predictive interval; assess uncertainty against the intended output and available case count. Do not turn a few temperature comparisons into a calibrated rare-event probability. [Review A Section 8]
+\end{itemize}
+
+\subsection{Acceptance and limits}
+\begin{itemize}[leftmargin=*]
+\item Fill target/reference/metric/tolerance-symbol/runtime table; assign numbers only with an intended-use and evidence basis.
+\item Sensor minima/maxima and model-inferred spatial extrema require different evidence; freezing/temperature margins require a sourced threshold. [N01; R01]
+\item Discriminate physics, input, observation and numerical explanations for disagreement; report a simpler adequate domain or a supported measurement need when warranted.
+\item Report local recirculation inference limits separately from bulk prediction and thermal-consequence evidence.
+\end{itemize}
+
+\subsection{Sensor changes and adequacy of the available information}
+\begin{itemize}[leftmargin=*]
+\item Retain the planning questions about sensor reliability, loss and evolving installation/material conditions as bounded assessment branches. [GP03/17/26; Review A Sections 5--8]
+\begin{itemize}
+\item Compare full and reduced sensor sets at matched inputs and fitting access; quantify the resulting loss of temperature/target accuracy and uncertainty.
+\item Record calibration/drift, sensor movement, thermal expansion or changing losses as competing explanations only where evidence supports them. A mismatch is not automatically a failed sensor.
+\end{itemize}
+\item Connect a residual pattern to an evidence request before promising diagnosis or operator advice. [GP26--GP27; HC12--HC14]
+\begin{itemize}
+\item Separate input error, observation error, numerical error and model inadequacy; identify which existing or proposed measurement could distinguish them.
+\item Keep ACU and VCU evidence separate. Similar processing or shared code does not make their configurations, calibration or validation interchangeable.
+\end{itemize}
+\end{itemize}

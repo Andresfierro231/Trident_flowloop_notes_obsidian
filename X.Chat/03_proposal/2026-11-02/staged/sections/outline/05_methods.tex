@@ -1,0 +1,56 @@
+% Bullet-only intermediate outline; author review pending.
+\section{Theory Motivation and Research Methodology}
+\noindent\small Source labels: \href{run:doc_support/reconciliation/2026-11-02/SOURCES.md}{reconciliation source map}; \href{run:doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md}{figure pointers}.\normalsize
+
+\subsection{Closest prior methods and why these choices}
+\begin{itemize}[leftmargin=*]
+\item Fill a compact primary-citation table: conservation/developing-loop reduction; closure identification; observation/reconstruction; learning/UQ; validation. Use the completed reviews, not a fresh generic review. [literature A Sections 2--11; B Section 7]
+\item Explain each chosen method's role, required information and failure limit; keep derivation details in appendices or linked sources. [G01: Theory motivation]
+\item Identifiability/profile tools support physical interpretation; neither generic fitting nor ordinary scale ambiguity is itself a new contribution.\cite{raue2009identifiability}
+\item Use the master\textquotesingle{}s as the nearest completed project baseline; cite its negative tests, exposure history and heat-path discrepancy alongside useful temperature reproduction. Wall storage, RC calibration or another fitted state alone is not the proposed novelty. [MS01; Review B Section 7]\cite{fierro2026cfdoneD}
+\item For each method bullet retain a primary citation plus the review section/dossier locator that explains its applicability. New primary references in this pass are routed in the master\textquotesingle{}s/citation pointer note; their original PDFs were not newly re-audited here.
+\end{itemize}
+
+\subsection{Aim 1: reduction and closure selection}
+\begin{itemize}[leftmargin=*]
+\item Declare control volumes, retained states, conventional baseline and closure inventory.
+\item Derive descriptors from consistent CFD budgets; require descriptors needed at prediction time to be available from ROM states and prescribed inputs.
+\item Change transfer/hydraulic assumptions in controlled comparisons to attribute improvement rather than merely adding fitted freedom. [literature A Sections 11, 13--14]
+\end{itemize}
+
+\subsection{Aim 2: learning and reconstruction}
+\begin{itemize}[leftmargin=*]
+\item Learn only supported physical parameters/combinations from development experiments; carry uncertain power, properties, calibration and observations jointly.
+\item Test centerline/radial temperature and regional heat transport separately; assess ambiguity and thermal consequences of spatial structure.
+\item Keep physically identified closures, observation correction, and empirical discrepancy distinguishable. ML architecture remains open; GNN/LSTM mentions in G01 are candidates, not commitments.
+\item Apply the data-understanding demonstration first: reconcile labels, units, installed sensor meaning and supplied inputs before optimizing parameters. Diagnose persistent spatial residual patterns instead of allowing one fitted loss to absorb every mismatch. [AD-20261102-02; MS01: Chapter 6]
+\item Compare parameter combinations and output sensitivity over justified nuisance ranges; a well-matched trace does not establish unique conductance, capacity, deposited power or local heat-transfer interpretation. [Review A Sections 6--8]\cite{raue2009identifiability}
+\end{itemize}
+
+\subsection{Aim 3: fair comparisons}
+\begin{itemize}[leftmargin=*]
+\item Compare a fixed-closure physical baseline, proposed framework and modest data-driven predictor under matched development cases and use-time information.
+\item Freeze cases/conditions and scoring rules before final assessment; distinguish emulator accuracy from facility prediction.
+\item For transition comparisons hold boundary/initial-state information and refitting opportunities common; score response/settling before promising full transient fields. [literature A Section 11]
+\item Report two explicit products: temperature reproduction on the development cases and prediction on eligible unused cases. Maintain the same sensor policy, input information and parameter-refitting opportunities for every comparator. [MS01; Review A Sections 10--11]
+\end{itemize}
+
+\subsection{Physical learning, observation mapping and residual correction}
+\begin{itemize}[leftmargin=*]
+\item Compare three distinct interventions instead of treating every improvement as a generic bias correction. [GP06/13/16/22; Review A Sections 4--8]
+\begin{itemize}
+\item Physical learning: supported heat-path, transfer or hydraulic parameters change the conservative model and must retain an interpretable evidence basis.
+\item Observation mapping: convert the reduced state to the actual probe/contact/fiber response; missing sensor physics is separate from the energy or momentum closure.
+\item Residual correction: an empirical discrepancy model may improve a declared output, but its fit does not validate local heat-transfer or flow physics.
+\end{itemize}
+\item Assess both the uncorrected physical model and the corrected alternative across conditions. [GP16/22; Review A Section 11]
+\begin{itemize}
+\item Compare residual size, spatial/operating-condition structure, physical budgets, uncertainty and runtime at common inputs and refitting opportunities.
+\item Test interpolation and out-of-condition behavior separately; a smooth correction or shrinking training bias is not independent predictive evidence.
+\end{itemize}
+\item Choose temporal or machine-learning complexity only when it addresses a documented limitation. [GP14/25; Review A Section 16]
+\begin{itemize}
+\item Start with physical/linear or modest data-driven references. GNN, LSTM, neural operators and richer field emulators remain candidate branches rather than required architectures.
+\item Declare whether recent histories estimate the current state, forecast a later state, reconstruct supplied reference fields or update parameters; score those tasks separately.
+\end{itemize}
+\end{itemize}
