@@ -20,5 +20,5 @@
 - Future physical reorganization requires a move map and inbound-link update/check. Current unresolved links are repair candidates, not evidence that a source never existed.
 - At each writing milestone: reconcile source/decision changes, refresh inventory, check links, update the proposal bullets and record one handoff. No recurring automation is scheduled.
 
-- `X.Chat/06_hpc_exchange/`: Box-mediated local/HPC questions, dated outgoing requests, untouched incoming responses and subsequent reconciliations; no implicit delivery or live-agent status.
+- `X.Chat/06_hpc_exchange/`: Git-mediated local/HPC questions, dated outgoing requests, untouched incoming responses and subsequent reconciliations; no implicit delivery or live-agent status. Follow repository-root `AGENTS.md` and `GIT_WORKFLOW.md`; the original Box transport is historical after the November 2 Git cutover.
 - Proposal and research questions organize the work; the literature review supplies sources and existing answers. Use the report catalog for code/results context and the planning-coverage table for historical TODO disposition.

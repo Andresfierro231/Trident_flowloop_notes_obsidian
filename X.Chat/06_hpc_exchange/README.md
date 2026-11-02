@@ -1,6 +1,6 @@
 # Local ↔ HPC research exchange
 
-- Purpose: user-requested written questions and answers exchanged through Box files; preserve context across machines/chats.
+- Purpose: user-requested written questions and answers exchanged through this Git repository; preserve context across machines/chats. [Git workflow](../../GIT_WORKFLOW.md) supersedes the original Box-file transport after the November 2 cutover. Preserve the existing question and receipt states.
 - [Question register](QUESTION_REGISTER.md) tracks status; [first request](2026-11-02/01_to_hpc_v2.md) is ready for the HPC researcher.
 - Each exchange gets a dated folder. Add sequence suffixes when multiple exchanges share a date; never overwrite an issued request or an incoming response.
 - Outgoing: context, exact questions, source locators, evidence limits and expected response format. Incoming: save original reply and supplied files in the dated `incoming/` folder.

@@ -1,5 +1,11 @@
 # Research organization instructions
 
+- Current transport, November 2 Git cutover: read the repository-root
+  [agent instructions](../AGENTS.md) and [Git workflow](../GIT_WORKFLOW.md).
+  Pull before editing; commit and push at every editing handoff. Preserve local
+  edits and resolve conflicts explicitly. The HPC initiative retains current
+  research direction; this repository supports writer/literature work.
+
 - Start at `README.md`, then the latest dated handoff in `05_handoffs/` and `04_decisions/DECISIONS.md`.
 - Use concise bullets for intermediate notes. Prioritize ideas, citations, exact source locators and related-document pointers.
 - Follow `00_navigation/ORGANIZATION.md`; keep one maintained synthesis and one authoring owner per artifact.
@@ -15,7 +21,7 @@
 - Unresolved file links and ambiguous revisions need source qualification; do not label files globally missing based on a scoped inventory.
 
 - November 2 follow-up: use `00_navigation/LITERATURE_RESOURCES.md`, `00_navigation/LOCATIONS.md`, `01_sources/HPC_REPORT_MAP.md`, `02_synthesis/WORKING_UNDERSTANDING.md` and `02_synthesis/PLANNING_COVERAGE.md` before expanding research context.
-- The user requested Box-mediated HPC Q&A under `06_hpc_exchange/`. Preserve dated incoming responses, question IDs and acknowledgment state; do not infer delivery or answer on the remote researcher’s behalf.
+- The user requested HPC Q&A under `06_hpc_exchange/`; Git now carries that exchange, superseding the original Box-file transport. Preserve dated incoming responses, question IDs and acknowledgment state; do not infer delivery or answer on the remote researcher’s behalf.
 - CAL-019 accepts nominal dial-based heater input under declared assumptions; do not make new electrical measurements prerequisites to that nominal specification. Metered/net-fluid input and independent validation remain distinct.
 
 - Controlling clarification AD-20261102-05: proposal/research goals and questions organize this project. The literature review is a source/answer resource, not the organizing backbone. Use the original 62-question crosswalk to enrich relevant bullets; do not replace author-approved scope/order with the review’s structure.
