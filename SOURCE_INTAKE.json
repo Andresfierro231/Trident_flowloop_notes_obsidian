@@ -1,0 +1,1847 @@
+{
+  "created_date": "2026-11-02",
+  "source": "box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes",
+  "snapshot_status": "complete_verified",
+  "source_inventory_stable": true,
+  "file_count": 262,
+  "bytes": 56339562,
+  "verification": "Box SHA-1 equals local bytes; SHA-256 pinned for every source file.",
+  "limits": "Box snapshot only. Original local-machine edits absent from Box require reconciliation. No scientific review, image viewing or CAD parsing.",
+  "hpc_receipt": "runs/2026-11-02_OPS-007_box_notes_git/attempt02/copy_completion.json",
+  "files": [
+    {
+      "path": "Table of Contents.base",
+      "size": 754,
+      "sha1": "e27fc22a286c8455002de5b25c02afe5bb6514cb",
+      "sha256": "128a35308d106f0f06ebdc9f8a91c3b8587719a877f5796f424b3dc8facd58ca",
+      "box_id": "2118559336710"
+    },
+    {
+      "path": "attachments/Pasted image 20260821141504.png",
+      "size": 123954,
+      "sha1": "9dfa269851023e1961b34f14c2f4e7acbf052806",
+      "sha256": "7c4fe916d9094ae23b5ca282d5b2cd6d5321e986b3ac58a63ffb128dd9fd0660",
+      "box_id": "2419431239549"
+    },
+    {
+      "path": "attachments/Slack message documentation.md",
+      "size": 51,
+      "sha1": "e0555aedf74d5de6c7112f0636811536d7160ab2",
+      "sha256": "aef85a491e461eb375c4375880abdd4888d901d557d4373419d5fa9baa252b2a",
+      "box_id": "2164556912426"
+    },
+    {
+      "path": "attachments/trident_longhorn_I_hate.png",
+      "size": 87245,
+      "sha1": "8d22ce401d9d568be0e13984d54d3bfa15349d05",
+      "sha256": "53204a5f58cef7f65b893006bfb82e4f4db8228181cce1ecfeb7a36f5f3ba23d",
+      "box_id": "2151737221444"
+    },
+    {
+      "path": "A. Appendix/A.1 Interesting Pictures and drawing.md",
+      "size": 155,
+      "sha1": "cc12bc463c50b9a048f567074cf5e3282b46734a",
+      "sha256": "24ed18ce196ab0c1700b118b79a237eaa22a98cdbbfc1bcdfa37a36892453978",
+      "box_id": "2454088120479"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.0 Geometry notes.md",
+      "size": 2970,
+      "sha1": "8fa47778250c8f56ba488fa69e971ec1a078a925",
+      "sha256": "4d8c9ee431488a56e6f1a8d656cfc0e0debc45d8a87d09e507b0382575b9190c",
+      "box_id": "2466125175657"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.0 Heaters and coolers.md",
+      "size": 1065,
+      "sha1": "b08c773bc02b556e569af054f14bc92afbf939b0",
+      "sha256": "4abf5ca2c924aea9b63ffb8dd4b31831a6e652e2cb3c6df36174fb353927c33a",
+      "box_id": "2512278870718"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.1 Geometry pics.md",
+      "size": 2625,
+      "sha1": "aa18eb8b23f793db985edba088280b158a2ccfff",
+      "sha256": "4004a725433fd43e06556bf6a847c0a67dc548c9a198b6d71706808158527910",
+      "box_id": "2458435775062"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.2 Sensors.md",
+      "size": 2169,
+      "sha1": "6e23d89b9ce0e5f592c44810f9239891ff0786cd",
+      "sha256": "49f882e979b7451699dc3de77c40a7dfb6fff059e0fbcac161e7080020aae59f",
+      "box_id": "2487579589692"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.2.1 EPIC ACU Senor Names.md",
+      "size": 1324,
+      "sha1": "7ea8990dfb2d079c24609f906b369c4219958d73",
+      "sha256": "35f200b3be9fa45bca3faee02bfce7ac782838bd1e3a2d7dbe05d36ee6b8e7a7",
+      "box_id": "2528831826336"
+    },
+    {
+      "path": "1. Setup and Geometry/1.2 Main Material Props.md",
+      "size": 1945,
+      "sha1": "736b46e4ce4324127e4b8d16ae0110ca8aacfa54",
+      "sha256": "9bbfeb6527fd3787b05f28ecb8c0654deeb89b0252889d73429cfb0bc1c5ae18",
+      "box_id": "2474734367426"
+    },
+    {
+      "path": "1. Setup and Geometry/1.2.1 Prop 30 ThermoPhys Props.md",
+      "size": 519,
+      "sha1": "1adfaa10c05ec3edd81e5e2b952266033a7914cf",
+      "sha256": "95532e4fd96351d882b17632200c05ea533981d280ff58df43beccaaa5ee25db",
+      "box_id": "2470715101766"
+    },
+    {
+      "path": "1. Setup and Geometry/1.2.2 Steel Pipe Properties.md",
+      "size": 817,
+      "sha1": "9510ccecc802afac3787c3c3d746a46d0be51285",
+      "sha256": "e700df5bea4486003f76b1a8759f2c1c3d985da70ca0011963dbd99ac4e8ebf2",
+      "box_id": "2490337362081"
+    },
+    {
+      "path": "1. Setup and Geometry/1.A Appendix Notes.md",
+      "size": 0,
+      "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "box_id": "2487377003731"
+    },
+    {
+      "path": "1. Setup and Geometry/1.A.1 ACU Loop is bigger than VCU loop.md",
+      "size": 1614,
+      "sha1": "908615c6f805babfa19be728386dc413f8166388",
+      "sha256": "3eb2a18da3ce3e17417bc62e7e28eacc89dec7205a8a53cf7d45b8e7919c2e16",
+      "box_id": "2487612566084"
+    },
+    {
+      "path": "X.Chat/AGENTS.md",
+      "size": 3089,
+      "sha1": "747e262c9ac8165eeba5b65a012c46bcb345751c",
+      "sha256": "183c930628491e12b50917f75fc874faf97a8108062ececed5ff2106ee26f54d",
+      "box_id": "2566791411616"
+    },
+    {
+      "path": "X.Chat/README.md",
+      "size": 1843,
+      "sha1": "e538b853c1131f3eeb26ecda363dd5cd3b9e3863",
+      "sha256": "7fda815eb09e2dd0ed0372128fc5a9bfbd607f61d4de9a0874def1b6f9be5107",
+      "box_id": "2566788284928"
+    },
+    {
+      "path": "X.Chat/codex_markdown_test.md",
+      "size": 131,
+      "sha1": "b26f5874e6ed3e5804b96a1ff9734fe3f12bf33b",
+      "sha256": "3a59dc884be8c2fca446f235b451d51455ee364dfa91c2cd289a45938e195ef5",
+      "box_id": "2566705057849"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 08 - Comp Trident Flow Loop Team.md",
+      "size": 2387,
+      "sha1": "1bfd20bbc40d4e4c27e5f327457be125c124519e",
+      "sha256": "01187c26d118bfc2ec661d99630b8bb91b89b570ba1991579ddf9ff6e59d7e32",
+      "box_id": "2514844473243"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 13 - Neutron OS with Ben booth.md",
+      "size": 653,
+      "sha1": "56d84e436d6e27b532a7a09e50e8f6bd20f02b02",
+      "sha256": "c78c372b942d04f815afd9124c6fe18811bb0dca32c08ce2a27bc2c6eb24f830",
+      "box_id": "2524691615836"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 14 - ACU desired ROM capabilities - Tim Head.md",
+      "size": 1778,
+      "sha1": "0d83b25c8a3be4e07d24e01c55db102fa6a48ab7",
+      "sha256": "15dab5f9ae9a8f3c4af7cdde53576f995174b8354cf828d94a6e33849802d992",
+      "box_id": "2526443913526"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 14 - feedback abstract - Clarno meeting.md",
+      "size": 1646,
+      "sha1": "c6fded6182cac3a6d820bd2baedb014fe8239bff",
+      "sha256": "b3293f3b08b7a342fb72d662d4dbf0da94166162f63bd92909359e643d9f3b17",
+      "box_id": "2526680217107"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 16 - Luciano Ideas.md",
+      "size": 2097,
+      "sha1": "a31758ac909eff2d9f989d23180a422afbeb82b6",
+      "sha256": "3b725bd61e3cce34271684d0db1f3fee7975522f3efb762e6dac6568e3e32a07",
+      "box_id": "2531317578502"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 16 - VCU exp team meeting.md",
+      "size": 3813230,
+      "sha1": "572bd52207604b95cc72d083779e24df75b72c4d",
+      "sha256": "10d97d29edfb69fa3771874aeb6496aec7b0436dc7453904a86af3221fffcb25",
+      "box_id": "2530924367240"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Sep 08 - Dilan Trident VCU.md",
+      "size": 1126,
+      "sha1": "56b62815dd46995bb075fcdbe3adb3cd8a4e719f",
+      "sha256": "c71750f661a8971f076050f0c831f9d9ad84330d0a360110bdfa0d66c958e324",
+      "box_id": "2457002595634"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Sep 09 - Carasik Email.md",
+      "size": 785,
+      "sha1": "04f24059c88923749cc9bc6bb6798f9a4496ec16",
+      "sha256": "b380796bc823ca8b29b1243a7fea6124c7c46b24640371e3549dfe08d85554e0",
+      "box_id": "2468478151182"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Sep 29 - Group Meeting.md",
+      "size": 335,
+      "sha1": "184bf0ce75f3813d772f129ba1db04090b94b168",
+      "sha256": "5ebb0f16b17e77a260cce34d1ca9e78682d93a52e6ae5847143d859714fee078",
+      "box_id": "2495550519617"
+    },
+    {
+      "path": "0. Overview and intro/Digital I&C - Andres Notes.md",
+      "size": 130,
+      "sha1": "7f218068cb8856c498ac4aee68244cb8a2891a89",
+      "sha256": "a12c36ee294f411b8f63bab6a33af92f8bc4ffbdd1bc271bdde8d116f2ad63eb",
+      "box_id": "2204651790388"
+    },
+    {
+      "path": "0. Overview and intro/Home Note.md",
+      "size": 1120,
+      "sha1": "6f55b4051549b359945aaee3ba7a9a2fe3a095bb",
+      "sha256": "c22af1d012e4786b04f188e7ab8248dc6503342098c91ab8052439ed67651e82",
+      "box_id": "2118546776713"
+    },
+    {
+      "path": "0. Overview and intro/Trident - STNCL Loops.md",
+      "size": 1307,
+      "sha1": "85fff0a6528a82536c24bfe35d462440796e0901",
+      "sha256": "a42df9414346fe3167c3557813bb63143f2becf5ca2c1cdf00409a78ad63bd75",
+      "box_id": "2141957387744"
+    },
+    {
+      "path": "0. Overview and intro/Trident Notes, Questions, and follow ups.md",
+      "size": 2854,
+      "sha1": "054a956f050624dc82c6f282e2fe19e4a8596830",
+      "sha256": "403d5651f856ddcb8cf29b7a629f09b3f9000cf853e043b8c09ba73ef0cf839b",
+      "box_id": "2162118654624"
+    },
+    {
+      "path": "2. Model Notes/0.0 Intro to Model.md",
+      "size": 9217,
+      "sha1": "df19948a291ef808b092dbc881a326e644057d47",
+      "sha256": "6ddfd46ad8e783bd186729f3daadeaa050009ed8f4e122e437990225c9b86aa9",
+      "box_id": "2507897053219"
+    },
+    {
+      "path": "attachments/attachments/Slack message documentation.png",
+      "size": 438548,
+      "sha1": "9d908213ef82aee00be5281df1dd6b62e7bd1b93",
+      "sha256": "c4d1d4a047dac03d135a68c7084fcc5003884160448ad8ea2f895e1ee7d0ece3",
+      "box_id": "2189558024676"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/ACU_Engineering_Reference_RevB (1).pdf",
+      "size": 1095802,
+      "sha1": "2697a56e125d464fadd744eab0ff812961967afd",
+      "sha256": "6c6d067be064cc542518c1ac655d8825df0aa87c7d741df9d17cd210a92437b0",
+      "box_id": "2458463782875"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/ACU_Loop_Section.png",
+      "size": 329418,
+      "sha1": "d50a009337fba525d4136a9b60efddb203247dcb",
+      "sha256": "c3e6297ed027f426e3c885cd9a0d1a0f8a4aa5301e6595d0b8b2f9a3ed87f417",
+      "box_id": "2458454769414"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/ACU_Loop_Simple (1).png",
+      "size": 207123,
+      "sha1": "1d175e334ba211c642d6fbbb5151bb94cd1f8865",
+      "sha256": "1e31dc52af5a31940ee5a34d53fd1e38c59fb0287918a6944b0d32a91bbd5cb0",
+      "box_id": "2458459936202"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/Loop_Images_Editable (1).zip",
+      "size": 1324262,
+      "sha1": "f84bbd1188173b4e99c1e6881ec0d362b8b886ed",
+      "sha256": "71ec9bbc3c0f842b0f0bc287369551f7c3e38df2910ca639aaad066f63041b8f",
+      "box_id": "2458457303471"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/VCU_Loop_Engineering_Blueprint_Rev8.pdf",
+      "size": 1207809,
+      "sha1": "0c0f6a503613fe53509f8f17c6d4864e5f3b5b65",
+      "sha256": "826532f1d03c2d1c543a262aae948747a3ed659cdb5cba5726c317cb4525f7c6",
+      "box_id": "2458464937964"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/VCU_Loop_Section.png",
+      "size": 332984,
+      "sha1": "ef21640f3ee6b0b7db46323c3511f5f9b713c6bc",
+      "sha256": "f2588e125c2a335d3c9e5566935277af2c3aa956e1bcf7065e364145fdd17db2",
+      "box_id": "2458460411002"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/VCU_style_simplified_sensor_locations.png",
+      "size": 963782,
+      "sha1": "a1ebc1b73bfaea418ca66e3313d9b5375eca877a",
+      "sha256": "99292e82d7320b494fca79777566db1048f46a682077d2bf7ca4ce663e858f61",
+      "box_id": "2458462626812"
+    },
+    {
+      "path": "Research/Clarno's Special assignment/Instructions.md",
+      "size": 1737,
+      "sha1": "15108580273566ac95e8b4982d96aa62b0593ac6",
+      "sha256": "5b86bbc94145818423434195d850a22c66918c04c6ff22344e88b90701c26c7b",
+      "box_id": "2442853141349"
+    },
+    {
+      "path": "Research/Clarno's Special assignment/Nick's Steady State Heat Transfer Analysis.md",
+      "size": 0,
+      "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "box_id": "2442854552417"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/A-000109_CHK1.pdf",
+      "size": 316001,
+      "sha1": "f6aa6e7cb56b846f96ce8b6b26969937d57e9eba",
+      "sha256": "0057bac299ce74bc3461c40ae04c7b5a22145ebd39c04db7c355767377376367",
+      "box_id": "2161864005263"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/As designed documentation.md",
+      "size": 2174,
+      "sha1": "a49596ac5b62441828936c4b4d9a0b54211a6f38",
+      "sha256": "9ab9081c32135ffac47eec1f6dda6313761841341ccdd2fac3174b0e5efcfd0e",
+      "box_id": "2419368291635"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/Base.base",
+      "size": 244,
+      "sha1": "6aacb5a84b95c9b901e5d9c49fbc0e4a2fe660b1",
+      "sha256": "f10365450dd9894b1b60f5c972b5cde6a42e05b0b7d8fe45ccd55bc1dbeb266e",
+      "box_id": "2186664337703"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000117a 1.pdf",
+      "size": 266728,
+      "sha1": "cc666a5d75ed2047ec71442e6a7497b03920dcff",
+      "sha256": "ba7e20171922efb2a5ccc79f84ecec169c2257291d7a359e2bab82e218b33149",
+      "box_id": "2186691802973"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000117b 1.pdf",
+      "size": 254689,
+      "sha1": "500b1b7ff91b6f91766caa5809c57f3e54d38e01",
+      "sha256": "9c51fa902eb72d88b103c0a21c5035f23a04cc1d43066735c7dbd1371f038ea2",
+      "box_id": "2186696614914"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000118 1.pdf",
+      "size": 326426,
+      "sha1": "285e88bf7be7787e733aa537aa4784be7cd2ef5e",
+      "sha256": "d824b438aa434bd7d3bdac8fab0bf212abdc1ece3a065045c7fbc19f9f1ef732",
+      "box_id": "2185411472823"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000118 updated.pdf",
+      "size": 326426,
+      "sha1": "285e88bf7be7787e733aa537aa4784be7cd2ef5e",
+      "sha256": "d824b438aa434bd7d3bdac8fab0bf212abdc1ece3a065045c7fbc19f9f1ef732",
+      "box_id": "2185418600485"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000118.pdf",
+      "size": 321874,
+      "sha1": "de6090e14a4f0fe1f62a72f1b41806d93e7fa7fb",
+      "sha256": "f4b4b3ea74d2708a296a411732c570c2e55062989576c7db5df82f63cebdbd11",
+      "box_id": "2161874358773"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000151.pdf",
+      "size": 249818,
+      "sha1": "9d8debd164223b458571d835165fcc54435f6875",
+      "sha256": "d8c5d614ef08336953756a7723683b1dae35981c06a690212d59c5c6b3862616",
+      "box_id": "2161865231230"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000153.pdf",
+      "size": 566880,
+      "sha1": "d560a8d7a34eb5932df5fde6cc39644bb2104453",
+      "sha256": "6aed16f0f127b8051b9823318ce9751e458326c941152a59410bd01c7aa6509d",
+      "box_id": "2161866793984"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000158.pdf",
+      "size": 471306,
+      "sha1": "2f2495dba9a32751c20b38a1158deeba69e2288f",
+      "sha256": "7745a8ea32bdacdf719a09fbb9eba28515a7fc68c344743d17e8c1b88efb0fc2",
+      "box_id": "2161872887803"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000159.pdf",
+      "size": 251446,
+      "sha1": "fa108dab5145570fc8952eb844eae29ddbce8c2f",
+      "sha256": "10e8be833a21096aa5cb6b2ebe21cb1264547a62a7a455a0b3621043840eeb2c",
+      "box_id": "2161875863625"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000164.pdf",
+      "size": 451115,
+      "sha1": "a7f10685573a4561da69c1d8da2a53c3b8b7965d",
+      "sha256": "be5f8f93209f0dea9408a00d7877c31f8e0b0f3ffe46a938388dd826640da86a",
+      "box_id": "2161865596157"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000167 1.pdf",
+      "size": 587635,
+      "sha1": "66c2d99697c63409c7e6ca9907ad6f0a2a88b0b0",
+      "sha256": "bdced28dfae281e3108349a992c8883cb7f253bdbe59f653fa097f52e383a39f",
+      "box_id": "2185404047383"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000167.pdf",
+      "size": 587635,
+      "sha1": "66c2d99697c63409c7e6ca9907ad6f0a2a88b0b0",
+      "sha256": "bdced28dfae281e3108349a992c8883cb7f253bdbe59f653fa097f52e383a39f",
+      "box_id": "2161873023947"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000167_SENSOR SECTION VIEW_CHK1.pdf",
+      "size": 346774,
+      "sha1": "594c2d6279effe70cf0035a6138238ce1c2ff129",
+      "sha256": "02e05b0f8c4c60172b5ff566ffada1a8f5d4e89211f1caf54570a17de215229f",
+      "box_id": "2161864953351"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000183 1.pdf",
+      "size": 268029,
+      "sha1": "1cd80f6c0afc07d3e3311b251774ff6717a62f01",
+      "sha256": "578127e380c17fbfa2c9a26bc836c358ee24e14dfb492b5ced0a7b5424c46cd4",
+      "box_id": "2186705711037"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000187_CHK1.pdf",
+      "size": 308779,
+      "sha1": "ac5f3a6fa0c00e65ba1cd68c82748c8d6bf259aa",
+      "sha256": "ed4909116c7f148dfa8beb0e1319c39dc52b8d2ce0e7bc6b9c1273f2fbd26be6",
+      "box_id": "2161872373401"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/Gentry's ACU Flow-Loop Specifications.md",
+      "size": 6179,
+      "sha1": "4538450b56db7fa51a1322431036d5b4f70aefef",
+      "sha256": "a70a64c13a6a26cfd4ba16a35a9ba2553f7384be9e08a70ac73efa1f629e3d81",
+      "box_id": "2417631923019"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/SaltLoopV1BDrawing.pdf",
+      "size": 482931,
+      "sha1": "c99064b5dd3e49b30c21c3b0917b8ac9236effb2",
+      "sha256": "620a24e3fb7c3cc7fc788542d623fdf1ce4d27bbb8abeaf0c0627867297bf509",
+      "box_id": "2161877779125"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/What things are.md",
+      "size": 3571,
+      "sha1": "4f61d0a8d01ee2610538328403a26dc927fba4f9",
+      "sha256": "cba83e6a17c53769da67b42cf1eb6e10bf53e82fddd6eb64670208bf94a89a41",
+      "box_id": "2186672371076"
+    },
+    {
+      "path": "X.Chat/00_navigation/LITERATURE_FOUNDATION.md",
+      "size": 404,
+      "sha1": "90c3cca8a149c8d93f047a6d7e6d5d4c58d34a5b",
+      "sha256": "d8f039e3ca015b551917d6a4d13e6f043f8ea8d3ed800b7aa49aa82a9d60429e",
+      "box_id": "2566809762838"
+    },
+    {
+      "path": "X.Chat/00_navigation/LITERATURE_RESOURCES.md",
+      "size": 13074,
+      "sha1": "6f6b87eb8916c6faa0bed24c42d85efeff3fb59c",
+      "sha256": "c45c37a10943ac10090be688ce81e77a566af7ce8b44bb6a0d82208276294a79",
+      "box_id": "2566852622186"
+    },
+    {
+      "path": "X.Chat/00_navigation/LOCATIONS.md",
+      "size": 4704,
+      "sha1": "220ebb34c6c99f3881a3dcdb5fdd6fd99991df7c",
+      "sha256": "67831aa4d6f0690ad7dd0a06ea0021f22ac99f143a2ab12e6d80d2e3c2e19ea6",
+      "box_id": "2566811181276"
+    },
+    {
+      "path": "X.Chat/00_navigation/ORGANIZATION.md",
+      "size": 3393,
+      "sha1": "0282722fbcc4db08bb58f01706066915076b17c7",
+      "sha256": "5f39b0a6d76b1aa26e44e7bf38199238ef35159e042d455136a5ede34501003e",
+      "box_id": "2566786256635"
+    },
+    {
+      "path": "X.Chat/00_navigation/RESEARCH_MAP.md",
+      "size": 2578,
+      "sha1": "07873c53ab50759fec1f5daa3fffa50ce4e9707a",
+      "sha256": "6988f8a3dd50486ac487024363e25d42770ff32f48be9cbe3c1c1f43a394c096",
+      "box_id": "2566785337320"
+    },
+    {
+      "path": "X.Chat/01_sources/FIGURE_ROUTES.md",
+      "size": 3441,
+      "sha1": "666c3e048ea92d2fddab61a4cfa31fa7dc16eb39",
+      "sha256": "8c6a2863ce9c9e21a02393e9537c6599de80dacfbf67b087e12018e949da7634",
+      "box_id": "2566788304455"
+    },
+    {
+      "path": "X.Chat/01_sources/HPC_REPORT_MAP.md",
+      "size": 7381,
+      "sha1": "f6e3bcb3b93bf2ccd1630999642d83b68efaf89c",
+      "sha256": "2c0320a0bb8ce7730b072ebcbdb12bc0e12b263d65a0cb4f62204360429397a6",
+      "box_id": "2566813048387"
+    },
+    {
+      "path": "X.Chat/01_sources/LINK_REPAIR_QUEUE.md",
+      "size": 3190,
+      "sha1": "037796a35cc79b88887479fc1457a9dcce952bb4",
+      "sha256": "aef720773532d7d8c96c47ff0627c904c3131cea354257cc127759ab1b7dbaa0",
+      "box_id": "2566785925832"
+    },
+    {
+      "path": "X.Chat/01_sources/SOURCE_REGISTER.md",
+      "size": 9199,
+      "sha1": "44c2dcd8b169bffd8a7cf768af04e99a3ac2dcae",
+      "sha256": "b506e78a3f9f9181b04defb1b352374e52fadde3eb7891b56e1ad25de5f3096b",
+      "box_id": "2566785769843"
+    },
+    {
+      "path": "X.Chat/01_sources/google_plan_locators.json",
+      "size": 4025,
+      "sha1": "218ed55ff26e69488e653ff7d9d1cc31cb0566fb",
+      "sha256": "9c6226cf569491ecab8cfc7b2cdd2b7b7ec22183f1002420be94b03748cde1fd",
+      "box_id": "2566785549378"
+    },
+    {
+      "path": "X.Chat/01_sources/hpc_report_catalog.csv",
+      "size": 361268,
+      "sha1": "cee39caefd48c5a55f8943b09c6ca940059a8606",
+      "sha256": "44a10e0af0787f92aca285d6d496589a37673695fa269fc375695c80fcbd9dd7",
+      "box_id": "2566817647138"
+    },
+    {
+      "path": "X.Chat/01_sources/hpc_source_manifest.json",
+      "size": 6785,
+      "sha1": "bd8283d66a7f38c641de97e1ebbbdbfe7b995bee",
+      "sha256": "4b27177604a3b47cfaa388b706ae08cc38964635f6265ddb3ebc6d429b5a6f91",
+      "box_id": "2566813276734"
+    },
+    {
+      "path": "X.Chat/01_sources/inventory_summary.json",
+      "size": 1010,
+      "sha1": "9c2ee381c5feed38f08ebfff5526723058025c6b",
+      "sha256": "d4d93f4c77c19f23b7969d681461cfb189f4721191614fd1fab9761b780defde",
+      "box_id": "2566784983138"
+    },
+    {
+      "path": "X.Chat/01_sources/obsidian_links.csv",
+      "size": 47512,
+      "sha1": "5dac1ef142c81ed9c715596a335a37ec3e7be951",
+      "sha256": "b5977c28f1a56c7fddcb138d366f2a4df906455de212d831909fb123b4ff885a",
+      "box_id": "2566786982119"
+    },
+    {
+      "path": "X.Chat/01_sources/planning_item_coverage.csv",
+      "size": 180407,
+      "sha1": "abd3210c10bb09fad6cdd4092d8c647901407667",
+      "sha256": "5264c1d14d808240d19258107581a442c8af5c5b3e5df35dab2a099b31a3364a",
+      "box_id": "2566813374018"
+    },
+    {
+      "path": "X.Chat/01_sources/research_question_proposal_crosswalk.csv",
+      "size": 84283,
+      "sha1": "a7591a5acd8552b6cdf5cbcef9cb0d590665756d",
+      "sha256": "dc8733a7c139ef9e2d8bd784ea0d7ffb18e56ece75fa41333adacd45505c2877",
+      "box_id": "2566854947798"
+    },
+    {
+      "path": "X.Chat/01_sources/resource_inventory.csv",
+      "size": 28556,
+      "sha1": "ffae222a975a4de8d51aec02aea5005b1616ccf8",
+      "sha256": "d0679770b24489d36ad97757ec18bcba8d11b0c0b34c349e8e1c2fcd67c9c2e6",
+      "box_id": "2566791085563"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/316L_correlations_vs_NRC (1).pdf",
+      "size": 59658,
+      "sha1": "46fd536b283ebf952a03dc3595be7d5b5e2a9685",
+      "sha256": "2e548de69c463a490c83f3a4f952ae80f2263b34d8abd948b6952980f4944102",
+      "box_id": "2480225384838"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/316L_correlations_vs_NRC.pdf",
+      "size": 63981,
+      "sha1": "df7b0046fea092995f0ddbca323b9cab0fdc4493",
+      "sha256": "3b2009f57ce1b8d14e7804fd3514ba6e9eb8243f9d5dd0b6ed0c0ffea6fb063e",
+      "box_id": "2480230491848"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260911080943.png",
+      "size": 76521,
+      "sha1": "2d5947b9b84c1899e350a666e4806f7700444853",
+      "sha256": "7e96315ac04809bdba51a89934f70ba3650082a464f6be2b3cf19c35491bf351",
+      "box_id": "2460768247154"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916145752.png",
+      "size": 125169,
+      "sha1": "96157531af88a28f902ce92c3648ef85f7612795",
+      "sha256": "132d783f2b3a8df9352fde1de88f572790f533b7ff14f24ccc97756212fb0223",
+      "box_id": "2470731520461"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916150018.png",
+      "size": 96527,
+      "sha1": "b189582b8a97e40d7fe913944e73c2f9ecaadbe0",
+      "sha256": "0ad140d68019c55d58458294aec735fd39e1460f21cb41fad96c9ba9af1a920f",
+      "box_id": "2470733992744"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916154132.png",
+      "size": 86682,
+      "sha1": "8cebb71bfba559cf0e790a3a6a3b2b9a65d18f30",
+      "sha256": "29bc49315564a3cfd258ecee8fc8bf9d280c557f5f3ba189394f58a4347baec1",
+      "box_id": "2470780218809"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916165634.png",
+      "size": 36339,
+      "sha1": "f54f68bd107acfe70ec74ea6a69a9343d50651e5",
+      "sha256": "82c728300fa57626a20fc1f98d9e94c762ab35615b83e8ff687abcea9f475b4b",
+      "box_id": "2470901049337"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916171707.png",
+      "size": 57958,
+      "sha1": "79a555c8bf8f67c0cf7898951e1e32df7e9080df",
+      "sha256": "e92662b86d67f62df44f5e04671ae92290e32b934f6229a24a7ccf2c36b966ad",
+      "box_id": "2470922925207"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916171722.png",
+      "size": 14937,
+      "sha1": "d80504eb9dedda7af14aeac751f1a2500c260f91",
+      "sha256": "dd19b9ea59cec21aeb90527f11c7f368770060cb1ed2417c7e312cf9a61433da",
+      "box_id": "2470921110549"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260918112110.png",
+      "size": 90807,
+      "sha1": "4865e88e1fa90907ce29802a5abfed927fc47b4b",
+      "sha256": "00f8698af092d0d042b36e3c5a5c92a8ce78369061cb4b9bfc773c5da7ae9ad9",
+      "box_id": "2474756238159"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260918112233.png",
+      "size": 59839,
+      "sha1": "03316061e04501ea9687ec95a1f1c7b9d6129b87",
+      "sha256": "893e6e8aea261401783cde770b479f779f673dd7c71d6d6d6088b982716dddab",
+      "box_id": "2474745930010"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260918162121.png",
+      "size": 173414,
+      "sha1": "8c1b78363214b4f8209b59ace890d0af51564b1a",
+      "sha256": "92e3dc2d84bd2edc6d2a4aa85d5fa6316dd4facd895197b34b43c3484004695a",
+      "box_id": "2475257519249"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260918162620.png",
+      "size": 137939,
+      "sha1": "ae8aebf835abd33cee875e1418869208f59dbaab",
+      "sha256": "abed7689eeb814897804058929fc78b6492724e8722c4a4e583b033261c9ff19",
+      "box_id": "2475268928585"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260921122948.png",
+      "size": 251021,
+      "sha1": "d072c115a33ae7fccc8b1e464d6a96eb9e8c5024",
+      "sha256": "fb37a59e9365ccdb6c84aca025c3e43b603b565b7e87bcfc85a836158e18ae3a",
+      "box_id": "2480177063310"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260921123601.png",
+      "size": 62512,
+      "sha1": "0a76a506d41a8027667b075bd6817f432054f89e",
+      "sha256": "68e22430d7933ed7eeb6fa4d82c923c0f1a9a4d6643a52cdd1659a0f9d6115f2",
+      "box_id": "2480184883162"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260921123630.png",
+      "size": 69018,
+      "sha1": "9944df42128314110539c6f35e40f64cd7c0c48a",
+      "sha256": "b56feb945338bac20e5ef26ae244a83af50876f5fee5fed0178929451b07de36",
+      "box_id": "2480182996341"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260921124359.png",
+      "size": 3621817,
+      "sha1": "eb06cf373672a249b52c255a3343b908c9fd3de4",
+      "sha256": "03e9cf6368d54bbe1a9aca1077b7c7b75e4b75c2e9fbf07c01c47459cf4bbfa8",
+      "box_id": "2480188177297"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260924212606.png",
+      "size": 127486,
+      "sha1": "1215a5ffa81043287618ec33b537b3e23462b18d",
+      "sha256": "0f8dc4f97800433598f47be75069a77be8391dfd523f11710f7219b0ebe1c351",
+      "box_id": "2486603879358"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260924212642.png",
+      "size": 133242,
+      "sha1": "9e34d8e33d9589dd148c538730267ad026f240b8",
+      "sha256": "e2c732e28d54cca8925436b606affa3c83e7cd96e8868035f7860c9d287d3ee3",
+      "box_id": "2486611123196"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260924212656.png",
+      "size": 141904,
+      "sha1": "3aecd72fefa0bba53292390179d28a02cfd913be",
+      "sha256": "997127747301fd6a1dd8a7219f666122221dcbee61b757bd57b004a5c0db4b71",
+      "box_id": "2486603042198"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260925081141.png",
+      "size": 153322,
+      "sha1": "f6f9916235493e5ec38faf62a0ad1069cde0862e",
+      "sha256": "5ed864de6905e8ccc5017082e7579b24e2cfab4b25106dd6a28adae27e576aa0",
+      "box_id": "2487612981048"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260925081737.png",
+      "size": 43446,
+      "sha1": "e9bc11ced6c03cbb5873f26e980d6c49b7e80bc3",
+      "sha256": "e0bd6135131c42c250c34534b4e3cb803130d7db9509471804bcbf639706900f",
+      "box_id": "2487611843793"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260925211935.png",
+      "size": 103904,
+      "sha1": "11dc88d15ce09329065756a1aeee81e41328224e",
+      "sha256": "84c6d1aa7f3f3533b88e20543b0531e63108a70dcb0d4614bfb3e561f62176e5",
+      "box_id": "2488853442534"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180243.png",
+      "size": 120912,
+      "sha1": "680a87016ca8f7092b06d981a53885e4b6102d6f",
+      "sha256": "2aa174a0662cf441d413e92ca15e75515e8b3ca68b2228013fcd4719b78f66f5",
+      "box_id": "2490346307999"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180745.png",
+      "size": 115117,
+      "sha1": "dade68e69c410f0475714f5d4fccd7597c93470a",
+      "sha256": "09d109df92f2f0435ccc528b931e909111c92372c304097276c0cf50534de084",
+      "box_id": "2490355573622"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180810.png",
+      "size": 116159,
+      "sha1": "889f77edcaa0914c4f9d93e5be8849f672446a79",
+      "sha256": "8ade08b0b18f03daff210f3f90db5d80e104a6da794b1b803305db43644233a7",
+      "box_id": "2490349547476"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180902.png",
+      "size": 45864,
+      "sha1": "9fa6e3091a7e5ed9ed7e8b6149a7569fc288d4e9",
+      "sha256": "0ce66e997bb298cabd255a64ec407a35eaa2ebbd403dfd8716dc7ae270c1d9f5",
+      "box_id": "2490356414021"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180930.png",
+      "size": 66310,
+      "sha1": "51b8670fd480a9ce0800f1bbc8fa11d0c1bd53b8",
+      "sha256": "eb8c2ce8290a14a0c30d00033aea80af74f2a31c241896943f8e10cbab84aa3b",
+      "box_id": "2490350342268"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006125106.png",
+      "size": 10923,
+      "sha1": "abba77c1e7f5f465dc7bae379859a4c711c9b726",
+      "sha256": "9dfa9a80ecbda9e96a909b9fc4bc8c9305d638c6a236a54afffe2667a2d728f1",
+      "box_id": "2510023926669"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006125128.png",
+      "size": 11975,
+      "sha1": "e8b7a999b913ef8a00891f3f7dd294ef11aa19b1",
+      "sha256": "9ff7699f893d1f5df0f0fa5a7286ca3804cbb8e6e6cfc6568b10991e28e9efd4",
+      "box_id": "2510031769556"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006125244.png",
+      "size": 12163,
+      "sha1": "4ce36aca9aac30b58cb5c2d4633b4d3044c04d57",
+      "sha256": "39d9ed6a2aa30fc6624484de9b8990337197dd11c586a4c26d378c4f7edd475a",
+      "box_id": "2510030490344"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006125306.png",
+      "size": 11263,
+      "sha1": "ff7269e11f066ab086f922b6e2e93852f9cdaa3d",
+      "sha256": "d4c9aa5f5322b765899d2e6bba59a6fc9732793a339e055dda8fe7c325031d7a",
+      "box_id": "2510033046107"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006130427.png",
+      "size": 11868,
+      "sha1": "71f0753e45d5af326ab560a6822ca328568747f7",
+      "sha256": "6278b4d854f162e5ce1519e2556fe88eda63aeb7dd0f6c41fddd37b656cdffde",
+      "box_id": "2510048735991"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006130451.png",
+      "size": 11726,
+      "sha1": "b86bb38a9eff153a1ec30391d911b97de7b37dc9",
+      "sha256": "15ce033f09e86f2491ace76cd08a15bb0cd83abcdb29378ab0294b351d4551b2",
+      "box_id": "2510049494353"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006130522.png",
+      "size": 11726,
+      "sha1": "b86bb38a9eff153a1ec30391d911b97de7b37dc9",
+      "sha256": "15ce033f09e86f2491ace76cd08a15bb0cd83abcdb29378ab0294b351d4551b2",
+      "box_id": "2510045435083"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006132553.png",
+      "size": 101446,
+      "sha1": "dad2a2b2e3f19ebcd60517cb1f31b04fc0b4c60b",
+      "sha256": "7024c29730ab87deeba75f6d651d0a66c62c034b8037e56374bde0066ce0643d",
+      "box_id": "2510078137957"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006133638.png",
+      "size": 75565,
+      "sha1": "bc59f96374a7fc0c7e8b0a3272f72aae3ab0d770",
+      "sha256": "c557a35fad5d98992b0b162fdd512e29d23d69c28f10ce2e9608085f93f1a635",
+      "box_id": "2510100123838"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006134025.png",
+      "size": 98117,
+      "sha1": "1e7ef57d8edbdb2e43f92918b1c3a055da0aa26d",
+      "sha256": "8abadafe09ef5dda400732f6f9278196c7b8e2b4bcc9fa4f43d55608854b9250",
+      "box_id": "2510100649781"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006134600.png",
+      "size": 113186,
+      "sha1": "0ceab068b99f02f8771c1d9f2e6cd619a5f87d6c",
+      "sha256": "22b79341d97f74e3e128165a22efb6f7256430c04d003373d0988bbe76549608",
+      "box_id": "2510107947917"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006134905.png",
+      "size": 91999,
+      "sha1": "105d2c1746a516bee0460131ab4504886ad22b63",
+      "sha256": "6926d6701e0f8f398c46c314e9eef6b7fbf7f29ff5f25f3318edb6ae95f5249d",
+      "box_id": "2510113019388"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006134932.png",
+      "size": 97051,
+      "sha1": "cb68f457e6738350aafe7b9722bf710c1431622c",
+      "sha256": "f1fd6b431e3c299177416f8ad2628f7240d4859b109e90eb97bfcee447c83147",
+      "box_id": "2510122631617"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006140846.png",
+      "size": 100700,
+      "sha1": "80afa7b562a3d01171a5bb4b8cdfcc237dee3d99",
+      "sha256": "7d84a9c353ff7a082a7d4b0bebb5a66387f7bfdb57a4abafd637253a5a324901",
+      "box_id": "2510143050084"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261014092143.png",
+      "size": 610374,
+      "sha1": "797ff3320af36d20a7bd6a6f961256ae57fe20a7",
+      "sha256": "9269c73b8a33ef5366683b61af1d754037a022517911eb83fb13c2b6f45c37a5",
+      "box_id": "2526325871533"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261014094551.png",
+      "size": 138010,
+      "sha1": "f6a7ab02c493ed835a3401dcc27816c88459c302",
+      "sha256": "112089a761705fa9c3eb0f665eb0c6d8a0582cebc4fdb9f8e6ae6eba3c49541c",
+      "box_id": "2526364052588"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261014105153.png",
+      "size": 129088,
+      "sha1": "c70aa4471fbeadb091984507a176910d2bb98f7c",
+      "sha256": "2306d29f2f01eb2c2f31df6f9b5c365168367474b9f2ded19b37cecb85867333",
+      "box_id": "2526458881349"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261022173050.png",
+      "size": 5300457,
+      "sha1": "4e91358461390f6538335459d4b0f5222a6efa3c",
+      "sha256": "038b13380c8c128a977dd392e92313969e8903c01a21bda4753bc3a94825dbc3",
+      "box_id": "2543657634507"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev7_Rev8_CAD_Comparison.md",
+      "size": 4767,
+      "sha1": "c27ffcd862e4b164d4a3d799e50e749b329199b5",
+      "sha256": "a08a3293d97bf7b56eb035acea121dc7f6592a27d0c9c7f8e53481d264154100",
+      "box_id": "2466197075013"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev7_Rev8_CAD_Comparison.pdf",
+      "size": 972610,
+      "sha1": "34cae345de0387cf26f771b9ecc14a68c1b62775",
+      "sha256": "2a65b2862781c6c372ce1dfd332c4ec2bf0a8f766f35513660cc4cad54ad52c3",
+      "box_id": "2466192364597"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev7_Rev8_CAD_Comparison.xlsx",
+      "size": 38050,
+      "sha1": "f4fa677f66e42b614546807b21a2d6f4ca3869d4",
+      "sha256": "69ed1bddc8405b6efb189fa981a0ba1c543ad52e344d80f91fd46169809b1a2e",
+      "box_id": "2466195974281"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Engineering_Drawings 1.pdf",
+      "size": 269651,
+      "sha1": "8e0ce3cfc5aa6627463aa37bdcb1ed5c417ea5a2",
+      "sha256": "a2846b87a8cf1d6732bdb7a61731e04140bb1b6ff446dd11bce11538b992714a",
+      "box_id": "2524437104484"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Engineering_Drawings.pdf",
+      "size": 294641,
+      "sha1": "c09ff0dad959c1de95323b20625a0293bc916cf5",
+      "sha256": "490e7192f553838c87f6368e462878f852c0cde0d89206040f31f5f796ecdae0",
+      "box_id": "2490270918368"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package copy.zip",
+      "size": 2354207,
+      "sha1": "f6ad804282c856489ffe8452810817c4348f5c9d",
+      "sha256": "7a9f62432e7ecf61d2b8588d590d24d6f8dbb9af43b78b675c35535953a41ca8",
+      "box_id": "2514112446362"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_Compact_Sensors_Heights.pdf",
+      "size": 64207,
+      "sha1": "3f6e70423be5d8666b60d264dd417f298925aac0",
+      "sha256": "de44220f11831df3a5ad2e6174d69c447564b5fc8c13889de2e94c98ca6474cc",
+      "box_id": "2514108870143"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_Simplified_Sensors_Lengths.pdf",
+      "size": 65189,
+      "sha1": "d284a161e2d1ba64e15b147de31620c85fd81a4d",
+      "sha256": "f2f1876bc0fc9e0ec52fbfc51dc99ac48d51433879441e6aa41cbdac462cb022",
+      "box_id": "2514113838571"
+    },
+    {
+      "path": "X.Chat/02_synthesis/PLANNING_COVERAGE.md",
+      "size": 9251,
+      "sha1": "12e86175b06de5e467e1716b500f9c52cfed4dca",
+      "sha256": "018c6a470d6c7f6760322af4093f53d83abb6afecb88ac90be979e20945c5f30",
+      "box_id": "2566817223903"
+    },
+    {
+      "path": "X.Chat/02_synthesis/RECONCILIATION.md",
+      "size": 5239,
+      "sha1": "1fdc33491f58a1c570a6e58a7b5a8a50ec10f631",
+      "sha256": "7a3d4aa76e27a9df7abb723043f9bfa57ab6cab86c609715da403a91824b4726",
+      "box_id": "2566783081775"
+    },
+    {
+      "path": "X.Chat/02_synthesis/RESEARCH_QUESTIONS_TO_PROPOSAL.md",
+      "size": 5525,
+      "sha1": "91c54a7fd4afd31f2804cfdad44597103870fc77",
+      "sha256": "10bcd5dc163aeff83da24ddf7bfbc8c088cbc360b0c741305525917846b08326",
+      "box_id": "2566854772797"
+    },
+    {
+      "path": "X.Chat/02_synthesis/WORKING_UNDERSTANDING.md",
+      "size": 6395,
+      "sha1": "faf4ac0d0566d609c1bd7f17220dadb8a4d606d5",
+      "sha256": "c1654760b8c6ea58e966c8e09f49c1f66e0eb37e18614387830e9223675b521e",
+      "box_id": "2566817163749"
+    },
+    {
+      "path": "X.Chat/04_decisions/DECISIONS.md",
+      "size": 3888,
+      "sha1": "7a777ee7bb87d2bf118a5f802bbb9b352b2b9adc",
+      "sha256": "3c1e94bf0e290af82ec1fb4cefbcf5bda8328123afe278ba24db2553fdbb812b",
+      "box_id": "2566790920222"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02.md",
+      "size": 4281,
+      "sha1": "ab9a5194559abc0901bf0e4d52c4dad64d0806d9",
+      "sha256": "9916847d3a07d899d61fdab1b6a8d01e8d2bbadb973e60e82b030fd1a2b20045",
+      "box_id": "2566789998356"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02_02_hpc_context.md",
+      "size": 4334,
+      "sha1": "6db28c04d1aeb5d41c064721d0a58447e97132fb",
+      "sha256": "61fc7c6b97be14d44d375b92f5a51b1d483a6d530c454d96bebc711a0debc281",
+      "box_id": "2566822503994"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02_03_question_integration.md",
+      "size": 1926,
+      "sha1": "868fcc5277a6171e8c504c0f0689cbb0cdc9c62c",
+      "sha256": "011794f7fa530d4ad07aa2db2717986d960dda1f2ccca2b94209a2749ba80208",
+      "box_id": "2566854589943"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/QUESTION_REGISTER.md",
+      "size": 1480,
+      "sha1": "84fdf780c6024d38fdde0711a073f57e758b7957",
+      "sha256": "a840f70602e4c45d71283a3453380f97468466a50cb305b65fe715dab0dcddff",
+      "box_id": "2566816472559"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/README.md",
+      "size": 2028,
+      "sha1": "70042b73391f7a6725edf4df2ea3b0413225becb",
+      "sha256": "e64566330839967cbd51481463ceed9a241e179feb781e86bcb8c3ddf826ad7d",
+      "box_id": "2566811413377"
+    },
+    {
+      "path": "M. Meeting Notes/Attachments/Pasted image 20261013142511.png",
+      "size": 104309,
+      "sha1": "cced25d0520c247298d4896dba9eebffb6c7d62c",
+      "sha256": "03997c7ab245ce49ef357dc800dc425d34fb5bf88e8fa726bd2e3ce862717bb7",
+      "box_id": "2524629380580"
+    },
+    {
+      "path": "M. Meeting Notes/Attachments/Pasted image 20261013142523.png",
+      "size": 104309,
+      "sha1": "cced25d0520c247298d4896dba9eebffb6c7d62c",
+      "sha256": "03997c7ab245ce49ef357dc800dc425d34fb5bf88e8fa726bd2e3ce862717bb7",
+      "box_id": "2524621796945"
+    },
+    {
+      "path": "M. Meeting Notes/Attachments/Pasted image 20261022171306.png",
+      "size": 345460,
+      "sha1": "904e2f554d48d16b0036610b8fe0469e38a326d3",
+      "sha256": "b02068abb8f6cfc9544fa2291fa0691a7f201dd630037a438ced2228f750507a",
+      "box_id": "2543630567376"
+    },
+    {
+      "path": "X.Chat/90_templates/WORKING_NOTE.md",
+      "size": 773,
+      "sha1": "57031f143b2db0302f5a61cd949344e18359fb55",
+      "sha256": "b91cc7d3da888521f6665a9840eeff62de662988fbf5c7963c70ea51735c85f7",
+      "box_id": "2566791638121"
+    },
+    {
+      "path": "X.Chat/tools/refresh_inventory.py",
+      "size": 7868,
+      "sha1": "9c8fa8700670ceaa1405fff93054e47f21204ed0",
+      "sha256": "a66a44c87810b88b907d869e3573a2f00c5eaf336953398dcafc9f37cdac5376",
+      "box_id": "2566790260308"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/MANIFEST.json",
+      "size": 7713,
+      "sha1": "57c5f67bd891fd1a7d2ea051a8c86cc755f4cab2",
+      "sha256": "9f4d9b3773e25933899f1072aafdb5b3c886045ec1d7f0bd7e249703bdba250d",
+      "box_id": "2514118599978"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/README.txt",
+      "size": 11405,
+      "sha1": "25f15537fadc398fda0396e360b38740c1f459b1",
+      "sha256": "e97a863f482927daaa8c8afd331c093e977255e96b261dde643057a052309d7c",
+      "box_id": "2514117747775"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/VCU_Rev9_CAD_Engineering_Drawings.pdf",
+      "size": 328199,
+      "sha1": "e31a00debf4cf6f2478a68ead477b3e2e223d3fb",
+      "sha256": "c7078accde01cc9f6ab3ab6c8ff6a509a2b73ef64b8ac9f92db28357772d4963",
+      "box_id": "2514120297088"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/README.md",
+      "size": 5705,
+      "sha1": "a37a717904319ceedbe7fecb05d48dda17fc6883",
+      "sha256": "32237e4fd961727387ac2476c5a6c3ed64cdb122916ae84dccdc39aea6866140",
+      "box_id": "2490272175642"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/EXPANDED_OUTLINE.md",
+      "size": 35247,
+      "sha1": "c43a976719fdb2c62891d431801a5e5299a68f48",
+      "sha256": "5d160a30031f497b0ea1e381a3c71b0d0e5dbbadeda8be8cab39440dd982938a",
+      "box_id": "2566785753043"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "size": 3815,
+      "sha1": "ce8e1305ae6cd6907e26a8c1854c800621fa6afb",
+      "sha256": "03a9be265eaddfe7dd2ea62f414f9f2b8c7893daa0491a6ea19460564256fe4f",
+      "box_id": "2566790871691"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/README.md",
+      "size": 2136,
+      "sha1": "4df05d7a5d3c3a16dc9f88af10aab5d1a2dd094b",
+      "sha256": "14ffea9ac74ee9be70cafcda402110693cfdb201e93187fc1ca0fc740cb2f91c",
+      "box_id": "2566782589911"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "size": 3219,
+      "sha1": "4481aecc1798f9e640f23f1b18cd1a6d4f421309",
+      "sha256": "b989b5b08c66a5bf86685c031f058195081ded24329d59fd75746e15f3fa6d67",
+      "box_id": "2566818887109"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/build.log",
+      "size": 34544,
+      "sha1": "66af9832bd45c72e53e48dd26b02dac80af5ef60",
+      "sha256": "8fb9646f8c6d1bf5428420fefc26561d057a7dfef1065d275c5ea4f95d566d03",
+      "box_id": "2566787527165"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/manifest.json",
+      "size": 3857,
+      "sha1": "835152049f477928786823c50af9f03a59ce9d56",
+      "sha256": "7dcfb58af511979131efdd095fe3856c40320a65186b9e70384de71d45a6aabd",
+      "box_id": "2566788450407"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/proposal_expansion.patch",
+      "size": 89130,
+      "sha1": "def7dd898362bf5513749cfa0e397e6782557392",
+      "sha256": "0ca2117b89af9f7b53afd20a3458b1091b19c1fb291d0722e9de2464eea95e79",
+      "box_id": "2566787348499"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/proposal_outline_preview.pdf",
+      "size": 200041,
+      "sha1": "e466e5d2fb851a8b390e449804a68d781a0f04ee",
+      "sha256": "8e2cdaad8c02b9be8e4dbf1bce8bcd1a3a8bae902248eee31ac218d97f6cfe7e",
+      "box_id": "2566794820239"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/verification.json",
+      "size": 1025,
+      "sha1": "efc96436619089d47d6cc1e71f5b0ef54b9bf98a",
+      "sha256": "80cfffa2f4be3044bfed2e3dde32a2a14aff4a4b7eb37d076b9cc152d8790690",
+      "box_id": "2566792247058"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/01_to_hpc.md",
+      "size": 7002,
+      "sha1": "cd8b91da1617ed8bb6f36cddcbee83b04e59cc5d",
+      "sha256": "215ad561c520f600ed6f8c020e86e8d4a4d4483a8c473b9e6cf8e6069f6d30f7",
+      "box_id": "2566814207920"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/01_to_hpc_v2.md",
+      "size": 7707,
+      "sha1": "c04baea59239515420c028120518afeaaab8ac79",
+      "sha256": "ff56151d6262c740bae767724755a7e2729caaed2a6040016e616e9fe2694521",
+      "box_id": "2566854831632"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/02_from_hpc_TEMPLATE.md",
+      "size": 2111,
+      "sha1": "3eb5953fe14ab32e591114ad47c998408b111884",
+      "sha256": "dedd124bd3e2d3deed2133853b772d4e79c9775d770caf8549c73966fb59f8d4",
+      "box_id": "2566814041345"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/03_local_followup.md",
+      "size": 392,
+      "sha1": "5986d061f30b7f1f2051973df3a72f79aabf1f5d",
+      "sha256": "cd4b080414c7f0e2c64724272556e18b7536a229a17cfb83309f65101370779e",
+      "box_id": "2566815364097"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/bend_reconstruction.log",
+      "size": 622,
+      "sha1": "4d2432e99b1caaa9e67a3075e14c3547a87353e1",
+      "sha256": "1d94ca38923bafbcfde365447a4040a8f361908bfd1e13089738e3dce226e3c8",
+      "box_id": "2514120038096"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/cad_projection.json",
+      "size": 436431,
+      "sha1": "79c8b3aa4cb838b5bb2677e2d520f988bb3023c4",
+      "sha256": "7f99b789c757a355d922c120e65535a3629403d9f9035598e8242bf74535f925",
+      "box_id": "2514113440275"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/contacts.log",
+      "size": 1487,
+      "sha1": "8ffef44f45638d50867fae255f38e0f6f80ee50a",
+      "sha256": "a5e225e9882aca6d801c62a7ef7c4e0923cb1a2c49655660a0c093c76de74c35",
+      "box_id": "2514118828718"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/derived_summary.txt",
+      "size": 2190,
+      "sha1": "143aebbc1deb6417d3c82c8bcfd10889790fa7e8",
+      "sha256": "0781dd22e5bb85ee7518b67560a32b04c9b4e5ae6eb21503e9aae36e662a0417",
+      "box_id": "2514101269799"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/inventory.log",
+      "size": 8434,
+      "sha1": "579c81c0cb92e08e1761397575f34af2f134765b",
+      "sha256": "306d2bd3b65958313d156b54292fdb0c08e0811f4072794d50aca2ade12a0779",
+      "box_id": "2514116685540"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/projection.log",
+      "size": 872,
+      "sha1": "366cb1faefa374a53b0e512f9832db5d77e75d34",
+      "sha256": "a800963dbb8a9ac0fa1b66e1e507aae1f7b38c330b056c84aa73f9e28671e169",
+      "box_id": "2514118797009"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/rev9.json",
+      "size": 2215168,
+      "sha1": "53a030ba37f088b3c3ca115733b1bfb0ecc8ec63",
+      "sha256": "5a4c8731af50f52bc8e2d43aeafc17a869f599d0cb0b6ed302521e141fa7891e",
+      "box_id": "2514114390747"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/rev9_inventory.json",
+      "size": 2196613,
+      "sha1": "78731e4b19bd06ef3929ff83cfc8e290075c0a56",
+      "sha256": "8eb7481e55df4ac0f041f1ccb4301205cbd34652b15d745a6b07583474a9d113",
+      "box_id": "2514115009285"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/rev9_verification.json",
+      "size": 2239,
+      "sha1": "1aecfe2f192bb06102acfc9c4262b2bad9576010",
+      "sha256": "d33bc01b33b28d954bb1a7576b0fda26861e9df50a4d521067e407bf977c8841",
+      "box_id": "2514109034063"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/source/_STEPFILE_UTDTloopWithOpticsAndHXRev9_9_18_26.step",
+      "size": 4259443,
+      "sha1": "619d9c3e37effbf9c06874eb11170581d8bc0f16",
+      "sha256": "78c6ae52bf39084fbd9b1306d28dcbe2c1c4d5fccd334b0e68c861022a1bfbcf",
+      "box_id": "2514108025768"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/reference/README.txt",
+      "size": 243,
+      "sha1": "8c928f4c7017d4b1fcef5864fbe5f4922a9b688c",
+      "sha256": "e1cf4990abdf3b8008ac8ed26cb7efaa1c18fcbf29946c89c021f3ceaceefbf3",
+      "box_id": "2514114218365"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/reference/VCU_Rev8_Engineering_Data.json",
+      "size": 165212,
+      "sha1": "9e5d2fa111f5005127780454d54ab1c0b59429b1",
+      "sha256": "66aa8e58e6fdad8370d41c1b9f0da022ad0ae1d968c1b1c8e155e1eb82278605",
+      "box_id": "2514107301527"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev8_to_Rev9_Dimension_Changes.csv",
+      "size": 1086,
+      "sha1": "844e1afa0beed85a1d233c1945ab03b3040acd8e",
+      "sha256": "1a5c3281d52e4452021fe71aedba83e10a5ca56fb11b58435a627597aab2bc5f",
+      "box_id": "2514099405291"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev8_to_Rev9_Sensor_Changes.csv",
+      "size": 8474,
+      "sha1": "2b326f725299e50fb109b273671e75aecac3fe26",
+      "sha256": "1cf711b9121a873d9e964bd229996f237aafa98fea2c20125d66d390be5dd773",
+      "box_id": "2514116791140"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_All_Cylindrical_Faces.csv",
+      "size": 457734,
+      "sha1": "40b45b394a351c22b0a337b7488149d9cc108118",
+      "sha256": "e96057cb22d6a79ab3b70cb17ccb03937fb7d8e2186b115db4ea14dc5d97bcd2",
+      "box_id": "2514118015106"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Branch_Connections.csv",
+      "size": 1123,
+      "sha1": "a5075403f5693ba20dba37bb3da724ac0d185e2b",
+      "sha256": "0557ae71ec61a6ae23b14e8cdc1e8d8a0c88b090b407e45cd3106e4f603596de",
+      "box_id": "2514119723951"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Contact_Solutions.csv",
+      "size": 5434,
+      "sha1": "13895eb1cb6038856852d23a164bf5b8b3a9e40f",
+      "sha256": "785ecadf96b4fd0889504252dc88cc87d6f8a9cbabc6d0e904e638b04aee4cee",
+      "box_id": "2514119370297"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Coordinates.csv",
+      "size": 14205,
+      "sha1": "5141ee64dcba019b0b315e266bbfbb3fbb1901b0",
+      "sha256": "391fa473e51f9bbd75eff8e04c2cc584eca28bf9c8b5bd571161f813a80af381",
+      "box_id": "2514113214786"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Data_Dictionary.json",
+      "size": 49164,
+      "sha1": "748ad48d4522fb02b0bd9ce45a5669618fca3a19",
+      "sha256": "b1f77780a6c37b340eedbd573dc40b6adc319afaebf60e1ed2373da6689f73e0",
+      "box_id": "2514120295015"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Diameters.csv",
+      "size": 2563,
+      "sha1": "816f80185c10a21befe78666feffb94590c9caf7",
+      "sha256": "a88686538e5f21ce98ea3bbe8ddd65f3f863753f96610043a272f988d4bda88c",
+      "box_id": "2514112935617"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Dimensions.csv",
+      "size": 42501,
+      "sha1": "e19a1d90761709af1ab74e0c2d6fe659c0196ee1",
+      "sha256": "247297d201ded23e712a92687e0e85cfb84b8bbeb96c46d569ffad4c44233882",
+      "box_id": "2514120414400"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Engineering_Data.json",
+      "size": 275746,
+      "sha1": "e9fbb29e835e7e99ad5f506c56fc38434265d49a",
+      "sha256": "559be6084e75b7811bf0c017c03f6fdda800163d880b1951cafb113cea8ceade",
+      "box_id": "2514113092440"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Heater_Clamps.csv",
+      "size": 1918,
+      "sha1": "dc31b45cdb1c0c507c31f249084eea1624c17a1e",
+      "sha256": "2d5c020b68557fd34c3028752c6fbb986771ef084d472d8ae1bff324501883c2",
+      "box_id": "2514109566487"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Pipe_Axes.csv",
+      "size": 8553,
+      "sha1": "bcea8fabad641f31cef35892d9ba904dbfac730f",
+      "sha256": "3418e4d2be4ddb4ab0c00ba2aa1032a7b88a28e8d9a32554f8dc37c9ae85e98c",
+      "box_id": "2514118683752"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Probe_Shafts.csv",
+      "size": 2358,
+      "sha1": "72803ca8100f806a71c3587c106e1b0468e37172",
+      "sha256": "9b897b7aac4997b04d015b48bd2558fe44c9aa545645ab73ed4355d3756edbe1",
+      "box_id": "2514118819047"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Segments.csv",
+      "size": 4414,
+      "sha1": "b54bd04d7e63c422eceec191d4880d302a7ce868",
+      "sha256": "e9cd8f4bd40d1d1fbd97d89a4452d2ba31312cd4d53db4e3a3c1a87c1c483022",
+      "box_id": "2514118247095"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Sensor_Stations.csv",
+      "size": 20255,
+      "sha1": "b5cc79000620e66c399181283dd2a761fdd58ff3",
+      "sha256": "70c53f4920252a2c63c64bac303c150b84ec8094b7fd7060f4933d9aa97c03df",
+      "box_id": "2514099220163"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/deliverable_validation.json",
+      "size": 1435,
+      "sha1": "7216d2e6fdd740a6caa1d7a29406267041df7fbb",
+      "sha256": "b0f50cd605680e517f03b3b2cbd6c1410a9fd0ed0f3572d847896f1ebb85fb9f",
+      "box_id": "2514111028084"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/geometry.json",
+      "size": 65193,
+      "sha1": "1bb76ee563d95f85cd574df06c0dc99febda0440",
+      "sha256": "44b5ffe88ab65f510ee1693c00351d371559eceaa4826153209b930e8e391836",
+      "box_id": "2514114974113"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/reconstructed_bends.json",
+      "size": 30309,
+      "sha1": "41e4ba668ecc99ea8f16ecb23172234595c3e159",
+      "sha256": "1811ca42f05cac76c6f9648e7f52cd1665ac840c686b869e171679924995b3be",
+      "box_id": "2514120333176"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/drawings/VCU_Rev8_CAD_Engineering_Drawings.pdf",
+      "size": 269651,
+      "sha1": "8e0ce3cfc5aa6627463aa37bdcb1ed5c417ea5a2",
+      "sha256": "a2846b87a8cf1d6732bdb7a61731e04140bb1b6ff446dd11bce11538b992714a",
+      "box_id": "2490269636760"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/build_model_data.py",
+      "size": 25077,
+      "sha1": "0adf5632ab18e12ddb1e7f9617e5f68733a05bfb",
+      "sha256": "2e347fcc4154dc62b6fefcd70f13e07ffed6aa54aff31bfaca63e1a270607527",
+      "box_id": "2514113447233"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/cad_model.py",
+      "size": 1657,
+      "sha1": "a075dc8c2e0a7e89351bc1c8f426f04957ad7a5b",
+      "sha256": "aa1bfda670f62d91ee0574224f2058453c119a32bda4416529a72094d612ac83",
+      "box_id": "2514118645352"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/derive_geometry.py",
+      "size": 6028,
+      "sha1": "aa2df995c84d7b8be4f05e016dce3648ed87fb6c",
+      "sha256": "47e22272b144011bffc1b72b814a9bb4cce8120f75c5b29987cb737604fc499c",
+      "box_id": "2514117090260"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/draw_engineering.py",
+      "size": 32748,
+      "sha1": "9584730f5cc37be51319fd99c390d633e8324e9e",
+      "sha256": "06a381f27e7035438f4897cbfd1c526fd080b8d38faa7acb16721e42f31f1dd9",
+      "box_id": "2514118590462"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/enrich_data.py",
+      "size": 7655,
+      "sha1": "d5fa2e76625e5b51ba125f37f4b19d8ba6c699de",
+      "sha256": "23f8c44fd16802906da42cd953fb2f007ab925dab162ef8a6ac43b42b2cac77f",
+      "box_id": "2514109530156"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/environment_versions.json",
+      "size": 212,
+      "sha1": "b9143631f45f81188da4c03ed5944a951c532ab4",
+      "sha256": "364da25daed7a814e5199a4330c6fd3e62eb82289af383d661af03355aa919d4",
+      "box_id": "2514120239200"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/extract_contacts.py",
+      "size": 1894,
+      "sha1": "f5a7414eb763f8563e8d452813ff602da55a6fe0",
+      "sha256": "2baf41cf1bc33cc174f7b76eefc6d7b6888ea5d91e1cce8ab72d53770249ec70",
+      "box_id": "2514099122254"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/extract_inventory.py",
+      "size": 4459,
+      "sha1": "5ccdfb7226996b01d6a7dd7e8926222e8ae4cc5b",
+      "sha256": "b37601f929ddd63427bb6c762fed26c650e170e5aca65ea1888e69f7b1b3510a",
+      "box_id": "2514119601514"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/inspect_step.py",
+      "size": 5140,
+      "sha1": "a9c0c234740ffc26119010731db4579de101d5a4",
+      "sha256": "fa431e31ba62e7dd6bcc2ac60c007adc2a31876fd30ed52e8d0b8e247c0cce20",
+      "box_id": "2514106088941"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/load_vcu_rev9.py",
+      "size": 1640,
+      "sha1": "95ab2171ac86d6d84fcbb4687ea099240581b54f",
+      "sha256": "9922f388aa88ea39f1afcabd026247cba0b86c2a7d59028197fcb3c1a8b44af3",
+      "box_id": "2514119936955"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/project_cad.py",
+      "size": 1243,
+      "sha1": "b42b29b6b6886e26d0c7cf98cca2cd3fc9b56bd4",
+      "sha256": "f3bbbe7ae1668cc67c02cae7f1d19b0c97981f1c0a2decab0c5421ffaaaedef9",
+      "box_id": "2514107058589"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/rebuild.py",
+      "size": 922,
+      "sha1": "cc8b188c0c481918fb5119dadf0c7da8b1d465d8",
+      "sha256": "2c1adef2b6ac3b5dadf7a8ca19b21ef87f441a75bb06cc7bc3d45742da38373c",
+      "box_id": "2514113591189"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/reconstruct_bends.py",
+      "size": 1987,
+      "sha1": "9fe82d44a04777d7682d1290645e88282eec4115",
+      "sha256": "6b3dd5e30e2ef34fd505eb24875279ca7f844d86763995f6272c86c1673b55d2",
+      "box_id": "2514101966145"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/validate_deliverable.py",
+      "size": 6179,
+      "sha1": "677704274a7f65ae353ea3dcca5db7eb68327cef",
+      "sha256": "3a1c7b8b44186cf66336c9a4fa2bf02942e83aa2849c837f0d353a926775b171",
+      "box_id": "2514113483902"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/verify_rev9.py",
+      "size": 2582,
+      "sha1": "9369b976938fdd1a76ca4fb103742f674ff4f0a9",
+      "sha256": "482a0e2fda8034216e87de729e1742521fb7ffb4001e7a903f6076583eebef02",
+      "box_id": "2514116946204"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Contact_Solutions.csv",
+      "size": 5516,
+      "sha1": "b44f3071e297ddf585c6a3eddd116f598e62b3bc",
+      "sha256": "e995623edf73cc3c269127a3d8c881b88dac3294a68b757fe791c57544b8f0be",
+      "box_id": "2490274114914"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Coordinates.csv",
+      "size": 6230,
+      "sha1": "73724af0a92c2646936e1419a4e7aab0047b9f8f",
+      "sha256": "2dc5e5907139e902809d56d0f31696de9c27c64687e6ebcfbe965382f14c3f3e",
+      "box_id": "2490271374923"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Diameters.csv",
+      "size": 1968,
+      "sha1": "d090034919efa1d76f38ade3d073170916747f13",
+      "sha256": "0ce1cc104d737b069db7d4759698509d663dd38d3bf0aec62af6430f382afa3d",
+      "box_id": "2490273450897"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Engineering_Data.json",
+      "size": 165212,
+      "sha1": "9e5d2fa111f5005127780454d54ab1c0b59429b1",
+      "sha256": "66aa8e58e6fdad8370d41c1b9f0da022ad0ae1d968c1b1c8e155e1eb82278605",
+      "box_id": "2490269156961"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Probe_Shafts.csv",
+      "size": 2119,
+      "sha1": "97f5624f4ae179e51998b4e71d52ced9112d19b5",
+      "sha256": "66efb22547dd769a26b41d632e0df3b7fa22b24de7e6b148fecd8728b4260c43",
+      "box_id": "2490270868129"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Segments.csv",
+      "size": 4304,
+      "sha1": "1ae896be5ee451b79f2959880feed63f87972eda",
+      "sha256": "b97095fa974987ff2bc518825b85402767453ae37aec72ceebad42fd894deb70",
+      "box_id": "2490273009447"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Sensor_Stations.csv",
+      "size": 19644,
+      "sha1": "b5c2a84399cd616bcb1a0d1df0a9bb344adc0c4c",
+      "sha256": "71c8dfa3fad0292377171b4b9f9afa0b7c00f513933f757195e6bddd63443afe",
+      "box_id": "2490268891071"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/deliverable_validation.json",
+      "size": 351,
+      "sha1": "010fb5a7fdcf746bf5e179a67f4f688a11494a7f",
+      "sha256": "cd0c73dcd31c317d6bc56a92ee6ab795eec4ad3a1a2513330ef54c54c37f5f20",
+      "box_id": "2490272689959"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/derived.json",
+      "size": 82661,
+      "sha1": "b1f73e38e781fc2b68eeeef0d2fabbc11d9eed93",
+      "sha256": "118a7a6e609c66ced81b7858321def4e84fc091fb10ab7a4d1dbed075212a34f",
+      "box_id": "2490271292768"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/reconstructed_bends.json",
+      "size": 60600,
+      "sha1": "b3a4b195a11e9953e7c0c20eee462d7ca0d97067",
+      "sha256": "9959c177a435569222aac77804b8edfb9e246342902efb16a305f7cd8b9a7db8",
+      "box_id": "2490269458809"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/surface_contact_solutions.json",
+      "size": 8168,
+      "sha1": "9dc41d805c7f676c0798caf419138e84c7ed2542",
+      "sha256": "c22980f42bc9c06dd80c7aebc2de8c5cb1a845f1807169ff78df12125aa0fbe0",
+      "box_id": "2490275533399"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/cad_projection.json",
+      "size": 350988,
+      "sha1": "eb4b3dbd248b612266d2d77e72cb0575b2b08d64",
+      "sha256": "decce50c264a00e42686f6098422b817dedc68be8e6de57332aa7e36d8d3e352",
+      "box_id": "2490269775940"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/contact_audit.log",
+      "size": 4160,
+      "sha1": "6a3c90e3fe55be62c372f26955630e42280be8a0",
+      "sha256": "1c260e46fb4448a8089f3c61e4a19391a4e17e8df147a43e2dda259d8087c19d",
+      "box_id": "2490270218277"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/extraction.log",
+      "size": 8186,
+      "sha1": "7f1f7a79a23a502e7bfe1bd50f6752a7f3f7a20f",
+      "sha256": "4c990beac9b110a0f14df409d4c889546da3087a780fa393ae745c9bb1b71e5a",
+      "box_id": "2490271506484"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/projection.log",
+      "size": 417,
+      "sha1": "8be48537b0967f5f4d745e5c22336108bd06583d",
+      "sha256": "13292ec8d73bdba6bce1ddd45d4003d90088e85165a28e620b7343c2a020ec02",
+      "box_id": "2490272992320"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/rev8.json",
+      "size": 1910188,
+      "sha1": "2d52525380ecfb5d61877273ece6809b3a6aa1ae",
+      "sha256": "32ed7f2eb833a07bf8e168643882d150c8bb33bd9873f0f057d39b1e87c3fba4",
+      "box_id": "2490269588676"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/rev8_mesh.json",
+      "size": 2763584,
+      "sha1": "6fe32692d55ed4bde04ecf46fc2158485f837a04",
+      "sha256": "450561923984155da37ca53b5b7d6b67836cf5766246d94f742e4f67f6e405a6",
+      "box_id": "2490272046079"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/rev8_verification.json",
+      "size": 2107,
+      "sha1": "22fb78dea8a4c0d6956b908ed15c68f90a5e6b4f",
+      "sha256": "c57f20155c1c8abc126d6f9c95c915d384a7f18049a01cdf41d3215cad8202be",
+      "box_id": "2490269010272"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/audit_surface_contacts.py",
+      "size": 756,
+      "sha1": "2f07f1853446267a1b855d596794ba0454b55301",
+      "sha256": "70d88f26fe475b8e80185041415b0ac4abd106fb3e06c26a60ddebd91d5d2ed5",
+      "box_id": "2490271590808"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/build_model_data.py",
+      "size": 15915,
+      "sha1": "0a25f5d36f46adfad106183d6996e804b7d34c04",
+      "sha256": "c3365b311b79eeb3c5f6bed6aae09b969f37c75a1c7d299fa0f26b7bef0c8106",
+      "box_id": "2490270734300"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/cad_model.py",
+      "size": 1640,
+      "sha1": "e70c43e7b3c359814dbf848d8e06fb9733fe104d",
+      "sha256": "8fb67808c0f6ef6bbe5a0c530e4ca372f2ffbdf498fb6ea99e27bca6eaf63c02",
+      "box_id": "2490269966291"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/derive_rev8.py",
+      "size": 11808,
+      "sha1": "76b855ec93a4e6b0acfa702f1f3e2f9e047b7bfe",
+      "sha256": "22d706b9a5195a26287593366f48435eaf19a228bd8dfba8ec22b378a82a5f20",
+      "box_id": "2490274305256"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/draw_engineering.py",
+      "size": 31356,
+      "sha1": "8b29547443865f32f5f0837bb737d85be4f02b45",
+      "sha256": "8b11e5099d7a7e3a40e4511c6944086449bf31b5c703d8553ad82ef26e8436ae",
+      "box_id": "2490269459592"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/extract_rev8.py",
+      "size": 6472,
+      "sha1": "33a71c5a63934b75e2819ad1740204b5f9d02756",
+      "sha256": "5d61d5572e16a6d0cf5c8df4e6eee82cee98e767a397643ab288ba84d56f2b58",
+      "box_id": "2490270370931"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/inspect_step.py",
+      "size": 5140,
+      "sha1": "a9c0c234740ffc26119010731db4579de101d5a4",
+      "sha256": "fa431e31ba62e7dd6bcc2ac60c007adc2a31876fd30ed52e8d0b8e247c0cce20",
+      "box_id": "2490269833540"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/project_cad.py",
+      "size": 1190,
+      "sha1": "b0c147731b2655185bfaf64ebae35f2b136ee8f9",
+      "sha256": "480bbd09b969a4a5302fef143baf4bee54c4f270baaaa7ea72f6bf137861b695",
+      "box_id": "2490272735696"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/reconstruct_bends.py",
+      "size": 2418,
+      "sha1": "22e9d5ec069afc08470b5ba1135f6ffef2456459",
+      "sha256": "ec5cb194362d9a78fd2d193b8dd409f559392236ba71956b45d677faf559b52a",
+      "box_id": "2490269999458"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/validate_deliverable.py",
+      "size": 2251,
+      "sha1": "860a5a6af7d31eee421a962a327c91d7261a08a5",
+      "sha256": "c63c58cd21ca2bd4435dcf42e200ecdaba58ee7ac744c6725e409baa22f40982",
+      "box_id": "2490267558284"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/verify_rev8.py",
+      "size": 2582,
+      "sha1": "9369b976938fdd1a76ca4fb103742f674ff4f0a9",
+      "sha256": "482a0e2fda8034216e87de729e1742521fb7ffb4001e7a903f6076583eebef02",
+      "box_id": "2490269888994"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/source/UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "size": 4196659,
+      "sha1": "c6a28fe4ca8b9c17b4778fe9f5a787c09186ac9f",
+      "sha256": "c40a7e6ce597a35cdaa9d7358835b242df408750b021385c1653d02a0871bf1e",
+      "box_id": "2490269963630"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/PROPOSAL_OUTLINE.md",
+      "size": 35326,
+      "sha1": "d661889e3069f4a7b2c320203822187f2a2d38ec",
+      "sha256": "e2a05cba399081cc38846ff1478d5c030edee0f5d7598a0f4f2093e86a943d7c",
+      "box_id": "2566791224803"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/main.tex",
+      "size": 2201,
+      "sha1": "857abb6780eedac244c6738be8a4e950e0886e7a",
+      "sha256": "bd50f38525f5e16ac75de3109df446dd591e3f78400e76eb5e0ccdd18d07cf2f",
+      "box_id": "2566787070106"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/HX-20261102_local_to_hpc.zip",
+      "size": 78780,
+      "sha1": "b35051d0a6b13e2b9a77d45a614e530be1c2f520",
+      "sha256": "ac698a6ac5d1decc4cf5a4565a97e164c08624d64dd9c80a9f054a67c6b5e9e9",
+      "box_id": "2566821842301"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/HX-20261102_local_to_hpc_v2.zip",
+      "size": 104324,
+      "sha1": "1b0f00085da69c339bc61ddce2f74b7816aaea89",
+      "sha256": "32ff9bc0f801bbe9946e35ca8fb37f780ebcb82d049ef3ecd3242ffd6311cca8",
+      "box_id": "2566849610165"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/export_receipt.json",
+      "size": 881,
+      "sha1": "14b468fa310d955cb43fc2b504b064febefe1cac",
+      "sha256": "baa25306d75598993679af0032e0d972582cc04590917592492e52f661f6adf7",
+      "box_id": "2566819047808"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/export_receipt_v2.json",
+      "size": 862,
+      "sha1": "8921e8774f6260e3e64a86f23762b5053e691d50",
+      "sha256": "7d707912a752fbf7e8e1de9c07be419e510ff2cb8da5e9eed55f5aa44c051ad1",
+      "box_id": "2566854865293"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/incoming/README.md",
+      "size": 275,
+      "sha1": "6b5e8a8c33b2f737f380ae9ca95883686bd14a61",
+      "sha256": "cd156ef3aee6f9e9ea2f54323d6ce5e287b01f8a75b1039ba1ee023a744f892f",
+      "box_id": "2566815085395"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/sections/refs/bib.tex",
+      "size": 3287,
+      "sha1": "8e25183beffbc2036202fbc83e14e510736d91f7",
+      "sha256": "7ac76f80d31a48beae50b643996ac9afd33cde523791c9636396cfce8399420e",
+      "box_id": "2566782714271"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/01_motivation.tex",
+      "size": 3155,
+      "sha1": "d0e492bd9c95ef8d4f6d28fde12bfc65677185b8",
+      "sha256": "fcb7651e5f71e3927ad62bbf310bcf02d71ed9176887f80ca712d47622ae2da9",
+      "box_id": "2566782416762"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/02_goals.tex",
+      "size": 3211,
+      "sha1": "a2e3f8a4b54b810d9f0decf483fbc0f948c800f7",
+      "sha256": "fd1b7bdf65d227c6c2343698cf2a4f81897dcece2695b2e26eafceecd7eae047",
+      "box_id": "2566787456730"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/03_evidence.tex",
+      "size": 6313,
+      "sha1": "f6cce93aae0c8dfb352502075c3a8b92d5be87c8",
+      "sha256": "84c0043dfc8fd656c6e4bea3d1388f85d8caac6c02812603d7c0a9885b4b9033",
+      "box_id": "2566786149043"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/04_model.tex",
+      "size": 4725,
+      "sha1": "a6c986120d18892e583306bda9cb9640e7adb56d",
+      "sha256": "5cecaf4dd9c124f02e961dd3318513025d2d1e68ebf6f2cfd7832c21bbc8312a",
+      "box_id": "2566791138518"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/05_methods.tex",
+      "size": 5958,
+      "sha1": "0f3011da02188aab4646e1b7c87bbccbac7882e9",
+      "sha256": "2736ef97abead6ad312744dd24ddee407b020b9af2dc620709de266eaade6eb2",
+      "box_id": "2566790209569"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/06_preliminary.tex",
+      "size": 7221,
+      "sha1": "234e4244202f491ab8aba9f9c046a2a9acd37fc4",
+      "sha256": "95c8fc042828ada5525a3b1c430f3294bdee7c931231052d112928b0ee93c6f1",
+      "box_id": "2566789597812"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/07_assessment.tex",
+      "size": 4306,
+      "sha1": "ee61c55e36b03a758edd75af4926c56c0199ff65",
+      "sha256": "42235f5e5d69d362704db6b120590e82371c5967f50f23d96adac02851fb36ec",
+      "box_id": "2566783383817"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/08_plan.tex",
+      "size": 4727,
+      "sha1": "c071457bcb31089ee7f3ea242ce580f140c9f749",
+      "sha256": "1d3af578eba3ace921bdb8759484bb8aea8be0a605a71f13acba33ba67272839",
+      "box_id": "2566787877064"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/FOLLOWUP_DECISIONS.md",
+      "size": 2915,
+      "sha1": "c1f6ae584f91ddae7ba6b4fe5ad4250c6892ba82",
+      "sha256": "4bdce180da5478bbe314fb3da97a07743162992fdee3e328e13ec4278ffa881f",
+      "box_id": "2566791050072"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "size": 3287,
+      "sha1": "d62380f6b8af3e9e858a6f5dc1e8d916311b3059",
+      "sha256": "35ee63b311fcfff12ca66259d0529ec20b75522dd8d91e88aaac19359f0c02c3",
+      "box_id": "2566782918434"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "size": 3219,
+      "sha1": "4481aecc1798f9e640f23f1b18cd1a6d4f421309",
+      "sha256": "b989b5b08c66a5bf86685c031f058195081ded24329d59fd75746e15f3fa6d67",
+      "box_id": "2566816511762"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/SOURCES.md",
+      "size": 6158,
+      "sha1": "e2e155bbcb654578f86af46107da27abbf1d6ec6",
+      "sha256": "5b53b1aa150ba66aa85eaa6b9ca3f9bdbcacd5141768849f6528648583275310",
+      "box_id": "2566790821879"
+    }
+  ]
+}

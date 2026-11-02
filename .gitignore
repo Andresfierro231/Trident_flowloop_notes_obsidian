@@ -1,0 +1,18 @@
+# Local editor/vault state; research notes and attachments remain versioned.
+.DS_Store
+Thumbs.db
+.obsidian/workspace*.json
+.obsidian/cache/
+.trash/
+__pycache__/
+*.py[cod]
+*.swp
+*.tmp
+.env
+.env.*
+!.env.example
+.secrets/
+credentials*.json
+*.pem
+*.p12
+*.pfx
