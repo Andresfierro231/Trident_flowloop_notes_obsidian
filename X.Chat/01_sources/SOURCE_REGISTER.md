@@ -47,3 +47,8 @@
 - The newer checkpoint’s completion receipt records `complete_verified` on October26; this task inspected the receipt and checked extracted Markdown hashes, not the full backup or live HPC state. This extends the earlier organization-only AR02 read.
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/PLANNING_COVERAGE.md|GP01–GP31]] route all580 paragraphs of the already-read exact G01 version. The new mounted snapshot was unavailable; no new revision is asserted.
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/06_hpc_exchange/README.md|HPC exchange]] is the user-requested written Q&A channel; outgoing questions exist, incoming answers are pending.
+
+## November 3 author-specified source routes
+
+- HC15 current local access: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/Clarno_writeup/Clarno_trident_vision/main.tex|TRIDENT Vision]] and [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/Clarno_writeup/clarno_trident_modSim_overview/main.tex|TRIDENT Modeling Overview]]. Exact inspected main.tex hashes and revisions are pinned in proposal doc_support/reconciliation/2026-11-03/source_locations.json; references remain externally owned.
+- N12: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/'26 Oct 14 - Moser meeting feedback on abstract.md|Moser feedback]] — full text read for proposal framing, QoIs, model inputs/outputs, reactor relevance, feasibility and parallel work. Original source unchanged.

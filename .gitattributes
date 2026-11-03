@@ -3,3 +3,6 @@
 *.log -whitespace
 # Frozen remote snapshot remains byte-identical.
 archive/** -whitespace
+
+# Source meeting record retains its original Markdown hard line breaks.
+"M. Meeting Notes/'26 Oct 14 - Moser meeting feedback on abstract.md" -whitespace

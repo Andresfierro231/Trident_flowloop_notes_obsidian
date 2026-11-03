@@ -75,3 +75,7 @@
 ## Additional source library
 
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/BOX_LITERATURE.md|Box books and papers]] maps /Users/andres/ObsidianVaults/MainVault/Box/books/research/. Metadata discovery supplements existing registry without implying scientific reading.
+
+## Program context and author-feedback route
+
+- Use [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/Clarno_writeup/Clarno_trident_vision/main.tex|TRIDENT Vision]] and [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/Clarno_writeup/clarno_trident_modSim_overview/main.tex|TRIDENT Modeling Overview]] under the user-specified Clarno_writeup folder for program purpose, data flow and interfaces. [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/'26 Oct 14 - Moser meeting feedback on abstract.md|Moser feedback]] guides selection of decision-relevant QoIs; literature supplies evidence for those questions.

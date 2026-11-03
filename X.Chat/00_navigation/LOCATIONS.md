@@ -40,3 +40,9 @@
 - Canonical local notes: /Users/andres/projects/research/Trident/Trident_flowloop_notes_obsidian/; origin git@github.com:Andresfierro231/Trident_flowloop_notes_obsidian.git.
 - Existing vault-root wikilinks keep MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/ through a local alias. Original Box source preserved at sibling Trident_FlowLoop_Notes_pre_git_2026-11-03; do not edit it.
 - Remote notes handoff reports HPC owner under initiative box/Trident_FlowLoop_Notes/ as of November 2; verify on actual host.
+
+## Author-specified program context and feedback — November 3
+
+- Preferred Clarno source folder: /Users/andres/projects/research/Paper_and_Presentations/Trident_papers/Clarno_writeup/; the user-supplied MainVault/Documents path resolves here.
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/Clarno_writeup/Clarno_trident_vision/main.tex|TRIDENT Vision]] (rev0.16, October 19, 2026); [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/Clarno_writeup/clarno_trident_modSim_overview/main.tex|TRIDENT Modeling Overview]] (rev0.1, October 19, 2026). Both are read-only external draft sources. Their inspected bytes match the older reference copies; this directory is now the preferred local access route.
+- N12: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/'26 Oct 14 - Moser meeting feedback on abstract.md|Moser feedback]]. Use its decision → QoI → inputs/outputs → model form → impact questions to guide proposal framing. Implementation coverage is in proposal doc_support/reconciliation/2026-11-03/MOSER_FEEDBACK_COVERAGE.md.
