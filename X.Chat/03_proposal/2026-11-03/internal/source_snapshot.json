@@ -1,0 +1,51 @@
+{
+  "task": "PROP-EXPAND-20261103-01",
+  "read_scope": "selected chapters/review sections and scoped dossiers; not a new audit of all primary PDFs",
+  "sources": [
+    {
+      "source": "master_conclusions",
+      "path": "/Users/andres/projects/research/Paper_and_Presentations/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/chapters/06_conclusions.tex",
+      "sha256": "8c27cb6ef3a884faf4b6052376aae59cabd9c8a216d3ff02a4fd2997c7e2ea16"
+    },
+    {
+      "source": "master_assessment",
+      "path": "/Users/andres/projects/research/Paper_and_Presentations/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/chapters/05_model_assessment_and_interpretation.tex",
+      "sha256": "27998ac5d1d5c88cc9a8b55625a54a6bffe84b8b0f6c92cfa2c6d7e706e79eb7"
+    },
+    {
+      "source": "02_which_conservation_structure_should_survive_reduction.tex",
+      "path": "/Users/andres/projects/research/Paper_and_Presentations/Trident_papers/lit_rev_codex/PhD_internal_litRev/methods_notes_and_sections/sections/02_which_conservation_structure_should_survive_reduction.tex",
+      "sha256": "53138f08ee9c37d88d785865ee1210ac1217180ca8fc2e6be27c5dc45194ea7f"
+    },
+    {
+      "source": "05_what_does_each_sensor_observe_and_what_remains_unobservable.tex",
+      "path": "/Users/andres/projects/research/Paper_and_Presentations/Trident_papers/lit_rev_codex/PhD_internal_litRev/methods_notes_and_sections/sections/05_what_does_each_sensor_observe_and_what_remains_unobservable.tex",
+      "sha256": "1651bda1d9fdba32261a381aa7fc471f3c48174545f0b00042c8b8701f81255e"
+    },
+    {
+      "source": "08_what_uncertainty_should_be_propagated_and_what_would_make_it_credible.tex",
+      "path": "/Users/andres/projects/research/Paper_and_Presentations/Trident_papers/lit_rev_codex/PhD_internal_litRev/methods_notes_and_sections/sections/08_what_uncertainty_should_be_propagated_and_what_would_make_it_credible.tex",
+      "sha256": "af9906a372166f08caa2088d7aecb594ad648dfc728e11d67294bcc878dc622c"
+    },
+    {
+      "source": "11_recommended_method_comparison_and_research_sequence.tex",
+      "path": "/Users/andres/projects/research/Paper_and_Presentations/Trident_papers/lit_rev_codex/PhD_internal_litRev/methods_notes_and_sections/sections/11_recommended_method_comparison_and_research_sequence.tex",
+      "sha256": "c4b3dc406828e276537768d8a2726d93fc35c252d9af089cd56060949956a431"
+    },
+    {
+      "source": "14_cfd_evidence_specification_for_the_computational_collaboration.tex",
+      "path": "/Users/andres/projects/research/Paper_and_Presentations/Trident_papers/lit_rev_codex/PhD_internal_litRev/methods_notes_and_sections/sections/14_cfd_evidence_specification_for_the_computational_collaboration.tex",
+      "sha256": "127d0f5f57e679210f176410cf14a52f5bda622754adb32d6d6632dfb0170a61"
+    },
+    {
+      "source": "S52_Borgohain_2011.md",
+      "path": "/Users/andres/projects/research/Paper_and_Presentations/Trident_papers/lit_rev_codex/PhD_internal_litRev/evidence/dossiers/S52_Borgohain_2011.md",
+      "sha256": "febd5b3f717ef3b2843d576c545e5495e6514809dcc6dc99f3fa996aa6500f24"
+    },
+    {
+      "source": "S66_Cammi_Luzzi_Pini_2016.md",
+      "path": "/Users/andres/projects/research/Paper_and_Presentations/Trident_papers/lit_rev_codex/PhD_internal_litRev/evidence/dossiers/S66_Cammi_Luzzi_Pini_2016.md",
+      "sha256": "a38515d08597ef6b59ca9338e83d4fd68a81229810d5602b67b17e4881f29571"
+    }
+  ]
+}

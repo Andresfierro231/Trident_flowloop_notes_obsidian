@@ -1,0 +1,73 @@
+% Agent context and source locators: ../../../internal/EXPANSION_NOTES.md
+\section{Research Questions, Aims, and Staged Goals}\label{sec:research-questions-aims-and-staged-goals}
+
+\subsection{Framework contribution}\label{subsec:framework-contribution}
+\begin{itemize}[leftmargin=*]
+\item Develop and assess a CFD--experiment order-reduction framework that produces a fast, interpretable, physics-based reduced-order model (ROM).
+\item Use a custom physical 1D solver as the principal model; CFD and experiments inform reduction, closure selection, parameter learning, and assessment.
+\item Proposed aims: (1) reduction and development-informed closures; (2) parameter learning and observation-consistent temperature reconstruction; (3) independent assessment and applicability.
+\item Organizing question: what information and reduced physics are needed to reproduce observed temperatures and then predict new conditions with defensible uncertainty? Keep the development-case demonstration distinct from the independent predictive test.
+\item For each aim, define a target output, permitted inputs, comparator, and assessment evidence.
+
+\item \topiclabel{closest-prior-methods-and-completed-groundwork}\textbf{Closest prior methods and completed groundwork.} The closest work includes thermal-network structure/\allowbreak{}identification and physical interpretation, goal-oriented reduction/\allowbreak{}calibration/\allowbreak{}design, embedded discrepancy, conjugate/\allowbreak{}stochastic loop dynamics, conservative/\allowbreak{}stable learned reduction and similarity.\cite{fierro2026cfdoneD,raue2009identifiability}
+\begin{itemize}
+\item Compare the proposed approach with existing thermal-network, goal-oriented, discrepancy, conjugate and stochastic, and structure-preserving methods, as well as completed preliminary modeling studies.
+\end{itemize}
+\item \topiclabel{candidate-contribution-packages-and-rejection-tests}\textbf{Candidate contributions.} Evaluate supported-target and anchoring analysis, finite-time retained-physics adequacy, qualified transfer, and the thermal consequences of local flow as possible contributions within the reduction framework.
+\begin{itemize}
+\item For each candidate, specify the added-value claim, closest prior method, fair baseline, information requirements, failure test, and fallback. The dissertation need not pursue every branch.
+\end{itemize}
+\item \topiclabel{which-additional-result-could-advance-the-framework}\textbf{Potential methodological advances.} Candidate outcomes include a reproducible development-informed reduction and closure rule, observation-consistent temperature reconstruction with an assessed domain, experiment--CFD parameter learning under shared uncertainty, or a qualified physical limit.
+\begin{itemize}
+\item Test a precise closure/\allowbreak{}reconstruction/\allowbreak{}learning procedure or qualified applicability limit; use temperature/\allowbreak{}circulation/\allowbreak{}duty relevance rather than the novelty of software integration.
+\end{itemize}
+\item \topiclabel{method-procedure-physics-and-facility-demonstration}\textbf{Method, procedure, physics and facility demonstration.} Method development supplies a new or meaningfully improved rule and shows why/\allowbreak{}when it works.
+\begin{itemize}
+\item State which kind of contribution each work package would establish and what evidence separates it from implementation or a retrospective fit.
+\end{itemize}
+\item \topiclabel{a-useful-negative-result}\textbf{A useful negative result.} State a model or evidence class, a consequential ambiguity or adequacy boundary, and reproducible evidence that advances beyond established scale or rank limitations and prior preliminary findings.
+\begin{itemize}
+\item A failed fit or unavailable CFD alone is insufficient; a negative result should identify a consequential limit on prediction or physical interpretation.
+\end{itemize}
+\end{itemize}
+
+\subsection{Testable research hypotheses}\label{subsec:testable-research-hypotheses}
+\begin{itemize}[leftmargin=*]
+\item \textbf{Reduction and closure hypothesis.} At matched development data, online inputs, and calibration flexibility, a conservation-based model using justified development descriptors will improve selected withheld temperature predictions or identify an operating domain in which conventional closures are already adequate.
+\begin{itemize}
+\item Evidence will include paired case comparisons, regional heat budgets, and numerical sensitivity. An improvement that depends only on more fitted parameters or target-informed boundary conditions will not isolate the value of the proposed closure rule.
+\end{itemize}
+\item \textbf{Observation and learning hypothesis.} Explicitly representing the distinction among transported temperature, local fluid measurements, and wall or contact response will reduce structured residuals and improve the interpretation of learned parameters.
+\begin{itemize}
+\item Compare a common bulk-temperature observation assumption with the proposed sensor-specific map under the same physical model and fitting cases. Assess both fitted residuals and eligible withheld predictions.
+\item Where several parameter combinations remain compatible with the measurements, assess whether the engineering output is nevertheless constrained. Parameter uniqueness and useful prediction are separate questions.\cite{raue2009identifiability,oliver2014unobserved}
+\end{itemize}
+\item \textbf{Retained-physics hypothesis.} Added wall storage, profile information, or local exchange is warranted when it improves an identified output under changed conditions and passes conservation, admissibility, and information-availability checks.
+\begin{itemize}
+\item Test added mechanisms one at a time where feasible. A more detailed representation that cannot be learned or assessed with the available evidence will remain a bounded candidate rather than a claimed improvement.
+\end{itemize}
+\end{itemize}
+
+\subsection{Aim-level evidence and expected products}\label{subsec:aim-level-evidence-and-products}
+\begin{itemize}[leftmargin=*]
+\item \textbf{Aim 1 --- conservative reduction and closure selection.} Produce an explicit mapping from qualified CFD and facility definitions to the retained states, signed transfers, closure candidates, and model equations. The product is a reproducible selection procedure and an assessed physical baseline.
+\item \textbf{Aim 2 --- parameter learning and observation-consistent reconstruction.} Produce supported parameter or parameter-combination estimates, temperature observation maps, and uncertainty descriptions using the experimental and computational information appropriate to each quantity.
+\item \textbf{Aim 3 --- independent assessment and applicability.} Produce comparisons on eligible unused cases, an output-specific applicability statement, and an operator-oriented example that communicates the model's qualified estimates or scenarios.
+\item Each aim will report what was supplied, learned, and predicted; which cases informed model development; the comparison that tests the proposed improvement; and the limitations that remain. This creates a common scientific basis across the steady, transition, and operational stages.
+\end{itemize}
+
+\subsection{Staged research goals}\label{subsec:staged-research-goals}
+
+\begin{itemize}[leftmargin=*]
+\item Stage 1: steady heat removal/\allowbreak{}losses, circulation, temperature extrema and supported operating margins.
+\item Stage 2: transitions between operating conditions, thermal and hydraulic response, settling, and time-dependent margins.
+\item Stage 3: operational assistance and operator-facing model/\allowbreak{}data dashboard; collaborate with Ben Booth and NeutronOS. Controls and unattended operation need a separate agreed scope.
+\item Uncertainty estimation and propagation are central to all three stages.
+\item The immediate feasibility demonstration emphasizes experimental-data interpretation and temperature reproduction, building on the completed master\textquotesingle{}s work.
+\end{itemize}
+
+\subsection{Spatial questions and boundaries}\label{subsec:spatial-questions-and-boundaries}
+\begin{itemize}[leftmargin=*]
+\item Temperature first: centerline and radial profiles, with angular dependence where supported; richer velocity mapping is a later capability.
+\item Overall circulation and local recirculation are separate outputs; investigate local extent and thermal consequence with qualified CFD, without inventing local experimental measurements.
+\end{itemize}

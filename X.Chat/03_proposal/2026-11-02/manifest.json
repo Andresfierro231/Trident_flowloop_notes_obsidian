@@ -1,6 +1,6 @@
 {
-  "task": "ORG-PROP-20261102-04",
-  "status": "prepared_not_applied",
+  "task": "PROP-COMMITTEE-20261102-01",
+  "status": "superseded_by_applied_2026-11-03_package",
   "proposal_root": "/Users/andres/projects/research/Paper_and_Presentations/Andres_Fierro_Dissertation_Proposal",
   "base_commit": "863fb5098b7ba1fd550a6557feb4dbe6463843bb",
   "master_commit": "15383e7b17b37410ff5f6a4a5f6a86d7074eb504",
@@ -9,7 +9,32 @@
     {
       "path": "PROPOSAL_OUTLINE.md",
       "base_sha256": "911ccc6aa4f308eb28f6cfe20f84c91629a086995d7cbf2798faa0add12dd7d9",
-      "new_sha256": "e2a05cba399081cc38846ff1478d5c030edee0f5d7598a0f4f2093e86a943d7c"
+      "new_sha256": "e3e29792594594aca2bd0a0dfc0bc2f02d5dbf1bbed818081d965539b1273154"
+    },
+    {
+      "path": "doc_support/coverage/2026-11-02/COVERAGE.md",
+      "base_sha256": null,
+      "new_sha256": "b9d55985bdb5ddb8c9c5c344f2a1aac32e14a1421306a4579f9c531c9d087c68"
+    },
+    {
+      "path": "doc_support/coverage/2026-11-02/planning_coverage.csv",
+      "base_sha256": null,
+      "new_sha256": "3cb85c289555563827a9d23c9104e9f836238b82316df17e1406fa7c7db07649"
+    },
+    {
+      "path": "doc_support/coverage/2026-11-02/question_coverage.csv",
+      "base_sha256": null,
+      "new_sha256": "791b8062a1c56a9275ef0648bdc6b0af748b1b06d5c14ef446ae745534ddbb05"
+    },
+    {
+      "path": "doc_support/coverage/2026-11-02/research_insertion_slots.csv",
+      "base_sha256": null,
+      "new_sha256": "a7e63c33a5bddc151d8021aed0d54cee29397aa26ea3fd2a78b1150417c9dcec"
+    },
+    {
+      "path": "doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md",
+      "base_sha256": "672cd29e0c79e436de7d5f26775bc39661174ad20ca0c17057040b9b6cb0440c",
+      "new_sha256": "4484b7857162f85cfb2c31fc921792578c62af353b45fba208e7f866011f4004"
     },
     {
       "path": "doc_support/reconciliation/2026-11-02/FOLLOWUP_DECISIONS.md",
@@ -19,67 +44,83 @@
     {
       "path": "doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
       "base_sha256": null,
-      "new_sha256": "35ee63b311fcfff12ca66259d0529ec20b75522dd8d91e88aaac19359f0c02c3"
+      "new_sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc"
     },
     {
       "path": "doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
       "base_sha256": null,
-      "new_sha256": "b989b5b08c66a5bf86685c031f058195081ded24329d59fd75746e15f3fa6d67"
+      "new_sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5"
     },
     {
       "path": "doc_support/reconciliation/2026-11-02/SOURCES.md",
       "base_sha256": "cf97347a1879923cc3706619bfa7e6a6e0698c4b888cff594be512639d4e8c10",
-      "new_sha256": "5b53b1aa150ba66aa85eaa6b9ca3f9bdbcacd5141768849f6528648583275310"
+      "new_sha256": "983e18031615be95abd0ff6845dafd844026c115b3a2164a672cb4ccd488773a"
     },
     {
       "path": "main.tex",
       "base_sha256": "0304a9cf316d4e147d2ad941627429e7bcbbb55b4175ea46d220bf0c87ff42a9",
-      "new_sha256": "bd50f38525f5e16ac75de3109df446dd591e3f78400e76eb5e0ccdd18d07cf2f"
+      "new_sha256": "896399e934664b227b87b7180dbcc619d353fd4c4581b5bcfe0cd08100be91f6"
+    },
+    {
+      "path": "sections/outline/00_working_summary.tex",
+      "base_sha256": "0b0cee4902edf72ada04b527a5e4f83ac4a99822ae47bad5049553949ae6a01f",
+      "new_sha256": "854d25b618757d874ede5def09acd0fb9a0fe03f76195fe5c95327e947b0d258"
     },
     {
       "path": "sections/outline/01_motivation.tex",
       "base_sha256": "11b0a266ba43df64831daf3e63888cf4746c9b3094d31d35753562b4801f0a63",
-      "new_sha256": "fcb7651e5f71e3927ad62bbf310bcf02d71ed9176887f80ca712d47622ae2da9"
+      "new_sha256": "a14ad284292e073bf2091cdf384c8ad6e047939a199bcbb88f221db5dfbe37d9"
     },
     {
       "path": "sections/outline/02_goals.tex",
       "base_sha256": "0302b12c9c6b7b4c1598fd6fd727523ed5c734754a66c2b5b5823504f27c8320",
-      "new_sha256": "fd1b7bdf65d227c6c2343698cf2a4f81897dcece2695b2e26eafceecd7eae047"
+      "new_sha256": "10ce2f50659dd02a4f898c888d0c6cb9d21eaf87c8233a3dea042dc9c706b4d7"
     },
     {
       "path": "sections/outline/03_evidence.tex",
       "base_sha256": "3884d90606f2c0830406f93a376bd341a06ea16e1b4294099b40d388294bdc3f",
-      "new_sha256": "84c0043dfc8fd656c6e4bea3d1388f85d8caac6c02812603d7c0a9885b4b9033"
+      "new_sha256": "3282f1cba4a2d574ea2ac79938a236fa85d4a4e0d5abe8ce0be93045a88a8ad9"
     },
     {
       "path": "sections/outline/04_model.tex",
       "base_sha256": "9563cd476e56dc591f7dfa2dfac1ad8d44fdb9dab25f5ba05512daae93dd5579",
-      "new_sha256": "5cecaf4dd9c124f02e961dd3318513025d2d1e68ebf6f2cfd7832c21bbc8312a"
+      "new_sha256": "8bf55abb3b70df25e40fcb989144029d3846d7ed3629c59d97c91a43d51c09e5"
     },
     {
       "path": "sections/outline/05_methods.tex",
       "base_sha256": "f3a099c7b046d50a7758d497d6bb09fdb40f80f83f40def19b0a3ca2fcc27fdc",
-      "new_sha256": "2736ef97abead6ad312744dd24ddee407b020b9af2dc620709de266eaade6eb2"
+      "new_sha256": "db76305e5fea5c79f0f8131a043e2fd847ea2e72c154eed04aba36d3524f46d5"
     },
     {
       "path": "sections/outline/06_preliminary.tex",
       "base_sha256": "b7ca56981ccf016a10e463c12b6b34f51aaa06d60c717df8a6f208f2eea062ce",
-      "new_sha256": "95c8fc042828ada5525a3b1c430f3294bdee7c931231052d112928b0ee93c6f1"
+      "new_sha256": "866339dfdc00de46a574ce31ae6fb3bfffa836843eee4798d16cff32f0786eae"
     },
     {
       "path": "sections/outline/07_assessment.tex",
       "base_sha256": "8905e40ee83d93a8a9fcdd75f313fa504e9d917b642efa1c760aecbd2fa411e8",
-      "new_sha256": "42235f5e5d69d362704db6b120590e82371c5967f50f23d96adac02851fb36ec"
+      "new_sha256": "3ce4a68bd711b2d2ec13d0f4bd42481b8bf3f34414b39684d8e403e0f090ce9b"
     },
     {
       "path": "sections/outline/08_plan.tex",
       "base_sha256": "fead6fef6758ce96a97b70407802c951378b37ea184cfc624b5f0fbd484aee1d",
-      "new_sha256": "1d3af578eba3ace921bdb8759484bb8aea8be0a605a71f13acba33ba67272839"
+      "new_sha256": "d766f3f764d209afce18bb8ebabdef980ba9179e15fa98931e1148e0ffec4643"
+    },
+    {
+      "path": "sections/outline/90_coverage.tex",
+      "base_sha256": null,
+      "new_sha256": "a5af8271d87a405fa086974986a6d83fc5415c287df65dbf1429dfe5cb05c194"
     },
     {
       "path": "sections/refs/bib.tex",
       "base_sha256": "7b7b209c0e0fc14f6826d2245cc6d088ad22d7a084f84f4204740444f5150a95",
-      "new_sha256": "7ac76f80d31a48beae50b643996ac9afd33cde523791c9636396cfce8399420e"
+      "new_sha256": "e30edbbbd97d40953753ff576666896be29054b621f1eb0e4eb12fc619b374d7"
     }
-  ]
+  ],
+  "distribution": "committee_proposal_sources.zip",
+  "previous_status": "committee_working_revision_prepared_not_applied",
+  "archive_source_root": "archive/staged",
+  "application_record": "../../05_handoffs/2026-11-03_02_local_hpc_consolidation.md",
+  "applied_commit": null,
+  "superseding_commit": "b6333aa2aab73ea89baf984236edacaf2cbd788c"
 }

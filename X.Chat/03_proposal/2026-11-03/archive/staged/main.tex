@@ -1,0 +1,36 @@
+% Expanded committee bullet draft. Internal coordination: ../internal/README.md.
+% Evidence locators and question mapping are maintained outside the committee package.
+\documentclass[11pt,letterpaper]{article}
+\usepackage{mathtools}
+\input{doc_support/packages}
+\usepackage{needspace}
+\AddToHook{cmd/section/before}{\Needspace{9\baselineskip}}
+\newcommand{\topiclabel}[1]{\phantomsection\label{topic:#1}}
+\newcommand{\researchlabel}[1]{\phantomsection\label{research:#1}}
+
+\title{Dissertation Proposal}
+\author{Andr\'es Nicol\'as Fierro L\'opez}
+\date{Committee bullet draft -- November 2026}
+
+\begin{document}
+\maketitle
+% Internal reading guide (not compiled):
+% \input{sections/outline/00_working_summary}
+\setcounter{tocdepth}{1}
+\tableofcontents
+\clearpage
+
+\input{sections/outline/01_motivation}
+\input{sections/outline/06_preliminary}
+\input{sections/outline/02_goals}
+\input{sections/outline/03_evidence}
+\input{sections/outline/04_model}
+\input{sections/outline/05_methods}
+\input{sections/outline/07_assessment}
+\input{sections/outline/08_plan}
+\input{sections/refs/bib}
+
+% Internal coverage appendix (not compiled):
+% \appendix
+% \input{sections/outline/90_coverage}
+\end{document}

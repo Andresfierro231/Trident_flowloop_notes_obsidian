@@ -13,3 +13,5 @@ and [HPC context](HPC_CONTEXT.md).
 Remote: `git@github.com:Andresfierro231/Trident_flowloop_notes_obsidian.git`.
 The original Box folder was copied, not deleted or modified. Changes remaining
 only on Box/local Obsidian after the intake require deliberate Git reconciliation.
+
+- November 3 local reconciliation: X.Chat/05_handoffs/2026-11-03_03_notes_git_sync.md. Active local notes live in the outside-Box Git checkout, exposed at the original vault route by a local alias; original Box snapshot preserved.

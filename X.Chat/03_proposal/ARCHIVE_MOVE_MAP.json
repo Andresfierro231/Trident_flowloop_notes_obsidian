@@ -1,0 +1,256 @@
+{
+  "date": "2026-11-03",
+  "purpose": "Freeze source snapshots; live authoring in Git",
+  "files": [
+    {
+      "old": "03_proposal/2026-11-02/staged/PROPOSAL_OUTLINE.md",
+      "new": "03_proposal/2026-11-02/archive/staged/PROPOSAL_OUTLINE.md",
+      "sha256": "e3e29792594594aca2bd0a0dfc0bc2f02d5dbf1bbed818081d965539b1273154"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/README.md",
+      "new": "03_proposal/2026-11-02/archive/staged/README.md",
+      "sha256": "8a539cd9ba6282592612c0006c09531997270b922c2ebbae3b605529895f2b9e"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/main.tex",
+      "new": "03_proposal/2026-11-02/archive/staged/main.tex",
+      "sha256": "896399e934664b227b87b7180dbcc619d353fd4c4581b5bcfe0cd08100be91f6"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/proposal_outline_preview.pdf",
+      "new": "03_proposal/2026-11-02/archive/staged/proposal_outline_preview.pdf",
+      "sha256": "db6357c17654efdc3b7f3b9b506198b8967b11276a2d3d3d97eed82aec548962"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/sections/outline/00_working_summary.tex",
+      "new": "03_proposal/2026-11-02/archive/staged/sections/outline/00_working_summary.tex",
+      "sha256": "854d25b618757d874ede5def09acd0fb9a0fe03f76195fe5c95327e947b0d258"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/sections/outline/01_motivation.tex",
+      "new": "03_proposal/2026-11-02/archive/staged/sections/outline/01_motivation.tex",
+      "sha256": "a14ad284292e073bf2091cdf384c8ad6e047939a199bcbb88f221db5dfbe37d9"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/sections/outline/02_goals.tex",
+      "new": "03_proposal/2026-11-02/archive/staged/sections/outline/02_goals.tex",
+      "sha256": "10ce2f50659dd02a4f898c888d0c6cb9d21eaf87c8233a3dea042dc9c706b4d7"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/sections/outline/03_evidence.tex",
+      "new": "03_proposal/2026-11-02/archive/staged/sections/outline/03_evidence.tex",
+      "sha256": "3282f1cba4a2d574ea2ac79938a236fa85d4a4e0d5abe8ce0be93045a88a8ad9"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/sections/outline/04_model.tex",
+      "new": "03_proposal/2026-11-02/archive/staged/sections/outline/04_model.tex",
+      "sha256": "8bf55abb3b70df25e40fcb989144029d3846d7ed3629c59d97c91a43d51c09e5"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/sections/outline/05_methods.tex",
+      "new": "03_proposal/2026-11-02/archive/staged/sections/outline/05_methods.tex",
+      "sha256": "db76305e5fea5c79f0f8131a043e2fd847ea2e72c154eed04aba36d3524f46d5"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/sections/outline/06_preliminary.tex",
+      "new": "03_proposal/2026-11-02/archive/staged/sections/outline/06_preliminary.tex",
+      "sha256": "866339dfdc00de46a574ce31ae6fb3bfffa836843eee4798d16cff32f0786eae"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/sections/outline/07_assessment.tex",
+      "new": "03_proposal/2026-11-02/archive/staged/sections/outline/07_assessment.tex",
+      "sha256": "3ce4a68bd711b2d2ec13d0f4bd42481b8bf3f34414b39684d8e403e0f090ce9b"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/sections/outline/08_plan.tex",
+      "new": "03_proposal/2026-11-02/archive/staged/sections/outline/08_plan.tex",
+      "sha256": "d766f3f764d209afce18bb8ebabdef980ba9179e15fa98931e1148e0ffec4643"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/sections/outline/90_coverage.tex",
+      "new": "03_proposal/2026-11-02/archive/staged/sections/outline/90_coverage.tex",
+      "sha256": "a5af8271d87a405fa086974986a6d83fc5415c287df65dbf1429dfe5cb05c194"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/sections/refs/bib.tex",
+      "new": "03_proposal/2026-11-02/archive/staged/sections/refs/bib.tex",
+      "sha256": "e30edbbbd97d40953753ff576666896be29054b621f1eb0e4eb12fc619b374d7"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/doc_support/packages.tex",
+      "new": "03_proposal/2026-11-02/archive/staged/doc_support/packages.tex",
+      "sha256": "1dabbb2773866cb374d5b54de7c246394e2d4483fd955f2165aea112e72dcff0"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md",
+      "new": "03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md",
+      "sha256": "4484b7857162f85cfb2c31fc921792578c62af353b45fba208e7f866011f4004"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/FOLLOWUP_DECISIONS.md",
+      "new": "03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/FOLLOWUP_DECISIONS.md",
+      "sha256": "4bdce180da5478bbe314fb3da97a07743162992fdee3e328e13ec4278ffa881f"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "new": "03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "new": "03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/SOURCES.md",
+      "new": "03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/SOURCES.md",
+      "sha256": "983e18031615be95abd0ff6845dafd844026c115b3a2164a672cb4ccd488773a"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/doc_support/coverage/2026-11-02/COVERAGE.md",
+      "new": "03_proposal/2026-11-02/archive/staged/doc_support/coverage/2026-11-02/COVERAGE.md",
+      "sha256": "b9d55985bdb5ddb8c9c5c344f2a1aac32e14a1421306a4579f9c531c9d087c68"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/doc_support/coverage/2026-11-02/planning_coverage.csv",
+      "new": "03_proposal/2026-11-02/archive/staged/doc_support/coverage/2026-11-02/planning_coverage.csv",
+      "sha256": "3cb85c289555563827a9d23c9104e9f836238b82316df17e1406fa7c7db07649"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/doc_support/coverage/2026-11-02/question_coverage.csv",
+      "new": "03_proposal/2026-11-02/archive/staged/doc_support/coverage/2026-11-02/question_coverage.csv",
+      "sha256": "791b8062a1c56a9275ef0648bdc6b0af748b1b06d5c14ef446ae745534ddbb05"
+    },
+    {
+      "old": "03_proposal/2026-11-02/staged/doc_support/coverage/2026-11-02/research_insertion_slots.csv",
+      "new": "03_proposal/2026-11-02/archive/staged/doc_support/coverage/2026-11-02/research_insertion_slots.csv",
+      "sha256": "a7e63c33a5bddc151d8021aed0d54cee29397aa26ea3fd2a78b1150417c9dcec"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/PROPOSAL_OUTLINE.md",
+      "new": "03_proposal/2026-11-03/archive/staged/PROPOSAL_OUTLINE.md",
+      "sha256": "78d2456f9a590450b0d51c4ece54071ab2fd68c37c5cd9b15a27e16e6ff3bec1"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/README.md",
+      "new": "03_proposal/2026-11-03/archive/staged/README.md",
+      "sha256": "bde9eb7e23c4158225f34af55cb4d8ee1cc50e6b617b8ca8434f564a30b0870e"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/main.tex",
+      "new": "03_proposal/2026-11-03/archive/staged/main.tex",
+      "sha256": "6f559f4b3c402a4b0ceb71493367a6918c3aa14b426268f8867b1979921844dc"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/proposal_outline_preview.pdf",
+      "new": "03_proposal/2026-11-03/archive/staged/proposal_outline_preview.pdf",
+      "sha256": "e804ccec84eb656c56482b8baa513c7e3dfaf1797004ff1152e04770d9090c03"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/sections/outline/00_working_summary.tex",
+      "new": "03_proposal/2026-11-03/archive/staged/sections/outline/00_working_summary.tex",
+      "sha256": "854d25b618757d874ede5def09acd0fb9a0fe03f76195fe5c95327e947b0d258"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/sections/outline/01_motivation.tex",
+      "new": "03_proposal/2026-11-03/archive/staged/sections/outline/01_motivation.tex",
+      "sha256": "cce548670c0714b78846767620805b0ba1758692a636f77a9fdb45bdb640663b"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/sections/outline/02_goals.tex",
+      "new": "03_proposal/2026-11-03/archive/staged/sections/outline/02_goals.tex",
+      "sha256": "0dc91cad0e720a480753988b90d98e0ac4cf1e47dc985ee2f44eedcadb66c2da"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/sections/outline/03_evidence.tex",
+      "new": "03_proposal/2026-11-03/archive/staged/sections/outline/03_evidence.tex",
+      "sha256": "ca1939e1594f89d1a5c95dac639d50d8ed2b06740d811422ab3a3028e05ebc3f"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/sections/outline/04_model.tex",
+      "new": "03_proposal/2026-11-03/archive/staged/sections/outline/04_model.tex",
+      "sha256": "5fc70d7c6ea415e54ef0e7033b3ea02b896dc307337cafb9b549910f455a932a"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/sections/outline/05_methods.tex",
+      "new": "03_proposal/2026-11-03/archive/staged/sections/outline/05_methods.tex",
+      "sha256": "8696d72ad033d8aa89e005269fcb795fcaf6a0ca5e80ac7e642a50466ce18613"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/sections/outline/06_preliminary.tex",
+      "new": "03_proposal/2026-11-03/archive/staged/sections/outline/06_preliminary.tex",
+      "sha256": "ee11b072b8b426a659acaa86870e03eb1470b382b2dc92e42145122c189b514a"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/sections/outline/07_assessment.tex",
+      "new": "03_proposal/2026-11-03/archive/staged/sections/outline/07_assessment.tex",
+      "sha256": "1b3227e85cab6298702664575bbf071ad44e354edec7452dd3a8f3836f74cd25"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/sections/outline/08_plan.tex",
+      "new": "03_proposal/2026-11-03/archive/staged/sections/outline/08_plan.tex",
+      "sha256": "2c019bf74c0e94fa9cfab7605d2137b715b40e21df4e2cdfa354a2eeb261f404"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/sections/outline/90_coverage.tex",
+      "new": "03_proposal/2026-11-03/archive/staged/sections/outline/90_coverage.tex",
+      "sha256": "a5af8271d87a405fa086974986a6d83fc5415c287df65dbf1429dfe5cb05c194"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/sections/refs/bib.tex",
+      "new": "03_proposal/2026-11-03/archive/staged/sections/refs/bib.tex",
+      "sha256": "8468a6cec3a21edd47b267c153183be396bd914d731c91a3ae84ad99ac718c97"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/doc_support/packages.tex",
+      "new": "03_proposal/2026-11-03/archive/staged/doc_support/packages.tex",
+      "sha256": "1dabbb2773866cb374d5b54de7c246394e2d4483fd955f2165aea112e72dcff0"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md",
+      "new": "03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md",
+      "sha256": "4484b7857162f85cfb2c31fc921792578c62af353b45fba208e7f866011f4004"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/doc_support/reconciliation/2026-11-02/FOLLOWUP_DECISIONS.md",
+      "new": "03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/FOLLOWUP_DECISIONS.md",
+      "sha256": "4bdce180da5478bbe314fb3da97a07743162992fdee3e328e13ec4278ffa881f"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "new": "03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "new": "03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/doc_support/reconciliation/2026-11-02/SOURCES.md",
+      "new": "03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/SOURCES.md",
+      "sha256": "983e18031615be95abd0ff6845dafd844026c115b3a2164a672cb4ccd488773a"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/doc_support/coverage/2026-11-02/COVERAGE.md",
+      "new": "03_proposal/2026-11-03/archive/staged/doc_support/coverage/2026-11-02/COVERAGE.md",
+      "sha256": "6a6716e32dd091324e585426ed17f0f9579cc6c21ba43fa827409b1869219411"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/doc_support/coverage/2026-11-02/planning_coverage.csv",
+      "new": "03_proposal/2026-11-03/archive/staged/doc_support/coverage/2026-11-02/planning_coverage.csv",
+      "sha256": "34818349a922113a32cd0cb4444ea4bc0e45740cd43497f867e516b3b862eeed"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/doc_support/coverage/2026-11-02/question_coverage.csv",
+      "new": "03_proposal/2026-11-03/archive/staged/doc_support/coverage/2026-11-02/question_coverage.csv",
+      "sha256": "cb8016983c677daa3060689a56798e0f10eeb674d0de0f1a09382884269e0a17"
+    },
+    {
+      "old": "03_proposal/2026-11-03/staged/doc_support/coverage/2026-11-02/research_insertion_slots.csv",
+      "new": "03_proposal/2026-11-03/archive/staged/doc_support/coverage/2026-11-02/research_insertion_slots.csv",
+      "sha256": "80714bd85c8d13a20f901b50063f85c28e4a83a0aa852ce01271f30bec654ed8"
+    }
+  ]
+}

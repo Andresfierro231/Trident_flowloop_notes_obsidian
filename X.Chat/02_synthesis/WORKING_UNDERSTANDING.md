@@ -1,6 +1,6 @@
 # Working understanding — literature, plans and HPC evidence
 
-- Status: maintained synthesis, November 2; [literature sources and answers](../00_navigation/LITERATURE_RESOURCES.md), [HPC routes HC01–HC16](../01_sources/HPC_REPORT_MAP.md), [planning coverage](PLANNING_COVERAGE.md).
+- Status: maintained synthesis, November 2; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/LITERATURE_RESOURCES.md|literature sources and answers]], [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/HPC_REPORT_MAP.md|HPC routes HC01–HC16]], [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/PLANNING_COVERAGE.md|planning coverage]].
 - Organizing authority: the author’s proposal goals, scientific questions and research tasks. The review supplies evidence/answers alongside modeling reports, experiment records and notes.
 - Current source evidence is richer than the first organization pass. Treat this note as the interpretation owner and follow exact records before changing theory or implementation.
 
@@ -53,6 +53,6 @@
 - The plan includes model/data identifiers, provenance chains, historical/replay/live displays and collaborator roles. [G01; HC13/HC15]
   - Program context expands the thesis explanation; historical software names and collaborator assignments do not select the current stack or imply completed integration.
   - Dashboard/interface work remains with Ben Booth/NeutronOS. A display prototype, prediction service, operator advice and equipment control have different evidence requirements.
-- The user requested a Box-mediated Q&A route: [HPC exchange](../06_hpc_exchange/README.md).
+- The user requested a Box-mediated Q&A route: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/06_hpc_exchange/README.md|HPC exchange]].
   - Prepared files and an export package do not imply delivery, acknowledgment, current HPC status or authorization to run new scientific work.
   - Use replies to update exact source/status pointers and integrate evidence; keep original responses and dated decisions intact.

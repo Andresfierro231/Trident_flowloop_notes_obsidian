@@ -1,18 +1,21 @@
-# Prepared proposal expansion — November 2, 2026
+# Superseded November 2 revision
 
-- Status: **prepared and not applied**. Automatic approval review rejected a write outside this session’s project workspace. The original proposal is unchanged.
-- Base proposal commit: `863fb5098b7ba1fd550a6557feb4dbe6463843bb`. Every changed file has a base hash in [manifest](manifest.json).
-- Compiled preview: [proposal_outline_preview.pdf](proposal_outline_preview.pdf), 16 pages after the follow-up expansion; source/log checks passed; no rendered-page review.
-- Review the [expanded bullet outline](EXPANDED_OUTLINE.md) and [unified patch](proposal_expansion.patch); complete changed source files are under `staged/`.
-- Main changes: preliminary work follows motivation; master’s evidence/limits lead feasibility; experimental-data interpretation and temperature reproduction are expanded; primary citations and exact evidence routes are added; Markdown and LaTeX bullets align.
-- Images and earlier prose are preserved. Existing dated source records remain; new follow-up decisions and citation pointers are appended as separate notes.
-- Applying later: use a session with the proposal folder available for writing. Run `git apply --check` on this patch from the proposal root, inspect the diff, then apply and build. If the source has changed, reconcile the patch rather than overwriting it.
-- This package does not execute operating-data processing, experiments, CFD or solver studies.
-- Build and link-check results are recorded in [handoff](../../05_handoffs/2026-11-02.md).
+- Updated 2026-11-03: superseded by applied November 3 cumulative package.
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/main.tex|Live canonical LaTeX]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/archive/staged/main.tex|frozen snapshot]].
+- PDFs, ZIPs, patch and hashes here are historical, not automatically current.
 
-## Follow-up expansion
+- Legacy staged/ is a local compatibility symlink to the frozen archive, never the live editing route. This preserves archived source links byte-for-byte. Use current/ for live work.
 
-- Added nested planning tasks for data lineage/quality/groups, reproducible numerical inputs, physical/observation/discrepancy separation, sensor-change assessment and operator-result interfaces.
-- Added exact HPC report routes and the CAL-019 nominal-power correction; used literature as a source/answer resource.
-- Planning coverage: all580 paragraphs grouped into31 topics/dispositions. HPC exchange:7 prepared questions; no responses received.
-- The patch now replaces the first-pass pending patch; do not apply both versions. Original proposal remains unchanged.
+## Original description (historical)
+
+# Committee-facing proposal draft
+
+- Clean LaTeX entry: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/archive/staged/main.tex|main.tex]].
+- Send [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/committee_proposal_sources.zip|committee LaTeX source ZIP]] to the committee. It contains only the required sources and a short build README; internal coordination is excluded.
+- Compiled preview: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/committee_proposal.pdf|committee PDF]]; readable bullets: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/EXPANDED_OUTLINE.md|Markdown draft]].
+- Reading guide and coverage appendix are commented out; source codes, evidence strings, writer reminders and local paths are removed from visible text. Scientific limitations and normal bibliography citations remain.
+- Internal coordination: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/internal/README.md|agent/author notes]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/internal/AUTHOR_QUESTIONS.md|questions for Andres]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/coverage/COVERAGE.md|coverage register]].
+- The literature set is confirmed as 62 questions; there is no outstanding count issue.
+- The original repository is unchanged because it is outside the writable workspace. The cumulative [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/proposal_expansion.patch|prepared patch]] is pending application there; this version replaces earlier pending patches.
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/proposal_source.zip|proposal_source.zip]] is the same committee-only source distribution, retained at the earlier filename.
+- Original images and earlier prose remain in the original repository. No new scientific run, experimental-data processing, or external message occurred.

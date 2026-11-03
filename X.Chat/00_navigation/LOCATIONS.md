@@ -1,25 +1,25 @@
 # Where things live
 
-- Use [literature resources](LITERATURE_RESOURCES.md) for scientific context, [HPC report map](../01_sources/HPC_REPORT_MAP.md) for implementation/research evidence, and [working understanding](../02_synthesis/WORKING_UNDERSTANDING.md) for the cross-source interpretation.
+- Use [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/LITERATURE_RESOURCES.md|literature resources]] for scientific context, [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/HPC_REPORT_MAP.md|HPC report map]] for implementation/research evidence, and [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/WORKING_UNDERSTANDING.md|working understanding]] for the cross-source interpretation.
 - Local paths below are verified locations; historical HPC roots come from the saved backup manifest and must be confirmed by the receiving HPC researcher.
 
 | Material | Where / exact owner | Role and authority |
 |---|---|---|
-| Current editable literature reviews | [PhD_internal_litRev](</Users/andres/projects/research/Paper_and_Presentations/Trident_papers/lit_rev_codex/PhD_internal_litRev/README.md>) | Current LaTeX A/B, source registry, dossiers and canonical 62-question JSON |
-| Literature parent folder | [lit_rev_codex](</Users/andres/projects/research/Paper_and_Presentations/Trident_papers/lit_rev_codex>) | Container for current checkout, frozen releases and reference/acquisition packages |
-| Frozen final review delivery | [final_2026-10-21](</Users/andres/projects/research/Paper_and_Presentations/Trident_papers/lit_rev_codex/final_2026-10-21/README.md>) | Issued snapshot; does not replace later editable LaTeX |
-| Reference/acquisition context | [reference_2026-10-21](</Users/andres/projects/research/Paper_and_Presentations/Trident_papers/lit_rev_codex/reference_2026-10-21/START_HERE.md>) | Historical source intake/dossiers/PDF locations; current registry controls source identities |
-| Original proposal | [proposal](</Users/andres/projects/research/Paper_and_Presentations/Andres_Fierro_Dissertation_Proposal/main.tex>) | Canonical manuscript; outside this session’s writable root |
-| Prepared proposal changes | [dated writing package](../03_proposal/2026-11-02/README.md) | Reviewable pending patch; not yet applied to original proposal |
-| Obsidian research record | [notes root](</Users/andres/Library/CloudStorage/Box-Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes>) | Existing subject notes and photo embeds; preserved in place |
-| This organizational layer | [X.Chat home](../README.md) | Navigation, synthesis, decisions and exchange records |
-| HPC saved project | [TRIDENT_Modeling_Archives](</Users/andres/Box-Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives>) | October 13/20 saves and newer October 23 checkpoint, completed October 26 per its receipt |
-| Latest inspected checkpoint | [checkpoint](</Users/andres/Box-Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z>) | Saved working/source/report state, not a live checkout |
-| Code history at checkpoint | [repository_10.bundle](</Users/andres/Box-Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z/git/repository_10.bundle>) | `andrew_WorkSpace`, HEAD `a9dd025ae1c4ce95cfb554da65d749dbe4402bd7`; uncommitted state is captured separately |
-| Saved working documents | [working.tar.zst](</Users/andres/Box-Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z/andrew_workspace/working.tar.zst>) | Theory, decisions, project/collaboration contracts; use archive-member paths in the catalog |
-| Saved reports | [reports.tar.zst](</Users/andres/Box-Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z/andrew_workspace/reports.tar.zst>) | 791 Markdown records cataloged; report count is not experiment count or proof of scientific review |
-| Source/result storage manifest | [release_index.json](</Users/andres/Box-Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z/release_index.json>) | Eight source owners, archive mapping, known external-link gaps |
-| Local ↔ HPC questions | [exchange home](../06_hpc_exchange/README.md) | User-requested Box-mediated written exchange; prepared ≠ delivered ≠ acknowledged |
+| Current editable literature reviews | [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/lit_rev_codex/PhD_internal_litRev/README.md\|PhD_internal_litRev]] | Current LaTeX A/B, source registry, dossiers and canonical 62-question JSON |
+| Literature parent folder | lit_rev_codex — `MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/lit_rev_codex/` (folder) | Container for current checkout, frozen releases and reference/acquisition packages |
+| Frozen final review delivery | [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/lit_rev_codex/final_2026-10-21/README.md\|final_2026-10-21]] | Issued snapshot; does not replace later editable LaTeX |
+| Reference/acquisition context | [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/lit_rev_codex/reference_2026-10-21/START_HERE.md\|reference_2026-10-21]] | Historical source intake/dossiers/PDF locations; current registry controls source identities |
+| Canonical editable proposal | [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/main.tex\|proposal]] | Single manuscript authoring owner; shared through Git |
+| Archived proposal packages | [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/README.md\|dated writing package]] | November 3 package applied; dated source trees frozen |
+| Obsidian research record | notes root — `MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/` (folder) | Existing subject notes and photo embeds; preserved in place |
+| This organizational layer | [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/README.md\|X.Chat home]] | Navigation, synthesis, decisions and exchange records |
+| HPC saved project | TRIDENT_Modeling_Archives — `MainVault/Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/` (folder) | October 13/20 saves and newer October 23 checkpoint, completed October 26 per its receipt |
+| Latest inspected checkpoint | [[MainVault/Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z/README.md\|checkpoint]] | Saved working/source/report state, not a live checkout |
+| Code history at checkpoint | [[MainVault/Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z/git/repository_10.bundle\|repository_10.bundle]] | `andrew_WorkSpace`, HEAD `a9dd025ae1c4ce95cfb554da65d749dbe4402bd7`; uncommitted state is captured separately |
+| Saved working documents | [[MainVault/Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z/andrew_workspace/working.tar.zst\|working.tar.zst]] | Theory, decisions, project/collaboration contracts; use archive-member paths in the catalog |
+| Saved reports | [[MainVault/Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z/andrew_workspace/reports.tar.zst\|reports.tar.zst]] | 791 Markdown records cataloged; report count is not experiment count or proof of scientific review |
+| Source/result storage manifest | [[MainVault/Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z/release_index.json\|release_index.json]] | Eight source owners, archive mapping, known external-link gaps |
+| Local ↔ HPC questions | [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/06_hpc_exchange/README.md\|exchange home]] | User-requested Box-mediated written exchange; prepared ≠ delivered ≠ acknowledged |
 
 ## HPC roots recorded in the saved manifest
 
@@ -28,3 +28,15 @@
 - Historical distinct owners: `FlowLoopDT`, `ACU_VCUFlowLoop`, `acu-flowloop-site`, `vcu-flowloop-site`; project/papers owners are listed in the release index.
 - These are snapshot locators, not a statement that those paths still exist today. The first HPC request asks for current equivalents.
 - The archived literature Git bundle is an older bootstrap head; the current local literature checkout has subsequent integrated reviews. Do not overwrite current literature with the older bundle.
+
+## Current routes — November 3
+
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/AGENT_START.md|Startup]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/agent/LOCAL.md|verified Mac map]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/agent/TACC.md|TACC bootstrap/map]].
+- Books/papers: /Users/andres/ObsidianVaults/MainVault/Box/books/research/; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/BOX_LITERATURE.md|discovery guide]].
+- Live alias: 03_proposal/current/; dated snapshots: archive/staged/. [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/ARCHIVE_MOVE_MAP.json|Move map]].
+
+## Notes Git owner — November 3
+
+- Canonical local notes: /Users/andres/projects/research/Trident/Trident_flowloop_notes_obsidian/; origin git@github.com:Andresfierro231/Trident_flowloop_notes_obsidian.git.
+- Existing vault-root wikilinks keep MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/ through a local alias. Original Box source preserved at sibling Trident_FlowLoop_Notes_pre_git_2026-11-03; do not edit it.
+- Remote notes handoff reports HPC owner under initiative box/Trident_FlowLoop_Notes/ as of November 2; verify on actual host.

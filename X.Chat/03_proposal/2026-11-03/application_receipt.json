@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-03",
+  "proposal_commit": "b6333aa2aab73ea89baf984236edacaf2cbd788c",
+  "publication": "git_push_succeeded",
+  "local_head_matches_origin_main": true,
+  "working_tree_clean": true,
+  "package_paths_matching": 22,
+  "archive_hashes_verified": 50,
+  "wikilinks_resolved": 764,
+  "build_pages": 32,
+  "build": "passed",
+  "pdf_visual_review": "not_performed",
+  "tacc_received": "unconfirmed",
+  "github_ci": "not_checked",
+  "overleaf": "not_checked"
+}

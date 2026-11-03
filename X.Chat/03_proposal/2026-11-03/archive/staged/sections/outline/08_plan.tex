@@ -1,0 +1,69 @@
+% Agent context and source locators: ../../../internal/EXPANSION_NOTES.md
+\section{Work Plan and Deliverables}\label{sec:work-plan-and-deliverables}
+
+\subsection{Sequence and deliverables}\label{subsec:sequence-and-deliverables}
+
+\begin{itemize}[leftmargin=*]
+\item Begin with a documented experimental reproduction case, a declared prediction task, and matched physical and statistical comparators.
+\item Stage 1 deliverables: verified 1D specification, closure/\allowbreak{}observation procedure, steady predictions, uncertainty and applicability assessment.
+\item Stage 2 deliverables: qualified transition comparisons and response/\allowbreak{}settling/\allowbreak{}margin outputs, with physical-time and initial-state evidence.
+\item Stage 3 deliverables: operator interfaces for what-if questions and limit awareness, with Ben Booth and NeutronOS; distinguish interface prototype from assessed predictive functions.
+\item The initial demonstration will contain a case summary, temperature and channel map, declared boundary conditions and assumptions, reproduction plots, residual tables, conservation checks, and an uncertainty summary. Report calibration and assessment roles explicitly.
+\end{itemize}
+
+\subsection{From offline comparisons to operator-facing results}\label{subsec:from-offline-comparisons-to-operator-facing-results}
+
+\begin{itemize}[leftmargin=*]
+\item \researchlabel{uncertainty-and-operator-interfaces}\textbf{Uncertainty and operator interfaces.} Develop a source and covariance budget and a replay example that records provenance, forecast horizon, unavailable inputs, and applicability.
+\begin{itemize}
+\item Requirement/\allowbreak{}interface development is distinct from implemented total uncertainty quantification, deployed decision support, control or independent facility assessment.
+\end{itemize}
+
+\item Define traceable result interfaces and integration responsibilities.
+\begin{itemize}
+\item Associate every result with model/\allowbreak{}case/\allowbreak{}data/\allowbreak{}configuration identity, source versions and parent transformations; preserve a route back to measured and reference inputs.
+\item Agree result schemas and responsibilities with Ben Booth and NeutronOS before selecting a deployment architecture.
+\end{itemize}
+\item Stage integration from offline reproduction to qualified replay and, where agreed, live data/\allowbreak{}model display.
+\begin{itemize}
+\item Display measured, inferred and predicted quantities distinctly, with units, time/\allowbreak{}horizon, scenario, uncertainty or unknowns, applicability and stale/\allowbreak{}missing-data status.
+\item Assess model predictions separately from display/\allowbreak{}communication functionality. Operator suggestions, alarms with authority, automated commands and unattended operation need separate scope and evidence.
+\end{itemize}
+
+\item \topiclabel{actionable-estimate-diagnosis-and-forecast}\textbf{Actionable estimate, diagnosis and forecast.} Present measured-location current temperatures/\allowbreak{}margins, a state estimate conditioned on data, a scenario forecast and conditional diagnosis as different products.\cite{kapteyn2021digitaltwins}
+\begin{itemize}
+\item Label measured current margin, data-conditioned state estimate, scenario prediction and supplied-boundary diagnosis separately; state what is useful before a full transient model exists.
+\end{itemize}
+\item \topiclabel{communicate-uncertainty-and-absent-information}\textbf{Communicate uncertainty and absent information.} Show target, units, source time/\allowbreak{}facility revision, scenario/\allowbreak{}horizon, uncertainty type, domain and missing/\allowbreak{}stale inputs.\cite{kapteyn2021digitaltwins}
+\begin{itemize}
+\item Require units, scenario/\allowbreak{}horizon, provenance, applicability and stale/\allowbreak{}missing/\allowbreak{}out-of-domain flags; separate scientific credibility from interface polish.
+\end{itemize}
+\item \topiclabel{collaborative-result-data-contract}\textbf{Collaborative result/\allowbreak{}data contract.} Discuss facility/\allowbreak{}configuration ID, clock and sampling, quantity/\allowbreak{}state/\allowbreak{}observation identity, units and reference conventions, raw versus corrected provenance, scenario/\allowbreak{}forcing/\allowbreak{}horizon, parameter/\allowbreak{}model version, uncertainty/\allowbreak{}dependencies, applicability flags, stale/\allowbreak{}missing-data behavior and threshold ownership with Ben Booth/\allowbreak{}NeutronOS.\cite{kapteyn2021digitaltwins}
+\begin{itemize}
+\item Define facility/\allowbreak{}revision, clock, input scenario, prediction horizon, uncertainty and threshold ownership jointly with Ben Booth/\allowbreak{}NeutronOS; infer neither product stack nor deployment readiness.
+\end{itemize}
+\item \topiclabel{later-operating-capabilities-and-added-physics}\textbf{Later operating capabilities and added physics.} Startup/\allowbreak{}shutdown forecasting needs appropriate source history, fluid/\allowbreak{}solid initial states, transport and possible inertia.
+\begin{itemize}
+\item Map startup/\allowbreak{}shutdown, pressure/\allowbreak{}level, trace heating and freezing questions to required states/\allowbreak{}data; distinguish sensible-temperature margin from phase change/\allowbreak{}blockage and advice from control.
+\end{itemize}
+\end{itemize}
+
+
+\subsection{Research progression and decision gates}\label{subsec:research-progression-and-decision-gates}
+\begin{itemize}[leftmargin=*]
+\item \textbf{Establish experimental reproduction.} Complete one traceable case from raw channels through observation mapping, input accounting, a constrained fit, residual plots, conservation checks, and a documented uncertainty budget. This is the first feasibility demonstration.
+\item \textbf{Freeze and assess the steady model.} Select the physical model and calibration rule before examining an eligible unused condition. Assess the intended temperature outputs and the independently supportable flow and duty quantities; revise the applicability statement when a test fails.
+\item \textbf{Evaluate the reduction and closure procedure.} Use qualified CFD and experimental contrasts to test the selected development descriptors, observation reconstruction, and parameter groups. Retain the conventional comparator throughout so that improvement is attributable to an explicit modeling choice.
+\item \textbf{Extend to bounded transitions.} Add only the storage, momentum, or observation dynamics required by the chosen transition target, with synchronized boundary histories and defensible initial-state information. Compare temperature response and settling before claiming richer transient fields.
+\item \textbf{Demonstrate operational use.} Progress from an assessed offline scenario to recorded-data replay and, where supported by the collaboration, live result display. The demonstration will distinguish measured values, inferred states, and forecasts, and show uncertainty, applicability, and missing or stale data.\cite{kapteyn2021digitaltwins}
+\item Each progression step has an evidence gate rather than an assumed success. Missing CFD fields limit spatial claims; missing independent flow evidence limits circulation-validation claims; incomplete transition inputs limit forecasting claims. Data reconciliation, steady modeling, and supported temperature assessment can still advance while those dependencies are resolved.
+\end{itemize}
+
+\subsection{Expected dissertation outcomes}\label{subsec:expected-dissertation-outcomes}
+\begin{itemize}[leftmargin=*]
+\item A reproducible experimental/CFD-to-1D reduction framework with explicit conservation, closure, and sensor-mapping conventions.
+\item Evidence identifying which model states, parameter combinations, and profile corrections are consequential and supportable for selected loop-temperature and heat-transport predictions.
+\item Assessment of steady performance and bounded transitions, including uncertainty and limits on physical interpretation and transfer.
+\item An operator-oriented example showing how qualified model outputs can support scenario comparison and thermal-limit awareness, together with the conditions under which those outputs should be withheld or qualified.
+\item Reusable case definitions, extraction and comparison procedures, and research records that allow subsequent results to be extended and checked without losing their original evidence basis.
+\end{itemize}

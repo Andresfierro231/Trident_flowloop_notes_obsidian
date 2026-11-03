@@ -1,0 +1,81 @@
+{
+  "reason": "Preserve original remote snapshot while local dated sources use their own archives",
+  "remote_base": "9887546",
+  "files": [
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/PROPOSAL_OUTLINE.md",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/PROPOSAL_OUTLINE.md",
+      "sha256": "e2a05cba399081cc38846ff1478d5c030edee0f5d7598a0f4f2093e86a943d7c"
+    },
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/main.tex",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/main.tex",
+      "sha256": "bd50f38525f5e16ac75de3109df446dd591e3f78400e76eb5e0ccdd18d07cf2f"
+    },
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/05_methods.tex",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/sections/outline/05_methods.tex",
+      "sha256": "2736ef97abead6ad312744dd24ddee407b020b9af2dc620709de266eaade6eb2"
+    },
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/06_preliminary.tex",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/sections/outline/06_preliminary.tex",
+      "sha256": "95c8fc042828ada5525a3b1c430f3294bdee7c931231052d112928b0ee93c6f1"
+    },
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/01_motivation.tex",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/sections/outline/01_motivation.tex",
+      "sha256": "fcb7651e5f71e3927ad62bbf310bcf02d71ed9176887f80ca712d47622ae2da9"
+    },
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/04_model.tex",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/sections/outline/04_model.tex",
+      "sha256": "5cecaf4dd9c124f02e961dd3318513025d2d1e68ebf6f2cfd7832c21bbc8312a"
+    },
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/03_evidence.tex",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/sections/outline/03_evidence.tex",
+      "sha256": "84c0043dfc8fd656c6e4bea3d1388f85d8caac6c02812603d7c0a9885b4b9033"
+    },
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/07_assessment.tex",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/sections/outline/07_assessment.tex",
+      "sha256": "42235f5e5d69d362704db6b120590e82371c5967f50f23d96adac02851fb36ec"
+    },
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/08_plan.tex",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/sections/outline/08_plan.tex",
+      "sha256": "1d3af578eba3ace921bdb8759484bb8aea8be0a605a71f13acba33ba67272839"
+    },
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/sections/outline/02_goals.tex",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/sections/outline/02_goals.tex",
+      "sha256": "fd1b7bdf65d227c6c2343698cf2a4f81897dcece2695b2e26eafceecd7eae047"
+    },
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/sections/refs/bib.tex",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/sections/refs/bib.tex",
+      "sha256": "7ac76f80d31a48beae50b643996ac9afd33cde523791c9636396cfce8399420e"
+    },
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/SOURCES.md",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/doc_support/reconciliation/2026-11-02/SOURCES.md",
+      "sha256": "5b53b1aa150ba66aa85eaa6b9ca3f9bdbcacd5141768849f6528648583275310"
+    },
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/FOLLOWUP_DECISIONS.md",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/doc_support/reconciliation/2026-11-02/FOLLOWUP_DECISIONS.md",
+      "sha256": "4bdce180da5478bbe314fb3da97a07743162992fdee3e328e13ec4278ffa881f"
+    },
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "sha256": "35ee63b311fcfff12ca66259d0529ec20b75522dd8d91e88aaac19359f0c02c3"
+    },
+    {
+      "old": "X.Chat/03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "new": "archive/2026-11-03/remote_staged_at_9887546/doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "sha256": "b989b5b08c66a5bf86685c031f058195081ded24329d59fd75746e15f3fa6d67"
+    }
+  ]
+}

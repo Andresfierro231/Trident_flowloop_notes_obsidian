@@ -27,3 +27,36 @@
 - Corrected interpretation: organize around the author’s proposal/research goals and questions. Consult the literature answers/citations as one evidence resource, together with modeling reports, experimental records, notes and author decisions.
 - This supersedes the assistant’s “scientific/organizing backbone” interpretation in the preceding exchange; it does not discard the review or change the approved research direction.
 - Literature synthesis answered does not mean proposal integration, empirical research, implementation or validation completed.
+
+## AD-20261102-06 — Obsidian-compatible live repository access
+
+- Author identifies absolute filesystem Markdown links creating unwanted `.tex.md` notes and asks for links that survive vault mount changes.
+- Author selected “Live local symlinks” rather than Box reading copies.
+- Implemented one local `Papers` alias under `X.Chat/80_repository_links/`, targeting the existing repository parent; no clones/moves or repository edits.
+- Notes use existing-file vault-root wikilinks; OS paths remain provenance text only. Directory targets are README links or nonclickable folder pointers.
+- Portability requires the same internal vault layout and a per-computer alias; Box does not synchronize symlinks. Actual vault root is `ObsidianVaults`, not the internal `MainVault` folder.
+- User’s accidental notes were not removed; the user said they would delete them.
+
+
+## AD-20261102-07 — Committee-facing draft and internal coordination
+
+- Author confirms that the literature question set is 62 and requests removal of the obsolete discrepancy note.
+- Audience is an external committee. Reading-guide/preface instructions, question-ID coverage, source codes, and expansion-evidence strings must not appear in the rendered proposal.
+- Author permits source comments pointing to separate Markdown coordination; author questions and agent notes belong in other folders/files.
+- Implementation: reading guide and appendix commented out; scientific bullets/citations retained; descriptive LaTeX labels replace opaque question/plan/result anchors. Internal evidence and author questions are stored alongside, and excluded from the committee source ZIP.
+
+
+## AD-20261103-01 — Flesh out the committee proposal
+
+- Author requests a more developed committee proposal and mentions preliminary answers.
+- The saved canonical questionnaire still showed pending answers; no new selections or numerical commitments were inferred.
+- Expand the scientific bullets with explicit hypotheses, quantitative existing evidence, equations, work sequences, and assessment products while preserving the clean external presentation.
+- Current dated revision is November 3; retain the earlier version and single questionnaire owner.
+
+
+## AD-20261103-02 — Shared Git and single manuscript owner
+
+- Author requests frequent proposal push/pull, local/TACC detection, shared rules with separate maps, and real LaTeX editing in existing proposal repository.
+- Author requests archived history, notes/discussion in X.Chat plus appropriate Git supporting records, and a map for Box books/research.
+- Implemented task-boundary synchronization/scoped publication, frozen dated packages and one live alias. Existing science holds/source identities remain.
+- TACC current paths and receipt are not inferred from local setup.

@@ -1,0 +1,29 @@
+{
+  "task": "PROP-EXPAND-20261103-01",
+  "status": "passed",
+  "pdf_pages": 32,
+  "canonical_question_homes": 62,
+  "scientific_workflow_plan_homes": 29,
+  "research_homes": 6,
+  "body_subsections": 50,
+  "numbered_equations": 12,
+  "scholarly_references": 17,
+  "log_issues": [],
+  "visible_internal_tracking_codes": "none",
+  "reading_guide_and_coverage_appendix": "commented_out",
+  "source_zip_required_files": 12,
+  "source_zip_internal_coordination_files": 0,
+  "patch_check_and_reconstructed_files": "passed",
+  "original_repository": "clean_unchanged",
+  "scientific_execution": "none",
+  "new_author_answers_found": false,
+  "visual_review": "all_32_pages_and_detailed_results_table_and_momentum_equations_passed",
+  "source_zip_independent_build": "passed_32_pages_no_log_issues",
+  "source_manifest_hashes": "passed",
+  "pdf_matches_source_build": true,
+  "obsidian_link_validation": {
+    "wikilinks_checked": 723,
+    "missing_or_folder_targets": [],
+    "unsafe_os_path_markdown_links": []
+  }
+}

@@ -1,8 +1,8 @@
 # HPC modeling report map
 
-- Saved source: [October 23 checkpoint](</Users/andres/Box-Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z>); `completion.json` records `complete_verified`, finished October 26. This task read the receipt, not a fresh full-backup validation.
+- Saved source: [[MainVault/Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z/README.md|October 23 checkpoint]]; `completion.json` records `complete_verified`, finished October 26. This task read the receipt, not a fresh full-backup validation.
 - Extracted 1,560 Markdown working/report records to scratch and matched each to the saved inventory hash; cataloged the 791 report records. Cataloged does not mean fully read.
-- [Report catalog](hpc_report_catalog.csv) carries exact archive/member, heading, frontmatter status and hash. [Selected-source manifest](hpc_source_manifest.json) carries reading depth for the routes below.
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/hpc_report_catalog.csv|Report catalog]] carries exact archive/member, heading, frontmatter status and hash. [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/hpc_source_manifest.json|Selected-source manifest]] carries reading depth for the routes below.
 - Original documents stay inside the immutable archives; exact member paths below are relative to `trident_modeling_initiative/`. The working/report archive column is the retrieval locator.
 - Source status and any reported results describe the saved checkpoint, not verified current HPC behavior. External-symlink gaps are recorded in the checkpoint; do not invent missing external CFD results.
 

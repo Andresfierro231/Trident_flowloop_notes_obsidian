@@ -1,0 +1,40 @@
+# Source map — November 2 reconciliation
+
+- G01: [Andres_PhD_Plan&Proposal](https://docs.google.com/document/d/1d8S-Tk6ZKrjZHhrIivAnODxTSWb5aB_OqZWOwVVBZP8/edit?usp=drivesdk); exact source read November 2; revision/tab/index metadata in [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/reconciliation/2026-11-02/planning_document_locator.json|planning_document_locator.json]].
+- G01 mixes historical notes and current draft; latest author directions control interpretation.
+- N-identifiers below denote project notes, not published scientific references. Dates inside notes establish context; they do not certify current hardware or validation.
+- N01: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/'26 Oct 14 - ACU desired ROM capabilities - Tim Head.md|'26 Oct 14 - ACU desired ROM capabilities - Tim Head.md]]; read full text.
+- N02: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/'26 Oct 14 - feedback abstract - Clarno meeting.md|'26 Oct 14 - feedback abstract - Clarno meeting.md]]; read full text.
+- N03: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/'26 Oct 16 - Luciano Ideas.md|'26 Oct 16 - Luciano Ideas.md]]; read full text.
+- N04: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/'26 Oct 16 - VCU exp team meeting.md|'26 Oct 16 - VCU exp team meeting.md]]; read full text.
+- N05: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]]; read full text.
+- N06: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Heaters and coolers.md|1.1.0 Heaters and coolers.md]]; read full text.
+- N07: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2 Main Material Props.md|1.2 Main Material Props.md]]; read full text.
+- N08: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]]; sensor-note text inventoried; reconcile channel meanings by facility.
+- N09: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/2. Model Notes/0.0 Intro to Model.md|0.0 Intro to Model.md]]; read full text.
+- N10: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/Research/Clarno's Special assignment/Instructions.md|Instructions.md]]; read full text.
+- N11: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/'26 Oct 08 - Comp Trident Flow Loop Team.md|'26 Oct 08 - Comp Trident Flow Loop Team.md]]; read full text.
+- R01: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/reconciliation/2026-11-02/archive_extracts/R01_project_RESEARCH_ROADMAP.md|project]]; archived Git commit `01a697e1f3836b3ee3d86c70217bf65d31d972a1`; original path/hash in [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/reconciliation/2026-11-02/archive_extracts/manifest.json|manifest]].
+- R02: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/reconciliation/2026-11-02/archive_extracts/R02_DOC-034_goal_integration_AUTHOR_DIRECTIONS.md|DOC-034_goal_integration]]; archived Git commit `01a697e1f3836b3ee3d86c70217bf65d31d972a1`; original path/hash in [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/reconciliation/2026-11-02/archive_extracts/manifest.json|manifest]].
+- R03: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/reconciliation/2026-11-02/archive_extracts/R03_CAL-008_ambient_stc_prediction_REPORT.md|CAL-008_ambient_stc_prediction]]; archived Git commit `01a697e1f3836b3ee3d86c70217bf65d31d972a1`; original path/hash in [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/reconciliation/2026-11-02/archive_extracts/manifest.json|manifest]].
+- R04: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/reconciliation/2026-11-02/archive_extracts/R04_CAL-009_initial_offset_REPORT.md|CAL-009_initial_offset]]; archived Git commit `01a697e1f3836b3ee3d86c70217bf65d31d972a1`; original path/hash in [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/reconciliation/2026-11-02/archive_extracts/manifest.json|manifest]].
+- R05: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/reconciliation/2026-11-02/archive_extracts/R05_CAL-010_startup_model_comparison_REPORT.md|CAL-010_startup_model_comparison]]; archived Git commit `01a697e1f3836b3ee3d86c70217bf65d31d972a1`; original path/hash in [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/reconciliation/2026-11-02/archive_extracts/manifest.json|manifest]].
+- R01/R02: October 20 roadmap and author approval; scope evidence.
+- R03/R04/R05: CAL-008/009/010 conditional comparison reports; research groundwork, not new blind validation.
+- Archive source: `/Users/andres/Library/CloudStorage/Box-Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-20_OPS-002_scratch_recovery/control/final/AndrewWorkSpace.git.bundle`.
+- October 23 backup README was read for organization only; its completion was not verified here.
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/LITERATURE_INTEGRATION_HANDOFF_2026-10-21.md|Literature handoff]]: exact Review A/B links and primary-source dossiers.
+- Source files containing unrelated operational credentials were excluded from derived notes; do not copy entire vault notes indiscriminately.
+- Local solver checkout STATUS is September-dated; it must not override the October 20 archive or establish November implementation status.
+
+## November 2 follow-up sources
+
+- MS01: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/masterthesis.tex|author-named master’s source]]; exact source and reading limits in [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md|master’s/citation pointers]].
+- AD-20261102-01–03: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/FOLLOWUP_DECISIONS.md|new author answers and interpretations]].
+- Google plan was read again from the exact shared ID; its text has shifted since earlier index pointers. Prefer tab + heading + quote; pair numeric indices with the captured revision.
+- The research navigation layer is [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/README.md|X.Chat index]]; it routes to original sources rather than replacing them.
+
+## Literature/planning/HPC expansion
+
+- HC01–HC16 and GP01–GP31 resolve in [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md|context expansion]], which links exact report members, saved source hashes and planning paragraphs.
+- New local/HPC exchange is prepared/exported, not acknowledged or answered.

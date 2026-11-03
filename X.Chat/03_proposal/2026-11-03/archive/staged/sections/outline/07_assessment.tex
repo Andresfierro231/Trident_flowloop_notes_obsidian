@@ -1,0 +1,112 @@
+% Agent context and source locators: ../../../internal/EXPANSION_NOTES.md
+\section{Assessment, Uncertainty, and Applicability}\label{sec:assessment-uncertainty-and-applicability}
+
+\subsection{Verification and independent evidence}\label{subsec:verification-and-independent-evidence}
+\begin{itemize}[leftmargin=*]
+\item Check ROM conservation and numerical sensitivity; qualify CFD reference uncertainty separately from experimental calibration and validation.
+\item Assess temperatures, circulation, duty, loss budgets, spatial reconstruction and cost separately, with engineering units and location/\allowbreak{}time meanings.
+\item Qualify ACU flow evidence; CFD flow at VCU is an uncertain reference, not direct experimental circulation validation.
+\item Temperature report: residuals in K by channel/\allowbreak{}location, channel-wise bias and RMSE, and declared time/\allowbreak{}space aggregation; report flow/\allowbreak{}duty and local heat budgets separately. Retain excluded channels with reasons and a sensitivity route.
+\item Use the same case names and configuration versions from source data through reduction, calibration, plotting and proposal claims. A figure caption should state whether each series is measured, CFD-referenced, calibrated or independently predicted.
+
+\item \topiclabel{numerical-reference-error-versus-model-discrepancy}\textbf{Numerical reference error versus model discrepancy.} Estimate numerical sensitivity/\allowbreak{}error for the actual target using spatial, temporal, modal and sampling/\allowbreak{}extraction checks.
+\begin{itemize}
+\item Qualify target-specific solver/\allowbreak{}CFD uncertainty and avoid counting the same residual twice; prioritize new evidence by consequential sensitivity rather than convenience.
+\end{itemize}
+\end{itemize}
+
+\subsection{Uncertainty throughout}\label{subsec:uncertainty-throughout}
+
+\begin{itemize}[leftmargin=*]
+\item Carry primitive calibration/\allowbreak{}channel, power/\allowbreak{}deposition, boundary, property, geometry and initial-state uncertainties with shared dependencies.
+\item Derived duty/\allowbreak{}flow inherit their ingredients; do not count them again as independent observations.
+\item Distinguish measurement variability, installed accuracy, model discrepancy and numerical uncertainty. Propagate through steady and transition outputs.
+\item Use covariance-aware propagation when a local linear approximation is justified; reuse common calibration, property and input variables wherever they appear. Joint input sampling must preserve those same dependencies.\cite{jcgm2011vectorcovariance,jcgm2020measurementmodels}
+\item Separate a scenario envelope, parameter interval and predictive interval; assess uncertainty against the intended output and available case count. Do not turn a few temperature comparisons into a calibrated rare-event probability.
+
+\item \topiclabel{primitive-uncertainty-and-dependence-budget}\textbf{Primitive uncertainty and dependence budget.} Start from primitive sources: shared calibration references/\allowbreak{}coefficient errors; channel noise, installation/\allowbreak{}drift/\allowbreak{}time; geometry/\allowbreak{}material/\allowbreak{}property laws; deposited power and secondary/\allowbreak{}ambient boundaries; hidden initial states; learned parameters/\allowbreak{}closure families; numerical error and CFD/\allowbreak{}reference inadequacy; and transfer distortion.\cite{jcgm2020measurementmodels}
+\begin{itemize}
+\item Populate calibration/\allowbreak{}channel/\allowbreak{}time, geometry/\allowbreak{}property/\allowbreak{}input, initial-state, parameter, numerical/\allowbreak{}reference and discrepancy components; leave unknowns explicit rather than assigning zero variance.
+\end{itemize}
+\item \topiclabel{propagation-method-and-nonlinear-failure-limits}\textbf{Propagation method and nonlinear failure limits.} Use linear covariance propagation for locally smooth, well-conditioned mappings and joint Monte Carlo for the primary nonlinear parameter/\allowbreak{}boundary/\allowbreak{}discrepancy propagation.\cite{jcgm2011vectorcovariance}
+\begin{itemize}
+\item Compare local covariance and joint sampling on selected targets; justify any acceleration by dimension/\allowbreak{}smoothness/\allowbreak{}cost and check reversal/\allowbreak{}event/\allowbreak{}small-denominator behavior.
+\end{itemize}
+\item \topiclabel{shared-instruments-and-derived-outputs}\textbf{Shared instruments and derived outputs.} Compute secondary duty, loss allocation and inferred primary flow from one shared set of primitive draws/\allowbreak{}covariances.\cite{jcgm2011vectorcovariance,jcgm2020measurementmodels}
+\begin{itemize}
+\item Reuse the same uncertain primitive wherever it appears in duty, flow or margins; retain temporal/\allowbreak{}channel dependence and distinguish repeatability from installed prediction accuracy.
+\end{itemize}
+\item \topiclabel{physical-constraints-for-uncertain-operators}\textbf{Physical constraints for uncertain operators.} Parameterize or constrain positive capacities/\allowbreak{}conductances and paired exchanges; use energy-consistent signed fluxes and declared closure domains.
+\begin{itemize}
+\item Check admissibility for individual parameter/\allowbreak{}closure draws; a stable mean operator does not establish stability, conservation or physical branch behavior for every realization.
+\end{itemize}
+\item \topiclabel{real-time-inverse-acceleration-and-its-limits}\textbf{Real-time inverse acceleration and its limits.} A candidate acceleration approach separates nonlinear parameter dependence from linear inversion variables and uses a reduced inverse representation.
+\begin{itemize}
+\item Test whether the proposed nonlinear--linear factorization fits the actual inverse variables and hidden states before considering it as an optional acceleration method.
+\end{itemize}
+\end{itemize}
+
+\subsection{Acceptance and limits}\label{subsec:acceptance-and-limits}
+\begin{itemize}[leftmargin=*]
+\item Define each target, reference, metric, acceptance tolerance, and runtime requirement from its intended engineering use and the available evidence.
+\item Sensor minima/\allowbreak{}maxima and model-inferred spatial extrema require different evidence; freezing/\allowbreak{}temperature margins require a sourced threshold.
+\item Discriminate physics, input, observation and numerical explanations for disagreement; report a simpler adequate domain or a supported measurement need when warranted.
+\item Report local recirculation inference limits separately from bulk prediction and thermal-consequence evidence.
+
+\item \topiclabel{decision-tolerance-measurement-resolution-and-numerical-error}\textbf{Decision tolerance, measurement resolution and numerical error.} Set operating usefulness from a declared decision or margin, measurement distinguishability from its joint uncertainty, and numerical adequacy from target-specific solver error.
+\begin{itemize}
+\item Keep engineering acceptance symbols separate from sensor uncertainty, steadiness thresholds and solver tolerances; populate values only with a stated intended-use basis.
+\end{itemize}
+\item \topiclabel{what-uncertainty-calibration-would-mean}\textbf{What uncertainty calibration would mean.} Report prediction error/\allowbreak{}bias, residual structure, interval width and proper predictive scores on whole independent cases.\cite{oliver2014unobserved}
+\begin{itemize}
+\item Label scenario, confidence, credible and predictive intervals; assess bias, interval width and coverage/\allowbreak{}proper scores only at the independent-case scale the evidence supports.
+\end{itemize}
+\item \topiclabel{extrema-crossing-and-settling-uncertainty}\textbf{Extrema, crossing and settling uncertainty.} Propagate joint state/\allowbreak{}closure/\allowbreak{}input/\allowbreak{}reference uncertainty into the complete extremum or event functional, not separate independent point bands.
+\begin{itemize}
+\item Propagate joint uncertainty through the whole spatial/\allowbreak{}time functional; retain no-crossing possibilities, competing extrema and unsupported-location bounds.
+\end{itemize}
+\end{itemize}
+
+\subsection{Sensor changes and adequacy of the available information}\label{subsec:sensor-changes-and-adequacy-of-the-available-information}
+
+\begin{itemize}[leftmargin=*]
+\item Assess sensor reliability, sensor loss, and evolving installation or material conditions as bounded extensions of the assessment.
+\begin{itemize}
+\item Compare full and reduced sensor sets at matched inputs and fitting access; quantify the resulting loss of temperature/\allowbreak{}target accuracy and uncertainty.
+\item Record calibration/\allowbreak{}drift, sensor movement, thermal expansion or changing losses as competing explanations only where evidence supports them. A mismatch is not automatically a failed sensor.
+\end{itemize}
+\item Connect a residual pattern to an evidence request before promising diagnosis or operator advice.
+\begin{itemize}
+\item Separate input error, observation error, numerical error and model inadequacy; identify which existing or proposed measurement could distinguish them.
+\item Keep ACU and VCU evidence separate. Similar processing or shared code does not make their configurations, calibration or validation interchangeable.
+\end{itemize}
+\end{itemize}
+
+
+\subsection{Metrics and assessment products}\label{subsec:metrics-and-assessment-products}
+\begin{itemize}[leftmargin=*]
+\item For temperature channel $k$ and declared comparison samples $n$, report bias and root-mean-square error in kelvin,
+\begin{equation}
+\mathrm{RMSE}_k=\left[\frac{1}{N_k}\sum_{n=1}^{N_k}
+\bigl(\widehat y_{k,n}-y_{k,n}\bigr)^2\right]^{1/2}.
+\label{eq:temperature-rmse}
+\end{equation}
+Retain the channel and case results before aggregation. Dense sampling from one run will not be treated as an equivalent number of independent operating conditions.
+\item Report circulation, cooler duty, regional heat rates, and conservation residuals on their own measurement or reference bases. An output inferred from the same temperatures used for fitting will retain that shared provenance and covariance.
+\item For transitions, compare response and settling under declared input changes, initial-state information, and sampling. If a threshold crossing or spatial extremum is a target, assess its location or time resolution and the sensitivity to the chosen threshold or interpolation.
+\item Runtime assessment will distinguish the forward solve from offline CFD generation, extraction, and parameter learning. Report the hardware and problem size with the timing; assess numerical error at the resolution used for the performance claim.
+\item Present an output-specific applicability summary: operating and property range, boundary and initial information, observation coverage, assessed error and uncertainty, known failure modes, and the evidence supporting any transfer. Numerical tolerances and engineering acceptance targets will have separate stated bases.
+\end{itemize}
+
+\subsection{Joint uncertainty propagation and credibility}\label{subsec:joint-uncertainty-propagation}
+\begin{itemize}[leftmargin=*]
+\item Let $z$ collect the primitive uncertain measurements, inputs, property coefficients, geometry, initial states, and learned quantities appropriate to the selected inference formulation. For a locally smooth output map $q=f(z)$,
+\begin{equation}
+U_q\simeq J_f U_z J_f^T,\qquad J_f=\frac{\partial f}{\partial z}.
+\label{eq:covariance-propagation}
+\end{equation}
+Shared calibration and property effects enter as shared variables or covariance, not independent copies.\cite{jcgm2011vectorcovariance,jcgm2020measurementmodels}
+\item Use joint sampling when nonlinearity, small driving differences, branch changes, or event definitions make local propagation inadequate. Each sample must reuse the same power, calibration, and property realization wherever that quantity appears.
+\item Report uncertainty sources that cannot yet be quantified, rather than assigning them zero variance. Separate numerical propagation convergence from evidence that the model and uncertainty description are adequate.
+\item Compare residual bias and structure, interval width, and predictive performance on whole eligible assessment cases. A confidence or parameter interval, a scenario envelope, and a predictive interval will be labeled according to the quantity they represent; finite-case coverage will not be presented as a calibrated rare-event probability.\cite{oliver2014unobserved}
+\end{itemize}

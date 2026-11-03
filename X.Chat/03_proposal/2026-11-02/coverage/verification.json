@@ -1,0 +1,26 @@
+{
+  "task": "PROP-COMMITTEE-20261102-01",
+  "status": "passed",
+  "pdf_pages": 22,
+  "confirmed_question_count": 62,
+  "scientific_topic_homes": 62,
+  "scientific_workflow_plan_homes": 29,
+  "research_homes": 6,
+  "compiled_reading_guide": false,
+  "compiled_question_appendix": false,
+  "visible_internal_codes": "none_found_in_final_pdf_text",
+  "committee_zip_sources": 12,
+  "committee_zip_internal_coordination_files": 0,
+  "author_questions": 10,
+  "log_issues": [],
+  "patch_check_and_reconstructed_files": "passed",
+  "original_repository": "clean_unchanged",
+  "visual_review": "passed_all_22_pages_final_render_identical_after_citation_key_cleanup",
+  "committee_zip_independent_build": "passed_22_pages_no_log_issues",
+  "obsidian_link_validation": {
+    "wikilinks_checked": 472,
+    "missing_or_folder_targets": [],
+    "unsafe_os_path_markdown_links": []
+  },
+  "final_pdf_matches_source_build": true
+}

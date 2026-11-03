@@ -8,18 +8,18 @@
 
 ## Recommended source routes
 
-- [Facility geometry and revision candidates](<../../1. Setup and Geometry/1.1.1 Geometry pics.md>).
-- [Assembly, tanks and revision-qualified drawings](<../../1. Setup and Geometry/1.1.0 Geometry notes.md>).
-- [Channel positions and ACU/VCU schematics](<../../1. Setup and Geometry/1.1.2 Sensors.md>).
-- [Heater placement and exchanger photos](<../../1. Setup and Geometry/1.1.0 Heaters and coolers.md>).
-- [Insulation/product evidence](<../../1. Setup and Geometry/1.2 Main Material Props.md>).
-- [Additional photograph/drawing candidates](<../../A. Appendix/A.1 Interesting Pictures and drawing.md>).
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|Facility geometry and revision candidates]].
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|Assembly, tanks and revision-qualified drawings]].
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|Channel positions and ACU/VCU schematics]].
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Heaters and coolers.md|Heater placement and exchanger photos]].
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2 Main Material Props.md|Insulation/product evidence]].
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/A.1 Interesting Pictures and drawing.md|Additional photograph/drawing candidates]].
 
 ## Master’s result figures for the early feasibility section
 
-- F09: [localized_heat_path_comparison.pdf](</Users/andres/projects/research/Paper_and_Presentations/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/figures/pdf/localized_heat_path_comparison.pdf>) — use the [figure manifest](</Users/andres/projects/research/Paper_and_Presentations/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/evidence/FIGURE_SOURCE_MANIFEST.csv>) for input rows/hashes; retrospective master’s evidence, not ACU/VCU validation.
-- F10: [csem_tp_temperature_vs_elevation_nominal_all.pdf](</Users/andres/projects/research/Paper_and_Presentations/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/figures/pdf/csem_tp_temperature_vs_elevation_nominal_all.pdf>) — use the [figure manifest](</Users/andres/projects/research/Paper_and_Presentations/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/evidence/FIGURE_SOURCE_MANIFEST.csv>) for input rows/hashes; retrospective master’s evidence, not ACU/VCU validation.
-- F11: [csem_tp_temperature_vs_elevation_model_forms_nominal_all.pdf](</Users/andres/projects/research/Paper_and_Presentations/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/figures/pdf/csem_tp_temperature_vs_elevation_model_forms_nominal_all.pdf>) — use the [figure manifest](</Users/andres/projects/research/Paper_and_Presentations/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/evidence/FIGURE_SOURCE_MANIFEST.csv>) for input rows/hashes; retrospective master’s evidence, not ACU/VCU validation.
+- F09: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/figures/pdf/localized_heat_path_comparison.pdf|localized_heat_path_comparison.pdf]] — use the [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/evidence/FIGURE_SOURCE_MANIFEST.csv|figure manifest]] for input rows/hashes; retrospective master’s evidence, not ACU/VCU validation.
+- F10: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/figures/pdf/csem_tp_temperature_vs_elevation_nominal_all.pdf|csem_tp_temperature_vs_elevation_nominal_all.pdf]] — use the [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/evidence/FIGURE_SOURCE_MANIFEST.csv|figure manifest]] for input rows/hashes; retrospective master’s evidence, not ACU/VCU validation.
+- F11: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/figures/pdf/csem_tp_temperature_vs_elevation_model_forms_nominal_all.pdf|csem_tp_temperature_vs_elevation_model_forms_nominal_all.pdf]] — use the [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Tamu_masters_papers_and_docs/CSEM-Master-s-Dissertation-Template/evidence/FIGURE_SOURCE_MANIFEST.csv|figure manifest]] for input rows/hashes; retrospective master’s evidence, not ACU/VCU validation.
 
 ## Availability summary
 
@@ -30,5 +30,5 @@
 - `ambiguous_shared`: 1 link occurrences.
 - `inline_in_source`: 3 link occurrences.
 
-- Complete original link text, parent note and line locator: [link audit](obsidian_links.csv).
-- File metadata: [resource inventory](resource_inventory.csv); [scan scope](inventory_summary.json).
+- Complete original link text, parent note and line locator: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/obsidian_links.csv|link audit]].
+- File metadata: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/resource_inventory.csv|resource inventory]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/inventory_summary.json|scan scope]].

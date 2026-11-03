@@ -1,0 +1,204 @@
+% Agent context and source locators: ../../../internal/EXPANSION_NOTES.md
+\section{Theory Motivation and Research Methodology}\label{sec:theory-motivation-and-research-methodology}
+
+\subsection{Closest prior methods and why these choices}\label{subsec:closest-prior-methods-and-why-these-choices}
+
+\begin{itemize}[leftmargin=*]
+\item Compare conservation-based and developing-flow reduction, closure identification, observation reconstruction, parameter learning, uncertainty quantification, and validation methods.
+\item Explain each chosen method's role, required information and failure limit; keep derivation details in appendices or linked sources.
+\item Identifiability/\allowbreak{}profile tools support physical interpretation; neither generic fitting nor ordinary scale ambiguity is itself a new contribution.\cite{raue2009identifiability}
+\item Use the completed master\textquotesingle{}s work as the nearest project baseline, including its negative tests, prior case exposure, and heat-path discrepancies. Additional wall storage or another fitted state alone does not establish a methodological contribution.\cite{fierro2026cfdoneD}
+
+\item \topiclabel{why-this-reduction-method}\textbf{Choice of reduction method.} Aggregation gives interpretable compartments; Proper orthogonal decomposition (POD) prioritizes snapshot reconstruction in a chosen norm; balanced methods incorporate input-output behavior; goal-oriented methods target a functional; nonlinear manifolds address nonlinear state representation; constrained methods preserve declared structure.
+\begin{itemize}
+\item Explain what POD, balanced/\allowbreak{}goal-oriented, manifold and structure-preserving alternatives optimize and require; select only branches supported by the intended data.
+\end{itemize}
+\end{itemize}
+
+\subsection{Position relative to established loop modeling}\label{subsec:position-relative-to-loop-modeling}
+\begin{itemize}[leftmargin=*]
+\item Existing loop studies already retain conjugate fluid and wall energy, nonuniform geometry, heat losses, and coupled circulation. Borgohain et al. provide a liquid-metal example with separate fluid/wall balances and experimentally informed cooler and ambient-loss relations; those liquid-metal coefficients are not transferred to the salt or glycol loops.\cite{borgohain2011naturalcirculation}
+\item Cammi et al. examine wall thermal inertia, internal and external source distributions, and stability. Their work establishes that source placement and wall dynamics can affect response; it does not establish a universal stabilizing effect or a TRIDENT-specific closure.\cite{cammi2016wallinertia}
+\item These precedents make the research gap more specific than building a thermal network or fitting a heat-loss coefficient. The proposed work will assess a procedure linking physical reduction, development descriptors, sensor-consistent inference, and independent engineering-output assessment.
+\item The completed TAMU study supplies the nearest project baseline and a reason for this integrated assessment: thermal and hydraulic fits can favor different parameter settings, and lower temperature error can coexist with an incorrect regional heat-removal distribution.\cite{fierro2026cfdoneD}
+\end{itemize}
+
+\subsection{Aim 1: reduction and closure selection}\label{subsec:aim-1-reduction-and-closure-selection}
+
+\begin{itemize}[leftmargin=*]
+\item Declare control volumes, retained states, conventional baseline and closure inventory.
+\item Derive descriptors from consistent CFD budgets; require descriptors needed at prediction time to be available from ROM states and prescribed inputs.
+\item Change transfer/\allowbreak{}hydraulic assumptions in controlled comparisons to attribute improvement rather than merely adding fitted freedom.
+
+\item \topiclabel{what-operation-constitutes-reduction}\textbf{Operations that constitute reduction.} Declare separately the aggregation from fields to conserved quantities, elimination/\allowbreak{}lumping of states, projection onto a basis/\allowbreak{}manifold, closure of unresolved transport and reconstruction to observations/\allowbreak{}fields.
+\begin{itemize}
+\item Write the aggregation, state elimination/\allowbreak{}projection, unresolved-transport closure and reconstruction operators separately; identify which one is the proposed methodological advance.
+\end{itemize}
+\item \topiclabel{development-conditioned-closures-and-observation-maps}\textbf{Development-conditioned closures and observation maps.} Paired interface heat rates, signed enthalpy fluxes, and cross-sectional temperature and velocity information can support development-conditioned transfer closures and sensor or profile maps.
+\begin{itemize}
+\item Require online descriptors to come from retained states/\allowbreak{}allowed inputs; assess separately any map supplied with contemporaneous CFD fields.
+\end{itemize}
+\item \topiclabel{closure-correction-versus-added-states-or-physics}\textbf{Closure correction versus added states or physics.} First verify geometry, source/\allowbreak{}sink accounting and observation operators, then compare closure correction and state enrichment under the same data and nuisance flexibility.
+\begin{itemize}
+\item Use controlled model-form comparisons and local budgets to distinguish poor calibration from missing structure; do not fit away wrong geometry or boundary assumptions.
+\end{itemize}
+\item \topiclabel{conservation-and-admissibility}\textbf{Conservation and admissibility.} Use shared face enthalpy fluxes and paired internal exchanges, positive capacities, admissible conductances and consistent signed flow.
+\begin{itemize}
+\item Check paired internal transfers, uniform equilibrium, positive capacities/\allowbreak{}temperature and signed transport separately; derive suitable ports/\allowbreak{}storage before invoking passivity.
+\end{itemize}
+\end{itemize}
+
+\subsection{Aim 1 work sequence and closure candidates}\label{subsec:aim-one-work-sequence}
+\begin{itemize}[leftmargin=*]
+\item \textbf{Construct the common reference.} Integrate CFD fields over the same sections, interfaces, source regions, and averaging windows used to define the reduced model. Check source totals, paired interface transfers, section mass flux, and the residual in each regional energy budget.
+\item \textbf{Establish the conventional comparator.} Use the same geometry, property families, boundaries, sensor operators, and small calibration set with conventional friction and heat-transfer relations valid in their declared regimes.
+\item \textbf{Build candidate descriptors.} Begin with Reynolds number, Prandtl number, axial location relative to a fitting or thermal boundary change, property variation, and selected profile moments. For example,
+\begin{equation}
+\mathrm{Re}=\frac{|\dot m|D_h}{A\mu},\qquad
+\mathrm{Pr}=\frac{\mu c_p}{k_f},\qquad
+\mathrm{Nu}=\frac{h_cD_h}{k_f}.
+\label{eq:closure-descriptors}
+\end{equation}
+Reference temperatures, characteristic lengths, and the distinction between mean flow and local reverse transport will be specified for each use.
+\item \textbf{Learn the smallest supported correction.} Compare an effective transfer or hydraulic correction with a richer profile or state representation only when the latter addresses a documented residual or target sensitivity. Constrain shared exchanges, positive storage, and physically admissible transport.
+\item \textbf{Test the selection rule.} Withhold whole CFD cases or conditions for reconstruction and closure assessment. Report the effect on sensor temperatures, circulation, regional heat rates, and computational cost, retaining failures as evidence about the rule's domain.
+\item \textbf{Expected product.} A documented reduction procedure and closure inventory with required inputs, applicability range, training and assessment cases, conservation checks, and an explanation of the improvement or adequacy limit attributed to each changed modeling decision.
+\end{itemize}
+
+\subsection{Aim 2: learning and reconstruction}\label{subsec:aim-2-learning-and-reconstruction}
+\begin{itemize}[leftmargin=*]
+\item Learn only supported physical parameters/\allowbreak{}combinations from development experiments; carry uncertain power, properties, calibration and observations jointly.
+\item Test centerline/\allowbreak{}radial temperature and regional heat transport separately; assess ambiguity and thermal consequences of spatial structure.
+\item Distinguish physically identified closures, observation correction, and empirical discrepancy. Select a machine-learning architecture only when it addresses a documented limitation.
+\item Apply the data-understanding demonstration first: reconcile labels, units, installed sensor meaning and supplied inputs before optimizing parameters. Diagnose persistent spatial residual patterns instead of allowing one fitted loss to absorb every mismatch.
+\item Compare parameter combinations and output sensitivity over justified nuisance ranges; a well-matched trace does not establish unique conductance, capacity, deposited power or local heat-transfer interpretation.\cite{raue2009identifiability}
+
+\item \topiclabel{supported-parameters-versus-a-good-fit}\textbf{Supported parameters versus a good fit.} Use exact invariance/\allowbreak{}structural analysis for a specified model, local sensitivity/\allowbreak{}Fisher information for local practical support, nuisance-reoptimized profile likelihood for nonelliptic ambiguity, posterior geometry for prior-conditioned uncertainty and synthetic recovery for implementation/\allowbreak{}information checks.\cite{raue2009identifiability}
+\begin{itemize}
+\item Use invariance, sensitivity/\allowbreak{}Fisher rank, nuisance-reoptimized profiles, posterior geometry and synthetic recovery for their distinct purposes; report target/\allowbreak{}combination support.
+\end{itemize}
+\item \topiclabel{absolute-energy-scale-and-sequential-learning}\textbf{Absolute energy scale and sequential learning.} For passive C dT/\allowbreak{}dt = -G(T-Ta), common positive scaling of C and G leaves the trajectory unchanged; only G/\allowbreak{}C is fixed.
+\begin{itemize}
+\item State which measured-duty or inventory datum anchors scale; propagate that uncertainty and compare sequential steady/\allowbreak{}dynamic learning with joint inference when they share uncertain quantities.
+\end{itemize}
+\item \topiclabel{hidden-initial-states-and-residual-duty}\textbf{Hidden initial states and residual duty.} Initial wall/\allowbreak{}insulation states, hidden fluid-solid splits, residual heater/\allowbreak{}cooler duty and changing heat paths can mimic a capacity or time constant.
+\begin{itemize}
+\item Use common initial-state information and bounded hidden-solid participation; do not grant a richer model target-informed starts or identify every observed lag as material capacity.
+\end{itemize}
+\item \topiclabel{constrained-fits-priors-and-effective-parameters}\textbf{Constrained fits, priors and effective parameters.} Begin with a constrained covariance-aware physical fit and profiles.\cite{kristensen2004greybox}
+\begin{itemize}
+\item Compare deterministic/\allowbreak{}regularized and probabilistic alternatives where needed; report when a fitted group is predictive but cannot retain a unique physical interpretation.
+\end{itemize}
+\end{itemize}
+
+\subsection{Aim 2 work sequence and inference problem}\label{subsec:aim-two-work-sequence}
+\begin{itemize}[leftmargin=*]
+\item Define a small parameter vector $\theta$ for supported heat paths, transfer relations, or hydraulic terms, and nuisance quantities $\eta$ for uncertain power, properties, calibration, boundaries, and initial states. Parameters and nuisance quantities will be shared across cases only where a common physical or calibration basis is justified.
+\item For the stacked observation residual $r(\theta,\eta)=y-\widehat y(\theta,\eta)$, a starting constrained objective is
+\begin{equation}
+J(\theta,\eta)=r^T\Sigma^{-1}r+\mathcal R(\theta,\eta),
+\qquad (\theta,\eta)\in\mathcal A.
+\label{eq:learning-objective}
+\end{equation}
+$\Sigma$ represents the justified residual dependence, $\mathcal A$ the admissible parameter and nuisance set, and $\mathcal R$ any stated regularization or prior information. Uncertain inputs may be estimated jointly, profiled, or propagated; the same uncertainty will not be counted twice through multiple representations.\cite{raue2009identifiability,kristensen2004greybox}
+\item Use sensitivity and synthetic recovery to inspect implementation and practical support, then reoptimize nuisance quantities when profiling a parameter or target. Report whether the data support a physical coefficient, a combination of coefficients, or only a prediction interval.
+\item Assess observation maps independently where paired CFD fields are available: first reconstruct sensor or profile quantities from the reduced state, then test the complete forward model. This distinguishes reconstruction error from closure and boundary error.
+\item \textbf{Expected product.} A reproducible parameter-learning and temperature-reconstruction workflow, with supported quantities, uncertainty and dependence, evidence limits, and a comparison against the simpler observation and fitting assumptions.
+\end{itemize}
+
+\subsection{A worked identifiability example for experiment selection}\label{subsec:worked-identifiability-example}
+\begin{itemize}[leftmargin=*]
+\item Consider the restricted single-capacity model $C\dot T=P-G(T-T_a)$ with constant $C$, $G$, and ambient $T_a$. Passive relaxation after power removal gives
+\begin{equation}
+T(t)-T_a=[T(0)-T_a]\exp(-t/\tau),\qquad \tau=C/G.
+\label{eq:relaxation-example}
+\end{equation}
+Relaxation alone constrains a rate ratio; it does not determine both absolute heat capacity and conductance.
+\item At a compatible steady state with a known deposited power, $G=P/(T_{\mathrm{ss}}-T_a)$ and $C=G\tau$. If deposited power is also unknown, a common scaling of $C$, $G$, and $P$ leaves the temperature response unchanged. An uncertain power anchor therefore limits the absolute energy scale even when the temperature fit is excellent.
+\item The actual loop has distributed and potentially hidden solid storage, changing boundaries, and several heat paths. The example motivates complementary relaxation and energy-anchor experiments; it does not justify assigning every observed time constant to a material capacity.\cite{raue2009identifiability}
+\end{itemize}
+
+\subsection{Aim 3: fair comparisons}\label{subsec:aim-3-fair-comparisons}
+\begin{itemize}[leftmargin=*]
+\item Compare a fixed-closure physical baseline, proposed framework and modest data-driven predictor under matched development cases and use-time information.
+\item Freeze cases/\allowbreak{}conditions and scoring rules before final assessment; distinguish emulator accuracy from facility prediction.
+\item For transition comparisons hold boundary/\allowbreak{}initial-state information and refitting opportunities common; score response/\allowbreak{}settling before promising full transient fields.
+\item Report two explicit products: temperature reproduction on the development cases and prediction on eligible unused cases. Maintain the same sensor policy, input information and parameter-refitting opportunities for every comparator.
+
+\item \topiclabel{strong-physical-and-modest-data-driven-baselines}\textbf{Strong physical and modest data-driven baselines.} Use a small fixed-correlation physical model with ordinary covariance-aware parameter learning as the serious baseline; compare the reduction/\allowbreak{}closure framework under matched information and a modest regularized response surface or GP.
+\begin{itemize}
+\item Use a fixed-correlation physical model, small grouped-parameter alternative and modest predictor; add projection/\allowbreak{}operator/\allowbreak{}learned alternatives only for a named limitation.
+\end{itemize}
+\item \topiclabel{the-smallest-informative-model-comparison}\textbf{The smallest informative model comparison.} Physical networks need geometry/\allowbreak{}properties and a limited parameter set; they are interpretable but can be nonidentifiable.
+\begin{itemize}
+\item Compare data access, cost, interpretability, constraints, uncertainty and extrapolation at matched information; state a failure condition for every selected family.
+\end{itemize}
+\item \topiclabel{development-selection-and-final-assessment-roles}\textbf{Development, selection and final assessment roles.} Hold out whole cases, regimes or geometries according to the intended generalization claim.
+\begin{itemize}
+\item Split by physical run/\allowbreak{}case/\allowbreak{}condition and record exposure/\allowbreak{}refitting history; do not use random time-point splits as evidence of independent physical generalization.
+\end{itemize}
+\end{itemize}
+
+\subsection{Aim 3 work sequence and attribution}\label{subsec:aim-three-work-sequence}
+\begin{itemize}[leftmargin=*]
+\item Select assessment cases by the generalization claim: a new run at similar conditions, a changed heater or cooler input, a different mean-temperature or property range, or a qualified facility/geometry transfer. These tests make different claims and will be reported separately.
+\item Compare the conventional physical model, the proposed model, and a modest empirical predictor under common input information and development cases. Record the parameter count, offline learning cost, online solution cost, and any refitting permitted for each model.
+\item Use controlled changes to attribute improvement: closure change with a fixed observation map, observation-map change with fixed physical structure, and state enrichment with matched parameter and nuisance opportunities. Inspect local budgets as well as aggregate errors.
+\item Retain a simpler adequate model when added complexity offers no consequential gain. When every candidate fails, distinguish a missing observation, a boundary or configuration error, a numerical issue, and unsupported physical structure before proposing further experiments or CFD.
+\item \textbf{Expected product.} An assessment package that links case-level performance and uncertainty to a stated use domain, with an explanation of which reduction decisions earned their cost and which remain unsupported.\cite{oliver2014unobserved}
+\end{itemize}
+
+\subsection{Physical learning, observation mapping and residual correction}\label{subsec:physical-learning-observation-mapping-and-residual-correction}
+
+\begin{itemize}[leftmargin=*]
+\item Compare three distinct interventions instead of treating every improvement as a generic bias correction.
+\begin{itemize}
+\item Physical learning: supported heat-path, transfer or hydraulic parameters change the conservative model and must retain an interpretable evidence basis.
+\item Observation mapping: convert the reduced state to the actual probe/\allowbreak{}contact/\allowbreak{}fiber response; missing sensor physics is separate from the energy or momentum closure.
+\item Residual correction: an empirical discrepancy model may improve a declared output, but its fit does not validate local heat-transfer or flow physics.
+\end{itemize}
+\item Assess both the uncorrected physical model and the corrected alternative across conditions.
+\begin{itemize}
+\item Compare residual size, spatial/\allowbreak{}operating-condition structure, physical budgets, uncertainty and runtime at common inputs and refitting opportunities.
+\item Test interpolation and out-of-condition behavior separately; a smooth correction or shrinking training bias is not independent predictive evidence.
+\end{itemize}
+\item Choose temporal or machine-learning complexity only when it addresses a documented limitation.
+\begin{itemize}
+\item Start with physical/\allowbreak{}linear or modest data-driven references. GNN, LSTM, neural operators and richer field emulators remain candidate branches rather than required architectures.
+\item Declare whether recent histories estimate the current state, forecast a later state, reconstruct supplied reference fields or update parameters; score those tasks separately.
+\end{itemize}
+
+\item \topiclabel{separate-boundary-observation-and-structural-error}\textbf{Separate boundary, observation and structural error.} Boundary, parameter, sensor and structural errors can produce the same residuals.\cite{oliver2014unobserved}
+\begin{itemize}
+\item Use independent anchors and residual/\allowbreak{}case contrasts to test competing explanations; a flexible discrepancy must not conceal omitted heat paths or unsupported target sensitivity.
+\end{itemize}
+\item \topiclabel{experiment-cfd-fusion-without-double-counting}\textbf{Experiment--CFD fusion without double counting.} Use separate CFD and experimental observation/\allowbreak{}error operators with shared physical parameters only where appropriate.\cite{oliver2014unobserved}
+\begin{itemize}
+\item Give each fidelity its own observation/\allowbreak{}error operator; track shared measured boundaries and calibrations, and disclose modular versus joint-inference assumptions.
+\end{itemize}
+\end{itemize}
+
+\subsection{Local flow descriptors and thermal consequences}\label{subsec:local-flow-descriptors-and-thermal-consequences}
+\begin{itemize}[leftmargin=*]
+
+\item \topiclabel{what-exactly-is-local-recirculation-extent}\textbf{Definition of local recirculation extent.} Use section-normal signed velocity to define reverse area/\allowbreak{}transport fractions, and a declared region/\allowbreak{}connectivity convention for cell extent, separation/\allowbreak{}reattachment or exchange.
+\begin{itemize}
+\item Define section normal/\allowbreak{}frame, reverse area/\allowbreak{}transport and connectivity/\allowbreak{}persistence conventions; distinguish local backflow, a closed cell and loop reversal.
+\end{itemize}
+\item \topiclabel{thermal-consequences-without-a-singular-htc}\textbf{Thermal consequences without a singular heat-transfer coefficient.} Prefer regional/\allowbreak{}interface heat rates, enthalpy redistribution, thermal asymmetry and fluid and wall extrema with a common boundary contract.
+\begin{itemize}
+\item Compare regional heat rate, signed enthalpy redistribution and temperature asymmetry; report the heat-transfer coefficient only where its area/\allowbreak{}averaging/\allowbreak{}driving-temperature normalization is resolved.
+\end{itemize}
+\item \topiclabel{attribution-rather-than-correlation}\textbf{Attribution rather than correlation.} Match source/\allowbreak{}sink histories, geometry, property range, net circulation or its declared control, and development information where feasible; change one representation/\allowbreak{}mechanism in a controlled model contrast.
+\begin{itemize}
+\item Hold geometry, source/\allowbreak{}sink/\allowbreak{}property conditions and declared flow control common; state all effects changed by a CFD intervention before giving a causal interpretation.
+\end{itemize}
+\item \topiclabel{minimal-representation-of-the-consequential-spatial-effect}\textbf{Minimal representation of the consequential spatial effect.} Begin with one-stream conservation and a section loss/\allowbreak{}thermal closure; add a temperature reconstruction if the target is profile/\allowbreak{}observation mismatch.
+\begin{itemize}
+\item Compare an effective closure, two-zone exchange, local correction and richer reconstruction only against a declared thermal target and complexity/\allowbreak{}cost criterion.
+\end{itemize}
+\item \topiclabel{what-sparse-thermal-data-cannot-identify}\textbf{What sparse thermal data cannot identify.} Sparse bulk/\allowbreak{}wall temperatures constrain combinations of heat paths and transport under a selected model, not arbitrary velocity fields.\cite{oliver2014unobserved}
+\begin{itemize}
+\item Construct observation-consistent alternatives to expose nonunique flow structure; assess thermal consequences without claiming direct experimental validation of local extent.
+\end{itemize}
+\end{itemize}

@@ -16,3 +16,7 @@ credentials*.json
 *.pem
 *.p12
 *.pfx
+
+# Per-machine external repository aliases: recreate using X.Chat/tools/setup_repository_link.py
+/X.Chat/80_repository_links/Papers
+/X.Chat/03_proposal/current

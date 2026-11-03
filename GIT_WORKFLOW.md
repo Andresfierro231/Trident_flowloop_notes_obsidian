@@ -55,3 +55,10 @@ as the original snapshot unless a later deliberate reference import is needed.
 Git synchronization does not wake another chat; the other session must pull and
 read the current handoff. Repository visibility/access are controlled in GitHub;
 this task does not alter the supplied repository's access settings.
+
+## November 3 verified local setup
+
+- Canonical local checkout: /Users/andres/projects/research/Trident/Trident_flowloop_notes_obsidian/ (outside Box).
+- Stable vault route: MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/ is a per-machine symlink to this checkout. Box does not sync the alias. The original Box directory is preserved at the sibling Trident_FlowLoop_Notes_pre_git_2026-11-03; do not author there.
+- Local source-byte reconciliation and old/new paths: X.Chat/01_sources/LOCAL_GIT_CUTOVER.json. That initial receipt pins the preserved local input, not later Markdown maintenance.
+- Pull/push this repository AND the separate proposal repository at task boundaries. No automatic cross-repository commit or atomicity is implied; record a result for each.

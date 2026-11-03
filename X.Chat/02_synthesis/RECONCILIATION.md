@@ -1,7 +1,7 @@
 # Cross-source reconciliation
 
-- Current writing direction: [verbatim author answers](../04_decisions/DECISIONS.md).
-- Baseline: [existing November 2 reconciliation](</Users/andres/projects/research/Paper_and_Presentations/Andres_Fierro_Dissertation_Proposal/doc_support/reconciliation/2026-11-02/RECONCILIATION.md>); source routes: [register](../01_sources/SOURCE_REGISTER.md).
+- Current writing direction: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/04_decisions/DECISIONS.md|verbatim author answers]].
+- Baseline: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/doc_support/reconciliation/2026-11-02/RECONCILIATION.md|existing November 2 reconciliation]]; source routes: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/SOURCE_REGISTER.md|register]].
 
 | Topic | Sources / tension | Working resolution | Proposal destination |
 |---|---|---|---|
@@ -31,7 +31,7 @@
 
 ## Newer HPC/planning reconciliation
 
-- Detailed source/current interpretation: [working understanding](WORKING_UNDERSTANDING.md); [planning coverage](PLANNING_COVERAGE.md); [HC report routes](../01_sources/HPC_REPORT_MAP.md).
+- Detailed source/current interpretation: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/WORKING_UNDERSTANDING.md|working understanding]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/PLANNING_COVERAGE.md|planning coverage]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/HPC_REPORT_MAP.md|HC report routes]].
 - Restore provenance, quality/state grouping, sensor drift/loss, distinct correction types and offline-to-live interface tasks as bullet/sub-bullet work; historical software/count/ratio choices remain qualified.
 - Extra electrical measurement is not a prerequisite to the accepted CAL-019 nominal input. Do not call the nominal estimate measured or assume net fluid delivery.
 - Current HPC state and later TAMU/VCU results are questions to the HPC researcher, not claims inferred from an authorization or saved report header.

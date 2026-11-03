@@ -1,0 +1,28 @@
+{
+  "request_id": "HX-20261102",
+  "revision": 3,
+  "status": "exported_not_acknowledged",
+  "supersedes": "HX-20261102_local_to_hpc_v2.zip",
+  "sha256": "43b165c99d56963aedf272c959de3251074417a290a47bf3119412ede9620870",
+  "included_files": [
+    "06_hpc_exchange/README.md",
+    "06_hpc_exchange/QUESTION_REGISTER.md",
+    "06_hpc_exchange/2026-11-02/01_to_hpc_v3.md",
+    "06_hpc_exchange/2026-11-02/02_from_hpc_TEMPLATE.md",
+    "00_navigation/LOCATIONS.md",
+    "00_navigation/LITERATURE_RESOURCES.md",
+    "01_sources/HPC_REPORT_MAP.md",
+    "01_sources/hpc_source_manifest.json",
+    "01_sources/hpc_report_catalog.csv",
+    "01_sources/research_question_proposal_crosswalk.csv",
+    "02_synthesis/WORKING_UNDERSTANDING.md",
+    "02_synthesis/PLANNING_COVERAGE.md",
+    "02_synthesis/RESEARCH_QUESTIONS_TO_PROPOSAL.md",
+    "04_decisions/DECISIONS.md",
+    "00_navigation/OBSIDIAN_LINKS.md",
+    "80_repository_links/README.md",
+    "tools/setup_repository_link.py",
+    "tools/obsidian_links.py"
+  ],
+  "repository_symlinks_included": false
+}

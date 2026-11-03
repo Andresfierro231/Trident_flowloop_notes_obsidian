@@ -1,0 +1,106 @@
+% Agent context and source locators: ../../../internal/section_notes/03_evidence.md
+\section{Experimental and Computational Evidence}\label{sec:experimental-and-computational-evidence}
+
+\subsection{Facility configuration, measurements, and power}\label{subsec:facility-configuration-measurements-and-power}
+\begin{itemize}[leftmargin=*]
+\item \researchlabel{facility-data-and-power}\textbf{Facility and case definition.} Record facility configuration, run and time window, channel mapping, candidate steady conditions, nominal and measured power, and the role of each case in calibration or assessment.
+\begin{itemize}
+\item Keep alternative window-selection rules and facility-specific sensor mappings distinct. Nominal electrical generation is separate from measured net heat delivered to the fluid.
+\end{itemize}
+
+\item For each facility list geometry revision, fluid, materials/\allowbreak{}insulation, heater/\allowbreak{}cooler boundaries, sensor meanings and uncertainties. Keep historical and current configurations distinct.
+\item Use explicitly versioned CAD and geometry records; retain historical and current configurations separately.
+\item VCU notes describe three mat and four band heaters; electrical input, deposition into solids/\allowbreak{}fluid, and net loop heat are different quantities. Use the accepted nominal dial-based specification where applicable and label its assumptions; metered electrical input and net fluid deposition remain separate evidence.
+\item Distinguish primary-fluid thermocouples, surface thermocouples, and fiber-optic measurements by facility and date. Historical exercises and current installations may use different sensor counts.
+\item Give every reusable case a record linking facility, geometry/\allowbreak{}property version, run/\allowbreak{}time window, channel/\allowbreak{}coordinate map, boundary histories, exclusions and uncertainty source. Link to original photos/\allowbreak{}drawings through their source note; do not copy dimensions from an unqualified picture.
+\item Track four power quantities separately: command/\allowbreak{}dial setting, electrical input, deposited heat and net control-volume duty. Record measured versus assumed values and source provenance.\cite{jcgm2020measurementmodels}
+\item For exploratory VCU input calculations, assume nominal $20\,\Omega$ mat heaters and $48\,\Omega$ band heaters, with the transformer dial interpreted as loaded root-mean-square voltage: three parallel mat--band pairs and one remaining band. At equal settings $X$, $P_{\mathrm{nominal}}=(7/30)X^2$ W. This is a nominal electrical-input model; measured resistance and net thermal deposition remain separate quantities.
+\item Extra electrical characterization can improve confidence but is not a prerequisite to the accepted nominal calculation. Preserve run-specific settings/\allowbreak{}off events and source-to-solid/\allowbreak{}fluid storage/\allowbreak{}contact/\allowbreak{}loss accounting.
+\end{itemize}
+
+\subsection{Experiments and collaboration}\label{subsec:experiments-and-collaboration}
+
+\begin{itemize}[leftmargin=*]
+\item Align the experimental checkout and four-phase plan with configuration verification, noise and calibration, passive relaxation, energy anchoring, and controlled operating-condition assessment.
+\item Coordinate proposed experimental conditions and instrumentation requirements with Dr. Luciano and the experimental team.
+\item Freeze development, model-selection and assessment roles before fitting; supplied boundaries cannot also be scored as independent outputs.
+\item Phase 2 passive relaxation primarily supports response rates under its capacity/\allowbreak{}conductance assumptions. A Phase 3 case used to set an absolute energy scale becomes development evidence and cannot also remain blind assessment; preserve the original plan while recording a proposed role change.
+\item Document the experimental phase and version, available signals, target parameter or quantity of interest (QoI), supplied inputs, calibration or assessment role, and remaining limitations.
+
+\item \topiclabel{smallest-useful-contrast-set}\textbf{Smallest useful contrast set.} Select physically feasible contrasts from the existing experimental plan before proposing additional instruments or controls.\cite{zhong2025goaloriented}
+\begin{itemize}
+\item Compare feasible steady anchors, warm/\allowbreak{}cold relaxation, known-input holds/\allowbreak{}shutdowns and independent source/\allowbreak{}sink variation against the selected target and competing explanations.
+\end{itemize}
+\item \topiclabel{absolute-heat-scale-and-measurement-planes}\textbf{Absolute heat scale and measurement planes.} Use either an independently supported deposited-duty/\allowbreak{}secondary-energy anchor at a steady condition or a justified inventory/\allowbreak{}capacity anchor, and propagate its uncertainty.
+\begin{itemize}
+\item Distinguish measured and nominal electrical and secondary-side inputs, source partition, residual duty, and common biases. Preserve the nominal heater assumptions without treating them as measured heat delivered to the fluid.
+\end{itemize}
+\item \topiclabel{excitation-duration-and-sensor-placement}\textbf{Excitation, duration and sensor placement.} Choose durations and sampling from the modes/\allowbreak{}settling/\allowbreak{}event targets and their observation/\allowbreak{}initial-state uncertainties, not a universal number of time constants.
+\begin{itemize}
+\item Justify rates/\allowbreak{}windows/\allowbreak{}repeats using bandwidth, thermal time scales, autocorrelation and conditioning; a stationary measured trace is not proof of negligible hidden storage.
+\end{itemize}
+\item \topiclabel{parameter-information-target-information-and-model-discrimination}\textbf{Parameter information, target information and model discrimination.} Parameter design reduces supported parameter uncertainty; target design reduces uncertainty in a specified future quantity; discrimination separates competing model explanations; validation design selects evidence relevant to target-sensitive assumptions.\cite{zhong2025goaloriented}
+\begin{itemize}
+\item Compare actual feasible choices under nuisance/\allowbreak{}input uncertainty; report ranking sensitivity and computational cost rather than asserting a universal optimal experiment.
+\end{itemize}
+\item \topiclabel{value-of-extra-measurements-and-honest-fallback}\textbf{Value of extra measurements and honest fallback.} Retain assessable sensor/\allowbreak{}regional/\allowbreak{}duty predictions when evidence cannot distinguish all internal mechanisms.
+\begin{itemize}
+\item Classify existing signals, feasible metadata, proposed instruments and CFD-only products; restrict only the unsupported claim when a desired measurement is unavailable.
+\end{itemize}
+\item \topiclabel{nick-plan-amendment-matrix}\textbf{Experiment-to-model alignment.} Relate checkout to the model and observation definition, repeatability to covariance, passive relaxation to rate ratios and hidden storage, energy anchors to absolute heat-loss scale, and controlled changes to response and applicability.
+\begin{itemize}
+\item For each experimental phase, record the QoI, existing coverage, proposed changes, measurement location and bandwidth, timing, uncertainty, development or assessment role, and acceptance basis. Coordinate proposed amendments with the experimental team.
+\end{itemize}
+\end{itemize}
+
+\subsection{CFD deliverable specification}\label{subsec:cfd-deliverable-specification}
+
+\begin{itemize}[leftmargin=*]
+\item Jointly define steady cases, field/\allowbreak{}integral exports, signed section fluxes, conjugate budgets, development descriptors, temperature profiles and sensor footprints.
+\item Include units, geometry/\allowbreak{}property/\allowbreak{}boundary revisions, conservation and target-specific numerical sensitivity. Future transitions additionally require synchronized histories and initial-state information.
+
+\item \topiclabel{fields-descriptors-and-qualified-references}\textbf{Fields, descriptors and qualified references.} Retain case metadata, velocity, temperature, pressure, properties, cell and face geometry, signed mass and enthalpy fluxes, source partition, interface and exterior heat rates, section profiles, and sensor footprints. Transitions additionally require synchronized physical time and initial storage.
+\begin{itemize}
+\item Request the signed fields/\allowbreak{}integrals, source/\allowbreak{}geometry/\allowbreak{}boundary metadata and mesh/\allowbreak{}time sensitivities needed for the selected descriptor; withhold whole CFD cases for reconstruction tests.
+\end{itemize}
+\item \topiclabel{tamu-applicability-and-the-cfd-access-ladder}\textbf{TAMU applicability and levels of CFD access.} Qualify any TAMU reference by documenting geometry, fluid, boundary conditions, sensor operators, numerical verification, experimental validation, property conventions, and limitations before use.
+\begin{itemize}
+\item Define demonstrations using thermal data only, limited CFD reference data, or qualified spatial fields; limit spatial and transfer claims to the evidence available in each case.
+\end{itemize}
+\item \topiclabel{experiment-to-cfd-and-cfd-to-rom-interfaces}\textbf{Experiment-to-CFD and CFD-to-ROM interfaces.} Operational inputs are boundaries, commands converted through source models, properties and allowed initial information.
+\begin{itemize}
+\item Specify geometry/\allowbreak{}material/\allowbreak{}source histories and sensor operators in one direction, then conservative field/\allowbreak{}section/\allowbreak{}interface exports in the other; do not score imposed targets as predictions.
+\end{itemize}
+\item \topiclabel{verification-at-the-actual-local-target}\textbf{Verification at the actual local target.} Verify and assess the quantity actually claimed: profile/\allowbreak{}location/\allowbreak{}flux/\allowbreak{}extent needs its own resolution, threshold, plane and sampling checks.
+\begin{itemize}
+\item Check local extent, heat flux and extrema separately from integrated duty; retain grid/\allowbreak{}time/\allowbreak{}regime/\allowbreak{}reference uncertainty and experimental validation distinctions.
+\end{itemize}
+\item \topiclabel{physical-and-numerical-applicability-of-the-cfd-case}\textbf{Physical and numerical applicability of the CFD case.} Record regime and convention-specific Re/\allowbreak{}Pr/\allowbreak{}buoyancy measures, source and wall boundary conditions, geometry/\allowbreak{}reset/\allowbreak{}recovery, variable properties and conjugate fluid-solid times.
+\begin{itemize}
+\item Qualify flow/\allowbreak{}thermal development, regime, buoyancy/\allowbreak{}gravity/\allowbreak{}pressure and conjugate-wall assumptions; do not select turbulence or laminar treatment merely for convenience.
+\end{itemize}
+\item \topiclabel{limited-cfd-discrimination-and-no-cfd-progress}\textbf{Limited-CFD discrimination and no-CFD progress.} Prioritize cases that distinguish the conventional and proposed closure/\allowbreak{}reconstruction rules under the same online information: nominal conditions, source/\allowbreak{}sink contrast, property/\allowbreak{}development contrast and a weak-flow limit.
+\begin{itemize}
+\item Choose a bounded set of independent contrasts with a declared comparator; continue data/\allowbreak{}steady/\allowbreak{}uncertainty work while limiting claims that truly require a spatial reference.
+\end{itemize}
+\end{itemize}
+
+\subsection{Data lineage, quality and operating-condition groups}\label{subsec:data-lineage-quality-and-operating-condition-groups}
+
+\begin{itemize}[leftmargin=*]
+\item Maintain a traceable data-to-model comparison record with consistent definitions and provenance.
+\begin{itemize}
+\item Keep raw files and original timestamps/\allowbreak{}units unchanged; map native channels to physical sensors and model observations using explicit configuration, calibration and source-row identities.
+\item Preserve mapped, synchronized, quality-flagged and accepted-window products as separate versioned transformations with parent IDs. Store measured statistics, CFD-reference quantities and model predictions with their distinct provenance and uncertainty.
+\end{itemize}
+\item Group operating conditions by actual inputs and configuration, then report within-group variation and evidence coverage.
+\begin{itemize}
+\item Group cases using source, sink, and environmental histories with justified tolerances.
+\item Distinguish steady or transient classification, accepted statistical reporting windows, and physical energy equilibrium. Evaluate the consequences of alternative window-selection rules.
+\end{itemize}
+\item Treat quality flags and exclusions as scientific choices requiring reasons and sensitivity checks.
+\begin{itemize}
+\item Preserve flagged samples and assess genuine transients, autocorrelation, and channel roles before exclusion.
+\item Record missingness, drift, calibration grouping and the effect of alternative window/\allowbreak{}channel policies; do not select a window because it minimizes the fitted-model residual.
+\end{itemize}
+\end{itemize}

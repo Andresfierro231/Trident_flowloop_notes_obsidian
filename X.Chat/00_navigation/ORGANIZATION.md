@@ -20,5 +20,24 @@
 - Future physical reorganization requires a move map and inbound-link update/check. Current unresolved links are repair candidates, not evidence that a source never existed.
 - At each writing milestone: reconcile source/decision changes, refresh inventory, check links, update the proposal bullets and record one handoff. No recurring automation is scheduled.
 
-- `X.Chat/06_hpc_exchange/`: Git-mediated local/HPC questions, dated outgoing requests, untouched incoming responses and subsequent reconciliations; no implicit delivery or live-agent status. Follow repository-root `AGENTS.md` and `GIT_WORKFLOW.md`; the original Box transport is historical after the November 2 Git cutover.
+- `X.Chat/06_hpc_exchange/`: Box-mediated local/HPC questions, dated outgoing requests, untouched incoming responses and subsequent reconciliations; no implicit delivery or live-agent status.
 - Proposal and research questions organize the work; the literature review supplies sources and existing answers. Use the report catalog for code/results context and the planning-coverage table for historical TODO disposition.
+
+- `80_repository_links/` holds the user-selected local `Papers` alias. It is not a new code owner or synchronized repository copy.
+- Obsidian note links must be vault-root wikilinks to existing files. Keep raw OS paths only as code/provenance. Use the link helper after generating notes; recursive writers must not follow alias directories.
+
+
+## Long-term maintenance — November 3
+
+- Git owns current LaTeX, aligned outline, shared machine instructions and minimal cross-machine handoffs. X.Chat owns cross-project synthesis/philosophy. Link between owners rather than copying narratives.
+- Dated sources are frozen. current/ exposes Git; exclude aliases, archives, builds and raw sources from recursive editing.
+- Task boundaries: update status, one coherent handoff, changed locators/links. Milestones: record Git commit. No scheduled/background synchronization installed.
+- Small indexes first; inventories on demand after intake/change, not each startup.
+- Source rename requires identity/edition confirmation, old/new/hash move map, inbound-link repair and validation. Prefer searchable registry titles to bulk renaming originals.
+
+- Legacy dated staged/ paths are compatibility symlinks to their frozen archive, retained for historical source links; current/ alone is the live editing shortcut.
+
+## Git notes transport — November 3 reconciliation
+
+- Notes Git is primary transport, superseding historical Box exchange transport. Remote 2026-11-02_04_git_cutover handoff and source-intake provenance are preserved. HPC initiative retains current scientific authority subject to author direction.
+- Canonical notes checkout stays outside Box; existing vault route is a local alias. Preserve old Box source as dated snapshot, not a second editable owner.

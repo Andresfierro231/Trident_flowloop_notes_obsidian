@@ -21,7 +21,6 @@ What happened when there are changes
 Take data that we have, predict what is going to happen next if we make some change
 
 Changes: 
-
 - Drain tank pressure pushes salt level into expansion tank  
   - Densities may change heat transfer  
 - Extra pressure in both drain tank and exp tank, increases pressure in whole system  

@@ -1,0 +1,125 @@
+{
+  "changed_notes": [
+    {
+      "note": "README.md",
+      "converted": 19
+    },
+    {
+      "note": "06_hpc_exchange/README.md",
+      "converted": 5
+    },
+    {
+      "note": "06_hpc_exchange/QUESTION_REGISTER.md",
+      "converted": 7
+    },
+    {
+      "note": "00_navigation/LOCATIONS.md",
+      "converted": 18
+    },
+    {
+      "note": "00_navigation/LITERATURE_RESOURCES.md",
+      "converted": 40
+    },
+    {
+      "note": "00_navigation/LITERATURE_FOUNDATION.md",
+      "converted": 1
+    },
+    {
+      "note": "00_navigation/RESEARCH_MAP.md",
+      "converted": 8
+    },
+    {
+      "note": "02_synthesis/RECONCILIATION.md",
+      "converted": 6
+    },
+    {
+      "note": "02_synthesis/WORKING_UNDERSTANDING.md",
+      "converted": 4
+    },
+    {
+      "note": "02_synthesis/PLANNING_COVERAGE.md",
+      "converted": 1
+    },
+    {
+      "note": "02_synthesis/RESEARCH_QUESTIONS_TO_PROPOSAL.md",
+      "converted": 3
+    },
+    {
+      "note": "05_handoffs/2026-11-02_02_hpc_context.md",
+      "converted": 9
+    },
+    {
+      "note": "05_handoffs/2026-11-02.md",
+      "converted": 10
+    },
+    {
+      "note": "05_handoffs/2026-11-02_03_question_integration.md",
+      "converted": 4
+    },
+    {
+      "note": "01_sources/HPC_REPORT_MAP.md",
+      "converted": 3
+    },
+    {
+      "note": "01_sources/SOURCE_REGISTER.md",
+      "converted": 38
+    },
+    {
+      "note": "01_sources/FIGURE_ROUTES.md",
+      "converted": 15
+    },
+    {
+      "note": "01_sources/LINK_REPAIR_QUEUE.md",
+      "converted": 10
+    },
+    {
+      "note": "03_proposal/2026-11-02/EXPANDED_OUTLINE.md",
+      "converted": 3
+    },
+    {
+      "note": "03_proposal/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "converted": 12
+    },
+    {
+      "note": "03_proposal/2026-11-02/README.md",
+      "converted": 5
+    },
+    {
+      "note": "03_proposal/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "converted": 8
+    },
+    {
+      "note": "03_proposal/2026-11-02/staged/PROPOSAL_OUTLINE.md",
+      "converted": 3
+    },
+    {
+      "note": "03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/SOURCES.md",
+      "converted": 28
+    },
+    {
+      "note": "03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "converted": 12
+    },
+    {
+      "note": "03_proposal/2026-11-02/staged/doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "converted": 8
+    }
+  ],
+  "unresolved_links_made_nonclickable": [],
+  "validation": {
+    "vault_root_checked": "/Users/andres/ObsidianVaults",
+    "wikilinks_checked": 276,
+    "missing_or_folder_targets": [],
+    "unsafe_os_path_markdown_links": [],
+    "scan_follows_symlinks": false
+  },
+  "ui_verification": "Obsidian quick switcher listed the real .tex under the Papers alias; opening the existing entry changed the window title to the source file. No .tex.md counterpart exists at the source; literature Git worktree stayed clean.",
+  "portability": "Vault-root paths survive changes to OS mount/user directory when the internal layout is unchanged; each computer must recreate its local Papers symlink.",
+  "final_validation": {
+    "vault_root_checked": "/Users/andres/ObsidianVaults",
+    "wikilinks_checked": 281,
+    "missing_or_folder_targets": [],
+    "unsafe_os_path_markdown_links": [],
+    "scan_follows_symlinks": false
+  }
+}

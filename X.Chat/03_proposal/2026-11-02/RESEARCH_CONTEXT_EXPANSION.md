@@ -11,15 +11,15 @@
 
 ## Exact navigation
 
-- [locations](</Users/andres/Library/CloudStorage/Box-Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/LOCATIONS.md>)
-- [literature sources and answers](</Users/andres/Library/CloudStorage/Box-Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/LITERATURE_RESOURCES.md>)
-- [HPC report map](</Users/andres/Library/CloudStorage/Box-Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/HPC_REPORT_MAP.md>)
-- [HPC selected source identities/hashes](</Users/andres/Library/CloudStorage/Box-Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/hpc_source_manifest.json>)
-- [planning coverage](</Users/andres/Library/CloudStorage/Box-Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/PLANNING_COVERAGE.md>)
-- [working understanding](</Users/andres/Library/CloudStorage/Box-Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/WORKING_UNDERSTANDING.md>)
-- [HPC exchange](</Users/andres/Library/CloudStorage/Box-Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/06_hpc_exchange/README.md>)
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/LOCATIONS.md|locations]]
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/LITERATURE_RESOURCES.md|literature sources and answers]]
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/HPC_REPORT_MAP.md|HPC report map]]
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/hpc_source_manifest.json|HPC selected source identities/hashes]]
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/PLANNING_COVERAGE.md|planning coverage]]
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/WORKING_UNDERSTANDING.md|working understanding]]
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/06_hpc_exchange/README.md|HPC exchange]]
 
 ## Controlling clarification
 
 - AD-20261102-05: research/proposal goals and questions organize the work; literature supplies sources/answers. The preceding “backbone” interpretation is superseded.
-- [62-question integration crosswalk](</Users/andres/Library/CloudStorage/Box-Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/RESEARCH_QUESTIONS_TO_PROPOSAL.md>) preserves original question IDs, existing answers, evidence and remaining follow-up.
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/RESEARCH_QUESTIONS_TO_PROPOSAL.md|62-question integration crosswalk]] preserves original question IDs, existing answers, evidence and remaining follow-up.

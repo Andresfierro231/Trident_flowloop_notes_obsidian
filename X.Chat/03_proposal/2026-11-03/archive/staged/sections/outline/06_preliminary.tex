@@ -1,0 +1,87 @@
+% Agent context and source locators: ../../../internal/EXPANSION_NOTES.md
+\section{Preliminary Work and Research Readiness}\label{sec:preliminary-work-and-research-readiness}
+
+\subsection{Master's work: an existing end-to-end reduction example}\label{subsec:master-s-work-an-existing-end-to-end-reduction-example}
+
+\begin{itemize}[leftmargin=*]
+\item The completed master\textquotesingle{}s work establishes feasibility for an end-to-end CFD-to-1D reduction process. The next experimental demonstration will test data interpretation and temperature reproduction in the ACU or VCU setting.\cite{fierro2026cfdoneD}
+\item The TAMU study relates CFD fields and sensor meanings to matched mass, energy, pressure, and temperature quantities, with explicitly defined averaging windows.\cite{fierro2026cfdoneD}
+\item The steady model includes energy transport around the loop, temperature periodicity, a buoyancy--resistance balance, separate thermal paths, and distinct fluid and wall observations.
+\item Assess temperature versus loop location with the case population, supplied inputs, fitted choices, and sensor policy stated explicitly.
+\item The master\textquotesingle{}s assessment is retrospective: nominal CFD cases informed development and the heater-power cases had been encountered previously. These results support feasibility and lessons for assessment design; they do not establish independent ACU or VCU validation.
+\end{itemize}
+
+\subsection{Quantitative evidence from the completed study}\label{subsec:quantitative-preliminary-evidence}
+\begin{itemize}[leftmargin=*]
+\item The completed study assessed four nominal CFD cases and six previously encountered heater-power cases. The reported balanced temperature metric combines the fluid-probe and wall-probe comparisons under the thesis's declared sensor-inclusion policy.\cite{fierro2026cfdoneD}
+\begin{center}
+\small
+\begin{tabular}{@{}p{3.05in}rr@{}}
+\toprule
+\textbf{Model setting} & \multicolumn{2}{c}{\textbf{Balanced temperature RMSE (K)}}\\
+ & \textbf{Four nominal cases} & \textbf{Six power cases}\\
+\midrule
+Global thermal-compensation setting & 9.280 & 12.853\\
+Localized thermal setting & 4.957 & 5.989\\
+Localized, flow-calibrated setting & 7.090 & 5.970\\
+\bottomrule
+\end{tabular}
+\end{center}
+\item The separate localized, flow-calibrated setting achieved CFD mass-flow mean absolute percentage errors of 0.967\% and 1.310\% for those two case groups. Its hydraulic setting was selected using known nominal CFD flow; the six power cases had also been seen previously. These are development and retrospective assessment results.\cite{fierro2026cfdoneD}
+\item The lower temperature errors did not establish the correct heat-removal distribution. Among the three compared heat sinks, the localized model assigned 6.9--7.3\% to the cooler, compared with 57.4--60.8\% in CFD, and 56.1--57.0\% to junction regions, compared with 15.3--16.5\% in CFD.
+\begin{itemize}
+\item These fractions refer to the explicitly compared sinks, not an unrestricted fraction of all generated power. The fitted residual thermal conductance is an effective model term rather than a measured hardware property.
+\item The result motivates a PhD assessment that scores measured temperatures, circulation evidence, and regional energy accounting separately. A single aggregate temperature score can conceal compensating heat-path errors.
+\end{itemize}
+\item The primary temperature metric omitted a declared subset of wall channels; restoring some of those channels increased the earlier global-compensation errors from roughly 9--10 K to roughly 14--15 K. A corresponding restored-channel grade was not reported for the localized model. Sensor-policy sensitivity is therefore part of the evidence, not an optional presentation choice.
+\end{itemize}
+
+\subsection{Lessons that motivate the PhD}\label{subsec:lessons-that-motivate-the-phd}
+\begin{itemize}[leftmargin=*]
+\item Temperature and circulation objectives can favor different fitted settings; show both rather than selecting a temperature score as evidence of correct flow.
+\item A lower temperature error can coexist with incorrect allocation of cooler and junction heat removal. Carry local energy budgets alongside temperature agreement.
+\item The primary wall-temperature aggregate used a declared channel-selection policy. Restoring previously omitted channels changes the earlier models\textquotesingle{} assessment; channel exclusion therefore requires explicit reporting and sensitivity analysis.
+\item Use hydraulic/\allowbreak{}thermal development and observation meaning to choose candidate repairs; a fitted residual loss or resistance is not automatically a measured hardware property.
+\item The tested two-stream heat exchange did not improve temperatures, and the fixed-inlet alternative violated mixing. Recirculation in TAMU motivates a bounded question; it does not establish ACU/\allowbreak{}VCU recirculation or a transferable coefficient.
+\item PhD step beyond this work: assess a reproducible reduction/\allowbreak{}closure/\allowbreak{}observation procedure using qualified experiment and CFD evidence, with uncertainty and unused assessment conditions. Reproducing a temperature trace is an initial demonstration; an additional method benefit or supported limit is the research contribution.
+\end{itemize}
+
+\subsection{TRIDENT 1D groundwork and evidence status}\label{subsec:trident-1d-groundwork-and-evidence-status}
+\begin{itemize}[leftmargin=*]
+\item \researchlabel{ambient-and-startup-comparisons}\textbf{Ambient and startup-conditioned temperature comparisons.} Preliminary studies examine alternative ambient and initial-state assumptions using observed-versus-predicted temperature traces and channel residuals.
+\begin{itemize}
+\item Keep other-run learning, previously inspected windows and supplied later boundaries explicit; mixed performance is not a universal winner.
+\end{itemize}
+
+\item The physical model includes segmented fluid, pipe, and optional insulation states; zero, prescribed, or coupled steady flow; and conservation outputs. Synthetic examples demonstrate numerical behavior rather than facility prediction.
+\item Ambient-only, startup-assumption, and startup-conditioned comparisons provide groundwork for assessing how supplied initial and boundary information affects temperature reproduction.
+\end{itemize}
+
+\subsection{Next feasibility demonstration: understand data and reproduce temperatures}\label{subsec:next-feasibility-demonstration-understand-data-and-reproduce-temperatures}
+
+\begin{itemize}[leftmargin=*]
+\item Assemble a documented experimental case with facility configuration, timestamps, units, channel mapping, calibration, heating, cooling and ambient histories, and known data gaps.
+\item For each temperature, state whether it is a primary-fluid probe, wall/\allowbreak{}contact sensor or fiber measurement and specify the corresponding model observation. Separate measured values, averaged values and inferred bulk states.\cite{jcgm2020measurementmodels}
+\item First reproduce an accepted development case using declared inputs and fitted quantities; report per-sensor residuals, spatial patterns, energy closure and uncertainty. Call this reproduction or calibration when target data inform the model.
+\item Then freeze those choices and compare against a separate eligible condition when available. Identify whether assessment information was previously inspected; avoid relabeling retrospective cases as blind.
+\item Show what the temperature comparison teaches about boundary conditions, loss paths and observation mapping. A CFD-conditioned map, measured-startup trajectory and autonomous forward prediction receive separate labels and scores.
+\end{itemize}
+
+\subsection{Developing profiles and conditional wall response}\label{subsec:developing-profiles-and-conditional-wall-response}
+\begin{itemize}[leftmargin=*]
+\item \researchlabel{developing-profile-and-transfer-studies}\textbf{Developing-profile and transfer studies.} Use temperature, transport, and buoyancy comparisons to assess whether a low-order profile representation warrants extension to the TRIDENT loops.
+\begin{itemize}
+\item TAMU geometry and fluid, inherited hydraulic and exterior-boundary laws, prescribed cooler inputs, and numerical-refinement requirements limit direct transfer to other facilities.
+\end{itemize}
+
+\item \researchlabel{conditional-wall-response}\textbf{Conditional wall and exterior-boundary studies.} Compare radial, regional, downcomer, and exterior-boundary representations using explicit fitted quantities, initialization scenarios, and regional errors.
+\begin{itemize}
+\item Measured primary temperatures are supplied inputs; insulated-region shell response does not resolve every bare-patch contact sensor.
+\end{itemize}
+
+\item VCU run-condition, boundary, regional-resistance, and downcomer comparisons provide further preliminary evidence. Their supplied temperatures and boundary assumptions must accompany any interpretation.
+\item Use the isolated TAMU developing-profile work as a mechanism/\allowbreak{}reduction benchmark with explicit transfer limits.
+\begin{itemize}
+\item Distinguish temperatures associated with transported enthalpy, area-averaged density and buoyancy, and local probe response. Assess the thermal and hydraulic assumptions separately.
+\end{itemize}
+\end{itemize}

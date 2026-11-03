@@ -1,0 +1,145 @@
+% Agent context and source locators: ../../../internal/EXPANSION_NOTES.md
+\section{The Custom 1D Model and Observation Mapping}\label{sec:the-custom-1d-model-and-observation-mapping}
+
+\subsection{Starting representation}\label{subsec:starting-representation}
+
+\begin{itemize}[leftmargin=*]
+\item \researchlabel{physical-solver-and-numerics}\textbf{Model hierarchy and numerical verification.} Compare stagnant, prescribed-flow, and coupled-circulation configurations using declared states, cooler representation, conservation residuals, and numerical sensitivity.
+\begin{itemize}
+\item Numerical verification or a synthetic example does not establish facility accuracy.
+\end{itemize}
+
+\item Divide the loop into axial cells with fluid, pipe and optional insulation temperatures; declare heater, cooler, ambient and axial/\allowbreak{}radial heat paths.
+\item Distinguish radial thermal diagnosis, a stagnant segmented loop, prescribed signed-flow transport, and coupled buoyancy--resistance circulation. These physical representations differ from an empirical regional response model.
+\item Define the governing balances, sign conventions, property choices, and conservation checks for the retained states.
+\item Use stored energy and signed enthalpy fluxes as the starting balance; evaluate each shared transfer once with opposite signs for adjacent volumes. Define state, units, positive loop direction and property temperature before presenting the reduced equations.
+\item For temperature-dependent heat capacity, obtain enthalpy differences by integrating $c_p(T)$ and distinguish fluid, pipe, and insulation storage. An algebraic steady circulation balance does not provide transient inertia.
+
+\item \topiclabel{state-meanings-across-the-physical-hierarchy}\textbf{State meanings across the physical hierarchy.} A lumped thermal resistance--capacitance model aggregates thermal storage/\allowbreak{}exchange; a segmented conjugate model retains fluid and wall/\allowbreak{}insulation and directional enthalpy; a regional grey-box model identifies effective storage/\allowbreak{}couplings; a 1D circulation model adds buoyancy/\allowbreak{}resistance and possibly inertia; a low-order spatial model retains profile/\allowbreak{}mode information.
+\begin{itemize}
+\item Compare lumped/\allowbreak{}regional, segmented conjugate, circulating 1D and low-order spatial models by their actual states/\allowbreak{}equations and information requirements.
+\end{itemize}
+\item \topiclabel{which-storage-and-heat-paths-are-retained}\textbf{Retained storage and heat paths.} Retain paths that carry source, rejection, ambient loss, storage or transport relevant to the target.
+\begin{itemize}
+\item Give each fluid/\allowbreak{}solid/\allowbreak{}insulation/\allowbreak{}source/\allowbreak{}support/\allowbreak{}cooler path an owner and sensitivity test; distinguish material properties from effective corrections.
+\end{itemize}
+\item \topiclabel{steady-momentum-inertia-and-transport}\textbf{Steady momentum, inertia and transport.} An algebraic steady momentum root supplies a circulation branch, not a transient stability result.
+\begin{itemize}
+\item Treat steady circulation roots, transient momentum, and local counterflow separately; preserve signed-flow and zero-flow limits and identify the evidence needed for branch selection and stability.
+\end{itemize}
+\end{itemize}
+
+\subsection{Governing balances and retained thermal states}\label{subsec:governing-balances}
+\begin{itemize}[leftmargin=*]
+\item For each fixed control volume $i$, use stored sensible energy and signed transfers:
+\begin{equation}
+\frac{dU_i}{dt}=\sum_{f\in\partial i}\dot H_{f\to i}
++\dot Q_{s,i}+\sum_j\dot Q_{j\to i}-\dot Q_{i\to a}.
+\label{eq:conservative-energy}
+\end{equation}
+$U_i$ is in joules and every right-hand term is in watts. A shared advective or conductive transfer is computed once and enters adjacent balances with opposite signs; only external sources, sinks, and storage remain in the summed loop balance.
+\item For a material with temperature-dependent heat capacity, define a compatible enthalpy law,
+\begin{equation}
+h(T)-h(T_*)=\int_{T_*}^{T}c_p(\vartheta)\,d\vartheta.
+\label{eq:enthalpy-law}
+\end{equation}
+The approximation $h=c_p(T)T$ is not generally valid. Fluid and solid reference states and the selected low-Mach density and mass conventions will be stated consistently.\cite{sohal2010engineering}
+\item The initial spatial model separates fluid, pipe, and optional insulation storage in axial cells. Interface heat exchange may take the restricted form $\dot Q_{f\to w}=G_{fw}(T_f-T_w)$ with $G_{fw}=h_c A_{fw}$, where $h_c$ is the heat-transfer coefficient on the declared area.
+\begin{itemize}
+\item Cylindrical conduction, contact resistance, and exterior exchange enter distinct paths. For a constant-conductivity cylindrical layer of length $L$, $R=\ln(r_o/r_i)/(2\pi kL)$; multiple layers and contact terms must use compatible interfaces.
+\item Radiation, if consequential, uses absolute temperature and an appropriate surface/view-factor model. A fitted exterior conductance may combine several paths and will be described as effective.
+\item Adding wall states is established modeling practice. The proposed research concerns the supported selection and reduction of those states and paths for the intended predictions.\cite{dass2018cncl,borgohain2011naturalcirculation,cammi2016wallinertia}
+\end{itemize}
+\item Steady solutions require energy closure and a periodic fluid-temperature condition around the closed loop. Transition solutions additionally require physically interpretable initial fluid and solid energies; initialization is part of the prediction task, not a free fitting adjustment on the assessment case.
+\end{itemize}
+
+\subsection{Circulation and the distinction between steady and transient models}\label{subsec:circulation-balance}
+\begin{itemize}[leftmargin=*]
+\item In the steady circulating model, mass flow is selected by a signed balance between buoyant head and hydraulic losses. With positive coordinate $s$ around the loop and upward elevation $z$, a candidate transient extension under a consistent incompressible-inertia approximation is
+\begin{align}
+\mathcal I\frac{d\dot m}{dt}&=-g\oint\rho(T,s)\,dz-\Delta p_{\mathrm{loss}}(\dot m,T),
+&\mathcal I&=\oint\frac{ds}{A(s)},\label{eq:momentum-extension}\\
+\Delta p_{\mathrm{loss}}&=\sum_j\left(f_{D,j}\frac{L_j}{D_{h,j}}+K_j\right)
+\frac{\dot m|\dot m|}{2\rho_j A_j^2}.\label{eq:signed-loss}
+\end{align}
+Both sides of the momentum balance have pressure units. The steady model sets the time derivative to zero; retaining this derivative is proposed transition-model development, not a statement that it is already implemented.
+\item The area, reference-density, Darcy-friction, local-loss, and property conventions will be declared. A spatially uniform mass-flow approximation with temperature-dependent buoyancy requires a compatible continuity and density treatment.\cite{borgohain2011naturalcirculation}
+\item A steady root does not establish transient stability or local recirculation. Assess root existence, sign, and sensitivity separately from temporal response; inspect multiple branches where the chosen model permits them.
+\item A correlation can match a steady heat-transfer value while giving a different response to changing flow. Transition assessment will therefore examine the retained storage and the sensitivity of heat transfer to operating state, in addition to the steady coefficient.\cite{cammi2016wallinertia}
+\end{itemize}
+
+\subsection{Closures and observation operators}\label{subsec:closures-and-observation-operators}
+
+\begin{itemize}[leftmargin=*]
+\item Build on the closures tested in the preliminary study, characterizing hydraulic and thermal development before choosing transfer-law descriptors. Keep closure selection separate from sensor mapping.
+\item Compare bulk enthalpy, centerline/\allowbreak{}radial/\allowbreak{}angular fluid temperature and wall/\allowbreak{}contact sensor responses according to their distinct meanings.
+\item Test local-to-average mappings for conditioning, reference dependence, and conservation before adopting them as general closures.
+\item Write the observation model schematically as $y_k=H_k(x,u,\theta)+b_k+\varepsilon_k$: location/\allowbreak{}footprint and contact or filtering belong in $H_k$, shared calibration in $b_k$, and residual variation in $\varepsilon_k$. Choose those terms from evidence rather than inventing independent noise.\cite{jcgm2020measurementmodels}
+\item If a proposed profile descriptor requires contemporaneous CFD or measured primary temperature, classify that result as conditional reconstruction. An autonomous forward closure must obtain its descriptors from the retained state and allowed inputs.
+
+\item \topiclabel{bulk-area-transport-and-local-temperature}\textbf{Bulk, area, transport and local temperature.} Point, centerline, wall and sensor-filtered temperatures need distinct operators.\cite{jcgm2020measurementmodels}
+\begin{itemize}
+\item State area/\allowbreak{}enthalpy/\allowbreak{}probe/\allowbreak{}wall meanings and test whether duty can remain correct while local extrema or buoyancy are wrong.
+\end{itemize}
+\item \topiclabel{sensor-footprint-wall-response-and-interpolation}\textbf{Sensor footprint, wall response and interpolation.} Apply interpolation, sensor footprint, contact conduction and response/\allowbreak{}timing in the forward observation operator before comparing predictions.\cite{jcgm2020measurementmodels}
+\begin{itemize}
+\item Specify sensing medium/\allowbreak{}depth/\allowbreak{}contact, node weights, response and calibration; identify evidence that distinguishes observation mismatch from transport inadequacy.
+\end{itemize}
+\item \topiclabel{development-and-correlation-applicability}\textbf{Development and correlation applicability.} Choose closures using hydraulic/\allowbreak{}thermal development, source and wall conditions, orientation, property variation, buoyancy and geometry.\cite{reis2024molten}
+\begin{itemize}
+\item Evaluate regime, property/\allowbreak{}entrance/\allowbreak{}bend and conjugate-wall assumptions before selecting heat-transfer coefficient and friction corrections; retain conventional-correlation comparators.
+\end{itemize}
+\end{itemize}
+
+\subsection{Use-time information}\label{subsec:use-time-information}
+
+\begin{itemize}[leftmargin=*]
+\item Steady forward prediction: prescribed operating inputs and qualified configuration predict withheld primary outputs.
+\item Startup-conditioned trajectories may use measured initial temperatures and supplied later ambient; label that information and do not call it an autonomous forecast.
+\item CFD-conditioned reconstruction, full-forward ROM prediction and later sensor-updated estimation need separate contracts and scores.
+
+\item \topiclabel{input-observation-and-prediction-contracts}\textbf{Input, observation and prediction contracts.} For steady prediction supply facility/\allowbreak{}revision, geometry and property laws, source deposition or a source model, cooler inlet/\allowbreak{}flow or an equivalent external boundary model, ambient and declared parameter uncertainty.\cite{kapteyn2021digitaltwins}
+\begin{itemize}
+\item Write separate steady forward, initial-state-conditioned transition and supplied-primary diagnostic contracts; name allowed inputs, targets and forecast horizon.
+\end{itemize}
+\item \topiclabel{unobserved-hot-and-cold-locations}\textbf{Unobserved hot and cold locations.} Sparse observations alone do not determine arbitrary unobserved hot/\allowbreak{}cold spots.\cite{oliver2014unobserved}
+\begin{itemize}
+\item Define the admissible profile/\allowbreak{}closure and boundary-support family; report a location, region or bound only at the resolution supported by observations/\allowbreak{}reference fields.
+\end{itemize}
+\end{itemize}
+
+\subsection{Reproducible inputs and numerical choices}\label{subsec:reproducible-inputs-and-numerical-choices}
+
+\begin{itemize}[leftmargin=*]
+\item Specify the model from resolved configuration through conservation outputs to observation predictions.
+\begin{itemize}
+\item Declare geometry units, state order, property basis, source assignment, cooler form, axial/\allowbreak{}radial discretization and observation locations.
+\item Record defaults and overrides, refinement, nonlinear tolerances and root-selection outcomes. Numerical parameters belong to verification/\allowbreak{}sensitivity, not physical calibration.
+\end{itemize}
+\item Keep the three temperature roles explicit when evaluating developing-profile additions.
+\begin{itemize}
+\item Transported enthalpy, area-density/\allowbreak{}buoyancy and local probe response need not share one temperature; test whether a low-order profile or covariance relation materially changes the target.
+\item Historical local/\allowbreak{}mean temperature or pressure ratios are candidates; test reference dependence, small denominators and flux preservation before adopting them. Do not transfer TAMU coefficients or sensor meanings automatically.
+\end{itemize}
+\end{itemize}
+
+
+\subsection{Conservation quantities and measurement quantities}\label{subsec:conservation-versus-measurement-quantities}
+\begin{itemize}[leftmargin=*]
+\item For a section with declared positive normal velocity $u_n$, extract
+\begin{equation}
+\dot m=\int_A\rho u_n\,dA,\qquad
+\dot H=\int_A\rho u_n h(T)\,dA,\qquad
+\overline T_A=\frac{1}{A}\int_A T\,dA.
+\label{eq:section-reduction}
+\end{equation}
+Where net mass flow is well resolved, define $h_b=\dot H/\dot m$ and recover a transport temperature from the same enthalpy law. This temperature generally differs from an area mean, a centerline probe, and a wall contact.
+\item Near zero net flow or substantial countertransport, retain positive and negative stream fluxes rather than dividing by a poorly resolved net mass flow. Such cases test the limits of a single transported temperature and may motivate an additional state or a restricted applicability claim.
+\item The sensor model will map the retained state to the actual measurand:
+\begin{equation}
+y_k(t)=\mathcal H_k[x(t),u(t);\eta]+b_k(t)+\varepsilon_k(t).
+\label{eq:sensor-observation}
+\end{equation}
+Here $\eta$ includes supported position, contact, interpolation, and response conventions; $b_k$ represents shared or drifting bias and $\varepsilon_k$ residual measurement variation. A sensor-response time constant will be introduced only when instrument evidence or a controlled comparison supports it.\cite{jcgm2020measurementmodels}
+\item Closure learning and observation reconstruction will use the same averaging definitions during development and assessment. Supplying contemporaneous CFD fields or measured primary temperatures to a map creates a conditional reconstruction; a forward predictor must obtain its descriptors from the retained state and permitted operating inputs.
+\end{itemize}

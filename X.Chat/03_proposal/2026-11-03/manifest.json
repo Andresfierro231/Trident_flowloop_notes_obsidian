@@ -1,0 +1,127 @@
+{
+  "task": "PROP-EXPAND-20261103-01",
+  "status": "applied_to_canonical_repository",
+  "proposal_root": "/Users/andres/projects/research/Paper_and_Presentations/Andres_Fierro_Dissertation_Proposal",
+  "base_commit": "863fb5098b7ba1fd550a6557feb4dbe6463843bb",
+  "master_commit": "15383e7b17b37410ff5f6a4a5f6a86d7074eb504",
+  "literature_commit": "b1f8c74200a61c86ba7aa3d5df30bb55f3f5fe7b",
+  "files": [
+    {
+      "path": "PROPOSAL_OUTLINE.md",
+      "base_sha256": "911ccc6aa4f308eb28f6cfe20f84c91629a086995d7cbf2798faa0add12dd7d9",
+      "new_sha256": "78d2456f9a590450b0d51c4ece54071ab2fd68c37c5cd9b15a27e16e6ff3bec1"
+    },
+    {
+      "path": "doc_support/coverage/2026-11-02/COVERAGE.md",
+      "base_sha256": null,
+      "new_sha256": "6a6716e32dd091324e585426ed17f0f9579cc6c21ba43fa827409b1869219411"
+    },
+    {
+      "path": "doc_support/coverage/2026-11-02/planning_coverage.csv",
+      "base_sha256": null,
+      "new_sha256": "34818349a922113a32cd0cb4444ea4bc0e45740cd43497f867e516b3b862eeed"
+    },
+    {
+      "path": "doc_support/coverage/2026-11-02/question_coverage.csv",
+      "base_sha256": null,
+      "new_sha256": "cb8016983c677daa3060689a56798e0f10eeb674d0de0f1a09382884269e0a17"
+    },
+    {
+      "path": "doc_support/coverage/2026-11-02/research_insertion_slots.csv",
+      "base_sha256": null,
+      "new_sha256": "80714bd85c8d13a20f901b50063f85c28e4a83a0aa852ce01271f30bec654ed8"
+    },
+    {
+      "path": "doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md",
+      "base_sha256": "672cd29e0c79e436de7d5f26775bc39661174ad20ca0c17057040b9b6cb0440c",
+      "new_sha256": "4484b7857162f85cfb2c31fc921792578c62af353b45fba208e7f866011f4004"
+    },
+    {
+      "path": "doc_support/reconciliation/2026-11-02/FOLLOWUP_DECISIONS.md",
+      "base_sha256": null,
+      "new_sha256": "4bdce180da5478bbe314fb3da97a07743162992fdee3e328e13ec4278ffa881f"
+    },
+    {
+      "path": "doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "base_sha256": null,
+      "new_sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc"
+    },
+    {
+      "path": "doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "base_sha256": null,
+      "new_sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5"
+    },
+    {
+      "path": "doc_support/reconciliation/2026-11-02/SOURCES.md",
+      "base_sha256": "cf97347a1879923cc3706619bfa7e6a6e0698c4b888cff594be512639d4e8c10",
+      "new_sha256": "983e18031615be95abd0ff6845dafd844026c115b3a2164a672cb4ccd488773a"
+    },
+    {
+      "path": "main.tex",
+      "base_sha256": "0304a9cf316d4e147d2ad941627429e7bcbbb55b4175ea46d220bf0c87ff42a9",
+      "new_sha256": "6f559f4b3c402a4b0ceb71493367a6918c3aa14b426268f8867b1979921844dc"
+    },
+    {
+      "path": "sections/outline/00_working_summary.tex",
+      "base_sha256": "0b0cee4902edf72ada04b527a5e4f83ac4a99822ae47bad5049553949ae6a01f",
+      "new_sha256": "854d25b618757d874ede5def09acd0fb9a0fe03f76195fe5c95327e947b0d258"
+    },
+    {
+      "path": "sections/outline/01_motivation.tex",
+      "base_sha256": "11b0a266ba43df64831daf3e63888cf4746c9b3094d31d35753562b4801f0a63",
+      "new_sha256": "cce548670c0714b78846767620805b0ba1758692a636f77a9fdb45bdb640663b"
+    },
+    {
+      "path": "sections/outline/02_goals.tex",
+      "base_sha256": "0302b12c9c6b7b4c1598fd6fd727523ed5c734754a66c2b5b5823504f27c8320",
+      "new_sha256": "0dc91cad0e720a480753988b90d98e0ac4cf1e47dc985ee2f44eedcadb66c2da"
+    },
+    {
+      "path": "sections/outline/03_evidence.tex",
+      "base_sha256": "3884d90606f2c0830406f93a376bd341a06ea16e1b4294099b40d388294bdc3f",
+      "new_sha256": "ca1939e1594f89d1a5c95dac639d50d8ed2b06740d811422ab3a3028e05ebc3f"
+    },
+    {
+      "path": "sections/outline/04_model.tex",
+      "base_sha256": "9563cd476e56dc591f7dfa2dfac1ad8d44fdb9dab25f5ba05512daae93dd5579",
+      "new_sha256": "5fc70d7c6ea415e54ef0e7033b3ea02b896dc307337cafb9b549910f455a932a"
+    },
+    {
+      "path": "sections/outline/05_methods.tex",
+      "base_sha256": "f3a099c7b046d50a7758d497d6bb09fdb40f80f83f40def19b0a3ca2fcc27fdc",
+      "new_sha256": "8696d72ad033d8aa89e005269fcb795fcaf6a0ca5e80ac7e642a50466ce18613"
+    },
+    {
+      "path": "sections/outline/06_preliminary.tex",
+      "base_sha256": "b7ca56981ccf016a10e463c12b6b34f51aaa06d60c717df8a6f208f2eea062ce",
+      "new_sha256": "ee11b072b8b426a659acaa86870e03eb1470b382b2dc92e42145122c189b514a"
+    },
+    {
+      "path": "sections/outline/07_assessment.tex",
+      "base_sha256": "8905e40ee83d93a8a9fcdd75f313fa504e9d917b642efa1c760aecbd2fa411e8",
+      "new_sha256": "1b3227e85cab6298702664575bbf071ad44e354edec7452dd3a8f3836f74cd25"
+    },
+    {
+      "path": "sections/outline/08_plan.tex",
+      "base_sha256": "fead6fef6758ce96a97b70407802c951378b37ea184cfc624b5f0fbd484aee1d",
+      "new_sha256": "2c019bf74c0e94fa9cfab7605d2137b715b40e21df4e2cdfa354a2eeb261f404"
+    },
+    {
+      "path": "sections/outline/90_coverage.tex",
+      "base_sha256": null,
+      "new_sha256": "a5af8271d87a405fa086974986a6d83fc5415c287df65dbf1429dfe5cb05c194"
+    },
+    {
+      "path": "sections/refs/bib.tex",
+      "base_sha256": "7b7b209c0e0fc14f6826d2245cc6d088ad22d7a084f84f4204740444f5150a95",
+      "new_sha256": "8468a6cec3a21edd47b267c153183be396bd914d731c91a3ae84ad99ac718c97"
+    }
+  ],
+  "distribution": "committee_proposal_sources.zip",
+  "revision": "2026-11-03",
+  "previous_status": "expanded_committee_revision_prepared_not_applied",
+  "archive_source_root": "archive/staged",
+  "application_record": "../../05_handoffs/2026-11-03_02_local_hpc_consolidation.md",
+  "applied_commit": "b6333aa2aab73ea89baf984236edacaf2cbd788c",
+  "superseding_commit": "b6333aa2aab73ea89baf984236edacaf2cbd788c"
+}

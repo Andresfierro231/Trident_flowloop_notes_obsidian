@@ -1,5 +1,7 @@
 # Trident writer and literature notes — agent instructions
 
+First identify local/TACC/unknown from hostname, OS, TACC markers and verified paths. Follow the machine map in the canonical proposal's doc_support/agent/ directory for local/proposal locations; never infer HPC paths from Mac paths. Synchronize BOTH this notes repository and the proposal independently.
+
 This is a separate Git repository for writing, literature reviews, Obsidian
 notes and communication with the HPC research initiative. Start each work
 session with the Git synchronization below, then read `README.md`,
@@ -62,3 +64,8 @@ filenames or copying/hashing files is not scientific review.
 Never visually inspect images, screenshots, plots or rendered PDF pages without
 explicit human approval for the image set and purpose. Do not parse or execute
 external CAD without the applicable explicit approval. Do not expose secrets.
+
+## November 3 local cutover
+
+- Local notes owner: /Users/andres/projects/research/Trident/Trident_flowloop_notes_obsidian/. Existing Obsidian route is a local symlink; original Box folder preserved as Trident_FlowLoop_Notes_pre_git_2026-11-03. Git is primary transport; do not edit the snapshot or merge Box changes automatically.
+- Read X.Chat/05_handoffs/2026-11-03_03_notes_git_sync.md for reconciliation, source move map and receipt limits. Preserve both local and HPC directions; latest explicit author instructions control intent.

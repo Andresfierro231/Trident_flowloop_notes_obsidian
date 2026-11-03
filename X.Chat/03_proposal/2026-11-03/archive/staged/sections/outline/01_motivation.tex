@@ -1,0 +1,70 @@
+% Agent context and source locators: ../../../internal/EXPANSION_NOTES.md
+\section{Motivation and Research Problem}\label{sec:motivation-and-research-problem}
+
+\subsection{Engineering purpose}\label{subsec:engineering-purpose}
+
+\begin{itemize}[leftmargin=*]
+\item Predict circulation, heat-removal duty, losses, and relevant fluid and wall minimum and maximum temperatures as operating inputs change.
+\item Connect fast physical prediction to operator what-if questions, operating-limit awareness, and freezing and trace-heating margins.
+\item Molten-salt reactor (MSR) thermal-hydraulics involves temperature distributions, bulk and local salt velocities, heat-source and removal distributions, and material properties. Nonnuclear loops test selected mechanisms; their evidence does not establish reactor neutronics, chemistry, or complete safety behavior.\cite{brown2020msrphenomena}
+
+\item \topiclabel{engineering-decisions-served-by-each-output}\textbf{Engineering decisions served by each output.} Duty/\allowbreak{}losses support heat-path and cooler sizing; circulation supports resistance and heat-transport comparisons; wall/\allowbreak{}fluid temperature distributions support material and freezing-margin reasoning; response and settling support operating-change planning.\cite{brown2020msrphenomena}
+\begin{itemize}
+\item Add a decision--output--mechanism table for duty, losses, circulation, temperature extrema and response; state which are measured or model-inferred.
+\end{itemize}
+\item \topiclabel{msre-metrology-and-the-single-phase-boundary}\textbf{Metrology and the single-phase scope.} The Molten Salt Reactor Experiment provides a historical example of the need to distinguish reactor-power metrology, heat-exchanger property assumptions, and air-radiator performance.\cite{gabbard1970msre}
+\begin{itemize}
+\item Heat-balance interpretation requires a stated control volume, measurement basis, and property model. Critical heat flux lies outside the proposed single-phase, sensible-heat scope.
+\end{itemize}
+\end{itemize}
+
+\subsection{Why a reduced model is needed}\label{subsec:why-a-reduced-model-is-needed}
+\begin{itemize}[leftmargin=*]
+\item Natural circulation couples heating, heat rejection, temperature-dependent density, and hydraulic resistance. A change to one heat path can alter circulation and therefore the temperatures and heat-transfer conditions elsewhere in the loop.
+\begin{itemize}
+\item A model useful for engineering decisions must preserve this coupling while resolving the quantities needed for the decision. Correct total heat removal alone does not establish a correct wall-temperature distribution or freezing margin.
+\item Detailed CFD provides spatial information for examining developing flow, local heat paths, and sensor placement. Repeated scenario evaluation and parameter estimation motivate a cheaper model whose approximations can be examined directly.
+\end{itemize}
+\item A reduced model will retain axial transport, selected fluid and solid storage, heat exchange, and a circulation relation, while representing unresolved cross-sectional behavior through closures and observation maps.
+\begin{itemize}
+\item Reduction therefore includes a physical selection: which states, exchanges, and spatial descriptors are consequential for the intended output? A small state count is useful only if the retained representation supports that output.
+\item The principal challenge is to determine when a conventional one-stream description is adequate, when its closure or sensor mapping should change, and when richer states are required.\cite{fierro2026cfdoneD,reis2024molten}
+\end{itemize}
+\item The experimental loops provide a progression from measured temperature reproduction to prediction under changed operating conditions. Their value is a controlled connection among hardware, measurements, CFD, and reduced models, with explicit limits on transfer to reactor systems.\cite{brown2020msrphenomena}
+\end{itemize}
+
+\subsection{Why ACU and VCU?}\label{subsec:why-acu-and-vcu}
+
+\begin{itemize}[leftmargin=*]
+\item Apply the reduction framework separately to the Abilene Christian University (ACU) salt loop and the Virginia Commonwealth University (VCU) surrogate-fluid loop, accounting for their distinct purposes, configurations, and available evidence.
+\item For VCU, use the documented propylene-glycol formulation and qualify its run-specific composition and properties.
+
+\item \topiclabel{which-salt-system-or-circuit-is-represented}\textbf{Which salt system or circuit is represented?.} Liquid-fuel primary systems have moving-fluid heat generation and possible nuclear feedback; solid-fuel salt-cooled systems receive heat through fuel/\allowbreak{}structures; secondary circuits receive it through exchangers.\cite{brown2020msrphenomena}
+\begin{itemize}
+\item Separate liquid-fuel primary, salt-cooled solid-fuel, secondary/\allowbreak{}passive circuit and test-facility purposes before making an MSR relevance claim.
+\end{itemize}
+\item \topiclabel{mechanism-relevance-and-transfer-limits}\textbf{Mechanism relevance and transfer limits.} Match the target mechanism through geometry, elevation and source/\allowbreak{}sink distribution as well as Re, Pr, a declared buoyancy measure, hydraulic/\allowbreak{}thermal development and fluid/\allowbreak{}solid response ratios.
+\begin{itemize}
+\item Specify the target and compare Re/\allowbreak{}Pr, buoyancy, development and solid-response distortions; identify what cannot be matched simultaneously.
+\end{itemize}
+\item \topiclabel{source-property-and-loss-differences}\textbf{Source, property and loss differences.} Equal total power does not establish equivalent thermal forcing.\cite{brown2020msrphenomena}
+\begin{itemize}
+\item Declare electrical-wall versus volumetric heating, composition/\allowbreak{}property range and nonuniform losses; keep omitted reactor physics outside the representation claim.
+\end{itemize}
+\end{itemize}
+
+\subsection{Reduction problem and research gap}\label{subsec:reduction-problem-and-research-gap}
+\begin{itemize}[leftmargin=*]
+\item Developing and asymmetric profiles can separate a local sensor temperature from the temperature associated with conserved bulk enthalpy transport.
+\item Research question: how can conservative closures and temperature observation maps improve useful predictions, and when are simpler models adequate?
+\item Use the completed Texas A\&M University (TAMU) study as preliminary evidence, with its case-specific assessment limits.\cite{fierro2026cfdoneD,reis2024molten}
+\item Preliminary work establishes an executable computational fluid dynamics (CFD)-to-one-dimensional (1D) reduction process and shows why temperature agreement alone does not settle the physical interpretation. The proposed PhD research adds qualified experimental and CFD integration and assessment of the reduction and closure-selection procedure.\cite{fierro2026cfdoneD}
+\end{itemize}
+
+
+\subsection{Research premise}\label{subsec:research-premise}
+\begin{itemize}[leftmargin=*]
+\item The proposed research will test whether a reproducible, conservation-based reduction procedure, informed by flow development and the actual sensor response, produces more useful temperature predictions than a conventional fixed-correlation model at comparable information and parameter flexibility.
+\item The contribution will be evaluated through the effect of specific modeling decisions: retained storage and heat paths, closure descriptors, observation operators, and the evidence used to learn parameters. Lower fitting error alone will not establish the contribution.
+\item An equally useful outcome is a defensible adequacy boundary: the operating conditions and outputs for which a simpler model is sufficient, and the additional information or physical representation needed beyond that boundary.
+\end{itemize}

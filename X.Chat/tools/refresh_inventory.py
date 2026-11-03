@@ -110,4 +110,6 @@ for key, count in summary['link_statuses'].items():
     text += f'- `{key}`: {count} link occurrences.\n'
 text += '\n- Complete original link text, parent note and line locator: [link audit](obsidian_links.csv).\n- File metadata: [resource inventory](resource_inventory.csv); [scan scope](inventory_summary.json).\n'
 (OUT / 'FIGURE_ROUTES.md').write_text(text)
+from obsidian_links import normalize
+normalize()  # Generated notes must use the vault's internal aliases, never OS paths.
 print(json.dumps(summary, indent=2))

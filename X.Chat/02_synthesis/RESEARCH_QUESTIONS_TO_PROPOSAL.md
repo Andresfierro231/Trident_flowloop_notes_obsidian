@@ -3,8 +3,8 @@
 - Purpose: use the earlier literature effort to answer/support proposal and research questions. This crosswalk is a supporting index, not a replacement outline or folder hierarchy.
 - The saved canonical list contains 62 questions, A1–K5. Earlier-chat records corroborate that count; the author recalled roughly 65. No additional three questions have been identified, and none are fabricated here.
 - Preserve exact question wording and original IDs. Existing answers/evidence come from the current literature owner; this task does not re-audit every primary source or claim new empirical findings.
-- Full exact questions, answers, evidence and follow-up tasks: [structured crosswalk](../01_sources/research_question_proposal_crosswalk.csv).
-- Original answer owner: [question_answers.json](</Users/andres/projects/research/Paper_and_Presentations/Trident_papers/lit_rev_codex/PhD_internal_litRev/questions/question_answers.json>); readable full answers: [Questions_A1_K5_Answered.md](</Users/andres/projects/research/Paper_and_Presentations/Trident_papers/lit_rev_codex/PhD_internal_litRev/questions/Questions_A1_K5_Answered.md>).
+- Full exact questions, answers, evidence and follow-up tasks: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/research_question_proposal_crosswalk.csv|structured crosswalk]].
+- Original answer owner: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/lit_rev_codex/PhD_internal_litRev/questions/question_answers.json|question_answers.json]]; readable full answers: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/lit_rev_codex/PhD_internal_litRev/questions/Questions_A1_K5_Answered.md|Questions_A1_K5_Answered.md]].
 
 ## How to use an answer
 
@@ -62,3 +62,16 @@
 - Review synthesis: the source marks all 62 complete. Proposal integration: only routed here, not newly certified item by item. Empirical/design follow-up: remains as specified per answer.
 - Completed master’s/1D work informs preliminary feasibility and the gap across these questions; it is a separate evidence source rather than a new review-question group.
 - The local/HPC exchange asks about implementation/results and newer evidence; it should not reopen already answered literature questions by default.
+
+## Current LaTeX integration
+
+- All 62 located questions now have unique body anchors, an answer/argument bullet, an explicit expansion/research step and an evidence pointer in the prepared LaTeX revision.
+- The working PDF appendix gives compiled-page destinations. The proposed group-level routing above is superseded by the precise per-question file/subsection/page fields in the current CSV.
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/2026-11-02/coverage/COVERAGE.md|Current coverage and research-insertion register]].
+- Empirical answers/results remain to be established where the review identifies further work.
+
+
+## Committee-facing revision
+
+- Scientific bullets retain the confirmed question coverage; internal IDs/evidence blocks no longer appear in the rendered proposal. The reading guide and coverage appendix are commented out.
+- Current pages and semantic LaTeX labels are in the coverage CSV. Coordination and author questions remain outside the committee distribution.

@@ -1,0 +1,5 @@
+# Preserve literal historical patch and compiler-log bytes; do not strip their whitespace.
+*.patch -whitespace
+*.log -whitespace
+# Frozen remote snapshot remains byte-identical.
+archive/** -whitespace

@@ -1,0 +1,351 @@
+# Figure and attachment pointers
+
+- Purpose: preserve context for author-led image selection; no image contents inspected or geometry inferred.
+- Resolution below is exact relative-path/basename matching within this notes tree. Missing targets may exist elsewhere in the vault.
+- Hardware photos show a dated configuration; verify relevance before using as a geometry authority. Rev7 is labeled historical; Rev8/Rev9 selection remains explicit.
+
+- F001: `Conceptual_loop_23_Feb_26.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/0. Overview and intro/Trident - STNCL Loops.md|Trident - STNCL Loops.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F002: `ANS_2026_Trident.pdf#page=9&rect=8,37,182,181|ANS_2026_Trident, p.9`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2.1 EPIC ACU Senor Names.md|1.1.2.1 EPIC ACU Senor Names.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F003: `ACU_Detailed_General_Arrangement.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F004: `ACU_Detailed_General_Arrangement 2.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F005: `combined_as_built_files_acu.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F006: `Pasted image 20261006133638.png|300`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20261006133638.png|Pasted image 20261006133638.png]]; contents not inspected.
+- F007: `ACU_Loop_Simple.png|300`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F008: `ACU_Loop_Sensors.png|500`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F009: `IMG_20260408_151903_553.jpg|another angle, uninsulated`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F010: `IMG_20260408_151856_760.jpg|uninsulated`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F011: `IMG_20260408_151856_760.jpg|uninsulated`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F012: `IMG_20260408_151903_553.jpg`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F013: `IMG_20260408_151856_760.jpg`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F014: `DC_4684.jpg|Past thinner insulation`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F015: `2026-09-15_DC_4740c.jpg|300`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F016: `IMG_8871.jpeg|bare loop geometry`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F017: `MSETF_STNCL_Loop_Drawing_(as_constructed)_Rev9.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F018: `MSETF_STNCL_Loop_Drawing_Rev7.pdf|Rev7, no longer use`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F019: `VCU STNCL-Sensor Information.xlsx`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F020: `Pasted image 20261014092143.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20261014092143.png|Pasted image 20261014092143.png]]; contents not inspected.
+- F021: `MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev8_CAD_Engineering_Drawings.pdf|VCU_Rev8_CAD_Engineering_Drawings`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Ambiguous local matches: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev8_CAD_Engineering_Drawings.pdf|VCU_Rev8_CAD_Engineering_Drawings.pdf]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/drawings/VCU_Rev8_CAD_Engineering_Drawings.pdf|VCU_Rev8_CAD_Engineering_Drawings.pdf]]
+- F022: `Pasted image 20261006140846.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20261006140846.png|Pasted image 20261006140846.png]]; contents not inspected.
+- F023: `VCU_Rev9_Compact_Sensors_Heights.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev9_Compact_Sensors_Heights.pdf|VCU_Rev9_Compact_Sensors_Heights.pdf]]; contents not inspected.
+- F024: `VCU_Rev9_Simplified_Sensors_Lengths.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev9_Simplified_Sensors_Lengths.pdf|VCU_Rev9_Simplified_Sensors_Lengths.pdf]]; contents not inspected.
+- F025: `VCU_Loop_Sensors.png|400`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F026: `VCU_Loop_Simple_Draft.png|300`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F027: `Pasted image 20260911080943.png|300`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260911080943.png|Pasted image 20260911080943.png]]; contents not inspected.
+- F028: `1000008765.jpg`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F029: `uninsulated_corners.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F030: `1000008768.jpg|300`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F031: `Pasted image 20261022173050.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20261022173050.png|Pasted image 20261022173050.png]]; contents not inspected.
+- F032: `IMG_8871.jpeg|300`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F033: `Pasted image 20260921124359.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.1 Geometry pics.md|1.1.1 Geometry pics.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260921124359.png|Pasted image 20260921124359.png]]; contents not inspected.
+- F034: `Heaters no insulation.jpg`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Heaters and coolers.md|1.1.0 Heaters and coolers.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F035: `VCU_STNCL_Power_Calculator (1).xlsx`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Heaters and coolers.md|1.1.0 Heaters and coolers.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F036: `Heat exchanger.jpg`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Heaters and coolers.md|1.1.0 Heaters and coolers.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F037: `Pasted image 20260916145752.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2.1 Prop 30 ThermoPhys Props.md|1.2.1 Prop 30 ThermoPhys Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260916145752.png|Pasted image 20260916145752.png]]; contents not inspected.
+- F038: `Pasted image 20260916150018.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2.1 Prop 30 ThermoPhys Props.md|1.2.1 Prop 30 ThermoPhys Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260916150018.png|Pasted image 20260916150018.png]]; contents not inspected.
+- F039: `Pasted image 20260916165634.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2.1 Prop 30 ThermoPhys Props.md|1.2.1 Prop 30 ThermoPhys Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260916165634.png|Pasted image 20260916165634.png]]; contents not inspected.
+- F040: `Pasted image 20260916171722.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2.1 Prop 30 ThermoPhys Props.md|1.2.1 Prop 30 ThermoPhys Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260916171722.png|Pasted image 20260916171722.png]]; contents not inspected.
+- F041: `Pasted image 20260916171707.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2.1 Prop 30 ThermoPhys Props.md|1.2.1 Prop 30 ThermoPhys Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260916171707.png|Pasted image 20260916171707.png]]; contents not inspected.
+- F042: `Pasted image 20260918162121.png|400`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2.2 Steel Pipe Properties.md|1.2.2 Steel Pipe Properties.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260918162121.png|Pasted image 20260918162121.png]]; contents not inspected.
+- F043: `316L_correlations_vs_NRC.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2.2 Steel Pipe Properties.md|1.2.2 Steel Pipe Properties.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/316L_correlations_vs_NRC.pdf|316L_correlations_vs_NRC.pdf]]; contents not inspected.
+- F044: `316L_correlations_vs_NRC (1).pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2.2 Steel Pipe Properties.md|1.2.2 Steel Pipe Properties.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/316L_correlations_vs_NRC (1).pdf|316L_correlations_vs_NRC (1).pdf]]; contents not inspected.
+- F045: `Pasted image 20260921122948.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2.2 Steel Pipe Properties.md|1.2.2 Steel Pipe Properties.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260921122948.png|Pasted image 20260921122948.png]]; contents not inspected.
+- F046: `Pasted image 20260921123601.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2 Main Material Props.md|1.2 Main Material Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260921123601.png|Pasted image 20260921123601.png]]; contents not inspected.
+- F047: `Pasted image 20260921123630.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2 Main Material Props.md|1.2 Main Material Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260921123630.png|Pasted image 20260921123630.png]]; contents not inspected.
+- F048: `Pasted image 20260918112110.png|300`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2 Main Material Props.md|1.2 Main Material Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260918112110.png|Pasted image 20260918112110.png]]; contents not inspected.
+- F049: `Pasted image 20260918162620.png|500`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2 Main Material Props.md|1.2 Main Material Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260918162620.png|Pasted image 20260918162620.png]]; contents not inspected.
+- F050: `Pasted image 20260926180243.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2 Main Material Props.md|1.2 Main Material Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260926180243.png|Pasted image 20260926180243.png]]; contents not inspected.
+- F051: `Pasted image 20260918112233.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2 Main Material Props.md|1.2 Main Material Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260918112233.png|Pasted image 20260918112233.png]]; contents not inspected.
+- F052: `Pasted image 20260926180745.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2 Main Material Props.md|1.2 Main Material Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260926180745.png|Pasted image 20260926180745.png]]; contents not inspected.
+- F053: `Pasted image 20260926180810.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2 Main Material Props.md|1.2 Main Material Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260926180810.png|Pasted image 20260926180810.png]]; contents not inspected.
+- F054: `Pasted image 20260926180902.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2 Main Material Props.md|1.2 Main Material Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260926180902.png|Pasted image 20260926180902.png]]; contents not inspected.
+- F055: `Pasted image 20260926180930.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2 Main Material Props.md|1.2 Main Material Props.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260926180930.png|Pasted image 20260926180930.png]]; contents not inspected.
+- F056: `ANEC-000126_SENSORLABELS_CHK5a.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F057: `ACU_Detailed_General_Arrangement 2.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F058: `ACU_Detailed_General_Arrangement 2.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F059: `Conceptual_loop_23_Feb_26.pdf#page=5&rect=5,0,956,540|Conceptual_loop_23_Feb_26, p.5`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F060: `D-000118 updated.pdf#page=1&rect=26,178,635,749|D-000118 updated, p.1`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000118 updated.pdf|D-000118 updated.pdf]]; contents not inspected.
+- F061: `D-000118 1.pdf#page=1&rect=27,40,639,182|D-000118, p.1|500`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000118 1.pdf|D-000118 1.pdf]]; contents not inspected.
+- F062: `D-000167 1.pdf#page=1&rect=47,153,503,742|D-000167, p.1|500`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000167 1.pdf|D-000167 1.pdf]]; contents not inspected.
+- F063: `D-000167 1.pdf#page=1&rect=27,42,597,150|D-000167, p.1|550`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000167 1.pdf|D-000167 1.pdf]]; contents not inspected.
+- F064: `Pasted image 20260821141504.png|300`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/attachments/Pasted image 20260821141504.png|Pasted image 20260821141504.png]]; contents not inspected.
+- F065: `ACU_Detailed_General_Arrangement.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F066: `ACU_Detailed_General_Arrangement 2.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F067: `MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000158.pdf#page=1&rect=50,212,371,743|D-000158, p.1`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000158.pdf|D-000158.pdf]]; contents not inspected.
+- F068: `MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000158.pdf#page=1&rect=29,12,629,216|D-000158, p.1`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000158.pdf|D-000158.pdf]]; contents not inspected.
+- F069: `MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000164.pdf#page=1&rect=63,300,347,739|D-000164, p.1`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000164.pdf|D-000164.pdf]]; contents not inspected.
+- F070: `MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000164.pdf#page=1&rect=28,37,643,206|D-000164, p.1`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000164.pdf|D-000164.pdf]]; contents not inspected.
+- F071: `ncdt_ceramic_mat_heater_candidate_5.5x48.75in.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F072: `MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/SaltLoopV1BDrawing.pdf#page=2&rect=29,45,770,747|SaltLoopV1BDrawing, p.2`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/SaltLoopV1BDrawing.pdf|SaltLoopV1BDrawing.pdf]]; contents not inspected.
+- F073: `ncdt_salt_loop_planning_p_and_id_WIP_DRAFT.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F074: `MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/drawings/VCU_Rev8_CAD_Engineering_Drawings.pdf|VCU_Rev8_CAD_Engineering_Drawings`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Ambiguous local matches: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev8_CAD_Engineering_Drawings.pdf|VCU_Rev8_CAD_Engineering_Drawings.pdf]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/drawings/VCU_Rev8_CAD_Engineering_Drawings.pdf|VCU_Rev8_CAD_Engineering_Drawings.pdf]]
+- F075: `VCU_Rev9_CAD_Engineering_Drawings.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/VCU_Rev9_CAD_Engineering_Drawings.pdf|VCU_Rev9_CAD_Engineering_Drawings.pdf]]; contents not inspected.
+- F076: `VCU_Loop_Sensors.png|400`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.0 Geometry notes.md|1.1.0 Geometry notes.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F077: `Pasted image 20261014105153.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.A.1 ACU Loop is bigger than VCU loop.md|1.A.1 ACU Loop is bigger than VCU loop.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20261014105153.png|Pasted image 20261014105153.png]]; contents not inspected.
+- F078: `Pasted image 20260925081141.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.A.1 ACU Loop is bigger than VCU loop.md|1.A.1 ACU Loop is bigger than VCU loop.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260925081141.png|Pasted image 20260925081141.png]]; contents not inspected.
+- F079: `Pasted image 20261006132553.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.A.1 ACU Loop is bigger than VCU loop.md|1.A.1 ACU Loop is bigger than VCU loop.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20261006132553.png|Pasted image 20261006132553.png]]; contents not inspected.
+- F080: `Pasted image 20261006133638.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.A.1 ACU Loop is bigger than VCU loop.md|1.A.1 ACU Loop is bigger than VCU loop.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20261006133638.png|Pasted image 20261006133638.png]]; contents not inspected.
+- F081: `Pasted image 20261006134025.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.A.1 ACU Loop is bigger than VCU loop.md|1.A.1 ACU Loop is bigger than VCU loop.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20261006134025.png|Pasted image 20261006134025.png]]; contents not inspected.
+- F082: `ANEC-000126_SENSORLABELS_CHK5a.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F083: `combined_as_built_files_acu.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F084: `ACU_Loop_Sensors.png|500`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F085: `ncdt_planning_p_and_id_WIP_20260625.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F086: `ncdt_planning_p_and_id_WIP_20260625.pdf|400`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F087: `ncdt_salt_loop_planning_p_and_id_WIP_DRAFT.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F088: `Pasted image 20260925081737.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20260925081737.png|Pasted image 20260925081737.png]]; contents not inspected.
+- F089: `Pasted image 20261006134905.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20261006134905.png|Pasted image 20261006134905.png]]; contents not inspected.
+- F090: `combined_as_built_files_acu.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F091: `ACU_Detailed_General_Arrangement 2.pdf|Geometry`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F092: `VCU STNCL-Sensor Information.xlsx`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F093: `Pasted image 20261006134932.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20261006134932.png|Pasted image 20261006134932.png]]; contents not inspected.
+- F094: `MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev8_CAD_Engineering_Drawings.pdf#page=5|VCU_Rev8_CAD_Engineering_Drawings`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Ambiguous local matches: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev8_CAD_Engineering_Drawings.pdf|VCU_Rev8_CAD_Engineering_Drawings.pdf]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/drawings/VCU_Rev8_CAD_Engineering_Drawings.pdf|VCU_Rev8_CAD_Engineering_Drawings.pdf]]
+- F095: `MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/drawings/VCU_Rev8_CAD_Engineering_Drawings.pdf|VCU_Rev8_CAD_Engineering_Drawings`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Ambiguous local matches: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev8_CAD_Engineering_Drawings.pdf|VCU_Rev8_CAD_Engineering_Drawings.pdf]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/drawings/VCU_Rev8_CAD_Engineering_Drawings.pdf|VCU_Rev8_CAD_Engineering_Drawings.pdf]]
+- F096: `MSETF_STNCL_Loop_Drawing_(as_constructed)_Rev9.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F097: `VCU_Rev9_Compact_Sensors_Heights.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev9_Compact_Sensors_Heights.pdf|VCU_Rev9_Compact_Sensors_Heights.pdf]]; contents not inspected.
+- F098: `VCU_Rev9_Simplified_Sensors_Lengths.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev9_Simplified_Sensors_Lengths.pdf|VCU_Rev9_Simplified_Sensors_Lengths.pdf]]; contents not inspected.
+- F099: `Pasted image 20261014094551.png|300`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/Pasted image 20261014094551.png|Pasted image 20261014094551.png]]; contents not inspected.
+- F100: `630-000-0199_Thermaflow_700_Product_Sheet.pdf#page=2&rect=14,467,345,585|630-000-0199_Thermaflow_700_Product_Sheet, p.2`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.1.2 Sensors.md|1.1.2 Sensors.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F101: `VCU_Rev7_Rev8_CAD_Comparison.xlsx`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev7_Rev8_CAD_Comparison.md|VCU_Rev7_Rev8_CAD_Comparison.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/attachments/VCU_Rev7_Rev8_CAD_Comparison.xlsx|VCU_Rev7_Rev8_CAD_Comparison.xlsx]]; contents not inspected.
+- F102: `Pasted image 20261022171306.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/'26 Oct 16 - VCU exp team meeting.md|'26 Oct 16 - VCU exp team meeting.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/Attachments/Pasted image 20261022171306.png|Pasted image 20261022171306.png]]; contents not inspected.
+- F103: `Pasted image 20261013142523.png|300`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/'26 Sep 09 - Carasik Email.md|'26 Sep 09 - Carasik Email.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/Attachments/Pasted image 20261013142523.png|Pasted image 20261013142523.png]]; contents not inspected.
+- F104: `ACU Hardware/IMG_20260420_152800_229.jpg|300`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/A.1 Interesting Pictures and drawing.md|A.1 Interesting Pictures and drawing.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F105: `ACU_Loop_Simple.png|300`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/A.1 Interesting Pictures and drawing.md|A.1 Interesting Pictures and drawing.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F106: `VCU_Loop_Simple_Draft.png|300`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/A.1 Interesting Pictures and drawing.md|A.1 Interesting Pictures and drawing.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F107: `D-000167_PKG.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/As designed documentation.md|As designed documentation.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F108: `D-000167_PKG.pdf|400`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/As designed documentation.md|As designed documentation.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F109: `D-000117a 1.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/As designed documentation.md|As designed documentation.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000117a 1.pdf|D-000117a 1.pdf]]; contents not inspected.
+- F110: `D-000118 updated.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/As designed documentation.md|As designed documentation.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000118 updated.pdf|D-000118 updated.pdf]]; contents not inspected.
+- F111: `D-000177.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/As designed documentation.md|As designed documentation.md]].
+  - Unresolved in this notes tree; retain original wiki-link for vault lookup.
+- F112: `D-000167 1.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/As designed documentation.md|As designed documentation.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000167 1.pdf|D-000167 1.pdf]]; contents not inspected.
+- F113: `D-000117a 1.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/As designed documentation.md|As designed documentation.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000117a 1.pdf|D-000117a 1.pdf]]; contents not inspected.
+- F114: `D-000183 1.pdf`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/As designed documentation.md|As designed documentation.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/A. Appendix/local_version_drawings_frozen/D-000183 1.pdf|D-000183 1.pdf]]; contents not inspected.
+- F115: `Slack message documentation.png`
+  - Context: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/attachments/Slack message documentation.md|Slack message documentation.md]].
+  - Located: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/attachments/attachments/Slack message documentation.png|Slack message documentation.png]]; contents not inspected.

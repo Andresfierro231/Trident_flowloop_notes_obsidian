@@ -2,7 +2,7 @@
 
 - Source: G01, exact text read earlier in this conversation; that same read is reused, with its captured revision. No new document change is asserted.
 - The newly mounted snapshot was unavailable through the file reader; this comparison relies on the already obtained exact-source text, not that unreadable snapshot.
-- All 580 returned paragraphs are assigned a topic/disposition in [item coverage](../01_sources/planning_item_coverage.csv), including repeats, blanks and administrative/history content. Source indices are version-specific.
+- All 580 returned paragraphs are assigned a topic/disposition in [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/planning_item_coverage.csv|item coverage]], including repeats, blanks and administrative/history content. Source indices are version-specific.
 - The first outline already covered the central scientific story. This pass restores detailed workflow tasks/sub-bullets and explicitly marks superseded, optional and administrative material; it does not convert every historic TODO into a new requirement.
 
 | Group | Planning subsection / task | Proposal destination | Literature / HPC route | Disposition |
