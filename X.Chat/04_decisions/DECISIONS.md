@@ -60,3 +60,8 @@
 - Author requests archived history, notes/discussion in X.Chat plus appropriate Git supporting records, and a map for Box books/research.
 - Implemented task-boundary synchronization/scoped publication, frozen dated packages and one live alias. Existing science holds/source identities remain.
 - TACC current paths and receipt are not inferred from local setup.
+
+## AD-20261103-03 — Direct prose and redundant disclaimers
+
+- Author: “Please remove that kind of redundancy”, identifying the statement that TAMU observations do not validate an ACU/VCU observation map.
+- Direction: state what sources show directly; remove obvious cross-facility disclaimers and repeated defensive statements. Keep concise assumptions and quantitative qualifications where needed to interpret a result.
