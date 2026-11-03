@@ -46,3 +46,12 @@
 - Preferred Clarno source folder: /Users/andres/projects/research/Paper_and_Presentations/Trident_papers/Clarno_writeup/; the user-supplied MainVault/Documents path resolves here.
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/Clarno_writeup/Clarno_trident_vision/main.tex|TRIDENT Vision]] (rev0.16, October 19, 2026); [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/Clarno_writeup/clarno_trident_modSim_overview/main.tex|TRIDENT Modeling Overview]] (rev0.1, October 19, 2026). Both are read-only external draft sources. Their inspected bytes match the older reference copies; this directory is now the preferred local access route.
 - N12: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/'26 Oct 14 - Moser meeting feedback on abstract.md|Moser feedback]]. Use its decision → QoI → inputs/outputs → model form → impact questions to guide proposal framing. Implementation coverage is in proposal doc_support/reconciliation/2026-11-03/MOSER_FEEDBACK_COVERAGE.md.
+
+## Local proposal build layout — November 3 reorganization
+
+- Canonical root: /Users/andres/projects/research/Paper_and_Presentations/Andres_Fierro_Dissertation_Proposal/; X.Chat/03_proposal/current/ aliases that checkout.
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/build/current/main.pdf|Current compiled proposal]] remains at build/current/main.pdf.
+- Older generated runs now live in build/past/ (folder), matching the author's supplied X.Chat/03_proposal/current/build/past/ route. Observed subfolders: consolidation-2026-11-03, editorial_intermediate_2026-11-03, editorial_intermediate_2_2026-11-03, reconciliation-2026-11-02, root_outputs_before_editorial_2026-11-03.
+- Earlier handoff pointers of the form build/<older-run>/ should be resolved as build/past/<older-run>/ on this Mac. Historical records retain their original paths.
+- build/citation-commands/ remains beside current/ and past/; build/current-build.log remains the current invocation log.
+- Compile current output with bash scripts/build_proposal.sh build/current. Git ignores generated build folders; synchronization carries this map, not the local generated files.
