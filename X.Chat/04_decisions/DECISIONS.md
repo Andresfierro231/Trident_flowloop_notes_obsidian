@@ -65,3 +65,10 @@
 
 - Author: “Please remove that kind of redundancy”, identifying the statement that TAMU observations do not validate an ACU/VCU observation map.
 - Direction: state what sources show directly; remove obvious cross-facility disclaimers and repeated defensive statements. Keep concise assumptions and quantitative qualifications where needed to interpret a result.
+
+
+## AD-20261103-04 — Chapter 1 structure and interpretability
+
+- Author requests Motivation for a reduced model with a nested Prediction tasks and QoIs subsection; high-fidelity findings and historical experimental data should supply insight for running experiments.
+- Chapter 1 comment direction: emphasize interpretable state/trajectory/settling/operating insight; improve table spacing and use linked bibliography-driven author/title commands. Author is working on Chapter 2.
+- Implemented in proposal main ac1aff2; approved stages and research execution holds retained. Chapter 2 source excluded from task.
