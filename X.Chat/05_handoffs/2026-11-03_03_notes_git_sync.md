@@ -8,7 +8,9 @@
 - Incorporated remote Git transport/HPC authority instructions and local November 3 manuscript/archive/navigation work. Git does not imply another agent pulled or scientifically answered HX questions.
 - Local repository aliases remain ignored per machine; relative archived staged aliases are versioned in Git.
 - Updated link normalizer to map physical outside-Box notes back to stable vault paths. No source renames, image viewing, scientific parsing or computation was performed.
-- Validation/publication to be recorded after cutover checks.
+- Cutover checks passed: imported-byte verification, 764 resolving links and staged whitespace checks (historical patches/logs retain literal bytes). Both repositories were pulled with --ff-only and pushed successfully.
 
 - Validation: all 371 imported source files were rehashed against Box immediately before cutover; unchanged originals remain in the preserved snapshot. All 764 authored X.Chat wikilinks resolve at the original vault route after cutover. No unsafe absolute-path Markdown links. Link normalization excludes frozen archive directories; validation still checks their links.
 - Historical patch/log bytes are preserved via path-specific whitespace attributes; source records are not rewritten to silence whitespace checks. Old remote staged source bytes are preserved in root archive/2026-11-03/ with a hash move map.
+
+- Published reconciliation checkpoint: notes b0de7d4; proposal maps 200b2b8. This follow-up records those verified pushes. TACC must still pull each repo; Git success is not remote-agent acknowledgment.
