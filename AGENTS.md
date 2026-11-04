@@ -76,3 +76,5 @@ external CAD without the applicable explicit approval. Do not expose secrets.
 - Internal instructions/study requests belong in notes or proposal doc_support/committee/. Current prompt: X.Chat/06_hpc_exchange/2026-11-03/PROPOSAL_RESULTS_REQUEST.md. Prepared, not acknowledged; execution holds remain.
 
 - Latest outline direction: motivation → experimental/high-fidelity evidence (including preliminary results) → integrated research methods → aims and one-year delivery plan. Introduce concepts just before use; follow proposal doc_support/committee/STRUCTURE.md. This supersedes earlier chapter-specific aim/method placement.
+
+- Proposal authoring format is bullet points for now. Preserve this during restructuring; switch to narrative prose only when explicitly requested. Equations, tables and the four-chapter structure remain.

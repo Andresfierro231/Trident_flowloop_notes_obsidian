@@ -41,3 +41,5 @@
 - Request specific HPC figures/tables/results with placement, quantities, units and source requirements. Current packet: 06_hpc_exchange/2026-11-03/PROPOSAL_RESULTS_REQUEST.md. Active chapter files now follow reading order; see canonical proposal doc_support/committee/SECTION_MOVE_MAP.json.
 
 - Latest author structure supersedes that aim-linked order: Chapter 1 motivation/impact; Chapter 2 experiments, existing/planned CFD and preliminary evidence; Chapter 3 integrated methods with theory, physical model, sensors, learning, assessment and uncertainty; Chapter 4 formal aims, one-year plan and deliverables. Define concepts just before use. Proposal doc_support/committee/STRUCTURE.md owns the current first-use map.
+
+- Proposal authoring format is bullet points for now. Preserve this during restructuring; switch to narrative prose only when explicitly requested. Equations, tables and the four-chapter structure remain.
