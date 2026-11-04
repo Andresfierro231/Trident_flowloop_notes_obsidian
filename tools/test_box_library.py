@@ -70,4 +70,3 @@ class CatalogTest(unittest.TestCase):
         self.assertEqual(lib.abstract_from("Book title and contents")["text"], "")
 if __name__ == "__main__":
     unittest.main()
-

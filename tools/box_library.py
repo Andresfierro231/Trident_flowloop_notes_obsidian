@@ -230,7 +230,7 @@ def refresh(root, home, reextract=False):
     atomic_text(home/"catalog.jsonl", "".join(json.dumps(r, ensure_ascii=False, sort_keys=True)+"\n" for r in output))
     with (home/"search.csv").open("w", newline="") as f:
         fields = ["id", "status", "title", "categories", "keywords", "abstract_status", "paths"]
-        writer = csv.DictWriter(f, fields, lineterminator="\n")
+        writer = csv.DictWriter(f, fields, lineterminator="\n", quoting=csv.QUOTE_ALL)
         writer.writeheader()
         for r in output:
             writer.writerow({"id": r["id"], "status": r["status"], "title": r["title"],
@@ -319,4 +319,3 @@ def main():
             print(path)
 if __name__ == "__main__":
     main()
-
