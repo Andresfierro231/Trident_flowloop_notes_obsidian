@@ -1,4 +1,6 @@
-# Research map
+# Research-question map
+
+- For geometry, materials, sensors and source owners, use [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/PROJECT_MAP.md|the canonical project map]].
 
 - Organization follows proposal/research questions and author goals. Use [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/RESEARCH_QUESTIONS_TO_PROPOSAL.md|the original-question crosswalk]] to bring relevant literature answers into that work.
 
@@ -15,7 +17,7 @@
 | How is credibility assessed? | Master’s lessons; Review A §§8–11,15 | Assessment → reproduction vs prediction, uncertainty, eligible holdouts |
 | How does the work develop? | R01/R02; current author answers | Steady → transitions → operational assistance; UQ throughout |
 
-- Active narrative trial: motivation → preliminary work → aims → evidence → model → methods → assessment → plan.
+- Current committee argument: motivation → experiments/CFD and preliminary evidence → integrated methods → aims and one-year delivery plan. The canonical proposal STRUCTURE.md owns chapter boundaries.
 - Immediate task: connect existing experimental records to model temperatures and show what can be reproduced; no operating-data processing or new simulation is part of this organization pass.
 - Open research-design details: leading experimental case, minimum later-stage demonstrations, justified tolerances and current implementation location when needed.
 - Navigate each topic through [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/SOURCE_REGISTER.md|source register]]; reconcile conflicts in [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/RECONCILIATION.md|one maintained synthesis]].

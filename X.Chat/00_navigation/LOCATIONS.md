@@ -1,5 +1,7 @@
 # Where things live
 
+- Current machine maps: `agents/MAC.md` and `agents/TACC.md`. TACC owner paths were verified on November 3 by OPS-008; historical archive locators below retain their snapshot role. The root PROJECT_MAP.md supplies geometry/material/sensor routes.
+
 - Use [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/LITERATURE_RESOURCES.md|literature resources]] for scientific context, [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/HPC_REPORT_MAP.md|HPC report map]] for implementation/research evidence, and [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/WORKING_UNDERSTANDING.md|working understanding]] for the cross-source interpretation.
 - Local paths below are verified locations; historical HPC roots come from the saved backup manifest and must be confirmed by the receiving HPC researcher.
 
@@ -19,7 +21,7 @@
 | Saved working documents | [[MainVault/Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z/andrew_workspace/working.tar.zst\|working.tar.zst]] | Theory, decisions, project/collaboration contracts; use archive-member paths in the catalog |
 | Saved reports | [[MainVault/Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z/andrew_workspace/reports.tar.zst\|reports.tar.zst]] | 791 Markdown records cataloged; report count is not experiment count or proof of scientific review |
 | Source/result storage manifest | [[MainVault/Box/VCU ACU Shared Research/TRIDENT_Modeling_Archives/2026-10-23_OPS-002_results_backup_20261023T192726Z/release_index.json\|release_index.json]] | Eight source owners, archive mapping, known external-link gaps |
-| Local ↔ HPC questions | [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/06_hpc_exchange/README.md\|exchange home]] | User-requested Box-mediated written exchange; prepared ≠ delivered ≠ acknowledged |
+| Local ↔ HPC questions | [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/06_hpc_exchange/README.md\|exchange home]] | User-requested Git-mediated written exchange; historical Box records preserved; prepared ≠ acknowledged |
 
 ## HPC roots recorded in the saved manifest
 

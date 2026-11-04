@@ -1,0 +1,13 @@
+{
+  "task": "OPS-008",
+  "date": "2026-11-03",
+  "purpose": "Archive completed Markdown smoke test; preserve original source manifests.",
+  "moves": [
+    {
+      "old": "X.Chat/codex_markdown_test.md",
+      "new": "archive/2026-11-03/OPS-008_organization/codex_markdown_test.md",
+      "sha256": "3a59dc884be8c2fca446f235b451d51455ee364dfa91c2cd289a45938e195ef5"
+    }
+  ],
+  "evidence_limit": "Hash/path preservation only; no source content or images inspected."
+}

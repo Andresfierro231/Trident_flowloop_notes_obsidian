@@ -1,6 +1,9 @@
 ---
+title: One research question or mechanism
 status: working
+owner: TASK-ID / unique-agent
 updated: YYYY-MM-DD
+tags: [project/trident, doc/working_note]
 ---
 
 # One research question or mechanism

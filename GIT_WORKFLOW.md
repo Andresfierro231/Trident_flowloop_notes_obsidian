@@ -17,7 +17,7 @@ python3 tools/git_session.py finish \
 Substitute real task paths. `begin` checks for a clean worktree and pulls with
 `--ff-only`; `finish` refuses preexisting staged changes, stages only named
 paths, runs `git diff --cached --check`, commits actual changes and pushes the
-current branch. With no edits, `finish` checks/pushes pending commits without
+current branch after a fresh fast-forward-only pull. With no edits, `finish` checks/pushes pending commits without
 creating an empty commit. Git reports authentication/network failures normally.
 The helper exits nonzero if a required step fails; never claim synchronization
 on failure. Ordinary Git commands are equivalent when the same checks are kept.

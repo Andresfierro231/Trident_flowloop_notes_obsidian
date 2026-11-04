@@ -48,6 +48,7 @@ def main():
             git('commit', '-m', args.message)
     if git('status', '--porcelain', '--untracked-files=normal', capture=True):
         parser.error('Uncommitted work remains; include/reconcile intended paths before the handoff.')
+    git('pull', '--ff-only', 'origin', branch)
     git('push', '--set-upstream', 'origin', branch)
     print('Push completed. Record the resulting commit in the task handoff.')
 

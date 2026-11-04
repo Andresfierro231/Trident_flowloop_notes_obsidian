@@ -1,11 +1,17 @@
-# Local research and writing home
+---
+title: Research and writing home
+status: maintained
+owner: notes organization
+updated: 2026-11-03
+tags: [project/trident, doc/index]
+---
 
-- Start: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/AGENT_START.md|agent startup]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/LOCATIONS.md|locations]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/05_handoffs/2026-11-03_15_bullet_draft.md|latest handoff]].
-- Proposal: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/main.tex|canonical LaTeX]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/AGENTS.md|shared/local/TACC instructions]]. 03_proposal/current/ is the local shortcut; dated packages are history.
-- Goals: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/RESEARCH_QUESTIONS_TO_PROPOSAL.md|research questions]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/WORKING_UNDERSTANDING.md|working understanding]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/PLANNING_COVERAGE.md|planning coverage]].
-- Sources: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/LITERATURE_RESOURCES.md|literature routes]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/BOX_LITERATURE.md|Box library]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/HPC_REPORT_MAP.md|HPC report map]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/SOURCE_REGISTER.md|source register]].
-- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/04_decisions/DECISIONS.md|Author decisions]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/06_hpc_exchange/README.md|Box exchange]]. Git handoffs bridge machines; acknowledgment must be observed.
-- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/ORGANIZATION.md|Ownership]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/OBSIDIAN_LINKS.md|Obsidian links]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/VSCODE.md|VS Code photos and links]].
-- Original notes/attachments/scientific records stay with existing owners. Read targeted routes, not the entire tree.
+# Research and writing home
 
-- Notes now use their own Git repository outside Box. The existing vault route is a local alias; original Box snapshot preserved. Root AGENTS.md/GIT_WORKFLOW.md govern notes synchronization independently of proposal Git.
+- Start: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/PROJECT_MAP.md|project/domain map]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/STATUS.md|notes tasks/status]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/AGENT_START.md|agent startup]].
+- Machine guidance: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/agents/SHARED.md|shared]], [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/agents/MAC.md|Mac]], [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/agents/TACC.md|TACC]].
+- Geometry, materials, sensors, heat paths and model introductions are routed in the project map; original subject notes stay in place.
+- Read by purpose: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/README.md|navigation]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/README.md|sources]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/README.md|synthesis]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/03_proposal/README.md|proposal]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/04_decisions/README.md|decisions]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/05_handoffs/README.md|handoffs]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/06_hpc_exchange/README.md|Git exchange]].
+- Maintain: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/00_navigation/ORGANIZATION.md|conventions]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/90_templates/README.md|templates]]; [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/tools/README.md|maintenance tools]].
+- HPC retains current research direction and qualified evidence. Notes support literature/synthesis/writing; the separate proposal Git repo owns the manuscript. Prepared requests are not scientific answers.
+- Git is primary transport; each agent pulls and reads the current handoff. Original Box and dated proposal packages are preserved history. No background synchronization is installed.

@@ -1,6 +1,6 @@
 # Trident writer and literature notes — agent instructions
 
-First identify local/TACC/unknown from hostname, OS, TACC markers and verified paths. Follow the machine map in the canonical proposal's doc_support/agent/ directory for local/proposal locations; never infer HPC paths from Mac paths. Synchronize BOTH this notes repository and the proposal independently.
+First identify Mac/TACC/unknown from hostname, OS, TACC markers and verified paths. Read `X.Chat/00_navigation/agents/SHARED.md` and exactly one of `MAC.md` or `TACC.md`. These notes-owned maps distinguish machine instructions; the proposal keeps its own `doc_support/agent/` rules. Synchronize BOTH repositories independently. Then read `STATUS.md`, `PROJECT_MAP.md` and the relevant task/handoff; never infer HPC paths from Mac paths.
 
 This is a separate Git repository for writing, literature reviews, Obsidian
 notes and communication with the HPC research initiative. Start each work
@@ -19,8 +19,9 @@ Re-read instructions changed by the pull before making edits.
    shared worktree; use another clone/branch for independent concurrent work.
 3. Before every handoff/end of an editing session, run
    `python3 tools/git_session.py finish --message 'Describe the change' --paths <explicit paths>`.
-   This stages only those paths, checks whitespace, commits them, then pushes
-   the current branch. Use `git status --short` to confirm what remains.
+   This stages only those paths, checks whitespace, commits them, performs a
+   fresh fast-forward-only pull, then pushes the current branch. Use
+   `git status --short` to confirm what remains.
 4. An editing task is not synchronized until the push succeeds. If another
    writer advanced the branch, fetch and reconcile without discarding work,
    rerun relevant checks, then push. Record any remaining failure and local
@@ -78,3 +79,9 @@ external CAD without the applicable explicit approval. Do not expose secrets.
 - Latest outline direction: motivation → experimental/high-fidelity evidence (including preliminary results) → integrated research methods → aims and one-year delivery plan. Introduce concepts just before use; follow proposal doc_support/committee/STRUCTURE.md. This supersedes earlier chapter-specific aim/method placement.
 
 - Proposal authoring format is bullet points for now. Preserve this during restructuring; switch to narrative prose only when explicitly requested. Equations, tables and the four-chapter structure remain.
+
+## Organization and expansion
+
+- `PROJECT_MAP.md` is the canonical notes domain/source map; maintain it and affected README indexes with important additions/moves. `X.Chat/00_navigation/ORGANIZATION.md` owns names, metadata, source IDs, evidence status and continuing-study lifecycle.
+- Keep original subject notes/assets and frozen packages intact. One current topic owner, dated evidence/handoffs, and explicit old/new/hash maps for physical moves. Do not follow external aliases or archived staged trees during edits/staging.
+- Run `python3 tools/check_organization.py` before handoff; record actual checks and current Git results. Use `--all-active` to report broader link debt without rewriting original sources.
