@@ -21,3 +21,6 @@ tasks; the proposal's agent status owns manuscript claims.
 - Latest model/source correction: `X.Chat/05_handoffs/2026-11-04_OPS-009_model_citations.md`; proposal publication `04c4a24`.
 - Mac-specific aliases/library roots are recorded by the Mac agent; their
   existence is not inferred from TACC. Start with the machine instructions.
+
+
+- OPS-010 review: internal material-note/library citations removed from proposal; verified thesis/IAEA support and unresolved VCU/Kirst provenance in the maintained material citation guide. Handoff: `X.Chat/05_handoffs/2026-11-04_OPS-010_original_material_sources.md`. No active edit claim remains after publication.

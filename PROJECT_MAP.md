@@ -78,3 +78,14 @@ facility/revision when relevant, current/historical status and evidence limits.
 Check local paths before publishing links. Keep unavailable machine-specific
 paths as qualified pointers, never guessed clickable links. Update affected
 folder indexes in the same edit; record physical moves in a hash-preserving map.
+
+## Original material-equation sources — November4
+
+See `X.Chat/01_sources/MATERIAL_CITATION_GUIDE.md` for exact support and limits.
+The separate master's thesis owner is
+`/scratch/09748/andresfierro231/projects_scratch/Papers/UTexas_Research/Master_support/csem-Masters_thesis/`:
+`AGENTS.md`, `README.md`, `chapters/04_reduced_model_methodology.tex`.
+It documents the adopted HITEC/legacy solid inputs. Rozak's separate CFD
+appendix has differing laws; its exact page routes are in the guide.
+The proposal owns `doc_support/committee/ORIGINAL_MATERIAL_SOURCES.json`.
+Sources remain with existing owners; Mac locations require its machine map.

@@ -85,3 +85,5 @@ external CAD without the applicable explicit approval. Do not expose secrets.
 - `PROJECT_MAP.md` is the canonical notes domain/source map; maintain it and affected README indexes with important additions/moves. `X.Chat/00_navigation/ORGANIZATION.md` owns names, metadata, source IDs, evidence status and continuing-study lifecycle.
 - Keep original subject notes/assets and frozen packages intact. One current topic owner, dated evidence/handoffs, and explicit old/new/hash maps for physical moves. Do not follow external aliases or archived staged trees during edits/staging.
 - Run `python3 tools/check_organization.py` before handoff; record actual checks and current Git results. Use `--all-active` to report broader link debt without rewriting original sources.
+
+- Material citation direction (November 4): internal notes and candidate libraries are provenance/discovery records, not proposal bibliography sources. Use verified originals or the master's/Rozak definitions only for equations actually supported there. See X.Chat/01_sources/MATERIAL_CITATION_GUIDE.md; preserve unresolved-fit status rather than invent attribution.
