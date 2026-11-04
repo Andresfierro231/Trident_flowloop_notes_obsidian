@@ -45,3 +45,16 @@ No images or PDF pages viewed. Original material coefficients/citations unchange
 Both repositories pulled before edits; scoped commits receive a fresh clean pull
 and push independently at closeout. Git history records publication, not another
 agent's scientific acknowledgment.
+
+## Latest author direction — combined balance restored
+
+The author requests the original Equation1 with both fluid conduction and
+enthalpy transport, plus brief Peclet sub-bullets. This supersedes this task's
+initial advection-only manuscript choice. Restored c_i terms, removed the
+high-Peclet requirement/separate-model discussion, and added two short
+sub-bullets with NIST FiPy Numerical Schemes citation. No runtime change.
+96states/1440node algebra checks pass; combined equation and no imposed
+high-Peclet requirement checked. Build:18pages/24aligned references, no
+undefined references/citations or overfull boxes. Source audit and reusable
+check updated; source coefficients untouched. Both repositories receive a
+fresh clean pull and push; publication IDs are in their Git histories.

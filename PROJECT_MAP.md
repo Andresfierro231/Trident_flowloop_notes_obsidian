@@ -94,7 +94,9 @@ Sources remain with existing owners; Mac locations require its machine map.
 
 See [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/05_handoffs/2026-11-04_OPS-011_energy_balance_audit.md|OPS-011 energy-balance audit]].
 The separate proposal owns `sections/outline/03_methods.tex` and
-`doc_support/committee/ENERGY_BALANCE_AUDIT.json`. Its flowing baseline omits
-axial fluid conduction; the conductive no-flow form is separate. HPC diagnostic
-M2/M3 defaults still retain selectable conduction.96synthetic states verify
+`doc_support/committee/ENERGY_BALANCE_AUDIT.json`. Latest author direction
+restores combined fluid conduction and enthalpy transport; two short Peclet
+sub-bullets explain their relative strength with a NIST citation, without a
+high-Peclet requirement. This supersedes the initial advection-only draft.
+Diagnostic M2/M3 conduction defaults are unchanged.96synthetic states verify
 algebra, not facility applicability; no solver/configuration change was made.

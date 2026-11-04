@@ -30,3 +30,6 @@ tasks; the proposal's agent status owns manuscript claims.
 
 
 - OPS-011 review: clarified flowing/no-flow equations in proposal; diagnostic conduction remains selectable/default-on. See `X.Chat/05_handoffs/2026-11-04_OPS-011_energy_balance_audit.md`.96synthetic states/1440node checks; clean18-page build. No active editing claim remains at publication.
+
+
+- Latest OPS-011 author direction: combined Equation1 restored; two brief Peclet sub-bullets and NIST citation, no high-Peclet requirement. Supersedes the prior advection-only choice. Runtime unchanged;96states/1440node checks, clean18-page build/24aligned references. No active editing claim remains at publication.
