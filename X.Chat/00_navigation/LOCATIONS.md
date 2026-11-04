@@ -55,3 +55,9 @@
 - Earlier handoff pointers of the form build/<older-run>/ should be resolved as build/past/<older-run>/ on this Mac. Historical records retain their original paths.
 - build/citation-commands/ remains beside current/ and past/; build/current-build.log remains the current invocation log.
 - Compile current output with bash scripts/build_proposal.sh build/current. Git ignores generated build folders; synchronization carries this map, not the local generated files.
+
+## Committee proposal structure — November 3
+
+- Active files follow reading order: 01_motivation.tex, 02_preliminary.tex, 03_research.tex, 04_evidence.tex, 05_model.tex, 06_methods.tex, 07_assessment.tex, 08_plan.tex under the proposal sections/outline/ directory.
+- Internal editorial/evidence owner: proposal doc_support/committee/; SECTION_MOVE_MAP.json preserves former filenames. Existing IDs remain as chapter-level homes; old dated page maps are historical.
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/06_hpc_exchange/2026-11-03/PROPOSAL_RESULTS_REQUEST.md|Specific HPC result request]] supplies plots, tables and insertion slots for the committee draft.

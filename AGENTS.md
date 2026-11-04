@@ -69,3 +69,8 @@ external CAD without the applicable explicit approval. Do not expose secrets.
 
 - Local notes owner: /Users/andres/projects/research/Trident/Trident_flowloop_notes_obsidian/. Existing Obsidian route is a local symlink; original Box folder preserved as Trident_FlowLoop_Notes_pre_git_2026-11-03. Git is primary transport; do not edit the snapshot or merge Box changes automatically.
 - Read X.Chat/05_handoffs/2026-11-03_03_notes_git_sync.md for reconciliation, source move map and receipt limits. Preserve both local and HPC directions; latest explicit author instructions control intent.
+
+## Committee proposal direction — November 3
+- Introduce the project, demonstrate PhD merit and a credible twelve-month plan. Undergraduate engineering language, short claims and specific planned results.
+- Avoid retrospective-case/exposure discussion in rendered proposal; keep evidence provenance internally and preserve supported claim levels.
+- Internal instructions/study requests belong in notes or proposal doc_support/committee/. Current prompt: X.Chat/06_hpc_exchange/2026-11-03/PROPOSAL_RESULTS_REQUEST.md. Prepared, not acknowledged; execution holds remain.

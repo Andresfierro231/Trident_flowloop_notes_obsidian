@@ -72,3 +72,11 @@
 - Author requests Motivation for a reduced model with a nested Prediction tasks and QoIs subsection; high-fidelity findings and historical experimental data should supply insight for running experiments.
 - Chapter 1 comment direction: emphasize interpretable state/trajectory/settling/operating insight; improve table spacing and use linked bibliography-driven author/title commands. Author is working on Chapter 2.
 - Implemented in proposal main ac1aff2; approved stages and research execution holds retained. Chapter 2 source excluded from task.
+
+## AD-20261103-05 — Concise committee proposal and one-year scope
+- Author requests revisions throughout implementing FIXMEs/comments; supersedes earlier Chapter 2 editing exclusion.
+- No retrospective-case discussion in rendered proposal; preserve actual scientific provenance internally and supported evidence levels.
+- Short direct claims, undergraduate engineering language, specific result placeholders. Drafting instructions belong in supporting notes.
+- Purpose: introduce the project, establish PhD merit and demonstrate feasible completion in one year.
+- Align filenames with section order/content; stages beside time budgets.
+- Prepare HPC requests with quantities, axes, units, comparisons and placement. This does not remove execution gates or establish delivery.
