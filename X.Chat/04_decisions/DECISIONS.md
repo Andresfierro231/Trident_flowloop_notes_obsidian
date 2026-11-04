@@ -80,3 +80,8 @@
 - Purpose: introduce the project, establish PhD merit and demonstrate feasible completion in one year.
 - Align filenames with section order/content; stages beside time budgets.
 - Prepare HPC requests with quantities, axes, units, comparisons and placement. This does not remove execution gates or establish delivery.
+
+## AD-20261103-06 — Integrate theory and methods with aims
+- Author: “Theory motivation and research methodology should be tied into ch3 discussion of research aims and goals.”
+- Chapter 3 explains each aim's motivation, method and expected evidence. Former standalone methods chapter integrated; assessment and plan move to Chapters 6 and 7.
+- Scientific scope, source/claim IDs, study-request IDs and execution holds remain unchanged.

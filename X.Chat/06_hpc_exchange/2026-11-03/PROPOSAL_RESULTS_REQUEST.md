@@ -23,7 +23,7 @@ Placement: Chapter 2, sections/outline/02_preliminary.tex, slot:tamu-temperature
 Use the current best documented physics-based TAMU surrogate. Produce two panels: fluid temperatures and wall temperatures versus loop position (m or a clearly defined normalized coordinate). Overlay ROM, CFD and qualified experimental observations as distinct series. State actual heater/cooler condition, fluid and model setting. Add bias/RMSE by sensor family (K) and a small case-summary table. Keep CFD agreement and experimental agreement in separate columns. If experimental pairing is unavailable, provide the supported CFD panel and name the missing pairing.
 
 ### PRR-20261103-02 — Assessed operating range
-Placement: Chapter 7, sections/outline/07_assessment.tex, slot:operating-range.
+Placement: Chapter 6, sections/outline/06_assessment.tex, slot:operating-range.
 Map the actual tested heater and cooler conditions: use heater input (W) on x, an actual independently varied cooler quantity (with units) on y, and temperature RMSE (K) as color. If the data are not a rectangular grid, plot the observed points, without interpolating a fictitious tested region. Identify the selected model/configuration and give the tested property/temperature range. Supply companion CSV, case count and error definitions.
 
 ### PRR-20261103-03 — Forward-solve cost and operation count
@@ -43,7 +43,7 @@ Placement: Chapter 5, sections/outline/05_model.tex, slot:probe-map.
 Use an existing CFD section/field and corresponding profile: temperature versus radial position (or clearly defined local cross-section coordinate), with bulk/transport temperature, wall and probe locations identified. Add velocity/profile information only where it explains the temperature interpretation. State how averages and sensor projections are calculated. Supply a small table quantifying the difference between the simple bulk-observation assumption and the mapped probe value under the same condition.
 
 ### PRR-20261103-07 — A controlled model-choice comparison
-Placement: Chapter 6, sections/outline/06_methods.tex, slot:model-comparison.
+Placement: Chapter 3, sections/outline/03_research.tex, slot:model-comparison.
 Compare a conventional physical model and one justified change (closure, observation map or added state). Use the same actual cases and input information. Report temperature error (K), a physically matched heat-budget quantity and forward runtime (s). A grouped chart or paired-point plot should show what the change buys. Include parameter/state count and the result's physical explanation. If extra complexity does not help, report that result and the evidence for retaining the simpler model.
 
 ### PRR-20261103-08 — Evidence for the PhD contribution
@@ -51,11 +51,11 @@ Placement: Chapter 3, sections/outline/03_research.tex, slot:contribution.
 A three-row table: aim, exact model/method change, closest comparator, evidence product, result/insight and next test. Each result must cite an existing study or be explicitly marked proposed. Prioritize one defensible study per aim. For parameter ambiguity, report which output remains constrained and the observation that would distinguish competing explanations; avoid presenting a failed fit alone as the contribution.
 
 ### PRR-20261103-09 — Response, settling and useful uncertainty
-Placement: Chapter 7, slot:operating-range, and Chapter 8 operator scenario.
+Placement: Chapter 6, slot:operating-range, and Chapter 7 operator scenario.
 For an existing assessed heating/cooling transition, plot temperature versus time with prediction/measurement, supported uncertainty and input change. Define settling time using a stated tolerance and observation duration; do not invent an agreed acceptance threshold. Give initial-state information, measured boundary histories and the physical explanation of the dominant lag. If no such study exists, propose a bounded transition study and list missing inputs.
 
 ### PRR-20261103-10 — Matched heat-path interpretation
-Placement: Chapter 6 model-choice comparison and optional Chapter 2 supporting figure.
+Placement: Chapter 3 model-choice comparison and optional Chapter 2 supporting figure.
 Produce a regional heat-rate (W) comparison using common physical boundaries for CFD and ROM. Separate cooler, ambient and relevant local paths; show whole-loop energy residual. If the groupings do not match, provide a mapping table and avoid computing a misleading component error. State one conclusion about what temperature agreement does or does not constrain; keep the committee caption direct and the detailed attribution caveats in the manifest.
 
 ## Placement and integration

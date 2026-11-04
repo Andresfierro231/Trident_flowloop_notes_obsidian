@@ -39,3 +39,5 @@
 - Introduce the project to the committee, demonstrate PhD-level research value and a credible one-year plan. Use short claims and undergraduate engineering language.
 - Omit retrospective-case/exposure discussion from the rendered proposal; retain provenance and evidence roles internally. Put drafting instructions and result requests in internal notes.
 - Request specific HPC figures/tables/results with placement, quantities, units and source requirements. Current packet: 06_hpc_exchange/2026-11-03/PROPOSAL_RESULTS_REQUEST.md. Active chapter files now follow reading order; see canonical proposal doc_support/committee/SECTION_MOVE_MAP.json.
+
+- Author follow-up: tie theoretical motivation and research methodology directly to the Chapter 3 aims. Each aim should explain why, how and what evidence; keep assessment and timeline in Chapters 6 and 7.

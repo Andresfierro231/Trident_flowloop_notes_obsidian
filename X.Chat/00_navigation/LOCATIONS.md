@@ -58,6 +58,8 @@
 
 ## Committee proposal structure — November 3
 
-- Active files follow reading order: 01_motivation.tex, 02_preliminary.tex, 03_research.tex, 04_evidence.tex, 05_model.tex, 06_methods.tex, 07_assessment.tex, 08_plan.tex under the proposal sections/outline/ directory.
+- Active files follow reading order: 01_motivation.tex, 02_preliminary.tex, 03_research.tex, 04_evidence.tex, 05_model.tex, 06_assessment.tex, 07_plan.tex under the proposal sections/outline/ directory.
 - Internal editorial/evidence owner: proposal doc_support/committee/; SECTION_MOVE_MAP.json preserves former filenames. Existing IDs remain as chapter-level homes; old dated page maps are historical.
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/06_hpc_exchange/2026-11-03/PROPOSAL_RESULTS_REQUEST.md|Specific HPC result request]] supplies plots, tables and insertion slots for the committee draft.
+
+- Chapter 3 owns theoretical motivation and research methodology alongside the aims. Its model-comparison slot remains slot:model-comparison; assessment is Chapter 6 and the schedule is Chapter 7.
