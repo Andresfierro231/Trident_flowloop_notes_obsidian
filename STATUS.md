@@ -33,3 +33,6 @@ tasks; the proposal's agent status owns manuscript claims.
 
 
 - Latest OPS-011 author direction: combined Equation1 restored; two brief Peclet sub-bullets and NIST citation, no high-Peclet requirement. Supersedes the prior advection-only choice. Runtime unchanged;96states/1440node checks, clean18-page build/24aligned references. No active editing claim remains at publication.
+
+
+- OPS-012 review: seven notes-owned on-demand skills, compact generated catalog and local discovery aliases; existing owner instructions remain in control.11offline smoke tests/7schema checks, native7skills once in4HPCroots,0test model requests. See dated OPS-012 handoff; no active edit claim remains at publication.

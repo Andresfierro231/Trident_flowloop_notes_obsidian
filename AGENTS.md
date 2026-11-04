@@ -87,3 +87,15 @@ external CAD without the applicable explicit approval. Do not expose secrets.
 - Run `python3 tools/check_organization.py` before handoff; record actual checks and current Git results. Use `--all-active` to report broader link debt without rewriting original sources.
 
 - Material citation direction (November 4): internal notes and candidate libraries are provenance/discovery records, not proposal bibliography sources. Use verified originals or the master's/Rozak definitions only for equations actually supported there. See X.Chat/01_sources/MATERIAL_CITATION_GUIDE.md; preserve unresolved-fit status rather than invent attribution.
+
+<!-- BEGIN TRIDENT_SKILL_DISCOVERY -->
+## Task-specific skills
+
+At task start or a meaningful scope change, use available skill names/descriptions
+to select relevant guidance. For specialized work without that metadata, consult
+[SKILLS.md](SKILLS.md); routine work may need none. Read only the matched
+`SKILL.md` and needed references. Do not load the whole pack or call a model to route.
+Owning AGENTS.md and explicit user scope still control. If local links are missing,
+use the notes checkout from the current machine map and its documented catalog
+`link` command; preserve existing catalogs/skills. No global installation is needed.
+<!-- END TRIDENT_SKILL_DISCOVERY -->

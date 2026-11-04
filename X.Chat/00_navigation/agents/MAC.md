@@ -33,3 +33,14 @@ tags: [project/trident, doc/specification]
 
 These are recorded Mac locations, not access claims from the current TACC task.
 If they change, the Mac agent updates this map and `LOCATIONS.md` after checking.
+
+## Skill discovery — OPS-012
+
+The notes checkout carries the canonical `.agents/skills/` and generated
+`SKILLS.md` on Git pull. Use native metadata first; no global install or full-pack
+reading. For another verified checkout, run the notes pack's offline
+`catalog.py link --target '<actual-owner-root>' --apply` after its dry run.
+The command and collision/ignore rules are in
+`.agents/skills/_support/README.md` inside this repository. Setup is once per
+machine/checkout; never guess another machine's paths. Existing Git and research
+ownership rules still apply.

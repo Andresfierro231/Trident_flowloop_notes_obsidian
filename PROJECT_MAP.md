@@ -100,3 +100,14 @@ sub-bullets explain their relative strength with a NIST citation, without a
 high-Peclet requirement. This supersedes the initial advection-only draft.
 Diagnostic M2/M3 conduction defaults are unchanged.96synthetic states verify
 algebra, not facility applicability; no solver/configuration change was made.
+
+## On-demand agent skills — OPS-012
+
+[SKILLS.md](SKILLS.md) is the compact generated catalog. This Git repository owns
+`.agents/skills/`:seven targeted skills, used only when relevant. The optional
+`_support/README.md` inside that directory owns setup/extension commands and
+pinned upstream provenance; ordinary agents do not read it at startup.
+Mac notes receive the pack on Git pull. Other verified checkouts use machine-local
+relative links created by its offline `catalog.py link` helper. HPC model,
+proposal and notes retain their separate owners/instructions; skills do not
+activate research tasks, auto-run experiments or add a second task registry.

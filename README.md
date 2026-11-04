@@ -5,6 +5,7 @@ primary synchronization route. The HPC initiative retains current research
 direction and project/evidence authority; see [agent instructions](AGENTS.md)
 and [HPC context](HPC_CONTEXT.md).
 
+- [On-demand skill catalog](SKILLS.md): metadata-first discovery; detailed workflows load only when needed.
 - Begin with [the project map](PROJECT_MAP.md), [notes status](STATUS.md) and [research home](X.Chat/README.md), then the relevant handoff.
 - Read [Git workflow and local-machine cutover](GIT_WORKFLOW.md) before editing.
 - Original subject notes and attachments retain their paths and source identity.

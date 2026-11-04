@@ -1,0 +1,131 @@
+{
+  "pack_version": 1,
+  "reviewed_date": "2026-11-04",
+  "mode": "Reviewed local adaptations; pinned sources for provenance, no automatic upstream updates.",
+  "sources": [
+    {
+      "repository": "mattpocock/skills",
+      "revision": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+      "review_date": "2026-11-04",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/mattpocock/skills/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/README.md",
+          "sha256": "345041d56cf1411b6b3ca1cc54014d26c563890f817f4cb9e2cb193dcd771a3e",
+          "bytes": 16461
+        },
+        {
+          "path": "skills/engineering/diagnosing-bugs/SKILL.md",
+          "url": "https://raw.githubusercontent.com/mattpocock/skills/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/diagnosing-bugs/SKILL.md",
+          "sha256": "849198df88cdb65fd0d97236604c1fca7ff2f22d2f705f9724a800d0266b118d",
+          "bytes": 8664
+        },
+        {
+          "path": "skills/engineering/code-review/SKILL.md",
+          "url": "https://raw.githubusercontent.com/mattpocock/skills/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/code-review/SKILL.md",
+          "sha256": "9c921a8d88138a41401d8897ca1bb852088ab1b7b605cdd04edc13e3e8aab6dd",
+          "bytes": 6721
+        }
+      ],
+      "local_skills": [
+        "trident-debug",
+        "trident-code-review"
+      ],
+      "adopted": "Small reproducible feedback loops; separate requirement and standards review.",
+      "not_adopted": "Mandatory questionnaires, new tracking systems, parallel reviewers and unbounded stress loops.",
+      "reuse": "Original Trident wording informed by reviewed concepts; no upstream SKILL.md or executable script vendored.",
+      "upstream_license": {
+        "source_path": "LICENSE",
+        "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+        "local_notice": "licenses/mattpocock_skills.txt"
+      }
+    },
+    {
+      "repository": "kepano/obsidian-skills",
+      "revision": "3ccff5338ea700537839b21900aa5358a0402c98",
+      "review_date": "2026-11-04",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/kepano/obsidian-skills/3ccff5338ea700537839b21900aa5358a0402c98/README.md",
+          "sha256": "a395f944ddce5efa92f52f5c947cec9d015e5c7448ae7f31eb41a0652c968c57",
+          "bytes": 3539
+        },
+        {
+          "path": "skills/obsidian-markdown/SKILL.md",
+          "url": "https://raw.githubusercontent.com/kepano/obsidian-skills/3ccff5338ea700537839b21900aa5358a0402c98/skills/obsidian-markdown/SKILL.md",
+          "sha256": "7ad72e1f0a9081ed325e76b6402ad5de50a00e63e2341fd403a92f147234a007",
+          "bytes": 5367
+        }
+      ],
+      "local_skills": [
+        "trident-obsidian"
+      ],
+      "adopted": "Obsidian-specific link, embed and property conventions, adapted to existing vault rules.",
+      "not_adopted": "Mandatory frontmatter on original notes or automatic visual verification.",
+      "reuse": "Original Trident wording informed by reviewed concepts; no upstream SKILL.md or executable script vendored.",
+      "upstream_license": {
+        "source_path": "LICENSE",
+        "sha256": "64c64d48361edfe8610016441bf593256ea9b67f133b00f47c55aa29ee878567",
+        "local_notice": "licenses/kepano_obsidian-skills.txt"
+      }
+    },
+    {
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "revision": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "review_date": "2026-11-04",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/README.md",
+          "sha256": "2d4a9f2268c6ed70fc0d0d769921963da6b82966bd71c4b0225e35b0779b2447",
+          "bytes": 84156
+        },
+        {
+          "path": "skills/scientific-writing/SKILL.md",
+          "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/SKILL.md",
+          "sha256": "511a2096bebecd8cf0f8212b9d262d37154ae1ba566eb385d93ac968682edbd1",
+          "bytes": 14897
+        }
+      ],
+      "local_skills": [
+        "trident-source-check",
+        "trident-manuscript"
+      ],
+      "adopted": "Claim-to-source binding, coefficient distinctions and explicit missing provenance.",
+      "not_adopted": "Universal human-verifier/signoff gates and clinical/publication procedures unrelated to Trident.",
+      "reuse": "Original Trident wording informed by reviewed concepts; no upstream SKILL.md or executable script vendored.",
+      "upstream_license": {
+        "status": "No root license file retained; reference-only concepts, no text/code redistribution."
+      }
+    },
+    {
+      "repository": "openai/plugins",
+      "revision": "b767f8fa3be1a22b093127dd59956c91ecffca9d",
+      "review_date": "2026-11-04",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/openai/plugins/b767f8fa3be1a22b093127dd59956c91ecffca9d/README.md",
+          "sha256": "b3681ebd15797bdee1d638c6520c7ba10a36e676760ea5c251530f53f843c852",
+          "bytes": 1283
+        }
+      ],
+      "local_skills": [
+        "all"
+      ],
+      "adopted": "Small reusable skill entry points and metadata-first discovery; official documentation is the loading contract.",
+      "not_adopted": "No third-party plugin bundles, MCP services, hooks, upstream scripts or dependency installers.",
+      "reuse": "Original Trident wording informed by reviewed concepts; no upstream SKILL.md or executable script vendored.",
+      "upstream_license": {
+        "status": "No root license file retained; reference-only concepts, no text/code redistribution."
+      }
+    }
+  ],
+  "discovery_contract": "https://learn.chatgpt.com/docs/build-skills",
+  "original_trident_skills": [
+    "trident-equation-audit",
+    "trident-hpc-jobs"
+  ],
+  "scientific_limits": "Skills organize existing workflows. They do not approve a physical model or change evidence gates."
+}
