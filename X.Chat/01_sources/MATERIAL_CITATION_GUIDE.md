@@ -41,3 +41,5 @@ No source images or PDF pages were visually inspected.
 
 The model overview/equation checks remain OPS-009 work. No material selection,
 research direction, processing hold or scientific execution changes here.
+
+The original [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/1. Setup and Geometry/1.2 Main Material Props.md|main material-properties note]] now carries the same citation distinctions, full references and annotations beside the relevant materials (November4 follow-up).

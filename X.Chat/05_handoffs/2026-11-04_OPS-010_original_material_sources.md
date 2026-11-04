@@ -38,3 +38,18 @@ Both repositories were pulled independently before edits. Task-scoped commits
 are pulled again and pushed independently at closeout; actual publication IDs
 are in Git history. A push establishes transport, not another agent's receipt.
 No external source repository edits or scientific execution occurred.
+
+## User-requested follow-up: main material-properties note
+
+Added the same source distinctions directly to
+`1. Setup and Geometry/1.2 Main Material Props.md`: inline annotations for ACU
+blanket/steel/VCU insulation, full references to both theses, IAEA and Morgan,
+and a compact source-support table. The master's and Rozak definitions remain
+distinct; unresolved VCU/Kirst fits retain that status. Added reciprocal guide
+navigation and updated the existing project-map row. Existing property equation,
+product information and all10image embeds are preserved; no images were viewed.
+
+Validation: Markdown footnote definitions/references match; local guide link
+exists; notes organization checker and whitespace checks pass. No proposal
+content changed; its clean main was pulled separately. Publish this follow-up
+with the notes Git session helper and read the resulting commit in Git history.

@@ -24,3 +24,6 @@ tasks; the proposal's agent status owns manuscript claims.
 
 
 - OPS-010 review: internal material-note/library citations removed from proposal; verified thesis/IAEA support and unresolved VCU/Kirst provenance in the maintained material citation guide. Handoff: `X.Chat/05_handoffs/2026-11-04_OPS-010_original_material_sources.md`. No active edit claim remains after publication.
+
+
+- OPS-010 follow-up review: original `1. Setup and Geometry/1.2 Main Material Props.md` now includes inline source annotations, full thesis/IAEA/manufacturer references and unresolved-fit limits. Existing equations/product details/embeds preserved. Guide and map point to this update; see the existing OPS-010 handoff. No active editing claim remains at publication.
