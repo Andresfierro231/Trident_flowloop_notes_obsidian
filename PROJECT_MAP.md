@@ -2,7 +2,7 @@
 title: Trident notes project map
 status: maintained
 owner: notes navigation
-updated: 2026-11-03
+updated: 2026-11-04
 tags: [project/trident, doc/index]
 ---
 
@@ -19,6 +19,11 @@ map current when adding, moving or superseding an important note or source.
 - HPC initiative: current research direction, implementation and qualified evidence. Notes: writer, literature and cross-project synthesis. Canonical proposal: separate LaTeX owner. Explicit new author instructions govern intent; discrepancies require reconciliation.
 
 ## Geometry, materials and measurements
+
+For citations to numerical property laws, use the
+[[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/MATERIAL_CITATION_GUIDE.md|material citation guide]]:
+it distinguishes exact published equations, the notes' alternatives, product
+data and configuration-only candidates. The proposal bibliography owns the keys.
 
 | Need | Exact note / source route | What to read and how to use it |
 |---|---|---|
