@@ -1,5 +1,17 @@
 # HPC initiative authority and reading route
 
+Use **HPC Trident** for the outer research workspace and **Trident Notes** for
+this separate Git repository. `X.Chat/` belongs to Trident Notes; it is not the
+root of the HPC initiative. Trident Notes has origin
+`git@github.com:Andresfierro231/Trident_flowloop_notes_obsidian.git` and exchanges
+edits through Git, not bidirectional Box sync.
+
+The notes [project map](PROJECT_MAP.md) routes geometry, material and writer
+sources. The outer HPC `PROJECT_MAP.md` below supplies the reciprocal route
+back to these notes. Consult either side as needed while preserving source
+ownership, revision and evidence status. Verify accessibility using the active
+machine map; a path recorded here does not establish another machine's mount.
+
 User direction, November 2, 2026: HPC scratch contains the latest research
 direction, initiative and overall project context. This repository supports
 the writer and literature reviews; changes to direction are proposals until

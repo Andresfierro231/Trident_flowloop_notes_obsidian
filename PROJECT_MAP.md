@@ -8,6 +8,24 @@ tags: [project/trident, doc/index]
 
 # Trident notes project map
 
+## Which Trident workspace?
+
+| Explicit name | Owner / location | Consult it for |
+|---|---|---|
+| **Trident Notes** — this Git repository | HPC checkout: `/scratch/09748/andresfierro231/projects_scratch/Trident/andrew_WorkSpace/trident_modeling_initiative/box/Trident_FlowLoop_Notes/`; origin `git@github.com:Andresfierro231/Trident_flowloop_notes_obsidian.git` | Original geometry/material/model notes, literature, synthesis and writing coordination. `X.Chat/` is an organizational layer inside this repo. |
+| **HPC Trident** — the research workspace | `/scratch/09748/andresfierro231/projects_scratch/Trident/`; entry `PROJECT_MAP.md` there; modeling owner `andrew_WorkSpace/trident_modeling_initiative/` | Current research direction, implementation, scientific tasks, decisions and qualified evidence. The outer workspace routes multiple repositories; it is not the notes Git repo. |
+
+Either workspace can consult the other. Use the
+[[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/HPC_CONTEXT.md|HPC return route]]
+and the relevant Mac/TACC map; those absolute HPC paths are locators, not a
+claim of Mac access. Name **HPC Trident** or **Trident Notes** in handoffs and
+retain exact owner/path/revision. A source from the other side does not silently
+supersede current direction or change authoring ownership.
+
+Trident Notes is synchronized through GitHub. Its original Box source/snapshot
+is preserved separately. The `box/` directory name and Mac vault alias do not
+configure Box synchronization of this Git checkout.
+
 Start with the question below, then read the named note and its exact sources.
 This map locates evidence; scientific status remains with its owner. Keep this
 map current when adding, moving or superseding an important note or source.
