@@ -1,7 +1,7 @@
 # Maintaining the Trident skill pack
 
 Read this only to change the pack or set up a checkout. Routine agents use native
-metadata or `SKILLS.md`, then load only the relevant skill. The helper requires Python3.9+ and the standard library only. The seven skills add
+metadata or `SKILLS.md`, then load only the relevant skill. The helper requires Python3.9+ and the standard library only. These skills add
 no model calls, dependencies, hooks, services or automatic reviewers.
 
 ## One owner, machine-local discovery

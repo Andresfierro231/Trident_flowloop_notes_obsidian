@@ -21,6 +21,7 @@ class CatalogChecks(unittest.TestCase):
         self.notes = self.base/'notes'
         self.pack = self.notes/'.agents/skills'
         shutil.copytree(catalog.PACK, self.pack)
+        self.expected_count = len(catalog.entries(self.pack))
         self.index = self.notes/'SKILLS.md'
         self.index.write_text(catalog.render(catalog.entries(self.pack)))
         self.target = self.base/'a project with spaces'
@@ -29,7 +30,7 @@ class CatalogChecks(unittest.TestCase):
 
     def test_metadata_and_context_budgets(self):
         result = catalog.validate(self.pack, self.index)
-        self.assertEqual(result['skills'], 7)
+        self.assertEqual(result['skills'], self.expected_count)
         self.assertLessEqual(result['catalog_characters'], catalog.MAX_CATALOG)
         self.assertLessEqual(result['largest_skill_characters'], catalog.MAX_SKILL)
 
@@ -58,7 +59,7 @@ class CatalogChecks(unittest.TestCase):
             self.assertTrue(link.is_symlink())
             self.assertFalse(Path(link.readlink()).is_absolute())
         self.assertEqual((self.target/'SKILLS.md').read_bytes(), self.index.read_bytes())
-        self.assertEqual(len(list((self.target/'.agents/skills').glob('*/SKILL.md'))), 7)
+        self.assertEqual(len(list((self.target/'.agents/skills').glob('*/SKILL.md'))), self.expected_count)
         self.assertEqual(catalog.link_checkout(self.target, True, self.pack, self.index)['status'], 'unchanged')
         self.assertEqual((self.target/'AGENTS.md').read_text(), 'Existing project instructions\n')
 

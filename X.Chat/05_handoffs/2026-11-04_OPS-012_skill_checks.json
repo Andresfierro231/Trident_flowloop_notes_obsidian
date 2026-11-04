@@ -93,12 +93,12 @@
   "upstream_installers_executed": false,
   "pack_files_sha256": {
     ".agents/skills/AGENTS.md": "90082c4906d54bda15c6d072b306a28819b2f5798b5b0b90994f7302ccda2ca7",
-    ".agents/skills/_support/README.md": "d4091d40361a886b8109fa1d43464a7ddd3bdaecf1f68d2f807ff1f7f8c468a5",
+    ".agents/skills/_support/README.md": "7fecaa51be6dcbd3f0d12d7acd028bdc3865db8a1ca51d90d8e5ca7d16bc5f85",
     ".agents/skills/_support/catalog.py": "1328bec86f7510fcbc5804f4edf03c4ff9de0bd14a96755f150f91e9ead56d0e",
     ".agents/skills/_support/licenses/kepano_obsidian-skills.txt": "64c64d48361edfe8610016441bf593256ea9b67f133b00f47c55aa29ee878567",
     ".agents/skills/_support/licenses/mattpocock_skills.txt": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
     ".agents/skills/_support/sources.json": "666b726af20b206d237acef1870d2a48320795a6566196a453b109a9c1741f3f",
-    ".agents/skills/_support/test_catalog.py": "5acf6206b314203a010dc2d33bb2a5ca3ea59a01faf815b9e7b28c1bdf45fe12",
+    ".agents/skills/_support/test_catalog.py": "58a5d992afa2ba2a89480673a5ddfcd698acdbc2ffdfcb9e230f2093815c37c7",
     ".agents/skills/trident-code-review/SKILL.md": "bf4c22a13194c7b8abd475ab34223fbbd81c4a7881dd5be6dceb4db7fa4c7860",
     ".agents/skills/trident-debug/SKILL.md": "0fc704871b4fba10b0cbb108987303b19dadfe3012e344c393786c541200058b",
     ".agents/skills/trident-equation-audit/SKILL.md": "60e18a17a0a4ebd90c471b14df5e2298d18f7e22007d037500a69b02b227a49c",
@@ -107,5 +107,6 @@
     ".agents/skills/trident-obsidian/SKILL.md": "4e289900dd3bc991da08cbfb1322f992cb5a96526a09524acbddafee159e3d71",
     ".agents/skills/trident-source-check/SKILL.md": "99a4433eb7f1b12ef6f5d04a4480bff69aa0b4220b2b439e871b7612cbf249b2"
   },
-  "limits": "Native discovery verified on TACC CLI0.166.0. Remote Mac installation and autonomous routing quality not executed. Token estimates are character-based, not measured billing."
+  "limits": "Native discovery verified on TACC CLI0.166.0. Remote Mac installation and autonomous routing quality not executed. Token estimates are character-based, not measured billing.",
+  "expansion_refinement": "Smoke checks derive the registry count; adding a reviewed skill does not require editing count assertions."
 }

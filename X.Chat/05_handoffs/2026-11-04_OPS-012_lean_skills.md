@@ -57,3 +57,7 @@ shared HPC owner has extensive pre-existing dirty work; publish only the task's
 isolated discovery additions, preserving unrelated content. Git history records
 actual publication commits. No manuscript source, scientific model, data,
 assumption, evidence gate, simulation or image inspection changes.
+
+Expansion check refinement: smoke tests derive the current registry size rather
+than requiring manual count edits when another reviewed skill is added. Existing
+capability, budget, attribution and collision checks remain.11tests still pass.
