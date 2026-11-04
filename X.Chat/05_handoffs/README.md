@@ -16,3 +16,5 @@ Use YYYY-MM-DD_TASK-ID_short_topic.md for new coherent tasks. Keep old handoffs 
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/05_handoffs/2026-11-03_OPS-008_notes_organization.md|OPS-008 conventions, machine maps and technical appendix]]
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/05_handoffs/2026-11-03_15_bullet_draft.md|Previous manuscript-format checkpoint]]
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/90_templates/HANDOFF.md|New handoff template]]
+
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/05_handoffs/2026-11-04_LIB-001_box_library_catalog.md|LIB-001: Box literature intake, search and change tracking]].

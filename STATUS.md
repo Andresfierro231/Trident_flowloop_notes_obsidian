@@ -36,3 +36,5 @@ tasks; the proposal's agent status owns manuscript claims.
 
 
 - OPS-012 review: seven notes-owned on-demand skills, compact generated catalog and local discovery aliases; existing owner instructions remain in control.11offline smoke tests/7schema checks, native7skills once in4HPCroots,0test model requests. See dated OPS-012 handoff; no active edit claim remains at publication.
+
+- LIB-001 review: Box literature catalog covers175files/173content identities;103abstract candidates, bounded search and repeatable change tracking. Handoff X.Chat/05_handoffs/2026-11-04_LIB-001_box_library_catalog.md. No active edit claim; original Box assets and unrelated local material-note whitespace preserved.

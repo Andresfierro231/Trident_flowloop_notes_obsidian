@@ -1,0 +1,29 @@
+{
+  "root": "/Users/andres/ObsidianVaults/MainVault/Box/books/research",
+  "scan_time": "2026-11-04T21:31:03+00:00",
+  "files": 175,
+  "document_records": 173,
+  "hashed_unique_documents": 173,
+  "unhashed_files": 0,
+  "duplicates_extra_copies": 2,
+  "abstract_status": {
+    "extracted_candidate": 102,
+    "not_found_in_first_5_pages": 60,
+    "not_applicable_supporting_data": 9,
+    "no_extractable_text": 2
+  },
+  "text_status": {
+    "pdf_text_extracted": 155,
+    "text_file_excerpt": 5,
+    "word_text_excerpt": 2,
+    "supporting_csv_excerpt": 9,
+    "no_extractable_text": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "changed": [],
+    "moved_or_alias_changed": [],
+    "availability_changed": []
+  }
+}
