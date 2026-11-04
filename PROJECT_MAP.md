@@ -89,3 +89,12 @@ It documents the adopted HITEC/legacy solid inputs. Rozak's separate CFD
 appendix has differing laws; its exact page routes are in the guide.
 The proposal owns `doc_support/committee/ORIGINAL_MATERIAL_SOURCES.json`.
 Sources remain with existing owners; Mac locations require its machine map.
+
+## Flowing and no-flow energy equations — November4
+
+See [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/05_handoffs/2026-11-04_OPS-011_energy_balance_audit.md|OPS-011 energy-balance audit]].
+The separate proposal owns `sections/outline/03_methods.tex` and
+`doc_support/committee/ENERGY_BALANCE_AUDIT.json`. Its flowing baseline omits
+axial fluid conduction; the conductive no-flow form is separate. HPC diagnostic
+M2/M3 defaults still retain selectable conduction.96synthetic states verify
+algebra, not facility applicability; no solver/configuration change was made.

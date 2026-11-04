@@ -27,3 +27,6 @@ tasks; the proposal's agent status owns manuscript claims.
 
 
 - OPS-010 follow-up review: original `1. Setup and Geometry/1.2 Main Material Props.md` now includes inline source annotations, full thesis/IAEA/manufacturer references and unresolved-fit limits. Existing equations/product details/embeds preserved. Guide and map point to this update; see the existing OPS-010 handoff. No active editing claim remains at publication.
+
+
+- OPS-011 review: clarified flowing/no-flow equations in proposal; diagnostic conduction remains selectable/default-on. See `X.Chat/05_handoffs/2026-11-04_OPS-011_energy_balance_audit.md`.96synthetic states/1440node checks; clean18-page build. No active editing claim remains at publication.
