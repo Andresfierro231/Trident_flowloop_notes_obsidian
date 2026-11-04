@@ -85,3 +85,11 @@
 - Author: “Theory motivation and research methodology should be tied into ch3 discussion of research aims and goals.”
 - Chapter 3 explains each aim's motivation, method and expected evidence. Former standalone methods chapter integrated; assessment and plan move to Chapters 6 and 7.
 - Scientific scope, source/claim IDs, study-request IDs and execution holds remain unchanged.
+
+## AD-20261103-07 — Build the proposal argument in four chapters
+- Latest author direction supersedes earlier aim/method chapter placement.
+- Motivation: emphasize why the work/loops matter, digital twins, prior work, TRIDENT vision and the broader ROM/digital-twinning method contribution.
+- Evidence: experiments, existing CFD/preliminary findings, and clearly planned ACU/VCU CFD.
+- Methods: theory and methodology interwoven with physical reduction, measured temperatures, assessment and uncertainty.
+- Final chapter: research aims, one-year plan and deliverables.
+- Introduce concepts when needed; each chapter has a distinct job and builds on the preceding one. A short thesis premise introduces direction in motivation; detailed aims follow the methods.

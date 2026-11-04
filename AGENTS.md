@@ -74,3 +74,5 @@ external CAD without the applicable explicit approval. Do not expose secrets.
 - Introduce the project, demonstrate PhD merit and a credible twelve-month plan. Undergraduate engineering language, short claims and specific planned results.
 - Avoid retrospective-case/exposure discussion in rendered proposal; keep evidence provenance internally and preserve supported claim levels.
 - Internal instructions/study requests belong in notes or proposal doc_support/committee/. Current prompt: X.Chat/06_hpc_exchange/2026-11-03/PROPOSAL_RESULTS_REQUEST.md. Prepared, not acknowledged; execution holds remain.
+
+- Latest outline direction: motivation → experimental/high-fidelity evidence (including preliminary results) → integrated research methods → aims and one-year delivery plan. Introduce concepts just before use; follow proposal doc_support/committee/STRUCTURE.md. This supersedes earlier chapter-specific aim/method placement.

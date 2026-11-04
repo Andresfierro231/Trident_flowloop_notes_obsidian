@@ -40,4 +40,4 @@
 - Omit retrospective-case/exposure discussion from the rendered proposal; retain provenance and evidence roles internally. Put drafting instructions and result requests in internal notes.
 - Request specific HPC figures/tables/results with placement, quantities, units and source requirements. Current packet: 06_hpc_exchange/2026-11-03/PROPOSAL_RESULTS_REQUEST.md. Active chapter files now follow reading order; see canonical proposal doc_support/committee/SECTION_MOVE_MAP.json.
 
-- Author follow-up: tie theoretical motivation and research methodology directly to the Chapter 3 aims. Each aim should explain why, how and what evidence; keep assessment and timeline in Chapters 6 and 7.
+- Latest author structure supersedes that aim-linked order: Chapter 1 motivation/impact; Chapter 2 experiments, existing/planned CFD and preliminary evidence; Chapter 3 integrated methods with theory, physical model, sensors, learning, assessment and uncertainty; Chapter 4 formal aims, one-year plan and deliverables. Define concepts just before use. Proposal doc_support/committee/STRUCTURE.md owns the current first-use map.
