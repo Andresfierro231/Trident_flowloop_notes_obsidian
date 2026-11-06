@@ -10,3 +10,6 @@ archive/** -whitespace
 # Imported reference sources and pre-move navigation retain their original bytes.
 reference/** -text -whitespace
 X.Chat/01_sources/reference_migration/** -text -whitespace
+
+# Canonical reference collection; retain exact original source bytes.
+X.Reference/** -text -whitespace
