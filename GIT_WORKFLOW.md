@@ -28,6 +28,23 @@ reconcile commits and any conflicts without discarding work, check the result
 and push. No force pushes or automatic resetting/stashing of unknown edits.
 For a long session, synchronize again at a clean checkpoint before further edits.
 
+## Cadence and Box snapshot checks
+
+Synchronization is event based: pull before each work session, commit/push at
+each handoff or clean checkpoint, and repeat at a clean checkpoint during a
+long session. This workflow configures no timed rsync or recurring Box mirror.
+The November 3 local cutover made Git the active transport; Box contains the
+preserved `Trident_FlowLoop_Notes_pre_git_2026-11-03` snapshot, not the active
+Mac checkout or its symlink.
+
+A requested Box reconciliation compares that snapshot to
+`X.Chat/01_sources/LOCAL_GIT_CUTOVER.json` before importing anything. Download
+suspected differences only into separate immutable staging; never refresh the
+active Git worktree with a directory mirror. The November 6 reconciliation
+verified all 371 original files unchanged; see the
+[checked handoff](X.Chat/05_handoffs/2026-11-06_OPS-013_box_git_reconciliation.md).
+An HPC push does not pull another machine's checkout; its next session must pull.
+
 ## Local-machine setup
 
 Run on the local machine, in a directory outside Box's automatic sync tree:

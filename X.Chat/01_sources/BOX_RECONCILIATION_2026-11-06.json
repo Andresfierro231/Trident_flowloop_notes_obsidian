@@ -1,0 +1,3731 @@
+{
+  "status": "passed",
+  "git_cutover_revision": "b0de7d48bc505def51e6e25f3c822109866a500e",
+  "baseline_files": 371,
+  "baseline_from_git": 361,
+  "baseline_verified_from_immutable_pull": 10,
+  "box_files": 371,
+  "box_bytes": 60416600,
+  "counts": {
+    "box_unchanged": 371
+  },
+  "extra_box_paths": [],
+  "files": [
+    {
+      "path": "Table of Contents.base",
+      "status": "box_unchanged",
+      "bytes": 754,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "128a35308d106f0f06ebdc9f8a91c3b8587719a877f5796f424b3dc8facd58ca",
+      "cutover_sha256": "128a35308d106f0f06ebdc9f8a91c3b8587719a877f5796f424b3dc8facd58ca",
+      "cutover_sha1": "e27fc22a286c8455002de5b25c02afe5bb6514cb",
+      "box_sha1": "e27fc22a286c8455002de5b25c02afe5bb6514cb"
+    },
+    {
+      "path": "Research/Clarno's Special assignment/Nick's Steady State Heat Transfer Analysis.md",
+      "status": "box_unchanged",
+      "bytes": 0,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cutover_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cutover_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "box_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "Research/Clarno's Special assignment/Instructions.md",
+      "status": "box_unchanged",
+      "bytes": 1737,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "5b86bbc94145818423434195d850a22c66918c04c6ff22344e88b90701c26c7b",
+      "cutover_sha256": "5b86bbc94145818423434195d850a22c66918c04c6ff22344e88b90701c26c7b",
+      "cutover_sha1": "15108580273566ac95e8b4982d96aa62b0593ac6",
+      "box_sha1": "15108580273566ac95e8b4982d96aa62b0593ac6"
+    },
+    {
+      "path": "0. Overview and intro/Digital I&C - Andres Notes.md",
+      "status": "box_unchanged",
+      "bytes": 130,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "a12c36ee294f411b8f63bab6a33af92f8bc4ffbdd1bc271bdde8d116f2ad63eb",
+      "cutover_sha256": "a12c36ee294f411b8f63bab6a33af92f8bc4ffbdd1bc271bdde8d116f2ad63eb",
+      "cutover_sha1": "7f218068cb8856c498ac4aee68244cb8a2891a89",
+      "box_sha1": "7f218068cb8856c498ac4aee68244cb8a2891a89"
+    },
+    {
+      "path": "0. Overview and intro/Home Note.md",
+      "status": "box_unchanged",
+      "bytes": 1120,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "c22af1d012e4786b04f188e7ab8248dc6503342098c91ab8052439ed67651e82",
+      "cutover_sha256": "c22af1d012e4786b04f188e7ab8248dc6503342098c91ab8052439ed67651e82",
+      "cutover_sha1": "6f55b4051549b359945aaee3ba7a9a2fe3a095bb",
+      "box_sha1": "6f55b4051549b359945aaee3ba7a9a2fe3a095bb"
+    },
+    {
+      "path": "0. Overview and intro/Trident Notes, Questions, and follow ups.md",
+      "status": "box_unchanged",
+      "bytes": 2854,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "403d5651f856ddcb8cf29b7a629f09b3f9000cf853e043b8c09ba73ef0cf839b",
+      "cutover_sha256": "403d5651f856ddcb8cf29b7a629f09b3f9000cf853e043b8c09ba73ef0cf839b",
+      "cutover_sha1": "054a956f050624dc82c6f282e2fe19e4a8596830",
+      "box_sha1": "054a956f050624dc82c6f282e2fe19e4a8596830"
+    },
+    {
+      "path": "0. Overview and intro/Trident - STNCL Loops.md",
+      "status": "box_unchanged",
+      "bytes": 1307,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "a42df9414346fe3167c3557813bb63143f2becf5ca2c1cdf00409a78ad63bd75",
+      "cutover_sha256": "a42df9414346fe3167c3557813bb63143f2becf5ca2c1cdf00409a78ad63bd75",
+      "cutover_sha1": "85fff0a6528a82536c24bfe35d462440796e0901",
+      "box_sha1": "85fff0a6528a82536c24bfe35d462440796e0901"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.2.1 EPIC ACU Senor Names.md",
+      "status": "box_unchanged",
+      "bytes": 1324,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "35f200b3be9fa45bca3faee02bfce7ac782838bd1e3a2d7dbe05d36ee6b8e7a7",
+      "cutover_sha256": "35f200b3be9fa45bca3faee02bfce7ac782838bd1e3a2d7dbe05d36ee6b8e7a7",
+      "cutover_sha1": "7ea8990dfb2d079c24609f906b369c4219958d73",
+      "box_sha1": "7ea8990dfb2d079c24609f906b369c4219958d73"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.1 Geometry pics.md",
+      "status": "box_unchanged",
+      "bytes": 2625,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "4004a725433fd43e06556bf6a847c0a67dc548c9a198b6d71706808158527910",
+      "cutover_sha256": "4004a725433fd43e06556bf6a847c0a67dc548c9a198b6d71706808158527910",
+      "cutover_sha1": "aa18eb8b23f793db985edba088280b158a2ccfff",
+      "box_sha1": "aa18eb8b23f793db985edba088280b158a2ccfff"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.0 Heaters and coolers.md",
+      "status": "box_unchanged",
+      "bytes": 1065,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "4abf5ca2c924aea9b63ffb8dd4b31831a6e652e2cb3c6df36174fb353927c33a",
+      "cutover_sha256": "4abf5ca2c924aea9b63ffb8dd4b31831a6e652e2cb3c6df36174fb353927c33a",
+      "cutover_sha1": "b08c773bc02b556e569af054f14bc92afbf939b0",
+      "box_sha1": "b08c773bc02b556e569af054f14bc92afbf939b0"
+    },
+    {
+      "path": "1. Setup and Geometry/1.2.1 Prop 30 ThermoPhys Props.md",
+      "status": "box_unchanged",
+      "bytes": 519,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "95532e4fd96351d882b17632200c05ea533981d280ff58df43beccaaa5ee25db",
+      "cutover_sha256": "95532e4fd96351d882b17632200c05ea533981d280ff58df43beccaaa5ee25db",
+      "cutover_sha1": "1adfaa10c05ec3edd81e5e2b952266033a7914cf",
+      "box_sha1": "1adfaa10c05ec3edd81e5e2b952266033a7914cf"
+    },
+    {
+      "path": "1. Setup and Geometry/1.2.2 Steel Pipe Properties.md",
+      "status": "box_unchanged",
+      "bytes": 817,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e700df5bea4486003f76b1a8759f2c1c3d985da70ca0011963dbd99ac4e8ebf2",
+      "cutover_sha256": "e700df5bea4486003f76b1a8759f2c1c3d985da70ca0011963dbd99ac4e8ebf2",
+      "cutover_sha1": "9510ccecc802afac3787c3c3d746a46d0be51285",
+      "box_sha1": "9510ccecc802afac3787c3c3d746a46d0be51285"
+    },
+    {
+      "path": "1. Setup and Geometry/1.2 Main Material Props.md",
+      "status": "box_unchanged",
+      "bytes": 1945,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "9bbfeb6527fd3787b05f28ecb8c0654deeb89b0252889d73429cfb0bc1c5ae18",
+      "cutover_sha256": "9bbfeb6527fd3787b05f28ecb8c0654deeb89b0252889d73429cfb0bc1c5ae18",
+      "cutover_sha1": "736b46e4ce4324127e4b8d16ae0110ca8aacfa54",
+      "box_sha1": "736b46e4ce4324127e4b8d16ae0110ca8aacfa54"
+    },
+    {
+      "path": "1. Setup and Geometry/1.A Appendix Notes.md",
+      "status": "box_unchanged",
+      "bytes": 0,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cutover_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cutover_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "box_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.0 Geometry notes.md",
+      "status": "box_unchanged",
+      "bytes": 2964,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "8a54e3ab2b0287bd44042067c47045ac14d56fbf2c61cb99d1d683c5698ea155",
+      "cutover_sha256": "8a54e3ab2b0287bd44042067c47045ac14d56fbf2c61cb99d1d683c5698ea155",
+      "cutover_sha1": "861484330429ea77583acaa683ebcb5011984126",
+      "box_sha1": "861484330429ea77583acaa683ebcb5011984126"
+    },
+    {
+      "path": "1. Setup and Geometry/1.A.1 ACU Loop is bigger than VCU loop.md",
+      "status": "box_unchanged",
+      "bytes": 1614,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "3eb2a18da3ce3e17417bc62e7e28eacc89dec7205a8a53cf7d45b8e7919c2e16",
+      "cutover_sha256": "3eb2a18da3ce3e17417bc62e7e28eacc89dec7205a8a53cf7d45b8e7919c2e16",
+      "cutover_sha1": "908615c6f805babfa19be728386dc413f8166388",
+      "box_sha1": "908615c6f805babfa19be728386dc413f8166388"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.2 Sensors.md",
+      "status": "box_unchanged",
+      "bytes": 2169,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "49f882e979b7451699dc3de77c40a7dfb6fff059e0fbcac161e7080020aae59f",
+      "cutover_sha256": "49f882e979b7451699dc3de77c40a7dfb6fff059e0fbcac161e7080020aae59f",
+      "cutover_sha1": "6e23d89b9ce0e5f592c44810f9239891ff0786cd",
+      "box_sha1": "6e23d89b9ce0e5f592c44810f9239891ff0786cd"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006125244.png",
+      "status": "box_unchanged",
+      "bytes": 12163,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "39d9ed6a2aa30fc6624484de9b8990337197dd11c586a4c26d378c4f7edd475a",
+      "cutover_sha256": "39d9ed6a2aa30fc6624484de9b8990337197dd11c586a4c26d378c4f7edd475a",
+      "cutover_sha1": "4ce36aca9aac30b58cb5c2d4633b4d3044c04d57",
+      "box_sha1": "4ce36aca9aac30b58cb5c2d4633b4d3044c04d57"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916165634.png",
+      "status": "box_unchanged",
+      "bytes": 36339,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "82c728300fa57626a20fc1f98d9e94c762ab35615b83e8ff687abcea9f475b4b",
+      "cutover_sha256": "82c728300fa57626a20fc1f98d9e94c762ab35615b83e8ff687abcea9f475b4b",
+      "cutover_sha1": "f54f68bd107acfe70ec74ea6a69a9343d50651e5",
+      "box_sha1": "f54f68bd107acfe70ec74ea6a69a9343d50651e5"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260918112110.png",
+      "status": "box_unchanged",
+      "bytes": 90807,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "00f8698af092d0d042b36e3c5a5c92a8ce78369061cb4b9bfc773c5da7ae9ad9",
+      "cutover_sha256": "00f8698af092d0d042b36e3c5a5c92a8ce78369061cb4b9bfc773c5da7ae9ad9",
+      "cutover_sha1": "4865e88e1fa90907ce29802a5abfed927fc47b4b",
+      "box_sha1": "4865e88e1fa90907ce29802a5abfed927fc47b4b"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180930.png",
+      "status": "box_unchanged",
+      "bytes": 66310,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "eb8c2ce8290a14a0c30d00033aea80af74f2a31c241896943f8e10cbab84aa3b",
+      "cutover_sha256": "eb8c2ce8290a14a0c30d00033aea80af74f2a31c241896943f8e10cbab84aa3b",
+      "cutover_sha1": "51b8670fd480a9ce0800f1bbc8fa11d0c1bd53b8",
+      "box_sha1": "51b8670fd480a9ce0800f1bbc8fa11d0c1bd53b8"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260918162620.png",
+      "status": "box_unchanged",
+      "bytes": 137939,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "abed7689eeb814897804058929fc78b6492724e8722c4a4e583b033261c9ff19",
+      "cutover_sha256": "abed7689eeb814897804058929fc78b6492724e8722c4a4e583b033261c9ff19",
+      "cutover_sha1": "ae8aebf835abd33cee875e1418869208f59dbaab",
+      "box_sha1": "ae8aebf835abd33cee875e1418869208f59dbaab"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261014105153.png",
+      "status": "box_unchanged",
+      "bytes": 129088,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "2306d29f2f01eb2c2f31df6f9b5c365168367474b9f2ded19b37cecb85867333",
+      "cutover_sha256": "2306d29f2f01eb2c2f31df6f9b5c365168367474b9f2ded19b37cecb85867333",
+      "cutover_sha1": "c70aa4471fbeadb091984507a176910d2bb98f7c",
+      "box_sha1": "c70aa4471fbeadb091984507a176910d2bb98f7c"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260921124359.png",
+      "status": "box_unchanged",
+      "bytes": 3621817,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "03e9cf6368d54bbe1a9aca1077b7c7b75e4b75c2e9fbf07c01c47459cf4bbfa8",
+      "cutover_sha256": "03e9cf6368d54bbe1a9aca1077b7c7b75e4b75c2e9fbf07c01c47459cf4bbfa8",
+      "cutover_sha1": "eb06cf373672a249b52c255a3343b908c9fd3de4",
+      "box_sha1": "eb06cf373672a249b52c255a3343b908c9fd3de4"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916171722.png",
+      "status": "box_unchanged",
+      "bytes": 14937,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "dd19b9ea59cec21aeb90527f11c7f368770060cb1ed2417c7e312cf9a61433da",
+      "cutover_sha256": "dd19b9ea59cec21aeb90527f11c7f368770060cb1ed2417c7e312cf9a61433da",
+      "cutover_sha1": "d80504eb9dedda7af14aeac751f1a2500c260f91",
+      "box_sha1": "d80504eb9dedda7af14aeac751f1a2500c260f91"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260921123630.png",
+      "status": "box_unchanged",
+      "bytes": 69018,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b56feb945338bac20e5ef26ae244a83af50876f5fee5fed0178929451b07de36",
+      "cutover_sha256": "b56feb945338bac20e5ef26ae244a83af50876f5fee5fed0178929451b07de36",
+      "cutover_sha1": "9944df42128314110539c6f35e40f64cd7c0c48a",
+      "box_sha1": "9944df42128314110539c6f35e40f64cd7c0c48a"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package copy.zip",
+      "status": "box_unchanged",
+      "bytes": 2354207,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "7a9f62432e7ecf61d2b8588d590d24d6f8dbb9af43b78b675c35535953a41ca8",
+      "cutover_sha256": "7a9f62432e7ecf61d2b8588d590d24d6f8dbb9af43b78b675c35535953a41ca8",
+      "cutover_sha1": "f6ad804282c856489ffe8452810817c4348f5c9d",
+      "box_sha1": "f6ad804282c856489ffe8452810817c4348f5c9d"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006134600.png",
+      "status": "box_unchanged",
+      "bytes": 113186,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "22b79341d97f74e3e128165a22efb6f7256430c04d003373d0988bbe76549608",
+      "cutover_sha256": "22b79341d97f74e3e128165a22efb6f7256430c04d003373d0988bbe76549608",
+      "cutover_sha1": "0ceab068b99f02f8771c1d9f2e6cd619a5f87d6c",
+      "box_sha1": "0ceab068b99f02f8771c1d9f2e6cd619a5f87d6c"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916145752.png",
+      "status": "box_unchanged",
+      "bytes": 125169,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "132d783f2b3a8df9352fde1de88f572790f533b7ff14f24ccc97756212fb0223",
+      "cutover_sha256": "132d783f2b3a8df9352fde1de88f572790f533b7ff14f24ccc97756212fb0223",
+      "cutover_sha1": "96157531af88a28f902ce92c3648ef85f7612795",
+      "box_sha1": "96157531af88a28f902ce92c3648ef85f7612795"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev7_Rev8_CAD_Comparison.xlsx",
+      "status": "box_unchanged",
+      "bytes": 38050,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "69ed1bddc8405b6efb189fa981a0ba1c543ad52e344d80f91fd46169809b1a2e",
+      "cutover_sha256": "69ed1bddc8405b6efb189fa981a0ba1c543ad52e344d80f91fd46169809b1a2e",
+      "cutover_sha1": "f4fa677f66e42b614546807b21a2d6f4ca3869d4",
+      "box_sha1": "f4fa677f66e42b614546807b21a2d6f4ca3869d4"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/316L_correlations_vs_NRC (1).pdf",
+      "status": "box_unchanged",
+      "bytes": 59658,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "2e548de69c463a490c83f3a4f952ae80f2263b34d8abd948b6952980f4944102",
+      "cutover_sha256": "2e548de69c463a490c83f3a4f952ae80f2263b34d8abd948b6952980f4944102",
+      "cutover_sha1": "46fd536b283ebf952a03dc3595be7d5b5e2a9685",
+      "box_sha1": "46fd536b283ebf952a03dc3595be7d5b5e2a9685"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261022173050.png",
+      "status": "box_unchanged",
+      "bytes": 5300457,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "038b13380c8c128a977dd392e92313969e8903c01a21bda4753bc3a94825dbc3",
+      "cutover_sha256": "038b13380c8c128a977dd392e92313969e8903c01a21bda4753bc3a94825dbc3",
+      "cutover_sha1": "4e91358461390f6538335459d4b0f5222a6efa3c",
+      "box_sha1": "4e91358461390f6538335459d4b0f5222a6efa3c"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006134932.png",
+      "status": "box_unchanged",
+      "bytes": 97051,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "f1fd6b431e3c299177416f8ad2628f7240d4859b109e90eb97bfcee447c83147",
+      "cutover_sha256": "f1fd6b431e3c299177416f8ad2628f7240d4859b109e90eb97bfcee447c83147",
+      "cutover_sha1": "cb68f457e6738350aafe7b9722bf710c1431622c",
+      "box_sha1": "cb68f457e6738350aafe7b9722bf710c1431622c"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_Compact_Sensors_Heights.pdf",
+      "status": "box_unchanged",
+      "bytes": 64207,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "de44220f11831df3a5ad2e6174d69c447564b5fc8c13889de2e94c98ca6474cc",
+      "cutover_sha256": "de44220f11831df3a5ad2e6174d69c447564b5fc8c13889de2e94c98ca6474cc",
+      "cutover_sha1": "3f6e70423be5d8666b60d264dd417f298925aac0",
+      "box_sha1": "3f6e70423be5d8666b60d264dd417f298925aac0"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260918162121.png",
+      "status": "box_unchanged",
+      "bytes": 173414,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "92e3dc2d84bd2edc6d2a4aa85d5fa6316dd4facd895197b34b43c3484004695a",
+      "cutover_sha256": "92e3dc2d84bd2edc6d2a4aa85d5fa6316dd4facd895197b34b43c3484004695a",
+      "cutover_sha1": "8c1b78363214b4f8209b59ace890d0af51564b1a",
+      "box_sha1": "8c1b78363214b4f8209b59ace890d0af51564b1a"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260924212606.png",
+      "status": "box_unchanged",
+      "bytes": 127486,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0f8dc4f97800433598f47be75069a77be8391dfd523f11710f7219b0ebe1c351",
+      "cutover_sha256": "0f8dc4f97800433598f47be75069a77be8391dfd523f11710f7219b0ebe1c351",
+      "cutover_sha1": "1215a5ffa81043287618ec33b537b3e23462b18d",
+      "box_sha1": "1215a5ffa81043287618ec33b537b3e23462b18d"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Engineering_Drawings 1.pdf",
+      "status": "box_unchanged",
+      "bytes": 269651,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "a2846b87a8cf1d6732bdb7a61731e04140bb1b6ff446dd11bce11538b992714a",
+      "cutover_sha256": "a2846b87a8cf1d6732bdb7a61731e04140bb1b6ff446dd11bce11538b992714a",
+      "cutover_sha1": "8e0ce3cfc5aa6627463aa37bdcb1ed5c417ea5a2",
+      "box_sha1": "8e0ce3cfc5aa6627463aa37bdcb1ed5c417ea5a2"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260925081737.png",
+      "status": "box_unchanged",
+      "bytes": 43446,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e0bd6135131c42c250c34534b4e3cb803130d7db9509471804bcbf639706900f",
+      "cutover_sha256": "e0bd6135131c42c250c34534b4e3cb803130d7db9509471804bcbf639706900f",
+      "cutover_sha1": "e9bc11ced6c03cbb5873f26e980d6c49b7e80bc3",
+      "box_sha1": "e9bc11ced6c03cbb5873f26e980d6c49b7e80bc3"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180810.png",
+      "status": "box_unchanged",
+      "bytes": 116159,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "8ade08b0b18f03daff210f3f90db5d80e104a6da794b1b803305db43644233a7",
+      "cutover_sha256": "8ade08b0b18f03daff210f3f90db5d80e104a6da794b1b803305db43644233a7",
+      "cutover_sha1": "889f77edcaa0914c4f9d93e5be8849f672446a79",
+      "box_sha1": "889f77edcaa0914c4f9d93e5be8849f672446a79"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_Simplified_Sensors_Lengths.pdf",
+      "status": "box_unchanged",
+      "bytes": 65189,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "f2f1876bc0fc9e0ec52fbfc51dc99ac48d51433879441e6aa41cbdac462cb022",
+      "cutover_sha256": "f2f1876bc0fc9e0ec52fbfc51dc99ac48d51433879441e6aa41cbdac462cb022",
+      "cutover_sha1": "d284a161e2d1ba64e15b147de31620c85fd81a4d",
+      "box_sha1": "d284a161e2d1ba64e15b147de31620c85fd81a4d"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006140846.png",
+      "status": "box_unchanged",
+      "bytes": 100700,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "7d84a9c353ff7a082a7d4b0bebb5a66387f7bfdb57a4abafd637253a5a324901",
+      "cutover_sha256": "7d84a9c353ff7a082a7d4b0bebb5a66387f7bfdb57a4abafd637253a5a324901",
+      "cutover_sha1": "80afa7b562a3d01171a5bb4b8cdfcc237dee3d99",
+      "box_sha1": "80afa7b562a3d01171a5bb4b8cdfcc237dee3d99"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916154132.png",
+      "status": "box_unchanged",
+      "bytes": 86682,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "29bc49315564a3cfd258ecee8fc8bf9d280c557f5f3ba189394f58a4347baec1",
+      "cutover_sha256": "29bc49315564a3cfd258ecee8fc8bf9d280c557f5f3ba189394f58a4347baec1",
+      "cutover_sha1": "8cebb71bfba559cf0e790a3a6a3b2b9a65d18f30",
+      "box_sha1": "8cebb71bfba559cf0e790a3a6a3b2b9a65d18f30"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006132553.png",
+      "status": "box_unchanged",
+      "bytes": 101446,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "7024c29730ab87deeba75f6d651d0a66c62c034b8037e56374bde0066ce0643d",
+      "cutover_sha256": "7024c29730ab87deeba75f6d651d0a66c62c034b8037e56374bde0066ce0643d",
+      "cutover_sha1": "dad2a2b2e3f19ebcd60517cb1f31b04fc0b4c60b",
+      "box_sha1": "dad2a2b2e3f19ebcd60517cb1f31b04fc0b4c60b"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260918112233.png",
+      "status": "box_unchanged",
+      "bytes": 59839,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "893e6e8aea261401783cde770b479f779f673dd7c71d6d6d6088b982716dddab",
+      "cutover_sha256": "893e6e8aea261401783cde770b479f779f673dd7c71d6d6d6088b982716dddab",
+      "cutover_sha1": "03316061e04501ea9687ec95a1f1c7b9d6129b87",
+      "box_sha1": "03316061e04501ea9687ec95a1f1c7b9d6129b87"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev7_Rev8_CAD_Comparison.pdf",
+      "status": "box_unchanged",
+      "bytes": 972610,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "2a65b2862781c6c372ce1dfd332c4ec2bf0a8f766f35513660cc4cad54ad52c3",
+      "cutover_sha256": "2a65b2862781c6c372ce1dfd332c4ec2bf0a8f766f35513660cc4cad54ad52c3",
+      "cutover_sha1": "34cae345de0387cf26f771b9ecc14a68c1b62775",
+      "box_sha1": "34cae345de0387cf26f771b9ecc14a68c1b62775"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006130427.png",
+      "status": "box_unchanged",
+      "bytes": 11868,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "6278b4d854f162e5ce1519e2556fe88eda63aeb7dd0f6c41fddd37b656cdffde",
+      "cutover_sha256": "6278b4d854f162e5ce1519e2556fe88eda63aeb7dd0f6c41fddd37b656cdffde",
+      "cutover_sha1": "71f0753e45d5af326ab560a6822ca328568747f7",
+      "box_sha1": "71f0753e45d5af326ab560a6822ca328568747f7"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260921122948.png",
+      "status": "box_unchanged",
+      "bytes": 251021,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "fb37a59e9365ccdb6c84aca025c3e43b603b565b7e87bcfc85a836158e18ae3a",
+      "cutover_sha256": "fb37a59e9365ccdb6c84aca025c3e43b603b565b7e87bcfc85a836158e18ae3a",
+      "cutover_sha1": "d072c115a33ae7fccc8b1e464d6a96eb9e8c5024",
+      "box_sha1": "d072c115a33ae7fccc8b1e464d6a96eb9e8c5024"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180745.png",
+      "status": "box_unchanged",
+      "bytes": 115117,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "09d109df92f2f0435ccc528b931e909111c92372c304097276c0cf50534de084",
+      "cutover_sha256": "09d109df92f2f0435ccc528b931e909111c92372c304097276c0cf50534de084",
+      "cutover_sha1": "dade68e69c410f0475714f5d4fccd7597c93470a",
+      "box_sha1": "dade68e69c410f0475714f5d4fccd7597c93470a"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/316L_correlations_vs_NRC.pdf",
+      "status": "box_unchanged",
+      "bytes": 63981,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "3b2009f57ce1b8d14e7804fd3514ba6e9eb8243f9d5dd0b6ed0c0ffea6fb063e",
+      "cutover_sha256": "3b2009f57ce1b8d14e7804fd3514ba6e9eb8243f9d5dd0b6ed0c0ffea6fb063e",
+      "cutover_sha1": "df7b0046fea092995f0ddbca323b9cab0fdc4493",
+      "box_sha1": "df7b0046fea092995f0ddbca323b9cab0fdc4493"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261014094551.png",
+      "status": "box_unchanged",
+      "bytes": 138010,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "112089a761705fa9c3eb0f665eb0c6d8a0582cebc4fdb9f8e6ae6eba3c49541c",
+      "cutover_sha256": "112089a761705fa9c3eb0f665eb0c6d8a0582cebc4fdb9f8e6ae6eba3c49541c",
+      "cutover_sha1": "f6a7ab02c493ed835a3401dcc27816c88459c302",
+      "box_sha1": "f6a7ab02c493ed835a3401dcc27816c88459c302"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916150018.png",
+      "status": "box_unchanged",
+      "bytes": 96527,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0ad140d68019c55d58458294aec735fd39e1460f21cb41fad96c9ba9af1a920f",
+      "cutover_sha256": "0ad140d68019c55d58458294aec735fd39e1460f21cb41fad96c9ba9af1a920f",
+      "cutover_sha1": "b189582b8a97e40d7fe913944e73c2f9ecaadbe0",
+      "box_sha1": "b189582b8a97e40d7fe913944e73c2f9ecaadbe0"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006134905.png",
+      "status": "box_unchanged",
+      "bytes": 91999,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "6926d6701e0f8f398c46c314e9eef6b7fbf7f29ff5f25f3318edb6ae95f5249d",
+      "cutover_sha256": "6926d6701e0f8f398c46c314e9eef6b7fbf7f29ff5f25f3318edb6ae95f5249d",
+      "cutover_sha1": "105d2c1746a516bee0460131ab4504886ad22b63",
+      "box_sha1": "105d2c1746a516bee0460131ab4504886ad22b63"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006125106.png",
+      "status": "box_unchanged",
+      "bytes": 10923,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "9dfa9a80ecbda9e96a909b9fc4bc8c9305d638c6a236a54afffe2667a2d728f1",
+      "cutover_sha256": "9dfa9a80ecbda9e96a909b9fc4bc8c9305d638c6a236a54afffe2667a2d728f1",
+      "cutover_sha1": "abba77c1e7f5f465dc7bae379859a4c711c9b726",
+      "box_sha1": "abba77c1e7f5f465dc7bae379859a4c711c9b726"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006133638.png",
+      "status": "box_unchanged",
+      "bytes": 75565,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "c557a35fad5d98992b0b162fdd512e29d23d69c28f10ce2e9608085f93f1a635",
+      "cutover_sha256": "c557a35fad5d98992b0b162fdd512e29d23d69c28f10ce2e9608085f93f1a635",
+      "cutover_sha1": "bc59f96374a7fc0c7e8b0a3272f72aae3ab0d770",
+      "box_sha1": "bc59f96374a7fc0c7e8b0a3272f72aae3ab0d770"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260924212642.png",
+      "status": "box_unchanged",
+      "bytes": 133242,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e2c732e28d54cca8925436b606affa3c83e7cd96e8868035f7860c9d287d3ee3",
+      "cutover_sha256": "e2c732e28d54cca8925436b606affa3c83e7cd96e8868035f7860c9d287d3ee3",
+      "cutover_sha1": "9e34d8e33d9589dd148c538730267ad026f240b8",
+      "box_sha1": "9e34d8e33d9589dd148c538730267ad026f240b8"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260924212656.png",
+      "status": "box_unchanged",
+      "bytes": 141904,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "997127747301fd6a1dd8a7219f666122221dcbee61b757bd57b004a5c0db4b71",
+      "cutover_sha256": "997127747301fd6a1dd8a7219f666122221dcbee61b757bd57b004a5c0db4b71",
+      "cutover_sha1": "3aecd72fefa0bba53292390179d28a02cfd913be",
+      "box_sha1": "3aecd72fefa0bba53292390179d28a02cfd913be"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006130522.png",
+      "status": "box_unchanged",
+      "bytes": 11726,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "15ce033f09e86f2491ace76cd08a15bb0cd83abcdb29378ab0294b351d4551b2",
+      "cutover_sha256": "15ce033f09e86f2491ace76cd08a15bb0cd83abcdb29378ab0294b351d4551b2",
+      "cutover_sha1": "b86bb38a9eff153a1ec30391d911b97de7b37dc9",
+      "box_sha1": "b86bb38a9eff153a1ec30391d911b97de7b37dc9"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260925211935.png",
+      "status": "box_unchanged",
+      "bytes": 103904,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "84c6d1aa7f3f3533b88e20543b0531e63108a70dcb0d4614bfb3e561f62176e5",
+      "cutover_sha256": "84c6d1aa7f3f3533b88e20543b0531e63108a70dcb0d4614bfb3e561f62176e5",
+      "cutover_sha1": "11dc88d15ce09329065756a1aeee81e41328224e",
+      "box_sha1": "11dc88d15ce09329065756a1aeee81e41328224e"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260921123601.png",
+      "status": "box_unchanged",
+      "bytes": 62512,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "68e22430d7933ed7eeb6fa4d82c923c0f1a9a4d6643a52cdd1659a0f9d6115f2",
+      "cutover_sha256": "68e22430d7933ed7eeb6fa4d82c923c0f1a9a4d6643a52cdd1659a0f9d6115f2",
+      "cutover_sha1": "0a76a506d41a8027667b075bd6817f432054f89e",
+      "box_sha1": "0a76a506d41a8027667b075bd6817f432054f89e"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006125306.png",
+      "status": "box_unchanged",
+      "bytes": 11263,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "d4c9aa5f5322b765899d2e6bba59a6fc9732793a339e055dda8fe7c325031d7a",
+      "cutover_sha256": "d4c9aa5f5322b765899d2e6bba59a6fc9732793a339e055dda8fe7c325031d7a",
+      "cutover_sha1": "ff7269e11f066ab086f922b6e2e93852f9cdaa3d",
+      "box_sha1": "ff7269e11f066ab086f922b6e2e93852f9cdaa3d"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev7_Rev8_CAD_Comparison.md",
+      "status": "box_unchanged",
+      "bytes": 4767,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "a08a3293d97bf7b56eb035acea121dc7f6592a27d0c9c7f8e53481d264154100",
+      "cutover_sha256": "a08a3293d97bf7b56eb035acea121dc7f6592a27d0c9c7f8e53481d264154100",
+      "cutover_sha1": "c27ffcd862e4b164d4a3d799e50e749b329199b5",
+      "box_sha1": "c27ffcd862e4b164d4a3d799e50e749b329199b5"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260925081141.png",
+      "status": "box_unchanged",
+      "bytes": 153322,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "5ed864de6905e8ccc5017082e7579b24e2cfab4b25106dd6a28adae27e576aa0",
+      "cutover_sha256": "5ed864de6905e8ccc5017082e7579b24e2cfab4b25106dd6a28adae27e576aa0",
+      "cutover_sha1": "f6f9916235493e5ec38faf62a0ad1069cde0862e",
+      "box_sha1": "f6f9916235493e5ec38faf62a0ad1069cde0862e"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006134025.png",
+      "status": "box_unchanged",
+      "bytes": 98117,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "8abadafe09ef5dda400732f6f9278196c7b8e2b4bcc9fa4f43d55608854b9250",
+      "cutover_sha256": "8abadafe09ef5dda400732f6f9278196c7b8e2b4bcc9fa4f43d55608854b9250",
+      "cutover_sha1": "1e7ef57d8edbdb2e43f92918b1c3a055da0aa26d",
+      "box_sha1": "1e7ef57d8edbdb2e43f92918b1c3a055da0aa26d"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006125128.png",
+      "status": "box_unchanged",
+      "bytes": 11975,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "9ff7699f893d1f5df0f0fa5a7286ca3804cbb8e6e6cfc6568b10991e28e9efd4",
+      "cutover_sha256": "9ff7699f893d1f5df0f0fa5a7286ca3804cbb8e6e6cfc6568b10991e28e9efd4",
+      "cutover_sha1": "e8b7a999b913ef8a00891f3f7dd294ef11aa19b1",
+      "box_sha1": "e8b7a999b913ef8a00891f3f7dd294ef11aa19b1"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916171707.png",
+      "status": "box_unchanged",
+      "bytes": 57958,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e92662b86d67f62df44f5e04671ae92290e32b934f6229a24a7ccf2c36b966ad",
+      "cutover_sha256": "e92662b86d67f62df44f5e04671ae92290e32b934f6229a24a7ccf2c36b966ad",
+      "cutover_sha1": "79a555c8bf8f67c0cf7898951e1e32df7e9080df",
+      "box_sha1": "79a555c8bf8f67c0cf7898951e1e32df7e9080df"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180243.png",
+      "status": "box_unchanged",
+      "bytes": 120912,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "2aa174a0662cf441d413e92ca15e75515e8b3ca68b2228013fcd4719b78f66f5",
+      "cutover_sha256": "2aa174a0662cf441d413e92ca15e75515e8b3ca68b2228013fcd4719b78f66f5",
+      "cutover_sha1": "680a87016ca8f7092b06d981a53885e4b6102d6f",
+      "box_sha1": "680a87016ca8f7092b06d981a53885e4b6102d6f"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006130451.png",
+      "status": "box_unchanged",
+      "bytes": 11726,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "15ce033f09e86f2491ace76cd08a15bb0cd83abcdb29378ab0294b351d4551b2",
+      "cutover_sha256": "15ce033f09e86f2491ace76cd08a15bb0cd83abcdb29378ab0294b351d4551b2",
+      "cutover_sha1": "b86bb38a9eff153a1ec30391d911b97de7b37dc9",
+      "box_sha1": "b86bb38a9eff153a1ec30391d911b97de7b37dc9"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260911080943.png",
+      "status": "box_unchanged",
+      "bytes": 76521,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "7e96315ac04809bdba51a89934f70ba3650082a464f6be2b3cf19c35491bf351",
+      "cutover_sha256": "7e96315ac04809bdba51a89934f70ba3650082a464f6be2b3cf19c35491bf351",
+      "cutover_sha1": "2d5947b9b84c1899e350a666e4806f7700444853",
+      "box_sha1": "2d5947b9b84c1899e350a666e4806f7700444853"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261014092143.png",
+      "status": "box_unchanged",
+      "bytes": 610374,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "9269c73b8a33ef5366683b61af1d754037a022517911eb83fb13c2b6f45c37a5",
+      "cutover_sha256": "9269c73b8a33ef5366683b61af1d754037a022517911eb83fb13c2b6f45c37a5",
+      "cutover_sha1": "797ff3320af36d20a7bd6a6f961256ae57fe20a7",
+      "box_sha1": "797ff3320af36d20a7bd6a6f961256ae57fe20a7"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Engineering_Drawings.pdf",
+      "status": "box_unchanged",
+      "bytes": 294641,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "490e7192f553838c87f6368e462878f852c0cde0d89206040f31f5f796ecdae0",
+      "cutover_sha256": "490e7192f553838c87f6368e462878f852c0cde0d89206040f31f5f796ecdae0",
+      "cutover_sha1": "c09ff0dad959c1de95323b20625a0293bc916cf5",
+      "box_sha1": "c09ff0dad959c1de95323b20625a0293bc916cf5"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180902.png",
+      "status": "box_unchanged",
+      "bytes": 45864,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0ce66e997bb298cabd255a64ec407a35eaa2ebbd403dfd8716dc7ae270c1d9f5",
+      "cutover_sha256": "0ce66e997bb298cabd255a64ec407a35eaa2ebbd403dfd8716dc7ae270c1d9f5",
+      "cutover_sha1": "9fa6e3091a7e5ed9ed7e8b6149a7569fc288d4e9",
+      "box_sha1": "9fa6e3091a7e5ed9ed7e8b6149a7569fc288d4e9"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/README.md",
+      "status": "box_unchanged",
+      "bytes": 5705,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "32237e4fd961727387ac2476c5a6c3ed64cdb122916ae84dccdc39aea6866140",
+      "cutover_sha256": "32237e4fd961727387ac2476c5a6c3ed64cdb122916ae84dccdc39aea6866140",
+      "cutover_sha1": "a37a717904319ceedbe7fecb05d48dda17fc6883",
+      "box_sha1": "a37a717904319ceedbe7fecb05d48dda17fc6883"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/drawings/VCU_Rev8_CAD_Engineering_Drawings.pdf",
+      "status": "box_unchanged",
+      "bytes": 269651,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "a2846b87a8cf1d6732bdb7a61731e04140bb1b6ff446dd11bce11538b992714a",
+      "cutover_sha256": "a2846b87a8cf1d6732bdb7a61731e04140bb1b6ff446dd11bce11538b992714a",
+      "cutover_sha1": "8e0ce3cfc5aa6627463aa37bdcb1ed5c417ea5a2",
+      "box_sha1": "8e0ce3cfc5aa6627463aa37bdcb1ed5c417ea5a2"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/source/UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "status": "box_unchanged",
+      "bytes": 4196659,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "c40a7e6ce597a35cdaa9d7358835b242df408750b021385c1653d02a0871bf1e",
+      "cutover_sha256": "c40a7e6ce597a35cdaa9d7358835b242df408750b021385c1653d02a0871bf1e",
+      "cutover_sha1": "c6a28fe4ca8b9c17b4778fe9f5a787c09186ac9f",
+      "box_sha1": "c6a28fe4ca8b9c17b4778fe9f5a787c09186ac9f"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/audit_surface_contacts.py",
+      "status": "box_unchanged",
+      "bytes": 756,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "70d88f26fe475b8e80185041415b0ac4abd106fb3e06c26a60ddebd91d5d2ed5",
+      "cutover_sha256": "70d88f26fe475b8e80185041415b0ac4abd106fb3e06c26a60ddebd91d5d2ed5",
+      "cutover_sha1": "2f07f1853446267a1b855d596794ba0454b55301",
+      "box_sha1": "2f07f1853446267a1b855d596794ba0454b55301"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/validate_deliverable.py",
+      "status": "box_unchanged",
+      "bytes": 2251,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "c63c58cd21ca2bd4435dcf42e200ecdaba58ee7ac744c6725e409baa22f40982",
+      "cutover_sha256": "c63c58cd21ca2bd4435dcf42e200ecdaba58ee7ac744c6725e409baa22f40982",
+      "cutover_sha1": "860a5a6af7d31eee421a962a327c91d7261a08a5",
+      "box_sha1": "860a5a6af7d31eee421a962a327c91d7261a08a5"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/reconstruct_bends.py",
+      "status": "box_unchanged",
+      "bytes": 2418,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "ec5cb194362d9a78fd2d193b8dd409f559392236ba71956b45d677faf559b52a",
+      "cutover_sha256": "ec5cb194362d9a78fd2d193b8dd409f559392236ba71956b45d677faf559b52a",
+      "cutover_sha1": "22e9d5ec069afc08470b5ba1135f6ffef2456459",
+      "box_sha1": "22e9d5ec069afc08470b5ba1135f6ffef2456459"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/cad_model.py",
+      "status": "box_unchanged",
+      "bytes": 1640,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "8fb67808c0f6ef6bbe5a0c530e4ca372f2ffbdf498fb6ea99e27bca6eaf63c02",
+      "cutover_sha256": "8fb67808c0f6ef6bbe5a0c530e4ca372f2ffbdf498fb6ea99e27bca6eaf63c02",
+      "cutover_sha1": "e70c43e7b3c359814dbf848d8e06fb9733fe104d",
+      "box_sha1": "e70c43e7b3c359814dbf848d8e06fb9733fe104d"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/verify_rev8.py",
+      "status": "box_unchanged",
+      "bytes": 2582,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "482a0e2fda8034216e87de729e1742521fb7ffb4001e7a903f6076583eebef02",
+      "cutover_sha256": "482a0e2fda8034216e87de729e1742521fb7ffb4001e7a903f6076583eebef02",
+      "cutover_sha1": "9369b976938fdd1a76ca4fb103742f674ff4f0a9",
+      "box_sha1": "9369b976938fdd1a76ca4fb103742f674ff4f0a9"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/build_model_data.py",
+      "status": "box_unchanged",
+      "bytes": 15915,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "c3365b311b79eeb3c5f6bed6aae09b969f37c75a1c7d299fa0f26b7bef0c8106",
+      "cutover_sha256": "c3365b311b79eeb3c5f6bed6aae09b969f37c75a1c7d299fa0f26b7bef0c8106",
+      "cutover_sha1": "0a25f5d36f46adfad106183d6996e804b7d34c04",
+      "box_sha1": "0a25f5d36f46adfad106183d6996e804b7d34c04"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/inspect_step.py",
+      "status": "box_unchanged",
+      "bytes": 5140,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "fa431e31ba62e7dd6bcc2ac60c007adc2a31876fd30ed52e8d0b8e247c0cce20",
+      "cutover_sha256": "fa431e31ba62e7dd6bcc2ac60c007adc2a31876fd30ed52e8d0b8e247c0cce20",
+      "cutover_sha1": "a9c0c234740ffc26119010731db4579de101d5a4",
+      "box_sha1": "a9c0c234740ffc26119010731db4579de101d5a4"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/extract_rev8.py",
+      "status": "box_unchanged",
+      "bytes": 6472,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "5d61d5572e16a6d0cf5c8df4e6eee82cee98e767a397643ab288ba84d56f2b58",
+      "cutover_sha256": "5d61d5572e16a6d0cf5c8df4e6eee82cee98e767a397643ab288ba84d56f2b58",
+      "cutover_sha1": "33a71c5a63934b75e2819ad1740204b5f9d02756",
+      "box_sha1": "33a71c5a63934b75e2819ad1740204b5f9d02756"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/derive_rev8.py",
+      "status": "box_unchanged",
+      "bytes": 11808,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "22d706b9a5195a26287593366f48435eaf19a228bd8dfba8ec22b378a82a5f20",
+      "cutover_sha256": "22d706b9a5195a26287593366f48435eaf19a228bd8dfba8ec22b378a82a5f20",
+      "cutover_sha1": "76b855ec93a4e6b0acfa702f1f3e2f9e047b7bfe",
+      "box_sha1": "76b855ec93a4e6b0acfa702f1f3e2f9e047b7bfe"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/project_cad.py",
+      "status": "box_unchanged",
+      "bytes": 1190,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "480bbd09b969a4a5302fef143baf4bee54c4f270baaaa7ea72f6bf137861b695",
+      "cutover_sha256": "480bbd09b969a4a5302fef143baf4bee54c4f270baaaa7ea72f6bf137861b695",
+      "cutover_sha1": "b0c147731b2655185bfaf64ebae35f2b136ee8f9",
+      "box_sha1": "b0c147731b2655185bfaf64ebae35f2b136ee8f9"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/draw_engineering.py",
+      "status": "box_unchanged",
+      "bytes": 31356,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "8b11e5099d7a7e3a40e4511c6944086449bf31b5c703d8553ad82ef26e8436ae",
+      "cutover_sha256": "8b11e5099d7a7e3a40e4511c6944086449bf31b5c703d8553ad82ef26e8436ae",
+      "cutover_sha1": "8b29547443865f32f5f0837bb737d85be4f02b45",
+      "box_sha1": "8b29547443865f32f5f0837bb737d85be4f02b45"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/reconstructed_bends.json",
+      "status": "box_unchanged",
+      "bytes": 60600,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "9959c177a435569222aac77804b8edfb9e246342902efb16a305f7cd8b9a7db8",
+      "cutover_sha256": "9959c177a435569222aac77804b8edfb9e246342902efb16a305f7cd8b9a7db8",
+      "cutover_sha1": "b3a4b195a11e9953e7c0c20eee462d7ca0d97067",
+      "box_sha1": "b3a4b195a11e9953e7c0c20eee462d7ca0d97067"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/derived.json",
+      "status": "box_unchanged",
+      "bytes": 82661,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "118a7a6e609c66ced81b7858321def4e84fc091fb10ab7a4d1dbed075212a34f",
+      "cutover_sha256": "118a7a6e609c66ced81b7858321def4e84fc091fb10ab7a4d1dbed075212a34f",
+      "cutover_sha1": "b1f73e38e781fc2b68eeeef0d2fabbc11d9eed93",
+      "box_sha1": "b1f73e38e781fc2b68eeeef0d2fabbc11d9eed93"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Coordinates.csv",
+      "status": "box_unchanged",
+      "bytes": 6230,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "2dc5e5907139e902809d56d0f31696de9c27c64687e6ebcfbe965382f14c3f3e",
+      "cutover_sha256": "2dc5e5907139e902809d56d0f31696de9c27c64687e6ebcfbe965382f14c3f3e",
+      "cutover_sha1": "73724af0a92c2646936e1419a4e7aab0047b9f8f",
+      "box_sha1": "73724af0a92c2646936e1419a4e7aab0047b9f8f"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Engineering_Data.json",
+      "status": "box_unchanged",
+      "bytes": 165212,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "66aa8e58e6fdad8370d41c1b9f0da022ad0ae1d968c1b1c8e155e1eb82278605",
+      "cutover_sha256": "66aa8e58e6fdad8370d41c1b9f0da022ad0ae1d968c1b1c8e155e1eb82278605",
+      "cutover_sha1": "9e5d2fa111f5005127780454d54ab1c0b59429b1",
+      "box_sha1": "9e5d2fa111f5005127780454d54ab1c0b59429b1"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Contact_Solutions.csv",
+      "status": "box_unchanged",
+      "bytes": 5516,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e995623edf73cc3c269127a3d8c881b88dac3294a68b757fe791c57544b8f0be",
+      "cutover_sha256": "e995623edf73cc3c269127a3d8c881b88dac3294a68b757fe791c57544b8f0be",
+      "cutover_sha1": "b44f3071e297ddf585c6a3eddd116f598e62b3bc",
+      "box_sha1": "b44f3071e297ddf585c6a3eddd116f598e62b3bc"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/deliverable_validation.json",
+      "status": "box_unchanged",
+      "bytes": 351,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "cd0c73dcd31c317d6bc56a92ee6ab795eec4ad3a1a2513330ef54c54c37f5f20",
+      "cutover_sha256": "cd0c73dcd31c317d6bc56a92ee6ab795eec4ad3a1a2513330ef54c54c37f5f20",
+      "cutover_sha1": "010fb5a7fdcf746bf5e179a67f4f688a11494a7f",
+      "box_sha1": "010fb5a7fdcf746bf5e179a67f4f688a11494a7f"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Sensor_Stations.csv",
+      "status": "box_unchanged",
+      "bytes": 19644,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "71c8dfa3fad0292377171b4b9f9afa0b7c00f513933f757195e6bddd63443afe",
+      "cutover_sha256": "71c8dfa3fad0292377171b4b9f9afa0b7c00f513933f757195e6bddd63443afe",
+      "cutover_sha1": "b5c2a84399cd616bcb1a0d1df0a9bb344adc0c4c",
+      "box_sha1": "b5c2a84399cd616bcb1a0d1df0a9bb344adc0c4c"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Probe_Shafts.csv",
+      "status": "box_unchanged",
+      "bytes": 2119,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "66efb22547dd769a26b41d632e0df3b7fa22b24de7e6b148fecd8728b4260c43",
+      "cutover_sha256": "66efb22547dd769a26b41d632e0df3b7fa22b24de7e6b148fecd8728b4260c43",
+      "cutover_sha1": "97f5624f4ae179e51998b4e71d52ced9112d19b5",
+      "box_sha1": "97f5624f4ae179e51998b4e71d52ced9112d19b5"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Segments.csv",
+      "status": "box_unchanged",
+      "bytes": 4304,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b97095fa974987ff2bc518825b85402767453ae37aec72ceebad42fd894deb70",
+      "cutover_sha256": "b97095fa974987ff2bc518825b85402767453ae37aec72ceebad42fd894deb70",
+      "cutover_sha1": "1ae896be5ee451b79f2959880feed63f87972eda",
+      "box_sha1": "1ae896be5ee451b79f2959880feed63f87972eda"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/surface_contact_solutions.json",
+      "status": "box_unchanged",
+      "bytes": 8168,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "c22980f42bc9c06dd80c7aebc2de8c5cb1a845f1807169ff78df12125aa0fbe0",
+      "cutover_sha256": "c22980f42bc9c06dd80c7aebc2de8c5cb1a845f1807169ff78df12125aa0fbe0",
+      "cutover_sha1": "9dc41d805c7f676c0798caf419138e84c7ed2542",
+      "box_sha1": "9dc41d805c7f676c0798caf419138e84c7ed2542"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Diameters.csv",
+      "status": "box_unchanged",
+      "bytes": 1968,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0ce1cc104d737b069db7d4759698509d663dd38d3bf0aec62af6430f382afa3d",
+      "cutover_sha256": "0ce1cc104d737b069db7d4759698509d663dd38d3bf0aec62af6430f382afa3d",
+      "cutover_sha1": "d090034919efa1d76f38ade3d073170916747f13",
+      "box_sha1": "d090034919efa1d76f38ade3d073170916747f13"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/contact_audit.log",
+      "status": "box_unchanged",
+      "bytes": 4160,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "1c260e46fb4448a8089f3c61e4a19391a4e17e8df147a43e2dda259d8087c19d",
+      "cutover_sha256": "1c260e46fb4448a8089f3c61e4a19391a4e17e8df147a43e2dda259d8087c19d",
+      "cutover_sha1": "6a3c90e3fe55be62c372f26955630e42280be8a0",
+      "box_sha1": "6a3c90e3fe55be62c372f26955630e42280be8a0"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/cad_projection.json",
+      "status": "box_unchanged",
+      "bytes": 350988,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "decce50c264a00e42686f6098422b817dedc68be8e6de57332aa7e36d8d3e352",
+      "cutover_sha256": "decce50c264a00e42686f6098422b817dedc68be8e6de57332aa7e36d8d3e352",
+      "cutover_sha1": "eb4b3dbd248b612266d2d77e72cb0575b2b08d64",
+      "box_sha1": "eb4b3dbd248b612266d2d77e72cb0575b2b08d64"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/rev8_verification.json",
+      "status": "box_unchanged",
+      "bytes": 2107,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "c57f20155c1c8abc126d6f9c95c915d384a7f18049a01cdf41d3215cad8202be",
+      "cutover_sha256": "c57f20155c1c8abc126d6f9c95c915d384a7f18049a01cdf41d3215cad8202be",
+      "cutover_sha1": "22fb78dea8a4c0d6956b908ed15c68f90a5e6b4f",
+      "box_sha1": "22fb78dea8a4c0d6956b908ed15c68f90a5e6b4f"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/rev8_mesh.json",
+      "status": "box_unchanged",
+      "bytes": 2763584,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "450561923984155da37ca53b5b7d6b67836cf5766246d94f742e4f67f6e405a6",
+      "cutover_sha256": "450561923984155da37ca53b5b7d6b67836cf5766246d94f742e4f67f6e405a6",
+      "cutover_sha1": "6fe32692d55ed4bde04ecf46fc2158485f837a04",
+      "box_sha1": "6fe32692d55ed4bde04ecf46fc2158485f837a04"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/projection.log",
+      "status": "box_unchanged",
+      "bytes": 417,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "13292ec8d73bdba6bce1ddd45d4003d90088e85165a28e620b7343c2a020ec02",
+      "cutover_sha256": "13292ec8d73bdba6bce1ddd45d4003d90088e85165a28e620b7343c2a020ec02",
+      "cutover_sha1": "8be48537b0967f5f4d745e5c22336108bd06583d",
+      "box_sha1": "8be48537b0967f5f4d745e5c22336108bd06583d"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/rev8.json",
+      "status": "box_unchanged",
+      "bytes": 1910188,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "32ed7f2eb833a07bf8e168643882d150c8bb33bd9873f0f057d39b1e87c3fba4",
+      "cutover_sha256": "32ed7f2eb833a07bf8e168643882d150c8bb33bd9873f0f057d39b1e87c3fba4",
+      "cutover_sha1": "2d52525380ecfb5d61877273ece6809b3a6aa1ae",
+      "box_sha1": "2d52525380ecfb5d61877273ece6809b3a6aa1ae"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/extraction.log",
+      "status": "box_unchanged",
+      "bytes": 8186,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "4c990beac9b110a0f14df409d4c889546da3087a780fa393ae745c9bb1b71e5a",
+      "cutover_sha256": "4c990beac9b110a0f14df409d4c889546da3087a780fa393ae745c9bb1b71e5a",
+      "cutover_sha1": "7f1f7a79a23a502e7bfe1bd50f6752a7f3f7a20f",
+      "box_sha1": "7f1f7a79a23a502e7bfe1bd50f6752a7f3f7a20f"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/VCU_Rev9_CAD_Engineering_Drawings.pdf",
+      "status": "box_unchanged",
+      "bytes": 328199,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "c7078accde01cc9f6ab3ab6c8ff6a509a2b73ef64b8ac9f92db28357772d4963",
+      "cutover_sha256": "c7078accde01cc9f6ab3ab6c8ff6a509a2b73ef64b8ac9f92db28357772d4963",
+      "cutover_sha1": "e31a00debf4cf6f2478a68ead477b3e2e223d3fb",
+      "box_sha1": "e31a00debf4cf6f2478a68ead477b3e2e223d3fb"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/MANIFEST.json",
+      "status": "box_unchanged",
+      "bytes": 7713,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "9f4d9b3773e25933899f1072aafdb5b3c886045ec1d7f0bd7e249703bdba250d",
+      "cutover_sha256": "9f4d9b3773e25933899f1072aafdb5b3c886045ec1d7f0bd7e249703bdba250d",
+      "cutover_sha1": "57c5f67bd891fd1a7d2ea051a8c86cc755f4cab2",
+      "box_sha1": "57c5f67bd891fd1a7d2ea051a8c86cc755f4cab2"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/README.txt",
+      "status": "box_unchanged",
+      "bytes": 11405,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e97a863f482927daaa8c8afd331c093e977255e96b261dde643057a052309d7c",
+      "cutover_sha256": "e97a863f482927daaa8c8afd331c093e977255e96b261dde643057a052309d7c",
+      "cutover_sha1": "25f15537fadc398fda0396e360b38740c1f459b1",
+      "box_sha1": "25f15537fadc398fda0396e360b38740c1f459b1"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/source/_STEPFILE_UTDTloopWithOpticsAndHXRev9_9_18_26.step",
+      "status": "box_unchanged",
+      "bytes": 4259443,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "78c6ae52bf39084fbd9b1306d28dcbe2c1c4d5fccd334b0e68c861022a1bfbcf",
+      "cutover_sha256": "78c6ae52bf39084fbd9b1306d28dcbe2c1c4d5fccd334b0e68c861022a1bfbcf",
+      "cutover_sha1": "619d9c3e37effbf9c06874eb11170581d8bc0f16",
+      "box_sha1": "619d9c3e37effbf9c06874eb11170581d8bc0f16"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/extract_contacts.py",
+      "status": "box_unchanged",
+      "bytes": 1894,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "2baf41cf1bc33cc174f7b76eefc6d7b6888ea5d91e1cce8ab72d53770249ec70",
+      "cutover_sha256": "2baf41cf1bc33cc174f7b76eefc6d7b6888ea5d91e1cce8ab72d53770249ec70",
+      "cutover_sha1": "f5a7414eb763f8563e8d452813ff602da55a6fe0",
+      "box_sha1": "f5a7414eb763f8563e8d452813ff602da55a6fe0"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/extract_inventory.py",
+      "status": "box_unchanged",
+      "bytes": 4459,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b37601f929ddd63427bb6c762fed26c650e170e5aca65ea1888e69f7b1b3510a",
+      "cutover_sha256": "b37601f929ddd63427bb6c762fed26c650e170e5aca65ea1888e69f7b1b3510a",
+      "cutover_sha1": "5ccdfb7226996b01d6a7dd7e8926222e8ae4cc5b",
+      "box_sha1": "5ccdfb7226996b01d6a7dd7e8926222e8ae4cc5b"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/derive_geometry.py",
+      "status": "box_unchanged",
+      "bytes": 6028,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "47e22272b144011bffc1b72b814a9bb4cce8120f75c5b29987cb737604fc499c",
+      "cutover_sha256": "47e22272b144011bffc1b72b814a9bb4cce8120f75c5b29987cb737604fc499c",
+      "cutover_sha1": "aa2df995c84d7b8be4f05e016dce3648ed87fb6c",
+      "box_sha1": "aa2df995c84d7b8be4f05e016dce3648ed87fb6c"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/verify_rev9.py",
+      "status": "box_unchanged",
+      "bytes": 2582,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "482a0e2fda8034216e87de729e1742521fb7ffb4001e7a903f6076583eebef02",
+      "cutover_sha256": "482a0e2fda8034216e87de729e1742521fb7ffb4001e7a903f6076583eebef02",
+      "cutover_sha1": "9369b976938fdd1a76ca4fb103742f674ff4f0a9",
+      "box_sha1": "9369b976938fdd1a76ca4fb103742f674ff4f0a9"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/validate_deliverable.py",
+      "status": "box_unchanged",
+      "bytes": 6179,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "3a1c7b8b44186cf66336c9a4fa2bf02942e83aa2849c837f0d353a926775b171",
+      "cutover_sha256": "3a1c7b8b44186cf66336c9a4fa2bf02942e83aa2849c837f0d353a926775b171",
+      "cutover_sha1": "677704274a7f65ae353ea3dcca5db7eb68327cef",
+      "box_sha1": "677704274a7f65ae353ea3dcca5db7eb68327cef"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/reconstruct_bends.py",
+      "status": "box_unchanged",
+      "bytes": 1987,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "6b3dd5e30e2ef34fd505eb24875279ca7f844d86763995f6272c86c1673b55d2",
+      "cutover_sha256": "6b3dd5e30e2ef34fd505eb24875279ca7f844d86763995f6272c86c1673b55d2",
+      "cutover_sha1": "9fe82d44a04777d7682d1290645e88282eec4115",
+      "box_sha1": "9fe82d44a04777d7682d1290645e88282eec4115"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/load_vcu_rev9.py",
+      "status": "box_unchanged",
+      "bytes": 1640,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "9922f388aa88ea39f1afcabd026247cba0b86c2a7d59028197fcb3c1a8b44af3",
+      "cutover_sha256": "9922f388aa88ea39f1afcabd026247cba0b86c2a7d59028197fcb3c1a8b44af3",
+      "cutover_sha1": "95ab2171ac86d6d84fcbb4687ea099240581b54f",
+      "box_sha1": "95ab2171ac86d6d84fcbb4687ea099240581b54f"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/cad_model.py",
+      "status": "box_unchanged",
+      "bytes": 1657,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "aa1bfda670f62d91ee0574224f2058453c119a32bda4416529a72094d612ac83",
+      "cutover_sha256": "aa1bfda670f62d91ee0574224f2058453c119a32bda4416529a72094d612ac83",
+      "cutover_sha1": "a075dc8c2e0a7e89351bc1c8f426f04957ad7a5b",
+      "box_sha1": "a075dc8c2e0a7e89351bc1c8f426f04957ad7a5b"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/build_model_data.py",
+      "status": "box_unchanged",
+      "bytes": 25077,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "2e347fcc4154dc62b6fefcd70f13e07ffed6aa54aff31bfaca63e1a270607527",
+      "cutover_sha256": "2e347fcc4154dc62b6fefcd70f13e07ffed6aa54aff31bfaca63e1a270607527",
+      "cutover_sha1": "0adf5632ab18e12ddb1e7f9617e5f68733a05bfb",
+      "box_sha1": "0adf5632ab18e12ddb1e7f9617e5f68733a05bfb"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/enrich_data.py",
+      "status": "box_unchanged",
+      "bytes": 7655,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "23f8c44fd16802906da42cd953fb2f007ab925dab162ef8a6ac43b42b2cac77f",
+      "cutover_sha256": "23f8c44fd16802906da42cd953fb2f007ab925dab162ef8a6ac43b42b2cac77f",
+      "cutover_sha1": "d5fa2e76625e5b51ba125f37f4b19d8ba6c699de",
+      "box_sha1": "d5fa2e76625e5b51ba125f37f4b19d8ba6c699de"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/inspect_step.py",
+      "status": "box_unchanged",
+      "bytes": 5140,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "fa431e31ba62e7dd6bcc2ac60c007adc2a31876fd30ed52e8d0b8e247c0cce20",
+      "cutover_sha256": "fa431e31ba62e7dd6bcc2ac60c007adc2a31876fd30ed52e8d0b8e247c0cce20",
+      "cutover_sha1": "a9c0c234740ffc26119010731db4579de101d5a4",
+      "box_sha1": "a9c0c234740ffc26119010731db4579de101d5a4"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/environment_versions.json",
+      "status": "box_unchanged",
+      "bytes": 212,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "364da25daed7a814e5199a4330c6fd3e62eb82289af383d661af03355aa919d4",
+      "cutover_sha256": "364da25daed7a814e5199a4330c6fd3e62eb82289af383d661af03355aa919d4",
+      "cutover_sha1": "b9143631f45f81188da4c03ed5944a951c532ab4",
+      "box_sha1": "b9143631f45f81188da4c03ed5944a951c532ab4"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/rebuild.py",
+      "status": "box_unchanged",
+      "bytes": 922,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "2c1adef2b6ac3b5dadf7a8ca19b21ef87f441a75bb06cc7bc3d45742da38373c",
+      "cutover_sha256": "2c1adef2b6ac3b5dadf7a8ca19b21ef87f441a75bb06cc7bc3d45742da38373c",
+      "cutover_sha1": "cc8b188c0c481918fb5119dadf0c7da8b1d465d8",
+      "box_sha1": "cc8b188c0c481918fb5119dadf0c7da8b1d465d8"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/project_cad.py",
+      "status": "box_unchanged",
+      "bytes": 1243,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "f3bbbe7ae1668cc67c02cae7f1d19b0c97981f1c0a2decab0c5421ffaaaedef9",
+      "cutover_sha256": "f3bbbe7ae1668cc67c02cae7f1d19b0c97981f1c0a2decab0c5421ffaaaedef9",
+      "cutover_sha1": "b42b29b6b6886e26d0c7cf98cca2cd3fc9b56bd4",
+      "box_sha1": "b42b29b6b6886e26d0c7cf98cca2cd3fc9b56bd4"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/draw_engineering.py",
+      "status": "box_unchanged",
+      "bytes": 32748,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "06a381f27e7035438f4897cbfd1c526fd080b8d38faa7acb16721e42f31f1dd9",
+      "cutover_sha256": "06a381f27e7035438f4897cbfd1c526fd080b8d38faa7acb16721e42f31f1dd9",
+      "cutover_sha1": "9584730f5cc37be51319fd99c390d633e8324e9e",
+      "box_sha1": "9584730f5cc37be51319fd99c390d633e8324e9e"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Coordinates.csv",
+      "status": "box_unchanged",
+      "bytes": 14205,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "391fa473e51f9bbd75eff8e04c2cc584eca28bf9c8b5bd571161f813a80af381",
+      "cutover_sha256": "391fa473e51f9bbd75eff8e04c2cc584eca28bf9c8b5bd571161f813a80af381",
+      "cutover_sha1": "5141ee64dcba019b0b315e266bbfbb3fbb1901b0",
+      "box_sha1": "5141ee64dcba019b0b315e266bbfbb3fbb1901b0"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/geometry.json",
+      "status": "box_unchanged",
+      "bytes": 65193,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "44b5ffe88ab65f510ee1693c00351d371559eceaa4826153209b930e8e391836",
+      "cutover_sha256": "44b5ffe88ab65f510ee1693c00351d371559eceaa4826153209b930e8e391836",
+      "cutover_sha1": "1bb76ee563d95f85cd574df06c0dc99febda0440",
+      "box_sha1": "1bb76ee563d95f85cd574df06c0dc99febda0440"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Diameters.csv",
+      "status": "box_unchanged",
+      "bytes": 2563,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "a88686538e5f21ce98ea3bbe8ddd65f3f863753f96610043a272f988d4bda88c",
+      "cutover_sha256": "a88686538e5f21ce98ea3bbe8ddd65f3f863753f96610043a272f988d4bda88c",
+      "cutover_sha1": "816f80185c10a21befe78666feffb94590c9caf7",
+      "box_sha1": "816f80185c10a21befe78666feffb94590c9caf7"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/reconstructed_bends.json",
+      "status": "box_unchanged",
+      "bytes": 30309,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "1811ca42f05cac76c6f9648e7f52cd1665ac840c686b869e171679924995b3be",
+      "cutover_sha256": "1811ca42f05cac76c6f9648e7f52cd1665ac840c686b869e171679924995b3be",
+      "cutover_sha1": "41e4ba668ecc99ea8f16ecb23172234595c3e159",
+      "box_sha1": "41e4ba668ecc99ea8f16ecb23172234595c3e159"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Data_Dictionary.json",
+      "status": "box_unchanged",
+      "bytes": 49164,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b1f77780a6c37b340eedbd573dc40b6adc319afaebf60e1ed2373da6689f73e0",
+      "cutover_sha256": "b1f77780a6c37b340eedbd573dc40b6adc319afaebf60e1ed2373da6689f73e0",
+      "cutover_sha1": "748ad48d4522fb02b0bd9ce45a5669618fca3a19",
+      "box_sha1": "748ad48d4522fb02b0bd9ce45a5669618fca3a19"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Branch_Connections.csv",
+      "status": "box_unchanged",
+      "bytes": 1123,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0557ae71ec61a6ae23b14e8cdc1e8d8a0c88b090b407e45cd3106e4f603596de",
+      "cutover_sha256": "0557ae71ec61a6ae23b14e8cdc1e8d8a0c88b090b407e45cd3106e4f603596de",
+      "cutover_sha1": "a5075403f5693ba20dba37bb3da724ac0d185e2b",
+      "box_sha1": "a5075403f5693ba20dba37bb3da724ac0d185e2b"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Dimensions.csv",
+      "status": "box_unchanged",
+      "bytes": 42501,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "247297d201ded23e712a92687e0e85cfb84b8bbeb96c46d569ffad4c44233882",
+      "cutover_sha256": "247297d201ded23e712a92687e0e85cfb84b8bbeb96c46d569ffad4c44233882",
+      "cutover_sha1": "e19a1d90761709af1ab74e0c2d6fe659c0196ee1",
+      "box_sha1": "e19a1d90761709af1ab74e0c2d6fe659c0196ee1"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/deliverable_validation.json",
+      "status": "box_unchanged",
+      "bytes": 1435,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b0f50cd605680e517f03b3b2cbd6c1410a9fd0ed0f3572d847896f1ebb85fb9f",
+      "cutover_sha256": "b0f50cd605680e517f03b3b2cbd6c1410a9fd0ed0f3572d847896f1ebb85fb9f",
+      "cutover_sha1": "7216d2e6fdd740a6caa1d7a29406267041df7fbb",
+      "box_sha1": "7216d2e6fdd740a6caa1d7a29406267041df7fbb"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Sensor_Stations.csv",
+      "status": "box_unchanged",
+      "bytes": 20255,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "70c53f4920252a2c63c64bac303c150b84ec8094b7fd7060f4933d9aa97c03df",
+      "cutover_sha256": "70c53f4920252a2c63c64bac303c150b84ec8094b7fd7060f4933d9aa97c03df",
+      "cutover_sha1": "b5cc79000620e66c399181283dd2a761fdd58ff3",
+      "box_sha1": "b5cc79000620e66c399181283dd2a761fdd58ff3"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_All_Cylindrical_Faces.csv",
+      "status": "box_unchanged",
+      "bytes": 457734,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e96057cb22d6a79ab3b70cb17ccb03937fb7d8e2186b115db4ea14dc5d97bcd2",
+      "cutover_sha256": "e96057cb22d6a79ab3b70cb17ccb03937fb7d8e2186b115db4ea14dc5d97bcd2",
+      "cutover_sha1": "40b45b394a351c22b0a337b7488149d9cc108118",
+      "box_sha1": "40b45b394a351c22b0a337b7488149d9cc108118"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Segments.csv",
+      "status": "box_unchanged",
+      "bytes": 4414,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e9cd8f4bd40d1d1fbd97d89a4452d2ba31312cd4d53db4e3a3c1a87c1c483022",
+      "cutover_sha256": "e9cd8f4bd40d1d1fbd97d89a4452d2ba31312cd4d53db4e3a3c1a87c1c483022",
+      "cutover_sha1": "b54bd04d7e63c422eceec191d4880d302a7ce868",
+      "box_sha1": "b54bd04d7e63c422eceec191d4880d302a7ce868"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Probe_Shafts.csv",
+      "status": "box_unchanged",
+      "bytes": 2358,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "9b897b7aac4997b04d015b48bd2558fe44c9aa545645ab73ed4355d3756edbe1",
+      "cutover_sha256": "9b897b7aac4997b04d015b48bd2558fe44c9aa545645ab73ed4355d3756edbe1",
+      "cutover_sha1": "72803ca8100f806a71c3587c106e1b0468e37172",
+      "box_sha1": "72803ca8100f806a71c3587c106e1b0468e37172"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Heater_Clamps.csv",
+      "status": "box_unchanged",
+      "bytes": 1918,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "2d5c020b68557fd34c3028752c6fbb986771ef084d472d8ae1bff324501883c2",
+      "cutover_sha256": "2d5c020b68557fd34c3028752c6fbb986771ef084d472d8ae1bff324501883c2",
+      "cutover_sha1": "dc31b45cdb1c0c507c31f249084eea1624c17a1e",
+      "box_sha1": "dc31b45cdb1c0c507c31f249084eea1624c17a1e"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Contact_Solutions.csv",
+      "status": "box_unchanged",
+      "bytes": 5434,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "785ecadf96b4fd0889504252dc88cc87d6f8a9cbabc6d0e904e638b04aee4cee",
+      "cutover_sha256": "785ecadf96b4fd0889504252dc88cc87d6f8a9cbabc6d0e904e638b04aee4cee",
+      "cutover_sha1": "13895eb1cb6038856852d23a164bf5b8b3a9e40f",
+      "box_sha1": "13895eb1cb6038856852d23a164bf5b8b3a9e40f"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev8_to_Rev9_Sensor_Changes.csv",
+      "status": "box_unchanged",
+      "bytes": 8474,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "1cf711b9121a873d9e964bd229996f237aafa98fea2c20125d66d390be5dd773",
+      "cutover_sha256": "1cf711b9121a873d9e964bd229996f237aafa98fea2c20125d66d390be5dd773",
+      "cutover_sha1": "2b326f725299e50fb109b273671e75aecac3fe26",
+      "box_sha1": "2b326f725299e50fb109b273671e75aecac3fe26"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev8_to_Rev9_Dimension_Changes.csv",
+      "status": "box_unchanged",
+      "bytes": 1086,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "1a5c3281d52e4452021fe71aedba83e10a5ca56fb11b58435a627597aab2bc5f",
+      "cutover_sha256": "1a5c3281d52e4452021fe71aedba83e10a5ca56fb11b58435a627597aab2bc5f",
+      "cutover_sha1": "844e1afa0beed85a1d233c1945ab03b3040acd8e",
+      "box_sha1": "844e1afa0beed85a1d233c1945ab03b3040acd8e"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Engineering_Data.json",
+      "status": "box_unchanged",
+      "bytes": 275746,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "559be6084e75b7811bf0c017c03f6fdda800163d880b1951cafb113cea8ceade",
+      "cutover_sha256": "559be6084e75b7811bf0c017c03f6fdda800163d880b1951cafb113cea8ceade",
+      "cutover_sha1": "e9fbb29e835e7e99ad5f506c56fc38434265d49a",
+      "box_sha1": "e9fbb29e835e7e99ad5f506c56fc38434265d49a"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Pipe_Axes.csv",
+      "status": "box_unchanged",
+      "bytes": 8553,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "3418e4d2be4ddb4ab0c00ba2aa1032a7b88a28e8d9a32554f8dc37c9ae85e98c",
+      "cutover_sha256": "3418e4d2be4ddb4ab0c00ba2aa1032a7b88a28e8d9a32554f8dc37c9ae85e98c",
+      "cutover_sha1": "bcea8fabad641f31cef35892d9ba904dbfac730f",
+      "box_sha1": "bcea8fabad641f31cef35892d9ba904dbfac730f"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/contacts.log",
+      "status": "box_unchanged",
+      "bytes": 1487,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "a5e225e9882aca6d801c62a7ef7c4e0923cb1a2c49655660a0c093c76de74c35",
+      "cutover_sha256": "a5e225e9882aca6d801c62a7ef7c4e0923cb1a2c49655660a0c093c76de74c35",
+      "cutover_sha1": "8ffef44f45638d50867fae255f38e0f6f80ee50a",
+      "box_sha1": "8ffef44f45638d50867fae255f38e0f6f80ee50a"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/rev9_verification.json",
+      "status": "box_unchanged",
+      "bytes": 2239,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "d33bc01b33b28d954bb1a7576b0fda26861e9df50a4d521067e407bf977c8841",
+      "cutover_sha256": "d33bc01b33b28d954bb1a7576b0fda26861e9df50a4d521067e407bf977c8841",
+      "cutover_sha1": "1aecfe2f192bb06102acfc9c4262b2bad9576010",
+      "box_sha1": "1aecfe2f192bb06102acfc9c4262b2bad9576010"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/cad_projection.json",
+      "status": "box_unchanged",
+      "bytes": 436431,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "7f99b789c757a355d922c120e65535a3629403d9f9035598e8242bf74535f925",
+      "cutover_sha256": "7f99b789c757a355d922c120e65535a3629403d9f9035598e8242bf74535f925",
+      "cutover_sha1": "79c8b3aa4cb838b5bb2677e2d520f988bb3023c4",
+      "box_sha1": "79c8b3aa4cb838b5bb2677e2d520f988bb3023c4"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/derived_summary.txt",
+      "status": "box_unchanged",
+      "bytes": 2190,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0781dd22e5bb85ee7518b67560a32b04c9b4e5ae6eb21503e9aae36e662a0417",
+      "cutover_sha256": "0781dd22e5bb85ee7518b67560a32b04c9b4e5ae6eb21503e9aae36e662a0417",
+      "cutover_sha1": "143aebbc1deb6417d3c82c8bcfd10889790fa7e8",
+      "box_sha1": "143aebbc1deb6417d3c82c8bcfd10889790fa7e8"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/projection.log",
+      "status": "box_unchanged",
+      "bytes": 872,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "a800963dbb8a9ac0fa1b66e1e507aae1f7b38c330b056c84aa73f9e28671e169",
+      "cutover_sha256": "a800963dbb8a9ac0fa1b66e1e507aae1f7b38c330b056c84aa73f9e28671e169",
+      "cutover_sha1": "366cb1faefa374a53b0e512f9832db5d77e75d34",
+      "box_sha1": "366cb1faefa374a53b0e512f9832db5d77e75d34"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/rev9.json",
+      "status": "box_unchanged",
+      "bytes": 2215168,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "5a4c8731af50f52bc8e2d43aeafc17a869f599d0cb0b6ed302521e141fa7891e",
+      "cutover_sha256": "5a4c8731af50f52bc8e2d43aeafc17a869f599d0cb0b6ed302521e141fa7891e",
+      "cutover_sha1": "53a030ba37f088b3c3ca115733b1bfb0ecc8ec63",
+      "box_sha1": "53a030ba37f088b3c3ca115733b1bfb0ecc8ec63"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/rev9_inventory.json",
+      "status": "box_unchanged",
+      "bytes": 2196613,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "8eb7481e55df4ac0f041f1ccb4301205cbd34652b15d745a6b07583474a9d113",
+      "cutover_sha256": "8eb7481e55df4ac0f041f1ccb4301205cbd34652b15d745a6b07583474a9d113",
+      "cutover_sha1": "78731e4b19bd06ef3929ff83cfc8e290075c0a56",
+      "box_sha1": "78731e4b19bd06ef3929ff83cfc8e290075c0a56"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/bend_reconstruction.log",
+      "status": "box_unchanged",
+      "bytes": 622,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "1d94ca38923bafbcfde365447a4040a8f361908bfd1e13089738e3dce226e3c8",
+      "cutover_sha256": "1d94ca38923bafbcfde365447a4040a8f361908bfd1e13089738e3dce226e3c8",
+      "cutover_sha1": "4d2432e99b1caaa9e67a3075e14c3547a87353e1",
+      "box_sha1": "4d2432e99b1caaa9e67a3075e14c3547a87353e1"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/inventory.log",
+      "status": "box_unchanged",
+      "bytes": 8434,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "306d2bd3b65958313d156b54292fdb0c08e0811f4072794d50aca2ade12a0779",
+      "cutover_sha256": "306d2bd3b65958313d156b54292fdb0c08e0811f4072794d50aca2ade12a0779",
+      "cutover_sha1": "579c81c0cb92e08e1761397575f34af2f134765b",
+      "box_sha1": "579c81c0cb92e08e1761397575f34af2f134765b"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/reference/VCU_Rev8_Engineering_Data.json",
+      "status": "box_unchanged",
+      "bytes": 165212,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "66aa8e58e6fdad8370d41c1b9f0da022ad0ae1d968c1b1c8e155e1eb82278605",
+      "cutover_sha256": "66aa8e58e6fdad8370d41c1b9f0da022ad0ae1d968c1b1c8e155e1eb82278605",
+      "cutover_sha1": "9e5d2fa111f5005127780454d54ab1c0b59429b1",
+      "box_sha1": "9e5d2fa111f5005127780454d54ab1c0b59429b1"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/reference/README.txt",
+      "status": "box_unchanged",
+      "bytes": 243,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e1cf4990abdf3b8008ac8ed26cb7efaa1c18fcbf29946c89c021f3ceaceefbf3",
+      "cutover_sha256": "e1cf4990abdf3b8008ac8ed26cb7efaa1c18fcbf29946c89c021f3ceaceefbf3",
+      "cutover_sha1": "8c928f4c7017d4b1fcef5864fbe5f4922a9b688c",
+      "box_sha1": "8c928f4c7017d4b1fcef5864fbe5f4922a9b688c"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Sep 29 - Group Meeting.md",
+      "status": "box_unchanged",
+      "bytes": 335,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "5ebb0f16b17e77a260cce34d1ca9e78682d93a52e6ae5847143d859714fee078",
+      "cutover_sha256": "5ebb0f16b17e77a260cce34d1ca9e78682d93a52e6ae5847143d859714fee078",
+      "cutover_sha1": "184bf0ce75f3813d772f129ba1db04090b94b168",
+      "box_sha1": "184bf0ce75f3813d772f129ba1db04090b94b168"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 16 - Luciano Ideas.md",
+      "status": "box_unchanged",
+      "bytes": 2097,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "3b725bd61e3cce34271684d0db1f3fee7975522f3efb762e6dac6568e3e32a07",
+      "cutover_sha256": "3b725bd61e3cce34271684d0db1f3fee7975522f3efb762e6dac6568e3e32a07",
+      "cutover_sha1": "a31758ac909eff2d9f989d23180a422afbeb82b6",
+      "box_sha1": "a31758ac909eff2d9f989d23180a422afbeb82b6"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Sep 08 - Dilan Trident VCU.md",
+      "status": "box_unchanged",
+      "bytes": 1126,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "c71750f661a8971f076050f0c831f9d9ad84330d0a360110bdfa0d66c958e324",
+      "cutover_sha256": "c71750f661a8971f076050f0c831f9d9ad84330d0a360110bdfa0d66c958e324",
+      "cutover_sha1": "56b62815dd46995bb075fcdbe3adb3cd8a4e719f",
+      "box_sha1": "56b62815dd46995bb075fcdbe3adb3cd8a4e719f"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 14 - feedback abstract - Clarno meeting.md",
+      "status": "box_unchanged",
+      "bytes": 1646,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b3293f3b08b7a342fb72d662d4dbf0da94166162f63bd92909359e643d9f3b17",
+      "cutover_sha256": "b3293f3b08b7a342fb72d662d4dbf0da94166162f63bd92909359e643d9f3b17",
+      "cutover_sha1": "c6fded6182cac3a6d820bd2baedb014fe8239bff",
+      "box_sha1": "c6fded6182cac3a6d820bd2baedb014fe8239bff"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 14 - ACU desired ROM capabilities - Tim Head.md",
+      "status": "box_unchanged",
+      "bytes": 1777,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "64d217953eca07a41a848630596da446335515bbfcad0116e63f80dc901fd5b7",
+      "cutover_sha256": "64d217953eca07a41a848630596da446335515bbfcad0116e63f80dc901fd5b7",
+      "cutover_sha1": "d9b4c2a1dfbb9c9bba7ff574929460d036d4f437",
+      "box_sha1": "d9b4c2a1dfbb9c9bba7ff574929460d036d4f437"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 08 - Comp Trident Flow Loop Team.md",
+      "status": "box_unchanged",
+      "bytes": 2387,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "01187c26d118bfc2ec661d99630b8bb91b89b570ba1991579ddf9ff6e59d7e32",
+      "cutover_sha256": "01187c26d118bfc2ec661d99630b8bb91b89b570ba1991579ddf9ff6e59d7e32",
+      "cutover_sha1": "1bfd20bbc40d4e4c27e5f327457be125c124519e",
+      "box_sha1": "1bfd20bbc40d4e4c27e5f327457be125c124519e"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 16 - VCU exp team meeting.md",
+      "status": "box_unchanged",
+      "bytes": 3813230,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "10d97d29edfb69fa3771874aeb6496aec7b0436dc7453904a86af3221fffcb25",
+      "cutover_sha256": "10d97d29edfb69fa3771874aeb6496aec7b0436dc7453904a86af3221fffcb25",
+      "cutover_sha1": "572bd52207604b95cc72d083779e24df75b72c4d",
+      "box_sha1": "572bd52207604b95cc72d083779e24df75b72c4d"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 13 - Neutron OS with Ben booth.md",
+      "status": "box_unchanged",
+      "bytes": 653,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "c78c372b942d04f815afd9124c6fe18811bb0dca32c08ce2a27bc2c6eb24f830",
+      "cutover_sha256": "c78c372b942d04f815afd9124c6fe18811bb0dca32c08ce2a27bc2c6eb24f830",
+      "cutover_sha1": "56d84e436d6e27b532a7a09e50e8f6bd20f02b02",
+      "box_sha1": "56d84e436d6e27b532a7a09e50e8f6bd20f02b02"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Sep 09 - Carasik Email.md",
+      "status": "box_unchanged",
+      "bytes": 785,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b380796bc823ca8b29b1243a7fea6124c7c46b24640371e3549dfe08d85554e0",
+      "cutover_sha256": "b380796bc823ca8b29b1243a7fea6124c7c46b24640371e3549dfe08d85554e0",
+      "cutover_sha1": "04f24059c88923749cc9bc6bb6798f9a4496ec16",
+      "box_sha1": "04f24059c88923749cc9bc6bb6798f9a4496ec16"
+    },
+    {
+      "path": "M. Meeting Notes/Attachments/Pasted image 20261013142523.png",
+      "status": "box_unchanged",
+      "bytes": 104309,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "03997c7ab245ce49ef357dc800dc425d34fb5bf88e8fa726bd2e3ce862717bb7",
+      "cutover_sha256": "03997c7ab245ce49ef357dc800dc425d34fb5bf88e8fa726bd2e3ce862717bb7",
+      "cutover_sha1": "cced25d0520c247298d4896dba9eebffb6c7d62c",
+      "box_sha1": "cced25d0520c247298d4896dba9eebffb6c7d62c"
+    },
+    {
+      "path": "M. Meeting Notes/Attachments/Pasted image 20261022171306.png",
+      "status": "box_unchanged",
+      "bytes": 345460,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b02068abb8f6cfc9544fa2291fa0691a7f201dd630037a438ced2228f750507a",
+      "cutover_sha256": "b02068abb8f6cfc9544fa2291fa0691a7f201dd630037a438ced2228f750507a",
+      "cutover_sha1": "904e2f554d48d16b0036610b8fe0469e38a326d3",
+      "box_sha1": "904e2f554d48d16b0036610b8fe0469e38a326d3"
+    },
+    {
+      "path": "M. Meeting Notes/Attachments/Pasted image 20261013142511.png",
+      "status": "box_unchanged",
+      "bytes": 104309,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "03997c7ab245ce49ef357dc800dc425d34fb5bf88e8fa726bd2e3ce862717bb7",
+      "cutover_sha256": "03997c7ab245ce49ef357dc800dc425d34fb5bf88e8fa726bd2e3ce862717bb7",
+      "cutover_sha1": "cced25d0520c247298d4896dba9eebffb6c7d62c",
+      "box_sha1": "cced25d0520c247298d4896dba9eebffb6c7d62c"
+    },
+    {
+      "path": "2. Model Notes/0.0 Intro to Model.md",
+      "status": "box_unchanged",
+      "bytes": 9217,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "6ddfd46ad8e783bd186729f3daadeaa050009ed8f4e122e437990225c9b86aa9",
+      "cutover_sha256": "6ddfd46ad8e783bd186729f3daadeaa050009ed8f4e122e437990225c9b86aa9",
+      "cutover_sha1": "df19948a291ef808b092dbc881a326e644057d47",
+      "box_sha1": "df19948a291ef808b092dbc881a326e644057d47"
+    },
+    {
+      "path": "A. Appendix/A.1 Interesting Pictures and drawing.md",
+      "status": "box_unchanged",
+      "bytes": 155,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "24ed18ce196ab0c1700b118b79a237eaa22a98cdbbfc1bcdfa37a36892453978",
+      "cutover_sha256": "24ed18ce196ab0c1700b118b79a237eaa22a98cdbbfc1bcdfa37a36892453978",
+      "cutover_sha1": "cc12bc463c50b9a048f567074cf5e3282b46734a",
+      "box_sha1": "cc12bc463c50b9a048f567074cf5e3282b46734a"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/ACU_Loop_Simple (1).png",
+      "status": "box_unchanged",
+      "bytes": 207123,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "1e31dc52af5a31940ee5a34d53fd1e38c59fb0287918a6944b0d32a91bbd5cb0",
+      "cutover_sha256": "1e31dc52af5a31940ee5a34d53fd1e38c59fb0287918a6944b0d32a91bbd5cb0",
+      "cutover_sha1": "1d175e334ba211c642d6fbbb5151bb94cd1f8865",
+      "box_sha1": "1d175e334ba211c642d6fbbb5151bb94cd1f8865"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/ACU_Loop_Section.png",
+      "status": "box_unchanged",
+      "bytes": 329418,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "c3e6297ed027f426e3c885cd9a0d1a0f8a4aa5301e6595d0b8b2f9a3ed87f417",
+      "cutover_sha256": "c3e6297ed027f426e3c885cd9a0d1a0f8a4aa5301e6595d0b8b2f9a3ed87f417",
+      "cutover_sha1": "d50a009337fba525d4136a9b60efddb203247dcb",
+      "box_sha1": "d50a009337fba525d4136a9b60efddb203247dcb"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/VCU_Loop_Section.png",
+      "status": "box_unchanged",
+      "bytes": 332984,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "f2588e125c2a335d3c9e5566935277af2c3aa956e1bcf7065e364145fdd17db2",
+      "cutover_sha256": "f2588e125c2a335d3c9e5566935277af2c3aa956e1bcf7065e364145fdd17db2",
+      "cutover_sha1": "ef21640f3ee6b0b7db46323c3511f5f9b713c6bc",
+      "box_sha1": "ef21640f3ee6b0b7db46323c3511f5f9b713c6bc"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/VCU_style_simplified_sensor_locations.png",
+      "status": "box_unchanged",
+      "bytes": 963782,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "99292e82d7320b494fca79777566db1048f46a682077d2bf7ca4ce663e858f61",
+      "cutover_sha256": "99292e82d7320b494fca79777566db1048f46a682077d2bf7ca4ce663e858f61",
+      "cutover_sha1": "a1ebc1b73bfaea418ca66e3313d9b5375eca877a",
+      "box_sha1": "a1ebc1b73bfaea418ca66e3313d9b5375eca877a"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/Loop_Images_Editable (1).zip",
+      "status": "box_unchanged",
+      "bytes": 1324262,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "71ec9bbc3c0f842b0f0bc287369551f7c3e38df2910ca639aaad066f63041b8f",
+      "cutover_sha256": "71ec9bbc3c0f842b0f0bc287369551f7c3e38df2910ca639aaad066f63041b8f",
+      "cutover_sha1": "f84bbd1188173b4e99c1e6881ec0d362b8b886ed",
+      "box_sha1": "f84bbd1188173b4e99c1e6881ec0d362b8b886ed"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/ACU_Engineering_Reference_RevB (1).pdf",
+      "status": "box_unchanged",
+      "bytes": 1095802,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "6c6d067be064cc542518c1ac655d8825df0aa87c7d741df9d17cd210a92437b0",
+      "cutover_sha256": "6c6d067be064cc542518c1ac655d8825df0aa87c7d741df9d17cd210a92437b0",
+      "cutover_sha1": "2697a56e125d464fadd744eab0ff812961967afd",
+      "box_sha1": "2697a56e125d464fadd744eab0ff812961967afd"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/VCU_Loop_Engineering_Blueprint_Rev8.pdf",
+      "status": "box_unchanged",
+      "bytes": 1207809,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "826532f1d03c2d1c543a262aae948747a3ed659cdb5cba5726c317cb4525f7c6",
+      "cutover_sha256": "826532f1d03c2d1c543a262aae948747a3ed659cdb5cba5726c317cb4525f7c6",
+      "cutover_sha1": "0c0f6a503613fe53509f8f17c6d4864e5f3b5b65",
+      "box_sha1": "0c0f6a503613fe53509f8f17c6d4864e5f3b5b65"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000117a 1.pdf",
+      "status": "box_unchanged",
+      "bytes": 266728,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "ba7e20171922efb2a5ccc79f84ecec169c2257291d7a359e2bab82e218b33149",
+      "cutover_sha256": "ba7e20171922efb2a5ccc79f84ecec169c2257291d7a359e2bab82e218b33149",
+      "cutover_sha1": "cc666a5d75ed2047ec71442e6a7497b03920dcff",
+      "box_sha1": "cc666a5d75ed2047ec71442e6a7497b03920dcff"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000118.pdf",
+      "status": "box_unchanged",
+      "bytes": 321874,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "f4b4b3ea74d2708a296a411732c570c2e55062989576c7db5df82f63cebdbd11",
+      "cutover_sha256": "f4b4b3ea74d2708a296a411732c570c2e55062989576c7db5df82f63cebdbd11",
+      "cutover_sha1": "de6090e14a4f0fe1f62a72f1b41806d93e7fa7fb",
+      "box_sha1": "de6090e14a4f0fe1f62a72f1b41806d93e7fa7fb"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000167 1.pdf",
+      "status": "box_unchanged",
+      "bytes": 587635,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "bdced28dfae281e3108349a992c8883cb7f253bdbe59f653fa097f52e383a39f",
+      "cutover_sha256": "bdced28dfae281e3108349a992c8883cb7f253bdbe59f653fa097f52e383a39f",
+      "cutover_sha1": "66c2d99697c63409c7e6ca9907ad6f0a2a88b0b0",
+      "box_sha1": "66c2d99697c63409c7e6ca9907ad6f0a2a88b0b0"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000183 1.pdf",
+      "status": "box_unchanged",
+      "bytes": 268029,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "578127e380c17fbfa2c9a26bc836c358ee24e14dfb492b5ced0a7b5424c46cd4",
+      "cutover_sha256": "578127e380c17fbfa2c9a26bc836c358ee24e14dfb492b5ced0a7b5424c46cd4",
+      "cutover_sha1": "1cd80f6c0afc07d3e3311b251774ff6717a62f01",
+      "box_sha1": "1cd80f6c0afc07d3e3311b251774ff6717a62f01"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/SaltLoopV1BDrawing.pdf",
+      "status": "box_unchanged",
+      "bytes": 482931,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "620a24e3fb7c3cc7fc788542d623fdf1ce4d27bbb8abeaf0c0627867297bf509",
+      "cutover_sha256": "620a24e3fb7c3cc7fc788542d623fdf1ce4d27bbb8abeaf0c0627867297bf509",
+      "cutover_sha1": "c99064b5dd3e49b30c21c3b0917b8ac9236effb2",
+      "box_sha1": "c99064b5dd3e49b30c21c3b0917b8ac9236effb2"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000151.pdf",
+      "status": "box_unchanged",
+      "bytes": 249818,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "d8c5d614ef08336953756a7723683b1dae35981c06a690212d59c5c6b3862616",
+      "cutover_sha256": "d8c5d614ef08336953756a7723683b1dae35981c06a690212d59c5c6b3862616",
+      "cutover_sha1": "9d8debd164223b458571d835165fcc54435f6875",
+      "box_sha1": "9d8debd164223b458571d835165fcc54435f6875"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000153.pdf",
+      "status": "box_unchanged",
+      "bytes": 566880,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "6aed16f0f127b8051b9823318ce9751e458326c941152a59410bd01c7aa6509d",
+      "cutover_sha256": "6aed16f0f127b8051b9823318ce9751e458326c941152a59410bd01c7aa6509d",
+      "cutover_sha1": "d560a8d7a34eb5932df5fde6cc39644bb2104453",
+      "box_sha1": "d560a8d7a34eb5932df5fde6cc39644bb2104453"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000187_CHK1.pdf",
+      "status": "box_unchanged",
+      "bytes": 308779,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "ed4909116c7f148dfa8beb0e1319c39dc52b8d2ce0e7bc6b9c1273f2fbd26be6",
+      "cutover_sha256": "ed4909116c7f148dfa8beb0e1319c39dc52b8d2ce0e7bc6b9c1273f2fbd26be6",
+      "cutover_sha1": "ac5f3a6fa0c00e65ba1cd68c82748c8d6bf259aa",
+      "box_sha1": "ac5f3a6fa0c00e65ba1cd68c82748c8d6bf259aa"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000117b 1.pdf",
+      "status": "box_unchanged",
+      "bytes": 254689,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "9c51fa902eb72d88b103c0a21c5035f23a04cc1d43066735c7dbd1371f038ea2",
+      "cutover_sha256": "9c51fa902eb72d88b103c0a21c5035f23a04cc1d43066735c7dbd1371f038ea2",
+      "cutover_sha1": "500b1b7ff91b6f91766caa5809c57f3e54d38e01",
+      "box_sha1": "500b1b7ff91b6f91766caa5809c57f3e54d38e01"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000118 1.pdf",
+      "status": "box_unchanged",
+      "bytes": 326426,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "d824b438aa434bd7d3bdac8fab0bf212abdc1ece3a065045c7fbc19f9f1ef732",
+      "cutover_sha256": "d824b438aa434bd7d3bdac8fab0bf212abdc1ece3a065045c7fbc19f9f1ef732",
+      "cutover_sha1": "285e88bf7be7787e733aa537aa4784be7cd2ef5e",
+      "box_sha1": "285e88bf7be7787e733aa537aa4784be7cd2ef5e"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/What things are.md",
+      "status": "box_unchanged",
+      "bytes": 3571,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "cba83e6a17c53769da67b42cf1eb6e10bf53e82fddd6eb64670208bf94a89a41",
+      "cutover_sha256": "cba83e6a17c53769da67b42cf1eb6e10bf53e82fddd6eb64670208bf94a89a41",
+      "cutover_sha1": "4f61d0a8d01ee2610538328403a26dc927fba4f9",
+      "box_sha1": "4f61d0a8d01ee2610538328403a26dc927fba4f9"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000159.pdf",
+      "status": "box_unchanged",
+      "bytes": 251446,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "10e8be833a21096aa5cb6b2ebe21cb1264547a62a7a455a0b3621043840eeb2c",
+      "cutover_sha256": "10e8be833a21096aa5cb6b2ebe21cb1264547a62a7a455a0b3621043840eeb2c",
+      "cutover_sha1": "fa108dab5145570fc8952eb844eae29ddbce8c2f",
+      "box_sha1": "fa108dab5145570fc8952eb844eae29ddbce8c2f"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000158.pdf",
+      "status": "box_unchanged",
+      "bytes": 471306,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "7745a8ea32bdacdf719a09fbb9eba28515a7fc68c344743d17e8c1b88efb0fc2",
+      "cutover_sha256": "7745a8ea32bdacdf719a09fbb9eba28515a7fc68c344743d17e8c1b88efb0fc2",
+      "cutover_sha1": "2f2495dba9a32751c20b38a1158deeba69e2288f",
+      "box_sha1": "2f2495dba9a32751c20b38a1158deeba69e2288f"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000164.pdf",
+      "status": "box_unchanged",
+      "bytes": 451115,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "be5f8f93209f0dea9408a00d7877c31f8e0b0f3ffe46a938388dd826640da86a",
+      "cutover_sha256": "be5f8f93209f0dea9408a00d7877c31f8e0b0f3ffe46a938388dd826640da86a",
+      "cutover_sha1": "a7f10685573a4561da69c1d8da2a53c3b8b7965d",
+      "box_sha1": "a7f10685573a4561da69c1d8da2a53c3b8b7965d"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/A-000109_CHK1.pdf",
+      "status": "box_unchanged",
+      "bytes": 316001,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0057bac299ce74bc3461c40ae04c7b5a22145ebd39c04db7c355767377376367",
+      "cutover_sha256": "0057bac299ce74bc3461c40ae04c7b5a22145ebd39c04db7c355767377376367",
+      "cutover_sha1": "f6aa6e7cb56b846f96ce8b6b26969937d57e9eba",
+      "box_sha1": "f6aa6e7cb56b846f96ce8b6b26969937d57e9eba"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000167.pdf",
+      "status": "box_unchanged",
+      "bytes": 587635,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "bdced28dfae281e3108349a992c8883cb7f253bdbe59f653fa097f52e383a39f",
+      "cutover_sha256": "bdced28dfae281e3108349a992c8883cb7f253bdbe59f653fa097f52e383a39f",
+      "cutover_sha1": "66c2d99697c63409c7e6ca9907ad6f0a2a88b0b0",
+      "box_sha1": "66c2d99697c63409c7e6ca9907ad6f0a2a88b0b0"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/Base.base",
+      "status": "box_unchanged",
+      "bytes": 244,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "f10365450dd9894b1b60f5c972b5cde6a42e05b0b7d8fe45ccd55bc1dbeb266e",
+      "cutover_sha256": "f10365450dd9894b1b60f5c972b5cde6a42e05b0b7d8fe45ccd55bc1dbeb266e",
+      "cutover_sha1": "6aacb5a84b95c9b901e5d9c49fbc0e4a2fe660b1",
+      "box_sha1": "6aacb5a84b95c9b901e5d9c49fbc0e4a2fe660b1"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000167_SENSOR SECTION VIEW_CHK1.pdf",
+      "status": "box_unchanged",
+      "bytes": 346774,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "02e05b0f8c4c60172b5ff566ffada1a8f5d4e89211f1caf54570a17de215229f",
+      "cutover_sha256": "02e05b0f8c4c60172b5ff566ffada1a8f5d4e89211f1caf54570a17de215229f",
+      "cutover_sha1": "594c2d6279effe70cf0035a6138238ce1c2ff129",
+      "box_sha1": "594c2d6279effe70cf0035a6138238ce1c2ff129"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/As designed documentation.md",
+      "status": "box_unchanged",
+      "bytes": 2174,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "9ab9081c32135ffac47eec1f6dda6313761841341ccdd2fac3174b0e5efcfd0e",
+      "cutover_sha256": "9ab9081c32135ffac47eec1f6dda6313761841341ccdd2fac3174b0e5efcfd0e",
+      "cutover_sha1": "a49596ac5b62441828936c4b4d9a0b54211a6f38",
+      "box_sha1": "a49596ac5b62441828936c4b4d9a0b54211a6f38"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/Gentry's ACU Flow-Loop Specifications.md",
+      "status": "box_unchanged",
+      "bytes": 6179,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "a70a64c13a6a26cfd4ba16a35a9ba2553f7384be9e08a70ac73efa1f629e3d81",
+      "cutover_sha256": "a70a64c13a6a26cfd4ba16a35a9ba2553f7384be9e08a70ac73efa1f629e3d81",
+      "cutover_sha1": "4538450b56db7fa51a1322431036d5b4f70aefef",
+      "box_sha1": "4538450b56db7fa51a1322431036d5b4f70aefef"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000118 updated.pdf",
+      "status": "box_unchanged",
+      "bytes": 326426,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "d824b438aa434bd7d3bdac8fab0bf212abdc1ece3a065045c7fbc19f9f1ef732",
+      "cutover_sha256": "d824b438aa434bd7d3bdac8fab0bf212abdc1ece3a065045c7fbc19f9f1ef732",
+      "cutover_sha1": "285e88bf7be7787e733aa537aa4784be7cd2ef5e",
+      "box_sha1": "285e88bf7be7787e733aa537aa4784be7cd2ef5e"
+    },
+    {
+      "path": "X.Chat/README.md",
+      "status": "box_unchanged",
+      "bytes": 2534,
+      "baseline_source": "immutable Box pull pinned by cutover SHA-256",
+      "expected_cutover_sha256": "f52bba36c79fc0006a15c59c739e2f8429040c8fd4ab31c4080e99b0d847ea4b",
+      "cutover_sha256": "f52bba36c79fc0006a15c59c739e2f8429040c8fd4ab31c4080e99b0d847ea4b",
+      "cutover_sha1": "cfe9af7a1eb704606201f0665bbdfe2069300280",
+      "box_sha1": "cfe9af7a1eb704606201f0665bbdfe2069300280"
+    },
+    {
+      "path": "X.Chat/AGENTS.md",
+      "status": "box_unchanged",
+      "bytes": 4662,
+      "baseline_source": "immutable Box pull pinned by cutover SHA-256",
+      "expected_cutover_sha256": "e4cd5f429ef669b81f29b5f435b12273508cb6ae4128f817e2ca84e45595a89f",
+      "cutover_sha256": "e4cd5f429ef669b81f29b5f435b12273508cb6ae4128f817e2ca84e45595a89f",
+      "cutover_sha1": "347310447cef6e2ae468d816eaa955dadeb1779d",
+      "box_sha1": "347310447cef6e2ae468d816eaa955dadeb1779d"
+    },
+    {
+      "path": "X.Chat/codex_markdown_test.md",
+      "status": "box_unchanged",
+      "bytes": 131,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "3a59dc884be8c2fca446f235b451d51455ee364dfa91c2cd289a45938e195ef5",
+      "cutover_sha256": "3a59dc884be8c2fca446f235b451d51455ee364dfa91c2cd289a45938e195ef5",
+      "cutover_sha1": "b26f5874e6ed3e5804b96a1ff9734fe3f12bf33b",
+      "box_sha1": "b26f5874e6ed3e5804b96a1ff9734fe3f12bf33b"
+    },
+    {
+      "path": "X.Chat/90_templates/WORKING_NOTE.md",
+      "status": "box_unchanged",
+      "bytes": 773,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b91cc7d3da888521f6665a9840eeff62de662988fbf5c7963c70ea51735c85f7",
+      "cutover_sha256": "b91cc7d3da888521f6665a9840eeff62de662988fbf5c7963c70ea51735c85f7",
+      "cutover_sha1": "57031f143b2db0302f5a61cd949344e18359fb55",
+      "box_sha1": "57031f143b2db0302f5a61cd949344e18359fb55"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/README.md",
+      "status": "box_unchanged",
+      "bytes": 3054,
+      "baseline_source": "immutable Box pull pinned by cutover SHA-256",
+      "expected_cutover_sha256": "988a653c038ea2f49705fd01142b93349523c064f3700cd2a99e07297c7b1f4d",
+      "cutover_sha256": "988a653c038ea2f49705fd01142b93349523c064f3700cd2a99e07297c7b1f4d",
+      "cutover_sha1": "b36d2c78d3e8eac39e7757aa88f9f401f8697653",
+      "box_sha1": "b36d2c78d3e8eac39e7757aa88f9f401f8697653"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/QUESTION_REGISTER.md",
+      "status": "box_unchanged",
+      "bytes": 2096,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "160538433baa412e7b425072b2cbf7abc111c5ae3cf765209108a8e49d141a55",
+      "cutover_sha256": "160538433baa412e7b425072b2cbf7abc111c5ae3cf765209108a8e49d141a55",
+      "cutover_sha1": "8039b1ac60dd91eb5adb0b497f796847fc3bcdba",
+      "box_sha1": "8039b1ac60dd91eb5adb0b497f796847fc3bcdba"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/03_local_followup.md",
+      "status": "box_unchanged",
+      "bytes": 392,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "cd4b080414c7f0e2c64724272556e18b7536a229a17cfb83309f65101370779e",
+      "cutover_sha256": "cd4b080414c7f0e2c64724272556e18b7536a229a17cfb83309f65101370779e",
+      "cutover_sha1": "5986d061f30b7f1f2051973df3a72f79aabf1f5d",
+      "box_sha1": "5986d061f30b7f1f2051973df3a72f79aabf1f5d"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/01_to_hpc.md",
+      "status": "box_unchanged",
+      "bytes": 7002,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "215ad561c520f600ed6f8c020e86e8d4a4d4483a8c473b9e6cf8e6069f6d30f7",
+      "cutover_sha256": "215ad561c520f600ed6f8c020e86e8d4a4d4483a8c473b9e6cf8e6069f6d30f7",
+      "cutover_sha1": "cd8b91da1617ed8bb6f36cddcbee83b04e59cc5d",
+      "box_sha1": "cd8b91da1617ed8bb6f36cddcbee83b04e59cc5d"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/02_from_hpc_TEMPLATE.md",
+      "status": "box_unchanged",
+      "bytes": 2111,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "dedd124bd3e2d3deed2133853b772d4e79c9775d770caf8549c73966fb59f8d4",
+      "cutover_sha256": "dedd124bd3e2d3deed2133853b772d4e79c9775d770caf8549c73966fb59f8d4",
+      "cutover_sha1": "3eb5953fe14ab32e591114ad47c998408b111884",
+      "box_sha1": "3eb5953fe14ab32e591114ad47c998408b111884"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/01_to_hpc_v3.md",
+      "status": "box_unchanged",
+      "bytes": 8328,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "5a0ecfc11efd7b2a8022303f33b9147962d5e02db5782543032a66383394d1ec",
+      "cutover_sha256": "5a0ecfc11efd7b2a8022303f33b9147962d5e02db5782543032a66383394d1ec",
+      "cutover_sha1": "54d201e842fc7fce22286324c8ba3c3535a529c3",
+      "box_sha1": "54d201e842fc7fce22286324c8ba3c3535a529c3"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/01_to_hpc_v2.md",
+      "status": "box_unchanged",
+      "bytes": 7707,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "ff56151d6262c740bae767724755a7e2729caaed2a6040016e616e9fe2694521",
+      "cutover_sha256": "ff56151d6262c740bae767724755a7e2729caaed2a6040016e616e9fe2694521",
+      "cutover_sha1": "c04baea59239515420c028120518afeaaab8ac79",
+      "box_sha1": "c04baea59239515420c028120518afeaaab8ac79"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/export_receipt_v3.json",
+      "status": "box_unchanged",
+      "bytes": 1051,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0ed88d0026795bcd5f32b268fb968b15019633023080b6f4096fe8ded2e088b0",
+      "cutover_sha256": "0ed88d0026795bcd5f32b268fb968b15019633023080b6f4096fe8ded2e088b0",
+      "cutover_sha1": "b94cb2e6825c26de71b63208e82b7a2a707a13ab",
+      "box_sha1": "b94cb2e6825c26de71b63208e82b7a2a707a13ab"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/export_receipt_v2.json",
+      "status": "box_unchanged",
+      "bytes": 862,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "7d707912a752fbf7e8e1de9c07be419e510ff2cb8da5e9eed55f5aa44c051ad1",
+      "cutover_sha256": "7d707912a752fbf7e8e1de9c07be419e510ff2cb8da5e9eed55f5aa44c051ad1",
+      "cutover_sha1": "8921e8774f6260e3e64a86f23762b5053e691d50",
+      "box_sha1": "8921e8774f6260e3e64a86f23762b5053e691d50"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/export_receipt.json",
+      "status": "box_unchanged",
+      "bytes": 881,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "baa25306d75598993679af0032e0d972582cc04590917592492e52f661f6adf7",
+      "cutover_sha256": "baa25306d75598993679af0032e0d972582cc04590917592492e52f661f6adf7",
+      "cutover_sha1": "14b468fa310d955cb43fc2b504b064febefe1cac",
+      "box_sha1": "14b468fa310d955cb43fc2b504b064febefe1cac"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/HX-20261102_local_to_hpc.zip",
+      "status": "box_unchanged",
+      "bytes": 78780,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "ac698a6ac5d1decc4cf5a4565a97e164c08624d64dd9c80a9f054a67c6b5e9e9",
+      "cutover_sha256": "ac698a6ac5d1decc4cf5a4565a97e164c08624d64dd9c80a9f054a67c6b5e9e9",
+      "cutover_sha1": "b35051d0a6b13e2b9a77d45a614e530be1c2f520",
+      "box_sha1": "b35051d0a6b13e2b9a77d45a614e530be1c2f520"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/HX-20261102_local_to_hpc_v3.zip",
+      "status": "box_unchanged",
+      "bytes": 111201,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "43b165c99d56963aedf272c959de3251074417a290a47bf3119412ede9620870",
+      "cutover_sha256": "43b165c99d56963aedf272c959de3251074417a290a47bf3119412ede9620870",
+      "cutover_sha1": "70c3793a3f619b211aa522186a7e12d10d83d352",
+      "box_sha1": "70c3793a3f619b211aa522186a7e12d10d83d352"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/HX-20261102_local_to_hpc_v2.zip",
+      "status": "box_unchanged",
+      "bytes": 104324,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "32ff9bc0f801bbe9946e35ca8fb37f780ebcb82d049ef3ecd3242ffd6311cca8",
+      "cutover_sha256": "32ff9bc0f801bbe9946e35ca8fb37f780ebcb82d049ef3ecd3242ffd6311cca8",
+      "cutover_sha1": "1b0f00085da69c339bc61ddce2f74b7816aaea89",
+      "box_sha1": "1b0f00085da69c339bc61ddce2f74b7816aaea89"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/incoming/README.md",
+      "status": "box_unchanged",
+      "bytes": 275,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "cd156ef3aee6f9e9ea2f54323d6ce5e287b01f8a75b1039ba1ee023a744f892f",
+      "cutover_sha256": "cd156ef3aee6f9e9ea2f54323d6ce5e287b01f8a75b1039ba1ee023a744f892f",
+      "cutover_sha1": "6b5e8a8c33b2f737f380ae9ca95883686bd14a61",
+      "box_sha1": "6b5e8a8c33b2f737f380ae9ca95883686bd14a61"
+    },
+    {
+      "path": "X.Chat/00_navigation/BOX_LITERATURE.md",
+      "status": "box_unchanged",
+      "bytes": 1811,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0bc1372746cd595f949f6596b2e283e56eb27e508e3c375fd6f7ba596d3d99f3",
+      "cutover_sha256": "0bc1372746cd595f949f6596b2e283e56eb27e508e3c375fd6f7ba596d3d99f3",
+      "cutover_sha1": "278249bfa00c51f578fc022a701b741a9fa841fd",
+      "box_sha1": "278249bfa00c51f578fc022a701b741a9fa841fd"
+    },
+    {
+      "path": "X.Chat/00_navigation/LOCATIONS.md",
+      "status": "box_unchanged",
+      "bytes": 6199,
+      "baseline_source": "immutable Box pull pinned by cutover SHA-256",
+      "expected_cutover_sha256": "77b36a4e472d72785dd60d8e771e1be26832249f0fdea0034631f8375860fadd",
+      "cutover_sha256": "77b36a4e472d72785dd60d8e771e1be26832249f0fdea0034631f8375860fadd",
+      "cutover_sha1": "db0716ee2e5a60c1c9b8d4699751b0673dba744c",
+      "box_sha1": "db0716ee2e5a60c1c9b8d4699751b0673dba744c"
+    },
+    {
+      "path": "X.Chat/00_navigation/LITERATURE_RESOURCES.md",
+      "status": "box_unchanged",
+      "bytes": 15013,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "1d9e10e0f481f45e6d47f478a580245b3f9c698d0d2bac0d7e680e83b45badf2",
+      "cutover_sha256": "1d9e10e0f481f45e6d47f478a580245b3f9c698d0d2bac0d7e680e83b45badf2",
+      "cutover_sha1": "9790148085e74cb1cee085bd2b10cc059505eb58",
+      "box_sha1": "9790148085e74cb1cee085bd2b10cc059505eb58"
+    },
+    {
+      "path": "X.Chat/00_navigation/LITERATURE_FOUNDATION.md",
+      "status": "box_unchanged",
+      "bytes": 489,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "536acb3b6b55a272ccbe5fcea0200e2e9980886b25bdfb9b147637cb0bf82e74",
+      "cutover_sha256": "536acb3b6b55a272ccbe5fcea0200e2e9980886b25bdfb9b147637cb0bf82e74",
+      "cutover_sha1": "f35f207b71d3dfebb7f7faabb13d9e1878d409cd",
+      "box_sha1": "f35f207b71d3dfebb7f7faabb13d9e1878d409cd"
+    },
+    {
+      "path": "X.Chat/00_navigation/OBSIDIAN_LINKS.md",
+      "status": "box_unchanged",
+      "bytes": 4991,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0e3dae2bab4f0c960e52caea7da9d0febf1e19b6afa69f9c53c9e1b2a6b6a035",
+      "cutover_sha256": "0e3dae2bab4f0c960e52caea7da9d0febf1e19b6afa69f9c53c9e1b2a6b6a035",
+      "cutover_sha1": "7fc0456e77ef9292d19ca0cc7b1c02841525bbab",
+      "box_sha1": "7fc0456e77ef9292d19ca0cc7b1c02841525bbab"
+    },
+    {
+      "path": "X.Chat/00_navigation/AGENT_START.md",
+      "status": "box_unchanged",
+      "bytes": 1542,
+      "baseline_source": "immutable Box pull pinned by cutover SHA-256",
+      "expected_cutover_sha256": "d354756e2f6c9fc78803e2a74d3b5ce9abfd6d3a20d0fcddcc2d5843f1225faf",
+      "cutover_sha256": "d354756e2f6c9fc78803e2a74d3b5ce9abfd6d3a20d0fcddcc2d5843f1225faf",
+      "cutover_sha1": "4a1d245606005127279041fb8dae125fa36e76f4",
+      "box_sha1": "4a1d245606005127279041fb8dae125fa36e76f4"
+    },
+    {
+      "path": "X.Chat/00_navigation/RESEARCH_MAP.md",
+      "status": "box_unchanged",
+      "bytes": 3129,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "905d31829442e3ea275b6a88573834df80dd09e170c1db8c7faa1dea894344d8",
+      "cutover_sha256": "905d31829442e3ea275b6a88573834df80dd09e170c1db8c7faa1dea894344d8",
+      "cutover_sha1": "a8e3ddd83abee3a62f3a2ecdaaae160da915b32c",
+      "box_sha1": "a8e3ddd83abee3a62f3a2ecdaaae160da915b32c"
+    },
+    {
+      "path": "X.Chat/00_navigation/VSCODE.md",
+      "status": "box_unchanged",
+      "bytes": 1633,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0457124f64c454a0b15009110c63a674f8bbab3db6206a0af329b8dd6dd3adbc",
+      "cutover_sha256": "0457124f64c454a0b15009110c63a674f8bbab3db6206a0af329b8dd6dd3adbc",
+      "cutover_sha1": "c548dbe27d026eca8a285c6bb65dbfca866c4291",
+      "box_sha1": "c548dbe27d026eca8a285c6bb65dbfca866c4291"
+    },
+    {
+      "path": "X.Chat/00_navigation/ORGANIZATION.md",
+      "status": "box_unchanged",
+      "bytes": 4697,
+      "baseline_source": "immutable Box pull pinned by cutover SHA-256",
+      "expected_cutover_sha256": "92c89d40e9cfbb0c1be407b7eed3d7e21aec20df58fe33e30853e5b1bbeb90eb",
+      "cutover_sha256": "92c89d40e9cfbb0c1be407b7eed3d7e21aec20df58fe33e30853e5b1bbeb90eb",
+      "cutover_sha1": "7788e907ee49ab363fbc61596b6e8f1d0b99fb5f",
+      "box_sha1": "7788e907ee49ab363fbc61596b6e8f1d0b99fb5f"
+    },
+    {
+      "path": "X.Chat/tools/inventory_box_literature.py",
+      "status": "box_unchanged",
+      "bytes": 1364,
+      "baseline_source": "immutable Box pull pinned by cutover SHA-256",
+      "expected_cutover_sha256": "20053aa62ccaa95c5af26a87fabe4b3c803e4d0579312808e9a20e71d767c016",
+      "cutover_sha256": "20053aa62ccaa95c5af26a87fabe4b3c803e4d0579312808e9a20e71d767c016",
+      "cutover_sha1": "4f1ef4fe5307852abab65ea10e571f19cbd3573f",
+      "box_sha1": "4f1ef4fe5307852abab65ea10e571f19cbd3573f"
+    },
+    {
+      "path": "X.Chat/tools/refresh_inventory.py",
+      "status": "box_unchanged",
+      "bytes": 7991,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e9515c6fac3f8fcb25a462953529d7a7400033bf43f504fe6b9a606712276916",
+      "cutover_sha256": "e9515c6fac3f8fcb25a462953529d7a7400033bf43f504fe6b9a606712276916",
+      "cutover_sha1": "ae8c017ea6e715f6e02701032af1d4e0cfa721a9",
+      "box_sha1": "ae8c017ea6e715f6e02701032af1d4e0cfa721a9"
+    },
+    {
+      "path": "X.Chat/tools/setup_repository_link.py",
+      "status": "box_unchanged",
+      "bytes": 2273,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "6cded8d0b834882a7d08caa1ea95d720edf3ed96d8e5177a35bb0b084b27b35c",
+      "cutover_sha256": "6cded8d0b834882a7d08caa1ea95d720edf3ed96d8e5177a35bb0b084b27b35c",
+      "cutover_sha1": "0f8c32373f439270f9045ec78c5f026bcf7b08ba",
+      "box_sha1": "0f8c32373f439270f9045ec78c5f026bcf7b08ba"
+    },
+    {
+      "path": "X.Chat/tools/obsidian_links.py",
+      "status": "box_unchanged",
+      "bytes": 5622,
+      "baseline_source": "immutable Box pull pinned by cutover SHA-256",
+      "expected_cutover_sha256": "5b4563b904fb8d06980a82d86eed7d868918e547cfde8d933fceb6d6c3f29aa3",
+      "cutover_sha256": "5b4563b904fb8d06980a82d86eed7d868918e547cfde8d933fceb6d6c3f29aa3",
+      "cutover_sha1": "b4f9de27c6aab0f07aa2bc454476c2951c961b9c",
+      "box_sha1": "b4f9de27c6aab0f07aa2bc454476c2951c961b9c"
+    },
+    {
+      "path": "X.Chat/80_repository_links/README.md",
+      "status": "box_unchanged",
+      "bytes": 642,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b6100c3f1727e866ccd865cbb34666e41a641cf55f9aca0e2b4ec4a54aee5b7a",
+      "cutover_sha256": "b6100c3f1727e866ccd865cbb34666e41a641cf55f9aca0e2b4ec4a54aee5b7a",
+      "cutover_sha1": "7710eba295beffd841d501a75b4cc4c7f35470ff",
+      "box_sha1": "7710eba295beffd841d501a75b4cc4c7f35470ff"
+    },
+    {
+      "path": "X.Chat/02_synthesis/RECONCILIATION.md",
+      "status": "box_unchanged",
+      "bytes": 5651,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "01fd3f1a096d24fc0d0a4d7067ae9ca4ccea55f007b7d3d9cd68ca1a0fa61b76",
+      "cutover_sha256": "01fd3f1a096d24fc0d0a4d7067ae9ca4ccea55f007b7d3d9cd68ca1a0fa61b76",
+      "cutover_sha1": "e3f88d368d269b1cd5424a6a1690a952a161e7b7",
+      "box_sha1": "e3f88d368d269b1cd5424a6a1690a952a161e7b7"
+    },
+    {
+      "path": "X.Chat/02_synthesis/WORKING_UNDERSTANDING.md",
+      "status": "box_unchanged",
+      "bytes": 6683,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "4ab60c9fcab56846a76052c99a15302ff1702af95d2ee65f169958a693c01d9b",
+      "cutover_sha256": "4ab60c9fcab56846a76052c99a15302ff1702af95d2ee65f169958a693c01d9b",
+      "cutover_sha1": "52e2e33db86941f38e19624d7bfcbe081554cd5d",
+      "box_sha1": "52e2e33db86941f38e19624d7bfcbe081554cd5d"
+    },
+    {
+      "path": "X.Chat/02_synthesis/PLANNING_COVERAGE.md",
+      "status": "box_unchanged",
+      "bytes": 9319,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "dd4172f4948a81bfc9cb7709c7a2d51090b863ee667832d9c0016c75e2563c84",
+      "cutover_sha256": "dd4172f4948a81bfc9cb7709c7a2d51090b863ee667832d9c0016c75e2563c84",
+      "cutover_sha1": "372c1bb2ed7f133fa6f5deff232c0dd5eddd2c76",
+      "box_sha1": "372c1bb2ed7f133fa6f5deff232c0dd5eddd2c76"
+    },
+    {
+      "path": "X.Chat/02_synthesis/RESEARCH_QUESTIONS_TO_PROPOSAL.md",
+      "status": "box_unchanged",
+      "bytes": 6703,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "34a3efd8db529329e3430958285cd9f41bb19723a0545dbcd9b21222720c5db7",
+      "cutover_sha256": "34a3efd8db529329e3430958285cd9f41bb19723a0545dbcd9b21222720c5db7",
+      "cutover_sha1": "62409467c7b7dc3be2e425bfacb48df660a33afe",
+      "box_sha1": "62409467c7b7dc3be2e425bfacb48df660a33afe"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-03_02_local_hpc_consolidation.md",
+      "status": "box_unchanged",
+      "bytes": 2272,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "25eacbec2179f1f8e4f99c7653e09fa2ac41053303aed1a4d153eb4295b80ef2",
+      "cutover_sha256": "25eacbec2179f1f8e4f99c7653e09fa2ac41053303aed1a4d153eb4295b80ef2",
+      "cutover_sha1": "c694a9ce596758b8598052c2266c9f72586eba67",
+      "box_sha1": "c694a9ce596758b8598052c2266c9f72586eba67"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-03_01_expanded_committee_proposal.md",
+      "status": "box_unchanged",
+      "bytes": 1841,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "15ac69f044449fe33b12f1ee8947daab40060a44814ec145103ad76e197ff397",
+      "cutover_sha256": "15ac69f044449fe33b12f1ee8947daab40060a44814ec145103ad76e197ff397",
+      "cutover_sha1": "e645c364e96f2463794b0b51dc25d3c0095730bf",
+      "box_sha1": "e645c364e96f2463794b0b51dc25d3c0095730bf"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02_02_hpc_context.md",
+      "status": "box_unchanged",
+      "bytes": 4946,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0f7e6df31def51db6a2a9f188e5d7a2afc2173bd9008105107049929d386d3ed",
+      "cutover_sha256": "0f7e6df31def51db6a2a9f188e5d7a2afc2173bd9008105107049929d386d3ed",
+      "cutover_sha1": "ae9e92417e283a8537f2b9170e611ee363d404f5",
+      "box_sha1": "ae9e92417e283a8537f2b9170e611ee363d404f5"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02_05_proposal_structure.md",
+      "status": "box_unchanged",
+      "bytes": 2119,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "20984ad435a12c933085dec90cddd393d96ce75b8fdba1cac6d34b73a83a6ee5",
+      "cutover_sha256": "20984ad435a12c933085dec90cddd393d96ce75b8fdba1cac6d34b73a83a6ee5",
+      "cutover_sha1": "64b744f39a6b4ea63fa3e131338b6f7474b597bd",
+      "box_sha1": "64b744f39a6b4ea63fa3e131338b6f7474b597bd"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02.md",
+      "status": "box_unchanged",
+      "bytes": 4976,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e41ae5182f95fec9ddd5f7cf9688049c6fe24d180d09dc8c682e2096018028ee",
+      "cutover_sha256": "e41ae5182f95fec9ddd5f7cf9688049c6fe24d180d09dc8c682e2096018028ee",
+      "cutover_sha1": "5a8dda22f025f05d3fe7472104e9dadd80e6c31b",
+      "box_sha1": "5a8dda22f025f05d3fe7472104e9dadd80e6c31b"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02_03_question_integration.md",
+      "status": "box_unchanged",
+      "bytes": 2198,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "9f494b4389b0969cc753a91ee03b4ce7f52ce8fd424e2b09fd661db765dbe28d",
+      "cutover_sha256": "9f494b4389b0969cc753a91ee03b4ce7f52ce8fd424e2b09fd661db765dbe28d",
+      "cutover_sha1": "c7c6595211ab9ea676edc4ab8e1b6afb5d458ddb",
+      "box_sha1": "c7c6595211ab9ea676edc4ab8e1b6afb5d458ddb"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02_06_committee_cleanup.md",
+      "status": "box_unchanged",
+      "bytes": 1766,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "543d07db708a99aecd466d7df65cdfd2c9c17934902662a84bf74c13e8126fa9",
+      "cutover_sha256": "543d07db708a99aecd466d7df65cdfd2c9c17934902662a84bf74c13e8126fa9",
+      "cutover_sha1": "bfd12ba4047bbac21f31f7ae4422e82b28df8ab0",
+      "box_sha1": "bfd12ba4047bbac21f31f7ae4422e82b28df8ab0"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-03_README_before_consolidation.md",
+      "status": "box_unchanged",
+      "bytes": 4030,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "67b8db5d92286f843e8cb05de0290b60347138c717187427e513ea529c427309",
+      "cutover_sha256": "67b8db5d92286f843e8cb05de0290b60347138c717187427e513ea529c427309",
+      "cutover_sha1": "ab5ac2b2b0fe8896305331e98b015593d907212b",
+      "box_sha1": "ab5ac2b2b0fe8896305331e98b015593d907212b"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02_04_obsidian_links.md",
+      "status": "box_unchanged",
+      "bytes": 2063,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "971da23bd016ea2e7293adeceeac472f27ed903a88a643fc8b6f4ca15b9cf79b",
+      "cutover_sha256": "971da23bd016ea2e7293adeceeac472f27ed903a88a643fc8b6f4ca15b9cf79b",
+      "cutover_sha1": "6ee1aedff024edd63e7686233b7df26be8501dbe",
+      "box_sha1": "6ee1aedff024edd63e7686233b7df26be8501dbe"
+    },
+    {
+      "path": "X.Chat/01_sources/obsidian_links.csv",
+      "status": "box_unchanged",
+      "bytes": 47512,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b5977c28f1a56c7fddcb138d366f2a4df906455de212d831909fb123b4ff885a",
+      "cutover_sha256": "b5977c28f1a56c7fddcb138d366f2a4df906455de212d831909fb123b4ff885a",
+      "cutover_sha1": "5dac1ef142c81ed9c715596a335a37ec3e7be951",
+      "box_sha1": "5dac1ef142c81ed9c715596a335a37ec3e7be951"
+    },
+    {
+      "path": "X.Chat/01_sources/resource_inventory.csv",
+      "status": "box_unchanged",
+      "bytes": 28556,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "d0679770b24489d36ad97757ec18bcba8d11b0c0b34c349e8e1c2fcd67c9c2e6",
+      "cutover_sha256": "d0679770b24489d36ad97757ec18bcba8d11b0c0b34c349e8e1c2fcd67c9c2e6",
+      "cutover_sha1": "ffae222a975a4de8d51aec02aea5005b1616ccf8",
+      "box_sha1": "ffae222a975a4de8d51aec02aea5005b1616ccf8"
+    },
+    {
+      "path": "X.Chat/01_sources/HPC_REPORT_MAP.md",
+      "status": "box_unchanged",
+      "bytes": 7546,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "adfe2381be6c3ed07c59ac50ce8feac46ee56dd83ec3acd47806fd28d3f0e2a2",
+      "cutover_sha256": "adfe2381be6c3ed07c59ac50ce8feac46ee56dd83ec3acd47806fd28d3f0e2a2",
+      "cutover_sha1": "38d23bd1d1a789b5e7eced54747e6296cacd4591",
+      "box_sha1": "38d23bd1d1a789b5e7eced54747e6296cacd4591"
+    },
+    {
+      "path": "X.Chat/01_sources/google_plan_locators.json",
+      "status": "box_unchanged",
+      "bytes": 4025,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "9c6226cf569491ecab8cfc7b2cdd2b7b7ec22183f1002420be94b03748cde1fd",
+      "cutover_sha256": "9c6226cf569491ecab8cfc7b2cdd2b7b7ec22183f1002420be94b03748cde1fd",
+      "cutover_sha1": "218ed55ff26e69488e653ff7d9d1cc31cb0566fb",
+      "box_sha1": "218ed55ff26e69488e653ff7d9d1cc31cb0566fb"
+    },
+    {
+      "path": "X.Chat/01_sources/SOURCE_REGISTER.md",
+      "status": "box_unchanged",
+      "bytes": 10978,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "26bbbe680327297108962083ba8953a0e50ec2687d4cef2df4981c4e637bbc0b",
+      "cutover_sha256": "26bbbe680327297108962083ba8953a0e50ec2687d4cef2df4981c4e637bbc0b",
+      "cutover_sha1": "f0669487bf6e6b272fcf100ad3ebf3d5bba8b809",
+      "box_sha1": "f0669487bf6e6b272fcf100ad3ebf3d5bba8b809"
+    },
+    {
+      "path": "X.Chat/01_sources/planning_item_coverage.csv",
+      "status": "box_unchanged",
+      "bytes": 180407,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "5264c1d14d808240d19258107581a442c8af5c5b3e5df35dab2a099b31a3364a",
+      "cutover_sha256": "5264c1d14d808240d19258107581a442c8af5c5b3e5df35dab2a099b31a3364a",
+      "cutover_sha1": "abd3210c10bb09fad6cdd4092d8c647901407667",
+      "box_sha1": "abd3210c10bb09fad6cdd4092d8c647901407667"
+    },
+    {
+      "path": "X.Chat/01_sources/obsidian_link_repair.json",
+      "status": "box_unchanged",
+      "bytes": 3387,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0240a5027340dfbf715e03e9c591d12bf345a86ddd42c56b74e6a0165e3bbef7",
+      "cutover_sha256": "0240a5027340dfbf715e03e9c591d12bf345a86ddd42c56b74e6a0165e3bbef7",
+      "cutover_sha1": "583bc34912ff03c472e5825e4349f99e5004afe0",
+      "box_sha1": "583bc34912ff03c472e5825e4349f99e5004afe0"
+    },
+    {
+      "path": "X.Chat/01_sources/FIGURE_ROUTES.md",
+      "status": "box_unchanged",
+      "bytes": 4263,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "d18f38a8d7492b72970921b56a50cd3491b13aad17757f9b7f440e3195a59ee1",
+      "cutover_sha256": "d18f38a8d7492b72970921b56a50cd3491b13aad17757f9b7f440e3195a59ee1",
+      "cutover_sha1": "231dc59c47465faca8d7bb75c19f734c88613fca",
+      "box_sha1": "231dc59c47465faca8d7bb75c19f734c88613fca"
+    },
+    {
+      "path": "X.Chat/01_sources/inventory_summary.json",
+      "status": "box_unchanged",
+      "bytes": 1010,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "d4d93f4c77c19f23b7969d681461cfb189f4721191614fd1fab9761b780defde",
+      "cutover_sha256": "d4d93f4c77c19f23b7969d681461cfb189f4721191614fd1fab9761b780defde",
+      "cutover_sha1": "9c2ee381c5feed38f08ebfff5526723058025c6b",
+      "box_sha1": "9c2ee381c5feed38f08ebfff5526723058025c6b"
+    },
+    {
+      "path": "X.Chat/01_sources/BOX_FILENAME_REVIEW.md",
+      "status": "box_unchanged",
+      "bytes": 1747,
+      "baseline_source": "immutable Box pull pinned by cutover SHA-256",
+      "expected_cutover_sha256": "c129d0ae887a65580b718d9694c441aa1da63590dccb8ddd6d1c4372a40afabb",
+      "cutover_sha256": "c129d0ae887a65580b718d9694c441aa1da63590dccb8ddd6d1c4372a40afabb",
+      "cutover_sha1": "38de0454cf36edbb4ec329283dfb5fa2463e4777",
+      "box_sha1": "38de0454cf36edbb4ec329283dfb5fa2463e4777"
+    },
+    {
+      "path": "X.Chat/01_sources/hpc_source_manifest.json",
+      "status": "box_unchanged",
+      "bytes": 6785,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "4b27177604a3b47cfaa388b706ae08cc38964635f6265ddb3ebc6d429b5a6f91",
+      "cutover_sha256": "4b27177604a3b47cfaa388b706ae08cc38964635f6265ddb3ebc6d429b5a6f91",
+      "cutover_sha1": "bd8283d66a7f38c641de97e1ebbbdbfe7b995bee",
+      "box_sha1": "bd8283d66a7f38c641de97e1ebbbdbfe7b995bee"
+    },
+    {
+      "path": "X.Chat/01_sources/research_question_proposal_crosswalk.csv",
+      "status": "box_unchanged",
+      "bytes": 91503,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "852f633349ba70b08aff2ee6cdf2fbf3fb6ed834fb1b88c65ba92c183dbc4fbc",
+      "cutover_sha256": "852f633349ba70b08aff2ee6cdf2fbf3fb6ed834fb1b88c65ba92c183dbc4fbc",
+      "cutover_sha1": "5ca63de2934f82bc7244ee82d03bb77e53c6af9a",
+      "box_sha1": "5ca63de2934f82bc7244ee82d03bb77e53c6af9a"
+    },
+    {
+      "path": "X.Chat/01_sources/hpc_report_catalog.csv",
+      "status": "box_unchanged",
+      "bytes": 361268,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "44a10e0af0787f92aca285d6d496589a37673695fa269fc375695c80fcbd9dd7",
+      "cutover_sha256": "44a10e0af0787f92aca285d6d496589a37673695fa269fc375695c80fcbd9dd7",
+      "cutover_sha1": "cee39caefd48c5a55f8943b09c6ca940059a8606",
+      "box_sha1": "cee39caefd48c5a55f8943b09c6ca940059a8606"
+    },
+    {
+      "path": "X.Chat/01_sources/LINK_REPAIR_QUEUE.md",
+      "status": "box_unchanged",
+      "bytes": 2890,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b210c57c4b0ec749c620767bc1dc4deef2e9ddcb1cdeb4c3b3cd0f6315418cef",
+      "cutover_sha256": "b210c57c4b0ec749c620767bc1dc4deef2e9ddcb1cdeb4c3b3cd0f6315418cef",
+      "cutover_sha1": "e2bebdec189046e8d65cab0db1f70e232505f6b7",
+      "box_sha1": "e2bebdec189046e8d65cab0db1f70e232505f6b7"
+    },
+    {
+      "path": "X.Chat/01_sources/box_literature_inventory.csv",
+      "status": "box_unchanged",
+      "bytes": 85479,
+      "baseline_source": "immutable Box pull pinned by cutover SHA-256",
+      "expected_cutover_sha256": "77e05175cfcaf3e2d30398ba16cb6b5fe24afe7dc13e2ea736fe4406e3864357",
+      "cutover_sha256": "77e05175cfcaf3e2d30398ba16cb6b5fe24afe7dc13e2ea736fe4406e3864357",
+      "cutover_sha1": "73b1b53ea70930f0f0139ee4cf4a4458b6da8b12",
+      "box_sha1": "73b1b53ea70930f0f0139ee4cf4a4458b6da8b12"
+    },
+    {
+      "path": "X.Chat/04_decisions/DECISIONS.md",
+      "status": "box_unchanged",
+      "bytes": 6683,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "07049070051848b4bb5e0bf3b7aaf72269c18d1045dd6e722eb61674c0d41fee",
+      "cutover_sha256": "07049070051848b4bb5e0bf3b7aaf72269c18d1045dd6e722eb61674c0d41fee",
+      "cutover_sha1": "8957456bbdd971c752aa5249ce7aff275d0e1b25",
+      "box_sha1": "8957456bbdd971c752aa5249ce7aff275d0e1b25"
+    },
+    {
+      "path": "X.Chat/03_proposal/ARCHIVE_MOVE_MAP.json",
+      "status": "box_unchanged",
+      "bytes": 13767,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "26eaf1e93a5fe6ee654c0fd9293499046c768124513179f47f180efe95b2e15d",
+      "cutover_sha256": "26eaf1e93a5fe6ee654c0fd9293499046c768124513179f47f180efe95b2e15d",
+      "cutover_sha1": "e1f7d1206d3fc2906556a3a8692fb46a89e516be",
+      "box_sha1": "e1f7d1206d3fc2906556a3a8692fb46a89e516be"
+    },
+    {
+      "path": "X.Chat/03_proposal/README.md",
+      "status": "box_unchanged",
+      "bytes": 1149,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "6d462115173b44e868f05b634d19a0c8d7adab28d34ff9a93c3704f063a9cd09",
+      "cutover_sha256": "6d462115173b44e868f05b634d19a0c8d7adab28d34ff9a93c3704f063a9cd09",
+      "cutover_sha1": "8b07e806c15f4a5a71ca28b1e43dc65121a1996b",
+      "box_sha1": "8b07e806c15f4a5a71ca28b1e43dc65121a1996b"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/committee_verification.json",
+      "status": "box_unchanged",
+      "bytes": 917,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "5c209fb0c12ee6e45dcc953b1cb5c0b600f7b528e316839c926462770a5e5443",
+      "cutover_sha256": "5c209fb0c12ee6e45dcc953b1cb5c0b600f7b528e316839c926462770a5e5443",
+      "cutover_sha1": "f4d9f85ebf40abcfea1829f0e3c7a6c307cd117f",
+      "box_sha1": "f4d9f85ebf40abcfea1829f0e3c7a6c307cd117f"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/proposal_outline_preview.pdf",
+      "status": "box_unchanged",
+      "bytes": 218121,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "db6357c17654efdc3b7f3b9b506198b8967b11276a2d3d3d97eed82aec548962",
+      "cutover_sha256": "db6357c17654efdc3b7f3b9b506198b8967b11276a2d3d3d97eed82aec548962",
+      "cutover_sha1": "c339135f582f426cc5269f8a6bad623fa81e29f9",
+      "box_sha1": "c339135f582f426cc5269f8a6bad623fa81e29f9"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/proposal_source.zip",
+      "status": "box_unchanged",
+      "bytes": 30673,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "12bdf7d0fa923b4c3c2fb406f582b2cffe437d5063f5154d909006cf5476c416",
+      "cutover_sha256": "12bdf7d0fa923b4c3c2fb406f582b2cffe437d5063f5154d909006cf5476c416",
+      "cutover_sha1": "abc16ea49da75d6c73a4d57849ca642f22c1e689",
+      "box_sha1": "abc16ea49da75d6c73a4d57849ca642f22c1e689"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/proposal_expansion.patch",
+      "status": "box_unchanged",
+      "bytes": 421087,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "86bd3bc16a2b7d5a932d798e92d7888cb7f41ab66da1c9458e538fa42248ab9b",
+      "cutover_sha256": "86bd3bc16a2b7d5a932d798e92d7888cb7f41ab66da1c9458e538fa42248ab9b",
+      "cutover_sha1": "60802f7edc067cbc1e6bf6044a0a5ce2469bb113",
+      "box_sha1": "60802f7edc067cbc1e6bf6044a0a5ce2469bb113"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/EXPANDED_OUTLINE.md",
+      "status": "box_unchanged",
+      "bytes": 57232,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e3e29792594594aca2bd0a0dfc0bc2f02d5dbf1bbed818081d965539b1273154",
+      "cutover_sha256": "e3e29792594594aca2bd0a0dfc0bc2f02d5dbf1bbed818081d965539b1273154",
+      "cutover_sha1": "5168105617e1ddf9141f75337445919de54abbd4",
+      "box_sha1": "5168105617e1ddf9141f75337445919de54abbd4"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "status": "box_unchanged",
+      "bytes": 4299,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc",
+      "cutover_sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc",
+      "cutover_sha1": "b100242a38d5ffcc229b2c6af176e78717a98a0f",
+      "box_sha1": "b100242a38d5ffcc229b2c6af176e78717a98a0f"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/README.md",
+      "status": "box_unchanged",
+      "bytes": 2932,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "af4067b96f1eefa88fea9a1e256ed72965e9297cd0bb73b1eacb774d5e5db909",
+      "cutover_sha256": "af4067b96f1eefa88fea9a1e256ed72965e9297cd0bb73b1eacb774d5e5db909",
+      "cutover_sha1": "703aebda89a398978730ab0dfda4f629a7d80254",
+      "box_sha1": "703aebda89a398978730ab0dfda4f629a7d80254"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "status": "box_unchanged",
+      "bytes": 2979,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5",
+      "cutover_sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5",
+      "cutover_sha1": "cb8266c1a8825dc645508d5320219d61bed2aab4",
+      "box_sha1": "cb8266c1a8825dc645508d5320219d61bed2aab4"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/manifest.json",
+      "status": "box_unchanged",
+      "bytes": 5705,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "bd3dc79d18a839a107e6819e7979a62f433c53a37a9effbbad0f003b90886cdd",
+      "cutover_sha256": "bd3dc79d18a839a107e6819e7979a62f433c53a37a9effbbad0f003b90886cdd",
+      "cutover_sha1": "060da0b3daab0641cc95577d0a06a7a8e2e50844",
+      "box_sha1": "060da0b3daab0641cc95577d0a06a7a8e2e50844"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/verification.json",
+      "status": "box_unchanged",
+      "bytes": 917,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "5c209fb0c12ee6e45dcc953b1cb5c0b600f7b528e316839c926462770a5e5443",
+      "cutover_sha256": "5c209fb0c12ee6e45dcc953b1cb5c0b600f7b528e316839c926462770a5e5443",
+      "cutover_sha1": "f4d9f85ebf40abcfea1829f0e3c7a6c307cd117f",
+      "box_sha1": "f4d9f85ebf40abcfea1829f0e3c7a6c307cd117f"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/committee_proposal_sources.zip",
+      "status": "box_unchanged",
+      "bytes": 30673,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "12bdf7d0fa923b4c3c2fb406f582b2cffe437d5063f5154d909006cf5476c416",
+      "cutover_sha256": "12bdf7d0fa923b4c3c2fb406f582b2cffe437d5063f5154d909006cf5476c416",
+      "cutover_sha1": "abc16ea49da75d6c73a4d57849ca642f22c1e689",
+      "box_sha1": "abc16ea49da75d6c73a4d57849ca642f22c1e689"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/committee_proposal.pdf",
+      "status": "box_unchanged",
+      "bytes": 218121,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "db6357c17654efdc3b7f3b9b506198b8967b11276a2d3d3d97eed82aec548962",
+      "cutover_sha256": "db6357c17654efdc3b7f3b9b506198b8967b11276a2d3d3d97eed82aec548962",
+      "cutover_sha1": "c339135f582f426cc5269f8a6bad623fa81e29f9",
+      "box_sha1": "c339135f582f426cc5269f8a6bad623fa81e29f9"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/build.log",
+      "status": "box_unchanged",
+      "bytes": 28410,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "6255c75783e68eeaffa4f807cf8231689761111d1fa34bf0e2d970fd983bf53a",
+      "cutover_sha256": "6255c75783e68eeaffa4f807cf8231689761111d1fa34bf0e2d970fd983bf53a",
+      "cutover_sha1": "9ec57f91aba236a13b2cd7bc8829799bedc0fe89",
+      "box_sha1": "9ec57f91aba236a13b2cd7bc8829799bedc0fe89"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/proposal_outline_preview.pdf",
+      "status": "box_unchanged",
+      "bytes": 218121,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "db6357c17654efdc3b7f3b9b506198b8967b11276a2d3d3d97eed82aec548962",
+      "cutover_sha256": "db6357c17654efdc3b7f3b9b506198b8967b11276a2d3d3d97eed82aec548962",
+      "cutover_sha1": "c339135f582f426cc5269f8a6bad623fa81e29f9",
+      "box_sha1": "c339135f582f426cc5269f8a6bad623fa81e29f9"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/PROPOSAL_OUTLINE.md",
+      "status": "box_unchanged",
+      "bytes": 57232,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e3e29792594594aca2bd0a0dfc0bc2f02d5dbf1bbed818081d965539b1273154",
+      "cutover_sha256": "e3e29792594594aca2bd0a0dfc0bc2f02d5dbf1bbed818081d965539b1273154",
+      "cutover_sha1": "5168105617e1ddf9141f75337445919de54abbd4",
+      "box_sha1": "5168105617e1ddf9141f75337445919de54abbd4"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/main.tex",
+      "status": "box_unchanged",
+      "bytes": 1184,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "896399e934664b227b87b7180dbcc619d353fd4c4581b5bcfe0cd08100be91f6",
+      "cutover_sha256": "896399e934664b227b87b7180dbcc619d353fd4c4581b5bcfe0cd08100be91f6",
+      "cutover_sha1": "2e98ffb1f475e838748e6f476cedc6bece385311",
+      "box_sha1": "2e98ffb1f475e838748e6f476cedc6bece385311"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/README.md",
+      "status": "box_unchanged",
+      "bytes": 467,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "8a539cd9ba6282592612c0006c09531997270b922c2ebbae3b605529895f2b9e",
+      "cutover_sha256": "8a539cd9ba6282592612c0006c09531997270b922c2ebbae3b605529895f2b9e",
+      "cutover_sha1": "a20caf8324c2c4321576586d8e8a38bad5f6b206",
+      "box_sha1": "a20caf8324c2c4321576586d8e8a38bad5f6b206"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/90_coverage.tex",
+      "status": "box_unchanged",
+      "bytes": 19341,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "a5af8271d87a405fa086974986a6d83fc5415c287df65dbf1429dfe5cb05c194",
+      "cutover_sha256": "a5af8271d87a405fa086974986a6d83fc5415c287df65dbf1429dfe5cb05c194",
+      "cutover_sha1": "59f75c43ad03dfea41d2ef7f3aba2b4ee7ee4e1b",
+      "box_sha1": "59f75c43ad03dfea41d2ef7f3aba2b4ee7ee4e1b"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/05_methods.tex",
+      "status": "box_unchanged",
+      "bytes": 15818,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "db76305e5fea5c79f0f8131a043e2fd847ea2e72c154eed04aba36d3524f46d5",
+      "cutover_sha256": "db76305e5fea5c79f0f8131a043e2fd847ea2e72c154eed04aba36d3524f46d5",
+      "cutover_sha1": "b16bd6ea82dbac47c880d295ada1e3a887fa911e",
+      "box_sha1": "b16bd6ea82dbac47c880d295ada1e3a887fa911e"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/06_preliminary.tex",
+      "status": "box_unchanged",
+      "bytes": 7029,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "866339dfdc00de46a574ce31ae6fb3bfffa836843eee4798d16cff32f0786eae",
+      "cutover_sha256": "866339dfdc00de46a574ce31ae6fb3bfffa836843eee4798d16cff32f0786eae",
+      "cutover_sha1": "08b24da4339a15d797b417cd733ffc33842fd1d1",
+      "box_sha1": "08b24da4339a15d797b417cd733ffc33842fd1d1"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/01_motivation.tex",
+      "status": "box_unchanged",
+      "bytes": 5034,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "a14ad284292e073bf2091cdf384c8ad6e047939a199bcbb88f221db5dfbe37d9",
+      "cutover_sha256": "a14ad284292e073bf2091cdf384c8ad6e047939a199bcbb88f221db5dfbe37d9",
+      "cutover_sha1": "c269c4320df8c7c5004ac66f0cf415962fa36aef",
+      "box_sha1": "c269c4320df8c7c5004ac66f0cf415962fa36aef"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/04_model.tex",
+      "status": "box_unchanged",
+      "bytes": 8963,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "8bf55abb3b70df25e40fcb989144029d3846d7ed3629c59d97c91a43d51c09e5",
+      "cutover_sha256": "8bf55abb3b70df25e40fcb989144029d3846d7ed3629c59d97c91a43d51c09e5",
+      "cutover_sha1": "6189ee63d9943eed7594b4baa46c959258520c5b",
+      "box_sha1": "6189ee63d9943eed7594b4baa46c959258520c5b"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/00_working_summary.tex",
+      "status": "box_unchanged",
+      "bytes": 1429,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "854d25b618757d874ede5def09acd0fb9a0fe03f76195fe5c95327e947b0d258",
+      "cutover_sha256": "854d25b618757d874ede5def09acd0fb9a0fe03f76195fe5c95327e947b0d258",
+      "cutover_sha1": "da6b8195bc477666f7cf222eda0747c634615374",
+      "box_sha1": "da6b8195bc477666f7cf222eda0747c634615374"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/03_evidence.tex",
+      "status": "box_unchanged",
+      "bytes": 13145,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "3282f1cba4a2d574ea2ac79938a236fa85d4a4e0d5abe8ce0be93045a88a8ad9",
+      "cutover_sha256": "3282f1cba4a2d574ea2ac79938a236fa85d4a4e0d5abe8ce0be93045a88a8ad9",
+      "cutover_sha1": "a713fd699e10b52f1ba175005ee597f59bad0ec2",
+      "box_sha1": "a713fd699e10b52f1ba175005ee597f59bad0ec2"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/07_assessment.tex",
+      "status": "box_unchanged",
+      "bytes": 9337,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "3ce4a68bd711b2d2ec13d0f4bd42481b8bf3f34414b39684d8e403e0f090ce9b",
+      "cutover_sha256": "3ce4a68bd711b2d2ec13d0f4bd42481b8bf3f34414b39684d8e403e0f090ce9b",
+      "cutover_sha1": "e27d52458fd9e41cbcb745131579a7be00c4590d",
+      "box_sha1": "e27d52458fd9e41cbcb745131579a7be00c4590d"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/08_plan.tex",
+      "status": "box_unchanged",
+      "bytes": 5356,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "d766f3f764d209afce18bb8ebabdef980ba9179e15fa98931e1148e0ffec4643",
+      "cutover_sha256": "d766f3f764d209afce18bb8ebabdef980ba9179e15fa98931e1148e0ffec4643",
+      "cutover_sha1": "df963f052538f7c571e67be7672928a3c7c1dfec",
+      "box_sha1": "df963f052538f7c571e67be7672928a3c7c1dfec"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/02_goals.tex",
+      "status": "box_unchanged",
+      "bytes": 5242,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "10ce2f50659dd02a4f898c888d0c6cb9d21eaf87c8233a3dea042dc9c706b4d7",
+      "cutover_sha256": "10ce2f50659dd02a4f898c888d0c6cb9d21eaf87c8233a3dea042dc9c706b4d7",
+      "cutover_sha1": "1e1384e3a8597007a7f9408a475e48eb1bc7b6fe",
+      "box_sha1": "1e1384e3a8597007a7f9408a475e48eb1bc7b6fe"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/refs/bib.tex",
+      "status": "box_unchanged",
+      "bytes": 3733,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e30edbbbd97d40953753ff576666896be29054b621f1eb0e4eb12fc619b374d7",
+      "cutover_sha256": "e30edbbbd97d40953753ff576666896be29054b621f1eb0e4eb12fc619b374d7",
+      "cutover_sha1": "79955635d1befa9c8b10b7bff3fe8e3277588256",
+      "box_sha1": "79955635d1befa9c8b10b7bff3fe8e3277588256"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/packages.tex",
+      "status": "box_unchanged",
+      "bytes": 656,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "1dabbb2773866cb374d5b54de7c246394e2d4483fd955f2165aea112e72dcff0",
+      "cutover_sha256": "1dabbb2773866cb374d5b54de7c246394e2d4483fd955f2165aea112e72dcff0",
+      "cutover_sha1": "f2586fdc5c6e38e2505db23b73e7f0985f3b86dd",
+      "box_sha1": "f2586fdc5c6e38e2505db23b73e7f0985f3b86dd"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/SOURCES.md",
+      "status": "box_unchanged",
+      "bytes": 8112,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "983e18031615be95abd0ff6845dafd844026c115b3a2164a672cb4ccd488773a",
+      "cutover_sha256": "983e18031615be95abd0ff6845dafd844026c115b3a2164a672cb4ccd488773a",
+      "cutover_sha1": "6cc7424f8b39d45eb04ceaa6f743d6b3e38a3c8a",
+      "box_sha1": "6cc7424f8b39d45eb04ceaa6f743d6b3e38a3c8a"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/FOLLOWUP_DECISIONS.md",
+      "status": "box_unchanged",
+      "bytes": 2915,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "4bdce180da5478bbe314fb3da97a07743162992fdee3e328e13ec4278ffa881f",
+      "cutover_sha256": "4bdce180da5478bbe314fb3da97a07743162992fdee3e328e13ec4278ffa881f",
+      "cutover_sha1": "c1f6ae584f91ddae7ba6b4fe5ad4250c6892ba82",
+      "box_sha1": "c1f6ae584f91ddae7ba6b4fe5ad4250c6892ba82"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md",
+      "status": "box_unchanged",
+      "bytes": 42115,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "4484b7857162f85cfb2c31fc921792578c62af353b45fba208e7f866011f4004",
+      "cutover_sha256": "4484b7857162f85cfb2c31fc921792578c62af353b45fba208e7f866011f4004",
+      "cutover_sha1": "62e9a008f54754f82c8e35807fd9f85b7426c963",
+      "box_sha1": "62e9a008f54754f82c8e35807fd9f85b7426c963"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "status": "box_unchanged",
+      "bytes": 4299,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc",
+      "cutover_sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc",
+      "cutover_sha1": "b100242a38d5ffcc229b2c6af176e78717a98a0f",
+      "box_sha1": "b100242a38d5ffcc229b2c6af176e78717a98a0f"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "status": "box_unchanged",
+      "bytes": 2979,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5",
+      "cutover_sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5",
+      "cutover_sha1": "cb8266c1a8825dc645508d5320219d61bed2aab4",
+      "box_sha1": "cb8266c1a8825dc645508d5320219d61bed2aab4"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/coverage/2026-11-02/research_insertion_slots.csv",
+      "status": "box_unchanged",
+      "bytes": 6203,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "a7e63c33a5bddc151d8021aed0d54cee29397aa26ea3fd2a78b1150417c9dcec",
+      "cutover_sha256": "a7e63c33a5bddc151d8021aed0d54cee29397aa26ea3fd2a78b1150417c9dcec",
+      "cutover_sha1": "b19e54840bf0a4dd8575030b52c9a6992c879fdf",
+      "box_sha1": "b19e54840bf0a4dd8575030b52c9a6992c879fdf"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/coverage/2026-11-02/question_coverage.csv",
+      "status": "box_unchanged",
+      "bytes": 97849,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "791b8062a1c56a9275ef0648bdc6b0af748b1b06d5c14ef446ae745534ddbb05",
+      "cutover_sha256": "791b8062a1c56a9275ef0648bdc6b0af748b1b06d5c14ef446ae745534ddbb05",
+      "cutover_sha1": "54fa9935b204b4fd832a313668b7084a6367403d",
+      "box_sha1": "54fa9935b204b4fd832a313668b7084a6367403d"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/coverage/2026-11-02/COVERAGE.md",
+      "status": "box_unchanged",
+      "bytes": 17502,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b9d55985bdb5ddb8c9c5c344f2a1aac32e14a1421306a4579f9c531c9d087c68",
+      "cutover_sha256": "b9d55985bdb5ddb8c9c5c344f2a1aac32e14a1421306a4579f9c531c9d087c68",
+      "cutover_sha1": "418bfcca639c8a116a233c2cff70fba0f99b9342",
+      "box_sha1": "418bfcca639c8a116a233c2cff70fba0f99b9342"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/coverage/2026-11-02/planning_coverage.csv",
+      "status": "box_unchanged",
+      "bytes": 8503,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "3cb85c289555563827a9d23c9104e9f836238b82316df17e1406fa7c7db07649",
+      "cutover_sha256": "3cb85c289555563827a9d23c9104e9f836238b82316df17e1406fa7c7db07649",
+      "cutover_sha1": "a029b9fa1aac2c704b9f24b78d2ba1b40641b53d",
+      "box_sha1": "a029b9fa1aac2c704b9f24b78d2ba1b40641b53d"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/90_coverage.tex",
+      "status": "box_unchanged",
+      "bytes": 18976,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "5ed80b5f27340bdfb45c4287f80b3694d35e239c386f2d9dc528bc7a5e41ed57",
+      "cutover_sha256": "5ed80b5f27340bdfb45c4287f80b3694d35e239c386f2d9dc528bc7a5e41ed57",
+      "cutover_sha1": "c5c8a10945f88b3a158c4360311ba29872570aeb",
+      "box_sha1": "c5c8a10945f88b3a158c4360311ba29872570aeb"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/AUTHOR_QUESTIONS.md",
+      "status": "box_unchanged",
+      "bytes": 5562,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "aca122ff8b4f5ff7248e3bb1728308d3fe1415f6db7f5654d8055e4f785a8e1e",
+      "cutover_sha256": "aca122ff8b4f5ff7248e3bb1728308d3fe1415f6db7f5654d8055e4f785a8e1e",
+      "cutover_sha1": "aecbd80f6e3610f8e8985577f2a11bdd26f95fd2",
+      "box_sha1": "aecbd80f6e3610f8e8985577f2a11bdd26f95fd2"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/README.md",
+      "status": "box_unchanged",
+      "bytes": 1714,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "7d0298f15099face2e2e14ca827051cc256849bff5370cbd7a4b5fd1121a333c",
+      "cutover_sha256": "7d0298f15099face2e2e14ca827051cc256849bff5370cbd7a4b5fd1121a333c",
+      "cutover_sha1": "a31b76969e6dcbdc2f93e6f91ad0035068f2e8f7",
+      "box_sha1": "a31b76969e6dcbdc2f93e6f91ad0035068f2e8f7"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/00_working_summary.tex",
+      "status": "box_unchanged",
+      "bytes": 1305,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "10c93548ccc84f45c09410ba309d950a2ae9e043704c3f26232cfba9b4cf6eb7",
+      "cutover_sha256": "10c93548ccc84f45c09410ba309d950a2ae9e043704c3f26232cfba9b4cf6eb7",
+      "cutover_sha1": "6a636c5ebd0fdf51d2dfa202434f90027ac6e6df",
+      "box_sha1": "6a636c5ebd0fdf51d2dfa202434f90027ac6e6df"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/CITATION_NOTES.md",
+      "status": "box_unchanged",
+      "bytes": 1024,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "41bd0e55478456ac4c276ddf0e1e7d962d37c7c37b56e42d5015f9112dd6f672",
+      "cutover_sha256": "41bd0e55478456ac4c276ddf0e1e7d962d37c7c37b56e42d5015f9112dd6f672",
+      "cutover_sha1": "7c258a0346da04d33ab19e29da069743db89e89a",
+      "box_sha1": "7c258a0346da04d33ab19e29da069743db89e89a"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/04_model.md",
+      "status": "box_unchanged",
+      "bytes": 10517,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "033a5ce7d353eaa27ade411ef2ca4f76210a166ac450d81e90038c73750051a2",
+      "cutover_sha256": "033a5ce7d353eaa27ade411ef2ca4f76210a166ac450d81e90038c73750051a2",
+      "cutover_sha1": "4920ea9f69401aa1c4656600faf009102315513d",
+      "box_sha1": "4920ea9f69401aa1c4656600faf009102315513d"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/07_assessment.md",
+      "status": "box_unchanged",
+      "bytes": 8020,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "ed95063753af6fc33c5d2c590284d91950092629016834839b700b7217989c02",
+      "cutover_sha256": "ed95063753af6fc33c5d2c590284d91950092629016834839b700b7217989c02",
+      "cutover_sha1": "4ad212362327c773fb83172b60238771dbe06688",
+      "box_sha1": "4ad212362327c773fb83172b60238771dbe06688"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/06_preliminary.md",
+      "status": "box_unchanged",
+      "bytes": 12619,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "4ba6076675ecda49e90a99137a4f97b6039b069b55ab6b711a5ded641f20aa24",
+      "cutover_sha256": "4ba6076675ecda49e90a99137a4f97b6039b069b55ab6b711a5ded641f20aa24",
+      "cutover_sha1": "7735fcc2ae39a086e19eb0cfeabc1453f5b9bd12",
+      "box_sha1": "7735fcc2ae39a086e19eb0cfeabc1453f5b9bd12"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/02_goals.md",
+      "status": "box_unchanged",
+      "bytes": 10026,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "c924d6ebf25d08a94cb5deb24eb8e13bb7654d2997ef587a2e0dd831e0cef2a2",
+      "cutover_sha256": "c924d6ebf25d08a94cb5deb24eb8e13bb7654d2997ef587a2e0dd831e0cef2a2",
+      "cutover_sha1": "a36b372f55c17ad9dc06b35558d2a9faf19bc153",
+      "box_sha1": "a36b372f55c17ad9dc06b35558d2a9faf19bc153"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/05_methods.md",
+      "status": "box_unchanged",
+      "bytes": 15137,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "12988896ee72b7c814bc0714478c7327d66da768e33c521ccb8aff38d475c60f",
+      "cutover_sha256": "12988896ee72b7c814bc0714478c7327d66da768e33c521ccb8aff38d475c60f",
+      "cutover_sha1": "99f9659af8bf2f9c61b6fbdc5c86db1cbf5784c6",
+      "box_sha1": "99f9659af8bf2f9c61b6fbdc5c86db1cbf5784c6"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/01_motivation.md",
+      "status": "box_unchanged",
+      "bytes": 8859,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e3dc6cd9597e487384246c3f632377e910d7350afdeaa7486339d9f9f0a72d82",
+      "cutover_sha256": "e3dc6cd9597e487384246c3f632377e910d7350afdeaa7486339d9f9f0a72d82",
+      "cutover_sha1": "1eb5d12f8093905f75361f638c114535a2f37db6",
+      "box_sha1": "1eb5d12f8093905f75361f638c114535a2f37db6"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/08_plan.md",
+      "status": "box_unchanged",
+      "bytes": 9037,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e0b8142ee05fce429da69fcb894263880128a5609e9e61c6a20fe5dc155e44c7",
+      "cutover_sha256": "e0b8142ee05fce429da69fcb894263880128a5609e9e61c6a20fe5dc155e44c7",
+      "cutover_sha1": "6d0be433bbfd77795b3521b91ac53f4d202ece59",
+      "box_sha1": "6d0be433bbfd77795b3521b91ac53f4d202ece59"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/03_evidence.md",
+      "status": "box_unchanged",
+      "bytes": 17651,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "01c7bac0df1a91e6355500a6551f7e3ea7bc2e83ad6f438c586c37124214f3d4",
+      "cutover_sha256": "01c7bac0df1a91e6355500a6551f7e3ea7bc2e83ad6f438c586c37124214f3d4",
+      "cutover_sha1": "3a7f61bc0b36b0b3e020a0c0279f45867609cdce",
+      "box_sha1": "3a7f61bc0b36b0b3e020a0c0279f45867609cdce"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/question_slot_specification.json",
+      "status": "box_unchanged",
+      "bytes": 114583,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "d24311de6bed70f960c436c64297a7ee6d16c223e465b24d86d0a2bd66d16821",
+      "cutover_sha256": "d24311de6bed70f960c436c64297a7ee6d16c223e465b24d86d0a2bd66d16821",
+      "cutover_sha1": "bde850ac02663bd26f410a9a842cef84037b8e33",
+      "box_sha1": "bde850ac02663bd26f410a9a842cef84037b8e33"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/scope_and_counts.json",
+      "status": "box_unchanged",
+      "bytes": 1147,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "bb18d4156f64b0412b7a1f24b9656beaf8ccbc9fd4f0015feaebf71e92e67a9d",
+      "cutover_sha256": "bb18d4156f64b0412b7a1f24b9656beaf8ccbc9fd4f0015feaebf71e92e67a9d",
+      "cutover_sha1": "acdb46d447cf358bdba549b93bb4e5a1fb928870",
+      "box_sha1": "acdb46d447cf358bdba549b93bb4e5a1fb928870"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/research_insertion_slots.csv",
+      "status": "box_unchanged",
+      "bytes": 6203,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "a7e63c33a5bddc151d8021aed0d54cee29397aa26ea3fd2a78b1150417c9dcec",
+      "cutover_sha256": "a7e63c33a5bddc151d8021aed0d54cee29397aa26ea3fd2a78b1150417c9dcec",
+      "cutover_sha1": "b19e54840bf0a4dd8575030b52c9a6992c879fdf",
+      "box_sha1": "b19e54840bf0a4dd8575030b52c9a6992c879fdf"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/question_coverage.csv",
+      "status": "box_unchanged",
+      "bytes": 97849,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "791b8062a1c56a9275ef0648bdc6b0af748b1b06d5c14ef446ae745534ddbb05",
+      "cutover_sha256": "791b8062a1c56a9275ef0648bdc6b0af748b1b06d5c14ef446ae745534ddbb05",
+      "cutover_sha1": "54fa9935b204b4fd832a313668b7084a6367403d",
+      "box_sha1": "54fa9935b204b4fd832a313668b7084a6367403d"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/build_location.json",
+      "status": "box_unchanged",
+      "bytes": 212,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "6bd563fe1d4ebf82b9269a19b1653ff5767e0b90b319ce1cef4fb00fae556736",
+      "cutover_sha256": "6bd563fe1d4ebf82b9269a19b1653ff5767e0b90b319ce1cef4fb00fae556736",
+      "cutover_sha1": "5eb8151740a6f46546e10a00788e5107dd80e034",
+      "box_sha1": "5eb8151740a6f46546e10a00788e5107dd80e034"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/COVERAGE.md",
+      "status": "box_unchanged",
+      "bytes": 17502,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b9d55985bdb5ddb8c9c5c344f2a1aac32e14a1421306a4579f9c531c9d087c68",
+      "cutover_sha256": "b9d55985bdb5ddb8c9c5c344f2a1aac32e14a1421306a4579f9c531c9d087c68",
+      "cutover_sha1": "418bfcca639c8a116a233c2cff70fba0f99b9342",
+      "box_sha1": "418bfcca639c8a116a233c2cff70fba0f99b9342"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/verification.json",
+      "status": "box_unchanged",
+      "bytes": 917,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "5c209fb0c12ee6e45dcc953b1cb5c0b600f7b528e316839c926462770a5e5443",
+      "cutover_sha256": "5c209fb0c12ee6e45dcc953b1cb5c0b600f7b528e316839c926462770a5e5443",
+      "cutover_sha1": "f4d9f85ebf40abcfea1829f0e3c7a6c307cd117f",
+      "box_sha1": "f4d9f85ebf40abcfea1829f0e3c7a6c307cd117f"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/planning_coverage.csv",
+      "status": "box_unchanged",
+      "bytes": 8503,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "3cb85c289555563827a9d23c9104e9f836238b82316df17e1406fa7c7db07649",
+      "cutover_sha256": "3cb85c289555563827a9d23c9104e9f836238b82316df17e1406fa7c7db07649",
+      "cutover_sha1": "a029b9fa1aac2c704b9f24b78d2ba1b40641b53d",
+      "box_sha1": "a029b9fa1aac2c704b9f24b78d2ba1b40641b53d"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/committee_verification.json",
+      "status": "box_unchanged",
+      "bytes": 1010,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "81ed87984dbf068cc8da43794fa27f1db82a773601cfdb6a5873e6f5be2c81f5",
+      "cutover_sha256": "81ed87984dbf068cc8da43794fa27f1db82a773601cfdb6a5873e6f5be2c81f5",
+      "cutover_sha1": "6feca1902b7d38875bacb73bbc472b31c45aae41",
+      "box_sha1": "6feca1902b7d38875bacb73bbc472b31c45aae41"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/proposal_outline_preview.pdf",
+      "status": "box_unchanged",
+      "bytes": 312049,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e804ccec84eb656c56482b8baa513c7e3dfaf1797004ff1152e04770d9090c03",
+      "cutover_sha256": "e804ccec84eb656c56482b8baa513c7e3dfaf1797004ff1152e04770d9090c03",
+      "cutover_sha1": "e8a410a504931d3c52bfc473721f69c941a6c02c",
+      "box_sha1": "e8a410a504931d3c52bfc473721f69c941a6c02c"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/application_receipt.json",
+      "status": "box_unchanged",
+      "bytes": 472,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "ad2c75cdf6f04941f361d161c0a8242a1fce9c98e0384a22003d8f2a59844fc9",
+      "cutover_sha256": "ad2c75cdf6f04941f361d161c0a8242a1fce9c98e0384a22003d8f2a59844fc9",
+      "cutover_sha1": "ae7cf5d69fff7c74b67b43c1e9e0e02bed982c51",
+      "box_sha1": "ae7cf5d69fff7c74b67b43c1e9e0e02bed982c51"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/proposal_source.zip",
+      "status": "box_unchanged",
+      "bytes": 42091,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "ad9b71d3a5a8593e03faba29302d44dfec63a9f90c35183ecd4e19a0e5132a88",
+      "cutover_sha256": "ad9b71d3a5a8593e03faba29302d44dfec63a9f90c35183ecd4e19a0e5132a88",
+      "cutover_sha1": "561c69ca92e47c652c75ef6ceec8e2e38548db20",
+      "box_sha1": "561c69ca92e47c652c75ef6ceec8e2e38548db20"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/proposal_expansion.patch",
+      "status": "box_unchanged",
+      "bytes": 480920,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "79982b38a2ab5542df6a9e996f2f53fcd32085ddf3fd54a262a7b7369d663558",
+      "cutover_sha256": "79982b38a2ab5542df6a9e996f2f53fcd32085ddf3fd54a262a7b7369d663558",
+      "cutover_sha1": "e2c913c7980a8d4cf8f9ca287fb48a6cc664f0a6",
+      "box_sha1": "e2c913c7980a8d4cf8f9ca287fb48a6cc664f0a6"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/EXPANDED_OUTLINE.md",
+      "status": "box_unchanged",
+      "bytes": 87106,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "78d2456f9a590450b0d51c4ece54071ab2fd68c37c5cd9b15a27e16e6ff3bec1",
+      "cutover_sha256": "78d2456f9a590450b0d51c4ece54071ab2fd68c37c5cd9b15a27e16e6ff3bec1",
+      "cutover_sha1": "13ce9f8eb7ad4106c3cbeb5d43b0c1b21f91a300",
+      "box_sha1": "13ce9f8eb7ad4106c3cbeb5d43b0c1b21f91a300"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/README.md",
+      "status": "box_unchanged",
+      "bytes": 2881,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0f447ebaad8fc616ae3764e1a608f9a9e28453ae6d64bbacf0c4f8336c3a059a",
+      "cutover_sha256": "0f447ebaad8fc616ae3764e1a608f9a9e28453ae6d64bbacf0c4f8336c3a059a",
+      "cutover_sha1": "03f640e5fb5bf5c959af74841147352e8b509a23",
+      "box_sha1": "03f640e5fb5bf5c959af74841147352e8b509a23"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/manifest.json",
+      "status": "box_unchanged",
+      "bytes": 5760,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "d002002ff7beff825ba8c43c8721bb2de182105647b66fbdd4f7f0ebeb012ed9",
+      "cutover_sha256": "d002002ff7beff825ba8c43c8721bb2de182105647b66fbdd4f7f0ebeb012ed9",
+      "cutover_sha1": "add1d33141f96e0bf13a66162eaae2be4e5cd4d8",
+      "box_sha1": "add1d33141f96e0bf13a66162eaae2be4e5cd4d8"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/verification.json",
+      "status": "box_unchanged",
+      "bytes": 1010,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "81ed87984dbf068cc8da43794fa27f1db82a773601cfdb6a5873e6f5be2c81f5",
+      "cutover_sha256": "81ed87984dbf068cc8da43794fa27f1db82a773601cfdb6a5873e6f5be2c81f5",
+      "cutover_sha1": "6feca1902b7d38875bacb73bbc472b31c45aae41",
+      "box_sha1": "6feca1902b7d38875bacb73bbc472b31c45aae41"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/committee_proposal_sources.zip",
+      "status": "box_unchanged",
+      "bytes": 42091,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "ad9b71d3a5a8593e03faba29302d44dfec63a9f90c35183ecd4e19a0e5132a88",
+      "cutover_sha256": "ad9b71d3a5a8593e03faba29302d44dfec63a9f90c35183ecd4e19a0e5132a88",
+      "cutover_sha1": "561c69ca92e47c652c75ef6ceec8e2e38548db20",
+      "box_sha1": "561c69ca92e47c652c75ef6ceec8e2e38548db20"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/committee_proposal.pdf",
+      "status": "box_unchanged",
+      "bytes": 312049,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e804ccec84eb656c56482b8baa513c7e3dfaf1797004ff1152e04770d9090c03",
+      "cutover_sha256": "e804ccec84eb656c56482b8baa513c7e3dfaf1797004ff1152e04770d9090c03",
+      "cutover_sha1": "e8a410a504931d3c52bfc473721f69c941a6c02c",
+      "box_sha1": "e8a410a504931d3c52bfc473721f69c941a6c02c"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/build.log",
+      "status": "box_unchanged",
+      "bytes": 34159,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "43747015f28bbd4528a3d27b5a9ef4c2eafcffe8086c86157eb4a8b635de4571",
+      "cutover_sha256": "43747015f28bbd4528a3d27b5a9ef4c2eafcffe8086c86157eb4a8b635de4571",
+      "cutover_sha1": "1cd1585d2711b2d1e8242741ab45203c1123b48d",
+      "box_sha1": "1cd1585d2711b2d1e8242741ab45203c1123b48d"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/proposal_outline_preview.pdf",
+      "status": "box_unchanged",
+      "bytes": 312049,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "e804ccec84eb656c56482b8baa513c7e3dfaf1797004ff1152e04770d9090c03",
+      "cutover_sha256": "e804ccec84eb656c56482b8baa513c7e3dfaf1797004ff1152e04770d9090c03",
+      "cutover_sha1": "e8a410a504931d3c52bfc473721f69c941a6c02c",
+      "box_sha1": "e8a410a504931d3c52bfc473721f69c941a6c02c"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/PROPOSAL_OUTLINE.md",
+      "status": "box_unchanged",
+      "bytes": 87106,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "78d2456f9a590450b0d51c4ece54071ab2fd68c37c5cd9b15a27e16e6ff3bec1",
+      "cutover_sha256": "78d2456f9a590450b0d51c4ece54071ab2fd68c37c5cd9b15a27e16e6ff3bec1",
+      "cutover_sha1": "13ce9f8eb7ad4106c3cbeb5d43b0c1b21f91a300",
+      "box_sha1": "13ce9f8eb7ad4106c3cbeb5d43b0c1b21f91a300"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/main.tex",
+      "status": "box_unchanged",
+      "bytes": 1193,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "6f559f4b3c402a4b0ceb71493367a6918c3aa14b426268f8867b1979921844dc",
+      "cutover_sha256": "6f559f4b3c402a4b0ceb71493367a6918c3aa14b426268f8867b1979921844dc",
+      "cutover_sha1": "43cddf6321d26924bd4262e11cac6d5404079995",
+      "box_sha1": "43cddf6321d26924bd4262e11cac6d5404079995"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/README.md",
+      "status": "box_unchanged",
+      "bytes": 392,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "bde9eb7e23c4158225f34af55cb4d8ee1cc50e6b617b8ca8434f564a30b0870e",
+      "cutover_sha256": "bde9eb7e23c4158225f34af55cb4d8ee1cc50e6b617b8ca8434f564a30b0870e",
+      "cutover_sha1": "5475c0b3e1f47d24037c685a24dc6a1fd5cb9182",
+      "box_sha1": "5475c0b3e1f47d24037c685a24dc6a1fd5cb9182"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/90_coverage.tex",
+      "status": "box_unchanged",
+      "bytes": 19341,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "a5af8271d87a405fa086974986a6d83fc5415c287df65dbf1429dfe5cb05c194",
+      "cutover_sha256": "a5af8271d87a405fa086974986a6d83fc5415c287df65dbf1429dfe5cb05c194",
+      "cutover_sha1": "59f75c43ad03dfea41d2ef7f3aba2b4ee7ee4e1b",
+      "box_sha1": "59f75c43ad03dfea41d2ef7f3aba2b4ee7ee4e1b"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/05_methods.tex",
+      "status": "box_unchanged",
+      "bytes": 23981,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "8696d72ad033d8aa89e005269fcb795fcaf6a0ca5e80ac7e642a50466ce18613",
+      "cutover_sha256": "8696d72ad033d8aa89e005269fcb795fcaf6a0ca5e80ac7e642a50466ce18613",
+      "cutover_sha1": "dffbd345e9801dc45ed021af6610c2e0639f1810",
+      "box_sha1": "dffbd345e9801dc45ed021af6610c2e0639f1810"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/06_preliminary.tex",
+      "status": "box_unchanged",
+      "bytes": 9373,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "ee11b072b8b426a659acaa86870e03eb1470b382b2dc92e42145122c189b514a",
+      "cutover_sha256": "ee11b072b8b426a659acaa86870e03eb1470b382b2dc92e42145122c189b514a",
+      "cutover_sha1": "a7803b7246df4da63a4689001f21721ec08753ec",
+      "box_sha1": "a7803b7246df4da63a4689001f21721ec08753ec"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/01_motivation.tex",
+      "status": "box_unchanged",
+      "bytes": 7861,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "cce548670c0714b78846767620805b0ba1758692a636f77a9fdb45bdb640663b",
+      "cutover_sha256": "cce548670c0714b78846767620805b0ba1758692a636f77a9fdb45bdb640663b",
+      "cutover_sha1": "f78c0c63d2193a77b44de75dbf73cc9bdb5c7aaa",
+      "box_sha1": "f78c0c63d2193a77b44de75dbf73cc9bdb5c7aaa"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/04_model.tex",
+      "status": "box_unchanged",
+      "bytes": 14931,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "5fc70d7c6ea415e54ef0e7033b3ea02b896dc307337cafb9b549910f455a932a",
+      "cutover_sha256": "5fc70d7c6ea415e54ef0e7033b3ea02b896dc307337cafb9b549910f455a932a",
+      "cutover_sha1": "b806bfcaf77b4d20f0d7980e990a26bd679d2ca3",
+      "box_sha1": "b806bfcaf77b4d20f0d7980e990a26bd679d2ca3"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/00_working_summary.tex",
+      "status": "box_unchanged",
+      "bytes": 1429,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "854d25b618757d874ede5def09acd0fb9a0fe03f76195fe5c95327e947b0d258",
+      "cutover_sha256": "854d25b618757d874ede5def09acd0fb9a0fe03f76195fe5c95327e947b0d258",
+      "cutover_sha1": "da6b8195bc477666f7cf222eda0747c634615374",
+      "box_sha1": "da6b8195bc477666f7cf222eda0747c634615374"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/03_evidence.tex",
+      "status": "box_unchanged",
+      "bytes": 16992,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "ca1939e1594f89d1a5c95dac639d50d8ed2b06740d811422ab3a3028e05ebc3f",
+      "cutover_sha256": "ca1939e1594f89d1a5c95dac639d50d8ed2b06740d811422ab3a3028e05ebc3f",
+      "cutover_sha1": "ce3cc6f4733830b4296ad04f7fd96922182c1896",
+      "box_sha1": "ce3cc6f4733830b4296ad04f7fd96922182c1896"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/07_assessment.tex",
+      "status": "box_unchanged",
+      "bytes": 12539,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "1b3227e85cab6298702664575bbf071ad44e354edec7452dd3a8f3836f74cd25",
+      "cutover_sha256": "1b3227e85cab6298702664575bbf071ad44e354edec7452dd3a8f3836f74cd25",
+      "cutover_sha1": "5b4d45aa85f779d380f9ac73bd6cf6893ce1477e",
+      "box_sha1": "5b4d45aa85f779d380f9ac73bd6cf6893ce1477e"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/08_plan.tex",
+      "status": "box_unchanged",
+      "bytes": 8452,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "2c019bf74c0e94fa9cfab7605d2137b715b40e21df4e2cdfa354a2eeb261f404",
+      "cutover_sha256": "2c019bf74c0e94fa9cfab7605d2137b715b40e21df4e2cdfa354a2eeb261f404",
+      "cutover_sha1": "dd71dbca8938f650451263f0d5a8bf277738c377",
+      "box_sha1": "dd71dbca8938f650451263f0d5a8bf277738c377"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/02_goals.tex",
+      "status": "box_unchanged",
+      "bytes": 8557,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "0dc91cad0e720a480753988b90d98e0ac4cf1e47dc985ee2f44eedcadb66c2da",
+      "cutover_sha256": "0dc91cad0e720a480753988b90d98e0ac4cf1e47dc985ee2f44eedcadb66c2da",
+      "cutover_sha1": "7faa3fc73664071b2d7d50b70ee0ec2c2aa2d83a",
+      "box_sha1": "7faa3fc73664071b2d7d50b70ee0ec2c2aa2d83a"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/refs/bib.tex",
+      "status": "box_unchanged",
+      "bytes": 4308,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "8468a6cec3a21edd47b267c153183be396bd914d731c91a3ae84ad99ac718c97",
+      "cutover_sha256": "8468a6cec3a21edd47b267c153183be396bd914d731c91a3ae84ad99ac718c97",
+      "cutover_sha1": "23a59cced5b5e3fe181ba0db42358c606956b5a8",
+      "box_sha1": "23a59cced5b5e3fe181ba0db42358c606956b5a8"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/packages.tex",
+      "status": "box_unchanged",
+      "bytes": 656,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "1dabbb2773866cb374d5b54de7c246394e2d4483fd955f2165aea112e72dcff0",
+      "cutover_sha256": "1dabbb2773866cb374d5b54de7c246394e2d4483fd955f2165aea112e72dcff0",
+      "cutover_sha1": "f2586fdc5c6e38e2505db23b73e7f0985f3b86dd",
+      "box_sha1": "f2586fdc5c6e38e2505db23b73e7f0985f3b86dd"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/SOURCES.md",
+      "status": "box_unchanged",
+      "bytes": 8112,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "983e18031615be95abd0ff6845dafd844026c115b3a2164a672cb4ccd488773a",
+      "cutover_sha256": "983e18031615be95abd0ff6845dafd844026c115b3a2164a672cb4ccd488773a",
+      "cutover_sha1": "6cc7424f8b39d45eb04ceaa6f743d6b3e38a3c8a",
+      "box_sha1": "6cc7424f8b39d45eb04ceaa6f743d6b3e38a3c8a"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/FOLLOWUP_DECISIONS.md",
+      "status": "box_unchanged",
+      "bytes": 2915,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "4bdce180da5478bbe314fb3da97a07743162992fdee3e328e13ec4278ffa881f",
+      "cutover_sha256": "4bdce180da5478bbe314fb3da97a07743162992fdee3e328e13ec4278ffa881f",
+      "cutover_sha1": "c1f6ae584f91ddae7ba6b4fe5ad4250c6892ba82",
+      "box_sha1": "c1f6ae584f91ddae7ba6b4fe5ad4250c6892ba82"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md",
+      "status": "box_unchanged",
+      "bytes": 42115,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "4484b7857162f85cfb2c31fc921792578c62af353b45fba208e7f866011f4004",
+      "cutover_sha256": "4484b7857162f85cfb2c31fc921792578c62af353b45fba208e7f866011f4004",
+      "cutover_sha1": "62e9a008f54754f82c8e35807fd9f85b7426c963",
+      "box_sha1": "62e9a008f54754f82c8e35807fd9f85b7426c963"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "status": "box_unchanged",
+      "bytes": 4299,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc",
+      "cutover_sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc",
+      "cutover_sha1": "b100242a38d5ffcc229b2c6af176e78717a98a0f",
+      "box_sha1": "b100242a38d5ffcc229b2c6af176e78717a98a0f"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "status": "box_unchanged",
+      "bytes": 2979,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5",
+      "cutover_sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5",
+      "cutover_sha1": "cb8266c1a8825dc645508d5320219d61bed2aab4",
+      "box_sha1": "cb8266c1a8825dc645508d5320219d61bed2aab4"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/coverage/2026-11-02/research_insertion_slots.csv",
+      "status": "box_unchanged",
+      "bytes": 6287,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "80714bd85c8d13a20f901b50063f85c28e4a83a0aa852ce01271f30bec654ed8",
+      "cutover_sha256": "80714bd85c8d13a20f901b50063f85c28e4a83a0aa852ce01271f30bec654ed8",
+      "cutover_sha1": "dd367812a79c99681fb761eb114ecee2312707fd",
+      "box_sha1": "dd367812a79c99681fb761eb114ecee2312707fd"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/coverage/2026-11-02/question_coverage.csv",
+      "status": "box_unchanged",
+      "bytes": 98189,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "cb8016983c677daa3060689a56798e0f10eeb674d0de0f1a09382884269e0a17",
+      "cutover_sha256": "cb8016983c677daa3060689a56798e0f10eeb674d0de0f1a09382884269e0a17",
+      "cutover_sha1": "bdf19968cd4f0645000e5aac2a934fd331f3b36b",
+      "box_sha1": "bdf19968cd4f0645000e5aac2a934fd331f3b36b"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/coverage/2026-11-02/COVERAGE.md",
+      "status": "box_unchanged",
+      "bytes": 12660,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "6a6716e32dd091324e585426ed17f0f9579cc6c21ba43fa827409b1869219411",
+      "cutover_sha256": "6a6716e32dd091324e585426ed17f0f9579cc6c21ba43fa827409b1869219411",
+      "cutover_sha1": "912445d81cc3f5943892954cd1adfccf53ca3e68",
+      "box_sha1": "912445d81cc3f5943892954cd1adfccf53ca3e68"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/coverage/2026-11-02/planning_coverage.csv",
+      "status": "box_unchanged",
+      "bytes": 8864,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "34818349a922113a32cd0cb4444ea4bc0e45740cd43497f867e516b3b862eeed",
+      "cutover_sha256": "34818349a922113a32cd0cb4444ea4bc0e45740cd43497f867e516b3b862eeed",
+      "cutover_sha1": "defff7b7c1b99474d7b64bee21968a1aa26b0899",
+      "box_sha1": "defff7b7c1b99474d7b64bee21968a1aa26b0899"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/internal/90_coverage.tex",
+      "status": "box_unchanged",
+      "bytes": 18976,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "5ed80b5f27340bdfb45c4287f80b3694d35e239c386f2d9dc528bc7a5e41ed57",
+      "cutover_sha256": "5ed80b5f27340bdfb45c4287f80b3694d35e239c386f2d9dc528bc7a5e41ed57",
+      "cutover_sha1": "c5c8a10945f88b3a158c4360311ba29872570aeb",
+      "box_sha1": "c5c8a10945f88b3a158c4360311ba29872570aeb"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/internal/README.md",
+      "status": "box_unchanged",
+      "bytes": 1271,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "893ac6acedea794a2c3e2f38031b112ff3d806cd0631424d66646fb1f4a2adc1",
+      "cutover_sha256": "893ac6acedea794a2c3e2f38031b112ff3d806cd0631424d66646fb1f4a2adc1",
+      "cutover_sha1": "47de5adfa22714c35b5104a6cf6873fcc81a98b8",
+      "box_sha1": "47de5adfa22714c35b5104a6cf6873fcc81a98b8"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/internal/00_working_summary.tex",
+      "status": "box_unchanged",
+      "bytes": 1305,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "10c93548ccc84f45c09410ba309d950a2ae9e043704c3f26232cfba9b4cf6eb7",
+      "cutover_sha256": "10c93548ccc84f45c09410ba309d950a2ae9e043704c3f26232cfba9b4cf6eb7",
+      "cutover_sha1": "6a636c5ebd0fdf51d2dfa202434f90027ac6e6df",
+      "box_sha1": "6a636c5ebd0fdf51d2dfa202434f90027ac6e6df"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/internal/EXPANSION_NOTES.md",
+      "status": "box_unchanged",
+      "bytes": 1656,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "22980d5d43350d23c8f5d4ffcd1b084ecd2502f3f0a2a7ca77ce392470ae7363",
+      "cutover_sha256": "22980d5d43350d23c8f5d4ffcd1b084ecd2502f3f0a2a7ca77ce392470ae7363",
+      "cutover_sha1": "20ffe9166f7665059a5857bd66ed6dc726fa71fc",
+      "box_sha1": "20ffe9166f7665059a5857bd66ed6dc726fa71fc"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/internal/CITATION_NOTES.md",
+      "status": "box_unchanged",
+      "bytes": 1249,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "3257c8045370a02f418beb87063ca586f33d4da8c478e82d3e4b6a4156cab092",
+      "cutover_sha256": "3257c8045370a02f418beb87063ca586f33d4da8c478e82d3e4b6a4156cab092",
+      "cutover_sha1": "4238a5e2e0d48a260b0a777b49f5f67e45140a2b",
+      "box_sha1": "4238a5e2e0d48a260b0a777b49f5f67e45140a2b"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/internal/AUTHOR_ANSWER_STATUS.md",
+      "status": "box_unchanged",
+      "bytes": 620,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "1f4b848d2432439b7d1462fa938c383c89d6fe00dc79ce8f9bc85853b91d15dd",
+      "cutover_sha256": "1f4b848d2432439b7d1462fa938c383c89d6fe00dc79ce8f9bc85853b91d15dd",
+      "cutover_sha1": "918957d72118fab4d66eba37ab82b427946b019a",
+      "box_sha1": "918957d72118fab4d66eba37ab82b427946b019a"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/internal/source_snapshot.json",
+      "status": "box_unchanged",
+      "bytes": 3437,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "b3f8a59fc4ae2b33ba424b5c57cbf1100a1ed45fc5ea86e3340b524ab761ee52",
+      "cutover_sha256": "b3f8a59fc4ae2b33ba424b5c57cbf1100a1ed45fc5ea86e3340b524ab761ee52",
+      "cutover_sha1": "899f51aa22f5f57649563904bf185ab8b6c84c9c",
+      "box_sha1": "899f51aa22f5f57649563904bf185ab8b6c84c9c"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/question_slot_specification.json",
+      "status": "box_unchanged",
+      "bytes": 114583,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "d24311de6bed70f960c436c64297a7ee6d16c223e465b24d86d0a2bd66d16821",
+      "cutover_sha256": "d24311de6bed70f960c436c64297a7ee6d16c223e465b24d86d0a2bd66d16821",
+      "cutover_sha1": "bde850ac02663bd26f410a9a842cef84037b8e33",
+      "box_sha1": "bde850ac02663bd26f410a9a842cef84037b8e33"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/scope_and_counts.json",
+      "status": "box_unchanged",
+      "bytes": 1147,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "bb18d4156f64b0412b7a1f24b9656beaf8ccbc9fd4f0015feaebf71e92e67a9d",
+      "cutover_sha256": "bb18d4156f64b0412b7a1f24b9656beaf8ccbc9fd4f0015feaebf71e92e67a9d",
+      "cutover_sha1": "acdb46d447cf358bdba549b93bb4e5a1fb928870",
+      "box_sha1": "acdb46d447cf358bdba549b93bb4e5a1fb928870"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/research_insertion_slots.csv",
+      "status": "box_unchanged",
+      "bytes": 6287,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "80714bd85c8d13a20f901b50063f85c28e4a83a0aa852ce01271f30bec654ed8",
+      "cutover_sha256": "80714bd85c8d13a20f901b50063f85c28e4a83a0aa852ce01271f30bec654ed8",
+      "cutover_sha1": "dd367812a79c99681fb761eb114ecee2312707fd",
+      "box_sha1": "dd367812a79c99681fb761eb114ecee2312707fd"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/question_coverage.csv",
+      "status": "box_unchanged",
+      "bytes": 98189,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "cb8016983c677daa3060689a56798e0f10eeb674d0de0f1a09382884269e0a17",
+      "cutover_sha256": "cb8016983c677daa3060689a56798e0f10eeb674d0de0f1a09382884269e0a17",
+      "cutover_sha1": "bdf19968cd4f0645000e5aac2a934fd331f3b36b",
+      "box_sha1": "bdf19968cd4f0645000e5aac2a934fd331f3b36b"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/build_location.json",
+      "status": "box_unchanged",
+      "bytes": 156,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "c669e16bdb9fe51352f1b9ad9c1c81aaf70a9d975af78f9fbd8749888b119ee6",
+      "cutover_sha256": "c669e16bdb9fe51352f1b9ad9c1c81aaf70a9d975af78f9fbd8749888b119ee6",
+      "cutover_sha1": "e09b9fce09a20133bb17a9945d2dad2320a60ffd",
+      "box_sha1": "e09b9fce09a20133bb17a9945d2dad2320a60ffd"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/COVERAGE.md",
+      "status": "box_unchanged",
+      "bytes": 12660,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "6a6716e32dd091324e585426ed17f0f9579cc6c21ba43fa827409b1869219411",
+      "cutover_sha256": "6a6716e32dd091324e585426ed17f0f9579cc6c21ba43fa827409b1869219411",
+      "cutover_sha1": "912445d81cc3f5943892954cd1adfccf53ca3e68",
+      "box_sha1": "912445d81cc3f5943892954cd1adfccf53ca3e68"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/verification.json",
+      "status": "box_unchanged",
+      "bytes": 1010,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "81ed87984dbf068cc8da43794fa27f1db82a773601cfdb6a5873e6f5be2c81f5",
+      "cutover_sha256": "81ed87984dbf068cc8da43794fa27f1db82a773601cfdb6a5873e6f5be2c81f5",
+      "cutover_sha1": "6feca1902b7d38875bacb73bbc472b31c45aae41",
+      "box_sha1": "6feca1902b7d38875bacb73bbc472b31c45aae41"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/planning_coverage.csv",
+      "status": "box_unchanged",
+      "bytes": 8864,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "34818349a922113a32cd0cb4444ea4bc0e45740cd43497f867e516b3b862eeed",
+      "cutover_sha256": "34818349a922113a32cd0cb4444ea4bc0e45740cd43497f867e516b3b862eeed",
+      "cutover_sha1": "defff7b7c1b99474d7b64bee21968a1aa26b0899",
+      "box_sha1": "defff7b7c1b99474d7b64bee21968a1aa26b0899"
+    },
+    {
+      "path": "attachments/trident_longhorn_I_hate.png",
+      "status": "box_unchanged",
+      "bytes": 87245,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "53204a5f58cef7f65b893006bfb82e4f4db8228181cce1ecfeb7a36f5f3ba23d",
+      "cutover_sha256": "53204a5f58cef7f65b893006bfb82e4f4db8228181cce1ecfeb7a36f5f3ba23d",
+      "cutover_sha1": "8d22ce401d9d568be0e13984d54d3bfa15349d05",
+      "box_sha1": "8d22ce401d9d568be0e13984d54d3bfa15349d05"
+    },
+    {
+      "path": "attachments/Slack message documentation.md",
+      "status": "box_unchanged",
+      "bytes": 51,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "aef85a491e461eb375c4375880abdd4888d901d557d4373419d5fa9baa252b2a",
+      "cutover_sha256": "aef85a491e461eb375c4375880abdd4888d901d557d4373419d5fa9baa252b2a",
+      "cutover_sha1": "e0555aedf74d5de6c7112f0636811536d7160ab2",
+      "box_sha1": "e0555aedf74d5de6c7112f0636811536d7160ab2"
+    },
+    {
+      "path": "attachments/Pasted image 20260821141504.png",
+      "status": "box_unchanged",
+      "bytes": 123954,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "7c4fe916d9094ae23b5ca282d5b2cd6d5321e986b3ac58a63ffb128dd9fd0660",
+      "cutover_sha256": "7c4fe916d9094ae23b5ca282d5b2cd6d5321e986b3ac58a63ffb128dd9fd0660",
+      "cutover_sha1": "9dfa269851023e1961b34f14c2f4e7acbf052806",
+      "box_sha1": "9dfa269851023e1961b34f14c2f4e7acbf052806"
+    },
+    {
+      "path": "attachments/attachments/Slack message documentation.png",
+      "status": "box_unchanged",
+      "bytes": 438548,
+      "baseline_source": "Git cutover blob",
+      "expected_cutover_sha256": "c4d1d4a047dac03d135a68c7084fcc5003884160448ad8ea2f895e1ee7d0ece3",
+      "cutover_sha256": "c4d1d4a047dac03d135a68c7084fcc5003884160448ad8ea2f895e1ee7d0ece3",
+      "cutover_sha1": "9d908213ef82aee00be5281df1dd6b62e7bd1b93",
+      "box_sha1": "9d908213ef82aee00be5281df1dd6b62e7bd1b93"
+    }
+  ],
+  "limits": "Box service SHA-1 values compared to 361 Git blobs and 10 immutable exact-source pulls, each independently pinned by the issued SHA-256 cutover manifest. Git-cutover edits to ten files are not the original Box baseline. No current Mac worktree or Git-external changes checked. No content rendering or scientific assessment.",
+  "checked_at_utc": "2026-11-06T21:08:01.029414+00:00",
+  "box_source": "box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes_pre_git_2026-11-03",
+  "source_inventory_stable": true,
+  "method": "Read-only Box inventory; SHA-1 comparison to original SHA-256-pinned bytes. Download only ten small files whose Git-cutover versions already differ from the original local snapshot. No source adoption necessary.",
+  "current_notes_revision_before_handoff": "74821abb99b9cabed4ff95c92d8b9db4c435763d"
+}

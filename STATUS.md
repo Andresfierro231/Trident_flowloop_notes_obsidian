@@ -2,7 +2,7 @@
 title: Notes coordination status
 status: active
 owner: notes coordination
-updated: 2026-11-04
+updated: 2026-11-06
 tags: [project/trident, doc/index]
 ---
 
@@ -47,3 +47,5 @@ tasks; the proposal's agent status owns manuscript claims.
 - REFMOVE-002 / agent-root-xreference-20261106: review — complete the author’s X.Reference rename, canonical links/tools and legacy HPC symlink; preserve original source bytes and issued manifests.
 
 - REFMOVE-002 checks pass: 1,003 original hashes, 3,009 source routes, 15 bootstrap routes/digests, 9 existing tests/21 subtests and 82 current links. One physical collection: X.Reference. See `X.Chat/01_sources/reference_migration/2026-11-06/X_REFERENCE_RENAME/README.md`. Proposal `19127c6` is pushed; local PDF 45 pages. Notes publication is the commit containing this update; local-machine pull remains unobserved.
+
+- OPS-013 / agent-root-notes-sync-20261106: review — all371 original Box snapshot files unchanged against the November3 cutover hashes; no imports required. Git session begin/pull succeeded after the reference owner published74821ab. Cadence is session-start pull and checkpoint/handoff push, with no configured timed Box mirror. See `X.Chat/05_handoffs/2026-11-06_OPS-013_box_git_reconciliation.md`; publication is this handoff’s commit. Current Mac worktree and subsequent local pull remain unobserved.
