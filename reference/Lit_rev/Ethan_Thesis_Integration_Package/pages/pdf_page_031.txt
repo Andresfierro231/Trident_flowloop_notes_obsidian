@@ -1,0 +1,28 @@
+walls. Capturing these effects generally requires explicit simulation of the solid domains at
+the same time, typically referred to as conjugate heat transfer (CHT).
+The many complexities and computational demands of CHT largely disappear, however,
+when only the system’s steady state is of interest.
+For steady-state simulation, the full
+CHT approach can be replaced by a mixed (Robin) boundary condition that represents the
+wall’s thermal resistances analytically. Ljulj et al. [36] provides a rigorous proof that the
+effects of the pipe’s wall are not always negligible and can captured by effective Robin-type
+conditions. Their analysis was for a similar case to this work, steady-state cylindrical pipe
+flow, but differed by using a single layer and omitting radiation. This work extends the same
+construction to potentially thick walls composed of more than one layer and an external
+radiation term. This custom boundary condition, rcExternalTemperature is described in
+Chapter 5 and verified in Chapter 6.
+2.5
+Verification and Validation
+The credibility of the results in this thesis depend upon the V&V framework applied to it.
+Roache [37] is one of the foundational texts for V&V, making the distinction between verifi-
+cation, which determines if the intended equations are being solved properly, and validation,
+determining if the correct equations are being solved. Oberkampf and Roy [38] extended the
+framework into uncertainty quantification and distinguishing between irreducible uncertain-
+ties and reducable uncertainties, which must be treated differently and ultimately factor in
+to how we determine if the results of this work can be considered validated, and if so, with
+what uncertainties attached to it?
+For solution verification, the present work uses the Grid Convergence Index (GCI) proce-
+dure set by Celi´k et al. [12]. The prodcedure is a five-step method that uses Roache’s GCI to
+convert a Richardson extrapolation [39] of a set of solutions for a systematically refined mesh
+into a standardized uncertainty band. The validity of the GCI is only valid if the solution
+17

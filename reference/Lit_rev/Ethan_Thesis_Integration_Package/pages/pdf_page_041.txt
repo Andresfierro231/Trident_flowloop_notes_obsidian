@@ -1,0 +1,28 @@
+16.3 W/(m K)), and a ceramic insulation layer (50.0 mm, k = 0.144 W/(m K)), resulting in
+an outer radius r2 = 61.0 mm. The fluid and insulation use constant properties evaluated at
+440 K to isolate the boundary-condition discretization error from any temperature dependent
+property effects.
+To best focus on the verification of the heat-transfer capabilities of this, the first section
+of the studied mesh is a 500 mm, adiabatic entry length preceding a 100 mm section with the
+rcExternalTemperature boundary condition applied to ensure that the flow’s momentum
+boundary layer was fully developed before applying calculations to the system that rely upon
+that assumption for their accuracy, ensuring that the comparison to the analytic solution
+is well-posed. The hydrodynamic entry length for this flow to be 99% developed is Lh ≈
+0.05 Re D = 334mm < 500mm, so the velocity profile is fully developed before the flow is
+subjected to any heat flux. Given this flow is transitioning from an adiabatic segment to one
+experiencing heat flux, we must also account for the thermal entry length, which to be 99%
+developed is expressed by Lt ≈0.05 Re Pr D = 17.8 m ≫100 mm so the flow is thermally
+developing throughout the entire section of interest. The similarity in the equations hints
+towards the large impact a high Pr fluid has on the thermal entry length of a liquid; this long
+thermal entry length poses a problem for our system and attempting to apply engineering
+calculations that, many of which, assume the pipe flow to be hydrodynamically and thermally
+fully developed, though this will be expanded upon later in Chapter 5. What is important
+to note at this point though, is that capturing this thermal development is essential for
+an accurate comparison and that the internal convective resistance must be evaluated with
+a developing-flow correlation rather than a correlation for fully-developed flow or using an
+analytic Nusselt number.
+3.4.2
+Analytical Reference Solution
+To be thorough in the verification of the boundary condition code, three thermal modes
+were each tested individually to ward against the possibility of error cancellations masking
+27

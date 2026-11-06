@@ -1,0 +1,96 @@
+4.4
+Experimental Test Matrix
+Below are some relevant, tabulated values relating to the experimental provided by Reis et
+al. For the most complete detailing of the experiments and its results, reading of Reis et al.
+[9] is recommended.
+Table 4.2: HITEC salt experimental test cases from Reis et al. [9].
+Case
+Qheater [W]
+Qcooler [W]
+ReD
+Pr
+RaL
+∆T [◦C]
+Salt 1
+232.3
+55.58
+74.86
+54.29
+4.27 × 1010
+11.16
+Salt 2
+265.7
+56.34
+85.19
+50.81
+4.04 × 1010
+10.09
+Salt 3
+297.5
+60.55
+107.37
+41.65
+3.66 × 1010
+7.95
+Salt 4
+337.6
+65.98
+158.92
+31.74
+3.12 × 1010
+5.63
+Table 4.3: Water experimental test cases from Reis et al. [9].
+Case
+Qheater [W]
+Qcooler [W]
+ReD
+Pr
+RaL
+∆T [◦C]
+Water 1
+58.8
+26.86
+711.78
+4.23
+2.07 × 1010
+1.29
+Water 2
+77.6
+35.63
+953.19
+3.78
+2.51 × 1010
+1.43
+Water 3
+93.0
+43.02
+1228
+3.5
+2.88 × 1010
+1.54
+Water 4
+129.0
+58.06
+1806.52
+2.96
+3.54 × 1010
+1.67
+4.5
+Experimental Uncertainties
+4.5.1
+Energy Balance
+From Reis et al.’s Equation 25, we can reproduce the full matrix’s range of uncertainty for
+the net heat into the system within roughly 1% of the reported values for the maximally
+heated cases. An uncertainty of 20% was assumed for the heat loss calibration
+σQnet = Qnet
+sσQh
+Qh
+2
++
+σQloss
+Qloss
+2
+(4.6)
+Qnet = ˙mCp(TP6 −TP2)
+(4.7)
+41

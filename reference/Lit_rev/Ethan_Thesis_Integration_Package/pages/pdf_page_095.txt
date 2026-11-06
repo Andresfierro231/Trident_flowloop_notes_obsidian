@@ -1,0 +1,12 @@
+gain in turbulence modeling, so was seen as an acceptable trade off, especially since the
+values for y+ ≈1 or lower in the vast majority of the mesh.
+Figure 6.4: Loop Pipe Cross Sections
+Figure 6.5: Loop Pipe Bend
+With that bound set, we can compute the numerical uncertainty of the simulation results
+before finally determining the validation uncertain for each of the QoIs studied. The full
+matrix including the uncertainty for turbulent cases can be found in Appendix C. This is true
+for each table of uncertainties unless explicitly stated otherwise. Below, are the values for
+numerical uncertainty calculated from the two-mesh GCI. TPmean and TWmean relate to the
+average numerical uncertainty among the TP and TW series of probes of probes respectively.
+˙mflow is the numerical uncertainty associated with the cross-sectional mass flux through the
+81

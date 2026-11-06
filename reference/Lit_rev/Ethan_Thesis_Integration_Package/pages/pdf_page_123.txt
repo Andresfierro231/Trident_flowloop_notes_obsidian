@@ -1,0 +1,57 @@
+pipeleg_left_07_lower
+straight
+304.8
+—
+A.2
+Junction Specifications
+Four junctions connect the loop legs. Each junction is configured with active legs (connecting
+to pipe segments), stub legs (capped extensions for probes or valves), and optional expanded-
+radius extensions.
+Junction
+Active legs
+Stub legs
+Extensions
+Lower left
++x, +y
+−x, −y
+−x (expanded, 27.4 mm), −y (27.4 mm)
+Lower right
+−x, +y
++x, −y
++x (expanded, 27.4 mm), −y (50.8 mm)
+Upper right
+−x, −y
++x, +y
++x (expanded, 27.4 mm), +y (76.2 mm)
+Upper left
++x, −y
++y
++y (152.4 mm)
+The junction expanded radius for valve extensions is 12.700 mm, compared to the stan-
+dard pipe radius of 11.049 mm.
+A.3
+Mesh Refinement Levels
+Table ?? summarizes the mesh parameters for each refinement level used in this work.
+Table A.2: BC Mesh refinement levels.
+Level
+First cell [mm]
+Bulk cell [mm]
+c2c ratio
+Coarse (GCI)
+0.600
+2.800
+1.20
+Medium (GCI)
+0.300
+1.400
+1.15
+Fine (GCI)
+0.150
+0.700
+1.10
+xFine (GCI)
+0.075
+0.350
+1.10
+Table ?? summarizes the mesh parameters for each refinement level used in this work.
+109

@@ -1,0 +1,38 @@
+{
+  "move": {
+    "status": "passed",
+    "files": 1003,
+    "additional_files": 0,
+    "bytes": 209346794,
+    "workers": 4,
+    "elapsed_s": 4.023,
+    "content": "all original bytes preserved",
+    "visual_or_scientific_inspection": false
+  },
+  "organization": {
+    "status": "passed",
+    "scope": "maintained navigation",
+    "documents_checked": 17,
+    "limits": "External machine/library pointers are classified, not verified; aliases/archives are not traversed. No image/CAD content inspected.",
+    "error_count": 0,
+    "broader_local_link_debt_count": 0
+  },
+  "bootstrap": {
+    "ok": true,
+    "entries": 15,
+    "all_match": true
+  },
+  "navigation": {
+    "notes_original_sources": 1003,
+    "ignored_reference_files": 0,
+    "current_navigation_links": 63,
+    "status": "passed",
+    "source_bytes": "verified separately against MOVE_MANIFEST.json",
+    "original_historical_links": "preserved, not broadly rewritten"
+  },
+  "snapshots": 12,
+  "proposal_commit": "0c3a27478fdd5278005c97b6c415ae0dd314156c",
+  "proposal_pdf_pages": 45,
+  "local_computer_pull": "not observed",
+  "science_or_visual_inspection": "none"
+}

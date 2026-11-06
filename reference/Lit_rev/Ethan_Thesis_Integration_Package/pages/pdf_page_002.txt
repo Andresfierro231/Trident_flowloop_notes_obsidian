@@ -1,0 +1,18 @@
+Abstract
+Natural circulation loops are integral to passive safety systems in advanced nuclear reactor
+designs, yet their computational modeling remains challenging due to the strong coupling
+between buoyancy-driven flow, conjugate heat transfer, and temperature-dependent fluid
+properties. This thesis works to demonstrate a comprehensive Verification and Validation
+study of a three-dimensional compuational fluid dynamics simulation of the single-phase nat-
+ural convection experimental facility operated by Texas A&M University and validate this
+model against the experimental data of Reis, Seo, and Hassan (2024). The facility used two
+fluids, water and HITEC molten salt, a eutectic nitrate salt mix chosen for its low melting
+point and similar behavior to molten salts intended for use in molten salt reactors. For both
+working fluids, four experiments were conducted each, varying the loop’s primary heater
+power between each case and studying the effects that change had on the velocity profiles
+within the system. Simulations of the system were performed in OpenFOAM v13 using
+a structured, fully-conformal, purely-hexahedral mesh generated with the classy_blocks
+library python library. A segmented first-order model was first built to reduce energy ac-
+counting uncertainties associated with the experiment, and better account for passive heat
+losses throughout the system.
+i

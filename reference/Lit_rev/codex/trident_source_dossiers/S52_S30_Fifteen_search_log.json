@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-20",
+  "scope": "S52/S30 source extraction and15-paper portfolio",
+  "queries": [
+    "Both uploaded sourceDOIs",
+    "Keller/Welander thermal-convection loop titleDOI",
+    "Ishii Kataoka single-phase scaling titlePDF",
+    "Ambrosini wall friction transition titleDOI/repository",
+    "Fichera Pagano modelling control title/repository",
+    "Rodriguez-Bernal diffusion induced chaos title/authorPDF",
+    "Shin high-Pr near-wall titlePDF",
+    "Novarese coupled-loop title/repository",
+    "Matulis stochasticity chaotic itinerancy title/arxiv",
+    "Goyal nonlinear dynamics titleDOI"
+  ],
+  "metadata": "Ten new DOIs verified using primary Crossref work records; publisher/institutional discovery checked",
+  "retrievals": [
+    {
+      "id": "S61",
+      "status": "PDF retrieved, identity pending",
+      "pages": 19,
+      "url": "https://iris.polito.it/retrieve/99032c57-3efd-4da1-b5c1-18d6010b6ea8/1-s2.0-S0017931024007178-main.pdf",
+      "path": "trident_source_dossiers/available/S61.pdf"
+    },
+    {
+      "id": "S62",
+      "status": "HTTP Error 401: Unauthorized",
+      "url": "https://journals.aps.org/pre/pdf/10.1103/42pn-wttx"
+    },
+    {
+      "id": "S59",
+      "status": "HTTP Error 503: Service Unavailable",
+      "url": "https://blogs.mat.ucm.es/arober/research/publications-and-some-pdf-files/"
+    },
+    {
+      "id": "S58",
+      "status": "HTML retrieved, no PDF yet",
+      "url": "https://www.iris.unict.it/handle/20.500.11769/32809"
+    },
+    {
+      "id": "S57",
+      "status": "HTML retrieved, no PDF yet",
+      "url": "https://arpi.unipi.it/handle/11568/188359"
+    }
+  ],
+  "correction": "S58 repository file URL returns authentication HTML; rejected, not a retrieved manuscript. S61 identity confirmed after retrieval.",
+  "coverage_limit": "Focused backward/forward and primary repository discovery; not exhaustive or proof of field gaps"
+}

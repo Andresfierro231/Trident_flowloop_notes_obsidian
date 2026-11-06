@@ -1,0 +1,28 @@
+noting. First and most obviously from Figure 5.2, a high-confidence part for the upper fitting
+of the test section and the upper segment of piping for the left leg could not be determined,
+and is henceforth modeled assuming the same fitting used on the lower test section for the
+undetermined upper fitting and that the left leg’s upper segment has the same cross section
+and material as the standard piping used in the rest of the loop for the remaining length
+between the test section’s upper fitting and the top left tee-junction of the facility. Second,
+the nominal incline of the loop was better matched in the CAD reconstruction using an
+incline of 21.5 degrees for the lower leg. Third, enforcing the simultaneous constraints of
+the left leg’s total length being equal to the right leg’s total length and having the upper
+leg use the same incline as the lower leg produced poor results in trying to match the upper
+left region of the CAD with primary published image of the experimental facility. Follow-on
+correspondence with the experimentalists confirmed that, based on the distance from the
+top face of the bottom left fitting to the bottom face of the top left fitting, the left leg of the
+loop is approximately 1.35 cm longer than the right leg. Applying this information to the
+CAD produced the result seen in Figure 5.2
+To ensure that the 3D CAD’s apparent matching to the image of the experimental facility
+was not an artifact of poor image scaling, the image was scaled into physical dimensions based
+on pixel measurements between known points, primarily relying on the distance from the
+center-faces of the right-side fittings. This primary reference was chosen based on having
+the exact fittings known, combined with the comparably unremarkable right leg, nominally
+being a stock, unbent, 3 ft pipe that was assumed to be fully mated within both fittings. It
+is also worth mentioning that the pairs of fittings on both the left and right sides are not
+pixel-perfectly aligned vertically, hinting at either slight bending in the straight legs, lens
+distortion within the original image, or a combination of both, but this misalignment was
+no greater than a single-digit number of pixels for either side and is neglected.
+From here, 39 segments were identified and subsequently implemented to the first order
+model based on their geometry, layer configuration, material, and proximity to instrumen-
+51

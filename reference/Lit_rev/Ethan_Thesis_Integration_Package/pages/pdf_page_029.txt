@@ -1,0 +1,35 @@
+2.3
+CFD Simulation of Natural Circulation Loops
+Several groups have applied OpenFOAM to natural circulation simulation.
+Luzzi et al.
+[29] validated both a one-dimensional, semi-analytical model and a CFD model made using
+OpenFOAM V4 against a rectangular loop that heated its bottom leg and cooled its top
+leg.
+It was found in both the experiments and the corresponding simulations that not
+all configurations exhibited stable behavior.
+This observation of occasional instability is
+not an uncommon one for symmetric rectangular and circular geometries.
+As unstable
+configurations tend to be oscillatory, Pini et al. [30] exploited OpenFOAM’s open-source
+nature to couple simulation data directly to MATLAB for eigenvalue-based prediction of
+oscillatory behavior in rectangular loops.
+Battistini et al.
+[31] extended the toolset to
+Large Eddy Simulation (LES) of the DYNASTY facility, predicting flow reversals and re-
+laminarization, phenomena typical of unstable natural circulation configurations, that had
+been absent from previous Reynolds-averaged Navier-Stokes (RANS) models of the facility.
+Reviewing these OpenFOAM studies, readers can begin to see how consequential the
+choice of how to handle turbulence modeling can be. For modeling natural circulation sys-
+tems that are already sensitive to material property inputs, adding the historically tricky
+problem of turbulence modeling complicates matters. Nalbandyan et al. [32] demonstrated
+this directly, testing three different turbulence models (namely the k −ωSST, k −ωSSTLM,
+and realizable k −ϵ models) applied to a 3D CFD against their 1-D model of the DY-
+NASTY loop filled with water. Depending on the turbulence model, their relative errors
+versus the experiment for mass flow rate varied by 7.2% −16.2% and their temperature
+difference through the cooler section of their loop was off by 1.6K −2.3K. For molten salt
+loops specifically, Simamora and Lee [33] used ANSYS Fluent to compare laminar and tran-
+sitional (k-ω SSTLM) treatments of a two-dimensional nitrate salt loop model. The laminar
+model underpredicted the circulation velocity by roughly 30%, the transitional model by
+only 4.2%. The authors attribute the improvement largely to the improved mixing resultant
+from the introduction of turbulence, which allowed the temperature to better penetrate to
+15

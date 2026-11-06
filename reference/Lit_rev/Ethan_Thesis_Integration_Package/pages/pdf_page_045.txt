@@ -1,0 +1,30 @@
+3.6.1
+Error Metrics for Velocity Profiles
+For single-terms error metrics, the two most commonly used are the L2 and L∞norms, where
+the the metrics are calculated from the following equations:
+L2 =
+v
+u
+u
+t 1
+N
+N
+X
+i=1
+(Si −Di)2
+(3.16)
+L∞= max |Si −Di|.
+(3.17)
+The L2 error norm gives a greater weight to larger errors compared to something like a
+simple average (also known as the L1 norm) and the L∞norm only reports the maximum
+error. Applying these norms to the thermocouple data is fairly simple since they map 1-
+to-1 to the experimental system. However, it is important to note that the location of the
+thermocouples in space has its own uncertainty, especially for the wall thermocouples that
+lie outside the fluid domain, which will be discussed later in Chapter 6 along side spatial
+sensitivity of the centerline probes in high-temperature gradient regions of the facility. For
+the velocity profiles, a bit more care is needed since the experimental data is taken at discrete
+points in space and the simulation is essentially continuous. The key to accurately applying
+the error metrics for a case like this is to sample the simulated data at the equivalent
+points in space for the same number of entries so that the calculations can be performed
+appropriately.
+31

@@ -1,0 +1,36 @@
+4.3
+Working Fluids
+4.3.1
+HITEC Molten Salt
+Reis et al. [9] used thermophysical properties as reported by Idaho National Lab’s (INL)
+molten salt database, but a review of the literature for this work found fault in the reported
+equations for both the dynamic viscosity and the specific heat capacity of HITEC’s ternary
+eutectic mixture. INL itself cites Janz et al. citejanz1981 from 1981 for each of its equations
+describing HITEC salt. Janz et al. itself is another repository of equations reported by
+other works and cites Kirst et al.
+[46] from 1940 for the table of viscosity data it fits
+and cites Voskresenskay et al. [47] for the equations used to describe the heat capacity of
+the molten salt mixture, who used drop-calorimetry to collect their data. Neither of the
+compositions reported in section 148.10 of Janz et al. are for the eutectic ternary mixture
+and the reported equation’s uncertainty of 5% still far overshoots modern measurements and
+the manufacturer-reported values by nearly 50% for the temperatures studied in this work
+(Equation 4.4 produces a value of cp ≈2301 J/kg K vs the modern cp ≈1423.47 J/kg K at
+200 ◦C). Drop-calorimetry was used to collect their data for heat capacity.
+The equation of state reported for dynamic viscosity is a polynomial fit of an exponential
+equation that claims a greater range of validity than the original equation and data the fit
+was made to capture from Kirst et al. [46]
+Reis et al. used the equations:
+ρ
+= 2293.6 −0.7497 T
+(4.2)
+µ
+= 0.4737 −2.297 × 10−3 T + 3.731 × 10−6 T 2 −2.019 × 10−9 T 3
+(4.3)
+cp
+= 5806 −10.833 T + 7.2413 × 10−3 T 2
+(4.4)
+k
+= 0.78 −1.25 × 10−3 T + 1.6 × 10−6 T 2
+(4.5)
+In the publication, the equations for viscosity and specific heat are rounded for brevity.
+38

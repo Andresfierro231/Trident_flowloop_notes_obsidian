@@ -38,3 +38,8 @@ tasks; the proposal's agent status owns manuscript claims.
 - OPS-012 review: seven notes-owned on-demand skills, compact generated catalog and local discovery aliases; existing owner instructions remain in control.11offline smoke tests/7schema checks, native7skills once in4HPCroots,0test model requests. See dated OPS-012 handoff; no active edit claim remains at publication.
 
 - LIB-001 review: Box literature catalog covers175files/173content identities;102abstract candidates, bounded search and repeatable change tracking. Handoff X.Chat/05_handoffs/2026-11-04_LIB-001_box_library_catalog.md. No active edit claim; original Box assets and unrelated local material-note whitespace preserved.
+
+
+- REFMOVE-001 / agent-root-reference-notes-20261106: review — completed move of the initiative reference collection into notes-owned `reference/`; byte-preserving move map, compatibility route, maps and Moser feedback interpretation. No source-content rewrite or scientific execution.
+
+- REFMOVE-001 handoff: `X.Chat/05_handoffs/2026-11-06_REFMOVE-001_reference_git_and_moser.md`. All 1,003 source files are byte-preserved under `reference/`; notes source/map/feedback checks pass. Proposal `0c3a274` is pushed and its local PDF has 45 pages. Notes push is performed at closeout; local pull remains unobserved.

@@ -1,0 +1,93 @@
+Qloss = Qh −Qnet
+(4.8)
+Table 4.4: Experimental Energy Balance from Experiments of Reis et al. [9].
+Quantity [W]
+Salt 1
+Salt 2
+Salt 3
+Salt 4
+Water 1
+Water 2
+Water 3
+Water 4
+∆T [K]
+11.16
+10.09
+7.95
+5.63
+1.29
+1.43
+1.54
+1.67
+Qh
+232.3
+265.7
+297.5
+337.6
+58.8
+77.6
+93
+129
+σQh
+2.16
+2.47
+2.77
+3.14
+0.59
+0.78
+0.93
+1.29
+Qloss
+-120.54
+-140.25
+-28.66
+80.05
+13.96
+17.67
+15.50
+23.06
+σQloss
+24.11
+28.05
+5.73
+16.01
+2.79
+3.53
+3.10
+4.61
+Qnet
+352.84
+405.95
+326.16
+257.55
+44.84
+59.93
+77.50
+105.94
+σQnet
+70.6
+81.3
+65.3
+51.6
+9.0
+12.0
+15.5
+21.2
+From Table 4.4, two main items reveal themselves. First, when applied to the whole
+test matrix instead of just the highest power cases for both working fluids (as done in [9]),
+Equation 4.7 produces values exceeding the total heater power applied to the system. Second,
+the equation used to determine the uncertainty for the net heat does not factor in either
+the individual thermocouple uncertainty or their own reported uncertainty for temperature
+differences of 1.56 K [9]. Comparing against the values for ∆T in Table 4.4, this unpropagated
+uncertainty more than doubles the uncertainty for water cases 1, 2, and 3. This demonstrates
+that the need for better energy-balance understanding mentioned in Chapter 1 is even greater
+than previously thought.
+4.5.2
+Bulk Velocity
+One of the largest difficulties related to the experimental data set used for this work’s mod-
+eling is that of the bulk fluid velocity for each of the experimental cases. The reported bulk
+velocities from [25] and their associate mass flow rate are tabulated below.
+The only published mention of how U∞was calculated is from [9] and states, "The bulk
+fluid velocity was found from an area-weighted average of the full-field velocity". This much
+is true, but more complicated than it seems. After much trial-and-error from both the author
+42

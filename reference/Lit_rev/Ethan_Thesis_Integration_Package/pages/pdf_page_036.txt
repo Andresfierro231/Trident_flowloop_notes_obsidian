@@ -1,0 +1,47 @@
+From there, we judge each comparison against the combined numerical and experimen-
+tal uncertainty.
+This deliberate ordering is because an attempt at validation of the solution is only mean-
+ingful once the numerical error is understood and bounded; otherwise, an apparently good
+or bad agreement with the experiment cannot be separated from grid-dependence.
+[37].
+With this process outlined, the remainder of this chapter details what is involved in the
+methodology to conduct the V&V process.
+3.2
+Richardson Extrapolation
+Both code verification and solution verification hinge on the same idea that for a consistent,
+pth order discretization a QoI, ϕ, is computed on a mesh with a representative spacing h
+following the form
+ϕ(h) = ϕexact + gphp + O(hp+1),
+(3.1)
+such that the discrete solutions approach the exact solution as h →0.
+Given three
+solutions on systematically refined meshes with spacings h1 < h2 < h3, and refinement
+ratios, r21 and r32, where r21 = h2/h1 and r32 = h3/h2.
+The successive differences are
+defined as
+ε21 = ϕ2 −ϕ1,
+ε32 = ϕ3 −ϕ2.
+(3.2)
+The observed order of accuracy then follows from Equation (3.1) to the general form of
+pobs =
+1
+ln r21
+ln
+
+ε32
+ε21
+ + q(pobs)
+ ,
+(3.3)
+where q(pobs) is uses s = sign(ε32/ε21) and is defined as
+q(pobs) = ln
+rpobs
+21
+−s
+rpobs
+32
+−s
+
+.
+(3.4)
+22

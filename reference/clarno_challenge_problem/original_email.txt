@@ -1,0 +1,122 @@
+
+________________________________________
+De: Clarno, Kevin <Kevin.Clarno@austin.utexas.edu>
+Enviado: viernes, 28 de agosto de 2026 13:36
+Para: Fierro Lopez, Andres N <andres.fierro@austin.utexas.edu>
+Asunto: Re: guidance on the code to write
+ 
+And I’ll add - it’s ok to just have the G’s.  Random thermal resistances between each node - and see if the calibration can get it directly.   I’m certain that’s easier to get up and running, it just may not work as well.
+
+
+Kevin Clarno
+
+clarno@utexas.edu
+Charlotte Maer Patton Centennial Fellow at The University of Texas at Austin
+Associate Professor, Nuclear and Radiation Engineering in the Walker Department of Mechanical Engineering 
+Core Faculty, Oden Institute of Computational Science and Engineering
+Distinguished R&D Staff, Joint Faculty Appointment, Oak Ridge National Laboratory
+Director, Texas Nuclear Digital Twins Program (nuclear-twins.tacc.utexas.edu)
+https://sites.utexas.edu/clarno/
+
+
+From: Clarno, Kevin <Kevin.Clarno@austin.utexas.edu>
+Date: Friday, August 28, 2026 at 11:31 AM
+To: Fierro Lopez, Andres N <andres.fierro@austin.utexas.edu>
+Subject: Re: guidance on the code to write
+
+I added an “if” in case that wasn’t clear.
+
+
+Kevin Clarno
+
+clarno@utexas.edu
+Charlotte Maer Patton Centennial Fellow at The University of Texas at Austin
+Associate Professor, Nuclear and Radiation Engineering in the Walker Department of Mechanical Engineering 
+Core Faculty, Oden Institute of Computational Science and Engineering
+Distinguished R&D Staff, Joint Faculty Appointment, Oak Ridge National Laboratory
+Director, Texas Nuclear Digital Twins Program (nuclear-twins.tacc.utexas.edu)
+https://sites.utexas.edu/clarno/
+
+
+From: Fierro Lopez, Andres N <andres.fierro@austin.utexas.edu>
+Date: Friday, August 28, 2026 at 11:07 AM
+To: Clarno, Kevin <Kevin.Clarno@austin.utexas.edu>
+Cc: Gentry, Cole A <cole.gentry@austin.utexas.edu>; Luciano, Nick <nicholas.luciano@austin.utexas.edu>; Andres Fierro <andresfierro231@gmail.com>
+Subject: RE: guidance on the code to write
+
+Dear Dr. Clarno,
+
+Received, on it. 
+
+Thank you,
+
+Andrew Fierro
+Computational Nuclear Energy Group | UT Austin  
+andresfierro@utexas.edu |  LinkedIn 
+
+________________________________________
+De: Clarno, Kevin <Kevin.Clarno@austin.utexas.edu>
+Enviado: viernes, 28 de agosto de 2026 10:54
+Para: Fierro Lopez, Andres N <andres.fierro@austin.utexas.edu>
+Cc: Gentry, Cole A <cole.gentry@austin.utexas.edu>; Luciano, Nick <nicholas.luciano@austin.utexas.edu>
+Asunto: guidance on the code to write
+ 
+Andrew,
+
+Attached is a Claude-created description of code to write that can be used for the steady state.    
+
+An “experiment” is a steady-state condition with a fixed heater power and known ambient temperature, with measured temperatures at 18 locations (PTC 1-6 and STC 1-12).  
+
+Note, I didn’t see a simplified pic of the VCU loop like you had of the A&M one with the TC locations clearly defined.  I also didn’t see the luna fiber info in the VCU data - or maybe I was looking in the wrong place.
+
+The forward problem is:
+given the data (thermal resistances between all nodes)
+the input (ambient temp and heater power)
+compute the temperature at all measured locations for the experiment.
+
+The inverse problem is:
+The data from one experiment is: temperature at PTC 1-6 and STC 1-12, heater power, and ambient temp.
+Given: data from many experiments
+Calibrate the thermal resistances between all nodes
+
+If:
+There is no flow, the thermal conductivity is not dependent on temperature, and IF there is no radiative/convective heat transfer from the insulation to the environment,
+then the problem is linear 
+
+The assumptions:
+If you start with a reasonable thermal resistance, the calibration (inverse problem) will be much easier.
+So if you have (approximate) details on material properties, its not bad to include it in the thermal resistance and only calibrate a “correction” to that.
+If you start calibrating with the assumption that it is linear, 
+Then the calibration will be easy and require little data
+Then if you allow for non-linearity, it will only tweak the linear solution to pick up the small nonlinearities much easier.
+
+You can give this to AI and see what it can do to write the code, or you can try writing it yourself, or some combination.   But know every line of what the code is doing and why.
+
+After you get this working and we can compare with some of their data - maybe even provide some predictions, then we can work on the time-dependent ones that Nick proposed, which will add calibration of the heat capacities.
+
+
+
+
+
+
+For posterity, my guidance to Claude was:
+I need to create a mathematical description of a code that needs to be written by a student. The system we are modeling has a loop of pipes with 12 thermocouples at the centerline of the pipe (STC 1-12) and 6 thermocouples at the surface of the pipe (PTC 1-6). the pipe is insulated and there is a heater on a fluid inside the pipes. The only cooling from the system is to the room, which has an ambient temperature (Ambient). The system will start at room temperature and the heater will be turned on to a given power (Heater). Over time, the system will reach a steady-state with a temperature distribution through the fluid and temperature distribution on the pipe and insulation. The idea is to build a control volume model that includes at least the 12 fluid volumes (centered on the thermo couples) that are in a loop and at least 12 pipe volumes that are thin annuli (with 6 centered on the 6 PTCs) and at least 12 insulation volumes that are thick annuli. The mesh should be structured in (r,z), where z is the loop direction and r is radial. Because the PTCs may not be centered on the STCs, more than 12 mesh cells may be required in the radial direction. There should be a thermal resistance between each of the adjacent fluid volumes (remember it's a loop) and there should be thermal resistance between the fluid, the pipe, the insulation, and the ambient. There should be no thermal coupling between the different piping volumes and no thermal resistance between the insulation volumes. If the thermal resistances are known, the solver should take in a power and ambient temperature and solve for the temperatures in all cells. There should also be way to take data from many thermal equilibrium calculations and, with machine learning, solve for the thermal resistances.
+
+
+Thanks. The temperature rise will be approximately linear with power, unless the heat losses include convection and/or radiative heat transfer. The can be some different thermal resistances through the insulation because of structural supports and corners having more area, and things like that. Because there might be different thermal resistances, there also can be conduction (and a bit of convection) in the fluid. You are correct that the resistances need temperature dependent, please include that. After we figure out the calibration using steady-state data, then we can begin to think about transient data to calibrate the heat capacities. you are correct that the radial spur is a chain, but the meausred data from the PTCs on the outside of the pipe, allow for calibirating the two different parts of the radial chain at those locations.
+
+
+in the intro, can you describe the system by moving "2. Geometry and notation" to the front because by using PTC in "A8The metal wall is radially isothermal, so the pipe node sits at r=R2r = R_2 r=R2.PTC readings are node temperatures. Justified in §8.1." before defining PTC it makes it confusing. Let's add the upwind extension, because If there is flow it will likely be predominantly in one direction. you say "Because the PTCs are not aligned with the STCs," but it should be "Because the PTCs may not be aligned with the STCs." Thanks for fixing my mistakes in the description, but please clean them up mistakes and hide them "(You wrote that this forces extra cells "in the radial direction" — the sensor-offset argument actually forces extra cells in the axial direction." Why woudl you say this "(Merge any PTC that coincides with an STC to within tolerance; then P<18P<18 P<18.)". if the PTC and STC are adjacent exactly, then they can both be unknowns and the thermal resistance between them will be very easy to calibrate, which is the special case you note: "Special case: uniformly spaced STCs with each PTC exactly midway between two of them gives N=18N=18 N=18, no fillers." you can also remove your learning notes "You were right and I understated this in revision 1." after you make these fixes, I'll get you more feedback
+
+
+
+
+Kevin Clarno
+
+clarno@utexas.edu
+Charlotte Maer Patton Centennial Fellow at The University of Texas at Austin
+Associate Professor, Nuclear and Radiation Engineering in the Walker Department of Mechanical Engineering 
+Core Faculty, Oden Institute of Computational Science and Engineering
+Distinguished R&D Staff, Joint Faculty Appointment, Oak Ridge National Laboratory
+Director, Texas Nuclear Digital Twins Program (nuclear-twins.tacc.utexas.edu)
+https://sites.utexas.edu/clarno/

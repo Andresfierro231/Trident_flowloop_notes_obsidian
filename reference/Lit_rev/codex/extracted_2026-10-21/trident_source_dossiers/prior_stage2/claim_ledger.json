@@ -1,0 +1,166 @@
+[
+  {
+    "id": "C01",
+    "claim": "A fundamental-safety-function PIRT exists for liquid-fuel MSRs; its accident-scenario gaps cannot be adopted wholesale as TRIDENT loop gaps.",
+    "sources": [
+      "S12"
+    ],
+    "status": "evidence_plus_scope_synthesis",
+    "locator": "Title; scenario framing; I15–I16 entries, PDF p. 55",
+    "limit": "Selected excerpts only; no full PIRT ranking extraction."
+  },
+  {
+    "id": "C02",
+    "claim": "Surrogate-fluid FHR testing, code assessment, and scaling/distortion are established research activities.",
+    "sources": [
+      "S14",
+      "S15",
+      "S17"
+    ],
+    "status": "established_topic",
+    "locator": "S14 Section 2.1 and executive summary; S15/S17 abstracts",
+    "limit": "No claim that TRIDENT matches their similarity conditions."
+  },
+  {
+    "id": "C03",
+    "claim": "The Reis–Hassan abstract explicitly prescribes net heat input and minimum loop temperature as model inputs.",
+    "sources": [
+      "S16"
+    ],
+    "status": "explicit_abstract_evidence",
+    "locator": "ANS abstract",
+    "limit": "Full-paper handling of measured inputs, uncertainty and validation independence still unread."
+  },
+  {
+    "id": "C04",
+    "claim": "Grey-box thermal model selection by increasing model complexity and evaluating extensions has strong existing precedent.",
+    "sources": [
+      "S08"
+    ],
+    "status": "selected_full_text_evidence",
+    "locator": "Section 4.1/Fig. 2; manuscript PDF pp. 7–8",
+    "limit": "Building dynamics are a cross-domain comparator, not a verified model for an advecting loop."
+  },
+  {
+    "id": "C05",
+    "claim": "Physical-parameter calibration and model discrepancy can be confounded.",
+    "sources": [
+      "S06"
+    ],
+    "status": "selected_full_text_evidence",
+    "locator": "Fig. 7/discussion, author manuscript PDF pp. 17–19 and Section 5 opening p. 22",
+    "limit": "Specific TRIDENT identifiability requires a defined model, observations and inputs."
+  },
+  {
+    "id": "C06",
+    "claim": "Operator-posterior uncertainty and a complete predictive uncertainty budget are different claims.",
+    "sources": [
+      "S04",
+      "S06"
+    ],
+    "status": "cross_source_synthesis",
+    "locator": "S04 abstract/introduction; S06 confounding discussion",
+    "limit": "No assertion that S04 purports to solve every discrepancy or input-uncertainty problem."
+  },
+  {
+    "id": "C07",
+    "claim": "NEMO's advertised inverse structure is nonlinear in model parameters and linear in inversion variables.",
+    "sources": [
+      "S05"
+    ],
+    "status": "explicit_preprint_abstract_evidence",
+    "locator": "arXiv v1 abstract; related S05a abstract",
+    "limit": "Fitting TRIDENT conductances/capacities is not automatically in that class."
+  },
+  {
+    "id": "C08",
+    "claim": "Bayesian thermal network discovery and stochastic reduced NCL dynamics already have relevant prior work.",
+    "sources": [
+      "S26",
+      "S30"
+    ],
+    "status": "verified_topic_abstract_level",
+    "locator": "Publisher abstract excerpts; S26 author-code README",
+    "limit": "No performance/novelty judgement until full-text extraction."
+  },
+  {
+    "id": "C09",
+    "claim": "The official 2026 GUM amendment adds guidance for significant nonlinearity in measurement models.",
+    "sources": [
+      "S33"
+    ],
+    "status": "selected_official_full_text_evidence",
+    "locator": "PDF p. 5, printed p. 1; amendments to 4.1.4/H.1.7",
+    "limit": "Measurement propagation guidance does not establish model-form uncertainty coverage."
+  },
+  {
+    "id": "C10",
+    "claim": "Fast system-level MSR analysis is already an active capability area; generic speed or a digital-twin label is not a sufficient research gap.",
+    "sources": [
+      "S27",
+      "S11"
+    ],
+    "status": "topic_evidence_plus_synthesis",
+    "locator": "Institutional/publisher abstracts",
+    "limit": "TRIDENT-specific comparator selection and costs remain unassessed."
+  },
+  {
+    "id": "C11",
+    "claim": "Heat-loss and wall-storage effects deserve consideration in loop dynamics, with prior conjugate low-order work to compare.",
+    "sources": [
+      "S14",
+      "S18"
+    ],
+    "status": "topic_evidence_plus_hypothesis_motivation",
+    "locator": "S14 Section 4.2.2.2; S18 abstract",
+    "limit": "Their importance for our chosen regime/QoI is not established."
+  },
+  {
+    "id": "C12",
+    "claim": "The approximately 25% MSRE heat-balance claim is not verified in this pass and is excluded as motivation.",
+    "sources": [],
+    "status": "unresolved_exclusion",
+    "locator": "Targeted searches returned no traceable supporting primary passage",
+    "limit": "Search failure is not proof that the historical claim is false."
+  },
+  {
+    "id": "C13",
+    "claim": "The retrieved SAM–CIET manuscript simplifies cooler heat exchange using prescribed outlet-temperature control and describes heat-loss calibration; comparison to TRIDENT must account for that input and calibration contract.",
+    "sources": [
+      "S17"
+    ],
+    "status": "selected_manuscript_evidence_plus_comparison_inference",
+    "locator": "Section 2.2, manuscript PDF pp. 5–6; related temperature-profile modification p. 16",
+    "limit": "Not a full appraisal of SAM or evidence that TRIDENT already predicts these quantities better."
+  },
+  {
+    "id": "C14",
+    "claim": "The retrieved conjugate-loop preprint contains 1-D momentum/energy equations, wall thermal coupling and Fourier reduction, with explicit Boussinesq/axial-conduction/lumped-normal-wall assumptions.",
+    "sources": [
+      "S18"
+    ],
+    "status": "selected_preprint_evidence",
+    "locator": "Sections 2–3, PDF pp. 3–10",
+    "limit": "Coupled-loop geometry and boundary conditions differ; equation transcription and journal changes remain to be checked."
+  },
+  {
+    "id": "C15",
+    "claim": "The identifiability manuscript explicitly separates model states from an observation map and sets out a likelihood under Gaussian measurement noise.",
+    "sources": [
+      "S23"
+    ],
+    "status": "selected_repository_pdf_evidence",
+    "locator": "Section 2, Eqs. 1–6, PDF p. 3 including repository cover",
+    "limit": "TRIDENT covariance, bias, autocorrelation and input errors require their own appropriate likelihood; profile calculations alone are not a universal structural-identifiability proof."
+  },
+  {
+    "id": "C16",
+    "claim": "The supplied thesis title page identifies Ethan Rozak’s May 2026 MSE thesis at The University of Texas at Austin; its abstract identifies Texas A&M’s experimental facility.",
+    "sources": [
+      "S35"
+    ],
+    "status": "uploaded_primary_document_identity",
+    "locator": "PDF pp. 1–2",
+    "limit": "User-supplied copy; final institutional deposit/version not verified. No thesis results evaluated in this acquisition pass."
+  }
+]

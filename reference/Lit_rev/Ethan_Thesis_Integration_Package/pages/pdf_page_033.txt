@@ -1,0 +1,26 @@
+pursuits for advancing digital twin technology further motivate the pursuit of high-fidelity
+CFD. A validated CFD model of the TAMU loop could serve as the foundation for a digital
+twin of similar molten salt natural circulation systems.
+2.7
+Summary and Research Gap
+This survey of the literature reveals several key gaps that this thesis addresses:
+1. Limited CFD Validation of Molten Salt Systems: The experimental facility at
+Texas A&M provides the most comprehensive velocity profile dataset for molten salt
+natural circulation loops along with it’s thermocouple readings, yet no independent,
+three-dimensional CFD simulation has been systemically Verified and Validated against
+this data.
+2. Insufficient Boundary Conditions short of full CHT: OpenFOAM’s stock bound-
+ary condition externalTemperature assumes a slab geometry for heat flux through
+surfaces assigned that boundary condition and for cylindrical pipes with thick insula-
+tion, the area ratio between the inner and outer surfaces makes this a poor approxi-
+mation that would otherwise need to be resolved via more complex CHT modeling.
+3. Difficulty with Energy Balance Closure: Previous experiments such as Reis et
+al. have large uncertainties associated with the heater power applied to the system
+not being equal to the calculated rate of heat removal by the system’s cooler, making
+it impossible to accurately model the full system without better representing all the
+heat losses throughout the system.
+4. Accounting for Entry Length Effects: Depending on the geometry of the system
+and the working fluid studied, there can at times be cases where the fluid never fully
+develops in the classical sense for neither its thermal or momentum entry lengths. These
+thermal and momentum entry lengths being fully developed is a typical assumption
+19

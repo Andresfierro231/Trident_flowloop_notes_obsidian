@@ -1,0 +1,5 @@
+range. The polynomial does become negative at any point and does not suffer spurious
+oscillations so does not appear victim to overfitting.
+k(T) = 6.421 · 10−2 −1.959 · 10−4 T + 3.929 · 10−7 T 2
+k(T) = 6.4209E −0.2 −1.9593E −04 T + 3.9286E −07 T 2
+114

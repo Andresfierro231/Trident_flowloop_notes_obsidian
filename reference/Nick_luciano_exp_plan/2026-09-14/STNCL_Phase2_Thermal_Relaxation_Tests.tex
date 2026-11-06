@@ -1,0 +1,531 @@
+\documentclass[11pt]{article}
+
+\usepackage[letterpaper,margin=0.88in,headheight=22pt]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Charis SIL}{\setmainfont{Charis SIL}}{\setmainfont{TeX Gyre Pagella}}
+\IfFontExistsTF{Arimo}{\setsansfont{Arimo}}{\setsansfont{TeX Gyre Heros}}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc,decorations.pathreplacing}
+\usepackage[most]{tcolorbox}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lastpage}
+\usepackage{needspace}
+\usepackage{graphbox} % Extends graphicx
+
+% University of Texas at Austin brand palette
+\definecolor{UTBurntOrange}{HTML}{BF5700}
+\definecolor{UTCharcoal}{HTML}{333F48}
+\definecolor{UTLightOrange}{HTML}{F8971F}
+\definecolor{UTWarmGray}{HTML}{D6D2C4}
+\definecolor{UTSlate}{HTML}{9CADB7}
+\definecolor{UTBlue}{HTML}{005F86}
+\definecolor{UTBlueBright}{HTML}{00A9B7}
+\definecolor{UTWarmLight}{HTML}{F6F5F2}
+\definecolor{UTBlueLight}{HTML}{EEF5F7}
+\definecolor{UTGrayLight}{HTML}{F4F5F6}
+
+% Backward-compatible semantic aliases used throughout the document
+\colorlet{Navy}{UTCharcoal}
+\colorlet{Teal}{UTBurntOrange}
+\colorlet{LightTeal}{UTBlueLight}
+\colorlet{LightBlue}{UTWarmLight}
+\colorlet{LightGray}{UTGrayLight}
+\colorlet{MidGray}{UTCharcoal!78}
+\colorlet{RuleGray}{UTWarmGray}
+\colorlet{Warn}{UTLightOrange}
+\colorlet{LightWarn}{UTWarmLight}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=UTBurntOrange,
+  urlcolor=UTBlue,
+  citecolor=UTCharcoal,
+  pdftitle={STNCL Phase-Specific Experimental Plan},
+  pdfauthor={TRIDENT Collaboration (UT Austin, ACU, VCU)}
+}
+
+\sisetup{
+  detect-all,
+  per-mode=symbol,
+  range-phrase=--,
+  range-units=single,
+  group-separator={,},
+  group-minimum-digits=4,
+  group-digits=integer
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5.5pt}
+\setlength{\emergencystretch}{1.5em}
+\setlist[itemize]{leftmargin=1.35em,itemsep=2.5pt,topsep=3pt}
+\setlist[enumerate]{leftmargin=1.55em,itemsep=3pt,topsep=3pt}
+\renewcommand{\arraystretch}{1.18}
+\titlespacing{\paragraph}{0pt}{0.5ex plus 0.5ex minus .2ex}{1em}
+
+\titleformat{\section}
+  {\Large\sffamily\bfseries\color{UTBurntOrange}}
+  {\thesection}{0.65em}{}
+  [\vspace{1pt}\color{UTWarmGray}\titlerule]
+\titleformat{\subsection}
+  {\large\sffamily\bfseries\color{UTCharcoal}}
+  {\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}
+  {\normalsize\sffamily\bfseries\color{UTCharcoal}}
+  {\thesubsubsection}{0.55em}{}
+\titlespacing*{\section}{0pt}{14pt}{7pt}
+\titlespacing*{\subsection}{0pt}{11pt}{4pt}
+\titlespacing*{\subsubsection}{0pt}{8pt}{2pt}
+
+% Keep a heading from being stranded alone at the bottom of a page:
+% require room for the title plus a few body lines, else break to the next page.
+\usepackage{etoolbox}
+\pretocmd{\section}{\needspace{5\baselineskip}}{}{}
+\pretocmd{\subsection}{\needspace{7\baselineskip}}{}{}
+\pretocmd{\subsubsection}{\needspace{5\baselineskip}}{}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily\color{UTCharcoal}Prop-30 Glycol STNCL \textbullet\ TRIDENT}
+\fancyhead[R]{\small\sffamily\color{UTBurntOrange}\PhaseDocShort -- Draft}
+\fancyfoot[L]{\small\sffamily\color{UTCharcoal!78}Revision 0.1}
+\fancyfoot[R]{\small\sffamily\color{UTCharcoal!78}Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.65pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{UTBurntOrange}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0pt}
+
+\newtcolorbox{recommendbox}[1][]{
+  enhanced,
+  breakable,
+  colback=UTWarmLight,
+  colframe=UTBurntOrange,
+  colbacktitle=UTBurntOrange,
+  boxrule=0.7pt,
+  arc=1.2mm,
+  left=3mm,right=3mm,top=2.4mm,bottom=2.4mm,
+  title={#1},
+  fonttitle=\sffamily\bfseries,
+  coltitle=white
+}
+
+\newcommand{\Tavg}{T_{\mathrm{avg},4}}
+\newcommand{\Tdiag}{T_{\mathrm{diag}}}
+\newcommand{\Thot}{T_{\mathrm{hot}}}
+\newcommand{\Tcold}{T_{\mathrm{cold}}}
+\newcommand{\QHs}{\dot Q_{H}^{s}}
+\newcommand{\QCs}{\dot Q_{C}^{s}}
+\newcommand{\mdotp}{\dot m_{p}}
+\newcommand{\mdotpH}{\dot m_{p,H}}
+\newcommand{\mdotpC}{\dot m_{p,C}}
+\newcommand{\Tamb}{T_{\mathrm{amb}}}
+\newcommand{\Rey}{\mathrm{Re}}
+\newcommand{\Realpart}[1]{\Re\left(#1\right)}
+
+\newcommand{\PhaseDocShort}{Phase 2: Thermal Relaxation Tests}
+
+% Cross-document names used instead of duplicating material owned by another phase.
+\newcommand{\PhaseZeroDoc}{\textit{Phase 0 --- System Checkout}}
+\newcommand{\PhaseOneDoc}{\textit{Phase 1 --- Ambient-Equilibrium Baseline}}
+\newcommand{\PhaseTwoDoc}{\textit{Phase 2 --- Thermal Relaxation Tests}}
+\newcommand{\PhaseThreeDoc}{\textit{Phase 3 --- Low-Duty Steady Heat-Loss Tests}}
+\newcommand{\PhaseFourDoc}{\textit{Phase 4 --- Initial Test Matrix and Transition Characterization}}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+  \fill[UTBurntOrange] (current page.north west) rectangle ([yshift=-0.16in]current page.north east);
+  \fill[UTWarmLight] ([yshift=1.45in]current page.south west) rectangle (current page.south east);
+  \fill[UTBurntOrange] (current page.south west) rectangle ([yshift=0.16in]current page.south east);
+\end{tikzpicture}
+\noindent\includegraphics[width=2.5in]{images/TRIDENT_logo.png}
+
+{\color{UTWarmGray}\rule{\textwidth}{0.8pt}}
+\vspace{0.24in}
+\begin{tcolorbox}[
+  enhanced, frame hidden, colback=white, boxrule=0pt,
+  borderline west={4pt}{0pt}{UTBurntOrange},
+  left=5mm,right=0mm,top=1mm,bottom=1mm, sharp corners
+]
+{\raggedright\sffamily\bfseries\fontsize{23}{27}\selectfont\color{UTCharcoal}
+Experimental Plan for the Initial Characterization of the Prop-30 Glycol Salt Twin Natural Circulation Loop (STNCL)\par}
+\vspace{0.15in}
+{\sffamily\bfseries\fontsize{16}{20}\selectfont\color{UTBurntOrange}
+Phase 2: Thermal Relaxation Tests\par}
+\vspace{0.10in}
+{\sffamily\fontsize{11.5}{15}\selectfont\color{UTCharcoal}
+Reduced thermal-model calibration, withheld validation, and operational settling time\par}
+\end{tcolorbox}
+
+\vspace{0.30in}
+\begin{tcolorbox}[
+  enhanced, colback=UTWarmLight, colframe=UTWarmGray, boxrule=0.6pt,
+  arc=1.2mm, left=3.5mm,right=3.5mm,top=3mm,bottom=3mm
+]
+{\setlength{\parskip}{0pt}\renewcommand{\arraystretch}{1.28}
+\begin{tabularx}{\textwidth}{@{}>{\sffamily\bfseries\color{UTBurntOrange}}l>{\raggedright\arraybackslash}X@{}}
+Status: & Draft for team review and facility-specific completion \\
+Revision: & 0.1 \\
+Date: & August 17, 2026 \\
+Prepared for: & TRIDENT collaboration \\
+\end{tabularx}}
+\end{tcolorbox}
+
+\vfill
+\noindent
+\includegraphics[height=2.5cm, align=c]{images/ACU.png}\hfill
+\includegraphics[height=1.5cm, align=c]{images/UT.png}\hfill
+\includegraphics[height=1.25cm, align=c]{images/VCU.png}
+\vspace{-0.6in}
+\end{titlepage}
+\clearpage
+\hypersetup{pageanchor=true}
+
+\clearpage
+\pagenumbering{roman}
+\section*{Revision History}
+\addcontentsline{toc}{section}{Revision History}
+\begin{tabularx}{\textwidth}{@{}p{0.75in}p{1.2in}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{1.15in}@{}}
+\toprule
+\textbf{Revision} & \textbf{Date} & \textbf{Description} & \textbf{Status} \\
+\midrule
+0.1 & 2026-08-17 & Phase-specific split of the initial characterization plan; technical content retained with cross-document references where material is owned by an earlier phase. & Draft \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.25in}
+\section*{Approval and Configuration Record}
+\addcontentsline{toc}{section}{Approval and Configuration Record}
+\begin{tabularx}{\textwidth}{@{}p{1.55in}X p{1.25in}p{1.05in}@{}}
+\toprule
+\textbf{Role} & \textbf{Signature} & \textbf{Date} & \textbf{Revision} \\
+\midrule
+Lead, UT & & & \\
+Lead, VCU & & & \\
+Lead, ACU & & & \\
+\bottomrule
+\end{tabularx}
+\clearpage
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+
+\section{Introduction}
+\label{sec:introduction}
+\subsection{Purpose}
+Phase~2 obtains warm and cold passive-relaxation transients from repeatable, nearly uniform fluid initial conditions. The transients are used to estimate whole-loop and distributed effective thermal-transfer and capacitance parameters, characterize heat loss and heat gain, and provide independent validation data for the thermal model.
+
+\subsection{Prerequisites and required data}
+Phases~0 and~1 shall be dispositioned as \textbf{Proceed}. Use the approved Phase~0 facility configuration, fluid-property references, measurement boundaries, environmental and condensation measurements, and synchronized channel map. Use the Phase~1 frozen block duration, uncertainty inputs, correlation rules, near-isothermal resolvability result, and acceptance definitions; those statistical methods are owned by \PhaseOneDoc and are not repeated here.
+
+Phase~2 additionally requires the insulated mixing tank, repeatable drain/fill/vent capability, a documented loop inventory, at least two spatially separated tank-temperature measurements, and synchronized secondary measurements capable of demonstrating negligible residual heater and cooler duty during each relaxation.
+
+\clearpage
+\section{Technical Basis}
+\label{sec:technical_basis}
+\subsection{Thermal Model and Heat Loss}
+
+\subsubsection{Information supplied by the relaxation and steady tests}
+\label{sec:relaxation_basis}
+
+Phase~2 (Section~\ref{sec:relaxation}) and Phase~3 (\PhaseThreeDoc) provide complementary constraints on the same thermal model. A passive relaxation spans a range of fluid, wall, and room-temperature differences and reveals dynamic storage, regional lag, and coupling. A low-duty steady state supplies a direct integral heat-loss or heat-gain measurement without a capacitance term. Warm and cold cases are both required because transfer coefficients, properties, and condensation behavior may differ above and below ambient.
+
+The mixed-tank two-fill procedure gives the Phase~2 tests a repeatable, nearly uniform fluid initial condition while reducing dependence on the prior operating state. It does not make the pipe, insulation, supports, heater, and cooler isothermal. The first fill preconditions that structure; the second resets the fluid after the solid temperatures have moved closer to the target. Because the reduced model below does not contain separate fluid and structure states, its effective initial state shall be constructed from the measured fluid and wall distributions using a fixed documented weighting. The unresolved fluid--wall split shall be retained as an initial-condition sensitivity and model-discrepancy term rather than silently treated as a common temperature.
+
+During a relaxation, the whole-loop balance is
+\begin{equation}
+    \frac{dU_{\mathrm{loop}}}{dt}
+    =
+    -\dot Q_{a,\mathrm{total}}
+    +\dot Q_{H,\mathrm{res}}
+    -\dot Q_{C,\mathrm{res}}.
+\end{equation}
+Here $\dot Q_{H,\mathrm{res}}$ is residual heat added to the primary loop through the heater assembly, and $\dot Q_{C,\mathrm{res}}$ is residual heat removed through the cooler assembly while the active systems are nominally off. When synchronized secondary measurements demonstrate negligible residual duty, the balance reduces to
+\begin{equation}
+    \frac{dU_{\mathrm{loop}}}{dt}
+    \approx
+    -\dot Q_{a,\mathrm{total}}.
+    \label{eq:relax_balance}
+\end{equation}
+At an accepted Phase~3 steady state, the corresponding direct measurement uses the sign convention and whole-loop balance established in \PhaseZeroDoc: $\dot Q_{a,\mathrm{total}}=\QHs-\QCs$. A single-exponential fit may provide a useful screening value of $C_{\mathrm{eff}}/UA_{\mathrm{total}}$, but the spatially resolved data are reduced with the model below.
+
+\subsubsection{Reduced-zone heat-loss model}
+\label{sec:heat_loss}
+
+The available measurements do not support a separately identifiable fluid and structure temperature in every region. The reduced model is therefore an empirical regional-energy model. Each state $\Theta_i$ is an effective stored-energy temperature constrained by a fixed, documented weighted mapping of the measurements assigned to region $i$; it is not interpreted as a literal fluid or wall temperature. Thermocouple and Luna signals shall not be double-counted: a Luna signal may enter the mapping only as an approved alternate or as a separately justified independent constraint. The model predicts the regional effective response and ambient exchange. For model-adequacy diagnostics, each fluid, wall, and Luna measurement is compared separately with the effective state of its assigned region; the model shall not be described as independently predicting distinct fluid and wall temperatures.
+
+Consider a candidate partition of four to six physically meaningful regions: the heater assembly and adjacent piping, hot leg, cooler assembly and adjacent piping, cold leg, and, only when supported by the data, a thermal-bridge or residual region. Select the minimum-complexity model that passes calibration and withheld validation. Thermal inventories and nominal geometric resistances shall be fixed from dimensions and material properties where practical, leaving only a limited number of regional correction factors and effective couplings to be estimated.
+
+A representative regional balance is
+\begin{equation}
+    C_i\frac{d\Theta_i}{dt}
+    =
+    \sum_{j\in\mathcal N_i}
+    \left(
+        G_{j\rightarrow i}\Theta_j
+        -G_{i\rightarrow j}\Theta_i
+    \right)
+    -G_{i,a}(\Theta_i-T_{\mathrm{amb},i})
+    +\dot Q_i(t),
+    \label{eq:zone_balance}
+\end{equation}
+where $C_i>0$ is the effective participating thermal capacitance, $\mathcal N_i$ is the set of directly coupled regions, $G_{i\rightarrow j}\geq0$ is a directed effective thermal-transfer coefficient from region $i$ to region $j$, $G_{i,a}\geq0$ is the effective transfer coefficient from region $i$ to the room, and $\dot Q_i(t)$ is a documented active heat input. The directed coefficients may represent combined advection, conduction, and mixing and need not be symmetric. When transfer is purely reciprocal, $G_{i\rightarrow j}=G_{j\rightarrow i}$ and the pair reduces to the usual conductance term. The paired directed terms shall be assembled so they cancel in the whole-loop balance when ambient and active terms are removed, preserving energy conservation.
+
+In matrix form,
+\begin{equation}
+    \mathbf C\dot{\boldsymbol\Theta}
+    =
+    -\mathbf A\boldsymbol\Theta
+    +\mathbf G_a\mathbf T_{\mathrm{amb}}
+    +\dot{\mathbf Q},
+    \label{eq:zone_matrix}
+\end{equation}
+where $\mathbf C=\operatorname{diag}(C_1,\ldots,C_n)$, $\mathbf G_a=\operatorname{diag}(G_{1,a},\ldots,G_{n,a})$, $\mathbf T_{\mathrm{amb}}=(T_{\mathrm{amb},1},\ldots,T_{\mathrm{amb},n})^{\mathsf T}$, and $\dot{\mathbf Q}=(\dot Q_1,\ldots,\dot Q_n)^{\mathsf T}$. For the directed form, the state matrix has
+\begin{equation}
+    A_{ii}=G_{i,a}+\sum_{j\in\mathcal N_i}G_{i\rightarrow j},
+    \qquad
+    A_{ij}=-G_{j\rightarrow i}
+    \quad (j\in\mathcal N_i).
+    \label{eq:conductance_matrix}
+\end{equation}
+The local ambient temperature assigned to each region shall follow one documented nearest-station or interpolation rule held fixed across the fitted runs. Because the wall thermocouples are under the insulation, $G_{i,a}$ is an effective region-to-room coefficient that includes insulation conduction, external convection and radiation, contact resistance, supports, fittings, and other thermal bridges; it is not a literal insulation conductivity. Total predicted ambient exchange is the sum of the regional ambient terms plus any explicit uninstrumented-component term.
+
+The twelve wall measurements provide spatial shape and transient timing, but a few nearly isothermal tests do not identify twelve independent local coefficients. Use nominal geometry and resistance estimates as the parameter basis, fit regional multipliers rather than one free coefficient per thermocouple, and add a region or parameter only when sensitivity, covariance, residual structure, and withheld validation show that it is identifiable. Constrain all fitted models to positive capacitances, nonnegative transfer coefficients, whole-loop energy conservation, and asymptotic stability over the applicable operating range.
+
+Model development follows a controlled sequence:
+\begin{enumerate}
+    \item Fit candidate models using only the designated Phase~2 calibration runs.
+    \item Select the model using the withheld Phase~2 warm and cold runs without refitting, then freeze and version the Phase~2 model, property database, and sensor mapping before Phase~3.
+    \item Apply that frozen model blindly to both required Phase~3 steady tests and record the comparison before any update.
+    \item If the model is adequate, freeze it for Phase~4. If an update is required, identify the data reassigned to calibration, obtain independent steady validation in every affected regime, and freeze the revised model before any Phase~4 flow result is reported.
+    \item During the primary Phase~4 analysis, do not refit the frozen reduction model. Treat the designated withheld operating-regime state as an applicability check; a failed check triggers controlled revision and new independent validation rather than post hoc adjustment to make the state agree.
+\end{enumerate}
+Dry, near-dew-point, and condensing data shall retain their classifications and shall not be forced into one parameter set unless the moisture mechanism is represented explicitly.
+
+Validation shall consider whole-loop energy closure, mapped regional-temperature trajectories, individual fluid, wall, and Luna residuals, wall-profile shape and timing, residual bias and structure, and the exchanger-loss corrections needed for flow inference. Regional losses may be distributed to system-code cells or CFD surfaces by documented area or resistance weighting unless the data support a finer independent allocation.
+
+\subsubsection{Slowest loop time constant}
+\label{sec:tau_slow}
+
+The acceptance procedure requires the slowest supported stable thermal mode because it governs the final approach after faster modes have decayed. For constant ambient conditions, define departures from equilibrium $\widetilde{\boldsymbol\Theta}$ and write
+\begin{equation}
+    \dot{\widetilde{\boldsymbol\Theta}}
+    =
+    \mathbf M\widetilde{\boldsymbol\Theta},
+    \qquad
+    \mathbf M=-\mathbf C^{-1}\mathbf A.
+    \label{eq:state_matrix}
+\end{equation}
+The fitted model is acceptable only when every supported eigenvalue $\lambda_m$ of $\mathbf M$ satisfies $\Realpart{\lambda_m}<0$, where $\Re$ denotes the real part of a complex quantity. The modal time constant is $\tau_m=-1/\Realpart{\lambda_m}$, and
+\begin{equation}
+    \tau_{\mathrm{slow}}
+    =
+    -\frac{1}{\max_m\Realpart{\lambda_m}}.
+    \label{eq:tau_slow}
+\end{equation}
+This real-part form remains valid when the empirical directed couplings produce complex conjugate modes.
+
+Determine $\tau_{\mathrm{slow}}$ from the controlled Phase~2 warm and cold relaxations and report its uncertainty, including covariance among fitted parameters and sensitivity to model structure and fitting interval. Define the operational settling value $\tau_{\mathrm{slow,op}}$ as a conservative upper supported bound on $\tau_{\mathrm{slow}}$ over the applicable temperature and condensation range. Use that upper bound in the test procedure rather than the nominal best estimate. A lumped single-exponential time constant can miss a weak slower mode and shall not be substituted without residual evidence that the reduced model is adequate. In particular, do not estimate $\tau_{\mathrm{slow}}$ from an operating plateau, where the remaining approach is small and confounded with wander; \PhaseOneDoc, Section~4, ``Steady-State Detection illustrates that failure. Until Phase~2 is dispositioned, use a conservative documented provisional value.
+
+
+
+\clearpage
+\section{Procedure}
+\label{sec:procedure}
+\label{sec:test_procedure}
+\label{sec:relaxation}
+\subsection{Method}
+
+Conduct each thermal-relaxation test as follows:
+
+\begin{enumerate}
+    \item \textbf{Select the target condition.}
+    \begin{enumerate}
+        \item Select a warm or cold target within the approved operating and condensation limits.
+        \item Assign the run ID and designate the run for calibration or withheld validation.
+    \end{enumerate}
+
+    \item \textbf{Prepare the mixed glycol.}
+    \begin{enumerate}
+        \item Drain a documented mass or volume of glycol to the insulated mixing tank.
+        \item Mix and condition the glycol to the target temperature.
+        \item Verify tank uniformity using at least two spatially separated temperature measurements, preferably three, and require the tank max--min spread to satisfy a preapproved tank-uniformity limit.
+    \end{enumerate}
+
+    \item \textbf{Condition the loop structure.}
+    \begin{enumerate}
+        \item With the heater de-energized, fill the loop from the designated low point while venting high points.
+        \item Record the fill direction, duration, final mass or level, valve configuration, and evidence of trapped gas.
+        \item Hold the first fill until the internal-fluid and pipe-wall temperatures show that the loop structure has substantially approached the target temperature.
+    \end{enumerate}
+
+    \item \textbf{Establish the test initial condition.}
+    \begin{enumerate}
+        \item Drain the first fill back to the tank, remix, restore the target temperature, and reconfirm tank uniformity.
+        \item Refill using the same direction, approximate rate, venting procedure, and final mass or level.
+        \item Define $t=0$ when the loop is full, isolated from the transfer system, and gross fill motion has ended.
+        \item Over the approved short initial-condition interval immediately after $t=0$, require the four-point fluid spread to satisfy $\Delta T_{\mathrm{spread}}\leq\Delta T_{\mathrm{iso,eng}}$. A run that does not meet this condition is not a near-isothermal relaxation test and shall be repeated or separately dispositioned.
+    \end{enumerate}
+
+    \item \textbf{Establish passive boundary conditions.}
+    \begin{enumerate}
+        \item Turn off active heating and cooling and stop or isolate secondary circulation.
+        \item Confirm from synchronized secondary measurements that residual duty is negligible relative to the transient energy balance.
+        \item Do not use a bypass position alone as evidence of thermal isolation.
+    \end{enumerate}
+
+    \item \textbf{Record the relaxation.}
+    \begin{enumerate}
+        \item Preserve the complete drain, fill, immediate post-fill, and relaxation record.
+        \item Continue recording until the loop has moved substantially toward room temperature and the useful transient is complete.
+        \item Document condensation, operator actions, HVAC changes, control activity, and configuration changes.
+    \end{enumerate}
+\end{enumerate}
+
+A single-fill run may be used only with prior approval. The run shall be identified as single-fill, and the additional initial-condition uncertainty shall be included in the analysis.
+
+\subsection{Phase 2 Run IDs}
+
+Conduct at least two warm and two cold runs. One warm and one cold run shall be used for calibration; the other warm and cold runs shall be withheld from fitting for validation. Provisional target offsets are approximately $\Tamb\pm\SI{5}{\degreeCelsius}$ and, when practical, $\Tamb\pm\SI{10}{\degreeCelsius}$.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Phase 2 thermal-relaxation runs.}
+    \label{tab:phase2_relaxation_runs}
+    \begin{tabularx}{\textwidth}{
+        @{}
+        >{\raggedright\arraybackslash}p{1.25in}
+        >{\raggedright\arraybackslash}p{1.75in}
+        >{\raggedright\arraybackslash}p{1.35in}
+        >{\raggedright\arraybackslash}X
+        @{}
+    }
+        \toprule
+        \textbf{Run ID} &
+        \textbf{Initial condition} &
+        \textbf{Use} &
+        \textbf{Required variation} \\
+        \midrule
+
+        MF-WARM-01 &
+        Nearly uniform fluid temperature above ambient &
+        Calibration &
+        Selected warm target and documented fill sequence. \\
+
+        MF-WARM-02 &
+        Nearly uniform fluid temperature above ambient &
+        Withheld validation &
+        Repeat or second warm target selected before execution. \\
+
+        MF-COLD-01 &
+        Nearly uniform fluid temperature below ambient &
+        Calibration &
+        Selected cold target and documented condensation class. \\
+
+        MF-COLD-02 &
+        Nearly uniform fluid temperature below ambient &
+        Withheld validation &
+        Repeat or second cold target selected before execution. \\
+
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+\subsection{Analysis and Required Outputs}
+
+The Phase~2 analysis produces the fitted, validated, and frozen reduced-zone thermal model of Section~\ref{sec:heat_loss} and the operational settling value $\tau_{\mathrm{slow,op}}$ of Section~\ref{sec:tau_slow}. Perform the following steps in order:
+
+\begin{enumerate}
+    \item \textbf{Qualify each run.} Confirm from the record: tank uniformity within the preapproved limit before each fill; the initial-condition requirement $\Delta T_{\mathrm{spread}}\leq\Delta T_{\mathrm{iso,eng}}$ over the approved post-fill interval; fill reproducibility, loop inventory, and hydraulic configuration; and residual secondary duty demonstrated to be negligible by comparing the measured residual duties against the transient balance of Equation~\eqref{eq:relax_balance}, not by valve position alone.
+
+    \item \textbf{Select the model-analysis interval.} Choose and record a fitting start time after gross fill and transfer disturbances have subsided; its influence on the fitted parameters is quantified in step~7.
+
+    \item \textbf{Perform the screening fit.} Fit a single exponential to $\Tavg-\Tamb$ over the fitting interval of each calibration run to obtain the screening estimate of $C_{\mathrm{eff}}/UA_{\mathrm{total}}$ described in Section~\ref{sec:relaxation_basis}. This value is an order-of-magnitude check on the fitted model and shall not be reported as, or substituted for, $\tau_{\mathrm{slow}}$ (Section~\ref{sec:tau_slow}).
+
+    \item \textbf{Construct the effective initial state.} Build each regional initial state from the measured fluid and wall distributions using the fixed documented weighting of Section~\ref{sec:relaxation_basis}, and retain the unresolved fluid--wall split as an explicit sensitivity case for step~7.
+
+    \item \textbf{Fit candidate models on the calibration runs only.} For each candidate partition, integrate Equation~\eqref{eq:zone_matrix} from the constructed initial state using the measured ambient records and the fixed ambient-assignment rule, form residuals between the regional effective predictions and the mapped measurements, and minimize the weighted least-squares objective for the warm and cold calibration runs jointly, with weights from the Phase~1 channel uncertainties and subject to the constraints of Section~\ref{sec:heat_loss}. Estimate the parameter covariance from the fit Jacobian, or from a block bootstrap whose block length reflects the Phase~1 correlation times.
+
+    \item \textbf{Select the minimum-complexity model.} Add a region or parameter only when sensitivity, parameter correlation, residual structure, and the withheld validation of step~8 show that it is identifiable; a parameter correlation near unity indicates that the addition is not separately identifiable.
+
+    \item \textbf{Quantify structural sensitivities.} Refit with the fitting start time shifted and with the fluid--wall initial weighting varied over its plausible range, and fold the resulting parameter scatter into the reported uncertainties as a model and initial-condition contribution.
+
+    \item \textbf{Validate on the withheld runs without refitting.} Apply the calibrated model to the withheld warm and cold runs, compare its regional effective-temperature predictions with the mapped measurements, and retain the individual fluid, wall, and Luna residuals as model-adequacy diagnostics. Structured residuals indicate model deficiency, not noise. Determine whether dry and condensing conditions require different parameters or boundary-condition treatments; do not force the condensation classes into one parameter set.
+
+    \item \textbf{Compute $\tau_{\mathrm{slow}}$ and its uncertainty.} Form the state matrix of Equation~\eqref{eq:state_matrix}, reject any fit with a supported mode whose real part is not negative, and evaluate Equation~\eqref{eq:tau_slow}. Propagate the fitted-parameter covariance and the step~7 sensitivities into $\tau_{\mathrm{slow}}$, for example by Monte Carlo sampling of the parameter distribution.
+
+    \item \textbf{Set $\tau_{\mathrm{slow,op}}$.} Take the conservative upper supported bound on $\tau_{\mathrm{slow}}$ over the applicable temperature and condensation range, as defined in Section~\ref{sec:tau_slow}. This value replaces the provisional settling value in the settling and acceptance rules defined in \PhaseOneDoc, Section~2 for all subsequent phases.
+\end{enumerate}
+
+The required outputs are the documented initial conditions, calibration data set, withheld validation data set, fitted model with parameter uncertainties and covariance, validation comparisons, $\tau_{\mathrm{slow}}$ with uncertainty, $\tau_{\mathrm{slow,op}}$, and identified limitations. When Phase~2 is dispositioned as \textbf{Proceed}, freeze and version the Phase~2 model, parameter set, property database, sensor-to-zone mapping, and $\tau_{\mathrm{slow,op}}$ before any Phase~3 run is used for model assessment. Detailed methods are provided in Section~\ref{sec:relaxation_basis}.
+
+
+\subsection{Disposition}
+
+Assign \textbf{Proceed} when the calibration and withheld-validation runs provide a thermal model adequate for its intended use. Assign \textbf{Repeat} when a required run has an unacceptable initial condition, incomplete record, non-negligible secondary duty, suspected trapped gas, or insufficient transient duration. Assign \textbf{Additional work required} when a targeted run, procedure change, or model revision is needed to resolve parameter, temperature-dependence, or condensation effects.
+
+The thermal model shall not be used for exchanger-loss correction until Phase~2 is dispositioned as \textbf{Proceed}.
+
+
+\clearpage
+\appendix
+\section{Nomenclature}
+\label{sec:nomenclature}
+A dot denotes a rate, a hat denotes an estimate or model prediction, an overbar denotes an interval or block mean as stated in context, and $u_x$ denotes the standard uncertainty of quantity $x$. Only symbols used in this phase document are included below.
+
+\begingroup
+\footnotesize
+\setlength{\LTpre}{4pt}
+\setlength{\LTpost}{10pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.78in}>{\raggedright\arraybackslash}p{1.08in}>{\raggedright\arraybackslash}p{3.62in}@{}}
+\caption{Phase 2 nomenclature.}\label{tab:nomenclature}\\
+\toprule
+\textbf{Symbol} & \textbf{Units} & \textbf{Description} \\
+\midrule
+\endfirsthead
+\multicolumn{3}{l}{\small\itshape Table~\ref{tab:nomenclature} continued from previous page}\\
+\toprule
+\textbf{Symbol} & \textbf{Units} & \textbf{Description} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+$T$ & \si{\degreeCelsius} & Generic measured temperature. \\
+$T_j,\,T_{w,i}$ & \si{\degreeCelsius} & Generic internal-fluid and under-insulation wall temperatures. \\
+$\Tamb,\,T_{\mathrm{amb},i}$ & \si{\degreeCelsius} & Representative and region-specific room-air temperatures. \\
+$\Delta T_{\mathrm{spread}},\,\Delta T_{w,\mathrm{spread}},\,\Delta T_{f-w}$ & \si{\degreeCelsius} & Four-point fluid spread, wall-profile spread, and internal--wall mean offset. \\
+$\Delta T_{\mathrm{iso,eng}}$ & \si{\degreeCelsius} & Near-isothermal engineering limit. \\
+$\Tdiag$ & \si{\degreeCelsius} & Unweighted sixteen-channel structural-storage diagnostic mean. \\
+$\QHs,\,\QCs$ & \si{\watt} & Heater duty supplied and cooler duty removed on the secondary side. \\
+$\dot Q_{a,j},\,\dot Q_{a,\mathrm{total}}$ & \si{\watt} & Regional and whole-loop ambient heat exchange; positive to the room. \\
+$\dot Q_{H,\mathrm{res}},\,\dot Q_{C,\mathrm{res}}$ & \si{\watt} & Residual heater addition and cooler removal during nominally passive tests. \\
+$\dot Q_i,\,\dot{\mathbf Q}$ & \si{\watt} & Active heat input to region $i$ and vector of active regional heat inputs. \\
+$G_{i\rightarrow j},\,G_{i,a},\,UA_{\mathrm{total}}$ & \si{\watt\per\kelvin} & Directed interregion transfer, region-to-room transfer, and lumped conductance used for screening. \\
+$C_i,\,C_{\mathrm{eff}},\,\mathbf C$ & \si{\joule\per\kelvin} & Effective regional/lumped thermal capacitance and diagonal capacitance matrix. \\
+$\mathbf A,\,\mathbf G_a,\,\mathbf M$ & Mixed & Reduced-model transfer, ambient-transfer, and state matrices. \\
+$\Theta_i,\,\boldsymbol\Theta,\,\widetilde{\boldsymbol\Theta}$ & \si{\degreeCelsius} & Effective regional stored-energy temperatures and departures from equilibrium. \\
+$U_{\mathrm{loop}}$ & \si{\joule} & Stored thermal energy of the loop. \\
+$\lambda_m,\,\tau_m,\,\tau_{\mathrm{slow}},\,\tau_{\mathrm{slow,op}}$ & Mixed & State-matrix eigenvalue, modal time constant, slowest time constant, and conservative operational settling value. \\
+$i,j,k,m,\ell,\mathcal N_i,c$ & -- & Measurement/model indices, coupled-region set, and documented fluid composition. \\
+\end{longtable}
+\endgroup
+
+\end{document}

@@ -1,0 +1,91 @@
+B.3
+Air Properties
+Air properties are used in the first-order energy balance model for computing external natural
+convection coefficients and cooling jacket heat removal. Table B.4 lists the coefficients. The
+table is transposed relative to Table B.1: because the air fits are eighth order, the coefficients
+are listed as rows and the properties as columns so that the table fits the page width.
+Table B.4: Air polynomial coefficients. T in K.
+ρ
+cp
+µ
+k
+[kg/m3]
+[J/(kg K)]
+[Pa s]
+[W/(m K)]
+a0
+1.261 35
+× 101
+1.0613
+× 103
+−1.007 206 91 × 10−6
+−1.089 854 26 × 10−3
+a1
+−1.883 358 21 × 10−1
+−4.3282
+× 10−1
+8.680 869 91 × 10−8
+8.527 478 29 × 10−5
+a2
+1.536 474 83 × 10−3
+1.0234
+× 10−3
+−6.058 340 48 × 10−11
+2.114 407 37 × 10−7
+a3
+−7.506 288 89 × 10−6
+−6.4747
+× 10−7
+−2.541 751 06 × 10−13
+−1.440 177 02 × 10−9
+a4
+2.254 628 98 × 10−8
+1.3864
+× 10−10
+1.315 893 28 × 10−15
+4.406 695 56 × 10−12
+a5
+−4.077 920 11 × 10−11
+0
+−2.811 117 82 × 10−18
+−7.793 838 78 × 10−15
+a6
+4.072 733 12 × 10−14
+0
+3.023 643 53 × 10−21
+7.577 156 31 × 10−18
+a7
+−1.724 572 68 × 10−17
+0
+−1.331 240 28 × 10−24
+−3.131 389 90 × 10−21
+B.4
+Solid Material Properties
+Table B.5 lists the thermal properties of solid materials used in the wall boundary condition
+and first-order model.
+Table B.5: Solid material thermal properties.
+Material
+k [W/(m K)]
+ε
+Application
+SS-316
+16.3
+0.25
+Pipe walls
+Insulation
+-
+0.95
+Insulation
+Fused quartz
+1.4
+0.95
+Test section
+Aluminum
+237
+0.15
+Cooler shell
+The Cerablanket (64) thermal conductivities were plugged into Excel with the tempera-
+tures converted to Kelvin, then fitted with a Excel’s trendline feature using a second order
+polynomial. The following fits the manufacturer’s data with an R2 value of 0.998, but comes
+with the caveat of not having data near room temperature, so must be extrapolated to that
+113

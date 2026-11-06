@@ -1,0 +1,36 @@
+Bibliography
+[1] International Energy Agency. Energy and AI, 4 2025. URL https://www.iea.org/
+reports/energy-and-ai. Licence: CC BY 4.0.
+[2] Intergovernmental Panel on Climate Change.
+Climate change 2023:
+Synthesis re-
+port. contribution of working groups I, II and III to the sixth assessment report of
+the intergovernmental panel on climate change.
+Synthesis report, IPCC, Geneva,
+Switzerland, 2023.
+Core Writing Team, H. Lee and J. Romero (eds.), 184 pp.
+https://doi.org/10.59327/IPCC/AR6-9789291691647.
+[3] Jacopo Buongiorno, Michael Corradini, John Parsons, and David Petti.
+The
+future of nuclear energy in a carbon-constrained world.
+Interdisciplinary MIT
+study,
+MIT
+Energy
+Initiative,
+Massachusetts
+Institute
+of
+Technology,
+Cam-
+bridge, MA, September 2018.
+Revision 1. https://energy.mit.edu/research/
+future-nuclear-energy-carbon-constrained-world.
+[4] D. N. Basu, S. Bhattacharyya, and P. K. Das. A review of modern advances in analyses
+and applications of single-phase natural circulation loop in nuclear thermal hydraulics.
+Nuclear Engineering and Design, 280:326–348, 2015.
+[5] M. Hashemi-Tilehnoee et al. Natural circulation loops: A review of experimental, sim-
+ulation, and system code studies. Progress in Nuclear Energy, 2025.
+[6] R. R. Romatoski and L.-W. Hu. Fluoride salt coolant properties for nuclear reactor
+applications: A review. Annals of Nuclear Energy, 109:635–647, 2017.
+100

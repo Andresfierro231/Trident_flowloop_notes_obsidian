@@ -1,0 +1,27 @@
+or heaters during operation.
+As previously mentioned, the loop’s four legs are connected to each other by four fit-
+tings. Three of the four junctions are cross-fittings that connect the legs of the loop. These
+cross-fittings are either capped off on their unused ports or have pipe extensions that serve
+some other experimental purpose; the top right junction connects to the melting pot for
+inputting the working fluid, the lower right junction’s lower port connects to the drain tank
+for emptying the loop, and the lower left junction’s bottom port was fitted with a bubble
+injection valve for experiments outside the scope of this thesis. The remaining junction in
+in the upper left corner was a tee-junction whose upper port served as an off-gas vent for
+the loop for the aforementioned bubble injection experiments. Each of these junctions have
+an expanded outer diameter to the accommodate the standard pipe, with an inner diameter
+of 25.4 mm (1 in) for their ports and an for the interior region of the junction, each fitting
+had an inner diameter of 22.225 mm (7/8 in) for each of the intersecting cylindrical regions
+of the junction.
+4.1.2
+Thermal Insulation
+For each experiment, the loop is insulated with ceramic fiber insulation sourced from McMaster-
+Carr (code 93315K18) to reduce passive heat losses to the environment. This insulation was
+configured differently between the salt and water experiments due to the different operating
+temperatures, with extra insulation applied for the salt tests until the surface temperature
+of the insulation was deemed safe. The exact configuration for both the water and salt tests
+has been lost and is a large source of uncertainty that is difficult to quantify. More infor-
+mation on how this uncertainty was handled can be found in Chapter 5. The test section
+(quartz glass) is uninsulated to maintain optical access for the PIV measurements, which
+results in the second largest source of heat loss after the heat exchanger and is heated in the
+higher-temperature molten salt cases to counteract these losses.
+35

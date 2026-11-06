@@ -1,0 +1,58 @@
+Table 4.5: Bulk Velocity and Mass Flow Rate from Experiments of Reis et al. [9].
+Quantity
+Salt 1
+Salt 2
+Salt 3
+Salt 4
+Water 1
+Water 2
+Water 3
+Water 4
+U∞[m/s]
+0.0185
+0.0196
+0.0205
+0.0237
+0.0190
+0.0230
+0.0277
+0.0350
+˙m [kg/s]
+0.0158
+0.0168
+0.0175
+0.0201
+0.0083
+0.0100
+0.0120
+0.0151
+and the experimentalists, it was determined that the method used to produce the values for
+U∞seen in Table 4.5 was
+UPIV = 2
+R2
+Z R
+0
+U(r) r dr,
+(4.9)
+U∞= UPIV
+ Dtest
+Dpipe
+2
+.
+(4.10)
+For these calculations, the velocity data captured in the full-field PIV data was assumed
+to be symmetrical for each case, then the right half of the data was used for U(r), where
+r = 0 is the centerline and R = Dtest/2 is the right wall of the test section. Dtest is the
+inner diameter of the test section (0.83") and Dpipe is the inner diameter of the stainless steel
+pipe used in the majority of the loop (0.93"). No post-processing scripts could be found by
+the experimentalists to confirm this exact implementation, but it reproduces the tabulated
+values for U∞within 1.3 % for the available data.
+The "available data" is specified apart from all test cases because the full-field velocity
+data for each water case had been lost, deleted, or for some other reason was unrecoverable
+despite extensive efforts by the experimentalists to locate and provide that data. Thankfully,
+the full-field velocity data for the salt cases was recovered and subsequently provided, so we
+are able to test reconstruction methodologies for QoIs that require the full-field velocity data
+to bound the uncertainty attached to any given reconstruction. For instance, we are able
+to attempt an extraction of the full-field velocity data for each of the water cases based on
+Figure 14 from Reis et al. [9].
+43

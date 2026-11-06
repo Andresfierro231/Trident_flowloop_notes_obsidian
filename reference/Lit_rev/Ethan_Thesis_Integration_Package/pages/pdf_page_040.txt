@@ -1,0 +1,50 @@
+Table 3.1: Mesh refinement families. The full-loop family (r = 1.5) is used for solution
+verification and validation; the BC-verification family (r = 2) is used for code verification.
+Full-loop family (r = 1.5)
+BC-verification family (r = 2)
+Coarse
+Medium
+Fine
+Coarse
+Medium
+Fine
+Xfine
+Bulk cell size [mm]
+2.25
+1.50
+1.00
+2.80
+1.40
+0.70
+0.35
+First cell size [mm]
+0.225
+0.150
+0.100
+0.600
+0.300
+0.150
+0.075
+3.4
+Boundary Condition Verification
+The full-loop’s wall is represented by neither a simple fixed-temperature nor fixed-flux bound-
+ary condition, but instead uses a custom boundary condition, rcExternalTemperature,
+which solves a one-dimensional, cylindrical conduction problem from the pipe’s inner sur-
+face through the composite wall layers to find the external temperature that is then used
+to solve for external losses from convective and radiative heat transfer. This was done for
+a combination of two reasons: the first was that early on, before the work had been scoped
+for a thesis-grade problem, the problem was assumed to be simple and that it would not
+need to model the full, solid domain and associated conjugate heat transfer. So, to not
+scrap the high-quality fluid domain mesh or significantly retrofit the working pipeline, and
+since we are only interested in the steady-state solution, a computed thermal circuit could
+prove sufficient. The second reason was, with the first established, OpenFOAM V13 did not
+have a stock boundary condition that would properly model the heat transfer for the system
+of interest as the closest match, externalTemperature, assumed a slab geometry for it’s
+thermal circuit model, which under-predicts losses through the boundary due to the greatly
+increased surface area resultant from the thick insulation adorning the facility’s exterior.
+3.4.1
+Verification Geometry
+Boundary condition code verification was performed on a simple, two-segmented cylinder
+with an O-grid mesh and deliberately constructed for comparison to an analytical solution.
+The domain was comprised of an inner radius r0 = 10.0 mm, an SS-316 wall (1.0 mm, k =
+26

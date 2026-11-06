@@ -1,0 +1,40 @@
+table,pdf_page,printed_page,caption_first_line,page_image,text_file
+3.1,40,26,Mesh refinement families. The full-loop family (r = 1.5) is used for solution,pages/pdf_page_040.png,pages/pdf_page_040.txt
+4.1,53,39,Prandtl Number Reconstruction Comparisons,pages/pdf_page_053.png,pages/pdf_page_053.txt
+4.2,55,41,HITEC salt experimental test cases from Reis et al. [9].,pages/pdf_page_055.png,pages/pdf_page_055.txt
+4.3,55,41,Water experimental test cases from Reis et al. [9].,pages/pdf_page_055.png,pages/pdf_page_055.txt
+4.4,56,42,Experimental Energy Balance from Experiments of Reis et al. [9].,pages/pdf_page_056.png,pages/pdf_page_056.txt
+4.5,57,43,Bulk Velocity and Mass Flow Rate from Experiments of Reis et al. [9].,pages/pdf_page_057.png,pages/pdf_page_057.txt
+4.6,61,47,Digitized VS Raw Residuals for Salt Tests,pages/pdf_page_061.png,pages/pdf_page_061.txt
+4.7,61,47,Contributions to Data Uncertainty (uD),pages/pdf_page_061.png,pages/pdf_page_061.txt
+5.1,81,67,Uncertain Simulation Inputs and Their Standard Uncertainties,pages/pdf_page_081.png,pages/pdf_page_081.txt
+5.2,85,71,Contributions to Modeling Input Uncertainty (uinput),pages/pdf_page_085.png,pages/pdf_page_085.txt
+6.1,90,76,Representative cell sizes for BC verification.,pages/pdf_page_090.png,pages/pdf_page_090.txt
+6.2,90,76,BC verification: Mode A (convection only).,pages/pdf_page_090.png,pages/pdf_page_090.txt
+6.3,90,76,BC verification: Mode B (radiation only).,pages/pdf_page_090.png,pages/pdf_page_090.txt
+6.4,91,77,BC verification: Mode C (mixed convection + radiation).,pages/pdf_page_091.png,pages/pdf_page_091.txt
+6.5,91,77,"GCI summary for BC verification, Modes A-C.",pages/pdf_page_091.png,pages/pdf_page_091.txt
+6.6,97,83,"unum for CFD Quantities of Interest (Laminar family, two-grid GCI)",pages/pdf_page_097.png,pages/pdf_page_097.txt
+6.7,97,83,Validation uncertainty for (TPmean) and (TWmean).,pages/pdf_page_097.png,pages/pdf_page_097.txt
+6.8,98,84,Validation uncertainty for the mass flow rate: test-section cross-sectional flux,pages/pdf_page_098.png,pages/pdf_page_098.txt
+6.9,98,84,Validation uncertainty for the bulk velocity: reconstructed PIV methodology,pages/pdf_page_098.png,pages/pdf_page_098.txt
+6.10,109,95,Validation verdicts for the medium refinement level ( ˙m operator: piv_method).,pages/pdf_page_109.png,pages/pdf_page_109.txt
+A.1,121,107,Loop path segments. All dimensions in mm. Default pipe radius is 11.811 mm.,pages/pdf_page_121.png,pages/pdf_page_121.txt
+A.2,123,109,BC Mesh refinement levels.,pages/pdf_page_123.png,pages/pdf_page_123.txt
+A.3,124,110,Mesh refinement levels.,pages/pdf_page_124.png,pages/pdf_page_124.txt
+A.4,124,110,Loop Mesh Statistics,pages/pdf_page_124.png,pages/pdf_page_124.txt
+A.5,124,110,BC Verification Mesh Statistics,pages/pdf_page_124.png,pages/pdf_page_124.txt
+B.1,125,111,HITEC salt polynomial coefficients. T in K.,pages/pdf_page_125.png,pages/pdf_page_125.txt
+B.2,126,112,Water polynomial coefficients. T in K.,pages/pdf_page_126.png,pages/pdf_page_126.txt
+B.3,126,112,Water fit residuals relative to IAPWS-IF97.,pages/pdf_page_126.png,pages/pdf_page_126.txt
+B.4,127,113,Air polynomial coefficients. T in K.,pages/pdf_page_127.png,pages/pdf_page_127.txt
+B.5,127,113,Solid material thermal properties.,pages/pdf_page_127.png,pages/pdf_page_127.txt
+C.1,130,116,Experimental thermocouple readings [◦C] for salt test cases.,pages/pdf_page_130.png,pages/pdf_page_130.txt
+C.2,130,116,Experimental thermocouple readings [◦C] for water test cases.,pages/pdf_page_130.png,pages/pdf_page_130.txt
+C.3,131,117,Nondimensional parameters for salt test cases (global and local).,pages/pdf_page_131.png,pages/pdf_page_131.txt
+C.4,131,117,Nondimensional parameters for water test cases (global and local).,pages/pdf_page_131.png,pages/pdf_page_131.txt
+C.5,132,118,"Numerical Uncertainties for CFD Quantities of Interest (water tests, k ω SSTLM",pages/pdf_page_132.png,pages/pdf_page_132.txt
+C.6,133,119,,pages/pdf_page_133.png,pages/pdf_page_133.txt
+C.7,133,119,Validation uncertainty for the centerline (TPmean) and wall (TWmean) tempera-,pages/pdf_page_133.png,pages/pdf_page_133.txt
+C.8,134,120,Validation uncertainty for the mass flow rate: test-section cross-sectional flux,pages/pdf_page_134.png,pages/pdf_page_134.txt
+C.9,135,121,Validation uncertainty for the bulk velocity: reconstructed PIV methodology,pages/pdf_page_135.png,pages/pdf_page_135.txt

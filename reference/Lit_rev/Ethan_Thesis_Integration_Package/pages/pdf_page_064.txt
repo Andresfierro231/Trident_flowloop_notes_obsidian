@@ -1,0 +1,8 @@
+ration with the experimentalists help determine the exact fittings purchased from McMaster-
+Carr for the corners of the loop and the reducers used to mount the heat exchanger to the
+facility. Using this information, a CAD model was reverse-engineered from compatible parts
+listed on McMaster-Carr.
+Figure 5.2: Reverse Engineered CAD Overlaid on Image of Experimental Facility.
+From this effort to better understand the geometry of the facility before continuing to
+contingent studies such as the first order model and CFD simulation, a few items are worth
+50

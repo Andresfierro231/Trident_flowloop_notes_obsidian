@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-21",
+  "mode": "targeted continuation,not restarted discovery",
+  "sources": [
+    "S19",
+    "S29",
+    "S71",
+    "S72",
+    "S73",
+    "S74"
+  ],
+  "queries": [
+    "Exact uploaded S19/S72/S74 title/DOI verification",
+    "Validating predictions of unobserved quantities Oliver Moser pdf",
+    "Optimal design of validation experiments for the prediction of quantities of interest pdf",
+    "Modelling of heat transfer in a molten salt loop using computational fluid dynamics pdf"
+  ],
+  "primary_records": [
+    "https://doi.org/10.1137/24M1649344",
+    "https://arxiv.org/abs/2403.18072v2",
+    "https://doi.org/10.1016/j.cma.2025.118486",
+    "https://doi.org/10.1016/j.applthermaleng.2025.128986",
+    "https://doi.org/10.1016/j.anucene.2025.111757",
+    "https://www.mdpi.com/2673-4362/7/3/45",
+    "https://arxiv.org/abs/1404.7555",
+    "https://arxiv.org/abs/2303.06114"
+  ],
+  "access_results": [
+    "S19/S72/S74 uploaded published originals read",
+    "S29 publisherweb429;localpublished36ppavailable andread",
+    "S71 publisheraccesspage;technicalextractionfromarxivv2 only",
+    "S20publisher403;no fulloriginalretrieved"
+  ],
+  "new_retrievals": [
+    {
+      "lead": "unobserved_QoI",
+      "url": "https://arxiv.org/pdf/1404.7555",
+      "status": 200,
+      "bytes": 841409,
+      "path": "/workspace/scratch/24d300ddb639/trident_source_dossiers/available/unobserved_QoI_retrieved.pdf",
+      "pages": 43,
+      "identity": "Validating Predictions of Unobserved Quantities\nTodd A. Oliver∗,a, Gabriel Terejanub, Christopher S. Simmonsa, Robert D. Mosera,c\naCenter for Predictive Engineering and Computational Sciences,\nInstitute for Computational Engineering and Sciences, The University of Texas at Austin\nbDepartment of Computer Science and Engineering, University of South Carolina\ncDepartment of Mechanical Engineering, The University of Texas at Austin\nAbstract\nThe ultimate purpose of most computational models is to make predictions, commonly in support\nof some decision-making process (e.g., for design or operation of some system). The quantities that\nneed to be predicted (the quantities of interest or QoIs) are generally not experimentally observable\nbefore the prediction, since otherwise no prediction would be needed. Assessing the validity of such\nextrapolative predictions, which is critical to informed decision-making, is challenging. In classical\napproaches to validation, model outputs for observed quantities are compared to observations to\ndetermine if they are consistent. By itself, this consistency only ensures that the model can predict\nthe observed quantities under the conditions of the observations.\nThis limitation dramatically\nreduces the utility of the validation eﬀort for decision making because it implies nothing about\npredictions of unobserved QoIs or for scenarios outside of the range of observations. However,\nthere is no agreement in the scientiﬁc community today regarding best practices for validation\nof extrapolative predictions made using computational models. The purpose of this paper is to\npropose and explore a validation and predictive assessment process that supports extr",
+      "terminal": "fm?id=293172.293216\n[26] Strong, M., Oakley, J. E., Chilcott, J., 2011. Managing structural uncertainty in health economic decision\nmodels: a discrepancy approach. Journal of the Royal Statistical Society: Series C (Applied Statistics).\n[27] Van Horn, K. S., 2003. Constructing a logic of plausible inference: A guide to Cox’s theorem. International\nJournal of Approximate Reasoning 34 (1), 3–24.\n43\n"
+    },
+    {
+      "lead": "validation_design",
+      "url": "https://arxiv.org/pdf/2303.06114",
+      "status": 200,
+      "bytes": 1189884,
+      "path": "/workspace/scratch/24d300ddb639/trident_source_dossiers/available/validation_design_retrieved.pdf",
+      "pages": 31,
+      "identity": "Optimal Design of Validation Experiments for the Prediction of\nQuantities of Interest\nAntonin Paquette-Ruﬁangea,∗, Serge Prudhommea, Marc Laforesta\naD´epartement de math´ematiques et de g´enie industriel, Polytechnique Montr´eal, H3T 1J4, Montr´eal, Canada\nAbstract\nNumerical predictions of quantities of interest measured within physical systems rely on the use\nof mathematical models that should be validated, or at best, not invalidated.\nModel validation\nusually involves the comparison of experimental data (outputs from the system of interest) and model\npredictions, both obtained at a speciﬁc validation scenario. The design of this validation experiment\nshould be directly relevant to the objective of the model, that of predicting a quantity of interest at\na prediction scenario. In this paper, we address two speciﬁc issues arising when designing validation\nexperiments. The ﬁrst issue consists in determining an appropriate validation scenario in cases where\nthe prediction scenario cannot be carried out in a controlled environment. The second issue concerns\nthe selection of observations when the quantity of interest cannot be readily observed. The proposed\nmethodology involves the computation of inﬂuence matrices that characterize the response surface\nof given model functionals. Minimization of the distance between inﬂuence matrices allow one for\nselecting a validation experiment most representative of the prediction scenario. We illustrate our\napproach on two numerical examples. The ﬁrst example considers the validation of a simple model\nbased on an ordinary diﬀerential equation governing an object in free fall to put in evidence the\nimportance of the choice of the validatio",
+      "terminal": "e not very close to the prediction point.\nThese veriﬁcation experiments demonstrate the robustness of the solver NOMAD for solving the\noptimal design problem (16). We are thus conﬁdent that the optimal validation scenarios obtained\nearlier for the projectile and pollutant transport problems are reasonable local minima of the objective\nfunction (16) under their respective constrained sets Xlab.\n31\n"
+    }
+  ],
+  "limitations": [
+    "Not exhaustive/systematic noveltyreview",
+    "S75/S76methodsnotread;no claimsassigned",
+    "Exactmanuscript/journalcorrespondencesunverifiedunlessdossierstatesotherwise",
+    "Nooperatingdata,CFD,newinstrumentorexperimentalexecution"
+  ]
+}

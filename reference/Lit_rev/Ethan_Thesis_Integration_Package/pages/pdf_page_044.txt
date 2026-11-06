@@ -1,0 +1,32 @@
+• Wall temperatures at eleven locations (TW1-TW11), corresponding to thermocou-
+ples mounted on the external surface of the pipe walls.
+• Velocity profiles within the field of view (FOV) of the experimental PIV window.
+The primary targets here are the published fluid velocity profiles at three normalized
+heights, Y/H = 0.25, 0.50, and 0.75, where Y is the distance from the bottom of the
+PIV FOV and H is the height of the PIV FOV.
+• Mass flow rate is computed two ways. The first way is from integrating cross-sectional
+mass flux from multiple, axially normal planes around the loop to ensure consistency.
+The second way accounts for the methodology used by Reis et al. [9], which used the
+grid average of the middle-plane velocity field data provided by the PIV.
+3.6
+Validation Error Assessment
+Using the ASME standard for Verification and Validation, ASME V&V 20-2009 [40], the
+validation comparison error is defined as:
+E = S −D,
+(3.14)
+Where S is the simulation prediction and D is the experimental measurement.
+The
+combined validation uncertainty is:
+uval =
+q
+u2
+num + u2
+input + u2
+D,
+(3.15)
+where unum is the numerical uncertainty determined from the GCI, uinput is the uncer-
+tainty for the simulation input parameters, and uD is the experimental uncertainty.
+If |E| ≤uval, the validation comparison is within the the representative uncertainty
+resultant from the combination of other uncertainties. If |E| > uval, it is indicative of a
+modeling deficiency.
+30

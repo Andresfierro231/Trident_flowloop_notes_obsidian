@@ -1,0 +1,18 @@
+Chapter 7
+Conclusions
+7.1
+Summary
+This thesis presented a comprehensive verification and validation study of three-dimensional
+CFD simulations of the TAMU single-phase natural circulation loop, targeting the experi-
+mental data of Reis, Seo, and Hassan [9]. The principal contributions are:
+1. An automated CFD modeling pipeline for the TAMU natural circulation loop capable
+of running and validating a model resultant from input configuration files.
+2. An integrated first-order model within the modeling pipeline capable of significantly
+reducing uncertainty associated with the energy accounting of the original experiment.
+3. Successfully verifiied the implementation of the custom rcExternalTemperature bounadry
+condtion as a suitable reduced-order model for cylindrical pipe heat losses when com-
+pared to the effort and computational expense of a full CHT simulation.
+4. Performed systemic analysis to successfully follow the American Society of Mechanical
+Engineer’s standard for Verification and Validation and vaidate the simulation pipeline
+for modeling the experimental effort detailed in Reis et al. [9].
+98

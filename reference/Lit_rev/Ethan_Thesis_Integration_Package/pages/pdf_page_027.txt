@@ -1,0 +1,28 @@
+for the TAMU NCL and using the published data (reiterated in Appendix C), we find that
+hydrodynamic ranges for water span 0.504m - 1.280m and 0.053m - 0.113m for salt and the
+thermal entry lengths range from 3.058m - 5.431m for water and 4.128m - 5.124m. Given the
+loop’s legs are less than 1m each and the total path length of the loop is roughly 4m (Section
+??), this finding undermines analysis done with the assumption of fully-developed flow and
+precludes the safe use of analytic solutions such as for the Nusselt number for laminar flow,
+common in engineering analysis. This limitation is revisted in Chapters 3 and 5.
+2.2
+Molten Salt Natural Circulation Experiments
+Experimental data for molten salt natural circulation is limited by the practical challenges
+of high-temperature operation, corrosion, and optical access, though efforts toward charac-
+terizing the thermal-hydraulic behavior of salt loops span more than a decade. Srivastava
+et al. [21] performed one of the first combined experiment/code validation exercises on a
+molten nitrate salt loop, studying the transient evolution and subsequent steady state of
+the loop’s flow and temperature distributions. Their thermal-hydraulic code captured the
+majority of the experimentally observed trends, with the greatest deviation occurring in the
+heater-trip transient, where over-predicted heat losses cooled the modeled system consider-
+ably faster than was observed experimentally, which they theorize as being resultant from
+heat absorbed into the structure of the loop that was not captured in the model. Most
+modern experiments similarly use nitrate salts, whose low melting points make them far
+easier to work with than the fluoride salts favored for nuclear applications.
+That rarity
+makes the natural circulation FLiBe loop operated at the University of Wisconsin-Madison
+by Britsch et al. [22] particularly notable. One finding of theirs deserves emphasis: no
+simple correlation between the loop’s temperature readings (∆T, 1/∆T, Tavg, or similar)
+and the measured flow velocity could be established, with the best single predictor among
+their thermocouples achieving only R2 = 0.56. This complexity is counter-intuitive relative
+13

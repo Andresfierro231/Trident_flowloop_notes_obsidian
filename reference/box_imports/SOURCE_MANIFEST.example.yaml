@@ -1,0 +1,27 @@
+schema_version: 1
+package_id: BOX-YYYY-MM-DD-short-name
+retrieved_at: YYYY-MM-DDTHH:MM:SS-05:00
+retrieved_by: unknown
+purpose: replace-with-bounded-research-purpose
+source:
+  remote: box
+  path: VCU ACU Shared Research/path/to/document.pdf
+  box_item_id: unknown
+  box_version: unknown
+  web_link: unknown
+  modified_at: unknown
+local:
+  filename: document.pdf
+  size_bytes: unknown
+  sha256: unknown
+review:
+  evidence_status: provisional
+  authority: unknown
+  applicability: unknown
+  conflicts: []
+  reviewed_by: unknown
+  reviewed_at: unknown
+retention:
+  committed_to_git: false
+  external_storage_id: unknown
+  sensitivity_review: pending

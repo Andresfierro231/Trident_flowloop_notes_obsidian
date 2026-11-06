@@ -1,0 +1,62 @@
+Quantity
+Value
+Pipe inner radius r0
+10.0 mm
+SS-316 outer radius r1
+11.0 mm
+Insulation outer radius r2
+61.0 mm
+Area ratio r2/r0
+6.1
+Wall resistance Rps
+0.119 02 m2 K/W
+Internal film resistance Rint
+0.001 39 m2 K/W
+External resistance Rext (Modes A, C)
+0.029 39 m2 K/W
+Graetz number Gz
+3554
+Average Nusselt Nuavg
+26.67
+Internal hint
+719.8 W/(m2 K)
+Stefan–Boltzmann constant σ
+5.670 × 10−8 W/(m2 K4)
+Table C.5: Numerical Uncertainties for CFD Quantities of Interest (water tests, k ω SSTLM
+turbulence model, two-grid GCI, medium level)
+QoI
+Water 1
+Water 2
+Water 3
+Water 4
+TPmean [K]
+0.004
+0.016
+0.060
+0.076
+TWmean [K]
+0.033
+0.051
+0.040
+0.046
+˙mflow [%]
+0.37
+0.50
+0.92
+0.59
+˙mPIV [%]
+0.43
+4.90
+4.05
+6.83
+UPIV [%]
+0.43
+4.90
+4.05
+6.84
+Umax [%]
+0.34
+3.29
+3.00
+0.76
+118

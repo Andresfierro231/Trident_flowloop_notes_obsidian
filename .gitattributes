@@ -6,3 +6,7 @@ archive/** -whitespace
 
 # Source meeting record retains its original Markdown hard line breaks.
 "M. Meeting Notes/'26 Oct 14 - Moser meeting feedback on abstract.md" -whitespace
+
+# Imported reference sources and pre-move navigation retain their original bytes.
+reference/** -text -whitespace
+X.Chat/01_sources/reference_migration/** -text -whitespace

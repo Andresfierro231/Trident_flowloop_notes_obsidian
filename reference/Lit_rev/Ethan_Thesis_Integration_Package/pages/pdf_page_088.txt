@@ -1,0 +1,34 @@
+The internal film resistance accounts for the thermally developing boundary layer between
+the bulk fluid and the pipe inner wall. With Gz = Re Pr D/Ltest = 334 × 53.2 × 0.02/0.1 =
+3554, the correlation of Equation (3.13) gives NuD = 26.67, yielding an internal convection
+coefficient of hint = NuD kf/D = 720W / m2K. The three resistances are:
+• Rint = 1/hint = 0.00139 m2K / W (internal film; only 0.93% of total)
+• Rps = 0.11902 m2K/W (cylindrical wall conduction, dominated by the 50 mm insula-
+tion layer)
+• Rext = 1/(ar hext) = 0.02939m2K/W (external convection, where ar = r2/r0 = 6.1 is
+the area ratio)
+While the internal film resistance contributes less than 1% of the total, it is still necessary
+to account for, otherwise the GCI will have a near 1% error that always remains. For Mode B
+(radiation only) and Mode C (mixed), the outer surface temperature was obtained by Newton
+iteration on the nonlinear energy balance at the outer surface, using Reff = Rint + Rps as the
+total resistance from bulk fluid to outer surface.
+The analytical reference values are:
+Mode
+Qanalytical [W]
+qanalytical [W/m2]
+A: Convection only
+−6.022
+−958.5
+B: Radiation only
+−6.076
+−967.0
+C: Convection + radiation
+−6.673
+−1062.1
+6.1.3
+Grid Convergence Results
+Four systematically refined meshes were used (refinement ratio r = 2):
+We can calculate the representative cell size using Equation 3.11 to allow us to use a
+single reference size for a mesh rather than use either the first cell or bulk cell size used
+in the grading of the mesh. When calculating the representative cell size in this way, the
+74

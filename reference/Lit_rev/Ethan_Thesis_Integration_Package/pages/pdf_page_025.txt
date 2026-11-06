@@ -1,0 +1,29 @@
+local density, whereas cooling causes it to contract, raising its local density. The consequence
+of those density changes can be seen by considering a fluid parcel of volume V and density
+ρ surrounded by fluid of density ρ0. By Archimedes’ principle, the surrounding fluid exerts
+an upward buoyant force equal to the weight of the displaced fluid,
+Fb = ρ0 g V,
+(2.1)
+where g is the gravitational acceleration, while the parcel itself weighs ρgV , leaving a net
+vertical force
+Fnet = (ρ0 −ρ) g V.
+(2.2)
+In a loop that heats its fluid at a low elevation and cools it at a higher one, this imbalance
+can drive a continuous, self-sustained flow that requires no external pumping power, which
+is what we called natural circulation [13]. Since the density of a fluid is a function of its
+temperature, engineering analyses over modest temperature ranges often linearize the density
+about a reference state (ρ0, T0) as
+ρ(T) ≈ρ0 + (∂ρ/∂T)p (T −T0),
+(2.3)
+which is conventionally rewritten in terms of the volumetric thermal expansion coefficient,
+β = −ρ−1
+0 (∂ρ/∂T)p, as
+ρ(T) ≈ρ0 [ 1 −β (T −T0) ] .
+(2.4)
+Equations 2.3 and 2.4 for the basis of the Boussinesq approximation. The classic ap-
+proximation was formalized by Spiegel and Veronis [14] and later tightened by Gray and
+Giorgini [15]. The approximation treat density as constant in the unsteady and convective
+terms and its linear variation is kept only in the gravitational body force while each other
+physical property is held constant. Gray and Giorgini quantified when that treatment is
+appropriate only when properties vary from their reference value by less than 10%, which for
+11

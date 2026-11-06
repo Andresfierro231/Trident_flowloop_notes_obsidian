@@ -1,0 +1,74 @@
+5.6
+Execution Pipeline
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+66
+5.7
+Input Uncertainty . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+67
+6
+Results
+72
+6.1
+Boundary Condition Verification . . . . . . . . . . . . . . . . . . . . . . . . .
+72
+6.1.1
+Verification Geometry
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+72
+6.1.2
+Analytical Reference . . . . . . . . . . . . . . . . . . . . . . . . . . .
+73
+6.1.3
+Grid Convergence Results
+. . . . . . . . . . . . . . . . . . . . . . . .
+74
+6.1.4
+Observed Convergence Order
+. . . . . . . . . . . . . . . . . . . . . .
+77
+6.2
+Grid Convergence Study . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+79
+6.3
+Validation Uncertainties
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+83
+6.4
+Validation Against Experimental Data
+. . . . . . . . . . . . . . . . . . . . .
+84
+6.5
+Discrepancies and Possible Explanations
+. . . . . . . . . . . . . . . . . . . .
+96
+7
+Conclusions
+98
+7.1
+Summary
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+98
+7.2
+Future Work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+99
+A Mesh Details
+107
+A.1 Loop Geometry Specification . . . . . . . . . . . . . . . . . . . . . . . . . . .
+107
+A.2 Junction Specifications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+109
+A.3 Mesh Refinement Levels
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+109
+B Thermophysical Properties
+111
+B.1 HITEC Molten Salt . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+111
+B.2 Water
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+112
+B.3 Air Properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+113
+B.4 Solid Material Properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+113
+v

@@ -1,0 +1,41 @@
+5.4.2
+Temperature: rcExternalTemperature
+A custom boundary condition, rcExternalTemperature, was developed to model the ther-
+mal resistance of cylindrical pipe walls with external convection and radiation. This replaces
+OpenFOAM’s stock externalTemperature boundary condition, which assumes a slab ge-
+ometry for the wall conduction resistance.
+For the TAMU loop, the thickly insulated pipes can have an outer-to-inner radius ratio
+in excess of 5, making the slab approximation inaccurate.
+Physics Model
+The boundary condition solves a one-dimensional cylindrical conduction problem from the
+pipe inner surface to the outer surface, coupled with external heat transfer:
+1. Cylindrical wall conduction: The thermal resistance (per unit inner surface area)
+through N concentric layers is:
+Rps =
+N
+X
+i=1
+r0 ln(ri/ri−1)
+ki
+,
+(5.23)
+where r0 is the pipe inner radius, ri−1 and ri are the inner and outer radii of layer i
+(so rN is the outermost surface), and ki is the layer conductivity.
+2. External heat transfer: At the outer surface, convection and radiation are applied:
+qout = Aouter
+Ainner
+
+hext(Ts −Ta) + εσ(T 4
+s −T 4
+sur)
+
+,
+(5.24)
+where Aouter/Ainner = router/r0 is the area ratio for a cylinder.
+3. Energy balance: The heat flux from the fluid into the wall equals the outward heat
+loss:
+Tp −Ts
+Rps
+= qout,
+(5.25)
+63

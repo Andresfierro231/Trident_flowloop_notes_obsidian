@@ -1,0 +1,277 @@
+[
+  {
+    "id": "S56-C01",
+    "claim": "Single-phase similarity includes fluid, solid and interface physics",
+    "sources": [
+      "S56"
+    ],
+    "locator": "§2.1/Eqs1–16, PDF2–3 / 412–413",
+    "limit": "1D/Boussinesq; axial solid conduction omitted",
+    "dossier": "dossiers/S56_Ishii_Kataoka_1984.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S56-C02",
+    "claim": "Pr matching alone is insufficient for general loop similarity",
+    "sources": [
+      "S56"
+    ],
+    "locator": "§§2.1–2.2/Eqs12–35, PDF3–5",
+    "limit": "Our direct synthesis of the required groups",
+    "dossier": "dossiers/S56_Ishii_Kataoka_1984.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S56-C03",
+    "claim": "h-dependent similarity is regime-sensitive and difficult to satisfy",
+    "sources": [
+      "S56"
+    ],
+    "locator": "§2.2/Eqs36–41, PDF5 / 415",
+    "limit": "Illustrative correlations, not modern universal closures",
+    "dossier": "dossiers/S56_Ishii_Kataoka_1984.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S56-C04",
+    "claim": "Relaxing Biot/Stanton has a target/time-scale qualification",
+    "sources": [
+      "S56"
+    ],
+    "locator": "§2.3, PDF6–7 / 416–417",
+    "limit": "Not permission to ignore wall/local errors",
+    "dossier": "dossiers/S56_Ishii_Kataoka_1984.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S56-C05",
+    "claim": "Transport/conduction and clock scaling differ from simple geometric scale",
+    "sources": [
+      "S56"
+    ],
+    "locator": "Eq12/Eqs56–59, PDF3/6",
+    "limit": "Conditional same-material/fluid simplifications",
+    "dossier": "dossiers/S56_Ishii_Kataoka_1984.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S56-C06",
+    "claim": "LOFT application is preliminary feasibility, not new matched-data validation",
+    "sources": [
+      "S56"
+    ],
+    "locator": "§2.4/§4, PDF6–7/13–14",
+    "limit": "Fluid/geometry application differs from TRIDENT",
+    "dossier": "dossiers/S56_Ishii_Kataoka_1984.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S56-C07",
+    "claim": "CHF is a separate two-phase scope",
+    "sources": [
+      "S56"
+    ],
+    "locator": "§1/§3/§4, PDF1–2/7–14",
+    "limit": "Detailed two-phase derivations not extracted",
+    "dossier": "dossiers/S56_Ishii_Kataoka_1984.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S60-C01",
+    "claim": "Local high-Pr flow already has planar PIV/CFD prior evidence",
+    "sources": [
+      "S60"
+    ],
+    "locator": "§§3–4/Figs12–18, PDF7–12",
+    "limit": "Oil surrogate, not reactor flow",
+    "dossier": "dossiers/S60_Shin_2018.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S60-C02",
+    "claim": "PIV covers100–300W while CFD reaches600W",
+    "sources": [
+      "S60"
+    ],
+    "locator": "§3.2/§4.2/Table7, PDF9/11",
+    "limit": "Do not merge observation and simulation ranges",
+    "dossier": "dossiers/S60_Shin_2018.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S60-C03",
+    "claim": "Full3D helical extent is inferred, not independently measured throughout",
+    "sources": [
+      "S60"
+    ],
+    "locator": "§4.1/Figs13–18, PDF8/11",
+    "limit": "Planar observation plus numerical interpretation",
+    "dossier": "dossiers/S60_Shin_2018.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S60-C04",
+    "claim": "Power/temperature/Pr and other mechanisms covary",
+    "sources": [
+      "S60"
+    ],
+    "locator": "§4/Table7/Figs19–23, PDF9–13",
+    "limit": "No isolated causal Pr manipulation",
+    "dossier": "dossiers/S60_Shin_2018.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S60-C05",
+    "claim": "Boundary-layer equation/range conventions need checking",
+    "sources": [
+      "S60"
+    ],
+    "locator": "Eqs5–7/Table8, PDF6/13",
+    "limit": "Sign/range/observation-definition ambiguity",
+    "dossier": "dossiers/S60_Shin_2018.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S60-C06",
+    "claim": "CFD comparison and numerical checks do not give full predictive UQ",
+    "sources": [
+      "S60"
+    ],
+    "locator": "§3.3/Table4/Table6, PDF5/7/9",
+    "limit": "No formal local-field/time-step uncertainty",
+    "dossier": "dossiers/S60_Shin_2018.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S60-C07",
+    "claim": "Centerline/free-stream and bulk velocities are different observation quantities",
+    "sources": [
+      "S60"
+    ],
+    "locator": "§4.3/Table7–8, PDF9/13",
+    "limit": "Important for sparse thermal/flow reduction",
+    "dossier": "dossiers/S60_Shin_2018.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S57-C01",
+    "claim": "Closure choice can switch predicted stability for the reference loop",
+    "sources": [
+      "S57"
+    ],
+    "locator": "§§2–3.1/Figs3–12, PDF5–17",
+    "limit": "Water-loop cases; not universal friction selection",
+    "dossier": "dossiers/S57_Ambrosini_2004.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S57-C02",
+    "claim": "Numerical diffusion can suppress or alter predicted instability",
+    "sources": [
+      "S57"
+    ],
+    "locator": "§2/§3.1, PDF5–6/16–17",
+    "limit": "Discretization-specific; refine time/space/observables",
+    "dossier": "dossiers/S57_Ambrosini_2004.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S57-C03",
+    "claim": "BC/coefficient changes must be retained in comparisons",
+    "sources": [
+      "S57"
+    ],
+    "locator": "§3.1, PDF12 / 1844",
+    "limit": "Later h/ambient differ from initial cases",
+    "dossier": "dossiers/S57_Ambrosini_2004.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S57-C04",
+    "claim": "Fanning/Darcy and discrete/continuous stability conventions differ",
+    "sources": [
+      "S57"
+    ],
+    "locator": "Fig5/Eqs1–3, PDF9/12/15",
+    "limit": "Our implementation mapping and source ambiguity",
+    "dossier": "dossiers/S57_Ambrosini_2004.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S57-C05",
+    "claim": "Finite initial perturbations affect finite-window behavior",
+    "sources": [
+      "S57"
+    ],
+    "locator": "§3.2/Figs15–17, PDF18–27",
+    "limit": "Some RELAP pulses are two-phase",
+    "dossier": "dossiers/S57_Ambrosini_2004.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S57-C06",
+    "claim": "Preliminary CFD shows local asymmetry and instability",
+    "sources": [
+      "S57"
+    ],
+    "locator": "§4/Figs18–20, PDF28–31",
+    "limit": "Not full V&V or measured3D local truth",
+    "dossier": "dossiers/S57_Ambrosini_2004.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S57-C07",
+    "claim": "The paper does not settle a universal natural-circulation friction law",
+    "sources": [
+      "S57"
+    ],
+    "locator": "§§4–5, PDF19–21/29–31",
+    "limit": "Geometry/regime/closure dependence remains",
+    "dossier": "dossiers/S57_Ambrosini_2004.md",
+    "status": "scoped_evidence_or_explicit_appraisal"
+  },
+  {
+    "id": "S13-C01",
+    "claim": "The expert panel defines primary temperature distribution and bulk/potentially local salt velocity as explicit figures of merit",
+    "sources": [
+      "S13"
+    ],
+    "locator": "§V.A/TableII, PDF17–19",
+    "limit": "This is expert elicitation, not measured TRIDENT model performance",
+    "dossier": "S13_Engineering_QoI_Extraction_Update.md",
+    "status": "selected_manuscript_text_evidence"
+  },
+  {
+    "id": "S13-C02",
+    "claim": "Temperature concerns include structures, transport/release and feedback; power deposition and flow influence thermal conditions",
+    "sources": [
+      "S13"
+    ],
+    "locator": "§V.A–B, PDF18–21",
+    "limit": "Coupled composition/neutronics effects exceed our current loop model",
+    "dossier": "S13_Engineering_QoI_Extraction_Update.md",
+    "status": "selected_manuscript_text_evidence"
+  },
+  {
+    "id": "S13-C03",
+    "claim": "Both forced and natural circulation, including loss-of-pump transition/reversal, are relevant; form losses may need scaled empirical determination",
+    "sources": [
+      "S13"
+    ],
+    "locator": "§V.D, PDF23–24",
+    "limit": "Not every reactor normally operates by natural circulation",
+    "dossier": "S13_Engineering_QoI_Extraction_Update.md",
+    "status": "selected_manuscript_text_evidence"
+  },
+  {
+    "id": "S13-C04",
+    "claim": "The panel did not formally rank research priorities as in a full PIRT",
+    "sources": [
+      "S13"
+    ],
+    "locator": "§V.A, PDF17",
+    "limit": "Do not cite this article as a completed ranked-gap inventory",
+    "dossier": "S13_Engineering_QoI_Extraction_Update.md",
+    "status": "selected_manuscript_text_evidence"
+  }
+]

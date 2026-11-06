@@ -1,0 +1,15 @@
+Figure 4.4: Digitized Velocity Profile of Salt Test 1 Overlaid on Source Image
+the profile, as the ends of the profiles have the greatest error associated with them.
+From the results in Table 4.6, the digitization uncertainty assigned to the water velocity
+profiles is rounded up from the tabulated L2 percent error of 1.36% to the assigned value of
+udig = 1.5%
+(4.11)
+and is intended to compound upon the experimentally reported PIV uncertainty for each
+water case for calculations dependent on the full-field velocity data, such as the calculated
+value for mass flow rate in each experiment. This will be further discussed in Chapter 6
+4.5.4
+Data Uncertainty Summary
+To conclude this chapter, we can summarize each contribution to uD in the table below. The
+entry uPIV is the uncertainty prescribed to each of the full-field PIV datasets reported by
+Reis et al. in [9]. The comparisons performed in Chapter 6 are mapped to each experimental
+46

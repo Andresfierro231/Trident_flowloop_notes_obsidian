@@ -1,0 +1,101 @@
+Segment
+Type
+Length / Angle
+Radius
+Notes
+pipeleg_lower_07_bend
+bend
++21.5◦, r = 25.4
+—
+pipeleg_lower_08_straight
+straight
+78.4
+—
+pipeleg_lower_09_fitting
+straight
+31.5
+—
+Junction patch
+Right leg (riser)
+pipeleg_right_01_lower
+straight
+304.8
+—
+pipeleg_right_02_middle
+straight
+304.8
+—
+pipeleg_right_03_upper
+straight
+304.8
+—
+Upper leg (cooler region)
+pipeleg_upper_01_straight
+straight
+109.9
+—
+pipeleg_upper_02_bend
+bend
+−21.5◦, r = 25.4
+—
+Negative bend
+pipeleg_upper_03_straight
+straight
+115.4
+—
+pipeleg_upper_04_reducer
+straight
+83.4
+—
+Reducer inlet
+pipeleg_upper_05_cooler
+straight
+262.5
+—
+Cooling jacket
+pipeleg_upper_06_reducer
+straight
+83.4
+—
+Reducer outlet
+pipeleg_upper_07_straight
+straight
+115.4
+—
+pipeleg_upper_08_bend
+bend
++21.5◦, r = 25.4
+—
+pipeleg_upper_09_straight
+straight
+109.9
+—
+Left leg (test section)
+pipeleg_left_01_upper
+straight
+356.0
+—
+pipeleg_left_02_connector
+straight
+2.3
+—
+pipeleg_left_03_fitting
+straight
+31.5
+10.541
+NCC upstream
+pipeleg_left_04_test_section
+straight
+186.0
+10.541
+Quartz tube
+pipeleg_left_05_fitting
+straight
+31.5
+10.541
+NCC downstream
+pipeleg_left_06_connector
+straight
+2.3
+—
+108

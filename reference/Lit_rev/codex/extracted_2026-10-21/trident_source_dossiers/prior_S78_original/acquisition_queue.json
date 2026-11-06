@@ -1,0 +1,271 @@
+{
+  "updated": "2026-10-21",
+  "acquisition_requests": [
+    {
+      "rank": 1,
+      "source_id": "S78",
+      "citation": "De Tommasi;Magnani;de Magistris(2018),IJNM31(3),e2296",
+      "doi": "10.1002/jnm.2296",
+      "retrieval_link": "https://doi.org/10.1002/jnm.2296",
+      "needed_version": "Complete final article or identified accepted manuscript;not abstract",
+      "inspect": "Passivity/realization assumptions,admissible residue/network matrices,port/source definitions,time-constant fitting,comparison and error evidence",
+      "decision": "Is a proposed passive/conservative learned thermal-network method additional to prior algorithms?",
+      "why_not_abstract": "Exact conditions and benchmarks determine overlap;abstract only describes claimed algorithm",
+      "priority": "conditional high decision value if passive-method claim pursued;not core blocker",
+      "availability_status": "original not retrieved after publisher and institutional checks",
+      "user_action": "Upload final PDF or accepted manuscript if pursuing passive-network identification;otherwise defer",
+      "consequence_if_unavailable": "No new passive-identification claim or faithful baseline reproduction;continue conservative physical-model core",
+      "replaceable": "For ordinary inference baselines use available S26/S67/S73 with explicit different scope;not interchangeable evidence of this exact algorithm"
+    },
+    {
+      "rank": 2,
+      "source_id": "S71",
+      "doi": "10.1137/24M1649344",
+      "priority": "optional exact final-version comparison",
+      "status": "arxivv2_scoped_read_journal_pdf_not_acquired",
+      "user_action": "Optional final journal PDF;v2 sufficient for current scoped synthesis"
+    }
+  ],
+  "prior_requests_still_conditional": [],
+  "resolved_main_document_requests": [
+    "S10",
+    "S16",
+    "S21",
+    "S26",
+    "S30",
+    "S48",
+    "S50",
+    "S51",
+    "S52",
+    "S56",
+    "S57",
+    "S60",
+    "S54",
+    "S55",
+    "S59",
+    "S62",
+    "S63",
+    "S66",
+    "S23",
+    "S67",
+    "S69",
+    "S70"
+  ],
+  "category_A_completed_scoped_dossiers": [
+    "S07",
+    "S09",
+    "S10",
+    "S13",
+    "S16",
+    "S18",
+    "S21",
+    "S23",
+    "S26",
+    "S30",
+    "S35",
+    "S36",
+    "S37",
+    "S38",
+    "S39",
+    "S43",
+    "S46",
+    "S47",
+    "S48",
+    "S50",
+    "S51",
+    "S52",
+    "S54",
+    "S55",
+    "S56",
+    "S57",
+    "S59",
+    "S60",
+    "S62",
+    "S63",
+    "S64",
+    "S65",
+    "S66",
+    "S67",
+    "S68",
+    "S69",
+    "S70",
+    "S19",
+    "S74",
+    "S72",
+    "S71",
+    "S73",
+    "S29",
+    "S20",
+    "S75",
+    "S76",
+    "S02",
+    "S31",
+    "S32",
+    "S77"
+  ],
+  "category_A_ready_for_next_extraction": [
+    "S24/S25 conditional advanced branch",
+    "S03 conditional original operator-inference branch",
+    "S11 deeper terminology if digital-twin claim becomes central"
+  ],
+  "category_B_source_or_specific_materials": [
+    "S23 algorithm supplement conditional",
+    "S71/S75/S76 published-final comparison optional",
+    "S28 normative standard only if conformance is proposed",
+    "S78 full original,conditional passive-identification novelty check"
+  ],
+  "category_C": {
+    "duplicates": [
+      "S38 duplicate text-identical copy",
+      "S16 W print for evidence already available in J"
+    ],
+    "deferred": "FlowTests5/6 raw data excluded by user; FlowTest4 bulk processing deferred; duplicate/conditional entries retained only with current registry status"
+  },
+  "first_batch": [
+    {
+      "order": 1,
+      "source_ids": [
+        "S20",
+        "S75",
+        "S76",
+        "S02",
+        "S31",
+        "S32"
+      ],
+      "scope": "Completed purpose-scoped consolidation batch; exact unread sections listed in dossiers."
+    }
+  ],
+  "next_batch": [
+    "Only branch-specific reading after target/adequacy contract; no renewed broad discovery"
+  ],
+  "stop_rule": "No new thesis direction,novelty claim,CFD truth or unmeasured local-flow claim before its evidence/feasibility gates.",
+  "resolved_by_new_uploads": [
+    {
+      "source_id": "S26:SUP1",
+      "status": "scoped-extracted"
+    },
+    {
+      "source_id": "S43",
+      "status": "scoped-extracted"
+    },
+    {
+      "source_id": "S46",
+      "status": "scoped-extracted"
+    },
+    {
+      "source_id": "S50",
+      "status": "scoped dossier"
+    },
+    {
+      "source_id": "S51",
+      "status": "scoped dossier"
+    },
+    {
+      "source_id": "S49:file_subset",
+      "status": "README/Codes/Logs/FlowTest4 received; only README/inventory inspected"
+    },
+    {
+      "source_id": "S52",
+      "status": "scoped dossier"
+    },
+    {
+      "source_id": "S30",
+      "status": "scoped dossier"
+    }
+  ],
+  "deferred_to_codex": [
+    {
+      "source_id": "S35",
+      "item": "Revision and reproducibility artifacts",
+      "rank": 3,
+      "priority": "deferred_by_user",
+      "citation": "High-Fidelity CFD Simulation of Single-Phase Natural Circulation Loop Experiments: Verification and Validation (Rozak,supplied2026thesis)",
+      "doi": null,
+      "retrieval_link": null,
+      "needed_version": "Latest confirmed thesis revision; exact case/property dictionaries,BC/cooler calculation and uncertainty scripts",
+      "inspect": "Main§5.2.2 versus AppendixB.1 property conflict; Eq5.6 enthalpy; two-grid order assumption; calibration/model selection; case/run identity",
+      "decision": "Can this CFD serve as a qualified reference or training source rather than a retrospective illustrative calculation?",
+      "why_not_abstract": "The conflicts are in technical definitions; only code/input provenance can distinguish reporting mistakes from implementation",
+      "availability_status": "not_supplied; no repository supplied for these artifacts",
+      "attempts": "Supplied thesis fully available; public repository location for exact run artifacts not established",
+      "consequence_if_unavailable": "Use scoped V&V lessons only; do not inherit local-flow truth or final property laws",
+      "user_action": "If you can obtain them,upload the latest revision and the named small input/scripts files; original thesis need not be uploaded again",
+      "replaceable": "Independent,verified CFD is an alternative reference; core sparse-data methods work need not depend on this CFD",
+      "status": "not a current acquisition blocker"
+    }
+  ],
+  "user_help_needed_now": "Decision/tolerance and energy/observation/case-role metadata are highest value. S78 PDF conditional on passive-method branch;no operating data requested.",
+  "details": "Upload_Requests_Current.md",
+  "resolved_project_material_requests": [
+    "Original Phase0–4 TeX protocols PF02–PF06"
+  ],
+  "excluded_bulk_data": [
+    "FlowTest5",
+    "FlowTest6"
+  ],
+  "no_immediate_upload_required": true,
+  "latest_resolution": "S77 acquired and scoped-read;S78 original unavailable and requested conditionally;no essential upload blocks critical synthesis",
+  "optional_later_materials": [
+    {
+      "source_id": "S23",
+      "asset": "Algorithm supplement",
+      "status": "Not supplied; not searched during consolidation; conditional if reproducing algorithm"
+    },
+    {
+      "source_id": "S71",
+      "asset": "Final journal PDF",
+      "doi": "10.1137/24M1649344",
+      "status": "Not acquired; identified arXiv v2 already scoped-read"
+    },
+    {
+      "source_id": "S75",
+      "asset": "Final journal PDF",
+      "doi": "10.1016/j.cma.2014.08.023",
+      "status": "Not acquired; arXiv v1 scoped-read; compilation-date ambiguity retained"
+    },
+    {
+      "source_id": "S76",
+      "asset": "Final journal PDF",
+      "doi": "10.1016/j.cma.2023.116182",
+      "status": "Not acquired; arXiv v1 scoped-read; final equivalence unverified"
+    }
+  ],
+  "resolved_physical_interpretation_requests": [
+    {
+      "rank": 1,
+      "source_id": "S70",
+      "status": "full_text_not_retrieved",
+      "priority": "essential physical-interpretation comparator",
+      "citation": "A.-H.Deconinck;S.Roels(2017),Journal of Building Physics40(5),444–471",
+      "doi": "10.1177/1744259116688384",
+      "version_needed": "Published paper or author accepted manuscript",
+      "url": "https://doi.org/10.1177/1744259116688384",
+      "inspect": "Physical meaning of states/parameters; profile method; reference properties/data; performance/limitations. Section numbers not yet verified.",
+      "decision": "When can fitted thermal coefficients be treated as physical properties?",
+      "why_abstract_insufficient": "Cannot recover tested assumptions, reference truth, criteria or counterexamples from abstract.",
+      "consequence_if_unavailable": "Keep material-property interpretation provisional; effective predictive parameters remain possible.",
+      "user_action": "Upload full PDF; no university subscription assumed."
+    },
+    {
+      "rank": 2,
+      "source_id": "S69",
+      "status": "repository_pdf503_and_publisher_non_pdf",
+      "priority": "essential data-error comparator",
+      "citation": "G.Reynders;J.Diriken;D.Saelens(2014),Energy and Buildings82,263–274",
+      "doi": "10.1016/j.enbuild.2014.07.025",
+      "version_needed": "Published paper or author accepted manuscript",
+      "url": "https://doi.org/10.1016/j.enbuild.2014.07.025",
+      "repository_url": "https://lirias.kuleuven.be/663455",
+      "inspect": "Input/observation perturbations; model complexity; dedicated versus ordinary data; parameter reference; prediction/validation tests.",
+      "decision": "Distinguish missing physics from input or observation error in a sparse thermal fit.",
+      "why_abstract_insufficient": "Need actual perturbation cases, benchmarks and independent-prediction comparisons.",
+      "consequence_if_unavailable": "S08/S67 provide partial substitutes but do not settle this exact data-quality comparison.",
+      "user_action": "Upload full PDF or accepted manuscript."
+    }
+  ],
+  "decisive_uploads_resolved": [
+    "S19",
+    "S74",
+    "S72"
+  ]
+}

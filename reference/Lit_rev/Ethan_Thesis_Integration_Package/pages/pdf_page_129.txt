@@ -1,0 +1,7 @@
+Appendix C
+Additional Data
+This appendix provides supplementary data tables referenced in the main text.
+C.1
+Experimental Temperature Data
+Tables C.1 and C.2 list the complete thermocouple readings for all eight test cases.
+115

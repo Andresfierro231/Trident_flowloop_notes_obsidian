@@ -1,0 +1,27 @@
+Feedback: grab the governing equations, point to what you are tuning, 
+- These are correlations from literature I trust
+- Lay out everyone of the equations
+Clearly define unknowns, geometry specifications, what I know and believe (small uncertainty), things with big uncertainties (where need to tune)
+--> lay out math here is what I am doing and here is what I am not 
+
+- For CFD, describe if it matters whether hifi is RANS in openfoam vs Nek5000 (nekRS) if that matters. What differences may exist, just a sentence or two. 
+
+Feedback: 
+Recall the code that was used to develop the thermal resistances, show that using the thermal resistances can recreate the experimental data. (proof that solution holds) 
+- We had predicted boundary conditions for an experiment. Do a case study, experimental data, how we got boundary conditions (backwards solve), and then use those boundary conditions on both trident and SAM to see if we can go full circle and predict the experimental conditions (or something close)
+- Whenever you show sam or trident models, be super explicit about set up, modeling assumptions, boundary conditions, and model forms (parameters we are using). 
+
+In slide: Compare the Trident model with its SAM implementation from /scratch/09748/andresfierro231/projects_scratch/Papers/UTexas_Research/Andres_Fierro_Dissertation_Proposal/presentation/POWERPOINT_OUTLINE_COMMITTEE_REVISION.md, what is the PTC4 reporting samples and recorded peak? Are claiming the trident model can solve in time? What is the time step? This makes no sense. 
+
+
+For the gantt chart/research plan, need to be able to talk about things I am doing in parallel
+
+feedback: 
+
+Show publications you have, 
+Show work in parallel for gantt chart
+
+show dependencies on operational data and CFD
+- Plan for if CFD never comes or if CFD comes and its horrible, what would I do
+
+Here is the data I already have, here is the data I expect to get in the next months (based on exp plan Luciano), show 

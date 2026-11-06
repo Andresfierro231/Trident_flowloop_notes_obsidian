@@ -1,0 +1,25 @@
+[7] M. S. Sohal, M. A. Ebner, P. Sabharwall, and P. Sharpe. Engineering database of liquid
+salt thermophysical and thermochemical properties. Technical Report INL/EXT-10-
+18297, Idaho National Laboratory, 2013. Rev. 1, 2013.
+[8] A. Papukchiev and S. Buchholz. Validation of ANSYS CFX for heat transfer applica-
+tions in nuclear safety—Part II: Conjugate heat transfer in forced to natural convection
+transition. Nuclear Engineering and Design, 365:110724, 2020.
+[9] J. Reis, J. Seo, and Y. A. Hassan. Molten salt flow visualization to characterize boundary
+layer behavior and heat transfer in a natural circulation loop. Physics of Fluids, 36(3):
+033605, 2024. doi: 10.1063/5.0197276.
+[10] B. Kochunas and X. Huan. Digital twin concepts with uncertainty for nuclear power
+applications. Energies, 14(14):4235, 2021.
+[11] The OpenFOAM Foundation. OpenFOAM: The open source CFD toolbox, version 13.
+https://openfoam.org/release/13/, July 2025. Developed by CFD Direct Ltd. Build
+13,patch release 20260725.
+[12] I. B. Celi´k, U. Ghia, P. J. Roache, C. J. Freitas, H. Coleman, and P. E. Raad. Procedure
+for estimation and reporting of uncertainty due to discretization in CFD applications.
+Journal of Fluids Engineering, 130(7):078001, 2008.
+[13] R. Greif. Natural circulation loops. Journal of Heat Transfer, 110(4b):1243–1258, 1988.
+doi: 10.1115/1.3250624.
+[14] E. A. Spiegel and G. Veronis. On the Boussinesq approximation for a compressible fluid.
+The Astrophysical Journal, 131:442–447, 1960.
+[15] D. D. Gray and A. Giorgini. The validity of the Boussinesq approximation for liquids
+and gases. International Journal of Heat and Mass Transfer, 19(5):545–551, 1976. doi:
+10.1016/0017-9310(76)90168-X.
+101

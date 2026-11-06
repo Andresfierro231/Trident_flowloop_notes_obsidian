@@ -1,0 +1,27 @@
+The four legs are:
+• Lower leg (heater): this leg is wrapped with 120V AC, resistance heaters (McMaster:
+4550T123) capable of outputting 312 W each that served as the primary heat input
+for the system. Three of these heaters were connected in series to wrap the whole of
+the bottom leg with a pitch between wraps of 1/2" to 1" apart.
+• Left leg (riser): most notably, this leg contains the primary focus of the experimental
+configuration, a quartz glass test section measuring 186 mm of exposed length. The
+test section had a nominal ID of 21 mm and OD of 1". The quartz test section was
+fitted into the middle of the left leg after the 3’ pipe was cut into two segments that
+would allow the test section to be installed such that it was centered along the leg’s
+length and that the total length of the leg was equal in length to the other three legs of
+the loop. The quartz test section’s transparency is what allows PIV measurements to
+be taken for the experiment. It is worth noting that the ID of 21 mm is approximately
+0.83 inches, which represents a step reduction in ID of 0.10 inches and an approximate
+21% reduction in cross sectional area.
+• Upper leg (cooler): contains a 1 foot long cooling jacket that serves as a concentric,
+counter-flow air-cooled heat exchanger with reducer fittings on either side to mount
+the cooling jacket in the center of the upper leg. This heat exchanger is intended as
+the primary vector of heat removal from the system as the counterpart of the lower
+leg’s heating tape in order to create the temperature difference that drives the system’s
+natural circulation. The upper leg is nominally bent in the same way at the lower leg,
+but it should be noted that the fittings the cooling jacket is mounted to are essentially
+through-wall pipe fittings, resulting in the upper leg being segmented and connected
+by the in-line pipe fittings that double as the heat exchanger’s mounting fixture.
+• Right leg (downcomer): A standard, vertical pipe connecting the lower right junc-
+tion and upper right junctions together without any additional fittings, segmentation,
+34

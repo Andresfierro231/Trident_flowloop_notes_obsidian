@@ -1,0 +1,38 @@
+Parameter
+Description
+first_cell_size
+Wall-adjacent cell height
+bulk_cell_size
+Interior cell target size
+c2c_expansion
+Cell-to-cell expansion ratio
+From these, the number of boundary layer cells, total boundary layer thickness, core
+ratio, and transition ratio are derived automatically:
+n =
+ln(∆bulk/∆1)
+ln(rexp)
+
++ 1,
+(5.20)
+δBL = ∆1
+rn
+exp −1
+rexp −1,
+(5.21)
+core_ratio = 1 −δBL/Rpipe.
+(5.22)
+This scheme ensures consistent mesh refinement across grid convergence studies: scaling ∆1
+and ∆bulk by the refinement ratio changes the mesh spacing while preserving topology.
+5.3.4
+Junction Topology
+The four corner junctions use a kernel-cylinder architecture:
+• Kernel: 8 hexahedral Loft blocks forming a near-spherical core, with a kernel_factor
+(default 0.7) controlling the kernel radius as a fraction of the pipe radius and a
+kernel_blend (default 0.5) interpolating between cubic and spherical shapes.
+• Cylindrical legs: One O-grid cylinder per pipe direction extending from the kernel
+to mate with other cylindrical pipe segments.
+• Cap and bridge blocks: Loft blocks connecting kernel faces to cylindrical legs.
+Vertex pairing between the kernel and cylinder legs is resolved by brute-force search
+over 16 orientation combinations, with right-hand-rule volume verification to ensure valid
+hexahedra.
+61

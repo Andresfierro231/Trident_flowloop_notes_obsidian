@@ -1,0 +1,27 @@
+lie within the asympototic range of the extrapolated solution and converge monotonically
+and the present work was designed to satisfy these conditions, detailed in Chapter 3. For
+validation, this work follows ASME V&V 20 [40], the standard for CFD and heat transfer,
+further detailed in Chapter 3. Beyond the validation uncertainty of the results themselves,
+there are portions of the experimet that had to be reconstructed for this work and carry
+their own uncertainty, which combine following the procedures of Coleman and Steele [41].
+2.6
+Digital Twins and Reduced-Order Models
+The value of high-fidelity CFD simulations extends further beyond direct engineering anal-
+ysis. One such application of particular interest in recent years is to use the data generated
+by high-fidelity models to inform the creation of reduced-order models (ROMs) or to train
+neural networks within digital twin frameworks. As for digital twin application to the nuclear
+industry, works such as Kochunas and Huan [10] outline how it is anticipated to improve both
+the efficiency and safety of operating nuclear systems. Later works such as Huang et al. [42]
+look at the maturation of the technology since Kochunas and Huan and propose a five-tier
+hierarchy of maturity for digitial twins in nuclear engineering spanning from guidance and
+training from simulation to fully autonomous system operation.
+Almukhametov et al. [43] developed a graph neural network GNN-based digital twin for
+a case study to emulate concept reactors such as the Kairos Power FHR with a companion
+System Analysis Module (SAM) model manage to achieve an over 100x speed-up compared
+to the SAM model while retaining an R2 value of up to 0.995. Hossain et al. [44] demon-
+strated DeepONet-based virtual sensors predicting thermal-hydraulic parameters 1,400 times
+faster than CFD, with accuracy sufficient for operational monitoring in most cases, but still
+experiencing errors of ≈10% or more for velocity, turbulent kinetic energy, and pressure
+outside of the best case scenario.
+Efforts such as these demonstrate the need for rigorously validated CFD and continued
+18

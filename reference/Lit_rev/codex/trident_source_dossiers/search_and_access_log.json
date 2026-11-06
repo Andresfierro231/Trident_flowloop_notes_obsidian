@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-20",
+  "coverage": "Uploaded source extraction,primary historical motivation checks,priority original-source acquisition; not an exhaustive systematic-review search",
+  "routes": [
+    "Local PDF text extraction plus selected page rendering",
+    "Publisher/author/institutional/official search",
+    "DOI registration metadata and public report mirrors"
+  ],
+  "queries": [
+    "A molten salt natural convection reactor system Romie Kinyon",
+    "MSRE natural circulation January1969",
+    "Operation of molten-salt convection loops in the ORR",
+    "Entropy switch for Bayesian thermal network discovery supplementary",
+    "Natural circulation FLiBe loop overview DOI pdf",
+    "Flow Velocity and Temperature Measurements Headley",
+    "Development of a CFD LES model DYNASTY",
+    "Simultaneous development hydrodynamic thermal boundary layers Everts",
+    "Computational and experimental investigation steady state transient molten salt natural circulation loop"
+  ],
+  "access_limitations": [
+    "Publisher403/site unavailable responses",
+    "OSTI429/502 responses; availability status is session-specific",
+    "S26supplement not supplied or retrieved",
+    "S46thesis PDF/persistent handle not found",
+    "S35andS39final revision/deposit not verified"
+  ],
+  "historical_reading_limit": "Only selectedS40–S42passages; no first-ever-loop or universal-MSR history claim",
+  "retrievals": [
+    {
+      "source_id": "S43",
+      "url": "https://www.osti.gov/servlets/purl/1495055",
+      "status": "failed",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source_id": "S44",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/184726/1/2021%20-%20CES%20237%20-%20Development%20of%20a%20CFD%20-%20LES%20model%20for%20the%20dynamic%20analysis%20of%20the%20DYNASTY%20natural%20circulation%20loop.pdf",
+      "status": "local_pdf_ready_not_extracted",
+      "bytes": 3437083,
+      "pdf_pages": 14,
+      "identity_page": "eprints@whiterose.ac.uk\nhttps://eprints.whiterose.ac.uk\nUniversities of Leeds, Sheffield and York\nDeposited via The University of Sheffield.\nWhite Rose Research Online URL for this paper:\nhttps://eprints.whiterose.ac.uk/id/eprint/184726/\nVersion: Published Version\nArticle:\nBattistini, A., Cammi, A., Lorenzi, S. et al. (2021) Development of a CFD – LES model for \nthe dynamic analysis of the DYNASTY natural circulation loop. Chemical Engineering \nScience, 237. 116520. ISSN: 0009-2509 \nhttps://doi.org/10.1016/j.ces.2021.116520\nReuse \nThis article is distributed under the terms of the Creative Commons Attribution (CC BY) licence. This licence \nallows you to distribute, remix, tweak, and build upon the work, even commercially, as long as you credit the \nauthors for the original work. More information and the full terms of the licence here: \nhttps://creativecommons.org/licenses/ \nTakedown \nIf you consider content in White Rose Research Online to be in breach of UK law, please notify us by \nemailing eprints@whiterose.ac.uk including the URL of the record and the reason for the withdrawal request. \n",
+      "path": "/workspace/scratch/24d300ddb639/trident_source_dossiers/available/S44.pdf"
+    },
+    {
+      "source_id": "S45",
+      "url": "https://repository.up.ac.za/bitstreams/953eee89-6d2f-4165-9709-bc7f71becaa3/download",
+      "status": "local_pdf_ready_not_extracted",
+      "bytes": 3208820,
+      "pdf_pages": 36,
+      "identity_page": "1 \n \nSimultaneous development of the hydrodynamic and thermal boundary layers of mixed \nconvective laminar flow through a horizontal tube with a constant heat flux  \nMarilize Everts1,*, Mostafa Mahdavi1, Mohsen Sharifpur1,2,* and Josua P. Meyer1 \n1Department of Mechanical and Aeronautical Engineering, University of Pretoria, Private Bag X20, \nHatfield 0028, Pretoria, South Africa. \n2Department of Medical Research, China Medical University Hospital, China Medical University, \nTaichung, Taiwan. \n*Corresponding authors email: marilize.everts@up.ac.za (M. Everts) \n and mohsen.sharifpur@up.ac.za (M. Sharifpur) \nAbstract \nThe  thermal  and  hydrodynamic  features  of  developing  mixed  convective  laminar  flow  in  a  long \nhorizontal tube were numerically and experimentally investigated. The tube was heated at different \nconstant heat fluxes and had an inner diameter of 11.52 mm and a total length of 9.5 m.  Numerical \nsimulations were conducted using ANSYS‐Fluent 19.3 with a highly structured mesh and accurate \ntemperature‐dependant thermophysical properties for water. The studied parameters consisted of \nthe wall temperatures, Nusselt numbers, vorticity, velocity and temperature gradients, hydrodynamic \nand thermal boundary layer development, secondary flow, as well as significant momentum terms. By \nanalysing  the  vorticity  characteristics,  it  was  found  that  our  conventional  understanding  of  the \nmerging  boundary  layer  in  internal  tube  flows  had  to  be  modified.  Subsequently,  methods  were \nproposed to determine the development of the hydrodynamic and ",
+      "path": "/workspace/scratch/24d300ddb639/trident_source_dossiers/available/S45.pdf"
+    }
+  ]
+}

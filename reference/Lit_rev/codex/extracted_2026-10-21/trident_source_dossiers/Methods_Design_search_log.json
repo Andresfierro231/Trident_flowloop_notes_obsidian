@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-20",
+  "scope": "S07/S18 technical extraction;S23 acquisition;close thermal-network prior art",
+  "queries": [
+    "Raue2009 structural practical identifiability profile likelihood Bioinformatics pdf",
+    "arxiv2007.03878 conjugate natural circulation loop Fourier",
+    "Raue btp358 pdf profile likelihood supplementary",
+    "Parameter estimation for externally simulated thermal network models Brastein pdf",
+    "Parameter estimation for externally simulated thermal network models hdl"
+  ],
+  "primary_metadata": [
+    "https://www.sciencedirect.com/science/article/pii/S0378778818335175",
+    "https://doi.org/10.1093/bioinformatics/btp358",
+    "https://arxiv.org/pdf/1108.4146v3"
+  ],
+  "successful_local_extraction": [
+    "S07",
+    "S18"
+  ],
+  "failed_access": [
+    {
+      "url": "https://academic.oup.com/bioinformatics/article-pdf/25/15/1923/48992533/bioinformatics_25_15_1923.pdf",
+      "result": "HTTP Error 403: Forbidden",
+      "pdf": false
+    },
+    {
+      "url": "http://www.jeti.uni-freiburg.de/papers/Raue_Bioinformatics_printed_1923.pdf",
+      "result": "timed out",
+      "pdf": false
+    },
+    {
+      "url": "https://opus.bibliothek.uni-augsburg.de/opus4/files/113236/113236.pdf",
+      "result": "HTTP Error 503: Service Unavailable",
+      "pdf": false
+    },
+    {
+      "source_id": "Brastein_thesis",
+      "url": "https://openarchive.usn.no/usn-xmlui/bitstream/handle/11250/2681006/2020_77_Brastein_web.pdf?isAllowed=y&sequence=1",
+      "result": ""
+    },
+    {
+      "source_id": "S23_oldpublisher",
+      "url": "https://academic.oup.com/bioinformatics/article-pdf/25/15/1923/16889623/btp358.pdf",
+      "result": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "limitations": [
+    "Targeted search, not exhaustive/systematic novelty search.",
+    "S67 primary abstract only. Review used for discovering lead; no original content inferred from a review.",
+    "S23 previous selected reading retained; full text could not be retrieved now.",
+    "No claim of final-journal equivalence for arXiv manuscripts."
+  ]
+}

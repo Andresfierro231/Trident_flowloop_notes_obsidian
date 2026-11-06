@@ -1,0 +1,4 @@
+of engineering calculations such as analytical Nusselt numbers used for heat transfer
+calculations of laminar flow and the physical perimeter of a loop being less than these
+entry lengths can undermine the accuracy of downstream calculations.
+20

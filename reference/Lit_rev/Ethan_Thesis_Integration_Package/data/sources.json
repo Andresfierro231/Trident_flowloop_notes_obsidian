@@ -1,0 +1,120 @@
+[
+  {
+    "id": "E",
+    "title": "Ethan Rozak thesis, supplied PDF",
+    "url": "Ethan_Rozak_Thesis_Original.pdf",
+    "status": "Primary supplied source; all 139 pages extracted. Equations and important disputed values checked in page renders.",
+    "scope": "Thesis reports, not independent reproduction of simulations."
+  },
+  {
+    "id": "A",
+    "title": "Andres thesis source: CSEM_Master_s_Dissertation (7)(2).zip",
+    "url": "",
+    "status": "Current supplied Library snapshot read locally; chapters 2-5, appendices, bibliography and repository instructions inspected.",
+    "scope": "Controls current model definition; source is not an executable CFD/ROM run archive. No manuscript edits made."
+  },
+  {
+    "id": "W1",
+    "title": "Parida & Basu (2023), RSC Advances 13, 5496-5508",
+    "url": "https://pubs.rsc.org/en/content/articlehtml/2023/ra/d2ra07384f",
+    "status": "Primary publisher indexed text verified cp=1.42347 J/(g K), weak liquid-phase temperature dependence. Full HTML/PDF retrieval returned403.",
+    "scope": "Supports base-salt cp measurement; does not establish Ethan's +/-4% as standard uncertainty.",
+    "doi": "10.1039/D2RA07384F"
+  },
+  {
+    "id": "W2",
+    "title": "Jin et al. (2016), Accurate viscosity measurement of nitrates/nitrites salts for concentrated solar power",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0038092X16303759",
+    "status": "Primary publisher indexed abstract/metadata verified authors, study and 2.5% reported uncertainty; full article inaccessible.",
+    "scope": "Exact exponential coefficients and420-695K bounds not independently verified from full article in this run.",
+    "doi": "10.1016/j.solener.2016.08.037"
+  },
+  {
+    "id": "W3",
+    "title": "NIST Chemistry WebBook, Shomate cp and enthalpy expressions",
+    "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=15",
+    "status": "Primary NIST indexed equations checked; cp polynomial and enthalpy integral have different coefficient factors.",
+    "scope": "Thermodynamic identity check; not a source of the actual air mixture coefficients."
+  },
+  {
+    "id": "W4",
+    "title": "NIST TN1297, Appendix A: Law of Propagation of Uncertainty",
+    "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-law-propagation-uncertainty",
+    "status": "Full official page read, especially A-3 covariance terms and A-7 rectangular distribution.",
+    "scope": "Supports derivative-based propagation, covariance and a/sqrt(3)."
+  },
+  {
+    "id": "W5",
+    "title": "ASME V&V20-2009 (R2021), official scope",
+    "url": "https://www.asme.org/codes-standards/find-codes-standards/standard-for-verification-and-validation-in-computational-fluid-dynamics-and-heat-transfer/2009",
+    "status": "Full official product scope read. Complete standard not accessible.",
+    "scope": "Validation is variable- and validation-point-specific; extrapolation beyond those points is beyond its stated scope."
+  },
+  {
+    "id": "W6",
+    "title": "Celik et al. (2008), Procedure for Estimation and Reporting of Uncertainty Due to Discretization in CFD Applications",
+    "url": "https://asmedigitalcollection.asme.org/fluidsengineering/article/130/7/078001/444689/Procedure-for-Estimation-and-Reporting-of",
+    "status": "Primary publisher metadata found; full text403. Method details are source-transcribed and algebraically checked, not full-standard-certified.",
+    "scope": "Citation and methodological provenance for GCI; exact procedure needs authoritative full text for implementation.",
+    "doi": "10.1115/1.2960953"
+  },
+  {
+    "id": "W7",
+    "title": "Lienhard & Lienhard, A Heat Transfer Textbook, 6th ed. (2024), Eq7.29",
+    "url": "https://bpb-us-e1.wpmucdn.com/sites.mit.edu/dist/6/1810/files/2024/04/AHTTv600.pdf",
+    "status": "Author textbook PDF search-index equation matches Ethan3.13; direct web open failed.",
+    "scope": "Corroborates formula form; no claim of independently verifying its quoted <1% error over every condition."
+  },
+  {
+    "id": "W8",
+    "title": "Churchill & Chu (1975), horizontal cylinder free convection",
+    "url": "https://www.sciencedirect.com/science/article/pii/0017931075902227",
+    "status": "Primary publisher indexed title/abstract and DOI verified; complete equations not readable from publisher in this run.",
+    "scope": "Correct separate provenance for horizontal-cylinder correlation, not vertical-plate paper alone.",
+    "doi": "10.1016/0017-9310(75)90222-7"
+  },
+  {
+    "id": "W9",
+    "title": "Churchill & Chu (1975), vertical plate free convection",
+    "url": "https://doi.org/10.1016/0017-9310(75)90243-4",
+    "status": "Citation metadata corroborated; formula in source checked algebraically. Full original not accessed.",
+    "scope": "Applicability to slender vertical cylinders and an inclination blend remains a separate model assumption."
+  },
+  {
+    "id": "W10",
+    "title": "Reis, Seo & Hassan (2024), Physics of Fluids36,033605",
+    "url": "https://pubs.aip.org/aip/pof/article/36/3/033605/3268730/Molten-salt-flow-visualization-to-characterize",
+    "status": "Primary publisher abstract and references read; experimental body/data not available in retrieved page.",
+    "scope": "Original report attributes near-wall salt velocity peaks to developing thermal layers and reports laminar boundary-layer scaling. Detailed table values here are Ethan's transcription, not independently checked raw experiment.",
+    "doi": "10.1063/5.0197276"
+  },
+  {
+    "id": "W11",
+    "title": "Santini et al., Measurement of thermal conductivity of molten salts in the range100-500 C",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/0017931084900346",
+    "status": "Primary publisher indexed metadata establishes1984; Ethan bibliography prints1948.",
+    "scope": "Bibliographic correction only. Exact correlation uncertainty/range not verified from full original.",
+    "doi": "10.1016/0017-9310(84)90034-6"
+  },
+  {
+    "id": "W12",
+    "title": "OpenFOAM Foundation/CFD Direct v13 thermophysical models",
+    "url": "https://doc.cfd.direct/openfoam/user-guide-v13/thermophysical",
+    "status": "Official guide read: heRhoThermo, energy selection and property layers.",
+    "scope": "Supports configuration vocabulary; exact custom BC and coded turbulence source require actual source files."
+  },
+  {
+    "id": "W13",
+    "title": "Eca & Hoekstra (2014), numerical-uncertainty procedure",
+    "url": "https://www.marin.nl/api/marin/downloads/get-download/5675/0/860/block_files_utb8kwxda60a/VsLN4atolTpeBkST8w5DtHMRBwg%3D/2014-JCP-Vol262-Eca_Hoekstra-V%26VProc.pdf",
+    "status": "Author/institution paper located and abstract retrieved.",
+    "scope": "Potential alternative for non-asymptotic/noisy mesh convergence; not automatically executed."
+  },
+  {
+    "id": "W14",
+    "title": "NIST TN1297, reporting uncertainty",
+    "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-7-reporting-uncertainty",
+    "status": "Official indexed guidance checked for probability interpretation and coverage reporting.",
+    "scope": "A claimed confidence level needs a stated coverage model/factor; RSS alone does not supply99%."
+  }
+]

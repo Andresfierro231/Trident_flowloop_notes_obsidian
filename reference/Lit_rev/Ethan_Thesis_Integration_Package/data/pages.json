@@ -1,0 +1,836 @@
+[
+  {
+    "pdf_page": 1,
+    "printed_page": "front matter",
+    "text_characters": 355,
+    "render": "pages/pdf_page_001.png"
+  },
+  {
+    "pdf_page": 2,
+    "printed_page": "i",
+    "text_characters": 1387,
+    "render": "pages/pdf_page_002.png"
+  },
+  {
+    "pdf_page": 3,
+    "printed_page": "front matter",
+    "text_characters": 1269,
+    "render": "pages/pdf_page_003.png"
+  },
+  {
+    "pdf_page": 4,
+    "printed_page": "front matter",
+    "text_characters": 2069,
+    "render": "pages/pdf_page_004.png"
+  },
+  {
+    "pdf_page": 5,
+    "printed_page": "front matter",
+    "text_characters": 2219,
+    "render": "pages/pdf_page_005.png"
+  },
+  {
+    "pdf_page": 6,
+    "printed_page": "front matter",
+    "text_characters": 1851,
+    "render": "pages/pdf_page_006.png"
+  },
+  {
+    "pdf_page": 7,
+    "printed_page": "front matter",
+    "text_characters": 288,
+    "render": "pages/pdf_page_007.png"
+  },
+  {
+    "pdf_page": 8,
+    "printed_page": "front matter",
+    "text_characters": 1661,
+    "render": "pages/pdf_page_008.png"
+  },
+  {
+    "pdf_page": 9,
+    "printed_page": "front matter",
+    "text_characters": 1316,
+    "render": "pages/pdf_page_009.png"
+  },
+  {
+    "pdf_page": 10,
+    "printed_page": "front matter",
+    "text_characters": 1673,
+    "render": "pages/pdf_page_010.png"
+  },
+  {
+    "pdf_page": 11,
+    "printed_page": "front matter",
+    "text_characters": 2271,
+    "render": "pages/pdf_page_011.png"
+  },
+  {
+    "pdf_page": 12,
+    "printed_page": "front matter",
+    "text_characters": 94,
+    "render": "pages/pdf_page_012.png"
+  },
+  {
+    "pdf_page": 13,
+    "printed_page": "front matter",
+    "text_characters": 4,
+    "render": "pages/pdf_page_013.png"
+  },
+  {
+    "pdf_page": 14,
+    "printed_page": "front matter",
+    "text_characters": 555,
+    "render": "pages/pdf_page_014.png"
+  },
+  {
+    "pdf_page": 15,
+    "printed_page": 1,
+    "text_characters": 410,
+    "render": "pages/pdf_page_015.png"
+  },
+  {
+    "pdf_page": 16,
+    "printed_page": 2,
+    "text_characters": 430,
+    "render": "pages/pdf_page_016.png"
+  },
+  {
+    "pdf_page": 17,
+    "printed_page": 3,
+    "text_characters": 1362,
+    "render": "pages/pdf_page_017.png"
+  },
+  {
+    "pdf_page": 18,
+    "printed_page": 4,
+    "text_characters": 2319,
+    "render": "pages/pdf_page_018.png"
+  },
+  {
+    "pdf_page": 19,
+    "printed_page": 5,
+    "text_characters": 2249,
+    "render": "pages/pdf_page_019.png"
+  },
+  {
+    "pdf_page": 20,
+    "printed_page": 6,
+    "text_characters": 1877,
+    "render": "pages/pdf_page_020.png"
+  },
+  {
+    "pdf_page": 21,
+    "printed_page": 7,
+    "text_characters": 1829,
+    "render": "pages/pdf_page_021.png"
+  },
+  {
+    "pdf_page": 22,
+    "printed_page": 8,
+    "text_characters": 2068,
+    "render": "pages/pdf_page_022.png"
+  },
+  {
+    "pdf_page": 23,
+    "printed_page": 9,
+    "text_characters": 293,
+    "render": "pages/pdf_page_023.png"
+  },
+  {
+    "pdf_page": 24,
+    "printed_page": 10,
+    "text_characters": 1376,
+    "render": "pages/pdf_page_024.png"
+  },
+  {
+    "pdf_page": 25,
+    "printed_page": 11,
+    "text_characters": 1635,
+    "render": "pages/pdf_page_025.png"
+  },
+  {
+    "pdf_page": 26,
+    "printed_page": 12,
+    "text_characters": 2384,
+    "render": "pages/pdf_page_026.png"
+  },
+  {
+    "pdf_page": 27,
+    "printed_page": 13,
+    "text_characters": 2207,
+    "render": "pages/pdf_page_027.png"
+  },
+  {
+    "pdf_page": 28,
+    "printed_page": 14,
+    "text_characters": 2224,
+    "render": "pages/pdf_page_028.png"
+  },
+  {
+    "pdf_page": 29,
+    "printed_page": 15,
+    "text_characters": 2335,
+    "render": "pages/pdf_page_029.png"
+  },
+  {
+    "pdf_page": 30,
+    "printed_page": 16,
+    "text_characters": 2083,
+    "render": "pages/pdf_page_030.png"
+  },
+  {
+    "pdf_page": 31,
+    "printed_page": 17,
+    "text_characters": 2101,
+    "render": "pages/pdf_page_031.png"
+  },
+  {
+    "pdf_page": 32,
+    "printed_page": 18,
+    "text_characters": 2124,
+    "render": "pages/pdf_page_032.png"
+  },
+  {
+    "pdf_page": 33,
+    "printed_page": 19,
+    "text_characters": 1815,
+    "render": "pages/pdf_page_033.png"
+  },
+  {
+    "pdf_page": 34,
+    "printed_page": 20,
+    "text_characters": 246,
+    "render": "pages/pdf_page_034.png"
+  },
+  {
+    "pdf_page": 35,
+    "printed_page": 21,
+    "text_characters": 995,
+    "render": "pages/pdf_page_035.png"
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 22,
+    "text_characters": 1325,
+    "render": "pages/pdf_page_036.png"
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 23,
+    "text_characters": 1111,
+    "render": "pages/pdf_page_037.png"
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 24,
+    "text_characters": 1220,
+    "render": "pages/pdf_page_038.png"
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 25,
+    "text_characters": 1809,
+    "render": "pages/pdf_page_039.png"
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 26,
+    "text_characters": 2091,
+    "render": "pages/pdf_page_040.png"
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 27,
+    "text_characters": 2165,
+    "render": "pages/pdf_page_041.png"
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 28,
+    "text_characters": 1226,
+    "render": "pages/pdf_page_042.png"
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 29,
+    "text_characters": 1481,
+    "render": "pages/pdf_page_043.png"
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 30,
+    "text_characters": 1472,
+    "render": "pages/pdf_page_044.png"
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 31,
+    "text_characters": 1273,
+    "render": "pages/pdf_page_045.png"
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 32,
+    "text_characters": 400,
+    "render": "pages/pdf_page_046.png"
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 33,
+    "text_characters": 1993,
+    "render": "pages/pdf_page_047.png"
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 34,
+    "text_characters": 2102,
+    "render": "pages/pdf_page_048.png"
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 35,
+    "text_characters": 2069,
+    "render": "pages/pdf_page_049.png"
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 36,
+    "text_characters": 1630,
+    "render": "pages/pdf_page_050.png"
+  },
+  {
+    "pdf_page": 51,
+    "printed_page": 37,
+    "text_characters": 1532,
+    "render": "pages/pdf_page_051.png"
+  },
+  {
+    "pdf_page": 52,
+    "printed_page": 38,
+    "text_characters": 1751,
+    "render": "pages/pdf_page_052.png"
+  },
+  {
+    "pdf_page": 53,
+    "printed_page": 39,
+    "text_characters": 2274,
+    "render": "pages/pdf_page_053.png"
+  },
+  {
+    "pdf_page": 54,
+    "printed_page": 40,
+    "text_characters": 1451,
+    "render": "pages/pdf_page_054.png"
+  },
+  {
+    "pdf_page": 55,
+    "printed_page": 41,
+    "text_characters": 1240,
+    "render": "pages/pdf_page_055.png"
+  },
+  {
+    "pdf_page": 56,
+    "printed_page": 42,
+    "text_characters": 1839,
+    "render": "pages/pdf_page_056.png"
+  },
+  {
+    "pdf_page": 57,
+    "printed_page": 43,
+    "text_characters": 1757,
+    "render": "pages/pdf_page_057.png"
+  },
+  {
+    "pdf_page": 58,
+    "printed_page": 44,
+    "text_characters": 1103,
+    "render": "pages/pdf_page_058.png"
+  },
+  {
+    "pdf_page": 59,
+    "printed_page": 45,
+    "text_characters": 1610,
+    "render": "pages/pdf_page_059.png"
+  },
+  {
+    "pdf_page": 60,
+    "printed_page": 46,
+    "text_characters": 946,
+    "render": "pages/pdf_page_060.png"
+  },
+  {
+    "pdf_page": 61,
+    "printed_page": 47,
+    "text_characters": 1301,
+    "render": "pages/pdf_page_061.png"
+  },
+  {
+    "pdf_page": 62,
+    "printed_page": 48,
+    "text_characters": 1235,
+    "render": "pages/pdf_page_062.png"
+  },
+  {
+    "pdf_page": 63,
+    "printed_page": 49,
+    "text_characters": 493,
+    "render": "pages/pdf_page_063.png"
+  },
+  {
+    "pdf_page": 64,
+    "printed_page": 50,
+    "text_characters": 559,
+    "render": "pages/pdf_page_064.png"
+  },
+  {
+    "pdf_page": 65,
+    "printed_page": 51,
+    "text_characters": 2419,
+    "render": "pages/pdf_page_065.png"
+  },
+  {
+    "pdf_page": 66,
+    "printed_page": 52,
+    "text_characters": 2222,
+    "render": "pages/pdf_page_066.png"
+  },
+  {
+    "pdf_page": 67,
+    "printed_page": 53,
+    "text_characters": 1650,
+    "render": "pages/pdf_page_067.png"
+  },
+  {
+    "pdf_page": 68,
+    "printed_page": 54,
+    "text_characters": 1277,
+    "render": "pages/pdf_page_068.png"
+  },
+  {
+    "pdf_page": 69,
+    "printed_page": 55,
+    "text_characters": 1793,
+    "render": "pages/pdf_page_069.png"
+  },
+  {
+    "pdf_page": 70,
+    "printed_page": 56,
+    "text_characters": 1538,
+    "render": "pages/pdf_page_070.png"
+  },
+  {
+    "pdf_page": 71,
+    "printed_page": 57,
+    "text_characters": 1213,
+    "render": "pages/pdf_page_071.png"
+  },
+  {
+    "pdf_page": 72,
+    "printed_page": 58,
+    "text_characters": 1616,
+    "render": "pages/pdf_page_072.png"
+  },
+  {
+    "pdf_page": 73,
+    "printed_page": 59,
+    "text_characters": 2237,
+    "render": "pages/pdf_page_073.png"
+  },
+  {
+    "pdf_page": 74,
+    "printed_page": 60,
+    "text_characters": 1368,
+    "render": "pages/pdf_page_074.png"
+  },
+  {
+    "pdf_page": 75,
+    "printed_page": 61,
+    "text_characters": 1312,
+    "render": "pages/pdf_page_075.png"
+  },
+  {
+    "pdf_page": 76,
+    "printed_page": 62,
+    "text_characters": 1355,
+    "render": "pages/pdf_page_076.png"
+  },
+  {
+    "pdf_page": 77,
+    "printed_page": 63,
+    "text_characters": 1327,
+    "render": "pages/pdf_page_077.png"
+  },
+  {
+    "pdf_page": 78,
+    "printed_page": 64,
+    "text_characters": 1508,
+    "render": "pages/pdf_page_078.png"
+  },
+  {
+    "pdf_page": 79,
+    "printed_page": 65,
+    "text_characters": 967,
+    "render": "pages/pdf_page_079.png"
+  },
+  {
+    "pdf_page": 80,
+    "printed_page": 66,
+    "text_characters": 1458,
+    "render": "pages/pdf_page_080.png"
+  },
+  {
+    "pdf_page": 81,
+    "printed_page": 67,
+    "text_characters": 1955,
+    "render": "pages/pdf_page_081.png"
+  },
+  {
+    "pdf_page": 82,
+    "printed_page": 68,
+    "text_characters": 2421,
+    "render": "pages/pdf_page_082.png"
+  },
+  {
+    "pdf_page": 83,
+    "printed_page": 69,
+    "text_characters": 2354,
+    "render": "pages/pdf_page_083.png"
+  },
+  {
+    "pdf_page": 84,
+    "printed_page": 70,
+    "text_characters": 2223,
+    "render": "pages/pdf_page_084.png"
+  },
+  {
+    "pdf_page": 85,
+    "printed_page": 71,
+    "text_characters": 719,
+    "render": "pages/pdf_page_085.png"
+  },
+  {
+    "pdf_page": 86,
+    "printed_page": 72,
+    "text_characters": 811,
+    "render": "pages/pdf_page_086.png"
+  },
+  {
+    "pdf_page": 87,
+    "printed_page": 73,
+    "text_characters": 1461,
+    "render": "pages/pdf_page_087.png"
+  },
+  {
+    "pdf_page": 88,
+    "printed_page": 74,
+    "text_characters": 1594,
+    "render": "pages/pdf_page_088.png"
+  },
+  {
+    "pdf_page": 89,
+    "printed_page": 75,
+    "text_characters": 88,
+    "render": "pages/pdf_page_089.png"
+  },
+  {
+    "pdf_page": 90,
+    "printed_page": 76,
+    "text_characters": 1511,
+    "render": "pages/pdf_page_090.png"
+  },
+  {
+    "pdf_page": 91,
+    "printed_page": 77,
+    "text_characters": 1841,
+    "render": "pages/pdf_page_091.png"
+  },
+  {
+    "pdf_page": 92,
+    "printed_page": 78,
+    "text_characters": 1765,
+    "render": "pages/pdf_page_092.png"
+  },
+  {
+    "pdf_page": 93,
+    "printed_page": 79,
+    "text_characters": 2181,
+    "render": "pages/pdf_page_093.png"
+  },
+  {
+    "pdf_page": 94,
+    "printed_page": 80,
+    "text_characters": 689,
+    "render": "pages/pdf_page_094.png"
+  },
+  {
+    "pdf_page": 95,
+    "printed_page": 81,
+    "text_characters": 857,
+    "render": "pages/pdf_page_095.png"
+  },
+  {
+    "pdf_page": 96,
+    "printed_page": 82,
+    "text_characters": 75,
+    "render": "pages/pdf_page_096.png"
+  },
+  {
+    "pdf_page": 97,
+    "printed_page": 83,
+    "text_characters": 1610,
+    "render": "pages/pdf_page_097.png"
+  },
+  {
+    "pdf_page": 98,
+    "printed_page": 84,
+    "text_characters": 1870,
+    "render": "pages/pdf_page_098.png"
+  },
+  {
+    "pdf_page": 99,
+    "printed_page": 85,
+    "text_characters": 2355,
+    "render": "pages/pdf_page_099.png"
+  },
+  {
+    "pdf_page": 100,
+    "printed_page": 86,
+    "text_characters": 55,
+    "render": "pages/pdf_page_100.png"
+  },
+  {
+    "pdf_page": 101,
+    "printed_page": 87,
+    "text_characters": 64,
+    "render": "pages/pdf_page_101.png"
+  },
+  {
+    "pdf_page": 102,
+    "printed_page": 88,
+    "text_characters": 933,
+    "render": "pages/pdf_page_102.png"
+  },
+  {
+    "pdf_page": 103,
+    "printed_page": 89,
+    "text_characters": 126,
+    "render": "pages/pdf_page_103.png"
+  },
+  {
+    "pdf_page": 104,
+    "printed_page": 90,
+    "text_characters": 124,
+    "render": "pages/pdf_page_104.png"
+  },
+  {
+    "pdf_page": 105,
+    "printed_page": 91,
+    "text_characters": 645,
+    "render": "pages/pdf_page_105.png"
+  },
+  {
+    "pdf_page": 106,
+    "printed_page": 92,
+    "text_characters": 1071,
+    "render": "pages/pdf_page_106.png"
+  },
+  {
+    "pdf_page": 107,
+    "printed_page": 93,
+    "text_characters": 59,
+    "render": "pages/pdf_page_107.png"
+  },
+  {
+    "pdf_page": 108,
+    "printed_page": 94,
+    "text_characters": 165,
+    "render": "pages/pdf_page_108.png"
+  },
+  {
+    "pdf_page": 109,
+    "printed_page": 95,
+    "text_characters": 1574,
+    "render": "pages/pdf_page_109.png"
+  },
+  {
+    "pdf_page": 110,
+    "printed_page": 96,
+    "text_characters": 2414,
+    "render": "pages/pdf_page_110.png"
+  },
+  {
+    "pdf_page": 111,
+    "printed_page": 97,
+    "text_characters": 121,
+    "render": "pages/pdf_page_111.png"
+  },
+  {
+    "pdf_page": 112,
+    "printed_page": 98,
+    "text_characters": 1121,
+    "render": "pages/pdf_page_112.png"
+  },
+  {
+    "pdf_page": 113,
+    "printed_page": 99,
+    "text_characters": 1105,
+    "render": "pages/pdf_page_113.png"
+  },
+  {
+    "pdf_page": 114,
+    "printed_page": 100,
+    "text_characters": 1404,
+    "render": "pages/pdf_page_114.png"
+  },
+  {
+    "pdf_page": 115,
+    "printed_page": 101,
+    "text_characters": 1703,
+    "render": "pages/pdf_page_115.png"
+  },
+  {
+    "pdf_page": 116,
+    "printed_page": 102,
+    "text_characters": 1725,
+    "render": "pages/pdf_page_116.png"
+  },
+  {
+    "pdf_page": 117,
+    "printed_page": 103,
+    "text_characters": 1733,
+    "render": "pages/pdf_page_117.png"
+  },
+  {
+    "pdf_page": 118,
+    "printed_page": 104,
+    "text_characters": 1625,
+    "render": "pages/pdf_page_118.png"
+  },
+  {
+    "pdf_page": 119,
+    "printed_page": 105,
+    "text_characters": 1751,
+    "render": "pages/pdf_page_119.png"
+  },
+  {
+    "pdf_page": 120,
+    "printed_page": 106,
+    "text_characters": 540,
+    "render": "pages/pdf_page_120.png"
+  },
+  {
+    "pdf_page": 121,
+    "printed_page": 107,
+    "text_characters": 768,
+    "render": "pages/pdf_page_121.png"
+  },
+  {
+    "pdf_page": 122,
+    "printed_page": 108,
+    "text_characters": 1125,
+    "render": "pages/pdf_page_122.png"
+  },
+  {
+    "pdf_page": 123,
+    "printed_page": 109,
+    "text_characters": 1060,
+    "render": "pages/pdf_page_123.png"
+  },
+  {
+    "pdf_page": 124,
+    "printed_page": 110,
+    "text_characters": 1328,
+    "render": "pages/pdf_page_124.png"
+  },
+  {
+    "pdf_page": 125,
+    "printed_page": 111,
+    "text_characters": 778,
+    "render": "pages/pdf_page_125.png"
+  },
+  {
+    "pdf_page": 126,
+    "printed_page": 112,
+    "text_characters": 2009,
+    "render": "pages/pdf_page_126.png"
+  },
+  {
+    "pdf_page": 127,
+    "printed_page": 113,
+    "text_characters": 1808,
+    "render": "pages/pdf_page_127.png"
+  },
+  {
+    "pdf_page": 128,
+    "printed_page": 114,
+    "text_characters": 252,
+    "render": "pages/pdf_page_128.png"
+  },
+  {
+    "pdf_page": 129,
+    "printed_page": 115,
+    "text_characters": 228,
+    "render": "pages/pdf_page_129.png"
+  },
+  {
+    "pdf_page": 130,
+    "printed_page": 116,
+    "text_characters": 1245,
+    "render": "pages/pdf_page_130.png"
+  },
+  {
+    "pdf_page": 131,
+    "printed_page": 117,
+    "text_characters": 1358,
+    "render": "pages/pdf_page_131.png"
+  },
+  {
+    "pdf_page": 132,
+    "printed_page": 118,
+    "text_characters": 762,
+    "render": "pages/pdf_page_132.png"
+  },
+  {
+    "pdf_page": 133,
+    "printed_page": 119,
+    "text_characters": 1366,
+    "render": "pages/pdf_page_133.png"
+  },
+  {
+    "pdf_page": 134,
+    "printed_page": 120,
+    "text_characters": 1106,
+    "render": "pages/pdf_page_134.png"
+  },
+  {
+    "pdf_page": 135,
+    "printed_page": 121,
+    "text_characters": 1083,
+    "render": "pages/pdf_page_135.png"
+  },
+  {
+    "pdf_page": 136,
+    "printed_page": 122,
+    "text_characters": 63,
+    "render": "pages/pdf_page_136.png"
+  },
+  {
+    "pdf_page": 137,
+    "printed_page": 123,
+    "text_characters": 63,
+    "render": "pages/pdf_page_137.png"
+  },
+  {
+    "pdf_page": 138,
+    "printed_page": 124,
+    "text_characters": 122,
+    "render": "pages/pdf_page_138.png"
+  },
+  {
+    "pdf_page": 139,
+    "printed_page": 125,
+    "text_characters": 122,
+    "render": "pages/pdf_page_139.png"
+  }
+]

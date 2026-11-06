@@ -1,0 +1,50 @@
+[
+  {
+    "path": "archive/pre_move_navigation/notes/PROJECT_MAP.md",
+    "sha256": "039a5e1223871dfd8b3b727d93a3bb63e2f9b69a423951a425d4b5de15066b40"
+  },
+  {
+    "path": "archive/pre_move_navigation/notes/README.md",
+    "sha256": "dc37771ef1595000e418dbf1e939d7a96ab2e06fece8a3ea3197b414adf97410"
+  },
+  {
+    "path": "archive/pre_move_navigation/notes/X.Chat/01_sources/README.md",
+    "sha256": "90e3471d5bc1fd5ad55a7bd92d56629215584e116fde53298466d3a29c31484d"
+  },
+  {
+    "path": "archive/pre_move_navigation/notes/X.Chat/02_synthesis/README.md",
+    "sha256": "13611bcc91a85480271e0ec779ef73c455290133b48ac8b7d4a5ae465702fd1f"
+  },
+  {
+    "path": "archive/pre_move_navigation/notes/X.Chat/05_handoffs/README.md",
+    "sha256": "4199ea6e3264c85df099cd7db2f525526ca42d28ff1fbe4d744c2b7d5aabd825"
+  },
+  {
+    "path": "archive/pre_move_navigation/notes/tools/README.md",
+    "sha256": "d446e5c335c396afca3d5ad73b4032b7342778197dd6a68827e939a50a306df0"
+  },
+  {
+    "path": "archive/pre_move_navigation/workspace/PROJECT_MAP.md",
+    "sha256": "e8b28934c6595edd8015889d544d9c6e790d6aaaaeffd3092b1d12601c3a228b"
+  },
+  {
+    "path": "archive/pre_move_navigation/workspace/andrew_WorkSpace/trident_modeling_initiative/AGENTS.md",
+    "sha256": "1574c2b3c21a2ddca76f0b816b8394917af1c2bc9a5282431e7531edbd0bb49a"
+  },
+  {
+    "path": "archive/pre_move_navigation/workspace/andrew_WorkSpace/trident_modeling_initiative/START_HERE.md",
+    "sha256": "8a7a7fa47196d13d4e073c1bf951f63125e9e2c013745daf12b6ef48f03f3414"
+  },
+  {
+    "path": "archive/pre_move_navigation/workspace/andrew_WorkSpace/trident_modeling_initiative/docs/INDEX.md",
+    "sha256": "afca904a47c901e5148645b77d50c11c0f1cbc4fc046bbaad482063953630ae8"
+  },
+  {
+    "path": "archive/pre_move_navigation/workspace/andrew_WorkSpace/trident_modeling_initiative/reports/IMPORTANT_REPORTS.md",
+    "sha256": "0177f113c312e1fe2fa57329e8b663696a736c3e3f8f680906bc70221bcce6f8"
+  },
+  {
+    "path": "archive/pre_move_navigation/workspace/andrew_WorkSpace/trident_modeling_initiative/reports/proposal/README.md",
+    "sha256": "a5741c45a63040f318e287c9b14de6feb8fa8dc061202ce2dfd8e4f4789ba2fa"
+  }
+]

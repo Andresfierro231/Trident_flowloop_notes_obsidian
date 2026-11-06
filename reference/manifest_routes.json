@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "purpose": "Relocation-only routes for unchanged bootstrap manifest; every expected digest remains authoritative.",
+  "routes": {
+    "trident_acu_loop_detailed.i": "trident_acu_loop_detailed.i",
+    "trident_acu_loop_simple.i": "trident_acu_loop_simple.i",
+    "claude_loop_thermal_model_spec.md": "bootstrap/2026-09-07/claude_loop_thermal_model_spec.md",
+    "Nick_luciano_exp_plan/STNCL_Phase0_System_Checkout.tex": "Nick_luciano_exp_plan/2026-09-14/STNCL_Phase0_System_Checkout.tex",
+    "Nick_luciano_exp_plan/STNCL_Phase1_Ambient_Equilibrium_Baseline.tex": "Nick_luciano_exp_plan/2026-09-14/STNCL_Phase1_Ambient_Equilibrium_Baseline.tex",
+    "Nick_luciano_exp_plan/STNCL_Phase2_Thermal_Relaxation_Tests.tex": "Nick_luciano_exp_plan/2026-09-14/STNCL_Phase2_Thermal_Relaxation_Tests.tex",
+    "Nick_luciano_exp_plan/STNCL_Phase3_Low_Duty_Steady_Heat_Loss_Tests.tex": "Nick_luciano_exp_plan/2026-09-14/STNCL_Phase3_Low_Duty_Steady_Heat_Loss_Tests.tex",
+    "Nick_luciano_exp_plan/STNCL_Phase4_Initial_Test_Matrix_and_Transition_Characterization.tex": "Nick_luciano_exp_plan/2026-09-14/STNCL_Phase4_Initial_Test_Matrix_and_Transition_Characterization.tex",
+    "Nick_luciano_exp_plan/archive/STNCL_initial_experimental_plan.tex": "Nick_luciano_exp_plan/2026-09-14/archive/STNCL_initial_experimental_plan.tex",
+    "Nick_luciano_exp_plan/images/A1_figure.png": "Nick_luciano_exp_plan/2026-09-14/images/A1_figure.png",
+    "Nick_luciano_exp_plan/images/ACU.png": "Nick_luciano_exp_plan/2026-09-14/images/ACU.png",
+    "Nick_luciano_exp_plan/images/TRIDENT_logo.png": "Nick_luciano_exp_plan/2026-09-14/images/TRIDENT_logo.png",
+    "Nick_luciano_exp_plan/images/UT.png": "Nick_luciano_exp_plan/2026-09-14/images/UT.png",
+    "Nick_luciano_exp_plan/images/VCU.png": "Nick_luciano_exp_plan/2026-09-14/images/VCU.png",
+    "Nick_luciano_exp_plan/images/prop30_ss_detection_newmethod.png": "Nick_luciano_exp_plan/2026-09-14/images/prop30_ss_detection_newmethod.png"
+  }
+}

@@ -1,0 +1,62 @@
+6.5
+GCI summary for BC verification, Modes A-C. Realized refinement ratios
+r21 = 1.8560, r32 = 1.9161 (nominal 2.0). . . . . . . . . . . . . . . . . . . . .
+77
+6.6
+Numerical Uncertainties
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+83
+6.7
+Validation Uncertaintya, Temperatures . . . . . . . . . . . . . . . . . . . . .
+83
+6.8
+Validation Uncertainty, Mass Flow Rate
+. . . . . . . . . . . . . . . . . . . .
+84
+6.9
+Validation Uncertainty, Velocity . . . . . . . . . . . . . . . . . . . . . . . . .
+84
+6.10 Validation verdicts for the medium refinement level ( ˙m operator: piv_method). 95
+A.1 Loop path segments. All dimensions in mm. Default pipe radius is 11.811 mm. 107
+A.2 BC Mesh refinement levels. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+109
+A.3 Mesh refinement levels. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+110
+A.4 Loop Mesh Statistics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+110
+A.5 BC Verification Mesh Statistics
+. . . . . . . . . . . . . . . . . . . . . . . . .
+110
+B.1 HITEC salt polynomial coefficients. T in K. . . . . . . . . . . . . . . . . . .
+111
+B.2 Water polynomial coefficients. T in K.
+. . . . . . . . . . . . . . . . . . . . .
+112
+B.3 Water fit residuals relative to IAPWS-IF97. Temperatures in ◦C, errors in
+percent.
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+112
+B.4 Air polynomial coefficients. T in K. . . . . . . . . . . . . . . . . . . . . . . .
+113
+B.5 Solid material thermal properties. . . . . . . . . . . . . . . . . . . . . . . . .
+113
+C.1 Experimental thermocouple readings [◦C] for salt test cases.
+. . . . . . . . .
+116
+C.2 Experimental thermocouple readings [◦C] for water test cases.
+. . . . . . . .
+116
+C.3 Nondimensional parameters for salt test cases (global and local). . . . . . . .
+117
+C.4 Nondimensional parameters for water test cases (global and local). . . . . . .
+117
+C.5 Numerical Uncertainties, k ω SSTLM . . . . . . . . . . . . . . . . . . . . . .
+118
+C.6 Numerical Uncertainties, k ω SSTLM_Gb . . . . . . . . . . . . . . . . . . .
+119
+C.7 Validation Uncertainty, Temperatures . . . . . . . . . . . . . . . . . . . . . .
+119
+C.8 Validation Uncertainty, Mass Flow Rate
+. . . . . . . . . . . . . . . . . . . .
+120
+x

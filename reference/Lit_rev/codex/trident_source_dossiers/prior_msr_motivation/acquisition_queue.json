@@ -1,0 +1,230 @@
+{
+  "updated": "2026-10-20",
+  "acquisition_requests": [],
+  "prior_requests_still_conditional": [],
+  "resolved_main_document_requests": [
+    "S10",
+    "S16",
+    "S21",
+    "S26",
+    "S30",
+    "S48",
+    "S50",
+    "S51",
+    "S52",
+    "S56",
+    "S57",
+    "S60",
+    "S54",
+    "S55",
+    "S59",
+    "S62",
+    "S63",
+    "S66",
+    "S23",
+    "S67",
+    "S69",
+    "S70"
+  ],
+  "category_A_completed_scoped_dossiers": [
+    "S07",
+    "S09",
+    "S10",
+    "S16",
+    "S18",
+    "S21",
+    "S23",
+    "S26",
+    "S30",
+    "S35",
+    "S36",
+    "S37",
+    "S38",
+    "S39",
+    "S43",
+    "S46",
+    "S47",
+    "S48",
+    "S50",
+    "S51",
+    "S52",
+    "S54",
+    "S55",
+    "S56",
+    "S57",
+    "S59",
+    "S60",
+    "S62",
+    "S63",
+    "S66",
+    "S67",
+    "S68",
+    "S69",
+    "S70"
+  ],
+  "category_A_ready_for_next_extraction": [
+    "S13 selected-to-full",
+    "S64",
+    "S65",
+    "S61",
+    "S58 author web",
+    "S15",
+    "S53",
+    "S71",
+    "S72:THESIS1",
+    "S73"
+  ],
+  "category_B_source_or_specific_materials": [],
+  "category_C": {
+    "duplicates": [
+      "S38 duplicate text-identical copy",
+      "S16 W print for evidence already available in J"
+    ],
+    "deferred": "FlowTests5/6 raw data excluded by user; FlowTest4 bulk processing deferred; duplicate/conditional entries retained only with current registry status"
+  },
+  "first_batch": [
+    {
+      "order": 1,
+      "source_ids": [
+        "S64",
+        "S65",
+        "S13"
+      ],
+      "scope": "available MSR decision,source-distribution and similarity evidence"
+    },
+    {
+      "order": 2,
+      "source_ids": [
+        "S71",
+        "S72:THESIS1"
+      ],
+      "scope": "available goal-oriented experiment-design/calibration challenge"
+    },
+    {
+      "order": 3,
+      "source_ids": [
+        "S73",
+        "S08",
+        "S06"
+      ],
+      "scope": "innovation likelihood, thermal model selection and discrepancy; respect separate current reading depths"
+    }
+  ],
+  "next_batch": [
+    "S14/S15 similarity",
+    "S44/S45 full audit",
+    "S24/S25 theory"
+  ],
+  "stop_rule": "No new thesis direction,novelty claim,CFD truth or unmeasured local-flow claim before its evidence/feasibility gates.",
+  "resolved_by_new_uploads": [
+    {
+      "source_id": "S26:SUP1",
+      "status": "scoped-extracted"
+    },
+    {
+      "source_id": "S43",
+      "status": "scoped-extracted"
+    },
+    {
+      "source_id": "S46",
+      "status": "scoped-extracted"
+    },
+    {
+      "source_id": "S50",
+      "status": "scoped dossier"
+    },
+    {
+      "source_id": "S51",
+      "status": "scoped dossier"
+    },
+    {
+      "source_id": "S49:file_subset",
+      "status": "README/Codes/Logs/FlowTest4 received; only README/inventory inspected"
+    },
+    {
+      "source_id": "S52",
+      "status": "scoped dossier"
+    },
+    {
+      "source_id": "S30",
+      "status": "scoped dossier"
+    }
+  ],
+  "deferred_to_codex": [
+    {
+      "source_id": "S35",
+      "item": "Revision and reproducibility artifacts",
+      "rank": 3,
+      "priority": "deferred_by_user",
+      "citation": "High-Fidelity CFD Simulation of Single-Phase Natural Circulation Loop Experiments: Verification and Validation (Rozak,supplied2026thesis)",
+      "doi": null,
+      "retrieval_link": null,
+      "needed_version": "Latest confirmed thesis revision; exact case/property dictionaries,BC/cooler calculation and uncertainty scripts",
+      "inspect": "Main§5.2.2 versus AppendixB.1 property conflict; Eq5.6 enthalpy; two-grid order assumption; calibration/model selection; case/run identity",
+      "decision": "Can this CFD serve as a qualified reference or training source rather than a retrospective illustrative calculation?",
+      "why_not_abstract": "The conflicts are in technical definitions; only code/input provenance can distinguish reporting mistakes from implementation",
+      "availability_status": "not_supplied; no repository supplied for these artifacts",
+      "attempts": "Supplied thesis fully available; public repository location for exact run artifacts not established",
+      "consequence_if_unavailable": "Use scoped V&V lessons only; do not inherit local-flow truth or final property laws",
+      "user_action": "If you can obtain them,upload the latest revision and the named small input/scripts files; original thesis need not be uploaded again",
+      "replaceable": "Independent,verified CFD is an alternative reference; core sparse-data methods work need not depend on this CFD",
+      "status": "not a current acquisition blocker"
+    }
+  ],
+  "user_help_needed_now": "None; S69/S70 supplied and purpose-scoped read. Available motivation and predictive-theory papers permit the next batch.",
+  "details": "Upload_Requests_Current.md",
+  "resolved_project_material_requests": [
+    "Original Phase0–4 TeX protocols PF02–PF06"
+  ],
+  "excluded_bulk_data": [
+    "FlowTest5",
+    "FlowTest6"
+  ],
+  "no_immediate_upload_required": true,
+  "latest_resolution": "S69/S70 publisher articles supplied; scope-specific dossiers completed; S73 author-hosted copy retrieved, identity/abstract only.",
+  "optional_later_materials": [
+    {
+      "source_id": "S23",
+      "asset": "algorithm supplement",
+      "status": "not supplied; not yet searched in this pass; no current essential upload request"
+    },
+    {
+      "source_id": "S72",
+      "asset": "final journalPDF",
+      "status": "not acquired; earlier related thesis permits progress; optional version-comparison request later"
+    }
+  ],
+  "resolved_physical_interpretation_requests": [
+    {
+      "rank": 1,
+      "source_id": "S70",
+      "status": "full_text_not_retrieved",
+      "priority": "essential physical-interpretation comparator",
+      "citation": "A.-H.Deconinck;S.Roels(2017),Journal of Building Physics40(5),444–471",
+      "doi": "10.1177/1744259116688384",
+      "version_needed": "Published paper or author accepted manuscript",
+      "url": "https://doi.org/10.1177/1744259116688384",
+      "inspect": "Physical meaning of states/parameters; profile method; reference properties/data; performance/limitations. Section numbers not yet verified.",
+      "decision": "When can fitted thermal coefficients be treated as physical properties?",
+      "why_abstract_insufficient": "Cannot recover tested assumptions, reference truth, criteria or counterexamples from abstract.",
+      "consequence_if_unavailable": "Keep material-property interpretation provisional; effective predictive parameters remain possible.",
+      "user_action": "Upload full PDF; no university subscription assumed."
+    },
+    {
+      "rank": 2,
+      "source_id": "S69",
+      "status": "repository_pdf503_and_publisher_non_pdf",
+      "priority": "essential data-error comparator",
+      "citation": "G.Reynders;J.Diriken;D.Saelens(2014),Energy and Buildings82,263–274",
+      "doi": "10.1016/j.enbuild.2014.07.025",
+      "version_needed": "Published paper or author accepted manuscript",
+      "url": "https://doi.org/10.1016/j.enbuild.2014.07.025",
+      "repository_url": "https://lirias.kuleuven.be/663455",
+      "inspect": "Input/observation perturbations; model complexity; dedicated versus ordinary data; parameter reference; prediction/validation tests.",
+      "decision": "Distinguish missing physics from input or observation error in a sparse thermal fit.",
+      "why_abstract_insufficient": "Need actual perturbation cases, benchmarks and independent-prediction comparisons.",
+      "consequence_if_unavailable": "S08/S67 provide partial substitutes but do not settle this exact data-quality comparison.",
+      "user_action": "Upload full PDF or accepted manuscript."
+    }
+  ]
+}

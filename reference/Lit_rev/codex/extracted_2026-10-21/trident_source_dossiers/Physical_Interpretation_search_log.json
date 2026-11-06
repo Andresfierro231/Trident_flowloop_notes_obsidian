@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-20",
+  "queries": [
+    "10.1177/1744259116688384",
+    "10.1016/j.enbuild.2014.07.025",
+    "Lumped parameter models for building thermal modelling PDF",
+    "Parameter estimation in stochastic grey-box models2004 PDF"
+  ],
+  "primary_urls": [
+    "https://journals.sagepub.com/doi/abs/10.1177/1744259116688384",
+    "https://www.sciencedirect.com/science/article/pii/S0378778814005623",
+    "https://www.sciencedirect.com/science/article/pii/S000510980300298X",
+    "https://henrikmadsen.org/wp-content/uploads/2014/05/Journal_article_-_2004_-_Parameter_estimation_in_stochastic_grey-box_models.pdf"
+  ],
+  "limitations": [
+    "Targeted source verification/follow-up,not exhaustive systematic search or novelty certification",
+    "S73 only identity/abstract inspected; Ramallo2013 discovery lead not full read",
+    "No subscription or unavailable supporting data assumed"
+  ],
+  "supplied": {
+    "S69": {
+      "file": "Reynders, Diriken & Saelens (2014), Quality of grey-box models and identified parameters as function of the accuracy of input and observation signals.pdf",
+      "library_file_id": "libfile_05d47d31737c8191b1150f9b4ba930cd",
+      "offset": 262,
+      "pages": 12
+    },
+    "S70": {
+      "file": "deconinck-roels-2017-is-stochastic-grey-box-modelling-suited-for-physical-properties-estimation-of-building-components.pdf",
+      "library_file_id": "libfile_90fdcc4ca16c8191b29e8a50aa855338",
+      "offset": 443,
+      "pages": 28
+    }
+  }
+}

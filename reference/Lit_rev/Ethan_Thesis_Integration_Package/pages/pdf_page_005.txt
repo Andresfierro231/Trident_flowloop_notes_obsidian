@@ -1,0 +1,90 @@
+5
+Computational Modeling
+48
+5.1
+First-Order Energy Balance Model
+. . . . . . . . . . . . . . . . . . . . . . .
+48
+5.1.1
+Purpose and Approach . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+5.1.2
+Radial Conduction Solver
+. . . . . . . . . . . . . . . . . . . . . . . .
+52
+5.1.3
+Cooler Heat Removal . . . . . . . . . . . . . . . . . . . . . . . . . . .
+54
+5.1.4
+Composite Fin Model . . . . . . . . . . . . . . . . . . . . . . . . . . .
+55
+5.1.5
+Energy Balance Results
+. . . . . . . . . . . . . . . . . . . . . . . . .
+56
+5.2
+OpenFOAM Simulation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+5.2.1
+Governing Equations . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+5.2.2
+Thermophysical Model . . . . . . . . . . . . . . . . . . . . . . . . . .
+58
+5.2.3
+Turbulence Modeling . . . . . . . . . . . . . . . . . . . . . . . . . . .
+59
+5.3
+Mesh Generation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+5.3.1
+Overview
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+5.3.2
+Cross-Section Topology . . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+5.3.3
+Boundary Layer Inflation . . . . . . . . . . . . . . . . . . . . . . . . .
+60
+5.3.4
+Junction Topology
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+5.3.5
+Bend Segments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+5.3.6
+Expanded Cross-Sections . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+5.4
+Boundary Conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+5.4.1
+Velocity and Pressure . . . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+5.4.2
+Temperature: rcExternalTemperature . . . . . . . . . . . . . . . . .
+63
+5.5
+Solver Configuration
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+64
+5.5.1
+Solution Strategy . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+64
+5.5.2
+Discretization Schemes . . . . . . . . . . . . . . . . . . . . . . . . . .
+65
+5.5.3
+Linear Solvers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+65
+5.5.4
+Initial Conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+66
+5.5.5
+Parallel Execution
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+66
+iv

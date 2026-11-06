@@ -1,0 +1,1349 @@
+{
+  "updated": "2026-10-21",
+  "question_count": 62,
+  "original_document": "Markdown collé.md",
+  "original_sha256": "83d1ce1361aee6892e394f6c9082cccb8aec42e9187f5a5372fe142b7f802f19",
+  "questions": [
+    {
+      "id": "A1",
+      "question": "Which specific MSR heat-transport decisions require the outputs we propose: cooling duty, heat losses, circulation, extrema, freezing margin, response/settling or startup/shutdown predictions? Connect each output to a decision, mechanism and primary source.",
+      "status": "Basis;decision tolerances open",
+      "provisional_answer": "See A§1;B§4: MSR decisions and QoIs. Basis;decision tolerances open.",
+      "strongest_evidence_and_depth": "S13/S50–S52; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Decision/QoI map in connected motivation review ties thermal duty,response,temperature,circulation and qualified margins to engineering questions.",
+        "strongest_evidence_and_depth": "S13-C01/C02/C05–C08;S50/S51/S52 scoped evidence",
+        "applicability_contradiction_next": "Exact facility decision tolerances/metrology remain project unknowns."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S29 supplies a concrete laboratory heat-removal/source-sink response example,while S19 exposes the distinction between measured surface temperatures and inferred circulation. Engineering relevance remains QoI/circuit-specific.",
+        "strongest_evidence_and_depth": "S29-C01/C02/C06;S19-C01–C04;motivation review§3",
+        "applicability_contradiction_next": "Facility duty/margin tolerances and independent energy/observation support remain necessary."
+      },
+      "review_locations": "A§1;B§4",
+      "consolidated_focus": "MSR decisions and QoIs"
+    },
+    {
+      "id": "A2",
+      "question": "How do requirements differ for liquid-fueled reactors, salt-cooled solid-fuel systems, primary/secondary loops and test facilities? Avoid one generic MSR justification.",
+      "status": "Basis;target circuit unselected",
+      "provisional_answer": "See B§3–5: Distinct reactor and circuit needs. Basis;target circuit unselected.",
+      "strongest_evidence_and_depth": "S13/S42/S51/S74; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Liquid-fuel primary,solid-fuel salt-cooled,secondary/passive and test-loop missions require distinct source/coupling justifications.",
+        "strongest_evidence_and_depth": "S13-C05/C08;motivation review§3–4",
+        "applicability_contradiction_next": "S13 excludes detailed auxiliary/secondary analysis; do not use it as a complete subsystem justification."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S74 compares several reference designs and fluids analytically; S29 follows that similarity lineage but is an electrically heated laboratory loop. It is not an independently demonstrated liquid-fuel primary reactor.",
+        "strongest_evidence_and_depth": "S74-C01/C02;S29-C01/C08",
+        "applicability_contradiction_next": "Retain liquid-fuel,solid-fuel salt-cooled,secondary/passive and facility missions separately."
+      },
+      "review_locations": "B§3–5",
+      "consolidated_focus": "Distinct reactor and circuit needs"
+    },
+    {
+      "id": "A3",
+      "question": "What can natural-circulation/surrogate-fluid loops establish, and what requires property, geometric, source-distribution and dimensionless similarity? Compare Re, Pr, buoyancy measures, development lengths and conjugate thermal time scales where relevant. Explain which cannot all be matched simultaneously.",
+      "status": "Basis;no actual TRIDENT scaling demonstrated",
+      "provisional_answer": "See B§6;A§4: Similarity and unavoidable distortion. Basis;no actual TRIDENT scaling demonstrated.",
+      "strongest_evidence_and_depth": "S56/S64/S74/S76; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Similarity requires fluid groups,geometry,source/boundaries and fluid/solid response; group agreement can retain property-variation distortion.",
+        "strongest_evidence_and_depth": "S64-C01–C05/C07;S56 scoped dossier",
+        "applicability_contradiction_next": "No actual TRIDENT-to-reactor scaling calculation performed."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Group matching,oil selection and achieved test similarity are distinct. S74 uses simplified loss/storage assumptions and same-correlation Nu consistency; S29 explicitly says testedPr needs higher power for salt comparability.",
+        "strongest_evidence_and_depth": "S74-C01–C08;S29-C08;earlierS64",
+        "applicability_contradiction_next": "No quantitative TRIDENT-to-reactor transfer or output-error bound established."
+      },
+      "review_locations": "B§6;A§4",
+      "consolidated_focus": "Similarity and unavoidable distortion"
+    },
+    {
+      "id": "A4",
+      "question": "How do distributed volumetric heating versus externally applied heating, different coolant properties and nonuniform losses affect applicability? Do not imply neutronics, chemistry or other excluded physics are modeled.",
+      "status": "Basis;conditional transfer",
+      "provisional_answer": "See A§2/4;B§5–6: Volumetric versus external source/loss. Basis;conditional transfer.",
+      "strongest_evidence_and_depth": "S20/S65/S66/S29; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "S65 changes source partition and geometry in1D stability; actual fluid operating curves were not mapped and linearization changes confound transition.",
+        "strongest_evidence_and_depth": "S65-C01–C08;S66 scoped dossier",
+        "applicability_contradiction_next": "Matching total power alone does not establish dynamic similarity; source-share convention needs care."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S19 uses measured steady thermal boundaries; S29 changes rod/guard power deposition and omits geometry,confounding flow/loss attribution. S74 simplifications omit losses/leg-wall inertia.",
+        "strongest_evidence_and_depth": "S19-C02;S29-C12;S74-C02",
+        "applicability_contradiction_next": "Source distribution and uncertain losses cannot be replaced by total electrical power."
+      },
+      "review_locations": "A§2/4;B§5–6",
+      "consolidated_focus": "Volumetric versus external source/loss"
+    },
+    {
+      "id": "A5",
+      "question": "Verify the raw-note claim of an approximately “25% MSRE heat-balance discrepancy”: what was compared, which denominator/time period, and what primary report supports it? If unverified or wrong, say so and do not repeat it as motivation. Separately determine whether critical heat flux is relevant to our intended single-phase scope or belongs to a different problem.",
+      "status": "Original claim corrected;CHF not default scope",
+      "provisional_answer": "See B§2.5/4: MSRE discrepancy claim and CHF scope. Original claim corrected;CHF not default scope.",
+      "strongest_evidence_and_depth": "S47;PF01; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Corrected_scoped",
+        "provisional_answer": "The alleged25% heat-balance metric is unsupported here; Gabbard separates power metrology, primary-HX property correction and radiator performance.",
+        "strongest_evidence_and_depth": "S47 abstract/PDF5 and conclusions/PDF31–32; S43 history",
+        "applicability_contradiction_next": "Use the original metric/date/calibration. Do not infer universal salt-correlation failure or introduce boiling CHF."
+      },
+      "review_locations": "B§2.5/4",
+      "consolidated_focus": "MSRE discrepancy claim and CHF scope",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "B1",
+      "question": "What is the minimum input/output contract for a useful steady ROM and its transition extension? Which inputs are measured operationally, inferred, prescribed, or only available from CFD during development?",
+      "status": "Specified proposal;actual inputs need support",
+      "provisional_answer": "See A§1/11: Minimum input/state/output contract. Specified proposal;actual inputs need support.",
+      "strongest_evidence_and_depth": "S71/S72/S75;PF01; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Phase4 controls mean-temperature targets by adjusting cooler; distinguish controlled-condition response from autonomous prediction.",
+        "strongest_evidence_and_depth": "PF06 lines246–254; S16; S48 BC discussion",
+        "applicability_contradiction_next": "Use actual external controls as inputs; do not prescribe the primary target when validating its prediction."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "The minimum contract now explicitly separates observed y,physical state x and targetz,known inputs,nuisance quantities and calibration/assessment cases. S71/S72/S73 provide different mathematical roles.",
+        "strongest_evidence_and_depth": "S71-C03;S72-C02;S73-C01–C04;Implementation_Equation_and_Validation_Contract.md",
+        "applicability_contradiction_next": "No data availability or accepted facility controls inferred."
+      },
+      "review_locations": "A§1/11",
+      "consolidated_focus": "Minimum input/state/output contract"
+    },
+    {
+      "id": "B2",
+      "question": "Which QoIs require field reconstruction rather than bulk temperatures? How should bulk, mixing-cup, area-average, centerline, point, wall and sensor-filtered temperatures be related? Can reduction preserve duty while losing local extrema?",
+      "status": "Definitions/basis;field support conditional",
+      "provisional_answer": "See A§5: Bulk,point,wall and field outputs. Definitions/basis;field support conditional.",
+      "strongest_evidence_and_depth": "S19/S29/S32; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Supported_scoped",
+        "provisional_answer": "Centerline, wall, path, area and enthalpy-weighted temperatures are different; a duty-preserving reduction need not preserve extrema.",
+        "strongest_evidence_and_depth": "S43; S39; S37; S16",
+        "applicability_contradiction_next": "Write observation operator and temperature/QoI definitions; spatial extrema require extra evidence."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S19 wall-to-fluid and S29 local maps are CFD quantities; point,surface and bulk enthalpy observations are not interchangeable. Energy-balance flow depends on that map.",
+        "strongest_evidence_and_depth": "S19-C01/C03/C06;S29-C02/C07",
+        "applicability_contradiction_next": "No new local field or observation operator validated for TRIDENT."
+      },
+      "review_locations": "A§5",
+      "consolidated_focus": "Bulk,point,wall and field outputs"
+    },
+    {
+      "id": "B3",
+      "question": "How can a model estimate unobserved hot/cold spots with honest uncertainty when experiments sample only a few locations? What supports a location claim versus a conservative bound?",
+      "status": "Partial;embedded route exists,evidence gate remains",
+      "provisional_answer": "See A§5/7;B§8: Unobserved extrema and honest uncertainty. Partial;embedded route exists,evidence gate remains.",
+      "strongest_evidence_and_depth": "S72/S75/S76; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Open_project",
+        "provisional_answer": "Sparse point data generally cannot establish a unique unobserved hotspot/location without structural assumptions and evidence.",
+        "strongest_evidence_and_depth": "S39/S46 observation limits; analyst identifiability argument",
+        "applicability_contradiction_next": "Test nonuniqueness and conservative scenario bounds; rigorous spatial-bound literature remains needed."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S72 explicitly cannot directly propagate observation-level discrepancy to an unobserved QoI. S19/S29 do not independently validate local fields. S75/S76 are the next retrieved-but-unread challengers.",
+        "strongest_evidence_and_depth": "S72-C02/C08/C09;S19-C06;S29-C07",
+        "applicability_contradiction_next": "Keep extrema/location claims conditional; no automatic bound from sensor-fit bands."
+      },
+      "review_locations": "A§5/7;B§8",
+      "consolidated_focus": "Unobserved extrema and honest uncertainty"
+    },
+    {
+      "id": "B4",
+      "question": "How do interpolation, observation operators, wall conduction and sensor dynamics alter comparisons with experiments? What data would distinguish sensor placement/calibration from missing physical transport?",
+      "status": "Basis;facility mapping/response unresolved",
+      "provisional_answer": "See A§5–6: Observation/sensor/placement effects. Basis;facility mapping/response unresolved.",
+      "strongest_evidence_and_depth": "S32/S68–S70; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Virtual flux observations can change thermal-parameter inference even when temperatures alone predict well.",
+        "strongest_evidence_and_depth": "S69-C03",
+        "applicability_contradiction_next": "No new TRIDENT flux instrument assumed; define actual observation operator."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Surface/point-to-bulk maps affect inferred flow and thermal comparison; S29 separate experiment/energy-flow labels do not establish independent evidence.",
+        "strongest_evidence_and_depth": "S19-C01–C04;S29-C02/C10",
+        "applicability_contradiction_next": "Need justified sensor/averaging/bias/clock contract,not a new fitted label."
+      },
+      "review_locations": "A§5–6",
+      "consolidated_focus": "Observation/sensor/placement effects"
+    },
+    {
+      "id": "B5",
+      "question": "Which tolerances should be set from operating decisions versus statistical/measurement resolution? Identify evidence needed before specifying numerical acceptance thresholds; do not choose arbitrary values for us.",
+      "status": "Literature distinction;numeric values open",
+      "provisional_answer": "See A§1/8;B§4: Decision versus statistical tolerances. Literature distinction;numeric values open.",
+      "strongest_evidence_and_depth": "S32/S75; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Open_project",
+        "provisional_answer": "Decision tolerances and measurement resolution must be separated; no numerical TRIDENT threshold is established.",
+        "strongest_evidence_and_depth": "PF01; S01 selected metrology",
+        "applicability_contradiction_next": "Adviser must own tolerances; demonstrate measurement adequacy before declaring success."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Relative-temperature percentages,fitbands and source-reported RMSE must not become arbitrary acceptance tolerances. S72 normalization and S29 percent/bar conventions need qualification.",
+        "strongest_evidence_and_depth": "S72-C05/C07/C08;S29-C09/C13",
+        "applicability_contradiction_next": "Decision-linked numerical thresholds remain project/adviser facts."
+      },
+      "review_locations": "A§1/8;B§4",
+      "consolidated_focus": "Decision versus statistical tolerances"
+    },
+    {
+      "id": "C1",
+      "question": "Compare lumped RC/thermal networks, segmented conjugate fluid-wall-insulation networks, reduced regional grey-box models, 1D natural-circulation models and quasi-1D/low-order spatial models. State equations, physical meanings and reduction assumptions.",
+      "status": "Minimal hierarchy proposed",
+      "provisional_answer": "See A§2–3: Competing physical model forms. Minimal hierarchy proposed.",
+      "strongest_evidence_and_depth": "S50/S52/S66/S73; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "S18 preprint supplies a coupled-loop wall/conduction Fourier comparator; not three total states.",
+        "strongest_evidence_and_depth": "S18-C01/C03/C04;S52/S66 scoped dossiers",
+        "applicability_contradiction_next": "Model family established; actual secondary cooling and Pr transfer need checks."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S73 adds a two-state stochastic conductive-wall network as prior art; S19/S29 add thermal-balance/CFD comparators. These do not replace conservative advection/momentum models.",
+        "strongest_evidence_and_depth": "S73-C07;S19-C01–C03;S29-C01/C02;methods review§2/18",
+        "applicability_contradiction_next": "Minimal comparator set recommended,not all model forms required."
+      },
+      "review_locations": "A§2–3",
+      "consolidated_focus": "Competing physical model forms"
+    },
+    {
+      "id": "C2",
+      "question": "Which physical states and heat paths are necessary to preserve thermal storage, losses, duty, buoyancy and local temperature gradients? How are axial wall conduction, insulation/contact, radiation, supports and source deposition treated?",
+      "status": "Basis;retention depends on target",
+      "provisional_answer": "See A§2/4: Storage,losses,source and transport. Basis;retention depends on target.",
+      "strongest_evidence_and_depth": "S52/S65/S66; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Wall capacity, radial conduction and source placement can affect response/stability; effects are conditional.",
+        "strongest_evidence_and_depth": "S66-C01/C04/C06",
+        "applicability_contradiction_next": "Separate effective storage from identified material properties."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Thermal storage,actual source deposition,ambient losses and observation maps must be declared; simplified source/geometry assumptions remain confounded in S29 and restricted in S74.",
+        "strongest_evidence_and_depth": "S29-C12;S74-C02/C06",
+        "applicability_contradiction_next": "No extra states justified solely by a better calibration fit."
+      },
+      "review_locations": "A§2/4",
+      "consolidated_focus": "Storage,losses,source and transport"
+    },
+    {
+      "id": "C3",
+      "question": "When do steady momentum closure, transient inertia and advection need separate treatment? Explain circulation branch/reversal, low-flow limits and stability concerns where relevant; do not conflate passive temperature relaxation with full coupled hydrodynamics.",
+      "status": "Basis;equation assumptions explicit",
+      "provisional_answer": "See A§2.2/10: Steady closure,inertia,advection/reversal. Basis;equation assumptions explicit.",
+      "strongest_evidence_and_depth": "S54/S55/S57/S59; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Momentum inertia, thermal storage and transport delay are distinct; local linear stability does not certify finite-disturbance recovery.",
+        "strongest_evidence_and_depth": "S54-C04;S55-C04/C07;S63-C01",
+        "applicability_contradiction_next": "Specify actual regime, disturbance and event observation."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Reported steady flow closures use buoyant head and squared-loss magnitude,while stochastic thermal-wall states lack circulation dynamics. Signed reversal/transient inertia requires an additional model contract.",
+        "strongest_evidence_and_depth": "S19/PDF6,Eq17–27;S29/PDF11,Eq6–10;S73/PDF9/233",
+        "applicability_contradiction_next": "No square-root steady branch or passive RC fit certifies reversal/stability."
+      },
+      "review_locations": "A§2.2/10",
+      "consolidated_focus": "Steady closure,inertia,advection/reversal"
+    },
+    {
+      "id": "C4",
+      "question": "How should natural/mixed/forced convection, entrance/development effects, curved connections, conjugate heat transfer and property variation inform closure choices? Distinguish established correlation limits from proposed corrections.",
+      "status": "Partial;all original correlation limits not audited",
+      "provisional_answer": "See A§4: Convection/development/curvature closures. Partial;all original correlation limits not audited.",
+      "strongest_evidence_and_depth": "S19/S20/S60/S74; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "S10 freezes properties at300°C; S48 shows property-derivative sensitivity but has closure/energy ambiguities.",
+        "strongest_evidence_and_depth": "S10 §3.4/Tables1–2; S48 Eqs11,14,16 and §4.1",
+        "applicability_contradiction_next": "Read S45/development and property originals; neither paper supplies a universal TRIDENT closure."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Source-specific closures have development/geometry/property limits. S19 open-pipe Nu lineage and S74 core hydraulic-diameter/scaling flags prevent literal transplantation.",
+        "strongest_evidence_and_depth": "S19-C08;S74-C03/C07;S29-C12",
+        "applicability_contradiction_next": "Original correlation validity and actual operating envelope remain gates."
+      },
+      "review_locations": "A§4",
+      "consolidated_focus": "Convection/development/curvature closures"
+    },
+    {
+      "id": "C5",
+      "question": "Compare fixed material/correlation models, a small fitted grouped-parameter network, conventional projection ROMs, operator inference, learned closure hybrids, Gaussian-process surrogates and other credible data-driven baselines. Include a simple model that can defeat an overcomplicated proposed method.",
+      "status": "Proposed comparison;advanced branches conditional",
+      "provisional_answer": "See A§3/11: Physical,learned and simple baselines. Proposed comparison;advanced branches conditional.",
+      "strongest_evidence_and_depth": "S04/S26/S67/S73; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Use simple response/energy baseline, constrained network and segmented physics first; learned closures, GP and field ROMs are conditional comparators.",
+        "strongest_evidence_and_depth": "S08; S04 selected; S26; S18/S24/S25 not fully extracted",
+        "applicability_contradiction_next": "Sparse temperatures do not directly supply projected field coordinates. Minimize comparison count."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Add covariance-aware MLE and justified stochastic grey-box inference as fair baselines; S72 demonstrates goal calibration need not beat MLE. Learned operators remain conditional on state data.",
+        "strongest_evidence_and_depth": "S72-C05;S73-C01–C08;methods review§18",
+        "applicability_contradiction_next": "No final algorithm selected; S24 technical reading still pending."
+      },
+      "review_locations": "A§3/11",
+      "consolidated_focus": "Physical,learned and simple baselines"
+    },
+    {
+      "id": "C6",
+      "question": "For each family, explain accessible data requirements, cost, interpretability, conservation/positivity/stability, uncertainty, extrapolation and falsifiable failure modes. Recommend a minimal comparison set rather than requiring every family to be implemented.",
+      "status": "Compared;resource-specific choices remain",
+      "provisional_answer": "See A§3/11: Data,cost,constraints and failure modes. Compared;resource-specific choices remain.",
+      "strongest_evidence_and_depth": "S18/S26/S71/S72; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "S18 mode/grid checks target bulk outputs; S07 surrogate design and inference accuracy requirements differ.",
+        "strongest_evidence_and_depth": "S18-C04/C05;S07-C07",
+        "applicability_contradiction_next": "Verify each claimed QoI and distinguish offline costs."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Methods review§18 and equation contract compare minimal physical/inferential baselines with common information/holdouts. Nested design/calibration cost and assumptions are explicit.",
+        "strongest_evidence_and_depth": "S71-C04/C08;S72-C10;S73-C02/C06",
+        "applicability_contradiction_next": "Implementation/data costs cannot be inferred from labels alone."
+      },
+      "review_locations": "A§3/11",
+      "consolidated_focus": "Data,cost,constraints and failure modes"
+    },
+    {
+      "id": "D1",
+      "question": "What does the reduction actually do: aggregate control volumes, lump resistances/capacities, project fields, infer operators, learn spatial reconstruction, or close unresolved transport? Distinguish those contributions.",
+      "status": "Basis;operations distinguished",
+      "provisional_answer": "See A§3: What reduction actually removes/learns. Basis;operations distinguished.",
+      "strongest_evidence_and_depth": "S18/S26/S59; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Supported_scoped",
+        "provisional_answer": "Fourier thermal coupling in S18 produces modal convolution; polynomial chaos in S07 approximates outputs versus inputs rather than internal state reduction.",
+        "strongest_evidence_and_depth": "S18-C03;S07-C05;S59-C04/C05",
+        "applicability_contradiction_next": "Do not label every surrogate the same type of ROM."
+      },
+      "review_locations": "A§3",
+      "consolidated_focus": "What reduction actually removes/learns",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "D2",
+      "question": "Can CFD support observable-consistent bulk-to-local temperature and wall-flux maps, or development-conditioned heat-transfer closures that improve predictions beyond fixed averages? What information would those maps require at online inference time?",
+      "status": "Conditional;no qualified TRIDENTCFD",
+      "provisional_answer": "See A§5/11;B§8: CFD-supported observation/closure maps. Conditional;no qualified TRIDENTCFD.",
+      "strongest_evidence_and_depth": "S19/S20/S29; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Conditional_CFD",
+        "provisional_answer": "CFD can propose bulk-to-local maps only with matched online inputs and observations; no qualified TRIDENT field dataset is established.",
+        "strongest_evidence_and_depth": "S35; S39; S16; PF01",
+        "applicability_contradiction_next": "Define observable contract and held-out case test; unavailable CFD narrows scope."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S19/S29 local maps suggest conditional observation-model research but do not supply experimentally validated TRIDENT reconstruction. Online inputs must be available independently.",
+        "strongest_evidence_and_depth": "S19-C06;S29-C07",
+        "applicability_contradiction_next": "No qualified TRIDENT CFD assumed."
+      },
+      "review_locations": "A§5/11;B§8",
+      "consolidated_focus": "CFD-supported observation/closure maps"
+    },
+    {
+      "id": "D3",
+      "question": "How do goal-oriented/adjoint, balanced, POD/Galerkin, nonlinear/manifold, structure-preserving and data-driven methods select states to retain? Which are feasible with sparse experiment data and delayed CFD?",
+      "status": "Partial;not all families technically cleared",
+      "provisional_answer": "See A§3: Goal,balanced,POD,nonlinear reduction. Partial;not all families technically cleared.",
+      "strongest_evidence_and_depth": "S04/S18/S25/S59; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "POD norm and energy content do not guarantee goal fidelity; NEMO has a goal-oriented operator basis under specific assumptions.",
+        "strongest_evidence_and_depth": "S46; S05 selected Eq8; S25 available_or_access_status_in_registry",
+        "applicability_contradiction_next": "Goal/balanced/manifold comparison still needs original theory extraction."
+      },
+      "review_locations": "A§3",
+      "consolidated_focus": "Goal,balanced,POD,nonlinear reduction",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "D4",
+      "question": "Compare closure correction, state enrichment and explicit extra physics. What diagnostics decide that a closure is inadequate rather than merely poorly calibrated? How do we prevent a fitted coefficient absorbing wrong geometry or boundary conditions?",
+      "status": "Basis/proposed discrimination;causality not established",
+      "provisional_answer": "See A§4/7/11: Closure correction versus state enrichment. Basis/proposed discrimination;causality not established.",
+      "strongest_evidence_and_depth": "S29/S65/S66/S75; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Increasing order can harm longer-horizon performance; useful nuisance states need not represent separate layers.",
+        "strongest_evidence_and_depth": "S69-C06;S70-C06",
+        "applicability_contradiction_next": "Assess reduction against target output and permitted refits, not parameter significance alone."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Improved loss-inclusive fit does not isolate missing physics when source and resistance differ. S72 discrepancy-family dependence and S73 diffusion offer diagnostics,not unique causal attribution.",
+        "strongest_evidence_and_depth": "S29-C12;S72-C03;S73-C03",
+        "applicability_contradiction_next": "Use controlled physical/model comparisons and separate nuisance uncertainty."
+      },
+      "review_locations": "A§4/7/11",
+      "consolidated_focus": "Closure correction versus state enrichment"
+    },
+    {
+      "id": "D5",
+      "question": "Which methods preserve energy, dissipation, positive capacities and appropriate transport direction? Are passivity/port-Hamiltonian or related frameworks suitable for dissipative thermal-advection networks, and which assumptions prevent direct transfer from mechanical/Hamiltonian examples?",
+      "status": "Conservative formulation;port-Hamiltonian branch incomplete",
+      "provisional_answer": "See A§2/12: Conservation,positivity,passivity frameworks. Conservative formulation;port-Hamiltonian branch incomplete.",
+      "strongest_evidence_and_depth": "S26/S52;our equations; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "PF04 global cancellation is insufficient for uniform-temperature equilibrium/reference invariance in its directed form.",
+        "strongest_evidence_and_depth": "PF04 zonebalance/conductancematrix; reconciliation analyst derivation",
+        "applicability_contradiction_next": "Require node balance or a different physically derived coordinate/network model; passivity theory search remains open."
+      },
+      "review_locations": "A§2/12",
+      "consolidated_focus": "Conservation,positivity,passivity frameworks",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "D6",
+      "question": "How should we split cases for closure training, method selection and final unseen assessment to avoid leaking CFD snapshots or experimental targets? Compare leave-regime/geometry/case-out assessment with random time-point splits.",
+      "status": "Assessment contract proposed",
+      "provisional_answer": "See A§10–11: Leakage-free case/regime assessment. Assessment contract proposed.",
+      "strongest_evidence_and_depth": "S18/S29/S71/S75; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Proposed_design",
+        "provisional_answer": "Phase2 withheld runs select complexity; preserve Phase3 as separate blind assessment and track later revision.",
+        "strongest_evidence_and_depth": "PF04 lines313–317,458–462; PF05 lines257–267,372",
+        "applicability_contradiction_next": "Selection data are not a final untouched test; existing plan already reclassifies revision data."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S71 shuffles individual field points for surrogate testing; S29 uses experiment agreement in numerical selection. Neither establishes independent case/regime-out assessment for our transfer claim.",
+        "strongest_evidence_and_depth": "S71-C06;S29-C04;S72-C04",
+        "applicability_contradiction_next": "Reclassify reused selection cases as development; freeze final holdouts."
+      },
+      "review_locations": "A§10–11",
+      "consolidated_focus": "Leakage-free case/regime assessment"
+    },
+    {
+      "id": "E1",
+      "question": "Define useful descriptors of extent: reverse-flow volume/area fraction, separation/reattachment length, recirculating region size, signed local axial flow or exchange/transport measures. Which are robust in 3D, sensitive to averaging/frame/threshold, or ambiguous in buoyant curved flow? Distinguish persistent structures from temporal intermittency.",
+      "status": "Definitions proposed;no validated descriptor selected",
+      "provisional_answer": "See A§5;B§8: Recirculation extent descriptors. Definitions proposed;no validated descriptor selected.",
+      "strongest_evidence_and_depth": "S20/S60;H03; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Use signed axial reverse fraction with frame/threshold/averaging, plus exchange or topology descriptors where meaningful.",
+        "strongest_evidence_and_depth": "S46 detector/observations; S35; S44 selected",
+        "applicability_contradiction_next": "2D vorticity or negative axial flow does not establish closed3D extent. Validate descriptor numerics."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S19/S29 report modeled vortices/localvelocitymaps but do not validate a3Drecirculation-extent descriptor. Existing descriptor questions remain open.",
+        "strongest_evidence_and_depth": "S19-C06;S29-C07",
+        "applicability_contradiction_next": "S20 conditional; no selected descriptor claimed."
+      },
+      "review_locations": "A§5;B§8",
+      "consolidated_focus": "Recirculation extent descriptors"
+    },
+    {
+      "id": "E2",
+      "question": "How can the heat-transfer effect be quantified: changes in wall heat flux, local/region-integrated transfer, fluid/wall extrema, effective transport or temperature asymmetry? HTC definitions may become ill-conditioned when the driving temperature difference is small or changes sign; examine alternatives.",
+      "status": "Proposed quantities;causal/reference evidence missing",
+      "provisional_answer": "See A§4–5;B§8: Thermal effect and ill-conditioned HTC. Proposed quantities;causal/reference evidence missing.",
+      "strongest_evidence_and_depth": "S19/S20/S29; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Prefer flux, duty, wall/fluid extrema and asymmetry before ill-conditioned HTC ratios.",
+        "strongest_evidence_and_depth": "S43 heat-transfer limits; S46; analyst ratio conditioning",
+        "applicability_contradiction_next": "Read S45/local transfer originals; sparse temperatures do not prove enhancement."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Local HTC/thermal consequence needs consistent wall/bulk reference and separate transport/field support; contour agreement is insufficient.",
+        "strongest_evidence_and_depth": "S19-C06;S29-C07;S74-C05",
+        "applicability_contradiction_next": "No causal heat-transfer-effect or localHTCerror bound established."
+      },
+      "review_locations": "A§4–5;B§8",
+      "consolidated_focus": "Thermal effect and ill-conditioned HTC"
+    },
+    {
+      "id": "E3",
+      "question": "What are valid counterfactual or controlled comparisons for attributing a heat-transfer change to recirculation rather than changed flow rate, geometry, boundary condition or thermal development? Correlation of two CFD outputs is not by itself attribution.",
+      "status": "Unresolved causal evidence;conditions stated",
+      "provisional_answer": "See B§8;A§4/10: Controlled recirculation counterfactual. Unresolved causal evidence;conditions stated.",
+      "strongest_evidence_and_depth": "S20/S29;H03; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Open_mechanism",
+        "provisional_answer": "Heat-transfer changes cannot be attributed solely to recirculation when source, properties, geometry or flow also change.",
+        "strongest_evidence_and_depth": "S43 campaigns; S21; S44",
+        "applicability_contradiction_next": "Design controlled/matched comparisons and explain infeasible counterfactuals."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S29 changes source distribution,losses and resistance; S74 matched-correlation results are construction-consistent. Neither isolates a recirculation heat-transfer counterfactual.",
+        "strongest_evidence_and_depth": "S29-C12;S74-C05",
+        "applicability_contradiction_next": "Controlled flow/BC/geometry comparison still required."
+      },
+      "review_locations": "B§8;A§4/10",
+      "consolidated_focus": "Controlled recirculation counterfactual"
+    },
+    {
+      "id": "E4",
+      "question": "Compare an effective closure, a two-zone exchange model, a local spatial correction and a richer velocity/temperature reconstruction. What is the simplest representation that can predict extent and thermal effect sufficiently for a declared QoI?",
+      "status": "Conditional hierarchy;not selected",
+      "provisional_answer": "See B§8;A§3/11: Minimum local correction/representation. Conditional hierarchy;not selected.",
+      "strongest_evidence_and_depth": "S19/S20/S75; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Conditional_CFD",
+        "provisional_answer": "Compare effective closure, two-zone exchange, local correction and field reconstruction only against declared QoIs.",
+        "strongest_evidence_and_depth": "S35/S39/S46; P0 proposed ladder",
+        "applicability_contradiction_next": "Choose smallest adequate representation after held-out evidence, not visual detail."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "H03 remains conditional: compare simple thermal consequences/bounds before full field reconstruction. No new local model selected by this batch.",
+        "strongest_evidence_and_depth": "S72-C02;S19-C06;S29-C07",
+        "applicability_contradiction_next": "Sparse temperatures alone do not identify extent."
+      },
+      "review_locations": "B§8;A§3/11",
+      "consolidated_focus": "Minimum local correction/representation"
+    },
+    {
+      "id": "E5",
+      "question": "What can sparse bulk/wall experiments constrain about thermal consequences, and what is structurally unobservable without local flow measurements? Can multiple distinct flow fields explain the same measured temperatures?",
+      "status": "Basis;particular TRIDENT ambiguity not proved",
+      "provisional_answer": "See A§5–7: What sparse thermal data cannot identify. Basis;particular TRIDENT ambiguity not proved.",
+      "strongest_evidence_and_depth": "S19/S29/S75; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Supported_limit",
+        "provisional_answer": "Multiple local fields can be consistent with sparse thermal observations; unique extent is not experimentally validated here.",
+        "strongest_evidence_and_depth": "S43; S46; S39; analyst null-space test",
+        "applicability_contradiction_next": "Demonstrate nonuniqueness for the actual model/measurement class; do not infer a measured volume fraction."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "The contemporary comparators infer circulation from shared thermal measurements and provide no direct local-flow validation. Observation fit cannot uniquely establish an unobserved field.",
+        "strongest_evidence_and_depth": "S19-C01/C06;S29-C02/C10;S72-C02",
+        "applicability_contradiction_next": "Precise non-identifiability/bound remains research work,not a result proved here."
+      },
+      "review_locations": "A§5–7",
+      "consolidated_focus": "What sparse thermal data cannot identify"
+    },
+    {
+      "id": "E6",
+      "question": "Specify the Trident CFD dataset needed: fields/integrals, geometry/BCs, source placement, regime coverage, mesh/time/domain sensitivities, uncertainty and descriptors. Explain how we can test descriptor/reconstruction transfer on held-out CFD without claiming experimental local-flow validation.",
+      "status": "Proposed;no campaign assumed",
+      "provisional_answer": "See A§10–11;B§8: Future CFD evidence/data contract. Proposed;no campaign assumed.",
+      "strongest_evidence_and_depth": "S20/S29;H03; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Proposed_contract",
+        "provisional_answer": "Need signed fields, integrals, matched observations, BC/source/geometry metadata and QoI-specific verification/holdouts.",
+        "strongest_evidence_and_depth": "S35 audit; S44 selected conclusion; P0 CFD table",
+        "applicability_contradiction_next": "Numerical descriptor transfer is not experimental local-flow validation."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "A future CFD reference needs target-specific spatial/time convergence,source/geometry/BC provenance,observation maps and withheldcases. Current papers do not provide those for TRIDENT.",
+        "strongest_evidence_and_depth": "S19-C05;S29-C04/C05/C07;equation contract",
+        "applicability_contradiction_next": "No campaign executed or assumed available."
+      },
+      "review_locations": "A§10–11;B§8",
+      "consolidated_focus": "Future CFD evidence/data contract"
+    },
+    {
+      "id": "E7",
+      "question": "When Ethan's TAMU thesis arrives, what exact evidence should be extracted, and which applicability checks must precede use in Trident? Give a no-CFD/minimal-CFD/adequate-CFD feasibility ladder and a stopping criterion for claims that cannot be supported.",
+      "status": "Ladder preserved;Ethan reconciliation excluded",
+      "provisional_answer": "See B§8: External thesis and feasibility ladder. Ladder preserved;Ethan reconciliation excluded.",
+      "strongest_evidence_and_depth": "ExistingS35/S39 dossiers;PF01; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S35 has a scoped dossier; discrepancy reconciliation is explicitly deferred to Codex. No-CFD scope remains viable.",
+        "strongest_evidence_and_depth": "S35; user direction; PF01; P0 ladder",
+        "applicability_contradiction_next": "Stop local extent claims when verification/evidence cannot resolve the claimed benefit."
+      },
+      "review_locations": "B§8",
+      "consolidated_focus": "External thesis and feasibility ladder",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "F1",
+      "question": "What are the structurally and practically identifiable parameter combinations for steady and passive/transient thermal networks with sparse temperature observations? Compare sensitivity rank, Fisher information, profile likelihood, posterior geometry and synthetic recovery.",
+      "status": "Basis;model-class result remains research",
+      "provisional_answer": "See A§6: Identifiable combinations and diagnostics. Basis;model-class result remains research.",
+      "strongest_evidence_and_depth": "S23/S67–S70; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S70 separates aggregate resistance, effective capacity and internal RC identifiability; S69 distinguishes temperature prediction from physical coefficient recovery.",
+        "strongest_evidence_and_depth": "S70-C03/C05;S69-C03/C04",
+        "applicability_contradiction_next": "Loop-specific aggregate identifiability remains unestablished."
+      },
+      "review_locations": "A§6",
+      "consolidated_focus": "Identifiable combinations and diagnostics",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "F2",
+      "question": "Derive the common G–C scale ambiguity, the conditions under which measured steady net power or fixed inventories break it, and the remaining ambiguities in multiregion networks. When is sequential steady-G then transient-C defensible versus a joint fit?",
+      "status": "Elementary derivation;network uniqueness not guaranteed",
+      "provisional_answer": "See A§6/EQ-05: Scale ambiguity and energy anchors. Elementary derivation;network uniqueness not guaranteed.",
+      "strongest_evidence_and_depth": "Our derivation;PF01; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Derived_not_novel",
+        "provisional_answer": "Phase2 passive fit needs a declared independent capacity/inventory/duty scale; blind Phase3 cannot simultaneously supply calibration without reassignment.",
+        "strongest_evidence_and_depth": "PF04 lines273,309–317,456; PF05; analyst scale argument",
+        "applicability_contradiction_next": "Two branches: independent inventory anchor or duty anchor with new blind validation."
+      },
+      "review_locations": "A§6/EQ-05",
+      "consolidated_focus": "Scale ambiguity and energy anchors",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "F3",
+      "question": "How do uncertain initial insulation/structure temperatures, hidden fluid-wall splits, parameter variation and unknown residual heater/cooler duty confound capacity estimates? Compare approaches for treating those nuisance quantities.",
+      "status": "Nuisance requirements;actual values open",
+      "provisional_answer": "See A§1/6/8: Hidden initial storage/input confounding. Nuisance requirements;actual values open.",
+      "strongest_evidence_and_depth": "S69/S70/S73; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Phase2 acknowledges hidden fluid/wall initial states, but two-fill/mixed-tank descriptions conflict with continuous-recirculation procedure.",
+        "strongest_evidence_and_depth": "PF04 lines237,249,355–394,448",
+        "applicability_contradiction_next": "Resolve actual preparation and classify initial-state uncertainty; do not presume repeatability."
+      },
+      "review_locations": "A§1/6/8",
+      "consolidated_focus": "Hidden initial storage/input confounding",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "F4",
+      "question": "Compare deterministic constrained fits, regularization, Bayesian/hierarchical identification and model-discrepancy approaches. Which parameters can remain physical, and when does an effective correction lose that interpretation?",
+      "status": "Basis;fair comparison proposed",
+      "provisional_answer": "See A§6–8: Constrained,Bayesian/discrepancy fits. Basis;fair comparison proposed.",
+      "strongest_evidence_and_depth": "S23/S72/S73/S75; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Effective parameter meaning depends on input/observation definition, reduction and excitation; identifiable does not imply material-layer correspondence.",
+        "strongest_evidence_and_depth": "S70-C05/C06;S69-C02/C04",
+        "applicability_contradiction_next": "Do not label calibrated loss/storage coefficients material properties without independent support."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S73 supplies approximate-likelihood ML/MAP; S72 supplies nested discrepancy/goal calibration. Both are established alternatives,not proof fitted coefficients remain material properties.",
+        "strongest_evidence_and_depth": "S73-C01–C08;S72-C01/C03;earlierS69/S70",
+        "applicability_contradiction_next": "Compare common model/data/uncertainty,retain effective-parameter interpretation."
+      },
+      "review_locations": "A§6–8",
+      "consolidated_focus": "Constrained,Bayesian/discrepancy fits"
+    },
+    {
+      "id": "F5",
+      "question": "How can boundary error, parameter error, observation error and structural discrepancy be distinguished? What priors/independent experiments are required, and how can a flexible discrepancy model conceal missing physics?",
+      "status": "Conditional;independent information needed",
+      "provisional_answer": "See A§7–8: Separate error sources or report confounding. Conditional;independent information needed.",
+      "strongest_evidence_and_depth": "S06/S69/S72/S75; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Supported_scoped",
+        "provisional_answer": "Parameter/discrepancy confounding persists without informative restrictions or independent evidence.",
+        "strongest_evidence_and_depth": "S06 Eq17/PDF17 and discussion",
+        "applicability_contradiction_next": "Input/observation/numerical errors may mimic structure; test competing explanations."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S72 explicitly shows physical/discrepancy confounding and objective/family dependence; S73 separates process/measurement terms under assumptions. Neither identifies all uncertainty causes from sparse data.",
+        "strongest_evidence_and_depth": "S72-C02/C03/C09;S73-C03",
+        "applicability_contradiction_next": "Independent anchors and nuisance/dependence treatment remain necessary."
+      },
+      "review_locations": "A§7–8",
+      "consolidated_focus": "Separate error sources or report confounding"
+    },
+    {
+      "id": "F6",
+      "question": "How should experiment and CFD be fused without counting the same calibration information twice or treating CFD as exact truth? Compare multi-fidelity, modular/cut approaches and explicit cross-facility discrepancy where appropriate.",
+      "status": "Partial;formal multifidelity/cut methods incomplete",
+      "provisional_answer": "See A§7/10: Experiment–CFD fusion without double count. Partial;formal multifidelity/cut methods incomplete.",
+      "strongest_evidence_and_depth": "S18/S19/S29/S75; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Open_method",
+        "provisional_answer": "Calibrated CFD/derived experiment inputs cannot count twice as independent information.",
+        "strongest_evidence_and_depth": "S16/S35 provenance; S06; P0 proposed contract",
+        "applicability_contradiction_next": "Modular/cut/multifidelity closest-method search incomplete; no final fusion algorithm selected."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Shared thermal ingredients and experiment-tuned numerical/model settings cannot be counted as independent CFD/experiment evidence.",
+        "strongest_evidence_and_depth": "S19-C01–C04;S29-C04/C10/C12",
+        "applicability_contradiction_next": "A full multifidelity/cut model is still a method option,not executed or fully reviewed."
+      },
+      "review_locations": "A§7/10",
+      "consolidated_focus": "Experiment–CFD fusion without double count"
+    },
+    {
+      "id": "G1",
+      "question": "Build a source/dependence taxonomy covering random and systematic measurement effects, calibration, drift, correlated channels/time, geometry, material properties, boundaries/power, initial states, parameters, numerics, CFD and reduction/model discrepancy. Distinguish a lack of knowledge from a justified probability distribution.",
+      "status": "Specified;no numerical facility budget invented",
+      "provisional_answer": "See A§8: Uncertainty source/dependence taxonomy. Specified;no numerical facility budget invented.",
+      "strongest_evidence_and_depth": "S02/S31/S32/S73; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Original Phase1 already separates TypeA/TypeB and model/repeatability uncertainty with covariance.",
+        "strongest_evidence_and_depth": "PF03 lines245–271,555–603",
+        "applicability_contradiction_next": "Requirements are not evidence of completed uncertainty qualification; retain operating-regime checks."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Separate continuous diffusion,measurement covariance,empirical discrepancy,parameter and numerical uncertainty. Source fitbands/bar conventions differ.",
+        "strongest_evidence_and_depth": "S73-C03/C06;S72-C08;S29-C09/C13",
+        "applicability_contradiction_next": "No complete numerical TRIDENT budget assigned."
+      },
+      "review_locations": "A§8",
+      "consolidated_focus": "Uncertainty source/dependence taxonomy"
+    },
+    {
+      "id": "G2",
+      "question": "Compare local linear propagation, Monte Carlo/quasi-Monte Carlo, polynomial-chaos/collocation, ensembles, posterior predictive propagation and surrogate-assisted methods. Identify assumptions, computational budgets and failure near strong nonlinearities or regime changes.",
+      "status": "Linear/MCbasis;other accelerators conditional",
+      "provisional_answer": "See A§8/12: Propagation alternatives and limits. Linear/MCbasis;other accelerators conditional.",
+      "strongest_evidence_and_depth": "S02/S31/S04; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Linear propagation and joint MC are initial comparators; QMC/PCE/ensembles/surrogates need smoothness and budget checks.",
+        "strongest_evidence_and_depth": "S01/S02 selected prior excerpts; S04 selected",
+        "applicability_contradiction_next": "Branch/threshold events can defeat smooth approximations; full comparative theory extraction remains."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S71 propagates parameter/posterior samples through a target map; S73 propagates approximate state covariance; S72 evaluates fitted pointwise discrepancy. These solve different propagation problems.",
+        "strongest_evidence_and_depth": "S71-C03/C04;S73-C02/C06;S72-C08",
+        "applicability_contradiction_next": "Targeted official Monte Carlo/measurement-model sections remain next."
+      },
+      "review_locations": "A§8/12",
+      "consolidated_focus": "Propagation alternatives and limits"
+    },
+    {
+      "id": "G3",
+      "question": "How should covariance from shared instruments, derived duties/flow estimates, common ambient forcing and jointly estimated parameters be retained? Distinguish conditional Type A mean uncertainty from full prediction accuracy.",
+      "status": "Basis;actual covariance needs evidence",
+      "provisional_answer": "See A§5/8/EQ-06: Shared instruments and derived quantities. Basis;actual covariance needs evidence.",
+      "strongest_evidence_and_depth": "S29/S31/S32; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Supported_scoped",
+        "provisional_answer": "Phase1 has shared-error covariance; Phase4 reconciles separate correlated balance estimates.",
+        "strongest_evidence_and_depth": "PF03 propagation/covariance equations; PF06 flowinference",
+        "applicability_contradiction_next": "Compatibility is not independent accuracy; regional-loss common-mode ambiguity can remain."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Cooler-flow/duty/property estimates share ingredients; S29 experimental/energy curves lack demonstrated independence. Ratio propagation must retain covariance.",
+        "strongest_evidence_and_depth": "S29-C02/C09/C10;S19-C01/C03;equation contract",
+        "applicability_contradiction_next": "Our symbolic propagation is not the source propagated budget or processed data."
+      },
+      "review_locations": "A§5/8/EQ-06",
+      "consolidated_focus": "Shared instruments and derived quantities"
+    },
+    {
+      "id": "G4",
+      "question": "How can uncertain closures/operators be propagated through steady and transient ROMs while maintaining physical constraints? Compare Bayesian operator inference and neural/operator methods against simpler constrained networks with uncertain parameters.",
+      "status": "Partial;family-specific stability not guaranteed",
+      "provisional_answer": "See A§3/7–8: Uncertain constrained closures/operators. Partial;family-specific stability not guaranteed.",
+      "strongest_evidence_and_depth": "S04/S26/S75; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S62 compares correlated closure forcing structures, not total predictive UQ.",
+        "strongest_evidence_and_depth": "S62-C02/C03/C04",
+        "applicability_contradiction_next": "Need loop-supported amplitude/time scales before transfer."
+      },
+      "review_locations": "A§3/7–8",
+      "consolidated_focus": "Uncertain constrained closures/operators",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "G5",
+      "question": "What does “calibrated uncertainty” mean in this setting? Compare coverage, interval width/sharpness, likelihood or proper scores and conditional/regime checks, with small independent sample sets. Avoid equating bootstrap bands, confidence intervals, credible intervals and scenario envelopes.",
+      "status": "Distinctions grounded;empirical coverage absent",
+      "provisional_answer": "See A§8/10: Coverage,sharpness and proper assessment. Distinctions grounded;empirical coverage absent.",
+      "strongest_evidence_and_depth": "S31/S72/S73/S75; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Open_assessment",
+        "provisional_answer": "One-step diagnostics, free simulations, conditional confidence and independent predictive assessment differ.",
+        "strongest_evidence_and_depth": "S70-C04;S69-C07",
+        "applicability_contradiction_next": "No calibrated predictive coverage established by these articles."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Pointwise fitted-GPquantiles,local curvature uncertainty,surrogate test errors and plot disagreement bars do not establish independent predictive coverage.",
+        "strongest_evidence_and_depth": "S72-C08;S73-C06;S71-C06;S29-C13",
+        "applicability_contradiction_next": "Need independent-run scoring and acknowledge small-sample limitations."
+      },
+      "review_locations": "A§8/10",
+      "consolidated_focus": "Coverage,sharpness and proper assessment"
+    },
+    {
+      "id": "G6",
+      "question": "How should uncertainty in time/location of extrema, threshold crossing, settling time and freeze margin be reported? What can be bounded if a full probabilistic model is unjustified?",
+      "status": "Partial;nonregular/spatial targets gated",
+      "provisional_answer": "See A§5/8;B§8: Extrema/event/location uncertainty. Partial;nonregular/spatial targets gated.",
+      "strongest_evidence_and_depth": "S72/S75/S76; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Proposed_assessment",
+        "provisional_answer": "First-reversal and recurrent dwell-time QoIs respond differently to forcing.",
+        "strongest_evidence_and_depth": "S62-C05;S63-C05",
+        "applicability_contradiction_next": "No TRIDENT reversal or universal upper-time bound established."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S72 leaves nonobservable extremes/QoIerrorpropagation unresolved; no new event/location distribution is justified by the batch.",
+        "strongest_evidence_and_depth": "S72-C02/C09",
+        "applicability_contradiction_next": "S75/S76 next;current thermal sensorfit bands cannot be relabeled extrema uncertainty."
+      },
+      "review_locations": "A§5/8;B§8",
+      "consolidated_focus": "Extrema/event/location uncertainty"
+    },
+    {
+      "id": "G7",
+      "question": "How can we separate numerical/CFD error and model discrepancy, and avoid double-counting residuals? Which uncertainty sources dominate the decision and should guide experimental/CFD effort?",
+      "status": "Basis;target-specific verification required",
+      "provisional_answer": "See A§10: Numerical error versus discrepancy. Basis;target-specific verification required.",
+      "strongest_evidence_and_depth": "S19/S20/S29/S75; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "S07 finite inner sampling and sample reuse introduce bias; S18 bulk refinement does not certify local fields.",
+        "strongest_evidence_and_depth": "S07-C04/C07;S18-C04",
+        "applicability_contradiction_next": "Check design-ranking error, posterior error and QoI convergence separately."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Mesh-spread and same-experiment selection differ from independent numerical uncertainty/physicaldiscrepancy assessment; S19 tabulated refinement inconsistency is consequential.",
+        "strongest_evidence_and_depth": "S19-C05;S29-C04/C05",
+        "applicability_contradiction_next": "Do not claim total uncertainty or ASME conformance from these estimates."
+      },
+      "review_locations": "A§10",
+      "consolidated_focus": "Numerical error versus discrepancy"
+    },
+    {
+      "id": "G8",
+      "question": "What exactly can real-time inverse/UQ methods such as NEMO estimate, under what linear/nonlinear parameterization and noise assumptions? Does that match our unknowns and data, or should it remain a later comparator? Differentiate acceleration of inference from a complete treatment of model-form uncertainty.",
+      "status": "Selected-methods evidence;conditional comparator",
+      "provisional_answer": "See A§3: NEMO inverse structure and applicability. Selected-methods evidence;conditional comparator.",
+      "strongest_evidence_and_depth": "M-S05-01/02; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Supported_scoped",
+        "provisional_answer": "NEMO inversion is linear in q conditional on externally characterized m, with Gaussian observation noise and reduced-subspace covariance.",
+        "strongest_evidence_and_depth": "S05 §§2.1–2.3/Eqs1–14/PDF3–7; limitations/PDF17",
+        "applicability_contradiction_next": "Unknown G,C and coupled circulation generally alter the operator. Acceleration is not complete UQ."
+      },
+      "review_locations": "A§3",
+      "consolidated_focus": "NEMO inverse structure and applicability",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "H1",
+      "question": "What is the smallest informative design for separating net heat loss, regional G, participating C, ambient effects and fluid/solid coupling? Compare steady duties at multiple temperatures, warm/cold relaxations, known-power holds/shutdowns and independent heater/cooler changes.",
+      "status": "Proposed alternatives;minimum not established",
+      "provisional_answer": "See A§9: Smallest informative feasible design. Proposed alternatives;minimum not established.",
+      "strongest_evidence_and_depth": "S07/S71/S76; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Proposed_design",
+        "provisional_answer": "Separate metrology/repeatability, scale anchoring, response identification and model discrimination.",
+        "strongest_evidence_and_depth": "S07-C01/C03 plus proposed execution plan",
+        "applicability_contradiction_next": "No safe setpoints or approved new protocols invented."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Use small feasible protocol set tied to identifiable groups,target uncertainty and model separation. GO-design alone does not determine smallest adequate experiment.",
+        "strongest_evidence_and_depth": "S71-C01–C04;S72-C01/C09;methods review§14",
+        "applicability_contradiction_next": "Actual controls/tolerances/anchors needed;no setpoints chosen."
+      },
+      "review_locations": "A§9",
+      "consolidated_focus": "Smallest informative feasible design"
+    },
+    {
+      "id": "H2",
+      "question": "What must be measured to establish an absolute energy scale? Address secondary flow/temperature/property uncertainty, actual versus commanded input, electrical deposition/parasitics, residual duty and common sensor biases.",
+      "status": "Basis;installed evidence open",
+      "provisional_answer": "See A§6/8–9;B§2.5: Absolute energy-scale evidence. Basis;installed evidence open.",
+      "strongest_evidence_and_depth": "S47/S29/S32; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Phase0 declares secondary enthalpy duties; independent scale and actual boundary/instrument qualification still require evidence.",
+        "strongest_evidence_and_depth": "PF02 secondaryduty/wholelooploss; PF04; PF05",
+        "applicability_contradiction_next": "Draft requirements do not establish actual installed calorimetry or effective participation."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S29 shows both value and limitations of cooler enthalpy-based flow; independent thermal power,storage/losses and observation covariance matter to energy scale.",
+        "strongest_evidence_and_depth": "S29-C02/C09/C10;S19-C01–C04",
+        "applicability_contradiction_next": "Existing instrumentation capabilities are not assumed for TRIDENT."
+      },
+      "review_locations": "A§6/8–9;B§2.5",
+      "consolidated_focus": "Absolute energy-scale evidence"
+    },
+    {
+      "id": "H3",
+      "question": "What is an evidence-based choice of input excitation, duration, rate, repeat count and sensor placement? Discuss bandwidth, time-scale separation, autocorrelation, thermal equilibrium versus stationary operation, and conditioning. Do not invent facility-safe setpoints or assume arbitrary protocols can be executed.",
+      "status": "Requests only;no universal setpoints/rates",
+      "provisional_answer": "See A§9: Excitation,duration,repeats,sensors. Requests only;no universal setpoints/rates.",
+      "strongest_evidence_and_depth": "S07/S71/S73; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Open_project",
+        "provisional_answer": "S23 profile trajectories and S68 sensor/structure study are established experimental-planning precedents.",
+        "strongest_evidence_and_depth": "S23-C05/C06;S68-C03",
+        "applicability_contradiction_next": "No new sensor assumed for TRIDENT."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S71 can rank feasible acquisition choices,not prescribe universal durations/repeats or authorize new sensors. Cost,prior/noise and sampling error must be declared.",
+        "strongest_evidence_and_depth": "S71-C03/C04/C08;S73-C04",
+        "applicability_contradiction_next": "Nick-plan requests remain proposed; no operating experiment executed."
+      },
+      "review_locations": "A§9",
+      "consolidated_focus": "Excitation,duration,repeats,sensors"
+    },
+    {
+      "id": "H4",
+      "question": "Compare parameter-information objectives with QoI uncertainty reduction and model-discrimination experimental design. Which is most useful when several model forms fit the same sparse data?",
+      "status": "Established distinctions and challenger methods",
+      "provisional_answer": "See A§9: Parameter,QoI,discrimination,validation design. Established distinctions and challenger methods.",
+      "strongest_evidence_and_depth": "S07/S71/S72/S76; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Parameter information, predictive utility and model discrimination are distinct objectives.",
+        "strongest_evidence_and_depth": "S07-C01/C02",
+        "applicability_contradiction_next": "S07 demonstrations target parameter learning; other objectives need specified formulations."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Parameter-information,target-information,goal calibration and model-discrimination are distinct. S71 nonlinear targetEIG and S72 calibration challenge generic novelty.",
+        "strongest_evidence_and_depth": "S71-C01–C04;S72-C01/C05;earlierS07",
+        "applicability_contradiction_next": "S76 validation-design original available/unread;do not conflate it with calibrationdesign."
+      },
+      "review_locations": "A§9",
+      "consolidated_focus": "Parameter,QoI,discrimination,validation design"
+    },
+    {
+      "id": "H5",
+      "question": "Which extra measurements offer the largest benefit, and which claims must be dropped if they cannot be obtained? Separate existing instruments, feasible metadata requests, additional instrument proposals and CFD-only evidence.",
+      "status": "Feasibility/fallback;no new instrument assumed",
+      "provisional_answer": "See A§9/11;B§8: Extra evidence versus dropped claims. Feasibility/fallback;no new instrument assumed.",
+      "strongest_evidence_and_depth": "S19/S29/S75;PF01; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Proposed_design",
+        "provisional_answer": "Use the original plan channel map and qualify actual installation before proposing extra sensors.",
+        "strongest_evidence_and_depth": "PF02 Tablechannels/procedure; PF03; PF06",
+        "applicability_contradiction_next": "Regional loss/bulk enthalpy may remain unresolved without local evidence; no primary meter assumed."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "No essential upload blocks next readings. Primary/local-flow truth requires independent support; dropping extent claims is a valid fallback when unavailable.",
+        "strongest_evidence_and_depth": "S29-C02/C07;S19-C06;S72-C02",
+        "applicability_contradiction_next": "No extra instrument proposed as agreed or existing."
+      },
+      "review_locations": "A§9/11;B§8",
+      "consolidated_focus": "Extra evidence versus dropped claims"
+    },
+    {
+      "id": "H6",
+      "question": "Produce a concrete change-request matrix mapped to Nick's P0–P4. For each row: objective/QoI, exact missing quantity, current coverage/unknown, proposed change, instrument/location, clock/rate/duration/repeats to justify, uncertainty need, calibration/validation role, acceptance check and question for Dr. Luciano. Label every item proposed, not agreed. Identify case reallocation when an originally blind P3 case becomes a calibration anchor.",
+      "status": "Proposed matrix;exact approval/instrument/timing open",
+      "provisional_answer": "See A§9: NickP0–P4 change requests. Proposed matrix;exact approval/instrument/timing open.",
+      "strongest_evidence_and_depth": "PF01/originalprotocols; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Reconciled_proposed_changes",
+        "provisional_answer": "Execution plan maps proposed metrology/response/anchor/discrimination/holdout questions to P0–P4.",
+        "strongest_evidence_and_depth": "Research_Execution_Plan_2026-10-20.md",
+        "applicability_contradiction_next": "Proposed only; preserve calibration/selection/holdout distinctions."
+      },
+      "review_locations": "A§9",
+      "consolidated_focus": "NickP0–P4 change requests",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "I1",
+      "question": "Which BCs, material/source details, operating histories and observation operators must experiments provide to CFD? What should CFD return to support closure/reduction work beyond attractive contour plots?",
+      "status": "Contract proposed;fields unavailable",
+      "provisional_answer": "See A§1/10–11: Experiment/CFD input–output evidence. Contract proposed;fields unavailable.",
+      "strongest_evidence_and_depth": "S19/S20/S29; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Proposed_contract",
+        "provisional_answer": "Provide actual BC/source/history and sensor operator metadata; require fields, integrals, uncertainties and verification back.",
+        "strongest_evidence_and_depth": "S35; S16; S44; P0 §6",
+        "applicability_contradiction_next": "Attractive contour plots are insufficient for closure/reduction evidence."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Source/guard deposition,complete resistancegeometry,lossboundary,properties and sensor-to-model maps must be traceable before treating CFD as evidence.",
+        "strongest_evidence_and_depth": "S29-C12;S19-C02/C07;equation contract",
+        "applicability_contradiction_next": "No CFD inputs/fields generated for TRIDENT."
+      },
+      "review_locations": "A§1/10–11",
+      "consolidated_focus": "Experiment/CFD input–output evidence"
+    },
+    {
+      "id": "I2",
+      "question": "What verification/validation and grid/time/regime sensitivity are needed for local recirculation, wall flux and extrema? Distinguish mesh convergence of integrated duty from convergence of local extent or peak temperatures.",
+      "status": "Basis;no qualified TRIDENTreference",
+      "provisional_answer": "See A§10;B§8: Local QoI verification and validation. Basis;no qualified TRIDENTreference.",
+      "strongest_evidence_and_depth": "S19/S20/S29; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "latest_evidence_update": "S60 scoped PIV/CFD dossier:3D extent/heat-transfer causality and Pr attribution limited; no TRIDENT local truth",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "S10 has spatial/time-profile checks and laminar benchmark; S48 compares derivatives but lacks a complete grid/time/perturbation audit.",
+        "strongest_evidence_and_depth": "S10 §§4–5; S48 §3.3; S35",
+        "applicability_contradiction_next": "Local/decision QoI verification still separate; no false complete-validation claim."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Verify the actual QoI,not just agreement at one temperature. S19 refinement ratio and S29 meshspread/selection limitations are documented.",
+        "strongest_evidence_and_depth": "S19-C05;S29-C04/C05/C07",
+        "applicability_contradiction_next": "Localextent/fluxneeds own referenceconvergence;S20conditional."
+      },
+      "review_locations": "A§10;B§8",
+      "consolidated_focus": "Local QoI verification and validation"
+    },
+    {
+      "id": "I3",
+      "question": "How do Reynolds/thermal development, transition assumptions, buoyancy treatment, gravity/pressure boundaries and conjugate walls affect applicability? Do not assume a turbulence model or a laminar regime from convenience.",
+      "status": "Basis;actual envelope/closure qualification open",
+      "provisional_answer": "See A§2/4;B§6: Regime,buoyancy,development,conjugate limits. Basis;actual envelope/closure qualification open.",
+      "strongest_evidence_and_depth": "S20/S57/S60/S74; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Property/regime/CHT and gravity/pressure/tank conditions materially affect transfer; do not choose turbulence treatment by convenience.",
+        "strongest_evidence_and_depth": "S44 boundary sensitivity; S09/S36; S35",
+        "applicability_contradiction_next": "Declared regime evidence and physical versus pseudo-time treatment are required."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "S19/S29 selectdifferentCFDclosures/thermalconditions; neither proves a universal turbulence choice. Actualgeometry,properties,source and localdevelopment determine applicability.",
+        "strongest_evidence_and_depth": "S19/PDF3–6;S29/PDF12–20;S74-C07",
+        "applicability_contradiction_next": "Correlation/closurechosenbyconvenienceisnotjustified."
+      },
+      "review_locations": "A§2/4;B§6",
+      "consolidated_focus": "Regime,buoyancy,development,conjugate limits"
+    },
+    {
+      "id": "I4",
+      "question": "How can a limited CFD campaign discriminate candidate closures efficiently? What should be varied independently and held fixed? How should unavailable CFD change the minimum PhD demonstration rather than simply delay all work?",
+      "status": "Conditional design;no-CFD fallback retained",
+      "provisional_answer": "See A§11;B§8: Efficient limited CFD discrimination. Conditional design;no-CFD fallback retained.",
+      "strongest_evidence_and_depth": "S48/S71/S76; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Proposed_campaign",
+        "provisional_answer": "Use a small contrasting source/sink/loss/development campaign with withheld cases; preserve no-CFD minimum demonstration.",
+        "strongest_evidence_and_depth": "P0 contract/ladder; PF01; S44",
+        "applicability_contradiction_next": "Campaign resources unknown; no promised CFD delivery/date."
+      },
+      "review_locations": "A§11;B§8",
+      "consolidated_focus": "Efficient limited CFD discrimination",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "J1",
+      "question": "Which outputs are actionable, which require prediction versus state estimation, and which can be supported before full transient capability? Distinguish current measured margin from a forecast of future margin.",
+      "status": "Contract distinction;actual decision owner needed",
+      "provisional_answer": "See A§1/8/11;B§9: State estimate versus actionable forecast. Contract distinction;actual decision owner needed.",
+      "strongest_evidence_and_depth": "S73/S75;PF01; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Proposed_scope",
+        "provisional_answer": "Current measured margin, estimated state and future forecast are different dashboard outputs.",
+        "strongest_evidence_and_depth": "PF01; P0 decision table",
+        "applicability_contradiction_next": "Forecast requires predictive evidence; thresholds owned by operators/advisers."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Filtering at observationtimes and autonomous forecast are distinct products; S73one-step likelihooddoesnotvalidatefuturemarginforecast.",
+        "strongest_evidence_and_depth": "S73-C02/C06;S72-C02",
+        "applicability_contradiction_next": "Only report actionable outputs supported by decision/metrologycontract."
+      },
+      "review_locations": "A§1/8/11;B§9",
+      "consolidated_focus": "State estimate versus actionable forecast"
+    },
+    {
+      "id": "J2",
+      "question": "What does evidence say about showing uncertainty, unavailable inputs, sensor coverage, out-of-domain predictions, stale measurements and competing model explanations? Separate model credibility from interface polish.",
+      "status": "Proposed requirements;human-interface literature incomplete",
+      "provisional_answer": "See B§9;A§11: Uncertainty/validity communication. Proposed requirements;human-interface literature incomplete.",
+      "strongest_evidence_and_depth": "S75;PF01; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Open_literature",
+        "provisional_answer": "Show uncertainty meaning, coverage, missing/stale inputs and validity/OOD status explicitly.",
+        "strongest_evidence_and_depth": "P0 proposed contract; S11 not fully extracted",
+        "applicability_contradiction_next": "Operational communication literature still needs primary extraction; UI polish is not model validation."
+      },
+      "review_locations": "B§9;A§11",
+      "consolidated_focus": "Uncertainty/validity communication",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "J3",
+      "question": "What result/data contracts should be discussed jointly with Ben Booth and NeutronOS: units, clock, provenance, facility/revision, scenario, horizon, uncertainty, validity and threshold ownership? Do not infer their existing product/stack or contact them.",
+      "status": "Collaboration boundary;architecture not assumed",
+      "provisional_answer": "See B§9;A§11: BenBooth/NeutronOS result contract. Collaboration boundary;architecture not assumed.",
+      "strongest_evidence_and_depth": "PF01/originalbrief; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Proposed_contract",
+        "provisional_answer": "Discuss units, clocks, provenance, facility revision, scenario/horizon, uncertainty type, validity and threshold ownership with Ben/NeutronOS.",
+        "strongest_evidence_and_depth": "User scope; PF01; P0",
+        "applicability_contradiction_next": "No assumed product stack/contact; contract can be drafted independently."
+      },
+      "review_locations": "B§9;A§11",
+      "consolidated_focus": "BenBooth/NeutronOS result contract",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "J4",
+      "question": "Which later startup/shutdown, pressure/level, trace-heating and freezing questions require new physics or data? Distinguish single-phase margin prediction from resolving solidification, blockage or multiphase processes. Separate advisory prototypes from actual control or unattended operation.",
+      "status": "Future physics/data explicitly outside core",
+      "provisional_answer": "See B§4/9: Startup,freezing,pressure/level extensions. Future physics/data explicitly outside core.",
+      "strongest_evidence_and_depth": "S38/S51;PF01; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_consolidated_reviews": {
+        "status": "Supported_scope_limit",
+        "provisional_answer": "Single-phase temperature margin does not resolve solidification/blockage, pressure/level, trace heating or multiphase dynamics.",
+        "strongest_evidence_and_depth": "S38; S43; PF01",
+        "applicability_contradiction_next": "New physics/evidence and qualified scope are needed for later startup/shutdown claims."
+      },
+      "review_locations": "B§4/9",
+      "consolidated_focus": "Startup,freezing,pressure/level extensions",
+      "updated": "2026-10-21"
+    },
+    {
+      "id": "K1",
+      "question": "What are the closest prior methods—not only closest fluids/applications—for our proposed reduction/closure/identification/UQ framework? What do they already accomplish that we must not claim as new?",
+      "status": "Strong challengers incorporated;not exhaustive",
+      "provisional_answer": "See A§3–10;B§7: Closest prior methods and results. Strong challengers incorporated;not exhaustive.",
+      "strongest_evidence_and_depth": "S23/S26/S59/S67–S76; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Partial",
+        "provisional_answer": "Closest prior art now includes source/similarity stability,thermal identifiability/interpretation and uncertainty; S29/S74 are close modern challenges.",
+        "strongest_evidence_and_depth": "S13/S64/S65 scoped dossiers;S69/S70;S29 identity only;S74 abstract only",
+        "applicability_contradiction_next": "No full-method novelty claim until decisive remaining originals extracted."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Strong closest methods now include nonlinearGOdesign,nestedgoalcalibration,stochasticthermalgreybox,andmodernloop/similaritycomparisons.",
+        "strongest_evidence_and_depth": "S71-C01–C09;S72-C01–C10;S73-C01–C08;S19/S29/S74dossiers",
+        "applicability_contradiction_next": "S75/S76next beforeunobservedQoI/validationnovelty;notyetread."
+      },
+      "review_locations": "A§3–10;B§7",
+      "consolidated_focus": "Closest prior methods and results"
+    },
+    {
+      "id": "K2",
+      "question": "Identify 2–4 candidate contribution packages, each with a narrow claim, closest prior work, specific methodological difference, required data, fair baselines, testable hypotheses, failure criteria and realistic fallback. Explicitly mark them provisional until the search supports them.",
+      "status": "Three provisional aims;two-aim core",
+      "provisional_answer": "See Concluding aims: Candidate contribution packages. Three provisional aims;two-aim core.",
+      "strongest_evidence_and_depth": "H01–H04 retained; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Provisional_hypotheses",
+        "provisional_answer": "Four narrowed candidate packages with prior art,increment,feasibility/falsifier are mapped in motivation review§6.",
+        "strongest_evidence_and_depth": "Connected reviews v0.6",
+        "applicability_contradiction_next": "Candidates remain hypotheses,not certified gaps or selected aims."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "H01–H04 retainedandnarrowedwithstrongestpriorwork,additionalresult,minimumassessment,falsifierandfallback.",
+        "strongest_evidence_and_depth": "Decisive_Evidence_Synthesis_and_Novelty_Audit_2026-10-21.md",
+        "applicability_contradiction_next": "All hypotheses,notcertifiedgaps orselecteddirections."
+      },
+      "review_locations": "Concluding aims",
+      "consolidated_focus": "Candidate contribution packages"
+    },
+    {
+      "id": "K3",
+      "question": "Could contributions arise from QoI-driven physical reduction, uncertainty-aware model/closure selection, observable-consistent spatial reconstruction, experiment–CFD identification, or assessment of achievable recirculation extent/thermal-effect prediction? What existing work most strongly challenges each idea?",
+      "status": "Hypotheses;no vacancy certified",
+      "provisional_answer": "See Aims/audit;B§7–8: Possible reduction,UQ,local/transfer increments. Hypotheses;no vacancy certified.",
+      "strongest_evidence_and_depth": "S20/S74/S75/S76; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Open_novelty",
+        "provisional_answer": "Generic transient/sensitivity/UQ framework claims face S10/S48 and S50/S51 leads.",
+        "strongest_evidence_and_depth": "S10/S48; S50/S51 metadata_abstract_only",
+        "applicability_contradiction_next": "Test a specific new identifiability/selection/transfer result, not first application of established machinery."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Applyinggoaldesign/calibration,stochasticfit,lossCFDorgroupmatchingisalreadypriorart. CandidateincrementmustconcernsupportedQoIidentifiability,adequacyortransfererror.",
+        "strongest_evidence_and_depth": "S71-C01;S72-C01;S73-C01/C07;S29-C01;S74-C01/C05",
+        "applicability_contradiction_next": "Neednontrivialmethod/theoryorphysicalresultwithindependentconsequence."
+      },
+      "review_locations": "Aims/audit;B§7–8",
+      "consolidated_focus": "Possible reduction,UQ,local/transfer increments"
+    },
+    {
+      "id": "K4",
+      "question": "Distinguish method development, a reproducible procedure, new empirical physics, and a facility demonstration. Which combination would advance knowledge beyond a software integration/application exercise?",
+      "status": "Distinct contribution types;results not yet obtained",
+      "provisional_answer": "See Aims/audit;B§9: Method,theory,physics versus demonstration. Distinct contribution types;results not yet obtained.",
+      "strongest_evidence_and_depth": "Strong-prior-method synthesis; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Proposed_criteria",
+        "provisional_answer": "Theorem, new reproducible procedure, controlled empirical mechanism and facility demonstration are distinct contributions.",
+        "strongest_evidence_and_depth": "P0 contribution framework",
+        "applicability_contradiction_next": "A software integration/demo needs additional knowledge gain to be a theory/physics claim."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Currentdeliverablesareliteraturesynthesisandproposedassessmentcontracts. Theydonotconstitutenewtheory,empiricalphysics,executedmodelsorvalidatedfacilityresults.",
+        "strongest_evidence_and_depth": "Reviews v0.7;contributionaudit",
+        "applicability_contradiction_next": "Scienceincrementmustbedemonstratedbeyondsoftwareintegration."
+      },
+      "review_locations": "Aims/audit;B§9",
+      "consolidated_focus": "Method,theory,physics versus demonstration"
+    },
+    {
+      "id": "K5",
+      "question": "What could be a valuable negative result—for example, proving limits of sparse-data identification or showing when a richer spatial closure is unnecessary—and what evidence would make it publishable?",
+      "status": "Precise limit plus engineering consequence required",
+      "provisional_answer": "See Concluding aims: Valuable negative result and evidence. Precise limit plus engineering consequence required.",
+      "strongest_evidence_and_depth": "S23/S70/S75;H01–H04; original-source locators and claim IDs in indicated review sections/dossiers",
+      "applicability_contradiction_next": "See ranked gaps and candidate-aim evidence/failure conditions in the consolidated first reviews; no project adequacy is inferred from literature coverage.",
+      "prior_to_decisive_batch": {
+        "status": "Provisional_negative_result",
+        "provisional_answer": "An evidence-backed identifiability or model-complexity limit could be a valuable negative result.",
+        "strongest_evidence_and_depth": "S59-C05;S66-C04 plus analyst proposal",
+        "applicability_contradiction_next": "Requires a precisely stated class and defensible demonstration."
+      },
+      "updated": "2026-10-21",
+      "prior_to_consolidated_reviews": {
+        "status": "Partial",
+        "provisional_answer": "Apreciseambiguityclass,validityboundaryorproofthatcomplexitycannotbeassessedcouldbevaluableifnontrivialanddecision-linked.",
+        "strongest_evidence_and_depth": "Contributionaudit,H01–H04;S72-C09",
+        "applicability_contradiction_next": "Failedfit/missingCFDaloneisnotapublishablenegativeresult."
+      },
+      "review_locations": "Concluding aims",
+      "consolidated_focus": "Valuable negative result and evidence"
+    }
+  ],
+  "interpretation": "Basis means inspected literature supports discussion, not that missing project facts, new research results or operational adequacy are established.",
+  "latest_pass": "Two consolidated comprehensive first drafts v1.0; all original IDs and full question texts preserved",
+  "latest_batch": "S19/S29/S71v2/S72final/S73/S74 scoped evidence;S75/S76 available but technically unread",
+  "original_question_count": 62
+}

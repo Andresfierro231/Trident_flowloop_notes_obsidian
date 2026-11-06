@@ -1,0 +1,58 @@
+List of Tables
+3.1
+Mesh refinement families. The full-loop family (r = 1.5) is used for solution
+verification and validation; the BC-verification family (r = 2) is used for code
+verification. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+4.1
+Prandtl Number Reconstruction . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+4.2
+HITEC salt experimental test cases . . . . . . . . . . . . . . . . . . . . . . .
+41
+4.3
+Water experimental test cases . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+4.4
+Experimental energy balance . . . . . . . . . . . . . . . . . . . . . . . . . . .
+42
+4.5
+Experimental Flows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+4.6
+Digitized VS Raw Residuals for Salt Tests
+. . . . . . . . . . . . . . . . . . .
+47
+4.7
+Experimental Uncertainties
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+5.1
+Uncertain Simulation Inputs . . . . . . . . . . . . . . . . . . . . . . . . . . .
+67
+5.2
+Modeling Input Uncertainties
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+71
+6.1
+Representative cell sizes for BC verification.
+. . . . . . . . . . . . . . . . . .
+76
+6.2
+BC verification: Mode A (convection only). Qanalytical = −6.022 W,
+q′′
+analytical =
+−958.468 W/m2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+76
+6.3
+BC verification: Mode B (radiation only). Qanalytical = −6.076 W,
+q′′
+analytical =
+−967.028 W/m2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+76
+6.4
+BC verification: Mode C (mixed convection + radiation). Qanalytical = −6.673 W,
+q′′
+analytical = −1062.094 W/m2 . . . . . . . . . . . . . . . . . . . . . . . . . . .
+77
+ix

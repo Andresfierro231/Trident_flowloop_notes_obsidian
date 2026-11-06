@@ -1,0 +1,416 @@
+\documentclass[11pt]{article}
+
+\usepackage[letterpaper,margin=0.88in,headheight=22pt]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Charis SIL}{\setmainfont{Charis SIL}}{\setmainfont{TeX Gyre Pagella}}
+\IfFontExistsTF{Arimo}{\setsansfont{Arimo}}{\setsansfont{TeX Gyre Heros}}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc,decorations.pathreplacing}
+\usepackage[most]{tcolorbox}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lastpage}
+\usepackage{needspace}
+\usepackage{graphbox} % Extends graphicx
+
+% University of Texas at Austin brand palette
+\definecolor{UTBurntOrange}{HTML}{BF5700}
+\definecolor{UTCharcoal}{HTML}{333F48}
+\definecolor{UTLightOrange}{HTML}{F8971F}
+\definecolor{UTWarmGray}{HTML}{D6D2C4}
+\definecolor{UTSlate}{HTML}{9CADB7}
+\definecolor{UTBlue}{HTML}{005F86}
+\definecolor{UTBlueBright}{HTML}{00A9B7}
+\definecolor{UTWarmLight}{HTML}{F6F5F2}
+\definecolor{UTBlueLight}{HTML}{EEF5F7}
+\definecolor{UTGrayLight}{HTML}{F4F5F6}
+
+% Backward-compatible semantic aliases used throughout the document
+\colorlet{Navy}{UTCharcoal}
+\colorlet{Teal}{UTBurntOrange}
+\colorlet{LightTeal}{UTBlueLight}
+\colorlet{LightBlue}{UTWarmLight}
+\colorlet{LightGray}{UTGrayLight}
+\colorlet{MidGray}{UTCharcoal!78}
+\colorlet{RuleGray}{UTWarmGray}
+\colorlet{Warn}{UTLightOrange}
+\colorlet{LightWarn}{UTWarmLight}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=UTBurntOrange,
+  urlcolor=UTBlue,
+  citecolor=UTCharcoal,
+  pdftitle={STNCL Phase-Specific Experimental Plan},
+  pdfauthor={TRIDENT Collaboration (UT Austin, ACU, VCU)}
+}
+
+\sisetup{
+  detect-all,
+  per-mode=symbol,
+  range-phrase=--,
+  range-units=single,
+  group-separator={,},
+  group-minimum-digits=4,
+  group-digits=integer
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5.5pt}
+\setlength{\emergencystretch}{1.5em}
+\setlist[itemize]{leftmargin=1.35em,itemsep=2.5pt,topsep=3pt}
+\setlist[enumerate]{leftmargin=1.55em,itemsep=3pt,topsep=3pt}
+\renewcommand{\arraystretch}{1.18}
+\titlespacing{\paragraph}{0pt}{0.5ex plus 0.5ex minus .2ex}{1em}
+
+\titleformat{\section}
+  {\Large\sffamily\bfseries\color{UTBurntOrange}}
+  {\thesection}{0.65em}{}
+  [\vspace{1pt}\color{UTWarmGray}\titlerule]
+\titleformat{\subsection}
+  {\large\sffamily\bfseries\color{UTCharcoal}}
+  {\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}
+  {\normalsize\sffamily\bfseries\color{UTCharcoal}}
+  {\thesubsubsection}{0.55em}{}
+\titlespacing*{\section}{0pt}{14pt}{7pt}
+\titlespacing*{\subsection}{0pt}{11pt}{4pt}
+\titlespacing*{\subsubsection}{0pt}{8pt}{2pt}
+
+% Keep a heading from being stranded alone at the bottom of a page:
+% require room for the title plus a few body lines, else break to the next page.
+\usepackage{etoolbox}
+\pretocmd{\section}{\needspace{5\baselineskip}}{}{}
+\pretocmd{\subsection}{\needspace{7\baselineskip}}{}{}
+\pretocmd{\subsubsection}{\needspace{5\baselineskip}}{}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily\color{UTCharcoal}Prop-30 Glycol STNCL \textbullet\ TRIDENT}
+\fancyhead[R]{\small\sffamily\color{UTBurntOrange}\PhaseDocShort -- Draft}
+\fancyfoot[L]{\small\sffamily\color{UTCharcoal!78}Revision 0.1}
+\fancyfoot[R]{\small\sffamily\color{UTCharcoal!78}Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.65pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{UTBurntOrange}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0pt}
+
+\newtcolorbox{recommendbox}[1][]{
+  enhanced,
+  breakable,
+  colback=UTWarmLight,
+  colframe=UTBurntOrange,
+  colbacktitle=UTBurntOrange,
+  boxrule=0.7pt,
+  arc=1.2mm,
+  left=3mm,right=3mm,top=2.4mm,bottom=2.4mm,
+  title={#1},
+  fonttitle=\sffamily\bfseries,
+  coltitle=white
+}
+
+\newcommand{\Tavg}{T_{\mathrm{avg},4}}
+\newcommand{\Tdiag}{T_{\mathrm{diag}}}
+\newcommand{\Thot}{T_{\mathrm{hot}}}
+\newcommand{\Tcold}{T_{\mathrm{cold}}}
+\newcommand{\QHs}{\dot Q_{H}^{s}}
+\newcommand{\QCs}{\dot Q_{C}^{s}}
+\newcommand{\mdotp}{\dot m_{p}}
+\newcommand{\mdotpH}{\dot m_{p,H}}
+\newcommand{\mdotpC}{\dot m_{p,C}}
+\newcommand{\Tamb}{T_{\mathrm{amb}}}
+\newcommand{\Rey}{\mathrm{Re}}
+\newcommand{\Realpart}[1]{\Re\left(#1\right)}
+
+\newcommand{\PhaseDocShort}{Phase 3: Low-Duty Steady Heat-Loss Tests}
+
+% Cross-document names used instead of duplicating material owned by another phase.
+\newcommand{\PhaseZeroDoc}{\textit{Phase 0 --- System Checkout}}
+\newcommand{\PhaseOneDoc}{\textit{Phase 1 --- Ambient-Equilibrium Baseline}}
+\newcommand{\PhaseTwoDoc}{\textit{Phase 2 --- Thermal Relaxation Tests}}
+\newcommand{\PhaseThreeDoc}{\textit{Phase 3 --- Low-Duty Steady Heat-Loss Tests}}
+\newcommand{\PhaseFourDoc}{\textit{Phase 4 --- Initial Test Matrix and Transition Characterization}}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+  \fill[UTBurntOrange] (current page.north west) rectangle ([yshift=-0.16in]current page.north east);
+  \fill[UTWarmLight] ([yshift=1.45in]current page.south west) rectangle (current page.south east);
+  \fill[UTBurntOrange] (current page.south west) rectangle ([yshift=0.16in]current page.south east);
+\end{tikzpicture}
+\noindent\includegraphics[width=2.5in]{images/TRIDENT_logo.png}
+
+{\color{UTWarmGray}\rule{\textwidth}{0.8pt}}
+\vspace{0.24in}
+\begin{tcolorbox}[
+  enhanced, frame hidden, colback=white, boxrule=0pt,
+  borderline west={4pt}{0pt}{UTBurntOrange},
+  left=5mm,right=0mm,top=1mm,bottom=1mm, sharp corners
+]
+{\raggedright\sffamily\bfseries\fontsize{23}{27}\selectfont\color{UTCharcoal}
+Experimental Plan for the Initial Characterization of the Prop-30 Glycol Salt Twin Natural Circulation Loop (STNCL)\par}
+\vspace{0.15in}
+{\sffamily\bfseries\fontsize{16}{20}\selectfont\color{UTBurntOrange}
+Phase 3: Low-Duty Steady Heat-Loss Tests\par}
+\vspace{0.10in}
+{\sffamily\fontsize{11.5}{15}\selectfont\color{UTCharcoal}
+Direct whole-loop ambient exchange and blind validation of the frozen thermal model\par}
+\end{tcolorbox}
+
+\vspace{0.30in}
+\begin{tcolorbox}[
+  enhanced, colback=UTWarmLight, colframe=UTWarmGray, boxrule=0.6pt,
+  arc=1.2mm, left=3.5mm,right=3.5mm,top=3mm,bottom=3mm
+]
+{\setlength{\parskip}{0pt}\renewcommand{\arraystretch}{1.28}
+\begin{tabularx}{\textwidth}{@{}>{\sffamily\bfseries\color{UTBurntOrange}}l>{\raggedright\arraybackslash}X@{}}
+Status: & Draft for team review and facility-specific completion \\
+Revision: & 0.1 \\
+Date: & August 17, 2026 \\
+Prepared for: & TRIDENT collaboration \\
+\end{tabularx}}
+\end{tcolorbox}
+
+\vfill
+\noindent
+\includegraphics[height=2.5cm, align=c]{images/ACU.png}\hfill
+\includegraphics[height=1.5cm, align=c]{images/UT.png}\hfill
+\includegraphics[height=1.25cm, align=c]{images/VCU.png}
+\vspace{-0.6in}
+\end{titlepage}
+\clearpage
+\hypersetup{pageanchor=true}
+
+\clearpage
+\pagenumbering{roman}
+\section*{Revision History}
+\addcontentsline{toc}{section}{Revision History}
+\begin{tabularx}{\textwidth}{@{}p{0.75in}p{1.2in}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{1.15in}@{}}
+\toprule
+\textbf{Revision} & \textbf{Date} & \textbf{Description} & \textbf{Status} \\
+\midrule
+0.1 & 2026-08-17 & Phase-specific split of the initial characterization plan; technical content retained with cross-document references where material is owned by an earlier phase. & Draft \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.25in}
+\section*{Approval and Configuration Record}
+\addcontentsline{toc}{section}{Approval and Configuration Record}
+\begin{tabularx}{\textwidth}{@{}p{1.55in}X p{1.25in}p{1.05in}@{}}
+\toprule
+\textbf{Role} & \textbf{Signature} & \textbf{Date} & \textbf{Revision} \\
+\midrule
+Lead, UT & & & \\
+Lead, VCU & & & \\
+Lead, ACU & & & \\
+\bottomrule
+\end{tabularx}
+\clearpage
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+
+\section{Introduction}
+\label{sec:introduction}
+\subsection{Purpose}
+Phase~3 provides direct steady-state measurements of whole-loop heat loss above ambient and heat gain below ambient. These measurements independently evaluate the thermal model calibrated in Phase~2 and characterize the steady fluid and wall temperature distributions produced by low-duty natural circulation.
+
+Two tests are required: a heater-only case above ambient and a cooler-only case below ambient. A balanced heater-and-cooler case is optional and shall be added only to investigate a specific discrepancy. These tests shall not be described as no-flow tests.
+
+\subsection{Prerequisites and required data}
+Phases~0--2 shall be dispositioned as \textbf{Proceed}. Use the Phase~0 configuration, secondary-duty definitions, property references, environmental/condensation measurements, and energy-balance boundaries; the Phase~1 calibration-quality state-acceptance and uncertainty methods; and the Phase~2 frozen reduced-zone model, parameter covariance, property database, sensor mapping, and conservative operational settling value $\tau_{\mathrm{slow,op}}$. These prior-phase foundations are referenced rather than reproduced.
+
+Phase~3 requires synchronized heater- and cooler-side flow and temperature measurements, the complete primary-fluid and wall-temperature set, room and surface environmental measurements, and control/event records sufficient to establish an accepted steady energy balance and preserve the blind model comparison.
+
+\clearpage
+\section{Technical Basis}
+\label{sec:technical_basis}
+\subsection{Steady integral ambient-exchange measurement}
+The Phase~0 document establishes the secondary-side duty definitions and the sign convention for environmental heat exchange. Using that convention, the accepted steady-state whole-loop balance is
+\begin{equation}
+    \dot Q_{a,\mathrm{total}}=\QHs-\QCs,
+    \label{eq:whole_loop_loss}
+\end{equation}
+where positive $\dot Q_{a,\mathrm{total}}$ denotes heat transferred from the loop to the room. At steady state, this duty difference is a direct integral measurement because the thermal-capacitance term is negligible. The Phase~3 heater-only and cooler-only tests therefore provide model-independent measurements of heat loss above ambient and heat gain below ambient, respectively. The secondary measurement planes and property conventions are those established in \PhaseZeroDoc; they are not repeated here.
+
+\subsection{State acceptance and negligible storage}
+The calibration-quality constant-state definition, drift-equivalence test, mandatory signals, storage diagnostics, reported-mean uncertainty treatment, and correlation rules are defined in \PhaseOneDoc, Section~2. Phase~3 uses those criteria without redefining them. The operational settling value $\tau_{\mathrm{slow,op}}$ is obtained from \PhaseTwoDoc, Section~2, and replaces the provisional settling value used before Phase~2 is dispositioned.
+
+The Phase~3 validation states first pass the model-independent storage checks based on $\Tdiag$, the secondary duties, the wall-profile spread, and the internal--wall offset. Passing these checks establishes that thermal-energy accumulation is negligible relative to the measured duty before the thermal model is used as a comparison.
+
+\subsection{Blind validation of the frozen thermal model}
+The reduced-zone model, its parameter covariance, property database, and sensor-to-zone mapping are calibrated and withheld-validated in \PhaseTwoDoc. Phase~3 applies that frozen model to both required steady tests without refitting and records the comparison before any parameter is reconsidered. For each blind comparison, form
+\begin{equation}
+    r_E
+    =
+    \QHs-\QCs-\widehat{\dot Q}_{a,\mathrm{total}},
+    \label{eq:energy_residual}
+\end{equation}
+using the frozen-model prediction $\widehat{\dot Q}_{a,\mathrm{total}}$, never the measured duty difference, as the model term. The mean and trend of $r_E$, together with the individual fluid, wall, and Luna residuals, are model-adequacy diagnostics.
+
+The model is adequate when the energy residual is consistent with zero within its propagated uncertainty for both required runs and the regional residuals show no systematic structure. Dry, near-dew-point, and condensing conditions retain their classifications and shall not be forced into one parameter set unless the moisture mechanism is represented explicitly. If revision is required, the previously blind data used for revision become calibration data and cannot also validate the revised model; new independent steady validation is required in every affected regime before the model is frozen for Phase~4.
+
+\clearpage
+\section{Procedure}
+\label{sec:procedure}
+\label{sec:test_procedure}
+\label{sec:low_duty}
+\subsection{Method}
+
+Conduct each low-duty steady test as follows:
+
+\begin{enumerate}
+    \item \textbf{Select the condition.}
+    \begin{enumerate}
+        \item Assign the run ID, select a low duty within the approved limits, and record the target mean-temperature range.
+        \item Confirm the approved facility configuration and, for the cooler-only case, the expected condensation class.
+    \end{enumerate}
+
+    \item \textbf{Establish the active boundary condition.}
+    \begin{enumerate}
+        \item For HTR-LOW-01, operate the heater at the selected duty and leave the cooler inactive.
+        \item For CLR-LOW-01, operate the cooler at the selected duty and leave the heater inactive.
+        \item Confirm from secondary measurements that the inactive system has negligible flow and duty.
+    \end{enumerate}
+
+    \item \textbf{Approach the test state.}
+    Adjust the active duty conservatively, preserve the complete transition record, and monitor operating limits, alarms, control stability, and condensation.
+
+    \item \textbf{Record the accepted state.}
+    \begin{enumerate}
+        \item Continue until the calibration-quality state-acceptance criteria of \PhaseOneDoc, Section~2, ``Settling and acceptance of a constant state are satisfied.
+        \item Maintain the boundary condition through the confirmed acceptable span and record the reporting interval; no additional reporting hold is required beyond the timing rule at the beginning of \PhaseOneDoc, Section~2, ``Settling and acceptance of a constant state.
+        \item For CLR-LOW-01, calculate the dew-point margin and assign the condensation classification.
+    \end{enumerate}
+\end{enumerate}
+
+\subsection{Phase 3 Run IDs}
+
+\begin{table}[htbp]
+    \centering
+    \caption{Required Phase 3 low-duty steady heat-loss tests.}
+    \label{tab:phase3_runs}
+    \begin{tabularx}{\textwidth}{
+        @{}
+        >{\raggedright\arraybackslash}p{1.25in}
+        >{\raggedright\arraybackslash}p{1.75in}
+        >{\raggedright\arraybackslash}X
+        @{}
+    }
+        \toprule
+        \textbf{Run ID} &
+        \textbf{Condition} &
+        \textbf{Purpose} \\
+        \midrule
+
+        HTR-LOW-01 &
+        Heater active at low duty; cooler inactive &
+        Measure whole-loop heat loss above ambient and evaluate the corresponding steady thermal-model prediction. \\
+
+        CLR-LOW-01 &
+        Cooler active at low duty; heater inactive &
+        Measure whole-loop heat gain below ambient, evaluate condensation, and evaluate the corresponding steady thermal-model prediction. \\
+
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+Additional low-duty tests shall be added only to repeat an unsuccessful run or investigate a specific discrepancy.
+
+\subsection{Analysis and Required Outputs}
+
+The Phase~3 analysis produces two direct, model-free measurements of whole-loop ambient exchange and the blind steady validation of the frozen Phase~2 model. Perform the following steps in order:
+
+\begin{enumerate}
+    \item \textbf{Confirm acceptance.} Verify that the $\tau_{\mathrm{slow,op}}$ settling precondition, the calibration-class trailing-window and hold requirements, the model-independent storage check on $\Tdiag$, the wall-profile spread, the internal--wall offset, and the secondary duties of \PhaseOneDoc, Section~2, ``Settling and acceptance of a constant state are all satisfied, and that the reporting interval lies wholly within the confirmed acceptable span, so that thermal-energy accumulation is negligible relative to the measured duty. For CLR-LOW-01, record the dew-point margin and condensation classification.
+
+    \item \textbf{Compute accepted-state means and uncertainties} for the measured temperatures, secondary-side quantities, and environmental conditions from the raw synchronized data per \PhaseOneDoc, Section~2, ``Autocorrelation time, number of effective samples, uncertainty, covariance, not from the detector block averages.
+
+    \item \textbf{Compute the active secondary duty} from its measured flow and boundary enthalpies using the definitions of \PhaseZeroDoc, Section~2, ``Secondary-side thermal duties and the approved property correlations, and propagate flow-meter, temperature, and property uncertainties with documented covariances.
+
+    \item \textbf{Confirm the inactive system and form the whole-loop exchange.} Compute the residual duty of the nominally inactive system from its own measurements. When it is negligible, calculate the whole-loop environmental heat exchange as
+    \begin{equation}
+        \dot Q_{a,\mathrm{total}}
+        \approx
+        \begin{cases}
+            \QHs,  & \text{heater-only case}, \\[4pt]
+            -\QCs, & \text{cooler-only case},
+        \end{cases}
+    \end{equation}
+    where positive $\dot Q_{a,\mathrm{total}}$ denotes heat transferred from the loop to the room. When the residual duty is measurable, use Equation~\eqref{eq:whole_loop_loss}. Propagate measurement uncertainty into the result. This is the direct integral measurement; no thermal model enters it.
+
+    \item \textbf{Record the blind model comparison before any parameter is reconsidered.} Use the frozen Phase~2 thermal model and property database, without refitting, to predict the accepted-state environmental heat exchange and the mapped regional temperature response. Form the energy residual of Equation~\eqref{eq:energy_residual} using the model prediction, never the measured duty difference, and record $r_E$, its uncertainty, and the individual fluid, wall, and Luna residuals as the blind validation result.
+
+    \item \textbf{Judge model adequacy.} The model is adequate when $r_E$ is consistent with zero within its propagated uncertainty for both runs and the regional residuals show no systematic structure. Determine specifically whether the below-ambient case exhibits bias requiring a distinct condensation or near-dew-point treatment.
+
+    \item \textbf{Freeze or revise.} If the model is adequate, freeze and version the unchanged model and property database as the Phase~4 reduction model. If revision is required, follow the controlled sequence of \PhaseTwoDoc, Section~2, ``Reduced-zone heat-loss model and the disposition requirements below.
+\end{enumerate}
+
+The required output for each run is a concise summary of the accepted interval, thermal duties, environmental heat exchange and uncertainty, condensation classification, the recorded blind comparison and model residuals, and identified limitations. Detailed methods are provided in \PhaseOneDoc, Section~2, ``Settling and acceptance of a constant state, and \PhaseTwoDoc, Section~2, ``Reduced-zone heat-loss model.
+
+
+\subsection{Disposition}
+
+Assign \textbf{Proceed} when both required runs provide usable steady energy balances and adequately support the frozen Phase~2 thermal model. Assign \textbf{Repeat} when a required run lacks an accepted state or usable energy balance. Assign \textbf{Additional work required} when a targeted test, residual-duty correction, condensation treatment, or model revision is needed.
+
+The blind Phase~3 comparisons shall be recorded before any parameter is changed. If the frozen Phase~2 model is adequate, freeze and version that model and its property database for Phase~4 reduction. If revision is required, identify which previously blind data are reassigned to calibration, revise the model under configuration control, and obtain at least one independent steady validation case in each affected thermal or condensation regime before Phase~4. A run used to revise the model cannot also validate the revised model. The thermal model shall not support primary-flow inference until the final Phase~4 reduction model has been independently validated, frozen, and Phase~3 is dispositioned as \textbf{Proceed}.
+
+% -----------------------------------------------------------------------------
+
+\clearpage
+\appendix
+\section{Nomenclature}
+\label{sec:nomenclature}
+A dot denotes a rate, a hat denotes an estimate or model prediction, an overbar denotes an interval or block mean as stated in context, and $u_x$ denotes the standard uncertainty of quantity $x$. Only symbols used in this phase document are included below.
+
+\begingroup
+\footnotesize
+\setlength{\LTpre}{4pt}
+\setlength{\LTpost}{10pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.78in}>{\raggedright\arraybackslash}p{1.08in}>{\raggedright\arraybackslash}p{3.62in}@{}}
+\caption{Phase 3 nomenclature.}\label{tab:nomenclature}\\
+\toprule
+\textbf{Symbol} & \textbf{Units} & \textbf{Description} \\
+\midrule
+\endfirsthead
+\multicolumn{3}{l}{\small\itshape Table~\ref{tab:nomenclature} continued from previous page}\\
+\toprule
+\textbf{Symbol} & \textbf{Units} & \textbf{Description} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+$T$ & \si{\degreeCelsius} & Generic measured temperature. \\
+$T_j,\,T_{w,i}$ & \si{\degreeCelsius} & Generic internal-fluid and under-insulation wall temperatures. \\
+$\Tamb,\,T_{\mathrm{amb},i}$ & \si{\degreeCelsius} & Representative and region-specific room-air temperatures. \\
+$T_{\mathrm{surface,min}},\,T_{\mathrm{dew}},\,\Delta T_{\mathrm{dew}}$ & \si{\degreeCelsius} & Minimum exposed-surface temperature, dew point, and exposed-surface margin above dew point. \\
+$\Tdiag$ & \si{\degreeCelsius} & Unweighted sixteen-channel structural-storage diagnostic mean. \\
+$\Delta T_{\mathrm{spread}},\,\Delta T_{w,\mathrm{spread}},\,\Delta T_{f-w}$ & \si{\degreeCelsius} & Four-point fluid spread, wall-profile spread, and internal--wall mean offset. \\
+$\QHs,\,\QCs$ & \si{\watt} & Heater duty supplied and cooler duty removed on the secondary side. \\
+$\dot Q_{a,j},\,\dot Q_{a,\mathrm{total}}$ & \si{\watt} & Regional and whole-loop ambient heat exchange; positive to the room. \\
+$\widehat{\dot Q}_{a,\mathrm{total}}$ & \si{\watt} & Frozen-model prediction of whole-loop ambient exchange. \\
+$r_E$ & \si{\watt} & Independent energy-balance residual. \\
+$\lambda_m,\,\tau_m,\,\tau_{\mathrm{slow}},\,\tau_{\mathrm{slow,op}}$ & Mixed & State-matrix eigenvalue, modal time constant, slowest time constant, and conservative operational settling value. \\
+$i,j,k,m,\ell,\mathcal N_i,c$ & -- & Measurement/model indices, coupled-region set, and documented fluid composition. \\
+\end{longtable}
+\endgroup
+
+\end{document}

@@ -1,0 +1,30 @@
+to the one-dimensional theory of Section 2.1, and it mirrors experience in the present work
+(Chapter 6).
+The facility most relevant to the present work is the TAMU natural circulation loop
+operated by Reis, Seo, and Hassan [9].
+It occupies a unique place in the literature: it
+studied water and HITEC salt within an identical geometry, and its transparent quartz
+test section allows the use of particle image velocimetry (PIV), providing radially resolved
+velocity profiles without perturbing the flow the way a physical flow meter would. Companion
+publications document argon injection experiments [23], the consequences of an inadvertent
+salt solidification event [24], and the dataset has since served as a validation target for the
+SAM system code at high Prandtl number conducted by the experimentalists themselves
+[25]. The facility, its instrumentation, and its test matrix are described in detail in Chapter
+4.
+Interpreting any of these experiments, and especially attempting to simulate them, rests
+on the fidelity of the working fluid’s thermophysical properties. Beyond the density variation
+that generates the buoyant force itself important properties such as the specific heat deter-
+mines the temperatures at which a given heating and cooling configuration equilibrates, and
+viscosity governs how readily the fluid circulates. Comprehensive single-source property col-
+lections for molten salts are rare. Sohal et al. [7] compiled an engineering database of liquid
+salt properties at Idaho National Laboratory, but its entries for HITEC (NaNO3-NaNO2-
+KNO3, approximately 7-49-44 by mole and 7-40-53 by weight) trace back to the compilation
+of Janz and Tomkins [26] and, for viscosity and specific heat, have been superseded by more
+recent measurements. The review supporting this claim and the modern property suite se-
+lected for this work, are presented in Chapter 4 and Appendix B. For water, its properties
+are well-characterized by the IAPWS-IF97 with marginal uncertainties for temperatures in
+the range of 273.15 K - 1073.15 K and pressures up to 100 MPa [27, 28].
+The polyno-
+mial fits used in this work reproduce reference values within 0.50 % over the experimental
+temperature range (Appendix B).
+14

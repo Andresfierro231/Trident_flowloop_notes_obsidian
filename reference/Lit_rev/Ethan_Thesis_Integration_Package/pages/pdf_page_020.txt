@@ -1,0 +1,27 @@
+and how they were tackled, namely closing the energy balance of the experiment, contending
+with long entry lengths prohibiting classic fully-developed flow from being achieved, and flow
+features including secondary recirculation that undermine one-dimensional, cross-sectionally
+averaged models commonly used for loop analysis.
+1.2
+Objectives
+The objectives of this thesis are:
+1. To develop a complete, automated CFD modeling pipeline for the TAMU natural
+circulation loop using OpenFOAM V13, that accepts geometry, physics, and study
+configuration files for a given experiment or suite of cases and automatically generates
+a fully conformal, fully hexahedral mesh, applies proper initial and boundary conditions
+from those configuration files, pre-process to ensure desired data collection is properly
+mapped to the mesh and captured appropriately, execute the simulation to convergence,
+and post-process the data to be rendered in an overview PDF to easily determine how
+well a given configuration aligns with the experimental results.
+2. To create a tunable first-order model to aid in closing the large energy balance uncer-
+tainties associated with the experimental data, as, more than anything else, the energy
+balance across the experiment’s domain determines how close we can replicate the ex-
+periment within the simulation. Once created and tuned, this first order model can be
+wired in directly to the aforementioned automated simulation pipeline to dynamically
+set the boundary conditions for the CFD to adhere to.
+3. To develop a custom boundary condition model (rcExternalTemperature) that mod-
+els cylindrical conduction through multiple solid layer beyond the simulated fluid mesh,
+factoring in conductive, convective, and radiative heat transfer while replacing the
+slab-geometry assumption of OpenFOAM v13’s stock externalTemperature bound-
+ary condition.
+6

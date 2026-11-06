@@ -1,0 +1,5 @@
+I recognize that this is only an outline and may not fully reflect the level of detail intended for the final proposal, so some of these concerns may already be on your radar. 
+
+That said, if the current outline is representative of the intended content, I think the proposal would fall well short of what is expected for PhD research. Much of it feels like it's going through the motions of describing a research proposal without actually providing much technical substance. There are a lot of broad statements about what will be investigated, developed, or assessed, but very little concrete discussion of how these things will be accomplished, what the specific technical challenges are, or what approaches are being considered to address them. 
+
+The final proposal needs to provide a much clearer articulation of the research questions, technical objectives, proposed methodologies, and, critically, what is actually novel relative to existing research. I'd encourage focusing on developing those substantive technical details rather than simply expanding the existing outline into a longer document.

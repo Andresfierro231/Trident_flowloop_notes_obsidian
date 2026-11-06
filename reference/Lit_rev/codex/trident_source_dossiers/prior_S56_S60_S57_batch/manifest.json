@@ -1,0 +1,603 @@
+{
+  "updated": "2026-10-20",
+  "scope": "Nine prior scoped dossiers plus newly acquired sources pending extraction",
+  "outputs": [
+    {
+      "path": "Claim_to_Evidence.md",
+      "bytes": 15969,
+      "sha256": "b49baa6423e17c0f766e3a9aece8e6ea505ec28ff65d003a114c387fa5f71420"
+    },
+    {
+      "path": "Natural_Circulation_History_and_MSR_Motivation.md",
+      "bytes": 12253,
+      "sha256": "dec301d2f508561376a8ded9ce16b7626f067a52b3db3a5400661029a3ce529b"
+    },
+    {
+      "path": "New_Source_Arrivals_2026-10-20.md",
+      "bytes": 1266,
+      "sha256": "483f30a2a16e29aaca40177ab55ed145ba7a3174437e62b9cb7fd5493470fbbd"
+    },
+    {
+      "path": "PF01_project_facts.md",
+      "bytes": 37676,
+      "sha256": "40fc76c45b2386c524644067d83b1db2e92b6b7417810477569aae8f8414b452"
+    },
+    {
+      "path": "TRIDENT_Source_Dossiers_2026-10-20.md",
+      "bytes": 13285,
+      "sha256": "7802d746ea1e5ed0a0be93da888408f60f430aef7569b8c2e70f8516192e8aee"
+    },
+    {
+      "path": "acquisition_queue.json",
+      "bytes": 4185,
+      "sha256": "e7ba6a71f7b671cbe062ebafc8188460871dd72d835090ca5a8ed9740ec9d2a0"
+    },
+    {
+      "path": "checks.json",
+      "bytes": 675,
+      "sha256": "532bce34a8ebc4c272229937aacf661ffbe6df66992aecfe4f25c049bd4b55f7"
+    },
+    {
+      "path": "claim_ledger.json",
+      "bytes": 34579,
+      "sha256": "a6e4c7984f8a3a5cc513ef623e2b3eebf11ad2599c15dfe4adaac38c0b95f74f"
+    },
+    {
+      "path": "dossiers/S09_Vijayan_2002.md",
+      "bytes": 11890,
+      "sha256": "902c56fd9fdcc803a602b8301d53aa48980c279db64206c2d94b6e9df34ed7aa"
+    },
+    {
+      "path": "dossiers/S16_Reis_Hassan_2025.md",
+      "bytes": 15739,
+      "sha256": "069398e0e97b3d7fbae70bae11e85256370abe1f05ddfb55c050953a97601017"
+    },
+    {
+      "path": "dossiers/S21_Carson_2026_local_heating.md",
+      "bytes": 13586,
+      "sha256": "6d61d92743cfcd935d11bfe9f00536a9ec1da8818556363d626ac5ee4e8f5d18"
+    },
+    {
+      "path": "dossiers/S26_Manikkan_2026_entropy_switch.md",
+      "bytes": 14697,
+      "sha256": "530142246e69f0ef9f4551f90f242ea87f56ff7c199b44ed1f0b763791c30a57"
+    },
+    {
+      "path": "dossiers/S35_Rozak_2026_CFD.md",
+      "bytes": 21381,
+      "sha256": "2fa3b2af6cea0ecd51e4e2e16f1e2cf268eb016e799701787bab472825b9b774"
+    },
+    {
+      "path": "dossiers/S36_Vijayan_Austregesilo_1994.md",
+      "bytes": 10402,
+      "sha256": "521fd0892914011ed682f8fca0b52fa84bd266937205a22e6b0c5389ec218ae0"
+    },
+    {
+      "path": "dossiers/S37_Reis_2024_flow_visualization.md",
+      "bytes": 13369,
+      "sha256": "1928d6e2dd7fadea0a1abcfe7ae451a5073b4114060028af737b848d1a1510d1"
+    },
+    {
+      "path": "dossiers/S38_Reis_2024_solidification.md",
+      "bytes": 12120,
+      "sha256": "8d192d47d6fefd678b0bfb335fe44e340953f64a9829e72623adcc25d036ff21"
+    },
+    {
+      "path": "dossiers/S39_Carson_dissertation.md",
+      "bytes": 23034,
+      "sha256": "98638a6ee8fde1043437cd88075eefbbc789e0a3ff1079a5a4771b62fb683845"
+    },
+    {
+      "path": "inventory.json",
+      "bytes": 35383,
+      "sha256": "a311cc6369469b09efa9274c7bd14f00d8d2d21cc200bff79c84878d1730cf58"
+    },
+    {
+      "path": "new_claim_ledger.json",
+      "bytes": 27714,
+      "sha256": "8c40ddabf12f9b515b8af6d209cda1fab5b5840797ace5faba59269b711e56d2"
+    },
+    {
+      "path": "prior_stage2/acquisition_queue.json",
+      "bytes": 18223,
+      "sha256": "595c455aad957a7d6a72722307ce290e316cde51a02c593cf2dbcd2e0650679f"
+    },
+    {
+      "path": "prior_stage2/claim_ledger.json",
+      "bytes": 6868,
+      "sha256": "207851f24e2ec31de764fd7d872a9e62797f450d0137b434341c135823ac3db5"
+    },
+    {
+      "path": "prior_stage2/research_state.json",
+      "bytes": 117132,
+      "sha256": "843a46796d83da9f9be95c3b3d67d42d905d771810feba9a0d2367a241773783"
+    },
+    {
+      "path": "prior_stage2/source_registry.json",
+      "bytes": 78618,
+      "sha256": "e18419cd9ce3e03c44bacc9ac2cfbdc15f1833eea978d60d41b122459945ab9e"
+    },
+    {
+      "path": "project_facts.json",
+      "bytes": 3609,
+      "sha256": "8cb73398881eba2ccdbbedab6fcf1bfb837f49b0fa6bd7b1afee1d0a424b4575"
+    },
+    {
+      "path": "research_state.json",
+      "bytes": 58890,
+      "sha256": "a72dbe055cd60de1aa3dad18496295b620c290bd07435b39c8155e631de1806b"
+    },
+    {
+      "path": "retrieval_log.json",
+      "bytes": 4601,
+      "sha256": "6bda3acd2aa1eadcb34fc7045bf28976f2daede23fc1596b69d50d7bcbbc78d7"
+    },
+    {
+      "path": "search_and_access_log.json",
+      "bytes": 5365,
+      "sha256": "7c620d59f4adc3464e76aaf03117a494099f6a753331fb4e6d96ad63cc0b0b2b"
+    },
+    {
+      "path": "source_registry.json",
+      "bytes": 108054,
+      "sha256": "d799b424a36c80ee2c86c0faffff8827bcd4b9060958dbe662a1589e3d1de7a4"
+    }
+  ],
+  "P0_continuation": {
+    "date": "2026-10-20",
+    "brief_sha256": "83d1ce1361aee6892e394f6c9082cccb8aec42e9187f5a5372fe142b7f802f19",
+    "files": {
+      "project_facts.json": {
+        "bytes": 3609,
+        "sha256": "8cb73398881eba2ccdbbedab6fcf1bfb837f49b0fa6bd7b1afee1d0a424b4575"
+      },
+      "P0_search_log.json": {
+        "bytes": 2053,
+        "sha256": "74b2b9ffa843d3f23a6c8cbab740b6f518b5d79d2440247243c1c728b7c6dd43"
+      },
+      "Literature_Acquisition_Requests.md": {
+        "bytes": 9205,
+        "sha256": "6c107f7298695b03d0d1352976a590a5d3f12a6ab576da4e8f14a75b31ebb3a8"
+      },
+      "inventory.json": {
+        "bytes": 35383,
+        "sha256": "a311cc6369469b09efa9274c7bd14f00d8d2d21cc200bff79c84878d1730cf58"
+      },
+      "Claim_to_Evidence.md": {
+        "bytes": 15969,
+        "sha256": "b49baa6423e17c0f766e3a9aece8e6ea505ec28ff65d003a114c387fa5f71420"
+      },
+      "search_and_access_log.json": {
+        "bytes": 5365,
+        "sha256": "7c620d59f4adc3464e76aaf03117a494099f6a753331fb4e6d96ad63cc0b0b2b"
+      },
+      "Methods_Theory_Evidence_Bridge.md": {
+        "bytes": 11508,
+        "sha256": "cca00238437fc286920f911d8afcb4bf6472a7b2ea50124e957b23435cf20113"
+      },
+      "Natural_Circulation_History_and_MSR_Motivation.md": {
+        "bytes": 12646,
+        "sha256": "0ef435d8de7ed2881ba53d538b9174d12d63bd5ab15fe82a4285f81f43c3c759"
+      },
+      "P0_Research_Memo_2026-10-20.md": {
+        "bytes": 37332,
+        "sha256": "9e8b74ebad51cfbefcc3e4916e568541fcbc07b58517b9e9f06c51f48846394d"
+      },
+      "question_to_literature_matrix.json": {
+        "bytes": 43802,
+        "sha256": "7a159c6f0e2c53fe527d0a6315cca9c112e90015dd66bdecbaf8bd6a44f9fe74"
+      },
+      "new_claim_ledger.json": {
+        "bytes": 41123,
+        "sha256": "fd44f7ee08d1413a0cc1efbccf5eec4b3d98c74f4d75ea3d422458c34dc62c54"
+      },
+      "acquisition_queue.json": {
+        "bytes": 4548,
+        "sha256": "b3e18b179d12e58ee5b8a85ceba20060dbdbcd313d759b332cb76f6d3abd496e"
+      },
+      "TRIDENT_Source_Dossiers_2026-10-20.md": {
+        "bytes": 13668,
+        "sha256": "f2b3dd8edbb49c563e9b587f30444716deac5267e33e17c7a0686b00c8d5d3f9"
+      },
+      "P0_verified_identifiers.bib": {
+        "bytes": 5476,
+        "sha256": "168365be0bb03de02399ec95cf130745c98188caf41e1d0b714419680a2c9f2f"
+      },
+      "PF01_project_facts.md": {
+        "bytes": 37676,
+        "sha256": "40fc76c45b2386c524644067d83b1db2e92b6b7417810477569aae8f8414b452"
+      },
+      "README.md": {
+        "bytes": 1643,
+        "sha256": "74477914167a938d4cc485a47bb9cc71b29c709cbc3eadce7b752a4b89c2526a"
+      },
+      "New_Source_Arrivals_2026-10-20.md": {
+        "bytes": 1649,
+        "sha256": "31780e760c3cd5c3f1e986ee728651cdd6fd892dec75c87a69c293c12c4faed4"
+      },
+      "Question_to_Literature_Matrix.md": {
+        "bytes": 17781,
+        "sha256": "2c81475a94a18866b567b28f00e7c734e20e13c5fb9a221ff1a7f7f6015e4ca8"
+      },
+      "claim_ledger.json": {
+        "bytes": 48082,
+        "sha256": "ccbab98f1ae37f1abbc63f7f11e377562e027bac52a242b1805ecd4a3cb28e55"
+      },
+      "retrieval_log.json": {
+        "bytes": 4601,
+        "sha256": "6bda3acd2aa1eadcb34fc7045bf28976f2daede23fc1596b69d50d7bcbbc78d7"
+      },
+      "research_state.json": {
+        "bytes": 20826,
+        "sha256": "5e5498013218fe50e79aad7a4fdd899274a083bea87b162f316ad04943fcb863"
+      },
+      "checks.json": {
+        "bytes": 2879,
+        "sha256": "805848a092ad327d8441567e1e661111d8982150525dee70bce5b766e33d0ccc"
+      },
+      "source_registry.json": {
+        "bytes": 115150,
+        "sha256": "710e2217b01ea7ba7b0af12641c8b3cb928d5597498c6f68b6ad1cdefa73f236"
+      },
+      "dossiers/S35_Rozak_2026_CFD.md": {
+        "bytes": 21381,
+        "sha256": "2fa3b2af6cea0ecd51e4e2e16f1e2cf268eb016e799701787bab472825b9b774"
+      },
+      "dossiers/S39_Carson_dissertation.md": {
+        "bytes": 23034,
+        "sha256": "98638a6ee8fde1043437cd88075eefbbc789e0a3ff1079a5a4771b62fb683845"
+      },
+      "dossiers/S47_Gabbard_1970_MSRE.md": {
+        "bytes": 5798,
+        "sha256": "947be8d669d3f7022e721637eeb05858ed283ef6a887b44c66b73cf2957f6994"
+      },
+      "dossiers/S38_Reis_2024_solidification.md": {
+        "bytes": 12120,
+        "sha256": "8d192d47d6fefd678b0bfb335fe44e340953f64a9829e72623adcc25d036ff21"
+      },
+      "dossiers/S16_Reis_Hassan_2025.md": {
+        "bytes": 15739,
+        "sha256": "069398e0e97b3d7fbae70bae11e85256370abe1f05ddfb55c050953a97601017"
+      },
+      "dossiers/S09_Vijayan_2002.md": {
+        "bytes": 11890,
+        "sha256": "902c56fd9fdcc803a602b8301d53aa48980c279db64206c2d94b6e9df34ed7aa"
+      },
+      "dossiers/S37_Reis_2024_flow_visualization.md": {
+        "bytes": 13369,
+        "sha256": "1928d6e2dd7fadea0a1abcfe7ae451a5073b4114060028af737b848d1a1510d1"
+      },
+      "dossiers/S26_Supplement_and_Repository_Addendum.md": {
+        "bytes": 7747,
+        "sha256": "f8cfcf4834c8a6c197e1a479d70e4344e61dff02533c8c49b7b5dbd3db6e1d0e"
+      },
+      "dossiers/S43_Britsch_2019_FLiBe.md": {
+        "bytes": 11248,
+        "sha256": "28d7830d4deff4f6c50b3ad092cc091eded12135cea386e3514db8688c0a8dc5"
+      },
+      "dossiers/S21_Carson_2026_local_heating.md": {
+        "bytes": 13586,
+        "sha256": "6d61d92743cfcd935d11bfe9f00536a9ec1da8818556363d626ac5ee4e8f5d18"
+      },
+      "dossiers/S36_Vijayan_Austregesilo_1994.md": {
+        "bytes": 10402,
+        "sha256": "521fd0892914011ed682f8fca0b52fa84bd266937205a22e6b0c5389ec218ae0"
+      },
+      "dossiers/S26_Manikkan_2026_entropy_switch.md": {
+        "bytes": 15108,
+        "sha256": "3126798d719ee88c9d73f5b2185dd49ecbcbab62dedba851eb9e29ebaf67ed90"
+      },
+      "dossiers/S46_Headley_2021.md": {
+        "bytes": 10951,
+        "sha256": "18b1383ea7a4f67fb43934f948deff864a5e96ec7ef5ceaed169f0f74802af41"
+      },
+      "prior_stage2/acquisition_queue.json": {
+        "bytes": 18223,
+        "sha256": "595c455aad957a7d6a72722307ce290e316cde51a02c593cf2dbcd2e0650679f"
+      },
+      "prior_stage2/claim_ledger.json": {
+        "bytes": 6868,
+        "sha256": "207851f24e2ec31de764fd7d872a9e62797f450d0137b434341c135823ac3db5"
+      },
+      "prior_stage2/research_state.json": {
+        "bytes": 117132,
+        "sha256": "843a46796d83da9f9be95c3b3d67d42d905d771810feba9a0d2367a241773783"
+      },
+      "prior_stage2/source_registry.json": {
+        "bytes": 78618,
+        "sha256": "e18419cd9ce3e03c44bacc9ac2cfbdc15f1833eea978d60d41b122459945ab9e"
+      }
+    }
+  },
+  "new_batch": {
+    "date": "2026-10-20",
+    "inputs": {
+      "STNCL_Phase0_System_Checkout.tex": "5d4a379917db52bda92f673f5c6bda718ab9301ca8a3ed4b120c6ff013911c40",
+      "STNCL_Phase1_Ambient_Equilibrium_Baseline.tex": "d3d1a357269e293fea1917a5ec66c8a6de8341d32066de1f56b108b363f80f11",
+      "STNCL_Phase2_Thermal_Relaxation_Tests.tex": "96cb2ca6a5b0c32de9f424ea86e1b6f930f5140f63f2819328a3264d3093158e",
+      "STNCL_Phase3_Low_Duty_Steady_Heat_Loss_Tests.tex": "f092c17b82e132d3c8266549d9c460846afd920a6685151a51dd93271dfa4f7c",
+      "STNCL_Phase4_Initial_Test_Matrix_and_Transition_Characterization.tex": "de9c97b2bad2a9e4c20ec2a6692b69d7736eeebce63eabf5cf82d14bde320c63"
+    },
+    "source_inputs": {
+      "S10": "5a52b392aa3913528c40d6e0373fbe1fc2977e256c7b003a7b3f9573868b48e6",
+      "S48": "a87aaf71666c7801117439c77d30782a88e7e8793939249d3bfbf4a0193f9a90"
+    },
+    "outputs": {
+      "project_facts.json": {
+        "sha256": "8cb73398881eba2ccdbbedab6fcf1bfb837f49b0fa6bd7b1afee1d0a424b4575",
+        "bytes": 3609
+      },
+      "P0_search_log.json": {
+        "sha256": "74b2b9ffa843d3f23a6c8cbab740b6f518b5d79d2440247243c1c728b7c6dd43",
+        "bytes": 2053
+      },
+      "Literature_Acquisition_Requests.md": {
+        "sha256": "3276a8ae904d0e29c4c84232636976986512f4ffbae37c55a8afcb26daa4d37f",
+        "bytes": 5758
+      },
+      "inventory.json": {
+        "sha256": "a311cc6369469b09efa9274c7bd14f00d8d2d21cc200bff79c84878d1730cf58",
+        "bytes": 35383
+      },
+      "Claim_to_Evidence.md": {
+        "sha256": "b49baa6423e17c0f766e3a9aece8e6ea505ec28ff65d003a114c387fa5f71420",
+        "bytes": 15969
+      },
+      "New_Batch_Synthesis_2026-10-20.md": {
+        "sha256": "c5e5052c8dcbb527a40ca8bbd77f45368f45a42e7963f5409998fb446787c791",
+        "bytes": 9923
+      },
+      "search_and_access_log.json": {
+        "sha256": "7c620d59f4adc3464e76aaf03117a494099f6a753331fb4e6d96ad63cc0b0b2b",
+        "bytes": 5365
+      },
+      "Methods_Theory_Evidence_Bridge.md": {
+        "sha256": "57ff91a8f224e830f6cde3b1068375a3b06fcec09b29f555601d8bd99f678dfd",
+        "bytes": 12030
+      },
+      "Natural_Circulation_History_and_MSR_Motivation.md": {
+        "sha256": "0ef435d8de7ed2881ba53d538b9174d12d63bd5ab15fe82a4285f81f43c3c759",
+        "bytes": 12646
+      },
+      "P0_Research_Memo_2026-10-20.md": {
+        "sha256": "b973c5cd558b86b14e601781739274dbd7ed124472ef89b28e9130712eb1d7ba",
+        "bytes": 37854
+      },
+      "question_to_literature_matrix.json": {
+        "sha256": "47b7c3140f9e4ec4e5968822a8df6b109de6d374562b409db147fdd9a1fb7d3b",
+        "bytes": 43845
+      },
+      "new_claim_ledger.json": {
+        "sha256": "5dc558f26ca3da22e70ef066d305abb5a0fa84db0d59f090f4099f34b06039ea",
+        "bytes": 52046
+      },
+      "project_protocol_registry.json": {
+        "sha256": "c3aea5425fa4bd4462e0d1dcc9787c58f1699f6b447e66e49d34909572dc6e71",
+        "bytes": 3546
+      },
+      "Nick_Plan_Reconciliation_2026-10-20.md": {
+        "sha256": "92f96f435e13b66a05aeee5db760fedaa15cf73b8d93169bbd131be21ea830d1",
+        "bytes": 17811
+      },
+      "acquisition_queue.json": {
+        "sha256": "b6dc66bc0ef029d1fd0cc601893d64dd1f75264b838da30d74c183f221b1e31a",
+        "bytes": 4608
+      },
+      "TRIDENT_Source_Dossiers_2026-10-20.md": {
+        "sha256": "f2b3dd8edbb49c563e9b587f30444716deac5267e33e17c7a0686b00c8d5d3f9",
+        "bytes": 13668
+      },
+      "P0_verified_identifiers.bib": {
+        "sha256": "1b4a2ea95a1cc66e853f452b8017bb06c9d6981835e34bd1e5c96932aed652e4",
+        "bytes": 6175
+      },
+      "PF01_project_facts.md": {
+        "sha256": "40fc76c45b2386c524644067d83b1db2e92b6b7417810477569aae8f8414b452",
+        "bytes": 37676
+      },
+      "README.md": {
+        "sha256": "c0781947006c358ba3ebaaeab2f59bc5719490c464b8c32e77f53ee57035ad14",
+        "bytes": 1662
+      },
+      "New_Source_Arrivals_2026-10-20.md": {
+        "sha256": "31780e760c3cd5c3f1e986ee728651cdd6fd892dec75c87a69c293c12c4faed4",
+        "bytes": 1649
+      },
+      "Question_to_Literature_Matrix.md": {
+        "sha256": "dc76582b5bf759d31b83ce46da4612fd4f64af2930b93aea5ba933407681643f",
+        "bytes": 17680
+      },
+      "claim_ledger.json": {
+        "sha256": "6e2c1326fd01c435b74a0c308114f0487d15f7eaa8055125bca7b76daa31222e",
+        "bytes": 59005
+      },
+      "retrieval_log.json": {
+        "sha256": "6bda3acd2aa1eadcb34fc7045bf28976f2daede23fc1596b69d50d7bcbbc78d7",
+        "bytes": 4601
+      },
+      "research_state.json": {
+        "sha256": "5bd9b1389fb4171452c9f6fe7947dfbf1ab52cc5bc5e15d652ec3bf8ecc0fc13",
+        "bytes": 20658
+      },
+      "checks.json": {
+        "sha256": "85a1834b6bbacf2e74efe6f848ed1ae2bc4e7b8c53d031bddc6bf7b954dc917d",
+        "bytes": 3689
+      },
+      "New_Batch_search_log.json": {
+        "sha256": "d0b111f78c4de701d6bcb5d29236c62bc007e02b387dd76b81e8a3bcaa330473",
+        "bytes": 815
+      },
+      "source_registry.json": {
+        "sha256": "52d7ec219ee5b43b3bfeaea84bd9645428670c7896644044d74791e5c14e8f8b",
+        "bytes": 122825
+      },
+      "dossiers/S48_Seo_2021_adjoint.md": {
+        "sha256": "dd9e6e81faa9e72dd6549af49218e7836436f58995e61295bad37627f52b4e70",
+        "bytes": 13547
+      },
+      "dossiers/S35_Rozak_2026_CFD.md": {
+        "sha256": "2fa3b2af6cea0ecd51e4e2e16f1e2cf268eb016e799701787bab472825b9b774",
+        "bytes": 21381
+      },
+      "dossiers/S39_Carson_dissertation.md": {
+        "sha256": "98638a6ee8fde1043437cd88075eefbbc789e0a3ff1079a5a4771b62fb683845",
+        "bytes": 23034
+      },
+      "dossiers/S47_Gabbard_1970_MSRE.md": {
+        "sha256": "947be8d669d3f7022e721637eeb05858ed283ef6a887b44c66b73cf2957f6994",
+        "bytes": 5798
+      },
+      "dossiers/S38_Reis_2024_solidification.md": {
+        "sha256": "8d192d47d6fefd678b0bfb335fe44e340953f64a9829e72623adcc25d036ff21",
+        "bytes": 12120
+      },
+      "dossiers/S16_Reis_Hassan_2025.md": {
+        "sha256": "069398e0e97b3d7fbae70bae11e85256370abe1f05ddfb55c050953a97601017",
+        "bytes": 15739
+      },
+      "dossiers/S09_Vijayan_2002.md": {
+        "sha256": "902c56fd9fdcc803a602b8301d53aa48980c279db64206c2d94b6e9df34ed7aa",
+        "bytes": 11890
+      },
+      "dossiers/S37_Reis_2024_flow_visualization.md": {
+        "sha256": "1928d6e2dd7fadea0a1abcfe7ae451a5073b4114060028af737b848d1a1510d1",
+        "bytes": 13369
+      },
+      "dossiers/S10_Kudariyawar_2016.md": {
+        "sha256": "ae5cf3fcf898465d748b1ef831288a6f4d3bed5d67ce94a6335b8c9851e92e34",
+        "bytes": 11647
+      },
+      "dossiers/S26_Supplement_and_Repository_Addendum.md": {
+        "sha256": "f8cfcf4834c8a6c197e1a479d70e4344e61dff02533c8c49b7b5dbd3db6e1d0e",
+        "bytes": 7747
+      },
+      "dossiers/S43_Britsch_2019_FLiBe.md": {
+        "sha256": "28d7830d4deff4f6c50b3ad092cc091eded12135cea386e3514db8688c0a8dc5",
+        "bytes": 11248
+      },
+      "dossiers/S21_Carson_2026_local_heating.md": {
+        "sha256": "6d61d92743cfcd935d11bfe9f00536a9ec1da8818556363d626ac5ee4e8f5d18",
+        "bytes": 13586
+      },
+      "dossiers/S36_Vijayan_Austregesilo_1994.md": {
+        "sha256": "521fd0892914011ed682f8fca0b52fa84bd266937205a22e6b0c5389ec218ae0",
+        "bytes": 10402
+      },
+      "dossiers/S26_Manikkan_2026_entropy_switch.md": {
+        "sha256": "3126798d719ee88c9d73f5b2185dd49ecbcbab62dedba851eb9e29ebaf67ed90",
+        "bytes": 15108
+      },
+      "dossiers/S46_Headley_2021.md": {
+        "sha256": "18b1383ea7a4f67fb43934f948deff864a5e96ec7ef5ceaed169f0f74802af41",
+        "bytes": 10951
+      }
+    }
+  },
+  "latest_checkpoint": {
+    "date": "2026-10-20",
+    "sources": [
+      "S52",
+      "S30"
+    ],
+    "new_portfolio_sources": [
+      "S54",
+      "S55",
+      "S56",
+      "S57",
+      "S58",
+      "S59",
+      "S60",
+      "S61",
+      "S62",
+      "S63"
+    ],
+    "hashes": {
+      "project_facts.json": "8cb73398881eba2ccdbbedab6fcf1bfb837f49b0fa6bd7b1afee1d0a424b4575",
+      "S50_S51_search_log.json": "d7623caf8fb51e15846f7c4eaf8f664f405cd10488162bbf419414d3122ac0b6",
+      "P0_search_log.json": "74b2b9ffa843d3f23a6c8cbab740b6f518b5d79d2440247243c1c728b7c6dd43",
+      "Literature_Acquisition_Requests.md": "312cccfb3874ba9461b3f69f97d3d7c5f81efec1ff5e49b0138ba38f5c197bb6",
+      "inventory.json": "a311cc6369469b09efa9274c7bd14f00d8d2d21cc200bff79c84878d1730cf58",
+      "Claim_to_Evidence.md": "b49baa6423e17c0f766e3a9aece8e6ea505ec28ff65d003a114c387fa5f71420",
+      "Review_Progress_and_Next_Steps_2026-10-20.md": "3fd741fb59e63640d8f25d9af072b57aeb2ad1bcd37740a6fe01cdfb7f410e86",
+      "New_Batch_Synthesis_2026-10-20.md": "46b99c3168e35ddbbaeda49e5ed89cd80e072c9df0f9e4b1deab72df7625473f",
+      "search_and_access_log.json": "7c620d59f4adc3464e76aaf03117a494099f6a753331fb4e6d96ad63cc0b0b2b",
+      "Fifteen_Paper_Reading_Plan.md": "e378aad31ce7a157b467b7f46e360a135df47994ca76451c8f85caf62249807a",
+      "Methods_Theory_Evidence_Bridge.md": "57ff91a8f224e830f6cde3b1068375a3b06fcec09b29f555601d8bd99f678dfd",
+      "Natural_Circulation_History_and_MSR_Motivation.md": "0ef435d8de7ed2881ba53d538b9174d12d63bd5ab15fe82a4285f81f43c3c759",
+      "P0_Research_Memo_2026-10-20.md": "b973c5cd558b86b14e601781739274dbd7ed124472ef89b28e9130712eb1d7ba",
+      "question_to_literature_matrix.json": "47b7c3140f9e4ec4e5968822a8df6b109de6d374562b409db147fdd9a1fb7d3b",
+      "new_claim_ledger.json": "5dc558f26ca3da22e70ef066d305abb5a0fa84db0d59f090f4099f34b06039ea",
+      "project_protocol_registry.json": "c3aea5425fa4bd4462e0d1dcc9787c58f1699f6b447e66e49d34909572dc6e71",
+      "Nick_Plan_Reconciliation_2026-10-20.md": "92f96f435e13b66a05aeee5db760fedaa15cf73b8d93169bbd131be21ea830d1",
+      "acquisition_queue.json": "43360908a15144ce9d5ea69fdb85b9a63e6b670f5379df5e33b6f71a71995255",
+      "S49_Data_Access_Checkpoint.md": "479c3dc8661c06ee1c8906db25d70aa774beda6ce083d83327c902a430904163",
+      "TRIDENT_Source_Dossiers_2026-10-20.md": "f2b3dd8edbb49c563e9b587f30444716deac5267e33e17c7a0686b00c8d5d3f9",
+      "P0_verified_identifiers.bib": "a05f6fb34599eef39ef3629553bf7d4c938c4edb95e78f9e3f9b69477f8d0279",
+      "PF01_project_facts.md": "40fc76c45b2386c524644067d83b1db2e92b6b7417810477569aae8f8414b452",
+      "S52_S30_Synthesis_and_Contribution_Update.md": "0674879a7fef9c0f27af106339aa28b4fd4ceaf674479a5491f225b6d6ec8de0",
+      "README.md": "4c70bf5982e069f925e1ad977bc4924ae1e40556a2076fe0abb6965b4d6aa2fa",
+      "New_Source_Arrivals_2026-10-20.md": "31780e760c3cd5c3f1e986ee728651cdd6fd892dec75c87a69c293c12c4faed4",
+      "S52_S30_claim_updates.json": "2928976b0e119be8d30145bdae79ff03ccadf45447bcb58fcc27f29de2705931",
+      "Question_to_Literature_Matrix.md": "dc76582b5bf759d31b83ce46da4612fd4f64af2930b93aea5ba933407681643f",
+      "claim_ledger.json": "284b29219480e2c23706533aa7a6d24a723d463230159abd6d6b6d781263d991",
+      "retrieval_log.json": "6bda3acd2aa1eadcb34fc7045bf28976f2daede23fc1596b69d50d7bcbbc78d7",
+      "research_state.json": "f3f7736dde01f0e3f62862a50879e3a05adf9b5f74971eb540c742df7c82b1d1",
+      "checks.json": "7ad89720815cfc4d9102cc0791ed93253ee56375942014cb9791c086722bc625",
+      "New_Batch_search_log.json": "d0b111f78c4de701d6bcb5d29236c62bc007e02b387dd76b81e8a3bcaa330473",
+      "S52_S30_Fifteen_search_log.json": "7b2a564a0237861f9586eed2e80ded8abef2380524509eb25f82371f03f5e7ad",
+      "S50_S51_claim_updates.json": "18bebb30d1a22842b2818f65b77e62ed8839f79369439004f5ab7cf55ccd787a",
+      "source_registry.json": "a06c6783833dd928b1f69928258646d5f1efd195c05d6ef82e2838b3782a2988",
+      "prior_S10_S48_batch/Literature_Acquisition_Requests.md": "6c107f7298695b03d0d1352976a590a5d3f12a6ab576da4e8f14a75b31ebb3a8",
+      "prior_S10_S48_batch/question_to_literature_matrix.json": "7a159c6f0e2c53fe527d0a6315cca9c112e90015dd66bdecbaf8bd6a44f9fe74",
+      "prior_S10_S48_batch/new_claim_ledger.json": "fd44f7ee08d1413a0cc1efbccf5eec4b3d98c74f4d75ea3d422458c34dc62c54",
+      "prior_S10_S48_batch/acquisition_queue.json": "b3e18b179d12e58ee5b8a85ceba20060dbdbcd313d759b332cb76f6d3abd496e",
+      "prior_S10_S48_batch/Question_to_Literature_Matrix.md": "2c81475a94a18866b567b28f00e7c734e20e13c5fb9a221ff1a7f7f6015e4ca8",
+      "prior_S10_S48_batch/claim_ledger.json": "ccbab98f1ae37f1abbc63f7f11e377562e027bac52a242b1805ecd4a3cb28e55",
+      "prior_S10_S48_batch/research_state.json": "5e5498013218fe50e79aad7a4fdd899274a083bea87b162f316ad04943fcb863",
+      "prior_S10_S48_batch/checks.json": "805848a092ad327d8441567e1e661111d8982150525dee70bce5b766e33d0ccc",
+      "prior_S10_S48_batch/source_registry.json": "710e2217b01ea7ba7b0af12641c8b3cb928d5597498c6f68b6ad1cdefa73f236",
+      "dossiers/S48_Seo_2021_adjoint.md": "dd9e6e81faa9e72dd6549af49218e7836436f58995e61295bad37627f52b4e70",
+      "dossiers/S35_Rozak_2026_CFD.md": "2fa3b2af6cea0ecd51e4e2e16f1e2cf268eb016e799701787bab472825b9b774",
+      "dossiers/S51_Jiao_2018.md": "8fb48ae8294fe957b3aa9b26b689b792e1b25736780cd8c58ddb097705c11482",
+      "dossiers/S39_Carson_dissertation.md": "98638a6ee8fde1043437cd88075eefbbc789e0a3ff1079a5a4771b62fb683845",
+      "dossiers/S47_Gabbard_1970_MSRE.md": "947be8d669d3f7022e721637eeb05858ed283ef6a887b44c66b73cf2957f6994",
+      "dossiers/S38_Reis_2024_solidification.md": "8d192d47d6fefd678b0bfb335fe44e340953f64a9829e72623adcc25d036ff21",
+      "dossiers/S16_Reis_Hassan_2025.md": "069398e0e97b3d7fbae70bae11e85256370abe1f05ddfb55c050953a97601017",
+      "dossiers/S09_Vijayan_2002.md": "902c56fd9fdcc803a602b8301d53aa48980c279db64206c2d94b6e9df34ed7aa",
+      "dossiers/S37_Reis_2024_flow_visualization.md": "1928d6e2dd7fadea0a1abcfe7ae451a5073b4114060028af737b848d1a1510d1",
+      "dossiers/S30_Matulis_2025.md": "d43dbdb91152b7d60e2cb9bfbb135e82a0443143e2aba511a5be3a88de3cb315",
+      "dossiers/S10_Kudariyawar_2016.md": "ae5cf3fcf898465d748b1ef831288a6f4d3bed5d67ce94a6335b8c9851e92e34",
+      "dossiers/S26_Supplement_and_Repository_Addendum.md": "f8cfcf4834c8a6c197e1a479d70e4344e61dff02533c8c49b7b5dbd3db6e1d0e",
+      "dossiers/S50_Srivastava_2016.md": "669157b802af2f26c4cbbb2ff89fe1bf5be1a3e0a7449deb88dc14f12579d637",
+      "dossiers/S43_Britsch_2019_FLiBe.md": "28d7830d4deff4f6c50b3ad092cc091eded12135cea386e3514db8688c0a8dc5",
+      "dossiers/S21_Carson_2026_local_heating.md": "6d61d92743cfcd935d11bfe9f00536a9ec1da8818556363d626ac5ee4e8f5d18",
+      "dossiers/S52_Borgohain_2011.md": "febd5b3f717ef3b2843d576c545e5495e6514809dcc6dc99f3fa996aa6500f24",
+      "dossiers/S36_Vijayan_Austregesilo_1994.md": "521fd0892914011ed682f8fca0b52fa84bd266937205a22e6b0c5389ec218ae0",
+      "dossiers/S26_Manikkan_2026_entropy_switch.md": "3126798d719ee88c9d73f5b2185dd49ecbcbab62dedba851eb9e29ebaf67ed90",
+      "dossiers/S46_Headley_2021.md": "18b1383ea7a4f67fb43934f948deff864a5e96ec7ef5ceaed169f0f74802af41",
+      "prior_stage2/acquisition_queue.json": "595c455aad957a7d6a72722307ce290e316cde51a02c593cf2dbcd2e0650679f",
+      "prior_stage2/claim_ledger.json": "207851f24e2ec31de764fd7d872a9e62797f450d0137b434341c135823ac3db5",
+      "prior_stage2/research_state.json": "843a46796d83da9f9be95c3b3d67d42d905d771810feba9a0d2367a241773783",
+      "prior_stage2/source_registry.json": "e18419cd9ce3e03c44bacc9ac2cfbdc15f1833eea978d60d41b122459945ab9e",
+      "prior_S52_S30_batch/Literature_Acquisition_Requests.md": "0705c55d835ed4dab52743d09f9f2fcda7682d79339c1fff83bf850979566528",
+      "prior_S52_S30_batch/acquisition_queue.json": "a53aab9db90cfd1f0ebe618868ba862d5df92a5145ed3287a9dfaa8f69e74917",
+      "prior_S52_S30_batch/README.md": "f0dfcbbad17a764b834d9d4fb32a3995f910a58c8f436309462415d87971a9af",
+      "prior_S52_S30_batch/claim_ledger.json": "1c83e8eb5bd82922e93737a62ebf7cae6dcb5f7f3eec69d6439246477c861f82",
+      "prior_S52_S30_batch/research_state.json": "eb8184e8de2cfe0bc1fe4b53acdd8b849a756a4717d2fb207ee3c2f270b2a046",
+      "prior_S52_S30_batch/checks.json": "b8ff72ab05e569e8ad5fa5da8da76cae12ba5c6bbab0b5339f942aac6cf3dae7",
+      "prior_S52_S30_batch/source_registry.json": "c991e88160aa793d2828374333c50e9b7120d1b28103cbc405f3d7d906604d8a",
+      "prior_S50_S51_batch/Literature_Acquisition_Requests.md": "3276a8ae904d0e29c4c84232636976986512f4ffbae37c55a8afcb26daa4d37f",
+      "prior_S50_S51_batch/acquisition_queue.json": "b6dc66bc0ef029d1fd0cc601893d64dd1f75264b838da30d74c183f221b1e31a",
+      "prior_S50_S51_batch/claim_ledger.json": "6e2c1326fd01c435b74a0c308114f0487d15f7eaa8055125bca7b76daa31222e",
+      "prior_S50_S51_batch/research_state.json": "5bd9b1389fb4171452c9f6fe7947dfbf1ab52cc5bc5e15d652ec3bf8ecc0fc13",
+      "prior_S50_S51_batch/checks.json": "85a1834b6bbacf2e74efe6f848ed1ae2bc4e7b8c53d031bddc6bf7b954dc917d",
+      "prior_S50_S51_batch/source_registry.json": "52d7ec219ee5b43b3bfeaea84bd9645428670c7896644044d74791e5c14e8f8b",
+      "prior_p0_continuation/new_claim_ledger.json": "8c40ddabf12f9b515b8af6d209cda1fab5b5840797ace5faba59269b711e56d2",
+      "prior_p0_continuation/acquisition_queue.json": "e7ba6a71f7b671cbe062ebafc8188460871dd72d835090ca5a8ed9740ec9d2a0",
+      "prior_p0_continuation/claim_ledger.json": "a6e4c7984f8a3a5cc513ef623e2b3eebf11ad2599c15dfe4adaac38c0b95f74f",
+      "prior_p0_continuation/research_state.json": "a72dbe055cd60de1aa3dad18496295b620c290bd07435b39c8155e631de1806b",
+      "prior_p0_continuation/checks.json": "532bce34a8ebc4c272229937aacf661ffbe6df66992aecfe4f25c049bd4b55f7",
+      "prior_p0_continuation/source_registry.json": "d799b424a36c80ee2c86c0faffff8827bcd4b9060958dbe662a1589e3d1de7a4"
+    }
+  }
+}

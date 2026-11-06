@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-20",
+  "supplied": [
+    {
+      "id": "S23",
+      "library_file_id": "libfile_094ee07f200481919fa77b94ad322c53",
+      "original_filename": "Raue et al.(2009),Bioinformatics25(15),1923–1929;10.1093:bioinformatics:btp358;.pdf",
+      "pages": 7
+    },
+    {
+      "id": "S67",
+      "library_file_id": "libfile_b817f925b61481918ecd72a4e27826a7",
+      "original_filename": "Brastein et al.(2019),Energy and Buildings191,200–210;10.1016:j.enbuild.2019.03.018.pdf",
+      "pages": 11
+    }
+  ],
+  "originals_modified": false,
+  "retrieved": [
+    "S68",
+    "S71",
+    "S72:THESIS1"
+  ]
+}

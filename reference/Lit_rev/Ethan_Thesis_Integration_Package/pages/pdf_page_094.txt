@@ -1,0 +1,9 @@
+Figure 6.3: Experimental PIV Window Visualization
+at just under y+ = 5. This undermines turbulence modeling without wall functions, but it
+should be noted that the value of y+ only goes so high because the transitions to-and-from
+step changes in a pipe’s cross-section were chosen to not have smooth axial grading as walls
+normally do in the system. This was done because for a fully-conformal and fully-hexahedral
+mesh, the wall refinement would be topologically required to propagate to the pipe’s bulk
+flow region. This would result in a significant slow-down for the simulation’s convergence
+on account of the pseudo-transient approach bounded by the Courant limit of 5 for minimal
+80

@@ -1,0 +1,45 @@
+Those roundings produce appreciably different values when used, but evaluating the full and
+abbreviated equations reveals that Reis et al. did in fact use the full, non-rounded equations
+for their analysis. While the scripts that generated the values reported in Reis et al. [9]
+could not be recovered, the determination was made by attempting to find a way to calculate
+the evaluation temperature used for the reported Prandtl number, Pr that classified each of
+the 4 experimental salt cases. The best method found was a simple average of the measured
+values of each TP probe (recorded in Celsius), before converting to Kelvin by adding 273
+(as opposed to 273.15) for the evaluation. This method reproduced the values of Pr exactly
+to reported precision for salt tests 1 and 4, and were 0.01 higher than the published values
+for salt test 2 and 3. The rounded versions of the equations published in Reis et al. could
+not provide a simultaneous agreement across each of the 4 salt test cases superior to the
+full equations using any single TP reading, difference between TP readings, or using TW
+measurements in any mixed configuration either, so it was determined with confidence that
+the full equations above were used. Attempts at recreating the calculations behind published
+results to ensure that the same methodology was being followed within the present work in
+the absence of recoverable scripts are present at several points in this work; this one in
+particular hints that some of the published calculations were done by hand. The evidence
+for this comes up in several places: spreadsheets provided by the experimentalists having
+only numeric values without any formulas, the apparent use of +273 as the conversion factor
+from Celsius to Kelvin instead of +273.15 is the kind of truncation more likely done by hand,
+and the calculated values of Pr for salt test 2 and 3 being off by only 0.01 hints at some
+difference in rounding done during the calculation, but lacking direct confirmation, cannot
+be confirmed.
+Table 4.1: Prandtl Number Reconstruction Comparisons
+Evaluation method
+Salt 1
+Salt 2
+Salt 3
+Salt 4
+Reported Value
+54.29
+50.81
+41.65
+31.74
+Full Equations, [TPavg] + 273
+54.29
+50.82
+41.66
+31.74
+Full Equations, [TPavg] + 273.15
+54.16
+50.69
+41.55
+31.66
+39

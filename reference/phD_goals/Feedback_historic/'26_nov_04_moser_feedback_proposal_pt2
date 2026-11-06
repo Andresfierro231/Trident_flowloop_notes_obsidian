@@ -1,0 +1,44 @@
+Make sure you know /scratch/09748/andresfierro231/projects_scratch/Trident/andrew_WorkSpace/trident_modeling_initiative/box/Trident_FlowLoop_Notes/M. Meeting Notes/'26 Oct 14 - Moser meeting feedback on abstract.md exists
+
+The main story Moser wants me to tell is: 
+* there is a need to do research. Motivation
+* Here is the work that has been done so far. Literature approaches along with your own research. Lay state of the field
+* Here is my proposal to get us over the finish line
+
+Perhaps research aims should go before research methods
+
+The focus should be on 3 things and how to accomplish them
+1. Evaluating modeling choices
+- Need to be clear about defining them, why they are interesting, and how to determine if the model is effective
+2. Be clear about parameters to be set
+3. Be clear about validation
+--> These three are connected, need to be able to explain these together when explaining methods and literature review
+
+In methods, you use work you have done so far to demonstrate you can actually achieve. That work also informs what models won't work for you. 
+Shows:
+* Plausible to do what you propose
+* Make it clear you are able to do this, sufficient expertise or experience. 
+* Make clear how much of the plan you have already done to achieve this
+- Ex results along the progression
+- How previous work informs what you want to do next
+- How previous work informs what you want to try next
+* Techniques need to be explained well enough it is clear why initial approach makes sense
+ - Backup approach in case current approach does not work
+
+It is ok to include equations. 
+- Useful when helping reader know what you are solving
+- allows you to point out what structure or termo of interest you care about
+ - Especially what parameters I want to tune. 
+
+End methods with throughline set of activities that will get you to objectives. 
+
+Organization and clarity are super important. 
+
+The PhD proposal presentation and the proposal paper should start with motivation of the application. 
+1 or 2 slides and 1 or 2 pages about why these loops, experiments, framework, matter
+- These loops, do they map onto msre primary or secondary loops? 
+- What is the major value of these digital twins
+We need to paint the picture: motivate appllication, why the experiments matter, picture of MSRE, companies building something similar 
+
+Need to have estimate of what is required to do the goal
+

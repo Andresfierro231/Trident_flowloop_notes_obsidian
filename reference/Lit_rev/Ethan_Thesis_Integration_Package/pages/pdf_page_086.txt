@@ -1,0 +1,18 @@
+Chapter 6
+Results
+This chapter presents the verification and validation results. Following the V&V method-
+ology of Chapter 3, verification results are presented first (Sections 6.1-6.2), followed by
+validation against experimental data (Section 6.4).
+6.1
+Boundary Condition Verification
+The custom rcExternalTemperature boundary condition was verified on a simplified single-
+pipe geometry by comparing the integrated wall heat flux against analytical reference values.
+6.1.1
+Verification Geometry
+The verification domain is a vertical cylinder with an O-grid mesh:
+• Inner radius: r0 = 10.0 mm, diameter D = 20.0 mm
+• Wall layers: SS-316 (1.0 mm, k = 16.3 W / m K) and insulation (50.0 mm, k =
+0.144 W / m K)
+• Outer radius: r2 = 61.0 mm, area ratio r2/r0 = 6.1
+• Adiabatic entry length: Ladiab = 500.0 mm
+72

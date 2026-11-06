@@ -1,0 +1,30 @@
+6.12 Position Sensitivity for Water Centerline Probes . . . . . . . . . . . . . . . .
+89
+6.13 Velocity Profile Error Comparison for Salt . . . . . . . . . . . . . . . . . . .
+90
+6.14 Velocity Profile Error Comparison for Laminar Water . . . . . . . . . . . . .
+90
+6.15 Velocity Profile Error Comparison for Best Water Fits . . . . . . . . . . . . .
+91
+6.16 Lower Left Velocity Planar Cross Section . . . . . . . . . . . . . . . . . . . .
+91
+6.17 Upper Left Velocity Planar Cross Section . . . . . . . . . . . . . . . . . . . .
+92
+6.18 Test Section Velocity Planar Cross Section . . . . . . . . . . . . . . . . . . .
+93
+6.19 All Salt Test Section Axial Velocities (Full Range) . . . . . . . . . . . . . . .
+94
+6.20 All Salt Test Section Axial Velocities (Positive-only[left] - Negative-only[right]) 94
+C.1 Temperature Parity for SSTLM Water Test Series . . . . . . . . . . . . . . .
+122
+C.2 Temperature Parity for SSTLM Water Test Series . . . . . . . . . . . . . . .
+123
+C.3 Temperature Parity for SSTLM Water Test Series . . . . . . . . . . . . . . .
+124
+C.4 Temperature Parity for SSTLM Water Test Series . . . . . . . . . . . . . . .
+124
+C.5 Temperature Parity for SSTLM Water Test Series . . . . . . . . . . . . . . .
+125
+C.6 Temperature Parity for SSTLM Water Test Series . . . . . . . . . . . . . . .
+125
+viii

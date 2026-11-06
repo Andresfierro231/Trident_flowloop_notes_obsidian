@@ -1,0 +1,194 @@
+[
+  {
+    "id": "S69-C01",
+    "claim": "Two synthetic IDEAS dwelling simulations provide the identification reference.",
+    "sources": [
+      "S69"
+    ],
+    "locator": "PDF2–4/264–266;§§2–4,Table1–2",
+    "limit": "Not experimental reactor validation.",
+    "dossier": "dossiers/S69_Reynders_2014.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S69-C02",
+    "claim": "Delivered radiator heat bypasses upstream heating-system dynamics and effective storage depends on heat-emission system.",
+    "sources": [
+      "S69"
+    ],
+    "locator": "PDF3–4/265–266;§4",
+    "limit": "Boundary lesson transfers conditionally; no TRIDENT finding.",
+    "dossier": "dossiers/S69_Reynders_2014.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S69-C03",
+    "claim": "Good temperature prediction need not determine physical coefficients; added virtual flux observations change inference.",
+    "sources": [
+      "S69"
+    ],
+    "locator": "PDF5–7/267–269;§5.1,Figures3–6",
+    "limit": "Actual extra measurements not assumed available.",
+    "dossier": "dossiers/S69_Reynders_2014.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S69-C04",
+    "claim": "Effective capacity and combined massless-window/ventilation loss require explicit parameter interpretation.",
+    "sources": [
+      "S69"
+    ],
+    "locator": "PDF7/269;§5.1,Figures6–7",
+    "limit": "Effective parameters depend on model and excitation.",
+    "dossier": "dossiers/S69_Reynders_2014.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S69-C05",
+    "claim": "Specified biased observations change coefficients without a comparable temperature-RMSE change.",
+    "sources": [
+      "S69"
+    ],
+    "locator": "PDF10/272;§5.3,Figures8–11",
+    "limit": "Synthetic cases, not universal bias tolerances.",
+    "dossier": "dossiers/S69_Reynders_2014.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S69-C06",
+    "claim": "Increasing order can worsen longer-horizon predictions and parameter estimation.",
+    "sources": [
+      "S69"
+    ],
+    "locator": "PDF5–7/267–269;§5.1,Figures3,5–6",
+    "limit": "Order5 failure is case-specific.",
+    "dossier": "dossiers/S69_Reynders_2014.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S69-C07",
+    "claim": "Reduced/detailed simulation differences depend on season and source representation.",
+    "sources": [
+      "S69"
+    ],
+    "locator": "PDF10–11/272–273;§6,Figures12–15",
+    "limit": "No locked independent physical validation or calibrated predictive coverage established.",
+    "dossier": "dossiers/S69_Reynders_2014.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S69-C08",
+    "claim": "Printed Eq1 omits dt on drift terms; conventional SDE normalization is an interpretation requiring explicit notation.",
+    "sources": [
+      "S69"
+    ],
+    "locator": "PDF3/265;§3,Eq1",
+    "limit": "Visually verified notation issue; no silent implementation correction.",
+    "dossier": "dossiers/S69_Reynders_2014.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S70-C01",
+    "claim": "Synthetic one-dimensional wall uses surface-temperature inputs and internal-face flux output.",
+    "sources": [
+      "S70"
+    ],
+    "locator": "PDF8–11/451–454;Table1,Figure2,Eq5–6",
+    "limit": "Not real on-site validation or a circulating loop.",
+    "dossier": "dossiers/S70_Deconinck_Roels_2017.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S70-C02",
+    "claim": "Nuisance-reoptimized profiles use a normalized likelihood ratio and asymptotic confidence threshold.",
+    "sources": [
+      "S70"
+    ],
+    "locator": "PDF5–6/448–449;Eq1–4",
+    "limit": "Profile is not a marginal; regularity/finite-scan limitations apply.",
+    "dossier": "dossiers/S70_Deconinck_Roels_2017.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S70-C03",
+    "claim": "Total resistance can remain stable despite internally non-identifiable coefficients while total effective capacity can fail.",
+    "sources": [
+      "S70"
+    ],
+    "locator": "PDF13–15/456–458;Figures5–6;PDF26–28/469–471;Appendix1",
+    "limit": "Case-specific evidence, not a theorem for all aggregate loop quantities.",
+    "dossier": "dossiers/S70_Deconinck_Roels_2017.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S70-C04",
+    "claim": "One-step residual agreement can mask free-simulation inadequacy.",
+    "sources": [
+      "S70"
+    ],
+    "locator": "PDF16–17/459–460;Figure7",
+    "limit": "Whiteness does not guarantee independent predictive accuracy.",
+    "dossier": "dossiers/S70_Deconinck_Roels_2017.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S70-C05",
+    "claim": "Identifiable reduced RC coefficients need not map to material layers.",
+    "sources": [
+      "S70"
+    ],
+    "locator": "PDF21/464;Discussion",
+    "limit": "Internal distributions are model/signal dependent.",
+    "dossier": "dossiers/S70_Deconinck_Roels_2017.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S70-C06",
+    "claim": "Non-identifiable nuisance coefficients can assist estimation of the target aggregate.",
+    "sources": [
+      "S70"
+    ],
+    "locator": "PDF21–22/464–465;Discussion/conclusion",
+    "limit": "Insignificance does not justify automatic deletion.",
+    "dossier": "dossiers/S70_Deconinck_Roels_2017.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S70-C07",
+    "claim": "Printed Table1 capacitances sum to7.8044e5, inconsistent with printed6.18e5J/(m²K).",
+    "sources": [
+      "S70"
+    ],
+    "locator": "PDF8/451;Table1",
+    "limit": "Our arithmetic from visually checked entries; do not repair source silently.",
+    "dossier": "dossiers/S70_Deconinck_Roels_2017.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S70-C08",
+    "claim": "Summer order2 Table3 reports Rtot3.7m²K/W with SD.21 and Ctot2.8e5J/(m²K) with SD9.3e3.",
+    "sources": [
+      "S70"
+    ],
+    "locator": "PDF18/461;Table3",
+    "limit": "Standard deviations, not95% interval widths; capacity reference unresolved.",
+    "dossier": "dossiers/S70_Deconinck_Roels_2017.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  }
+]

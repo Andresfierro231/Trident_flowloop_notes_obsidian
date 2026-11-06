@@ -1,0 +1,11 @@
+[50] Yuan Jin, Jinui Cheng, Tao Su, Peng Zhang, and Zhong Li. Accurate viscosity mea-
+surement of nitrates/nitrites salts for concentrated solar power. Solar Energy, 137(1):
+385–392, 2016. doi: http://dx.doi.org/10.1016/j.solener.2016.08.037.
+[51] D. Parida and S. Basu. On the specific heat capacity of hitec-salt nanocomposites for
+concentrated solar power applications. Royal Society of Chemistry, 13(1):5496–5508,
+2023. doi: 10.1039/d2ra07384f.
+[52] Nejc Jurkovič.
+classy_blocks.
+URL https://github.com/damogranlabs/classy_
+blocks.
+106

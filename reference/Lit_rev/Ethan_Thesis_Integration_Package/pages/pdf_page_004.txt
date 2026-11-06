@@ -1,0 +1,81 @@
+3.3.1
+Convergence Classification . . . . . . . . . . . . . . . . . . . . . . . .
+24
+3.3.2
+Mesh Refinement Strategy . . . . . . . . . . . . . . . . . . . . . . . .
+25
+3.4
+Boundary Condition Verification . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+3.4.1
+Verification Geometry
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+3.4.2
+Analytical Reference Solution . . . . . . . . . . . . . . . . . . . . . .
+27
+3.5
+Quantities of Interest . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+3.6
+Validation Error Assessment . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+3.6.1
+Error Metrics for Velocity Profiles . . . . . . . . . . . . . . . . . . . .
+31
+4
+Experimental Setup
+32
+4.1
+TAMU Natural Circulation Loop
+. . . . . . . . . . . . . . . . . . . . . . . .
+33
+4.1.1
+Loop Geometry . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+4.1.2
+Thermal Insulation . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+4.2
+Instrumentation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+4.2.1
+Temperature Measurements . . . . . . . . . . . . . . . . . . . . . . .
+36
+4.2.2
+Velocity Measurements . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+4.2.3
+Cooling System Measurements . . . . . . . . . . . . . . . . . . . . . .
+37
+4.3
+Working Fluids . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+4.3.1
+HITEC Molten Salt . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+4.3.2
+Water
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+4.4
+Experimental Test Matrix
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+4.5
+Experimental Uncertainties
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+4.5.1
+Energy Balance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+4.5.2
+Bulk Velocity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+42
+4.5.3
+Velocity Data Extraction . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+4.5.4
+Data Uncertainty Summary . . . . . . . . . . . . . . . . . . . . . . .
+46
+iii

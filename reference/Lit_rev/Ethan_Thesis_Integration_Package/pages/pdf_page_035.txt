@@ -1,0 +1,18 @@
+Chapter 3
+Verification and Validation
+Methodology
+3.1
+Overview
+The V&V process is structured as a sequence of increasingly demanding tests:
+1. Code verification: first, it must be demonstrated that the custom-written code for
+this project, the rcExternalTemperature boundary condition, reproduces an inde-
+pendent analytical reference solution and that the discretization error vanishes at the
+expected rate under mesh refinement.
+2. Solution verification: next, with that verified boundary condition, we need to esti-
+mate the numerical uncertainty of the full-loop simulations for the quantities of interest
+(QoI) by applying Richardson extrapolation and the Grid Convergence Index across a
+family of systematically refined meshes.
+3. Validation: lastly, once the simulations have been verified, we compare how the sim-
+ulation matches up against the experimental measurements of PIV velocity profiles,
+centerline and wall temperatures, and the calculated mass flow rate within the system.
+21

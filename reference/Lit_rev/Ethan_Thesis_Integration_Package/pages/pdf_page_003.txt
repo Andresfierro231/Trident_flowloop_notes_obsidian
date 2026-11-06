@@ -1,0 +1,57 @@
+Contents
+Abstract
+i
+Nomenclature
+xiii
+1
+Introduction
+3
+1.1
+Motivation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+1.2
+Objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+1.3
+Thesis Outline . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2
+Literature Review
+10
+2.1
+Natural Circulation Fundamentals . . . . . . . . . . . . . . . . . . . . . . . .
+10
+2.2
+Molten Salt Natural Circulation Experiments
+. . . . . . . . . . . . . . . . .
+13
+2.3
+CFD Simulation of Natural Circulation Loops . . . . . . . . . . . . . . . . .
+15
+2.4
+Conjugate Heat Transfer and Thermal Boundary Conditions . . . . . . . . .
+16
+2.5
+Verification and Validation . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+2.6
+Digital Twins and Reduced-Order Models . . . . . . . . . . . . . . . . . . . .
+18
+2.7
+Summary and Research Gap . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+3
+Verification and Validation Methodology
+21
+3.1
+Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+3.2
+Richardson Extrapolation
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+3.3
+Grid Convergence Index
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+ii

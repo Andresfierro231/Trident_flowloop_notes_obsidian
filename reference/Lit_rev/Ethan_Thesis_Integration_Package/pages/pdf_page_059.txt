@@ -1,0 +1,20 @@
+pollution from the legend or Prandtl number annotation. With those bounds set, they can
+be safely ignored. Once the undesirable annotations are ignored, the three profiles can begin
+to be separated. Each non-white pixel is assigned to one of three brightness classes. Once
+each non-white pixel is assigned to one of the three groups, a median filter is applied. This
+filter looks at each column of pixels, and assigns a representative pixel coordinate for each
+of the three brightness groups by taking the median verical location of pixels in each group
+for that collumn. For places where curves cross or overlap, Gaussian smoothing is applied
+to improve the resultant profile.
+Figure 4.3: Masking and Extraction Images for Salt Test 1
+To verify that the digitization is serviceable, the saved array of data is then overlaid back
+upon the source image using the calibrated coordinate frame to provide visual confirmation.
+Error Quantification Against Salt Data
+Since the salt tests have a raw full-field velocity dataset, the accuracy of the entire digitization
+process can be bounded for factoring in to the uncertainty analysis of the water full-field
+velocity data comparisons. For each salt test and height, the raw data was sliced at the
+corresponding Y/H row and the digitized curve was restricted to the overlapping horizontal
+window. The comparison involves roughly 80 data points across the board for each height
+comparison. L2, bulk excludes an additional 1.25 mm from either side of the overlap window
+to provide a frame of reference for the accuracy of the digitization away from either tail of
+45

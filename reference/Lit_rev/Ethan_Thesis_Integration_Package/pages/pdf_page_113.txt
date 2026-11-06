@@ -1,0 +1,18 @@
+5. Created a model capable of serving as a suitable starting point for further reduced-order
+models and machine learning training with quantified uncertainty validated within a
+99% confidence interval.
+7.2
+Future Work
+Future work for this project could include any or all of the following aspects:
+1. Extensive turbulence analysis using other RANS models to create a detailed account
+of the modeling choice’s impact on the previously validated simulations and/or ex-
+pansion of the turbulence study to Large Eddy Simulation for higher-resolution of the
+development of turbulence within the system.
+2. Detailed transient analysis beyond the steady-state modeling performed in this work.
+3. Further improvements using reduced-order techniques to further reduce uncertainty
+and improve the quality of the model with potential applicability towards true measure-
+ment predictions rather than simulated predictions performed far after the experiment
+was conducted.
+4. Implementation of the validated model into a Digital Twin framework, potentially
+serving as feedback to inform future experimental design.
+99

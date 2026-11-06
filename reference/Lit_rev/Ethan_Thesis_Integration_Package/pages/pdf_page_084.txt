@@ -1,0 +1,26 @@
+within a fixed geometry is equal to U = ˙m / ρ A, where A here is the cross-sectional area, the
+uncertainty associated with velocity is considered equal to the mass flow rate uncertainty.
+The material uncertainty does not include uncertainty for any solid materials contained
+within the rcExternalTemperature. The insulation uses properties from the manufacturer’s
+datasheet fit with a second order polynomial. Only five data points exist and only one is
+within the applicable range of experimental temperatures, but without more data and the R2
+value of the fit exceeding 0.99, its associated uncertainty has been ignored despite being the
+most likely source of unaccounted error. The other solids modeled (SS-316 and quartz) have
+negligible thermal resistances by comparison and are generally well-characterized, so their
+uncertainty is also neglected. Water properties also being well-posed, leaves the properties of
+HITEC as the only remainging uncertainty; with standard uncertainties from Section 5.2.2
+that have been propagated with the exception of density, whose uncertainty is already carried
+by the back-calculation of the experimental mass flow from the PIV data in the previous
+chapter. Poiseuille pipe flow scaling laws are also used for this propagation to velocity and
+mass flow rate. For the propagation to temperature uncertainty, the property uncertainties
+are applied to the heat transfer equation Q = ˙mcp∆T.
+The environmental uncertainty shares a similar propagation path, but rather than ac-
+counting for the insulation’s uncertainty, uses the first order model to characterize the un-
+certainty from the ambient temperature, external convective heat transfer coefficient, the
+emissivity of the insulation and heat exchanger assembly’s aluminum exterior, as well as
+the measured uncertainty associated with the facility’s heater power. These quantities are
+combined with a root-sum-square before being quantified below and further propagated.
+The final three rows combine each contribution into the root-sum-square for the value
+of uinput to be used for each QoI for each of the eight experimental cases. The temperature
+entries are applied equally to both centerline and wall temperature probes.
+70

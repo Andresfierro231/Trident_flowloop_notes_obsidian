@@ -1,0 +1,27 @@
+4.2
+Instrumentation
+The following section outlines the instrumentation that was used on the loop to collect the
+data for this V&V study.
+4.2.1
+Temperature Measurements
+The thermocouples that were used were K-type thermocouples that had a reported un-
+certainty of 1.1 ◦C for individual measurements, as reported by the manufacturer, and an
+uncertainty of 1.56 ◦C for differences in temperature as calculated by the experimentalists
+and reported in Reis et al. [9].
+• Fluid probes (TP1-TP6): The centerline temperature probes of the "TPX" series
+were nominally centered within the pipe’s cross section at the reported locations in
+each of the four corner junctions of the loop plus two more in the fittings that mounted
+the top and bottom of the test section to the rest of the loop.
+• Wall thermocouples (TW1-TW11): The wall temperature probes of the "TWX"
+series were placed on the outside of the loop approximately equidistant from each other
+along each of the four legs. The exact axial and azimuthal locations have been lost
+since the conduction of the experiment, so the comparisons conducted in this study
+are for their nominal axial locations and record data at each of the cardinal directions
+at the nominal axial point in space. Notably, TW10 is an exception to the trend of
+the other wall thermocouples, as it was mounted on the exterior of the heat exchanger
+jacket rather than the primary loop’s pipe wall.
+4.2.2
+Velocity Measurements
+The velocity measurements used for this study and reported in Reis et al. [9] were conducted
+using Particle Image Velocimetry. This non-intrusive method of measuring the flow used
+36

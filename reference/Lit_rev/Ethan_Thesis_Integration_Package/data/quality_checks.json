@@ -1,0 +1,14 @@
+{
+  "inventory_pass": true,
+  "numbered_equations": 61,
+  "unnumbered_groups": 31,
+  "figures": 33,
+  "native_resources": 39,
+  "pages": 139,
+  "integration_proposals": 24,
+  "fact_checks": 22,
+  "report_pages": 24,
+  "report_text_in_page_bounds": true,
+  "primary_source_verification": "bounded; access limitations explicitly listed",
+  "production_changes": false
+}

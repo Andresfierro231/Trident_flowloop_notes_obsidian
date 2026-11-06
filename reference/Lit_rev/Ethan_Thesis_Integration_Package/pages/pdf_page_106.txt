@@ -1,0 +1,14 @@
+Figure 6.18 and it actually continues all the way up to the top junction where it is split by
+creases in the tee-junction, seen in Figure 6.17. As an observation note, the apparent oddity
+in the upper-right corner of Figure 6.17 is the flow being deflected by the internal Steinmetz
+structure of the intersecting cylindrical boreholes.
+Figure 6.17: Upper Left Velocity Planar Cross Section
+This reveals a consequence of the use of the PIV methodology. The experimentalists later
+confirmed that the internal recirculation was not an artifact of the CFD, but in-fact a real,
+physical behavior that managed to go unrecorded by the original experimental effort.
+With the visualizations covered, the final summary of the the validations efforts success
+can be tabulated. Below are the results using the validation uncertainty for water 2 with
+kOmegaSSTLM_Gb turbulence modeling and using the validation uncertainty for water 4
+with kOmegaSSTLM. Aside from those two exceptions, each case is compared against its
+laminar results before being classified as validated or not.
+92

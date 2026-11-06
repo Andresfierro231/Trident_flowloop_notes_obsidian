@@ -1,0 +1,9 @@
+Figure 6.15: Velocity Profile Error Comparison for Best Water Fits
+developed streamlines without hardly contributions to the lower-left stagnant regions. The
+effect here is two-fold; not only is there a fast stream developed along the leftmost wall of
+the loop, but that streamline creates a low pressure region at the elbow that results in an
+internal recirculation, seen by the negative vertical velocity components seen on the lower
+end of the legend for the right sub-figure within Figure 6.16
+Figure 6.16: Lower Left Velocity Planar Cross Section
+We can see that this extends all the way through the test section, as seen on the left of
+91

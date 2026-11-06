@@ -1,0 +1,75 @@
+the model’s approximation that the internal surface temperature was equal to the external
+surface temperature of the stainless steel recorded by the TW thermocouple series. A caveat
+to that is the first order model does still include the annular contribution of the stainless steel
+pipe wall, effectively double counting it’s contribution of thermal resistance to the model,
+but this c ontribution is negligible; retained by the model in favor of continued, accurate
+accounting of each segment’s solid domain throughout the simulation pipeline, particularly
+for ensuring the final outer radius is modeled faithfully to model the intended external surface
+area of the surrounding insulation.
+From there, the heat flow for each segment was solved using a tridiagonal matrix imple-
+mented with:
+• Inner boundary: Fixed temperature from thermocouple reading.
+• Outer boundary: Natural convection using the Churchill-Chu correlation [49] blended
+for pipe orientation (horizontal to vertical), plus Stefan-Boltzmann radiation:
+NuL =
+
+
+
+
+
+
+
+0.825 + 0.387
+
+
+RaL
+h
+1 + (0.492/Pr)9/16i16/9
+
+
+1/6
+
+
+
+
+
+
+2
+(5.1)
+NuD =
+
+
+
+
+
+
+
+0.60 + 0.387
+
+
+RaD
+h
+1 + (0.559/Pr)9/16i16/9
+
+
+1/6
+
+
+
+
+
+
+2
+(5.2)
+hext = Nueff k
+D
+(5.3)
+qouter = hext(Ts −T∞) + εσ(T 4
+s −T 4
+∞),
+(5.4)
+The two Nusselt numbers were blended using a weight, w, determined by the segment’s
+orientation with respect to the ground. This weight is calculated by w = (sin θ)p, where
+p is effectively the strength of the blending such that larger values of p result in larger
+bias towards the horizontal equation for inclined sections while still allowing for vertical
+53

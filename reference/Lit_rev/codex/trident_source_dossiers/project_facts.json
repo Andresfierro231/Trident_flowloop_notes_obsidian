@@ -1,0 +1,31 @@
+{
+  "id": "PF01",
+  "title": "Project facts for the Trident literature-review conversation",
+  "provenance": "author-supplied project-record summary, 2026-10-20; underlying repository links not independently opened",
+  "file": "PF01_project_facts.md",
+  "sha256": "40fc76c45b2386c524644067d83b1db2e92b6b7417810477569aae8f8414b452",
+  "namespace": "PF01:project:S01–S38, not literature S01–S35",
+  "decisions": {
+    "prediction_contract": "Autonomous: geometry/properties/closures/heater/secondary cooling/ambient inputs; primary temperatures and circulation outputs. Measured-primary-temperature-driven models are conditional diagnostics.",
+    "reactor_mapping": "Not selected; retain liquid-fuel, non-fueled salt transport and FHR branches without choosing one.",
+    "thermal_limits": "Allowable heat flux and material/sensor temperature limits, not boiling CHF; numeric tolerances unresolved.",
+    "facility_mapping": "VCU experimental lane is STNCL; not a third facility or TAMU loop. VCU working fluid Prop-30 glycol, exact product/concentration/properties unresolved. ACU separate candidate HITEC branch.",
+    "observations": "VCU primary PTC1–4 are centerline observations, not established bulk temperatures. STCs pipe contact. No direct VCU primary flow or local-flow measurements. ACU flowmeter author-reported but calibration/range/synchronization unverified.",
+    "covariance": "Secondary duty derived from flow and enthalpy difference is not independent of those ingredients; inferred primary flow is correlated with its energy inputs. Type A residual studies are not total sensor accuracy or zero Type B bias.",
+    "experiments": "Nick Rev0.1 phases are written proposals with blank approvals, not executed/frozen holdouts. P2 passive response identifies supported ratios/combinations; known power anchors require observability checks. P3 validate frozen P2 before refit; Phase4 no primary refit in proposal.",
+    "model_hierarchy": "M1 no flow steady energy; M2 prescribed flow energy; M3 scalar buoyancy–resistance steady flow. Implemented, not facility validated. Existing measured-primary-temperature-driven wall transient is conditional.",
+    "cfd": "No qualified TRIDENT fields/run manifest/regime/resources/date; thesis S35 is external evidence and does not imply project CFD access.",
+    "data_boundaries": "ACU processing hold preserved. Voltage is not watts. Air-filled ambient runs are not glycol circulation tests; grouped July14 records are not continuous trajectories.",
+    "insulation": "VCU Rev9 working topology separates insulated legs/corners, ceramic-strip heater, bare straight cooler/top and jacketed section; a local sensor patch does not define an entire segment.",
+    "collaboration": "Ben Booth/NeutronOS dashboard collaboration active; no stand-alone novelty claim."
+  },
+  "material_unknowns_remaining": [
+    "Exact fluid identity, properties with uncertainty and qualified operating envelope for each facility/run",
+    "Per-run net deposited power and synchronized secondary-duty measurement model",
+    "Sensor coordinates, calibration, drift/shared bias, response and time synchronization",
+    "Approved/executed Nick protocols, independent repeats and preselected withheld conditions",
+    "Intended reactor decision/QoI tolerances and PhD resource/time limits",
+    "Any current qualified TRIDENT CFD deliverables and observation operators"
+  ],
+  "identity_correction": "PF01 references TAMU in discussing Ethan. S35 title page establishes degree institution is UT Austin; modeled facility is TAMU. Final-deposit status remains unknown."
+}

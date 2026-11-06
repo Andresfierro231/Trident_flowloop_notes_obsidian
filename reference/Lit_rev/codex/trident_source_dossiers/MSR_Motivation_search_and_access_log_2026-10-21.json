@@ -1,0 +1,113 @@
+{
+  "search_dates": [
+    "2026-10-20",
+    "2026-10-21"
+  ],
+  "queries": [
+    "exact S13/S64/S65 DOIs",
+    "Bardet Peterson2008 Options for Scaled Experiments Berkeley PDF",
+    "Goal-oriented calibration model modeling errors PDF repository",
+    "Guaranteed stable quadratic models134893 repository",
+    "Modelling heat transfer molten salt loop104880 repository",
+    "CFD LiCl-KCl128986 DOI repository",
+    "SAM integrated system-level115082 DOI",
+    "operator inference2016 author manuscript",
+    "digital twin graphical model2021 PDF",
+    "MSRE January1969 natural circulation original report",
+    "high-Prandtl surrogate similarity111757 DOI"
+  ],
+  "primary_urls": [
+    "https://www.osti.gov/servlets/purl/1600470",
+    "https://fhr.nuc.berkeley.edu/wp-content/uploads/2015/08/Bardet-Peterson-2008-Options-for-Scaled-Experiments-for-High-Temperature-Liquid-Salt-and-Helium-Fluid-Mechanics-and-Convective-Heat-Transfer.pdf",
+    "https://doi.org/10.1016/j.ces.2014.12.050",
+    "https://publications.polymtl.ca/70143/",
+    "https://inl.elsevierpure.com/en/publications/cfd-modeling-of-natural-circulation-in-licl-kcl-molten-salt-close/",
+    "https://verso.uidaho.edu/esploro/outputs/journalArticle/Similarity-analysis-of-high-Prandtl-surrogate-fluids/996824748001851"
+  ],
+  "retrievals": [
+    {
+      "id": "S24",
+      "url": "https://pure.mpg.de/rest/items/item_3527581_7/component/file_3670160/content",
+      "pdf": true,
+      "bytes": 3537547,
+      "status": 200,
+      "pages": 16,
+      "path": "trident_source_dossiers/available/S24_retrieved_motivation.pdf",
+      "first_page": " \nContents lists available at ScienceDirect\nPhysica D\njournal homepage: www.elsevier.com/locate/physd\n \nGuaranteed stable quadratic models and their applications in SINDy and \noperator inference$\nPawan Goyal a\n,∗, Igor Pontes Duff a\n, Peter Benner a,b\na Max Planck Institute for Dynamics of Complex Technical Systems, Standtorstrasse 1, Magdeburg, 39106, Saxony-Anhalt, Germany\nb Otto-von Guriecke University, Universitätsplatz 2, Magdeburg, 39106, Saxony-Anhalt, Germany\nA R T I C L E  I N F O\nCommunicated by Dmitry Pelinovsky\nDataset link: https://github.com/goyalpike/qu\nadratic-stable-opinf\nKeyw"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0029549326003341/pdfft?isDTMRedir=true&download=true",
+      "pdf": false,
+      "bytes": 195,
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "id": "S29",
+      "url": "https://mdpi-res.com/d_attachment/jne/jne-07-00045/article_deploy/jne-07-00045.pdf",
+      "pdf": true,
+      "bytes": 12527208,
+      "status": 200,
+      "pages": 36,
+      "path": "trident_source_dossiers/available/S29_retrieved_motivation.pdf",
+      "first_page": "Academic Editors: Dan Gabriel\nCacuci and Eugene Shwageraus\nReceived: 13 April 2026\nRevised: 22 June 2026\nAccepted: 28 June 2026\nPublished: 6 July 2026\nCopyright: © 2026 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed under the terms and\nconditions of the Creative Commons\nAttribution (CC BY) license.\nArticle\nPreliminary Experimental Validation of Single-Phase Natural\nCirculation Loop Using Surrogate Fluid for Molten Salt Based\non CFD Model to Support R&D of MSRs: Part II\nHossam H. Abdellatif 1,*\n, Joshua Young 1\n, David Arcilesi 1\nand Richar"
+    },
+    {
+      "id": "S72",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0045782525007583/pdfft?isDTMRedir=true&download=true",
+      "pdf": false,
+      "bytes": 195,
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0149197023003153/pdfft?isDTMRedir=true&download=true",
+      "pdf": false,
+      "bytes": 195,
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1359431125035781/pdfft?isDTMRedir=true&download=true",
+      "pdf": false,
+      "bytes": 195,
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "id": "S03",
+      "url": "https://cims.nyu.edu/~pehersto/preprints/Non-intrusive-model-reduction-Peherstorfer-Willcox.pdf",
+      "pdf": false,
+      "error": ""
+    },
+    {
+      "id": "S11",
+      "url": "https://kiwi.oden.utexas.edu/papers/Digital-twin-scale-graphical-model-Kapteyn-Willcox.pdf",
+      "pdf": true,
+      "pages": 16,
+      "path": "trident_source_dossiers/available/S11_retrieved_motivation.pdf",
+      "first_page": "A Probabilistic Graphical Model Foundation for\nEnabling Predictive Digital Twins at Scale\nMichael G. Kapteyn1 , Jacob V.R. Pretorius2 , and Karen E. Willcox3∗\n1 Department of Aeronautics and Astronautics, Massachusetts Institute of Technology, Cambridge, MA 02139, United States\n2 The Jessara Group, Austin, TX 78704, United States\n3 Oden Institute for Computational Engineering and Sciences, University of Texas at Austin, Austin, TX 78712, United States\nAbstract\nA unifying mathematical formulation is needed to move from\none-oﬀdigital twins built through custom implementations\nto robust digital twin implementations at scale. This work\nproposes a probabilistic graphical model as a formal math-\nematical representation of a digital twin and its associated\nphysical asset.\nWe create an abstraction of the asset-twin\nsystem as a set of coupled dynamical systems, evolving over\ntime through their re"
+    },
+    {
+      "id": "S03",
+      "url": "https://dspace.mit.edu/bitstreams/1df57041-6d90-491a-a50b-2fe29288fd86/download",
+      "pdf": false,
+      "error": "<HTTPError 429: 'Too Many Requests'>"
+    },
+    {
+      "id": "S74",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306454925005742/pdfft?isDTMRedir=true&download=true",
+      "pdf": false,
+      "bytes": 195
+    }
+  ],
+  "limitations": [
+    "Targeted source/comparator search,not exhaustive systematic novelty review",
+    "Original1969MSRE operating test report not located in this pass; numerical narrative excluded",
+    "S74 abstract only,S24/S29/S11 identity only; do not promote to technical reading",
+    "No subscription,CFD,new sensor,experiment or operating-data execution assumed"
+  ]
+}

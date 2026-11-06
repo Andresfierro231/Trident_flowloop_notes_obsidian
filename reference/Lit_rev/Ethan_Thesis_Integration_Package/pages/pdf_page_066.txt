@@ -1,0 +1,29 @@
+tation. The first three criteria are obvious reasons for segmentation, but the divisions by
+proximity to instrumentation warrant explaination. This was done because even if the ge-
+ometry was similar to an adjacent section of piping, a division would be made so that the
+new segment would use the experimental data for that region of the model closest to the
+experimentally collected value. For example, the right leg of the loop is self-similar along it’s
+axial length, but is divided into three equal parts, each centered on TW1, TW2, and TW3
+in an attempt to model subtle differences in losses from different lengths of pipe. For each
+segment, a one-dimensional radial conduction problem is solved through the composite wall
+layers (steel, insulation, heater tape, quartz) with the measured surface temperature from
+the experimental probes serve as the inner boundary condition and the external boundary
+condition is a mix of natural convection and thermal radiation heat transfer.
+5.1.2
+Radial Conduction Solver
+For each segment, the radial conduction solver accepts a LoopSegment object defined with
+a unique name, segment length, and inner radius, followed by an arbitrary amount of
+RadialLayer objects.
+Those RadialLayer objects are defined by a material, thickness,
+and power for segments such as the primary heater on the lower leg and test section that
+are electrically heated during operation.
+LoopSegment objects themselves are purely annular models, lacking an internal fluid
+volume and associated internal convective heat transfer coefficient. This approach was chosen
+for two main reasons, those being: first, to avoid using standard correlations of fully or
+partially developed laminar flow while prilimiary calculations showed that the both the
+hydrodynamic and thermal entry lengths of both fluids was near or exceeding the total path
+length around the loop, in some cases exceeding by several times the loop’s perimeter, as
+mentioned in Chapter 2. Secondly, most of the temperature data that was collected, and
+especially for typical cylindrical lengths of pipes, was collected using thermocouples on the
+external walls of the loop. This combined with the 0.035" pipe walls of stainless steel led to
+52

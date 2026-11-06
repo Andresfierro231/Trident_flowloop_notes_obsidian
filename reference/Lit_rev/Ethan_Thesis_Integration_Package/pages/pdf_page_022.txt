@@ -1,0 +1,28 @@
+• Chapter 4 describes the experimental facility that was used in the foundational work
+for this thesis.
+In this chapter, the relevant procedures, instrumentation, working
+fluids, experimental test matrix, and results will be discussed. Within this chapter,
+caveats, along with any other relevant disclaimers discovered during the conducting of
+the work within this thesis will be addressed.
+• Chapter 5 details the computational modeling approach at each step throughout the
+pipeline. This section proceeds stepwise through the pipeline to explain the approach
+that was taken to create the first order model and attempt to close the energy balance of
+the system. From here, the details of the mesh and its generation are expounded upon,
+followed by the numerical schemes and solution settings used within the OpenFOAM
+simulation for each case. Next, the actual conduction of the simulation and utilization
+of high-performance computing (HPC) resources was performed in addition to the
+methodology for collecting the quantities of interest before finally postprocessing the
+results and refining the results into easy-to-digest figures to easily determine how well
+simulation aligns with the experimental result, along with any methodology corrections
+to data collection.
+• Chapter 6 presents the results of the pipeline. Within this chapter, the verification of
+the methodology is completed and demonstrated for the custom boundary condition
+code, grid convergence studies, and parallel scaling performance across mesh refine-
+ment levels. Once the verification of the pipeline has been conducted and sufficiently
+demonstrated, the simulated results will be compared against the experimental results
+to demonstrate to what extent the results of the simulation pipeline can be considered
+properly validated.
+• Chapter 7 summarizes the findings from the material in Chapter 6 and how well met
+the goals set at the beginning of this thesis were met. In this chapter, limitations of the
+methodology, pipeline, and experimental data will be discussed to better understand
+8

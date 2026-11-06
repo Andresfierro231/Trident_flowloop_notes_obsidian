@@ -1,0 +1,27 @@
+the flow’s centerline, allowing the temperature sensitive viscosity to be more representative
+of the experiment and thereby better capture the experimental flow profile. This study’s
+two-dimensional planar geometry and its reliance on an energy balance, serve as a notable
+counterpart to flow features exclusive to three-dimensional modeling that will be discussed
+later in Chapter 6.
+For any of these modeling choices to be assessed fairly, discretization error must be con-
+trolled, and that control begins with the mesh. Truncation error analysis of the finite-volume
+method shows that hexahedral cells produce the smallest truncation errors of the common
+cell shapes for a given cell size since they have the smallest possible number of face pairs and
+thereby have the least amount of truncation for a given cell count in a given volume, with
+tetrahedral cells having the largest error [34]. Hernández-Pérez, Abdulkadir, and Azzopardi
+[35] demonstrated that hexahedral topologies likewise produce superior volume-of-fluid (VoF)
+results compared to tetrahedral or polar meshes for circular pipe cross-sections. Despite be-
+ing out of scopre for this work, the applicability to VoF simulations is important because
+the meshing infrastructure built for this thesis is intended to outlive it; extending beyond
+single-phase flow to two-phase VoF simulation is planned within the digital twin effort at
+the University of Texas at Austin (Chapter 1) and both considerations motivated the purely
+hexahedral, structured meshes generated for the present work (Chapter 5).
+2.4
+Conjugate Heat Transfer and Thermal Boundary
+Conditions
+As the flow within an NCL is nothing more than the fluid’s response to its thermal bound-
+aries, properly representing those boundaries is of the utmost importance. Fluid-only CFD
+simulations often fail to capture the effect that solid materials on a system can have on
+the working fluid, especially in transient models with large volumes of material with large
+thermal time constants such as many layers of insulation being applied to the external pipe
+16

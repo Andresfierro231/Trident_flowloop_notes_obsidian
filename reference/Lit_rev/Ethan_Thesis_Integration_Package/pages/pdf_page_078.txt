@@ -1,0 +1,25 @@
+where Tp is the fluid-side temperature and Ts is the outer surface temperature. This
+equation is solved iteratively for Ts and the resulting gradient is applied as a fixedGradient
+boundary condition.
+Diagnostic Fields
+The boundary condition computes and stores per-face diagnostic fields:
+• qsrc: heat source contribution (from heater power Q)
+• qconv: external convection heat flux
+• qrad: external radiation heat flux
+• qfluid: heat flux from fluid into wall
+• qbalance: residual (should approach zero at steady state)
+5.5
+Solver Configuration
+5.5.1
+Solution Strategy
+The simulations use a pseudo-transient approach iteration, using adjustable time-stepping to
+stay within the range of stability below a maximum Courant number of 5. This configuration
+sacrfices temporal accuracy for computation speed towards steady state, but for an instance
+such as this where we are only interested in the steady-state of the simulation, there is no
+loss in simulation fidelity. Attempts were made to use a strictly steady-state solver approach,
+but were ultimately thrwarted by oscillatory behavior resultant from the sensitive nature of
+natural convection and the stagnant initial condition, a better initialized or pseudo-transient-
+seeded initial condition may result in stable convergence using a steady-approach, but has not
+been tested at this time. These pseudo-transient simulations were run until they sufficiently
+converged to steady state. A case was determined to be at steady-state when, over the last
+64

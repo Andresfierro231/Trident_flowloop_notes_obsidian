@@ -1,0 +1,97 @@
+nominal refinement ratio of 2 is no longer applicable and needs to be recomputed for each
+successive refinement.
+Table 6.1: Representative cell sizes for BC verification.
+Level
+First cell [mm]
+Bulk cell [mm]
+h [mm]
+Refinement ratio (r)
+Coarse
+0.600
+2.80
+2.484
+-
+Medium
+0.300
+1.40
+1.164
+2.136
+Fine
+0.150
+0.70
+0.608
+1.916
+Xfine
+0.075
+0.35
+0.327
+1.856
+Table 6.2: BC verification: Mode A (convection only).
+Qanalytical = −6.022 W,
+q′′
+analytical = −958.468 W/m2
+Simulated
+Rel. error [%]
+Level
+Q [W]
+q′′ [W/m2]
+Q
+q′′
+Coarse
+−5.868
+−958.388
+2.559
+0.008
+Medium
+−6.003
+−958.106
+0.323
+0.038
+Fine
+−6.016
+−958.047
+0.099
+0.047
+Xfine
+−6.018
+−957.997
+0.062
+0.049
+Table 6.3: BC verification: Mode B (radiation only).
+Qanalytical = −6.076 W,
+q′′
+analytical = −967.028 W/m2
+Simulated
+Rel. error [%]
+Level
+Q [W]
+q′′ [W/m2]
+Q
+q′′
+Coarse
+−5.920
+−966.931
+2.560
+0.010
+Medium
+−6.056
+−966.659
+0.323
+0.038
+Fine
+−6.070
+−966.570
+0.100
+0.047
+Xfine
+−6.072
+−966.546
+0.063
+0.050
+One thing notable about the convergence behavior for Tables 6.2 - 6.4 is that the relative
+error of Q appears to monotonically converge towards the analytic solution, while the relative
+error of q′′ seems to grow monotonically. This may at first look like a sign of divergence, but
+when examining the the Richardson extrapolated value for both Q and q′′ across each mode,
+their extrapolated values roughly share the same, small difference from the analytical solu-
+tion. This is not surprising, as the Graetz number correction for developing flow has its own,
+76

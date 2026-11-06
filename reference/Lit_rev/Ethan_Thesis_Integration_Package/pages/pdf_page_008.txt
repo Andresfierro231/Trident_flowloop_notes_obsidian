@@ -1,0 +1,58 @@
+List of Figures
+3.1
+Equivalent cylindrical thermal circuit used to compute the analytical reference
+heat flow for Mode C (Mixed mode, h∞> 0, ε > 0). . . . . . . . . . . . . . .
+28
+4.1
+Facility (Left) and Designed Instrumentation Locations (Right)
+. . . . . . .
+32
+4.2
+Source Image (left) and Calibration Image (right) . . . . . . . . . . . . . . .
+44
+4.3
+Masking and Extraction Images for Salt Test 1 . . . . . . . . . . . . . . . . .
+45
+4.4
+Digitized Velocity Profile of Salt Test 1 Overlaid on Source Image . . . . . .
+46
+5.1
+Overlaid Instrumentation Diagram with Constructed Facility . . . . . . . . .
+49
+5.2
+Reverse Engineered CAD Overlaid on Image of Experimental Facility. . . . .
+50
+6.1
+Side-by-side Axial Comparison . . . . . . . . . . . . . . . . . . . . . . . . . .
+75
+6.2
+Side-by-side Radial Comparison . . . . . . . . . . . . . . . . . . . . . . . . .
+75
+6.3
+Experimental PIV Window Visualization . . . . . . . . . . . . . . . . . . . .
+80
+6.4
+Loop Pipe Cross Sections . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+81
+6.5
+Loop Pipe Bend . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+81
+6.6
+Loop Pipe Cross Junction
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+82
+6.7
+Loop Pipe Tee Junction
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+82
+6.8
+Temperature Parity for Salt Test Series . . . . . . . . . . . . . . . . . . . . .
+86
+6.9
+Temperature Parity for Laminar Water Test Series
+. . . . . . . . . . . . . .
+87
+6.10 Temperature Distribution in Lower Left Junction of Salt 4 (medium refinement) 88
+6.11 Position Sensitivity for Salt Centerline Probes . . . . . . . . . . . . . . . . .
+89
+vii

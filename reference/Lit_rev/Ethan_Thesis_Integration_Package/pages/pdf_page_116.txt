@@ -1,0 +1,26 @@
+[16] U. Bückle and M. Perić. Numerical simulation of buoyant and thermocapillary convec-
+tion in a square cavity. Numerical Heat Transfer, Part A: Applications, 21(2):121–141,
+1992.
+[17] M. Krishnani and D. N. Basu. On the validity of Boussinesq approximation in transient
+simulation of single-phase natural circulation loops. International Journal of Thermal
+Sciences, 105:224–232, 2016.
+[18] P. K. Vijayan and H. Austregesilo. Scaling laws for single-phase natural circulation
+loops. Nuclear Engineering and Design, 152:331–347, 1994.
+[19] P. K. Vijayan. Experimental observations on the general trends of the steady state and
+stability behaviour of single-phase natural circulation loops. Nuclear Engineering and
+Design, 215:139–152, 2002.
+[20] J. H. Lienhard, IV and J. H. Lienhard, V. A Heat Transfer Textbook. Phlogiston Press,
+Cambridge, MA, 6th edition, 2024.
+[21] A. K. Srivastava, J. Y. Kudariyawar, A. Borgohain, S. S. Jana, N. K. Maheshwari, and
+P. K. Vijayan. Experimental and theoretical studies on the natural circulation behavior
+of molten salt loop. Applied Thermal Engineering, 98:513–525, 2016.
+[22] K. Britsch, M. Anderson, P. Brooks, and K. Sridharan. Natural circulation FLiBe loop
+overview. International Journal of Heat and Mass Transfer, 134:970–983, 2019.
+[23] J. Reis, J. Seo, and Y. A. Hassan. Flow visualization experiments of argon injection
+in a molten salt natural circulation loop. Physics of Fluids, 36(4):043310, 2024. doi:
+10.1063/5.0205177.
+[24] J. Reis, J. Seo, and Y. A. Hassan.
+Consequences of molten salt solidification in a
+natural circulation flow visualization loop due to heater failure. Nuclear Engineering
+and Design, 424:113278, 2024. doi: 10.1016/j.nucengdes.2024.113278.
+102

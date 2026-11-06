@@ -1,0 +1,266 @@
+[
+  {
+    "id": "S64-C01",
+    "claim": "Similarity includes boundary/initial conditions and solid response beyond fluid groups.",
+    "sources": [
+      "S64"
+    ],
+    "locator": "§IV.A,PDF6/349,Eq8–10",
+    "limit": "Specific single-phase scaling assumptions.",
+    "dossier": "dossiers/S64_Bardet_Peterson_2008.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S64-C02",
+    "claim": "Matched Re/Fr couples velocity/length scales; buoyancy adds βΔT similarity.",
+    "sources": [
+      "S64"
+    ],
+    "locator": "Eq2–7,PDF5–6/348–349",
+    "limit": "Common gravity and geometric scaling.",
+    "dossier": "dossiers/S64_Bardet_Peterson_2008.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S64-C03",
+    "claim": "Pr matching does not ensure solid transient similarity.",
+    "sources": [
+      "S64"
+    ],
+    "locator": "Eq8–10,PDF6/349",
+    "limit": "Steady and transient solid constraints differ.",
+    "dossier": "dossiers/S64_Bardet_Peterson_2008.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S64-C04",
+    "claim": "Example group-matched cases retain viscosity-variation distortions.",
+    "sources": [
+      "S64"
+    ],
+    "locator": "TableV,PDF11/354",
+    "limit": "Source-era illustrative property estimates, not measured reactor-transfer errors.",
+    "dossier": "dossiers/S64_Bardet_Peterson_2008.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S64-C05",
+    "claim": "Low-temperature surrogates do not automatically reproduce radiative heat transport.",
+    "sources": [
+      "S64"
+    ],
+    "locator": "§III,PDF4–5/347–348",
+    "limit": "Each physical configuration needs assessment.",
+    "dossier": "dossiers/S64_Bardet_Peterson_2008.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S64-C06",
+    "claim": "The laminar radiation illustration has an h–Nu–D inconsistency under its stated property context.",
+    "sources": [
+      "S64"
+    ],
+    "locator": "§III,PDF5/348",
+    "limit": "Our dimensional check; do not use its numerical fraction as a validated general result.",
+    "dossier": "dossiers/S64_Bardet_Peterson_2008.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S64-C07",
+    "claim": "The printed Fourier group is reciprocal to a common definition; its time-ratio convention must be retained.",
+    "sources": [
+      "S64"
+    ],
+    "locator": "§II,nomenclature,PDF3,13–14",
+    "limit": "Definitions may differ across papers.",
+    "dossier": "dossiers/S64_Bardet_Peterson_2008.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S64-C08",
+    "claim": "Scaled experiments support selected mechanism and model tests with explicit distortion.",
+    "sources": [
+      "S64"
+    ],
+    "locator": "§VI–VII,PDF10–13/353–356",
+    "limit": "Not proof of full reactor equivalence.",
+    "dossier": "dossiers/S64_Bardet_Peterson_2008.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S65-C01",
+    "claim": "The1D model combines localized wall heating and uniform fluid heating including the cooler.",
+    "sources": [
+      "S65"
+    ],
+    "locator": "§2.1,PDF2,Eq1–4",
+    "limit": "Constant-property Boussinesq and ideal cooler assumptions.",
+    "dossier": "dossiers/S65_Ruiz_Cammi_Luzzi_2015.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S65-C02",
+    "claim": "Source partition changes studied dimensionless stability regions.",
+    "sources": [
+      "S65"
+    ],
+    "locator": "§4.1,PDF8–9,Fig10–11",
+    "limit": "Not a mapped fluid-specific operating trajectory.",
+    "dossier": "dossiers/S65_Ruiz_Cammi_Luzzi_2015.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S65-C03",
+    "claim": "Heater/cooler arrangement changes the stability comparison.",
+    "sources": [
+      "S65"
+    ],
+    "locator": "§4.2,PDF9–10,Fig12–13",
+    "limit": "Studied VHHC/VHVC only, not universal ranking.",
+    "dossier": "dossiers/S65_Ruiz_Cammi_Luzzi_2015.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S65-C04",
+    "claim": "Linearization freezes transition-factor and heat-transfer variations.",
+    "sources": [
+      "S65"
+    ],
+    "locator": "PDF4,footnote3;PDF9,Fig11",
+    "limit": "Particularly affects transition region.",
+    "dossier": "dossiers/S65_Ruiz_Cammi_Luzzi_2015.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S65-C05",
+    "claim": "Actual fluid-specific operating curves were not mapped onto the stability diagrams.",
+    "sources": [
+      "S65"
+    ],
+    "locator": "§4.2,PDF9",
+    "limit": "Do not infer realized reactor operating failure.",
+    "dossier": "dossiers/S65_Ruiz_Cammi_Luzzi_2015.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S65-C06",
+    "claim": "Cross-method agreement does not provide experimental validation.",
+    "sources": [
+      "S65"
+    ],
+    "locator": "§4–5,PDF7–10",
+    "limit": "Authors explicitly call for experimental validation.",
+    "dossier": "dossiers/S65_Ruiz_Cammi_Luzzi_2015.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S65-C07",
+    "claim": "The defined α uses internal generation outside the cooler in its denominator.",
+    "sources": [
+      "S65"
+    ],
+    "locator": "Eq11,14,PDF3–4",
+    "limit": "Our clarification; prose total-power fraction is not exact for all-loop generation.",
+    "dossier": "dossiers/S65_Ruiz_Cammi_Luzzi_2015.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S65-C08",
+    "claim": "Stanton nomenclature conflicts with Eq11, and local-loss convention needs care.",
+    "sources": [
+      "S65"
+    ],
+    "locator": "Eq11–12,PDF3–4;PDF10,nomenclature",
+    "limit": "Keep implementation normalization/coefficient ambiguities explicit.",
+    "dossier": "dossiers/S65_Ruiz_Cammi_Luzzi_2015.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S13-C05",
+    "claim": "The elicitation targets liquid-fuel primary-system modeling, not detailed auxiliary/secondary circuits.",
+    "sources": [
+      "S13"
+    ],
+    "locator": "§I.B,PDF6;§IV.C,PDF16",
+    "limit": "Other subsystem missions need additional literature.",
+    "dossier": "dossiers/S13_Brown_2020_MSR_Phenomena.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S13-C06",
+    "claim": "Properties, heat transfer, source allocation and solid response enter engineering temperature/flow questions.",
+    "sources": [
+      "S13"
+    ],
+    "locator": "§V.B–C,PDF20–23",
+    "limit": "Qualitative need, not a numerical uncertainty budget.",
+    "dossier": "dossiers/S13_Brown_2020_MSR_Phenomena.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S13-C07",
+    "claim": "Natural-circulation resistance and multidimensional pool dissipation are identified modeling concerns.",
+    "sources": [
+      "S13"
+    ],
+    "locator": "§V.D,PDF23–25;§VIII,PDF41",
+    "limit": "Pool effects are not evidence of TRIDENT local pipe flow.",
+    "dossier": "dossiers/S13_Brown_2020_MSR_Phenomena.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S13-C08",
+    "claim": "Flow/source/reactivity coupling limits a nonnuclear thermal surrogate.",
+    "sources": [
+      "S13"
+    ],
+    "locator": "§VI.A,PDF27–29;§VIII,PDF43",
+    "limit": "No kinetics model technically audited for implementation.",
+    "dossier": "dossiers/S13_Brown_2020_MSR_Phenomena.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S13-C09",
+    "claim": "Heat-removal/reactivity/freezing wording needs a sign/sequence qualification.",
+    "sources": [
+      "S13"
+    ],
+    "locator": "§IV.C,PDF16–17",
+    "limit": "Our limiting-case check; no silent source correction.",
+    "dossier": "dossiers/S13_Brown_2020_MSR_Phenomena.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  },
+  {
+    "id": "S13-C10",
+    "claim": "Source-era concept/knowledge statements are not current vendor/regulatory specifications.",
+    "sources": [
+      "S13"
+    ],
+    "locator": "§III/TableI,PDF9–12;§II,VIII",
+    "limit": "Current status was not established by this historical article.",
+    "dossier": "dossiers/S13_Brown_2020_MSR_Phenomena.md",
+    "status": "scoped_primary_source_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-21"
+  }
+]

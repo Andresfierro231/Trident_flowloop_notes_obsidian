@@ -1,0 +1,108 @@
+{
+  "updated": "2026-10-20",
+  "acquisition_requests": [],
+  "prior_requests_still_conditional": [],
+  "resolved_main_document_requests": [
+    "S16",
+    "S21",
+    "S26"
+  ],
+  "category_A_completed_scoped_dossiers": [
+    "S09",
+    "S16",
+    "S21",
+    "S26",
+    "S35",
+    "S36",
+    "S37",
+    "S38",
+    "S39"
+  ],
+  "category_A_ready_for_next_extraction": [
+    "S12",
+    "S15",
+    "S08",
+    "S01",
+    "S33",
+    "S44",
+    "S45",
+    "S17"
+  ],
+  "category_B_source_or_specific_materials": [],
+  "category_C": {
+    "duplicates": [
+      "S38 duplicate text-identical copy",
+      "S16 W print for evidence already available in J"
+    ],
+    "deferred": "Other prior categoryC sources retain their existing status; S10 remains not-yet-read and its full-text retrieval is unresolved, not proven permanently unavailable"
+  },
+  "first_batch": [
+    {
+      "order": 1,
+      "source_ids": [
+        "S43"
+      ],
+      "scope": "Read full Britsch article: historical purpose,actualFLiBe conditions,flow inference/freezing and transfer limits"
+    },
+    {
+      "order": 2,
+      "source_ids": [
+        "S46"
+      ],
+      "scope": "Read relevant Headley motivation/facility/methods/results and uncertainty; separate observed structure from MSR extrapolation"
+    },
+    {
+      "order": 3,
+      "source_ids": [
+        "S26",
+        "S26:SUP1"
+      ],
+      "scope": "Match supplement to journal methods; extract proof,priors,data generation and diagnostics; audit author repo at fixed commit without assuming full-paper reproduction"
+    }
+  ],
+  "next_batch": [
+    "Cross-source methods/motivation synthesis and contribution tests",
+    "S12,S15 to sharpen reactor-QoI and similarity mapping",
+    "S08,S44,S45 when needed for specific model/physics decisions"
+  ],
+  "stop_rule": "No new thesis direction,novelty claim,CFD truth or unmeasured local-flow claim before its evidence/feasibility gates.",
+  "resolved_by_new_uploads": [
+    {
+      "source_id": "S26",
+      "item": "Supplement A–D",
+      "status": "acquired; extraction pending"
+    },
+    {
+      "source_id": "S43",
+      "item": "Complete article",
+      "status": "acquired; extraction pending"
+    },
+    {
+      "source_id": "S46",
+      "item": "Complete dissertation",
+      "status": "acquired; extraction pending"
+    }
+  ],
+  "deferred_to_codex": [
+    {
+      "source_id": "S35",
+      "item": "Revision and reproducibility artifacts",
+      "rank": 3,
+      "priority": "deferred_by_user",
+      "citation": "High-Fidelity CFD Simulation of Single-Phase Natural Circulation Loop Experiments: Verification and Validation (Rozak,supplied2026thesis)",
+      "doi": null,
+      "retrieval_link": null,
+      "needed_version": "Latest confirmed thesis revision; exact case/property dictionaries,BC/cooler calculation and uncertainty scripts",
+      "inspect": "Main§5.2.2 versus AppendixB.1 property conflict; Eq5.6 enthalpy; two-grid order assumption; calibration/model selection; case/run identity",
+      "decision": "Can this CFD serve as a qualified reference or training source rather than a retrospective illustrative calculation?",
+      "why_not_abstract": "The conflicts are in technical definitions; only code/input provenance can distinguish reporting mistakes from implementation",
+      "availability_status": "not_supplied; no repository supplied for these artifacts",
+      "attempts": "Supplied thesis fully available; public repository location for exact run artifacts not established",
+      "consequence_if_unavailable": "Use scoped V&V lessons only; do not inherit local-flow truth or final property laws",
+      "user_action": "If you can obtain them,upload the latest revision and the named small input/scripts files; original thesis need not be uploaded again",
+      "replaceable": "Independent,verified CFD is an alternative reference; core sparse-data methods work need not depend on this CFD",
+      "status": "not a current acquisition blocker"
+    }
+  ],
+  "user_help_needed_now": "No additional paper hunt until this batch is extracted; high-value help is decision/QoI priorities,available evidence and practical constraints already unresolved inPF01."
+}

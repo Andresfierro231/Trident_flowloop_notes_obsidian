@@ -1,0 +1,717 @@
+equation,pdf_page,printed_page,context_image,page_image,source_text_context
+2.1,25,11,equation_context/eq_2_1_pdf_025.png,pages/pdf_page_025.png,"local density, whereas cooling causes it to contract, raising its local density. The consequence
+of those density changes can be seen by considering a fluid parcel of volume V and density
+ρ surrounded by fluid of density ρ0. By Archimedes’ principle, the surrounding fluid exerts
+an upward buoyant force equal to the weight of the displaced fluid,
+Fb = ρ0 g V,
+(2.1)"
+2.2,25,11,equation_context/eq_2_2_pdf_025.png,pages/pdf_page_025.png,"Fb = ρ0 g V,
+(2.1)
+where g is the gravitational acceleration, while the parcel itself weighs ρgV , leaving a net
+vertical force
+Fnet = (ρ0 −ρ) g V.
+(2.2)"
+2.3,25,11,equation_context/eq_2_3_pdf_025.png,pages/pdf_page_025.png,"can drive a continuous, self-sustained flow that requires no external pumping power, which
+is what we called natural circulation [13]. Since the density of a fluid is a function of its
+temperature, engineering analyses over modest temperature ranges often linearize the density
+about a reference state (ρ0, T0) as
+ρ(T) ≈ρ0 + (∂ρ/∂T)p (T −T0),
+(2.3)"
+2.4,25,11,equation_context/eq_2_4_pdf_025.png,pages/pdf_page_025.png,"ρ(T) ≈ρ0 + (∂ρ/∂T)p (T −T0),
+(2.3)
+which is conventionally rewritten in terms of the volumetric thermal expansion coefficient,
+β = −ρ−1
+0 (∂ρ/∂T)p, as
+ρ(T) ≈ρ0 [ 1 −β (T −T0) ] .
+(2.4)"
+3.1,36,22,equation_context/eq_3_1_pdf_036.png,pages/pdf_page_036.png,"3.2
+Richardson Extrapolation
+Both code verification and solution verification hinge on the same idea that for a consistent,
+pth order discretization a QoI, ϕ, is computed on a mesh with a representative spacing h
+following the form
+ϕ(h) = ϕexact + gphp + O(hp+1),
+(3.1)"
+3.2,36,22,equation_context/eq_3_2_pdf_036.png,pages/pdf_page_036.png,"such that the discrete solutions approach the exact solution as h →0.
+Given three
+solutions on systematically refined meshes with spacings h1 < h2 < h3, and refinement
+ratios, r21 and r32, where r21 = h2/h1 and r32 = h3/h2.
+The successive differences are
+defined as
+ε21 = ϕ2 −ϕ1,
+ε32 = ϕ3 −ϕ2.
+(3.2)"
+3.3,36,22,equation_context/eq_3_3_pdf_036.png,pages/pdf_page_036.png,"defined as
+ε21 = ϕ2 −ϕ1,
+ε32 = ϕ3 −ϕ2.
+(3.2)
+The observed order of accuracy then follows from Equation (3.1) to the general form of
+pobs =
+1
+ln r21
+����ln
+����
+ε32
+ε21
+����+ q(pobs)
+����,
+(3.3)"
+3.4,36,22,equation_context/eq_3_4_pdf_036.png,pages/pdf_page_036.png,"pobs =
+1
+ln r21
+����ln
+����
+ε32
+ε21
+����+ q(pobs)
+����,
+(3.3)
+where q(pobs) is uses s = sign(ε32/ε21) and is defined as
+q(pobs) = ln
+�rpobs
+21
+−s
+rpobs
+32
+−s
+�
+.
+(3.4)"
+3.5,37,23,equation_context/eq_3_5_pdf_037.png,pages/pdf_page_037.png,"So, if the solutions are in the asymptotic range, for a constant refinement ration r =
+r32 = r21, the term q(pobs) = 0 and Equation 3.3 reduces to the simplified form
+pobs =
+1
+ln r ln
+����
+ε32
+ε21
+����.
+(3.5)"
+3.6,37,23,equation_context/eq_3_6_pdf_037.png,pages/pdf_page_037.png,"pobs =
+1
+ln r ln
+����
+ε32
+ε21
+����.
+(3.5)
+With this, the Richardson-extrapolated estimate of the QoI’s exact value takes the form
+ϕexact = rpobsϕ1 −ϕ2
+rpobs −1
+.
+(3.6)"
+3.7,37,23,equation_context/eq_3_7_pdf_037.png,pages/pdf_page_037.png,"4. Calculate the extrapolated values for each QoI using Equation 3.6
+5. Calculate and report the following error estimates, the observed order of convergence,
+and the GCI for the fine mesh,
+GCIfine =
+Fs e21
+a
+rpobs
+21
+−1
+(3.7)"
+3.8,38,24,equation_context/eq_3_8_pdf_038.png,pages/pdf_page_038.png,"with three or more meshes, e21
+a is the approximate relative error,
+e21
+a =
+����
+ϕ12
+1 −ϕ2
+ϕ12
+1
+����
+(3.8)"
+3.9,38,24,equation_context/eq_3_9_pdf_038.png,pages/pdf_page_038.png,"e21
+a =
+����
+ϕ12
+1 −ϕ2
+ϕ12
+1
+����
+(3.8)
+and eext is the extrapolated relative error,
+e21
+ext =
+����
+ϕ12
+ext −ϕ1
+ϕ12
+ext
+����
+(3.9)"
+3.10,38,24,equation_context/eq_3_10_pdf_038.png,pages/pdf_page_038.png,"With those five steps complete, we can then determine if the solutions are in the asymp-
+totic range where the leading-order error term dominates uncertainty by calculating the
+asymptotic ratio (AR) using the following equation
+AR =
+GCIcoarse
+rpobs
+21 GCIfine
+≈1.
+(3.10)"
+3.11,39,25,equation_context/eq_3_11_pdf_039.png,pages/pdf_page_039.png,"to compute overall. This relaxation of computing resources allowed expanding the code-
+verification study to a four-level approach using a refinement ratio of r = 2 on a simpler
+geometry which permitted better testing of the asymptotic order. For a 3D case, a single
+value for a representative cell size, hrep can be found using the equation,
+h =
+�
+1
+N
+N
+�
+i=1
+(∆Vi)
+�1/3
+(3.11)"
+3.12,43,29,equation_context/eq_3_12_pdf_043.png,pages/pdf_page_043.png,"tion and neither does the thermal circuit model.
+With the assumptions stated, the simplest, linear case of mode A can be expressed alge-
+braically with the followed equation:
+Q =
+T∞−Tb,in
+1
++ ln(r1/r0)
++
+ln(r2/r1)
++
+1
+.
+(3.12)"
+3.13,43,29,equation_context/eq_3_13_pdf_043.png,pages/pdf_page_043.png,"drodynamically fully developed flow but thermally undeveloped flow, we can correct the
+Nusselt number using S. R. Sellars, M. Tribus, and J. S. Klein’s fit equation [45], reported
+in Lienhard and Lienhard’s A Heat Transfer Textbook [20] for heat transfer from laminar
+flow in pipes with a thermal entry region,
+NuD =
+3.657
+tanh
+�
+2.264 Gz−1/3 + 1.7 Gz−2/3�+ 0.0499 Gz tanh
+�
+Gz−1�
+.
+(3.13)"
+3.14,44,30,equation_context/eq_3_14_pdf_044.png,pages/pdf_page_044.png,"3.6
+Validation Error Assessment
+Using the ASME standard for Verification and Validation, ASME V&V 20-2009 [40], the
+validation comparison error is defined as:
+E = S −D,
+(3.14)"
+3.15,44,30,equation_context/eq_3_15_pdf_044.png,pages/pdf_page_044.png,"E = S −D,
+(3.14)
+Where S is the simulation prediction and D is the experimental measurement.
+The
+combined validation uncertainty is:
+uval =
+�
+u2
+num + u2
+input + u2
+D,
+(3.15)"
+3.16,45,31,equation_context/eq_3_16_pdf_045.png,pages/pdf_page_045.png,"3.6.1
+Error Metrics for Velocity Profiles
+For single-terms error metrics, the two most commonly used are the L2 and L∞norms, where
+the the metrics are calculated from the following equations:
+L2 =
+�
+�
+�
+�1
+N
+N
+�
+i=1
+(Si −Di)2
+(3.16)"
+3.17,45,31,equation_context/eq_3_17_pdf_045.png,pages/pdf_page_045.png,"the the metrics are calculated from the following equations:
+L2 =
+�
+�
+�
+�1
+N
+N
+�
+i=1
+(Si −Di)2
+(3.16)
+L∞= max |Si −Di|.
+(3.17)"
+4.1,51,37,equation_context/eq_4_1_pdf_051.png,pages/pdf_page_051.png,"To determine the heat removed by the heat exchanger, temperature measurements were
+taken by the same K-type thermocouples at the coolant’s inlet and outlet and then Reis et
+al. determined the energy loss from the heat exchanger by evaluating the properties of air
+at the average temperature of the inlet and outlet and using the equation
+Q = ˙mCp(Tout −Tin).
+(4.1)"
+4.2,52,38,equation_context/eq_4_2_pdf_052.png,pages/pdf_page_052.png,"The equation of state reported for dynamic viscosity is a polynomial fit of an exponential
+equation that claims a greater range of validity than the original equation and data the fit
+was made to capture from Kirst et al. [46]
+Reis et al. used the equations:
+ρ
+= 2293.6 −0.7497 T
+(4.2)
+    "
+4.3,52,38,equation_context/eq_4_3_pdf_052.png,pages/pdf_page_052.png,"equation that claims a greater range of validity than the original equation and data the fit
+was made to capture from Kirst et al. [46]
+Reis et al. used the equations:
+ρ
+= 2293.6 −0.7497 T
+(4.2)
+µ
+= 0.4737 −2.297 × 10−3 T + 3.731 × 10−6 T 2 −2.019 × 10−9 T 3
+(4.3)
+ "
+4.4,52,38,equation_context/eq_4_4_pdf_052.png,pages/pdf_page_052.png,"was made to capture from Kirst et al. [46]
+Reis et al. used the equations:
+ρ
+= 2293.6 −0.7497 T
+(4.2)
+µ
+= 0.4737 −2.297 × 10−3 T + 3.731 × 10−6 T 2 −2.019 × 10−9 T 3
+(4.3)
+cp
+= 5806 −10.833 T + 7.2413 × 10−3 T 2
+(4.4)
+  "
+4.5,52,38,equation_context/eq_4_5_pdf_052.png,pages/pdf_page_052.png,"ρ
+= 2293.6 −0.7497 T
+(4.2)
+µ
+= 0.4737 −2.297 × 10−3 T + 3.731 × 10−6 T 2 −2.019 × 10−9 T 3
+(4.3)
+cp
+= 5806 −10.833 T + 7.2413 × 10−3 T 2
+(4.4)
+k
+= 0.78 −1.25 × 10−3 T + 1.6 × 10−6 T 2
+(4.5)"
+4.6,55,41,equation_context/eq_4_6_pdf_055.png,pages/pdf_page_055.png,"From Reis et al.’s Equation 25, we can reproduce the full matrix’s range of uncertainty for
+the net heat into the system within roughly 1% of the reported values for the maximally
+heated cases. An uncertainty of 20% was assumed for the heat loss calibration
+σQnet = Qnet
+��σQh
+Qh
+�2
++
+�σQloss
+Qloss
+�2
+(4.6)"
+4.7,55,41,equation_context/eq_4_7_pdf_055.png,pages/pdf_page_055.png,"heated cases. An uncertainty of 20% was assumed for the heat loss calibration
+σQnet = Qnet
+��σQh
+Qh
+�2
++
+�σQloss
+Qloss
+�2
+(4.6)
+Qnet = ˙mCp(TP6 −TP2)
+(4.7)"
+4.8,56,42,equation_context/eq_4_8_pdf_056.png,pages/pdf_page_056.png,"Qloss = Qh −Qnet
+(4.8)"
+4.9,57,43,equation_context/eq_4_9_pdf_057.png,pages/pdf_page_057.png,"˙m [kg/s]
+0.0158
+0.0168
+0.0175
+0.0201
+0.0083
+0.0100
+0.0120
+0.0151
+and the experimentalists, it was determined that the method used to produce the values for
+U∞seen in Table 4.5 was
+UPIV = 2
+R2
+�R
+0
+U(r) r dr,
+(4.9)"
+4.10,57,43,equation_context/eq_4_10_pdf_057.png,pages/pdf_page_057.png,"U∞seen in Table 4.5 was
+UPIV = 2
+R2
+�R
+0
+U(r) r dr,
+(4.9)
+U∞= UPIV
+�Dtest
+Dpipe
+�2
+.
+(4.10)"
+4.11,60,46,equation_context/eq_4_11_pdf_060.png,pages/pdf_page_060.png,"the profile, as the ends of the profiles have the greatest error associated with them.
+From the results in Table 4.6, the digitization uncertainty assigned to the water velocity
+profiles is rounded up from the tabulated L2 percent error of 1.36% to the assigned value of
+udig = 1.5%
+(4.11)"
+5.1,67,53,equation_context/eq_5_1_pdf_067.png,pages/pdf_page_067.png,"• Inner boundary: Fixed temperature from thermocouple reading.
+• Outer boundary: Natural convection using the Churchill-Chu correlation [49] blended
+for pipe orientation (horizontal to vertical), plus Stefan-Boltzmann radiation:
+NuL =
+
+
+
+
+
+
+
+0.825 + 0.387
+
+
+RaL
+�
+1 + (0.492/Pr)9/16�16/9
+
+
+1/6
+
+
+
+
+
+
+2
+(5.1)"
+5.2,67,53,equation_context/eq_5_2_pdf_067.png,pages/pdf_page_067.png,"NuL =
+
+
+
+
+
+
+
+0.825 + 0.387
+
+
+RaL
+�
+1 + (0.492/Pr)9/16�16/9
+
+
+1/6
+
+
+
+
+
+
+2
+(5.1)
+NuD =
+
+
+
+
+
+
+
+0.60 + 0.387
+
+
+RaD
+�
+1 + (0.559/Pr)9/16�16/9
+
+
+1/6
+
+
+
+
+
+
+2
+(5.2)"
+5.3,67,53,equation_context/eq_5_3_pdf_067.png,pages/pdf_page_067.png,"
+
+
+1 + (0.492/Pr)
+
+
+
+NuD =
+
+
+
+
+
+
+
+0.60 + 0.387
+
+
+RaD
+�
+1 + (0.559/Pr)9/16�16/9
+
+
+1/6
+
+
+
+
+
+
+2
+(5.2)
+hext = Nueff k
+D
+(5.3)"
+5.4,67,53,equation_context/eq_5_4_pdf_067.png,pages/pdf_page_067.png,"NuD =
+
+
+
+
+
+
+
+0.60 + 0.387
+
+
+RaD
+�
+1 + (0.559/Pr)9/16�16/9
+
+
+1/6
+
+
+
+
+
+
+2
+(5.2)
+hext = Nueff k
+D
+(5.3)
+qouter = hext(Ts −T∞) + εσ(T 4
+s −T 4
+∞),
+(5.4)"
+5.5,68,54,equation_context/eq_5_5_pdf_068.png,pages/pdf_page_068.png,"segments to use only the vertical Nusselt number equation. This work uses p = 2.
+heff = (1 −w) hhorizontal + w hvertical
+(5.5)"
+5.6,68,54,equation_context/eq_5_6_pdf_068.png,pages/pdf_page_068.png,"the temperature and heat flux.
+5.1.3
+Cooler Heat Removal
+The cooling power is computed using an energy balance on the air side:
+Qcooler = ˙mair [cp(Tout)Tout −cp(Tin)Tin] ,
+(5.6)"
+5.7,70,56,equation_context/eq_5_7_pdf_070.png,pages/pdf_page_070.png,"5.1.5
+Energy Balance Results
+For each test case, the energy balance takes the form:
+Qheater + Qtest section −Qcooler −Qpassive −Qfins = Qunaccounted,
+(5.7)"
+5.8,71,57,equation_context/eq_5_8_pdf_071.png,pages/pdf_page_071.png,"Conservation of mass is
+∂ρ
+∂t + ∇· (ρU) = 0.
+(5.8)"
+5.9,71,57,equation_context/eq_5_9_pdf_071.png,pages/pdf_page_071.png,"Conservation of mass is
+∂ρ
+∂t + ∇· (ρU) = 0.
+(5.8)
+Conservation of momentum is
+∂(ρU)
+∂t
++ ∇· (ρU ⊗U) = −∇prgh −(g · r) ∇ρ + ∇· τ eff,
+(5.9)"
+5.10,71,57,equation_context/eq_5_10_pdf_071.png,pages/pdf_page_071.png,"∂(ρU)
+∂t
++ ∇· (ρU ⊗U) = −∇prgh −(g · r) ∇ρ + ∇· τ eff,
+(5.9)
+where r is the position vector, g is the gravitational acceleration, and the pressure is decom-
+posed as
+prgh ≡p −ρ g · r.
+(5.10)"
+5.11,71,57,equation_context/eq_5_11_pdf_071.png,pages/pdf_page_071.png,"ancy enters Equation (5.9) solely through the (g · r) ∇ρ term. So, for a single-phase, isother-
+mal loop, the ∇ρ term would reduce to zero. This is exactly what we would expect for a
+system with a uniform density gratient: no natural circulation.
+The effective stress tensor is
+τ eff = µeff
+�
+∇U + (∇U)T −2
+3 (∇· U) I
+�
+,
+µeff = µ + µt,
+(5.11)"
+5.12,71,57,equation_context/eq_5_12_pdf_071.png,pages/pdf_page_071.png,"in which µ = µ(T) is the molecular dynamic viscosity and µt is the turbulent viscosity sup-
+plied by the closure model (Section 5.2.3). The transpose and dilatation terms are retained
+because µ varies appreciably over the operating temperature range and ∇· U ̸= 0.
+Conservation of energy is solved in enthalpy form,
+∂(ρh)
+∂t
++ ∇· (ρUh) + ∂(ρK)
+∂t
++ ∇· (ρUK) −∂p
+∂t = ∇· (αeff∇h) + ρ U · g,
+(5.12)"
+5.13,71,57,equation_context/eq_5_13_pdf_071.png,pages/pdf_page_071.png,"∂(ρh)
+∂t
++ ∇· (ρUh) + ∂(ρK)
+∂t
++ ∇· (ρUK) −∂p
+∂t = ∇· (αeff∇h) + ρ U · g,
+(5.12)
+where h is the specific enthalpy, K = |U|2/2 is the specific kinetic energy, and
+αeff = µ
+Pr + µt
+Prt
+(5.13)"
+5.14,72,58,equation_context/eq_5_14_pdf_072.png,pages/pdf_page_072.png,"5.2.2
+Thermophysical Model
+Within OpenFOAM, the thermophysical model uses the heRhoThermo class with the icoPolyno
+equation of state, which evaluates density as a polynomial function of temperature:
+ρ(T) =
+N
+�
+i=0
+aiT i.
+(5.14)"
+5.15,72,58,equation_context/eq_5_15_pdf_072.png,pages/pdf_page_072.png,"Transport properties (µ, k) and specific heat (cp) are similarly represented as temperature-
+dependent polynomials. This avoids the Boussinesq approximation entirely since tempera-
+ture variations are captured in all terms of the governing equations.
+ρ[kg/m3]
+= 2293.6 −0.7497 T
+(5.15)
+ "
+5.16,72,58,equation_context/eq_5_16_pdf_072.png,pages/pdf_page_072.png,"dependent polynomials. This avoids the Boussinesq approximation entirely since tempera-
+ture variations are captured in all terms of the governing equations.
+ρ[kg/m3]
+= 2293.6 −0.7497 T
+(5.15)
+µ[Pa s]
+= 1.149 × 10−3 exp (−810.896/T + 7.806 × 105/ T 2)
+(5.16)"
+5.17,72,58,equation_context/eq_5_17_pdf_072.png,pages/pdf_page_072.png,"ture variations are captured in all terms of the governing equations.
+ρ[kg/m3]
+= 2293.6 −0.7497 T
+(5.15)
+µ[Pa s]
+= 1.149 × 10−3 exp (−810.896/T + 7.806 × 105/ T 2)
+(5.16)
+cp[J/kg K]
+≈1423.47
+(5.17)
+  "
+5.18,72,58,equation_context/eq_5_18_pdf_072.png,pages/pdf_page_072.png,"ρ[kg/m3]
+= 2293.6 −0.7497 T
+(5.15)
+µ[Pa s]
+= 1.149 × 10−3 exp (−810.896/T + 7.806 × 105/ T 2)
+(5.16)
+cp[J/kg K]
+≈1423.47
+(5.17)
+k[W/m K]
+= 0.78 −1.25 × 10−3 T + 1.6 × 10−6 T 2
+(5.18)"
+5.19,74,60,equation_context/eq_5_19_pdf_074.png,pages/pdf_page_074.png,"This added term is:
+Gb = −Cg νt (g · ∇ρ) ,
+Cg =
+1
+Prt
+= 1.0
+(5.19)"
+5.20,75,61,equation_context/eq_5_20_pdf_075.png,pages/pdf_page_075.png,"bulk_cell_size
+Interior cell target size
+c2c_expansion
+Cell-to-cell expansion ratio
+From these, the number of boundary layer cells, total boundary layer thickness, core
+ratio, and transition ratio are derived automatically:
+n =
+�ln(∆bulk/∆1)
+ln(rexp)
+�
++ 1,
+(5.20)
+rn
+−1"
+5.21,75,61,equation_context/eq_5_21_pdf_075.png,pages/pdf_page_075.png,"From these, the number of boundary layer cells, total boundary layer thickness, core
+ratio, and transition ratio are derived automatically:
+n =
+�ln(∆bulk/∆1)
+ln(rexp)
+�
++ 1,
+(5.20)
+δBL = ∆1
+rn
+exp −1
+rexp −1,
+(5.21)"
+5.22,75,61,equation_context/eq_5_22_pdf_075.png,pages/pdf_page_075.png,"ratio, and transition ratio are derived automatically:
+n =
+�ln(∆bulk/∆1)
+ln(rexp)
+�
++ 1,
+(5.20)
+δBL = ∆1
+rn
+exp −1
+rexp −1,
+(5.21)
+core_ratio = 1 −δBL/Rpipe.
+(5.22)"
+5.23,77,63,equation_context/eq_5_23_pdf_077.png,pages/pdf_page_077.png,"pipe inner surface to the outer surface, coupled with external heat transfer:
+1. Cylindrical wall conduction: The thermal resistance (per unit inner surface area)
+through N concentric layers is:
+Rps =
+N
+�
+i=1
+r0 ln(ri/ri−1)
+ki
+,
+(5.23)"
+5.24,77,63,equation_context/eq_5_24_pdf_077.png,pages/pdf_page_077.png,"where r0 is the pipe inner radius, ri−1 and ri are the inner and outer radii of layer i
+(so rN is the outermost surface), and ki is the layer conductivity.
+2. External heat transfer: At the outer surface, convection and radiation are applied:
+qout = Aouter
+Ainner
+�
+hext(Ts −Ta) + εσ(T 4
+s −T 4
+sur)
+�
+,
+(5.24)"
+5.25,77,63,equation_context/eq_5_25_pdf_077.png,pages/pdf_page_077.png,"Ainner
+where Aouter/Ainner = router/r0 is the area ratio for a cylinder.
+3. Energy balance: The heat flux from the fluid into the wall equals the outward heat
+loss:
+Tp −Ts
+Rps
+= qout,
+(5.25)"
+6.1,87,73,equation_context/eq_6_1_pdf_087.png,pages/pdf_page_087.png,"effects of temperature-dependent property evaluation.
+The adiabatic entry length was set after performing a preliminary hydrodynamic entry
+length calculation as mentioned in Section 2.1 to ensure that assumptions of full hydrody-
+namic development were applicable. The hydrodynamic entry length for laminar pipe flow
+is approximately:
+Lh ≈0.05 Re D = 0.05 × 334 × 0.02 = 334mm.
+(6.1)"
+6.2,87,73,equation_context/eq_6_2_pdf_087.png,pages/pdf_page_087.png,"Since Ladiab = 500mm > Lh, the velocity profile is fully developed before the heated section
+begins.
+The thermal entry length, by contrast, is:
+Lt ≈0.05 Re Pr D = 0.05 × 334 × 53.2 × 0.02 = 17.8m,
+(6.2)"
+6.3,87,73,equation_context/eq_6_3_pdf_087.png,pages/pdf_page_087.png,"6.1.2
+Analytical Reference
+The analytical heat flow was computed from a two-node thermal resistance network. For
+Mode A (convection only), the total resistance is the sum of three series resistances (all per
+unit inner surface area):
+Q = (Tamb −Tf) Ainner
+Rint + Rps + Rext
+.
+(6.3)"
+B.1,125,111,equation_context/eq_B_1_pdf_125.png,pages/pdf_page_125.png,"This appendix documents the thermophysical property polynomial coefficients used in the
+OpenFOAM simulations. All properties are expressed as polynomials in temperature T [K]:
+ϕ(T) =
+N
+�
+i=0
+aiT i.
+(B.1)"

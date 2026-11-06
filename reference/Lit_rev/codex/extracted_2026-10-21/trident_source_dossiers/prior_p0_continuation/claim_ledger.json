@@ -1,0 +1,787 @@
+[
+  {
+    "id": "C01",
+    "claim": "A fundamental-safety-function PIRT exists for liquid-fuel MSRs; its accident-scenario gaps cannot be adopted wholesale as TRIDENT loop gaps.",
+    "sources": [
+      "S12"
+    ],
+    "status": "evidence_plus_scope_synthesis",
+    "locator": "Title; scenario framing; I15–I16 entries, PDF p. 55",
+    "limit": "Selected excerpts only; no full PIRT ranking extraction."
+  },
+  {
+    "id": "C02",
+    "claim": "Surrogate-fluid FHR testing, code assessment, and scaling/distortion are established research activities.",
+    "sources": [
+      "S14",
+      "S15",
+      "S17"
+    ],
+    "status": "established_topic",
+    "locator": "S14 Section 2.1 and executive summary; S15/S17 abstracts",
+    "limit": "No claim that TRIDENT matches their similarity conditions."
+  },
+  {
+    "id": "C03",
+    "claim": "The Reis–Hassan abstract explicitly prescribes net heat input and minimum loop temperature as model inputs.",
+    "sources": [
+      "S16"
+    ],
+    "status": "explicit_abstract_evidence",
+    "locator": "ANS abstract",
+    "limit": "Full-paper handling of measured inputs, uncertainty and validation independence still unread."
+  },
+  {
+    "id": "C04",
+    "claim": "Grey-box thermal model selection by increasing model complexity and evaluating extensions has strong existing precedent.",
+    "sources": [
+      "S08"
+    ],
+    "status": "selected_full_text_evidence",
+    "locator": "Section 4.1/Fig. 2; manuscript PDF pp. 7–8",
+    "limit": "Building dynamics are a cross-domain comparator, not a verified model for an advecting loop."
+  },
+  {
+    "id": "C05",
+    "claim": "Physical-parameter calibration and model discrepancy can be confounded.",
+    "sources": [
+      "S06"
+    ],
+    "status": "selected_full_text_evidence",
+    "locator": "Fig. 7/discussion, author manuscript PDF pp. 17–19 and Section 5 opening p. 22",
+    "limit": "Specific TRIDENT identifiability requires a defined model, observations and inputs."
+  },
+  {
+    "id": "C06",
+    "claim": "Operator-posterior uncertainty and a complete predictive uncertainty budget are different claims.",
+    "sources": [
+      "S04",
+      "S06"
+    ],
+    "status": "cross_source_synthesis",
+    "locator": "S04 abstract/introduction; S06 confounding discussion",
+    "limit": "No assertion that S04 purports to solve every discrepancy or input-uncertainty problem."
+  },
+  {
+    "id": "C07",
+    "claim": "NEMO's advertised inverse structure is nonlinear in model parameters and linear in inversion variables.",
+    "sources": [
+      "S05"
+    ],
+    "status": "explicit_preprint_abstract_evidence",
+    "locator": "arXiv v1 abstract; related S05a abstract",
+    "limit": "Fitting TRIDENT conductances/capacities is not automatically in that class."
+  },
+  {
+    "id": "C08",
+    "claim": "Bayesian thermal network discovery and stochastic reduced NCL dynamics already have relevant prior work.",
+    "sources": [
+      "S26",
+      "S30"
+    ],
+    "status": "verified_topic_abstract_level",
+    "locator": "Publisher abstract excerpts; S26 author-code README",
+    "limit": "No performance/novelty judgement until full-text extraction."
+  },
+  {
+    "id": "C09",
+    "claim": "The official 2026 GUM amendment adds guidance for significant nonlinearity in measurement models.",
+    "sources": [
+      "S33"
+    ],
+    "status": "selected_official_full_text_evidence",
+    "locator": "PDF p. 5, printed p. 1; amendments to 4.1.4/H.1.7",
+    "limit": "Measurement propagation guidance does not establish model-form uncertainty coverage."
+  },
+  {
+    "id": "C10",
+    "claim": "Fast system-level MSR analysis is already an active capability area; generic speed or a digital-twin label is not a sufficient research gap.",
+    "sources": [
+      "S27",
+      "S11"
+    ],
+    "status": "topic_evidence_plus_synthesis",
+    "locator": "Institutional/publisher abstracts",
+    "limit": "TRIDENT-specific comparator selection and costs remain unassessed."
+  },
+  {
+    "id": "C11",
+    "claim": "Heat-loss and wall-storage effects deserve consideration in loop dynamics, with prior conjugate low-order work to compare.",
+    "sources": [
+      "S14",
+      "S18"
+    ],
+    "status": "topic_evidence_plus_hypothesis_motivation",
+    "locator": "S14 Section 4.2.2.2; S18 abstract",
+    "limit": "Their importance for our chosen regime/QoI is not established."
+  },
+  {
+    "id": "C12",
+    "claim": "The approximately 25% MSRE heat-balance claim is not verified in this pass and is excluded as motivation.",
+    "sources": [],
+    "status": "unresolved_exclusion",
+    "locator": "Targeted searches returned no traceable supporting primary passage",
+    "limit": "Search failure is not proof that the historical claim is false."
+  },
+  {
+    "id": "C13",
+    "claim": "The retrieved SAM–CIET manuscript simplifies cooler heat exchange using prescribed outlet-temperature control and describes heat-loss calibration; comparison to TRIDENT must account for that input and calibration contract.",
+    "sources": [
+      "S17"
+    ],
+    "status": "selected_manuscript_evidence_plus_comparison_inference",
+    "locator": "Section 2.2, manuscript PDF pp. 5–6; related temperature-profile modification p. 16",
+    "limit": "Not a full appraisal of SAM or evidence that TRIDENT already predicts these quantities better."
+  },
+  {
+    "id": "C14",
+    "claim": "The retrieved conjugate-loop preprint contains 1-D momentum/energy equations, wall thermal coupling and Fourier reduction, with explicit Boussinesq/axial-conduction/lumped-normal-wall assumptions.",
+    "sources": [
+      "S18"
+    ],
+    "status": "selected_preprint_evidence",
+    "locator": "Sections 2–3, PDF pp. 3–10",
+    "limit": "Coupled-loop geometry and boundary conditions differ; equation transcription and journal changes remain to be checked."
+  },
+  {
+    "id": "C15",
+    "claim": "The identifiability manuscript explicitly separates model states from an observation map and sets out a likelihood under Gaussian measurement noise.",
+    "sources": [
+      "S23"
+    ],
+    "status": "selected_repository_pdf_evidence",
+    "locator": "Section 2, Eqs. 1–6, PDF p. 3 including repository cover",
+    "limit": "TRIDENT covariance, bias, autocorrelation and input errors require their own appropriate likelihood; profile calculations alone are not a universal structural-identifiability proof."
+  },
+  {
+    "id": "C16",
+    "claim": "The supplied thesis title page identifies Ethan Rozak’s May 2026 MSE thesis at The University of Texas at Austin; its abstract identifies Texas A&M’s experimental facility.",
+    "sources": [
+      "S35"
+    ],
+    "status": "uploaded_primary_document_identity",
+    "locator": "PDF pp. 1–2",
+    "limit": "User-supplied copy; final institutional deposit/version not verified. No thesis results evaluated in this acquisition pass."
+  },
+  {
+    "id": "S35-C01",
+    "source_id": "S35",
+    "claim": "Retrospective modeled TAMU geometry and losses require reconstruction/calibration (reported method)",
+    "locator": "§4.1,5.1,5.7; printed33–35,48–56,67–71/PDF47–49,62–70,81–85",
+    "qualification": "No untouched validation partition",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S35_Rozak_2026_CFD.md"
+  },
+  {
+    "id": "S35-C02",
+    "source_id": "S35",
+    "claim": "Water PIV profiles digitized; salt raw profiles available to author (data provenance)",
+    "locator": "printed43–47/PDF57–61,Eqs4.9–4.11",
+    "qualification": "Not independent new experiments",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S35_Rozak_2026_CFD.md"
+  },
+  {
+    "id": "S35-C03",
+    "source_id": "S35",
+    "claim": "Cylindrical multilayer Robin condition with area convention (original implementation)",
+    "locator": "printed63–64/PDF77–78,Eqs5.23–5.25",
+    "qualification": "Steady radial resistance, no wall storage",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S35_Rozak_2026_CFD.md"
+  },
+  {
+    "id": "S35-C04",
+    "source_id": "S35",
+    "claim": "Full-loop refinement uses two completed levels (reported limitation)",
+    "locator": "printed79/PDF93,§6.2",
+    "qualification": "BC four-grid study does not establish full-loop order",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S35_Rozak_2026_CFD.md"
+  },
+  {
+    "id": "S35-C05",
+    "source_id": "S35",
+    "claim": "Pseudo-transient stepping sacrifices physical temporal accuracy (reported assumption)",
+    "locator": "printed64–66/PDF78–80,§5.5",
+    "qualification": "Steady targets only",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S35_Rozak_2026_CFD.md"
+  },
+  {
+    "id": "S35-C06",
+    "source_id": "S35",
+    "claim": "Seven aggregate PIV-style comparisons inside reported bands; Salt1 fails (original table result)",
+    "locator": "printed95/PDF109,Table6.10",
+    "qualification": "Calibrated inputs, chosen closures/operators, mean metrics",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S35_Rozak_2026_CFD.md"
+  },
+  {
+    "id": "S35-C07",
+    "source_id": "S35",
+    "claim": "Local reverse axial flow and point-temperature sensitivity predicted (original CFD result)",
+    "locator": "printed85–94/PDF99–108,Figs6.10–6.20",
+    "qualification": "Local fields not independently validated",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S35_Rozak_2026_CFD.md"
+  },
+  {
+    "id": "S35-C08",
+    "source_id": "S35",
+    "claim": "cp(T)T difference is not general sensible enthalpy (analyst equation audit)",
+    "locator": "printed54/PDF68,Eq5.6",
+    "qualification": "Need source code to distinguish print/implementation error",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S35_Rozak_2026_CFD.md"
+  },
+  {
+    "id": "S35-C09",
+    "source_id": "S35",
+    "claim": "Main and AppendixB salt-property sets disagree (source audit)",
+    "locator": "printed58 vs111/PDF72 vs125",
+    "qualification": "Cannot identify final run properties from prose alone",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S35_Rozak_2026_CFD.md"
+  },
+  {
+    "id": "S35-C10",
+    "source_id": "S35",
+    "claim": "Salt1 labeling-failure explanation remains unproved (critical appraisal)",
+    "locator": "printed96/PDF110,§6.5; TableC.1 printed116/PDF130",
+    "qualification": "Keep discrepancy and alternatives",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S35_Rozak_2026_CFD.md"
+  },
+  {
+    "id": "S39-C01",
+    "source_id": "S39",
+    "claim": "Supplied manuscript dated Dec2026; final status unverified (identity finding)",
+    "locator": "PDF1",
+    "qualification": "Do not present as already awarded/deposited",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S39_Carson_dissertation.md"
+  },
+  {
+    "id": "S39-C02",
+    "source_id": "S39",
+    "claim": "Fiber temperatures differ from sparse interpolation (original observation)",
+    "locator": "printed54–61/PDF66–73,Figs5.3–5.9",
+    "qualification": "Fiber path is not a cross-sectional bulk measurement",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S39_Carson_dissertation.md"
+  },
+  {
+    "id": "S39-C03",
+    "source_id": "S39",
+    "claim": "Near-wall scale is fitted/model-based (reported qualification)",
+    "locator": "printed59–65/PDF71–77,§5.2",
+    "qualification": "No directly measured radial BL thickness",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S39_Carson_dissertation.md"
+  },
+  {
+    "id": "S39-C04",
+    "source_id": "S39",
+    "claim": "Insulated riser retains measured nonmonotonic thermal structure (original observation)",
+    "locator": "printed66–77/PDF78–89,Figs5.12–5.15",
+    "qualification": "Mechanism/offset/configuration confounders",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S39_Carson_dissertation.md"
+  },
+  {
+    "id": "S39-C05",
+    "source_id": "S39",
+    "claim": "Chord reconstruction can fail a parabolic-flow limiting test (analyst derivation)",
+    "locator": "printed26/PDF38,Eqs4.5–4.7",
+    "qualification": "Does not measure actual case error",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S39_Carson_dissertation.md"
+  },
+  {
+    "id": "S39-C06",
+    "source_id": "S39",
+    "claim": "Tested heat disturbance fails defensible time-of-flight inference (original result)",
+    "locator": "printed109–120/PDF121–132",
+    "qualification": "For this setup/forcing; not universal impossibility",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S39_Carson_dissertation.md"
+  },
+  {
+    "id": "S39-C07",
+    "source_id": "S39",
+    "claim": "Smallest reported flow uncertainty is temperature-only (reported limit)",
+    "locator": "printed129–130/PDF141–142,Table7.2",
+    "qualification": "Not total uncertainty or validation",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S39_Carson_dissertation.md"
+  },
+  {
+    "id": "S39-C08",
+    "source_id": "S39",
+    "claim": "Scaling derivation has sign, area, dimensional and exponent conflicts (equation audit)",
+    "locator": "printed136–143/PDF148–155,Eqs8.7–8.22,§8.3",
+    "qualification": "Verify originals/code before implementation",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S39_Carson_dissertation.md"
+  },
+  {
+    "id": "S39-C09",
+    "source_id": "S39",
+    "claim": "PSD/CWT/SPOD textual frequencies do not establish identical peaks (audit)",
+    "locator": "printed100–106/PDF112–118",
+    "qualification": "Timebase/code/figures need reconciliation",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S39_Carson_dissertation.md"
+  },
+  {
+    "id": "S39-C10",
+    "source_id": "S39",
+    "claim": "Re fit is a screening feasibility test (original fit and stated limit)",
+    "locator": "printed143–145/PDF155–157,Fig8.4",
+    "qualification": "No withheld transfer validation",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S39_Carson_dissertation.md"
+  },
+  {
+    "id": "S38-C01",
+    "source_id": "S38",
+    "claim": "Continuous temperatures, but only pre-failure PIV and no pressure data, support the event reconstruction.",
+    "locator": "§2.2 p. 3",
+    "qualification": "Direct measurement contract; later mechanism claims remain inferred.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S38_Reis_2024_solidification.md"
+  },
+  {
+    "id": "S38-C02",
+    "source_id": "S38",
+    "claim": "Local heat-source changes and backup availability preceded leakage, further heater failures and freezing.",
+    "locator": "§3 pp. 4–7; §4 pp. 7–8",
+    "qualification": "Original event account; not isolated causal validation.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S38_Reis_2024_solidification.md"
+  },
+  {
+    "id": "S38-C03",
+    "source_id": "S38",
+    "claim": "Claimed blockage at 52 min is inferred from the thermal history rather than a continuous flow meter.",
+    "locator": "Phase V p. 7; §2.2 p. 3",
+    "qualification": "Author event interpretation plus evidence restriction.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S38_Reis_2024_solidification.md"
+  },
+  {
+    "id": "S38-C04",
+    "source_id": "S38",
+    "claim": "Printed magnitude-uncertainty Eq. 3 is dimensionally inconsistent as written.",
+    "locator": "Eq. 3 p. 3, rendered verification",
+    "qualification": "Analyst audit; reported uncertainty not independently reconstructed.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S38_Reis_2024_solidification.md"
+  },
+  {
+    "id": "S38-C05",
+    "source_id": "S38",
+    "claim": "HITEC property-polynomial T is explicitly Kelvin here.",
+    "locator": "§2.5/Eqs. 4–7 p. 4",
+    "qualification": "Author convention; does not establish fit validity range.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S38_Reis_2024_solidification.md"
+  },
+  {
+    "id": "S16-C01",
+    "source_id": "S16",
+    "claim": "Eight experimental conditions are each simulated with two friction treatments.",
+    "locator": "IV p. 12; V pp. 16–17",
+    "qualification": "Author study design; do not call them 16 independent experiments.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S16_Reis_Hassan_2025.md"
+  },
+  {
+    "id": "S16-C02",
+    "source_id": "S16",
+    "claim": "Q_net and measured minimum temperature are prescribed model inputs.",
+    "locator": "II.C Eq. 3 p. 8; III p. 11",
+    "qualification": "Original method; conditional prediction contract.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S16_Reis_Hassan_2025.md"
+  },
+  {
+    "id": "S16-C03",
+    "source_id": "S16",
+    "claim": "Experimental friction and velocity assessment share PIV information.",
+    "locator": "II.C pp. 6–7; IV p. 13",
+    "qualification": "Original method plus dependence inference; no held-out independence established.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S16_Reis_Hassan_2025.md"
+  },
+  {
+    "id": "S16-C04",
+    "source_id": "S16",
+    "claim": "Maximum salt velocity errors are reported as 17.30% default and 8.67% experimental friction.",
+    "locator": "W V p. 17; J Tables III–IV, PDF8/2141",
+    "qualification": "Author numerical summary checked against recovered tables; rounding prevents exact reconstruction of every percentage.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S16_Reis_Hassan_2025.md"
+  },
+  {
+    "id": "S16-C05",
+    "source_id": "S16",
+    "claim": "Centerline temperature measurements limit high-Pr radial-gradient capture.",
+    "locator": "II.B p. 6; IV p. 13",
+    "qualification": "Author measurement limitation; not quantified TRIDENT error.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S16_Reis_Hassan_2025.md"
+  },
+  {
+    "id": "S16-C06",
+    "source_id": "S16",
+    "claim": "Tables I–IV omitted from W are present in J and expose differing temperature-difference columns.",
+    "locator": "W PDF pp. 7,13–14; J PDF 5,8/2138,2141",
+    "qualification": "Version-specific completeness finding, gap resolved.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S16_Reis_Hassan_2025.md"
+  },
+  {
+    "id": "S16-C07",
+    "source_id": "S16",
+    "claim": "The two table groups use different experimental ΔT values without an explicit reproducible transformation.",
+    "locator": "J Tables I–IV, PDF 5,8/2138,2141; IV PDF 7/2140",
+    "qualification": "Direct table comparison; possible bulk-observation correction, not silently resolved.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S16_Reis_Hassan_2025.md"
+  },
+  {
+    "id": "S16-C08",
+    "source_id": "S16",
+    "claim": "Experimental friction improves salt velocity comparisons but does not uniformly improve temperature differences or every water velocity case.",
+    "locator": "J Tables III–IV, PDF 8/2141",
+    "qualification": "Original reported results, arithmetic/interpretation checked.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S16_Reis_Hassan_2025.md"
+  },
+  {
+    "id": "S09-C01",
+    "source_id": "S09",
+    "claim": "Steady and stability similitude demand different group/geometry matching.",
+    "locator": "§§3.1–3.2, Eqs. 24–31, PDF 5–6/143–144",
+    "qualification": "Author analysis under ideal assumptions.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S09_Vijayan_2002.md"
+  },
+  {
+    "id": "S09-C02",
+    "source_id": "S09",
+    "claim": "Local losses and mixed friction regimes constrain the simple steady law.",
+    "locator": "§§4.1.1–4.1.3, PDF 7–10/145–148",
+    "qualification": "Author comparative analysis, not new isolated mechanism experiments.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S09_Vijayan_2002.md"
+  },
+  {
+    "id": "S09-C03",
+    "source_id": "S09",
+    "claim": "Wall heat storage matters for quantitative transients even in insulated pipes.",
+    "locator": "§4.2.3, PDF 11/149",
+    "qualification": "Author argument citing earlier work; not first discovery claimed here.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S09_Vijayan_2002.md"
+  },
+  {
+    "id": "S09-C04",
+    "source_id": "S09",
+    "claim": "Natural-circulation loops serve many applications besides MSRs.",
+    "locator": "§1, PDF 1/139",
+    "qualification": "Author historical overview; originals needed for an origin chronology.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S09_Vijayan_2002.md"
+  },
+  {
+    "id": "S09-C05",
+    "source_id": "S09",
+    "claim": "Printed Eq. 29 needs reconciliation with Eq. 14's L_t/H factor.",
+    "locator": "Eqs. 14,24,29, PDF 4–5/142–143",
+    "qualification": "Analyst algebraic check, explicitly unresolved.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S09_Vijayan_2002.md"
+  },
+  {
+    "id": "S37-C01",
+    "source_id": "S37",
+    "claim": "The work supplies eight water/HITEC steady PIV operating states and reconstructed thermal/friction results.",
+    "locator": "IV.A p. 8/-7; V, Tables VI–VIII",
+    "qualification": "Original dataset, reused by S16.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S37_Reis_2024_flow_visualization.md"
+  },
+  {
+    "id": "S37-C02",
+    "source_id": "S37",
+    "claim": "f is Fanning here and converts to S16 Darcy by ×4.",
+    "locator": "Eq. 14 PDF 10/-9; Table VII PDF 19/-18; S16 Tables I–II",
+    "qualification": "Original convention plus analyst cross-source arithmetic.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S37_Reis_2024_flow_visualization.md"
+  },
+  {
+    "id": "S37-C03",
+    "source_id": "S37",
+    "claim": "Local heater temperatures/h are reconstructed from sparse probes and a global power balance.",
+    "locator": "IV.E Eqs. 18–21, PDF 10/-9",
+    "qualification": "Original method, not resolved local temperature measurements.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S37_Reis_2024_flow_visualization.md"
+  },
+  {
+    "id": "S37-C04",
+    "source_id": "S37",
+    "claim": "Salt off-center peaks and delayed centerline-temperature response motivate observation-aware reduction.",
+    "locator": "V.B–C/Figs. 8,11–12; PDF 12,14–15/-11,-13–14",
+    "qualification": "Original velocity/temperature evidence; thermal profile mechanism partly inferred.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S37_Reis_2024_flow_visualization.md"
+  },
+  {
+    "id": "S37-C05",
+    "source_id": "S37",
+    "claim": "Reported uncertainty formulas contain dimensional/propagation issues requiring code-level reconciliation.",
+    "locator": "Eqs. 23,25–27, PDF 11–12/-10–11",
+    "qualification": "Analyst audit, not a declaration that measurements are unusable.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S37_Reis_2024_flow_visualization.md"
+  },
+  {
+    "id": "S37-C06",
+    "source_id": "S37",
+    "claim": "Apparent correlation agreement does not establish validity outside its cited geometry/regime.",
+    "locator": "Table II PDF 5–6/-4–5; V.D–E PDF 16,18–19/-15,-17–18",
+    "qualification": "Analyst applicability appraisal.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S37_Reis_2024_flow_visualization.md"
+  },
+  {
+    "id": "S21-C01",
+    "source_id": "S21",
+    "claim": "HITEC is used for high-Pr mechanism similarity, not one-to-one fluoride-salt performance.",
+    "locator": "§2.1 pp. 2–3",
+    "qualification": "Authors' explicit transfer restriction.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S21_Carson_2026_local_heating.md"
+  },
+  {
+    "id": "S21-C02",
+    "source_id": "S21",
+    "claim": "Three local heating measurements are transient and have different time/history conditions.",
+    "locator": "§2.3 pp. 3,5; §4.3 p. 10; §5 p. 12",
+    "qualification": "Original protocol; not independent steady Pr sweep.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S21_Carson_2026_local_heating.md"
+  },
+  {
+    "id": "S21-C03",
+    "source_id": "S21",
+    "claim": "Profiles are asymmetric and near-wall scaling is resolution-limited; thermal boundary layer was not measured.",
+    "locator": "Figs. 11–13/§4.3 pp. 10–12",
+    "qualification": "Direct velocity evidence plus author limitation.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S21_Carson_2026_local_heating.md"
+  },
+  {
+    "id": "S21-C04",
+    "source_id": "S21",
+    "claim": "Bulk-flow estimation assumes revolving a half-profile and uses speed magnitude.",
+    "locator": "Eqs. 5–9, pp. 5–6",
+    "qualification": "Original analysis; not guaranteed true signed flux.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S21_Carson_2026_local_heating.md"
+  },
+  {
+    "id": "S21-C05",
+    "source_id": "S21",
+    "claim": "Reported Nu is estimated from a flat-plate-type correlation.",
+    "locator": "Eqs. 30–31 pp. 9–10; Table 4 p. 11",
+    "qualification": "Closure-derived quantity; not independent experimental closure validation.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S21_Carson_2026_local_heating.md"
+  },
+  {
+    "id": "S21-C06",
+    "source_id": "S21",
+    "claim": "Eq. 19 and heat-balance interpretations need reconciliation before implementation.",
+    "locator": "Eqs. 19,24–26 pp. 7–8",
+    "qualification": "Analyst dimensional/measurement audit; no claim experimental dataset itself is invalid.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S21_Carson_2026_local_heating.md"
+  },
+  {
+    "id": "S36-C01",
+    "source_id": "S36",
+    "claim": "The tested diameter reduction preserved approximate steady collapse but not observed instability.",
+    "locator": "§§3.3,4.1,5; PDF 6–8,15/336–338,345",
+    "qualification": "Original three-loop evidence, water/glass regime.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S36_Vijayan_Austregesilo_1994.md"
+  },
+  {
+    "id": "S36-C02",
+    "source_id": "S36",
+    "claim": "Transient/stability similarity requires more than matching Gr_mD/L.",
+    "locator": "Eqs. 18–21; PDF 5/335",
+    "qualification": "Author ideal-model analysis.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S36_Vijayan_Austregesilo_1994.md"
+  },
+  {
+    "id": "S36-C03",
+    "source_id": "S36",
+    "claim": "Some operating points showed path-dependent stability.",
+    "locator": "§4.2/Fig. 8; PDF 13/343",
+    "qualification": "Author repeated-observation account; not a global bifurcation reconstruction.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S36_Vijayan_Austregesilo_1994.md"
+  },
+  {
+    "id": "S36-C04",
+    "source_id": "S36",
+    "claim": "The 0.3548/0.43 fit implies an effective f=22.26/Re^0.6744.",
+    "locator": "Eqs. 22–23; PDF 8/338",
+    "qualification": "Author empirical conversion, independently checked algebra.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S36_Vijayan_Austregesilo_1994.md"
+  },
+  {
+    "id": "S36-C05",
+    "source_id": "S36",
+    "claim": "Motivation included generic reactor scaling and earlier non-reactor uses.",
+    "locator": "§1, PDF 1–2/331–332",
+    "qualification": "Historical discussion; cited origins are acquisition leads.",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S36_Vijayan_Austregesilo_1994.md"
+  },
+  {
+    "id": "S26-C01",
+    "source_id": "S26",
+    "claim": "Signed latent/ReLU switches jointly represent coefficient and inclusion uncertainty (original method)",
+    "locator": "pp3–6, Eqs7,10–20",
+    "qualification": "Conditional on specified prior network",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S26_Manikkan_2026_entropy_switch.md"
+  },
+  {
+    "id": "S26-C02",
+    "source_id": "S26",
+    "claim": "Inputs exact, no process noise, iid Gaussian observations (reported assumptions)",
+    "locator": "pp4–5, Eqs11–14",
+    "qualification": "Explicit, high confidence",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S26_Manikkan_2026_entropy_switch.md"
+  },
+  {
+    "id": "S26-C03",
+    "source_id": "S26",
+    "claim": "Synthetic chains fail to mix; quantitative results use one chain (reported limit)",
+    "locator": "p7 §3.2; p16 §3.6",
+    "qualification": "Not full posterior model averaging",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S26_Manikkan_2026_entropy_switch.md"
+  },
+  {
+    "id": "S26-C04",
+    "source_id": "S26",
+    "claim": "Sparse high-noise single-observation model has test RMSE 1.31°C (original result)",
+    "locator": "p9 Table3",
+    "qualification": "Noise-free test target; exception to generic accuracy claim",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S26_Manikkan_2026_entropy_switch.md"
+  },
+  {
+    "id": "S26-C05",
+    "source_id": "S26",
+    "claim": "Seven finite R,C truths: only C2 inside displayed interval (audit of original table)",
+    "locator": "p10 Table4",
+    "qualification": "Table audit, not frequentist coverage estimate",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S26_Manikkan_2026_entropy_switch.md"
+  },
+  {
+    "id": "S26-C06",
+    "source_id": "S26",
+    "claim": "Four-office and house examples support case-specific predictive reduction (original results)",
+    "locator": "p13 Table5; p14 §3.5",
+    "qualification": "No NCL validation or universal horizon",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S26_Manikkan_2026_entropy_switch.md"
+  },
+  {
+    "id": "S26-C07",
+    "source_id": "S26",
+    "claim": "S(gamma)=0 freezes a node, not zero-capacitance elimination (analyst limiting-case audit)",
+    "locator": "p4 Eqs8–10; p9 Fig8 discussion",
+    "qualification": "Must resolve physical interpretation before coding",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S26_Manikkan_2026_entropy_switch.md"
+  },
+  {
+    "id": "S26-C08",
+    "source_id": "S26",
+    "claim": "Supplement and original measurement papers needed for reproducibility (coverage finding)",
+    "locator": "p17 AppendixA/data statement; pp7,11–14",
+    "qualification": "Not yet synthesis-ready for reproduction",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "dossiers/S26_Manikkan_2026_entropy_switch.md"
+  },
+  {
+    "id": "S40-C01",
+    "source_id": "S40",
+    "claim": "Pump reliability/maintenance versus increased salt inventory explicitly motivated a natural-convection reactor concept.",
+    "locator": "PDF4/printed1, Introduction",
+    "qualification": "1958 calculated concept",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "Natural_Circulation_History_and_MSR_Motivation.md"
+  },
+  {
+    "id": "S40-C02",
+    "source_id": "S40",
+    "claim": "Report considers a60MW thermal system.",
+    "locator": "PDF3/printedii, Abstract; PDF4/printed1",
+    "qualification": "Design rating, not demonstrated power",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "Natural_Circulation_History_and_MSR_Motivation.md"
+  },
+  {
+    "id": "S41-C01",
+    "source_id": "S41",
+    "claim": "ORR salt convection loops were intended for irradiation of representative fuel with graphite/Hastelloy N.",
+    "locator": "PDF9/printed1, Abstract/§1",
+    "qualification": "Different purpose from passive decay-heat testing",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "Natural_Circulation_History_and_MSR_Motivation.md"
+  },
+  {
+    "id": "S41-C02",
+    "source_id": "S41",
+    "claim": "Operated loops experienced primary-system failures; thermal-stress causes remain qualified.",
+    "locator": "PDF9/printed1; PDF37–40/printed29–32,§7",
+    "qualification": "Observed failures versus proposed mechanism",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "Natural_Circulation_History_and_MSR_Motivation.md"
+  },
+  {
+    "id": "S42-C01",
+    "source_id": "S42",
+    "claim": "MSRE normal circulation design included fuel and coolant pumps.",
+    "locator": "PDF41/printed9,§2.4; PDF44/printed12,§2.4.2",
+    "qualification": "Does not rule out later natural-circulation tests",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "Natural_Circulation_History_and_MSR_Motivation.md"
+  },
+  {
+    "id": "S42-C02",
+    "source_id": "S42",
+    "claim": "MSRE aimed to demonstrate practical operation and long-duration salt/material performance.",
+    "locator": "PDF35–38/printed3–6,§1",
+    "qualification": "Original design purpose",
+    "status": "source_scoped_evidence_or_explicit_analyst_audit",
+    "dossier": "Natural_Circulation_History_and_MSR_Motivation.md"
+  }
+]

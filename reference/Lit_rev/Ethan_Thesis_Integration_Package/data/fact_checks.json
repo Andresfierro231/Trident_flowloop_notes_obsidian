@@ -1,0 +1,200 @@
+[
+  {
+    "id": "F01",
+    "status": "Confirmed PDF error",
+    "ethan_reference": "4.3.1 PDF54 print40",
+    "claim": "200C is493.15K",
+    "check_result": "200+273.15=473.15K. Listedrho1938.88,mu0.00677,k0.547 match473.15K, not493.15K. At493.15K:rho1923.885445,mu0.00549763,k0.552677576.",
+    "action": "Correct nominal-temperature label; do not change valid underlying formulas.",
+    "sources": "E; direct arithmetic"
+  },
+  {
+    "id": "F02",
+    "status": "Confirmed mathematical error in printed formula",
+    "ethan_reference": "5.1.3 Eq5.6 PDF68",
+    "claim": "cp(Tout)Tout-cp(Tin)Tin is an improved variable-cp enthalpy difference",
+    "check_result": "dh/dT=cp, whereas d(cp*T)/dT=cp+T*dcp/dT. At298.15-to386.15K usingTableB.4, integral=88816.3876J/kg; printed=90717.7736J/kg; midpoint=88790.4720J/kg.",
+    "action": "Use integral and check actual source code before concluding simulations used printed mistake.",
+    "sources": "E; W3; direct integration"
+  },
+  {
+    "id": "F03",
+    "status": "Confirmed internal conflict",
+    "ethan_reference": "5.2.2 PDF72 vsB.1 PDF125",
+    "claim": "AppendixB.1 lists coefficients used in simulations",
+    "check_result": "Maincp1423.47/exponentialmu conflict with legacy quadratic cp/cubic mu inB.1. Exact simulated package cannot be established solely from contradictory PDF.",
+    "action": "Use executable physicalProperties dictionaries/commit; do not copy appendix blindly.",
+    "sources": "E; A; W1; W2"
+  },
+  {
+    "id": "F04",
+    "status": "Confirmed internal arithmetic mismatch",
+    "ethan_reference": "Eq3.13 PDF43 vsC.3 PDF132",
+    "claim": "Gz3554 givesNu26.67",
+    "check_result": "Stated formula evaluated atGz3554 yields23.7335613453; h=Nu*0.540/0.020=640.8062W/(m2K), rather than719.8. ReferenceRint becomes0.00156053m2K/W rather than0.00139.",
+    "action": "Recompute reference benchmark from actual Gz definition/temperature/length; do not infer full BC failure from this alone.",
+    "sources": "E; W7; direct arithmetic"
+  },
+  {
+    "id": "F05",
+    "status": "Method correction required",
+    "ethan_reference": "4.5.1 Eq4.6 PDF55",
+    "claim": "Uncertainty for difference Qnet=Qh-Qloss isQnet timesRSS(relative uncertainties)",
+    "check_result": "For independent inputs variance=sigmaQh^2+sigmaQloss^2. With correlation subtract2cov(Qh,Qloss). Qloss inferred fromQnet is correlated; use primitive measurements to avoid circular propagation.",
+    "action": "Use Jacobian covariance and full measurement model; distinguish source transcription from own corrected method.",
+    "sources": "E; W4"
+  },
+  {
+    "id": "F06",
+    "status": "Confirmed unsupported confidence interpretation",
+    "ethan_reference": "7.1 PDF113;Eq3.15 PDF44",
+    "claim": "Validated within99% confidence interval",
+    "check_result": "No corresponding coverage factor/coverage derivation was identified; RSSstandard uncertainties are not inherently99%. GCI safety factor is not a confidence quantile.",
+    "action": "Report stated uncertainty components/coverage separately; do not repeat99%.",
+    "sources": "E; W4; W5; W14"
+  },
+  {
+    "id": "F07",
+    "status": "Confirmed two-grid limitation",
+    "ethan_reference": "6.2 PDF93;Tables6.6-9 PDF97-98",
+    "claim": "Full-loop convergence follows3-grid method",
+    "check_result": "Text explicitly says only two settled refinements used. Assumed order required; no observed order or convergence classification can be estimated from two values.",
+    "action": "Label assumptions and do not import GCI numbers to unrelated2.17M mesh.",
+    "sources": "E; W6"
+  },
+  {
+    "id": "F08",
+    "status": "Confirmed table mismatch",
+    "ethan_reference": "Table3.1 PDF40 vsA.3 PDF124",
+    "claim": "Full-loop bulk cell targets",
+    "check_result": "Table3.1=2.25/1.50/1.00mm;A.3=1.125/0.750/0.500mm. First-cell values agree. Mesh resource/radii entries also differ across appendices.",
+    "action": "Resolve against actual blockMeshDict/checkMesh before reproducing.",
+    "sources": "E"
+  },
+  {
+    "id": "F09",
+    "status": "Primary-source corroboration, bounded",
+    "ethan_reference": "Eq5.17 PDF72",
+    "claim": "Base HITECcp=1423.47J/(kgK)",
+    "check_result": "RSC primary indexed text reports1.42347J/(g C), equivalent1423.47J/(kgK). This is a sample measurement, not universal exact material truth or quantified4%standard uncertainty.",
+    "action": "Keep source/version/composition and realistic uncertainty; no need to change our matching package.",
+    "sources": "E; W1"
+  },
+  {
+    "id": "F10",
+    "status": "Partial external verification",
+    "ethan_reference": "Eq5.16 PDF72",
+    "claim": "Jin viscosity law/range/2.5% uncertainty",
+    "check_result": "Primary publisher confirms study authors/year and2.5% reported uncertainty. Full fitted coefficients and valid-range statement could not be read in original article during this run.",
+    "action": "Retain coefficients as source-transcribed; obtain primary article/full data before declaring fully independently verified.",
+    "sources": "E; W2"
+  },
+  {
+    "id": "F11",
+    "status": "Confirmed citation error",
+    "ethan_reference": "Reference48 PDF119",
+    "claim": "Santini conductivity paper published1948",
+    "check_result": "Publisher identifies1984,volume27(4),623-626,DOI10.1016/0017-9310(84)90034-6.",
+    "action": "Use correct metadata; exact correlation/range still source-limited.",
+    "sources": "E; W11"
+  },
+  {
+    "id": "F12",
+    "status": "Modeling assumption, not law",
+    "ethan_reference": "5.1.2 Eq5.5 PDF68",
+    "claim": "sin(theta)^2 blend predicts inclined-cylinder convection",
+    "check_result": "Correct endpoints do not validate interior angles or vertical-cylinder curvature; blend ofh must retain each length scale.",
+    "action": "Sensitivity study and provenance; add horizontal-cylinder citation absent from citedvertical entry.",
+    "sources": "E; W8; W9"
+  },
+  {
+    "id": "F13",
+    "status": "Confirmed case-label inconsistency",
+    "ethan_reference": "Table4.1/4.2 PDF53/55 vsC.3 PDF131",
+    "claim": "One set of salt Pr values",
+    "check_result": "4.2 gives54.29,50.81,41.65,31.74;C.3global gives54.29,54.07,53.89,53.63. Modern package at200C givesPr17.61496. Different properties/location definitions cannot be mixed.",
+    "action": "Recompute from declared T/mu/cp/k; preserve historical labels as labels.",
+    "sources": "E; A; direct arithmetic"
+  },
+  {
+    "id": "F14",
+    "status": "Confirmed temperature-difference mismatch",
+    "ethan_reference": "Table4.4 PDF56 vsC.1 PDF130",
+    "claim": "DeltaT isTP6-TP2",
+    "check_result": "Table4.4saltDeltaT=11.16,10.09,7.95,5.63K;C.1differences=9.26,9.97,9.08,6.80K. Table values may use different definitions, but not declared consistently here.",
+    "action": "Trace measurement definitions; do not claim negative losses robust to property/operator change.",
+    "sources": "E; direct subtraction"
+  },
+  {
+    "id": "F15",
+    "status": "Unsupported categorical diagnosis",
+    "ethan_reference": "6.5 PDF110",
+    "claim": "Salt1TW10>Salt2 proves faulty experiment",
+    "check_result": "Difference116.88-116.52=0.36K, below1.56K stated difference uncertainty. Other mismatches warrant investigation, not proof of data corruption.",
+    "action": "Use suspected unresolved inconsistency; preserve raw cases.",
+    "sources": "E; W4; arithmetic"
+  },
+  {
+    "id": "F16",
+    "status": "Confirmed table/verdict qualification",
+    "ethan_reference": "6.10 PDF109;6.4 PDF106",
+    "claim": "Seven validated cases demonstrate general predictive accuracy",
+    "check_result": "Errors reported are aggregate means/proxyflows; best wall azimuth and selected turbulence models were used. Retrospective effective water insulation0.40in is fit-informed.",
+    "action": "Use bounded comparison wording and report per-probe/profile diagnostics, setup dependence and calibration.",
+    "sources": "E; W5"
+  },
+  {
+    "id": "F17",
+    "status": "Confirmed overgeneralization risk",
+    "ethan_reference": "5.2.3 PDF73",
+    "claim": "RaL>1e10 proves turbulence/justifies SSTLM",
+    "check_result": "No universal loop transition criterion is established. Original Reis abstract reports laminar wall scaling; simulation best-fit model selection is not turbulence observation.",
+    "action": "Do not infer salt turbulence or replace our laminar setup.",
+    "sources": "E; W10"
+  },
+  {
+    "id": "F18",
+    "status": "Confirmed weaker-than-claimed bound",
+    "ethan_reference": "4.5.3 Table4.6 PDF61",
+    "claim": "1.5% digitization uncertainty bounds all water profile points",
+    "check_result": "Assigned fromglobal1.36%RMS;worst salt-heightRMS3.65%,Linf14.10%. Transferring to water is an assumption.",
+    "action": "Case/height and pointwise uncertainty; preserve smoothing/crossing bias.",
+    "sources": "E"
+  },
+  {
+    "id": "F19",
+    "status": "Confirmed notation/units issue",
+    "ethan_reference": "Eq5.13 PDF71",
+    "claim": "alpha_eff is thermal diffusivity",
+    "check_result": "mu/Pr=k/cp haskg/(m s), notm2/s. Kinematic thermal diffusivity is k/(rho cp).",
+    "action": "Name/units must follow enthalpy equation convention.",
+    "sources": "E; dimensional analysis; W12"
+  },
+  {
+    "id": "F20",
+    "status": "Confirmed bibliographic mismatch",
+    "ethan_reference": "PDF1 and ourreferences.bib",
+    "claim": "Existing Rozak bib matches supplied thesis",
+    "check_result": "Existing title differs,monthaug,note Forthcoming; supplied title page saysMay2026 and exact title High-Fidelity CFD Simulation of Single-Phase Natural Circulation Loop Experiments: Verification and Validation.",
+    "action": "Update after agreed scope, retain existing citation key; final degree month/status needs confirmation.",
+    "sources": "E; A"
+  },
+  {
+    "id": "F21",
+    "status": "Confirmed internal typo/parameter conflicts",
+    "ethan_reference": "B.4 PDF128;Table5.1 PDF81 vsB.5 PDF127",
+    "claim": "Insulation polynomial andAl emissivity unambiguous",
+    "check_result": "Second duplicate fit prints6.4209E-0.2 instead of coherent6.4209e-2; prose says polynomial does become negative despite preceding intended positive behavior. Al epsilon0.10 vs0.15.",
+    "action": "Use first coherent formula only for diagnostic; validate material datasheet and actual source inputs.",
+    "sources": "E"
+  },
+  {
+    "id": "F22",
+    "status": "Confirmed acceptance-summary inconsistency",
+    "ethan_reference": "6.1.4 PDF92 vsTable6.5 PDF91",
+    "claim": "AllGCIfine<0.01%",
+    "check_result": "Integrated-QfineGCIs forM/F/X are0.0101-0.0104%, slightly greaterthan0.01%;fluxGCIs are0.0013-0.0018%. Both are far below stated2% threshold.",
+    "action": "Correct summary wording and specify QoI; distinction does not by itself overturn benchmark.",
+    "sources": "E"
+  }
+]

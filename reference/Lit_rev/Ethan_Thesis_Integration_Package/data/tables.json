@@ -1,0 +1,314 @@
+[
+  {
+    "table": "3.1",
+    "pdf_page": 40,
+    "printed_page": 26,
+    "caption_first_line": "Mesh refinement families. The full-loop family (r = 1.5) is used for solution",
+    "page_image": "pages/pdf_page_040.png",
+    "text_file": "pages/pdf_page_040.txt"
+  },
+  {
+    "table": "4.1",
+    "pdf_page": 53,
+    "printed_page": 39,
+    "caption_first_line": "Prandtl Number Reconstruction Comparisons",
+    "page_image": "pages/pdf_page_053.png",
+    "text_file": "pages/pdf_page_053.txt"
+  },
+  {
+    "table": "4.2",
+    "pdf_page": 55,
+    "printed_page": 41,
+    "caption_first_line": "HITEC salt experimental test cases from Reis et al. [9].",
+    "page_image": "pages/pdf_page_055.png",
+    "text_file": "pages/pdf_page_055.txt"
+  },
+  {
+    "table": "4.3",
+    "pdf_page": 55,
+    "printed_page": 41,
+    "caption_first_line": "Water experimental test cases from Reis et al. [9].",
+    "page_image": "pages/pdf_page_055.png",
+    "text_file": "pages/pdf_page_055.txt"
+  },
+  {
+    "table": "4.4",
+    "pdf_page": 56,
+    "printed_page": 42,
+    "caption_first_line": "Experimental Energy Balance from Experiments of Reis et al. [9].",
+    "page_image": "pages/pdf_page_056.png",
+    "text_file": "pages/pdf_page_056.txt"
+  },
+  {
+    "table": "4.5",
+    "pdf_page": 57,
+    "printed_page": 43,
+    "caption_first_line": "Bulk Velocity and Mass Flow Rate from Experiments of Reis et al. [9].",
+    "page_image": "pages/pdf_page_057.png",
+    "text_file": "pages/pdf_page_057.txt"
+  },
+  {
+    "table": "4.6",
+    "pdf_page": 61,
+    "printed_page": 47,
+    "caption_first_line": "Digitized VS Raw Residuals for Salt Tests",
+    "page_image": "pages/pdf_page_061.png",
+    "text_file": "pages/pdf_page_061.txt"
+  },
+  {
+    "table": "4.7",
+    "pdf_page": 61,
+    "printed_page": 47,
+    "caption_first_line": "Contributions to Data Uncertainty (uD)",
+    "page_image": "pages/pdf_page_061.png",
+    "text_file": "pages/pdf_page_061.txt"
+  },
+  {
+    "table": "5.1",
+    "pdf_page": 81,
+    "printed_page": 67,
+    "caption_first_line": "Uncertain Simulation Inputs and Their Standard Uncertainties",
+    "page_image": "pages/pdf_page_081.png",
+    "text_file": "pages/pdf_page_081.txt"
+  },
+  {
+    "table": "5.2",
+    "pdf_page": 85,
+    "printed_page": 71,
+    "caption_first_line": "Contributions to Modeling Input Uncertainty (uinput)",
+    "page_image": "pages/pdf_page_085.png",
+    "text_file": "pages/pdf_page_085.txt"
+  },
+  {
+    "table": "6.1",
+    "pdf_page": 90,
+    "printed_page": 76,
+    "caption_first_line": "Representative cell sizes for BC verification.",
+    "page_image": "pages/pdf_page_090.png",
+    "text_file": "pages/pdf_page_090.txt"
+  },
+  {
+    "table": "6.2",
+    "pdf_page": 90,
+    "printed_page": 76,
+    "caption_first_line": "BC verification: Mode A (convection only).",
+    "page_image": "pages/pdf_page_090.png",
+    "text_file": "pages/pdf_page_090.txt"
+  },
+  {
+    "table": "6.3",
+    "pdf_page": 90,
+    "printed_page": 76,
+    "caption_first_line": "BC verification: Mode B (radiation only).",
+    "page_image": "pages/pdf_page_090.png",
+    "text_file": "pages/pdf_page_090.txt"
+  },
+  {
+    "table": "6.4",
+    "pdf_page": 91,
+    "printed_page": 77,
+    "caption_first_line": "BC verification: Mode C (mixed convection + radiation).",
+    "page_image": "pages/pdf_page_091.png",
+    "text_file": "pages/pdf_page_091.txt"
+  },
+  {
+    "table": "6.5",
+    "pdf_page": 91,
+    "printed_page": 77,
+    "caption_first_line": "GCI summary for BC verification, Modes A-C.",
+    "page_image": "pages/pdf_page_091.png",
+    "text_file": "pages/pdf_page_091.txt"
+  },
+  {
+    "table": "6.6",
+    "pdf_page": 97,
+    "printed_page": 83,
+    "caption_first_line": "unum for CFD Quantities of Interest (Laminar family, two-grid GCI)",
+    "page_image": "pages/pdf_page_097.png",
+    "text_file": "pages/pdf_page_097.txt"
+  },
+  {
+    "table": "6.7",
+    "pdf_page": 97,
+    "printed_page": 83,
+    "caption_first_line": "Validation uncertainty for (TPmean) and (TWmean).",
+    "page_image": "pages/pdf_page_097.png",
+    "text_file": "pages/pdf_page_097.txt"
+  },
+  {
+    "table": "6.8",
+    "pdf_page": 98,
+    "printed_page": 84,
+    "caption_first_line": "Validation uncertainty for the mass flow rate: test-section cross-sectional flux",
+    "page_image": "pages/pdf_page_098.png",
+    "text_file": "pages/pdf_page_098.txt"
+  },
+  {
+    "table": "6.9",
+    "pdf_page": 98,
+    "printed_page": 84,
+    "caption_first_line": "Validation uncertainty for the bulk velocity: reconstructed PIV methodology",
+    "page_image": "pages/pdf_page_098.png",
+    "text_file": "pages/pdf_page_098.txt"
+  },
+  {
+    "table": "6.10",
+    "pdf_page": 109,
+    "printed_page": 95,
+    "caption_first_line": "Validation verdicts for the medium refinement level ( ˙m operator: piv_method).",
+    "page_image": "pages/pdf_page_109.png",
+    "text_file": "pages/pdf_page_109.txt"
+  },
+  {
+    "table": "A.1",
+    "pdf_page": 121,
+    "printed_page": 107,
+    "caption_first_line": "Loop path segments. All dimensions in mm. Default pipe radius is 11.811 mm.",
+    "page_image": "pages/pdf_page_121.png",
+    "text_file": "pages/pdf_page_121.txt"
+  },
+  {
+    "table": "A.2",
+    "pdf_page": 123,
+    "printed_page": 109,
+    "caption_first_line": "BC Mesh refinement levels.",
+    "page_image": "pages/pdf_page_123.png",
+    "text_file": "pages/pdf_page_123.txt"
+  },
+  {
+    "table": "A.3",
+    "pdf_page": 124,
+    "printed_page": 110,
+    "caption_first_line": "Mesh refinement levels.",
+    "page_image": "pages/pdf_page_124.png",
+    "text_file": "pages/pdf_page_124.txt"
+  },
+  {
+    "table": "A.4",
+    "pdf_page": 124,
+    "printed_page": 110,
+    "caption_first_line": "Loop Mesh Statistics",
+    "page_image": "pages/pdf_page_124.png",
+    "text_file": "pages/pdf_page_124.txt"
+  },
+  {
+    "table": "A.5",
+    "pdf_page": 124,
+    "printed_page": 110,
+    "caption_first_line": "BC Verification Mesh Statistics",
+    "page_image": "pages/pdf_page_124.png",
+    "text_file": "pages/pdf_page_124.txt"
+  },
+  {
+    "table": "B.1",
+    "pdf_page": 125,
+    "printed_page": 111,
+    "caption_first_line": "HITEC salt polynomial coefficients. T in K.",
+    "page_image": "pages/pdf_page_125.png",
+    "text_file": "pages/pdf_page_125.txt"
+  },
+  {
+    "table": "B.2",
+    "pdf_page": 126,
+    "printed_page": 112,
+    "caption_first_line": "Water polynomial coefficients. T in K.",
+    "page_image": "pages/pdf_page_126.png",
+    "text_file": "pages/pdf_page_126.txt"
+  },
+  {
+    "table": "B.3",
+    "pdf_page": 126,
+    "printed_page": 112,
+    "caption_first_line": "Water fit residuals relative to IAPWS-IF97.",
+    "page_image": "pages/pdf_page_126.png",
+    "text_file": "pages/pdf_page_126.txt"
+  },
+  {
+    "table": "B.4",
+    "pdf_page": 127,
+    "printed_page": 113,
+    "caption_first_line": "Air polynomial coefficients. T in K.",
+    "page_image": "pages/pdf_page_127.png",
+    "text_file": "pages/pdf_page_127.txt"
+  },
+  {
+    "table": "B.5",
+    "pdf_page": 127,
+    "printed_page": 113,
+    "caption_first_line": "Solid material thermal properties.",
+    "page_image": "pages/pdf_page_127.png",
+    "text_file": "pages/pdf_page_127.txt"
+  },
+  {
+    "table": "C.1",
+    "pdf_page": 130,
+    "printed_page": 116,
+    "caption_first_line": "Experimental thermocouple readings [◦C] for salt test cases.",
+    "page_image": "pages/pdf_page_130.png",
+    "text_file": "pages/pdf_page_130.txt"
+  },
+  {
+    "table": "C.2",
+    "pdf_page": 130,
+    "printed_page": 116,
+    "caption_first_line": "Experimental thermocouple readings [◦C] for water test cases.",
+    "page_image": "pages/pdf_page_130.png",
+    "text_file": "pages/pdf_page_130.txt"
+  },
+  {
+    "table": "C.3",
+    "pdf_page": 131,
+    "printed_page": 117,
+    "caption_first_line": "Nondimensional parameters for salt test cases (global and local).",
+    "page_image": "pages/pdf_page_131.png",
+    "text_file": "pages/pdf_page_131.txt"
+  },
+  {
+    "table": "C.4",
+    "pdf_page": 131,
+    "printed_page": 117,
+    "caption_first_line": "Nondimensional parameters for water test cases (global and local).",
+    "page_image": "pages/pdf_page_131.png",
+    "text_file": "pages/pdf_page_131.txt"
+  },
+  {
+    "table": "C.5",
+    "pdf_page": 132,
+    "printed_page": 118,
+    "caption_first_line": "Numerical Uncertainties for CFD Quantities of Interest (water tests, k ω SSTLM",
+    "page_image": "pages/pdf_page_132.png",
+    "text_file": "pages/pdf_page_132.txt"
+  },
+  {
+    "table": "C.6",
+    "pdf_page": 133,
+    "printed_page": 119,
+    "caption_first_line": "",
+    "page_image": "pages/pdf_page_133.png",
+    "text_file": "pages/pdf_page_133.txt"
+  },
+  {
+    "table": "C.7",
+    "pdf_page": 133,
+    "printed_page": 119,
+    "caption_first_line": "Validation uncertainty for the centerline (TPmean) and wall (TWmean) tempera-",
+    "page_image": "pages/pdf_page_133.png",
+    "text_file": "pages/pdf_page_133.txt"
+  },
+  {
+    "table": "C.8",
+    "pdf_page": 134,
+    "printed_page": 120,
+    "caption_first_line": "Validation uncertainty for the mass flow rate: test-section cross-sectional flux",
+    "page_image": "pages/pdf_page_134.png",
+    "text_file": "pages/pdf_page_134.txt"
+  },
+  {
+    "table": "C.9",
+    "pdf_page": 135,
+    "printed_page": 121,
+    "caption_first_line": "Validation uncertainty for the bulk velocity: reconstructed PIV methodology",
+    "page_image": "pages/pdf_page_135.png",
+    "text_file": "pages/pdf_page_135.txt"
+  }
+]

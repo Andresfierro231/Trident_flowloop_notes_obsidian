@@ -1,0 +1,26 @@
+5.3.5
+Bend Segments
+The loop contains four pipe bends (two in the lower heater leg, two in the upper cooler leg).
+These bends are constructed using Lofts to first connect one face to another and create the
+blocks in between before being assigned Arc edges to control the radius of curvature, which
+uses a value of 1 inch.
+5.3.6
+Expanded Cross-Sections
+Junction extensions and valve bodies have an expanded outer diameter (12.7 mm radius vs.
+the standard 11.811 mm radius). Eight additional concentric ring blocks extend the O-grid
+from the bore to the expanded radius, with the annular step face patched as a wall. The
+mesh remains fully conformal at these transitions.
+5.4
+Boundary Conditions
+5.4.1
+Velocity and Pressure
+The loop is a closed domain with no inlet or outlet, complicating the set-up of the simulation
+with the lack of an inlet or an outlet.
+• Velocity (U): No-slip (noSlip) at all wall patches.
+• Pressure (prgh): calculated, the absolute pressure is given an initial value of atmo-
+spheric pressure at 101325 Pascals and is calculated at the boundary as the simulation
+evolves.
+• Hyrdostatic Pressure (prgh): fixedFluxPressure at walls, with the reference pres-
+sure set to zero at a point in the downcomer (right vertical leg) at mid-height, away
+from thermal and flow disturbances. As the system is closed, this is a guage pressure.
+62

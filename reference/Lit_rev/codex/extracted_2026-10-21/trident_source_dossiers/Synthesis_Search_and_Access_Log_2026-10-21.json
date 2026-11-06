@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-21",
+  "purpose": "Targeted strongest-prior challenge during cross-source synthesis;not restarted discovery",
+  "queries": [
+    {
+      "engine": "system2",
+      "q": "thermal RC networks structural identifiability parameter combinations building state space identifiability thermal network original paper"
+    },
+    {
+      "engine": "system2",
+      "q": "prediction oriented validation experiment design Paquette Rufiange Prudhomme Laforest 2023 influence matrices"
+    },
+    {
+      "engine": "system2",
+      "q": "thermal model reduction wall thermal inertia criterion natural circulation loop reduced model validity"
+    },
+    {
+      "engine": "system1",
+      "q": "\"thermal networks\" \"identifiability\" \"minimal\" measurements parameters"
+    },
+    {
+      "engine": "system1",
+      "q": "\"natural circulation\" \"wall thermal inertia\" \"criterion\" stability"
+    },
+    {
+      "engine": "system1",
+      "q": "\"Análisis de identificabilidad estructural de un sistema de transferencia de calor\""
+    },
+    {
+      "engine": "system2",
+      "q": "\"10.1002/jnm.2296\" filetype:pdf"
+    },
+    {
+      "engine": "system2",
+      "q": "\"Advancements in the identification of passive\" repository"
+    }
+  ],
+  "primary_routes": {
+    "S77": {
+      "journal": "https://polipapers.upv.es/index.php/RIAI/article/view/19170",
+      "repository": "https://zenodo.org/records/10722907",
+      "download": "https://zenodo.org/records/10722907/files/412-420-19170-ED.pdf?download=1",
+      "outcome": "Journal/webPDF timeout;observed repository file retrieved locally and scoped-read;9pages"
+    },
+    "S78": {
+      "publisher": "https://onlinelibrary.wiley.com/doi/10.1002/jnm.2296",
+      "outcome": "Abstract-only after full-text link;UCC metadata,IRISNaples andParthenope no original manuscript found;conditional acquisition request"
+    },
+    "S76": {
+      "primary": "https://arxiv.org/abs/2303.06114",
+      "outcome": "Official metadata checked;existing inspected manuscript retained"
+    }
+  },
+  "unincorporated_leads": "Search results for other network-identifiability,stability and thermal-reduction articles remain leads;no claims of having read them. No numeric pooling or exhaustive novelty claim.",
+  "technical_limitations": "Existing scoped dossiers used rather than re-reading all originals;proof/appendix/version gaps retained;operating data and new CFD excluded."
+}

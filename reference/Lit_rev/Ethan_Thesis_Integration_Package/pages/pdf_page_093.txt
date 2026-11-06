@@ -1,0 +1,29 @@
+6.2
+Grid Convergence Study
+Regretably, a three-mesh refinement study for the full-loop study could not be completed
+across the entire simulation matrix. The full-loop simulation pipeline leveraged the faster
+convergence of the coarse mesh to converge to a solution from the initial conditions before
+mapping the converged solution from the coarse mesh to the next finer mesh. After mapping
+the solution to the medium refinement mesh, the simulation experiences start-up instability
+before settling to the new converged state within the refined mesh. The decision ultimately
+boiled down to presenting a mix of settled and mostly settled fine-mesh cases with the
+full exclusion of the fine-mesh turbulence cases, or the two-refinement study that could
+present confident and honest results across the full matrix. The latter option was chosen.
+The cost of this includes Richardson extrapolation of the QoIs, discussion of monotonic vs
+potential oscillatory convergence, and a larger unum, for each case, but earns a discussion
+of the performance of the turbulent models. This is particularly interesting following the
+discussion in Section 5.2.3 where we predict to see the turbulent model out-perform the
+laminar counterpart on account of the long hydrodynamic entry lengths for water cases 3
+and 4.
+Thankfully, Roache provides procedure for cases such as this; where, for performing GCI
+on two mesh refinements, the value of Fs used in Equation 3.7 takes the value of 3 instead
+of 1.25 [37].
+For this GCI, the meshed system can be seen below in Fig 6.3, which is set up to provide
+a visualization for what section of the computational mesh corresponds to the quartz-glass
+test section and a representative laser PIV sheet in green.
+Several mesh cross-sections are provided (Figures 6.4 - 6.7 to help visualize how the mesh
+is structured around geometric complexities such as bends and junctions, as well as the
+structured cross-sectional mesh. For more information on mesh quality, the statistics for the
+utilized meshes are in Appendix A. For the consideration of turbulence models, the maximum
+y+ value recorded for the medium meshes was for Water 4 with the kω SSTLM_Gb model
+79

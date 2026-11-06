@@ -1,0 +1,144 @@
+Table 6.4: BC verification: Mode C (mixed convection + radiation).
+Qanalytical = −6.673 W,
+q′′
+analytical = −1062.094 W/m2
+Simulated
+Rel. error [%]
+Level
+Q [W]
+q′′ [W/m2]
+Q
+q′′
+Coarse
+−6.503
+−1061.997
+2.559
+0.009
+Medium
+−6.652
+−1061.653
+0.327
+0.042
+Fine
+−6.666
+−1061.551
+0.104
+0.051
+Xfine
+−6.669
+−1061.521
+0.067
+0.054
+Table 6.5: GCI summary for BC verification, Modes A-C.
+Realized refinement ratios r21 = 1.8560, r32 = 1.9161 (nominal 2.0).
+GCI [%]
+Mode
+Grids
+pobs
+fext
+Fine
+Coarse
+Asym. ratio
+δext [%]a
+Surface-integral Q [W]
+A: Convection
+M/F/X
+2.7462
+−6.0190
+0.0103
+0.0564
+1.0004
+−0.0541
+C/M/F
+2.9769
+−6.0185
+0.0472
+0.3281
+1.0022
+−0.0614
+B: Radiation
+M/F/X
+2.7433
+−6.0727
+0.0104
+0.0565
+1.0004
+−0.0546
+C/M/F
+2.9794
+−6.0722
+0.0471
+0.3276
+1.0022
+−0.0621
+C: Mixedb
+M/F/X
+2.7592
+−6.6694
+0.0101
+0.0557
+1.0004
+−0.0590
+C/M/F
+2.9792
+−6.6689
+0.0470
+0.3271
+1.0022
+−0.0659
+Area-averaged flux q′′ [W/m2]
+A: Convection
+M/F/X
+1.9334
+−957.9865
+0.0013
+0.0044
+1.0000
+−0.0503
+C/M/F
+1.4630
+−957.9667
+0.0070
+0.0182
+0.9999
+−0.0523
+B: Radiation
+M/F/X
+1.9968
+−966.5362
+0.0013
+0.0043
+1.0000
+−0.0508
+C/M/F
+1.3556
+−966.5068
+0.0081
+0.0196
+0.9999
+−0.0539
+C: Mixed
+M/F/X
+1.8031
+−1061.5059
+0.0018
+0.0054
+1.0000
+−0.0554
+C/M/F
+1.4948
+−1061.4896
+0.0073
+0.0193
+0.9999
+−0.0569
+M/F/X = medium/fine/xfine; C/M/F = coarse/medium/fine.
+a δext = (fext −fanalytical)/fanalytical.
+small uncertainty associated with it (< 1%), so the relative error for Q and q′′ approach-
+ing from opposite sides towards a similar extrapolated value percent difference from the
+analytical solution is encouraging for confidence in the boundary condition implementation.
+6.1.4
+Observed Convergence Order
+On a similar note, the values of pobs across the board are worth discussing. First, the values
+of pobs for Q are all nearly a whole observed order higher than expected. This is another point
+77

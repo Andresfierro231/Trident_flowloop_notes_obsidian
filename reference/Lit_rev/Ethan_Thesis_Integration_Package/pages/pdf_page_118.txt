@@ -1,0 +1,25 @@
+[33] B. Simamora and J. Lee. Comparative CFD investigation of laminar and transition
+SST models in a molten salt natural circulation loop. Energies, 19(2):495, 2026. doi:
+10.3390/en19020495.
+[34] F. Juretić and A. D. Gosman. Error analysis of the finite-volume method with respect
+to mesh type. Numerical Heat Transfer, Part B: Fundamentals, 57(6):414–439, 2010.
+doi: 10.1080/10407791003685155.
+[35] V. Hernández-Pérez, M. Abdulkadir, and B. J. Azzopardi. Grid generation issues in
+the CFD modelling of two-phase flow in a pipe. Journal of Computational Multiphase
+Flows, 3(1):13–26, 2011.
+[36] Matko Ljulj et al. Mathematical model of heat transfer through a conductive pipe.
+ESAIM: Mathematical Modeling and Numerical Analysis, 2021. doi: https://doi.org/
+10.1051/m2an/2021008.
+[37] P. J. Roache. Fundamentals of Verification and Validation. Hermosa Publishers, Albu-
+querque, NM, 2009.
+[38] W. L. Oberkampf and C. J. Roy. Verification and Validation in Scientific Computing.
+Cambridge University Press, 2010.
+[39] L. F. Richardson. The approximate arithmetical solution by finite differences of phys-
+ical problems involving differential equations, with an application to the stresses in a
+masonry dam. Philosophical Transactions of the Royal Society A, 210:307–357, 1911.
+[40] ASME. Standard for verification and validation in computational fluid dynamics and
+heat transfer. Technical Report V&V 20-2009 (Reaffirmed 2016), American Society of
+Mechanical Engineers, 2009.
+[41] H. W. Coleman and W. G. Steele. Experimentation, Validation, and Uncertainty Anal-
+ysis for Engineers. John Wiley & Sons, 4th edition, 2009.
+104

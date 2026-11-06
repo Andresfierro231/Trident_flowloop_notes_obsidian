@@ -1,0 +1,71 @@
+{
+  "updated": "2026-10-20",
+  "sources": [
+    {
+      "id": "PF02",
+      "phase": 0,
+      "filename": "STNCL_Phase0_System_Checkout.tex",
+      "path": "/workspace/scratch/24d300ddb639/upload/STNCL_Phase0_System_Checkout.tex",
+      "library_file_id": "libfile_a756e7fddc9481919b99f3d31ec1076c",
+      "sha256": "5d4a379917db52bda92f673f5c6bda718ab9301ca8a3ed4b120c6ff013911c40",
+      "line_count": 530,
+      "version": "Supplied Draft Revision0.1; approval/execution not established",
+      "reading_depth": "Apparatus Tablechannels and body definitions/procedure; schematic not matched to CAD",
+      "dossier": "Nick_Plan_Reconciliation_2026-10-20.md",
+      "original_unmodified": true
+    },
+    {
+      "id": "PF03",
+      "phase": 1,
+      "filename": "STNCL_Phase1_Ambient_Equilibrium_Baseline.tex",
+      "path": "/workspace/scratch/24d300ddb639/upload/STNCL_Phase1_Ambient_Equilibrium_Baseline.tex",
+      "library_file_id": "libfile_8e9974790dd88191a3d8408ad2e4031e",
+      "sha256": "d3d1a357269e293fea1917a5ec66c8a6de8341d32066de1f56b108b363f80f11",
+      "line_count": 1089,
+      "version": "Supplied Draft Revision0.1; approval/execution not established",
+      "reading_depth": "TechnicalBasis/acceptance/UQ and procedure; WorkedExamples not fully audited",
+      "dossier": "Nick_Plan_Reconciliation_2026-10-20.md",
+      "original_unmodified": true
+    },
+    {
+      "id": "PF04",
+      "phase": 2,
+      "filename": "STNCL_Phase2_Thermal_Relaxation_Tests.tex",
+      "path": "/workspace/scratch/24d300ddb639/upload/STNCL_Phase2_Thermal_Relaxation_Tests.tex",
+      "library_file_id": "libfile_b9fa39f421188191b978e9a99fed4053",
+      "sha256": "96cb2ca6a5b0c32de9f424ea86e1b6f930f5140f63f2819328a3264d3093158e",
+      "line_count": 524,
+      "version": "Supplied Draft Revision0.1; approval/execution not established",
+      "reading_depth": "Substantive model/procedure/outputs; initialization inconsistency inspected",
+      "dossier": "Nick_Plan_Reconciliation_2026-10-20.md",
+      "original_unmodified": true
+    },
+    {
+      "id": "PF05",
+      "phase": 3,
+      "filename": "STNCL_Phase3_Low_Duty_Steady_Heat_Loss_Tests.tex",
+      "path": "/workspace/scratch/24d300ddb639/upload/STNCL_Phase3_Low_Duty_Steady_Heat_Loss_Tests.tex",
+      "library_file_id": "libfile_d02f7002ab0481918caa756b4543be47",
+      "sha256": "f092c17b82e132d3c8266549d9c460846afd920a6685151a51dd93271dfa4f7c",
+      "line_count": 416,
+      "version": "Supplied Draft Revision0.1; approval/execution not established",
+      "reading_depth": "Steady balance/blind assessment/procedure and revision rules",
+      "dossier": "Nick_Plan_Reconciliation_2026-10-20.md",
+      "original_unmodified": true
+    },
+    {
+      "id": "PF06",
+      "phase": 4,
+      "filename": "STNCL_Phase4_Initial_Test_Matrix_and_Transition_Characterization.tex",
+      "path": "/workspace/scratch/24d300ddb639/upload/STNCL_Phase4_Initial_Test_Matrix_and_Transition_Characterization.tex",
+      "library_file_id": "libfile_d3b2d6ed09d48191a5f65ee4f37c4cd5",
+      "sha256": "de9c97b2bad2a9e4c20ec2a6692b69d7736eeebce63eabf5cf82d14bde320c63",
+      "line_count": 528,
+      "version": "Supplied Draft Revision0.1; approval/execution not established",
+      "reading_depth": "Flow inference,initial matrix,transition and assessment rules",
+      "dossier": "Nick_Plan_Reconciliation_2026-10-20.md",
+      "original_unmodified": true
+    }
+  ],
+  "rule": "Project requirements are not installed/approved/performed facts; literature source IDs remain separate."
+}

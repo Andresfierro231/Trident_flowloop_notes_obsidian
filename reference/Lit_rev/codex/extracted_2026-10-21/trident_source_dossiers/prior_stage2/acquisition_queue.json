@@ -1,0 +1,243 @@
+{
+  "updated": "2026-10-20",
+  "first_batch": [
+    {
+      "session": 1,
+      "source_ids": [
+        "S01",
+        "S33"
+      ],
+      "scope": "Targeted GUM 4.1–4.3 and 5.2 plus the one substantive amendment page; use S32 as reference, S02/S31 for follow-up propagation.",
+      "why_first": "A valid joint observation/derived-duty model is needed before interpreting any parameter fit or validation metric.",
+      "output": "One measurement dependency diagram/table: primitive observations, derived duty/flow, Type A/B components, covariance, unknown calibration quantities."
+    },
+    {
+      "session": 2,
+      "source_ids": [
+        "S08"
+      ],
+      "scope": "Sections 2–4 and the model hierarchy; start with 4.1–4.2.",
+      "why_first": "Provides a modest physical model-selection baseline for the proposed P2/P3 studies.",
+      "output": "Nested-state/parameter table, residual assumptions, physical plausibility checks and held-out assessment requirements; flag conditions for likelihood-ratio testing."
+    },
+    {
+      "session": 3,
+      "source_ids": [
+        "S23",
+        "S06"
+      ],
+      "scope": "S23 problem/observation/profile-likelihood construction and examples; S06 calibration/discrepancy example and conclusions.",
+      "why_first": "Distinguishes supported parameter groups from apparent precision and compensation for missing physics.",
+      "output": "Identifiability/confounding checklist for selected model and observations; separate mathematical non-identifiability from data-limited uncertainty and discrepancy."
+    },
+    {
+      "session": 4,
+      "source_ids": [
+        "S18"
+      ],
+      "scope": "Sections 2–3 first; then CFD-check design in Section 4. Read as arXiv v1, not as a fully compared journal copy.",
+      "why_first": "Anchors the physical ROM theory and challenges novelty of adding conjugate states before modern learning methods are tried.",
+      "output": "State/energy/momentum/closure comparison to M1/M2/M3; assumption and conservation checks; coupled-loop and boundary-condition transfer limits."
+    },
+    {
+      "session": 5,
+      "source_ids": [
+        "S17"
+      ],
+      "scope": "Section 2.2, verification/validation split in 3.2 and discussion; compare boundary and calibration contracts.",
+      "why_first": "Defines a fair established natural-circulation comparator before writing an improvement claim.",
+      "output": "Prescribed versus predicted table; calibration versus assessment split; uncertainty and regime coverage ledger."
+    }
+  ],
+  "next_batch": [
+    {
+      "source_ids": [
+        "S14",
+        "S15",
+        "S12"
+      ],
+      "purpose": "Motivation and transfer mini-pass: read S14 executive summary/2.1 and S15 similarity/distortion sections first; use S12 only for the explicitly separate liquid-fuel branch. Output a branch-qualified decision–QoI–similarity map."
+    },
+    {
+      "source_ids": [
+        "S35"
+      ],
+      "purpose": "Focused external CFD pass: sections specified in A. Output BC/time/observation/UQ comparison and assess applicability; not a 139-page cover-to-cover assignment."
+    },
+    {
+      "source_ids": [
+        "S22",
+        "S02",
+        "S31",
+        "S32"
+      ],
+      "purpose": "Methods follow-up where a specific assembly or nonlinear/multiple-output measurement decision requires it."
+    }
+  ],
+  "acquisition_requests": [
+    {
+      "source_id": "S16",
+      "rank": 1,
+      "priority": "P1 now",
+      "needed_version": "Full 2025 journal article, Nuclear Technology 211(9), 2135–2144, plus any supplementary uncertainty/data material. A clearly identified accepted manuscript is acceptable for initial extraction; retain final-version comparison as a task.",
+      "citation": "Jadyn Reis and Yassin Hassan (2025). SAM Code Validation for High Prandtl Number Flow in Molten Salt Natural Circulation Facility. Nuclear Technology 211(9), 2135–2144.",
+      "doi": "10.1080/00295450.2025.2480974",
+      "retrieval_link": "https://doi.org/10.1080/00295450.2025.2480974",
+      "inspect": "Input and boundary-condition definitions (net heat input and minimum loop temperature); heat-transfer/friction closures; experimental friction-factor derivation; data used for fitting versus assessment; velocity and temperature-difference results; property and measurement uncertainty. Section/equation numbers not known until acquired.",
+      "decision": "Decide the fair comparator for autonomous temperature/circulation prediction and whether proposed closure learning adds evidence beyond calibrated high-Pr SAM.",
+      "why_not_abstract": "The ANS abstract identifies prescribed inputs and friction-factor comparison but cannot resolve fitting/assessment independence, derivations, uncertainty propagation or the precise operating regimes. S17 and S35 provide context, not this article’s complete method.",
+      "attempts": "ANS citation/abstract verified; Taylor & Francis PDF returned HTTP 403; full-text route failed; author laboratory publication list links to publisher, not an accessible manuscript; ResearchGate offers request-full-text only.",
+      "if_unavailable": "First batch proceeds using S17/S18/S35. Keep S16-specific prediction, closure and novelty comparisons unresolved; no claim of surpassing it.",
+      "alternative": "S17 is a system-code comparator with different fluid/facility; S35 is external CFD with related experimental context. Neither replaces the exact high-Pr SAM comparison.",
+      "user_action": "Upload a legally obtained PDF/accepted manuscript and available supplement; university library or an author-provided copy is suitable. No account credentials needed."
+    },
+    {
+      "source_id": "S09",
+      "rank": 2,
+      "priority": "P1 now",
+      "needed_version": "Original 2002 journal article, Nuclear Engineering and Design 215(1–2), 139–152; complete figures, symbol definitions and correlation derivations. Identified author manuscript is acceptable.",
+      "citation": "P. K. Vijayan (2002). Experimental observations on the general trends of the steady state and stability behaviour of single-phase natural circulation loops. Nuclear Engineering and Design 215(1–2), 139–152.",
+      "doi": "10.1016/S0029-5493(02)00047-X",
+      "retrieval_link": "https://doi.org/10.1016/S0029-5493(02)00047-X",
+      "inspect": "Dimensional/non-dimensional momentum and energy balances; geometry and non-uniform-diameter extension; heat-source/sink assumptions; friction regimes; experimental stability maps and limits; uncertainty and correlation validity. Numbering not yet known.",
+      "decision": "Determine which circulation scaling and stability statements are justified for M3, and which similarity conditions a surrogate-to-salt claim would need.",
+      "why_not_abstract": "A broad steady-state/stability summary does not supply group definitions, correlation ranges or conditions separating steady similarity from stability/transient similarity. Those are the actual engineering restrictions we need.",
+      "attempts": "Publisher metadata/abstract verified but full page fetch blocked/non-content response; exact-title, PDF and IAEA/INIS searches found citations rather than the target full paper; ResearchGate request-only. An IAEA handbook alternative was located but its PDF could not be retrieved here.",
+      "if_unavailable": "Use S18/S17 for their own model assumptions. Delay use of this paper’s correlations and broad natural-circulation scaling/stability claims; seek an independently read primary replacement.",
+      "alternative": "S18 supplies a different conjugate coupled-loop model; S17 supplies a different experimental system-code assessment. Neither reproduces the original experimental scaling/stability evidence.",
+      "user_action": "Upload the complete article or obtain it through library document delivery/interlibrary loan. A PDF with legible plots and equations matters more than publisher typesetting."
+    },
+    {
+      "source_id": "S26",
+      "rank": 3,
+      "priority": "P1 before any network-discovery novelty claim",
+      "needed_version": "Latest accepted manuscript or version of record for IJTS 230, 111148, including supplementary method/results; optionally SSRN:5936610 (posted 18 December 2025) for version comparison. December 2026 is the assigned issue date, not a verified online-publication date.",
+      "citation": "Sreehari Manikkan, Panagiota Karava and Ilias Bilionis (2026 assigned issue). Entropy switch for Bayesian thermal network discovery. International Journal of Thermal Sciences 230, 111148.",
+      "doi": "10.1016/j.ijthermalsci.2026.111148",
+      "retrieval_link": "https://doi.org/10.1016/j.ijthermalsci.2026.111148",
+      "inspect": "Network parameterization and switch; prior on topology/parameters; observation/noise model; synthetic identifiability/observability cases; model selection versus prediction; uncertainty calibration and held-out evidence; applicability beyond reciprocal RC heat exchange. No section/equation numbers assumed.",
+      "decision": "Test whether H01/H02 add anything beyond existing Bayesian thermal-network discovery and whether an advective loop exposes a different, defensible question.",
+      "why_not_abstract": "The abstract establishes an existing approach, not its constraints or demonstrated limits. The public author repository reproduces a synthetic 4R3C example; it is not the complete paper, proofs, building cases or supplement.",
+      "attempts": "Publisher indexed metadata/abstract verified; direct full page/PDF route blocked or returned non-content HTML. SSRN landing/delivery did not yield a PDF. Author GitHub README read; author-advertised free-access link also attempted, outcome recorded in retrieval log.",
+      "if_unavailable": "Continue S08/S06/S23 baseline work. Keep network-discovery novelty and method preference unresolved; do not adopt or dismiss the method from README/abstract alone.",
+      "alternative": "S08 is a usable simpler model-selection baseline; S06/S23 address confounding/identifiability. They do not establish what this competing topology-discovery method has already achieved.",
+      "user_action": "Upload the latest manuscript and supplement if accessible. If only the 2025 SSRN version is available, upload it with its version/date; we can extract it under that label and retain a final-version comparison task."
+    },
+    {
+      "source_id": "S21",
+      "rank": 4,
+      "priority": "P2 conditional on pursuing local-flow or recirculation contribution",
+      "needed_version": "Complete journal/accepted manuscript for NED 459, 115179 with near-wall/full-field PIV figures and uncertainty supplement. Establish online date and exact version; December 2026 issue assignment is in the future relative to this search.",
+      "citation": "Thomas Carson, Hansol Kim, Joseph Seo, Theodore Kupper, Cole Gentry, Kevin Clarno and Yassin Hassan (2026 assigned issue). Experimental flow visualization and thermal-hydraulic characterization of local heating effects in a molten salt natural circulation loop. Nuclear Engineering and Design 459, 115179.",
+      "doi": "10.1016/j.nucengdes.2026.115179",
+      "retrieval_link": "https://doi.org/10.1016/j.nucengdes.2026.115179",
+      "inspect": "Local heating protocol; PIV window/spatial and time resolution; near-wall uncertainty and masking; definitions of local counterflow/recirculation; relation to local thermal measurements; which mechanisms were observed versus inferred. Numbering not known.",
+      "decision": "Assess whether H03 could add a supported local thermal result and what evidence a recirculation-extent claim would require.",
+      "why_not_abstract": "The abstract/highlights establish PIV/local-heating precedent but cannot establish recirculation extent, resolution limits, uncertainty or a measured heat-transfer effect. S35 is CFD/earlier experiments, not this evidence.",
+      "attempts": "Publisher indexed title/authors/DOI/article metadata verified; page fetch blocked and direct response contained no paper. Exact-title/author and institutional discovery did not identify a retrievable matching manuscript.",
+      "if_unavailable": "Do not hold the core reading batch. Keep local-flow novelty and quantitative recirculation/heat-transfer promises out of the proposal until this and the project evidence gate are resolved.",
+      "alternative": "Read available S35 for external CFD/observation limitations. S19/S20 are later comparator leads; they require their own acquisition checks and are not established substitutes.",
+      "user_action": "Only if local recirculation remains a serious candidate: upload an author-provided/accepted/final PDF and supplement, or obtain a copy through your library. Not needed to start the core batch."
+    }
+  ],
+  "category_A": [
+    "S01",
+    "S02",
+    "S06",
+    "S08",
+    "S12",
+    "S14",
+    "S15",
+    "S17",
+    "S18",
+    "S22",
+    "S23",
+    "S31",
+    "S32",
+    "S33",
+    "S35"
+  ],
+  "category_C": [
+    {
+      "source_id": "S03",
+      "reason": "Defer until a state/snapshot-data contract exists; sparse temperature channels alone do not establish that required reduced-state training data are available. MIT manuscript route was not newly pursued to full retrieval this pass.",
+      "search_status": "not_newly_searched_for_full_text"
+    },
+    {
+      "source_id": "S04",
+      "reason": "Author PDF was accessible in Stage 1; not rechecked this pass. Bayesian operator inference becomes useful after the training-state and model-error contract is defined.",
+      "search_status": "not_newly_searched_for_full_text"
+    },
+    {
+      "source_id": "S05",
+      "reason": "Accessible arXiv lead from Stage 1; not rechecked. Neural matrix inversion structure and training cost are not current blocking decisions.",
+      "search_status": "not_newly_searched_for_full_text"
+    },
+    {
+      "source_id": "S07",
+      "reason": "MIT author-final manuscript link/identity rechecked; PDF fetch failed in web retrieval. Defer acquisition: identify candidate models, estimands and executable experiment choices before expensive Bayesian design machinery.",
+      "search_status": "targeted_access_check_performed"
+    },
+    {
+      "source_id": "S10",
+      "reason": "Important prior experiment/CFD study for a later novelty pass. Not newly searched for full text here; do not call it unavailable. Retrieve before making broad molten-salt transient-modeling novelty claims.",
+      "search_status": "not_newly_searched_for_full_text"
+    },
+    {
+      "source_id": "S11",
+      "reason": "Digital-twin architecture source is useful later for state updating. Defer because autonomous predictive validity and uncertainty are current decisions; dashboard implementation is not a stand-alone novelty argument.",
+      "search_status": "not_newly_searched_for_full_text"
+    },
+    {
+      "source_id": "S13",
+      "reason": "Defer exact acquisition for initial framing: official S12 provides a directly available liquid-fuel MSR branch. It is not superseded; retrieve if a claim relies on this specific paper’s phenomena/ranking.",
+      "search_status": "not_newly_searched_for_full_text"
+    },
+    {
+      "source_id": "S19",
+      "reason": "CFD/flow-inference comparator deferred pending selection of a spatial QoI and project CFD contract. No new full-text search this pass; access remains unresolved, not proved unavailable.",
+      "search_status": "not_newly_searched_for_full_text"
+    },
+    {
+      "source_id": "S20",
+      "reason": "Heat-transfer CFD comparator deferred until a local mechanism/QoI and regime are specified. Not newly searched for full text; keep as later evidence gate.",
+      "search_status": "not_newly_searched_for_full_text"
+    },
+    {
+      "source_id": "S24",
+      "reason": "Stable learned quadratic models are conditional on selecting a compatible learned model class. No new full-text retrieval attempted; existing arXiv lead remains to reconcile.",
+      "search_status": "not_newly_searched_for_full_text"
+    },
+    {
+      "source_id": "S25",
+      "reason": "Author PDF accessible in Stage 1; not rechecked. Read before claiming a new QoI-oriented reduction principle, after defining the QoI and a full model to reduce.",
+      "search_status": "not_newly_searched_for_full_text"
+    },
+    {
+      "source_id": "S27",
+      "reason": "Recent integrated SAM capability paper remains important for system-code context. Not newly searched for full text. Defer until reactor/application mapping is narrowed; it does not block loop-level baseline selection.",
+      "search_status": "not_newly_searched_for_full_text"
+    },
+    {
+      "source_id": "S28",
+      "reason": "Defer acquiring the normative standard until exact ASME-based assessment/compliance wording is needed. S35 provides an accessible worked example, not a replacement for the standard. Never cite the catalogue as the standard’s requirements.",
+      "search_status": "not_newly_searched_for_full_text"
+    },
+    {
+      "source_id": "S29",
+      "reason": "Lower initial decision value than direct external thesis S35 and the SAM comparators. No new full-text retrieval; do not interpret its abstract/snippets as independent validation evidence.",
+      "search_status": "not_newly_searched_for_full_text"
+    },
+    {
+      "source_id": "S30",
+      "reason": "Defer acquisition until stochastic loop dynamics becomes a concrete candidate. Must read before claiming stochastic ROM novelty; no new full-text search this pass.",
+      "search_status": "not_newly_searched_for_full_text"
+    },
+    {
+      "source_id": "S34",
+      "reason": "Primary identity remains unverified despite exact-title/DOI searches. This is a verification lead, not a confirmed inaccessible publication. Keep it out of supporting evidence and do not ask the user to obtain it as though validated.",
+      "search_status": "targeted_access_check_performed"
+    }
+  ],
+  "stop_rule": "Complete a decision-focused dossier per session before adding further papers. Escalate a C source when its deferred decision becomes active; C does not mean globally irrelevant."
+}

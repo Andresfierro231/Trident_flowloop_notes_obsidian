@@ -1,0 +1,28 @@
+4.1
+TAMU Natural Circulation Loop
+Within the literature of NCL systems, loops with 4 legs are common, and referred to as
+"rectangular" on account of these 4-sided systems having a 90-degree rotation between each
+leg. The TAMU NCL is special in the sense that has a pair of legs set at an incline rather
+than being parallel to the ground in order to encourage a clockwise flow to develop within the
+system and avoid some of the instabilities that can result in an inverted flow. This inverted
+flow can occur when a rectangular loop is configured with its heater on the bottom leg and a
+cooler on its upper leg since the system is symmetric in such a case, the flow can develop in
+either a clockwise or counter-clockwise direction [5]. To better differentiate TAMU’s inclined
+loop from typical rectangular loops, the facility referenced in this thesis will be referred to
+as a "rhombic" loop on account on it’s inclination from parallel and equal-length legs. The
+loop operates with two working fluids, water and HITEC molten salt, and uses an identical
+pipe configuration for both fluids.
+4.1.1
+Loop Geometry
+The loop’s geometry consists of four legs, each connected at a 90 degree angle with cross
+or tee-fittings. Each leg of the loop is nominally 3 feet in length. The top and bottom legs
+were bent symmetrically to a nominal incline of 20 degrees with a radius of curvature of
+approximately 1 inch, starting roughly 4.325 inches from either end of the pipe. Each pipe
+leg had a nominal outer diameter (OD) of 1 inch and a nominal inner diameter (ID) of 0.93
+inches and was composed of SS-316 grade stainless steel.
+A brief aside is worth mentioning before continuing with the description of the loop’s
+geometry; the reported dimensions are mixed between imperial and metrics units, which is
+left as reported by the experimentalists instead of all being converted in an effort to avoid
+miscommunications and conflicted reports that arose in the conduction of the work within
+this thesis.
+33

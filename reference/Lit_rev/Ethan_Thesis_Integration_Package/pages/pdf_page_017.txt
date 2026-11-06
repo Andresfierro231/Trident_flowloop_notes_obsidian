@@ -1,0 +1,20 @@
+Chapter 1
+Introduction
+1.1
+Motivation
+The global demand for electricity is large and ever-increasing. As Earth’s population contin-
+ues to grow, countries develop, and living standards rise; technology advances as well, com-
+pounding on the expanding demand for power with electric cars and the explosive growth
+of energy-intensive data centers for greater and greater artificial intelligence workloads. To
+sustain this growth, it is imperative that we prioritize the capacity of our power infrastruc-
+ture [1]. That increased demand cannot be met by simply continuing to expand fossil-fuel
+facilities; climate change demands that new capacity, and eventually the existing fossil-fuel
+fleet, be filled by low-carbon sources [2].
+Nuclear power is one of few technologies that can satisfy both the capacity and climate
+demands facing the near future. Nuclear’s ability to supply large amounts of reliable, carbon-
+free energy independent of factors that may inhibit other carbon-free technologies such as
+weather and geography. Much of the renewed interest in nuclear power is centered on new,
+Generation IV reactor concepts. Among theses concepts are Molten Salt Reactors (MSRs),
+that promise higher outlet temperature, leading to greater thermal efficiency, while being
+operable a low pressures and having passive safety characteristics that their light-water
+3

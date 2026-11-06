@@ -1,0 +1,178 @@
+[
+  {
+    "id": "S52-C01",
+    "claim": "HANS serves reactor-relevant thermal, materials and instrumentation purposes",
+    "sources": [
+      "S52"
+    ],
+    "locator": "§§1–3, PDF1–4 / 308–311",
+    "limit": "LBE/CHTR context, not MSR validation",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S52_Borgohain_2011.md"
+  },
+  {
+    "id": "S52-C02",
+    "claim": "Nonuniform-area momentum and separate fluid/wall conduction predate this thesis",
+    "sources": [
+      "S52"
+    ],
+    "locator": "§§4.1–4.4, Eqs7–23, PDF5–7",
+    "limit": "Printed implementation ambiguities remain",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S52_Borgohain_2011.md"
+  },
+  {
+    "id": "S52-C03",
+    "claim": "Cooler coefficients are inferred from experiment at each power",
+    "sources": [
+      "S52"
+    ],
+    "locator": "§4.5/Eq24/Fig8, PDF7–8",
+    "limit": "Calibration dependence; not independent validation",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S52_Borgohain_2011.md"
+  },
+  {
+    "id": "S52-C04",
+    "claim": "Regional ambient coefficients and experimental flow use thermal balances",
+    "sources": [
+      "S52"
+    ],
+    "locator": "§4.6/Eq25/§5.1, PDF8",
+    "limit": "Shared-input uncertainty and identifiability matter",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S52_Borgohain_2011.md"
+  },
+  {
+    "id": "S52-C05",
+    "claim": "Structural/tank storage affects interpretation of transients",
+    "sources": [
+      "S52"
+    ],
+    "locator": "§5.2/Figs12–14, PDF9–11",
+    "limit": "Authors' mechanisms not isolated experimentally",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S52_Borgohain_2011.md"
+  },
+  {
+    "id": "S52-C06",
+    "claim": "Momentum/source/area/discrete-coefficient conventions need audit before coding",
+    "sources": [
+      "S52"
+    ],
+    "locator": "Eqs7–22/Table2, PDF5–7",
+    "limit": "Our mathematical appraisal, not an executed-code finding",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S52_Borgohain_2011.md"
+  },
+  {
+    "id": "S52-C07",
+    "claim": "Negligible axial conduction is a limited source conclusion",
+    "sources": [
+      "S52"
+    ],
+    "locator": "§5.1/Fig11/§6, PDF9/11",
+    "limit": "No standalone error bound or controlled ablation",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S52_Borgohain_2011.md"
+  },
+  {
+    "id": "S30-C01",
+    "claim": "Eight-state Fourier circulation/thermal model with unequal instantaneous duties is established prior work",
+    "sources": [
+      "S30"
+    ],
+    "locator": "§§2.1–2.2/Eqs2.20–2.26, PDF3–5",
+    "limit": "Water HHHC, prescribed cooler wall",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S30_Matulis_2025.md"
+  },
+  {
+    "id": "S30-C02",
+    "claim": "Effective axial diffusivity is selected using stability data",
+    "sources": [
+      "S30"
+    ],
+    "locator": "§2.1, PDF3",
+    "limit": "Effective closure, not material property; independence limited",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S30_Matulis_2025.md"
+  },
+  {
+    "id": "S30-C03",
+    "claim": "Stochastic minor-loss forcing uses channel DNS and is not loop-specific uncertainty calibration",
+    "sources": [
+      "S30"
+    ],
+    "locator": "§2.4, PDF5–6; conclusion12",
+    "limit": "Authors explicitly qualify magnitude transfer",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S30_Matulis_2025.md"
+  },
+  {
+    "id": "S30-C04",
+    "claim": "Friction, forcing and SDE conventions need audit before coding",
+    "sources": [
+      "S30"
+    ],
+    "locator": "Eqs2.20–2.34, PDF5–6",
+    "limit": "Our mathematical appraisal; actual code unread",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S30_Matulis_2025.md"
+  },
+  {
+    "id": "S30-C05",
+    "claim": "Stability validation case counts are internally inconsistent",
+    "sources": [
+      "S30"
+    ],
+    "locator": "§3.2/Fig4, PDF7",
+    "limit": "Reported14 and16;10 correct from stated classifications",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S30_Matulis_2025.md"
+  },
+  {
+    "id": "S30-C06",
+    "claim": "Correlation switching affects part of the stability map",
+    "sources": [
+      "S30"
+    ],
+    "locator": "§§2.5/3.2, PDF6–7",
+    "limit": "Model-choice sensitivity, not universal boundary",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S30_Matulis_2025.md"
+  },
+  {
+    "id": "S30-C07",
+    "claim": "Local stability and finite perturbation behavior differ",
+    "sources": [
+      "S30"
+    ],
+    "locator": "§4/Figs5–7, PDF7–9",
+    "limit": "Numerical model evidence, not TRIDENT regime proof",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S30_Matulis_2025.md"
+  },
+  {
+    "id": "S30-C08",
+    "claim": "Dynamic noise can change escape behavior without large limiting-PDF change",
+    "sources": [
+      "S30"
+    ],
+    "locator": "§5/Figs9–12, PDF10–12",
+    "limit": "Illustrative cases; no complete reliability estimate",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S30_Matulis_2025.md"
+  },
+  {
+    "id": "S30-C09",
+    "claim": "Supplied article references a missing appendix derivation",
+    "sources": [
+      "S30"
+    ],
+    "locator": "§2.2, PDF5; ending13",
+    "limit": "Missing material recorded, not invented",
+    "status": "scoped_source_evidence_or_explicit_mathematical_appraisal",
+    "dossier": "dossiers/S30_Matulis_2025.md"
+  }
+]

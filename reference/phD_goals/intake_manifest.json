@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-20",
+  "task_id": "DOC-034",
+  "status": "raw references; discussion pending",
+  "sources": [
+    {
+      "path": "Raw_notes/14-oct_clarno_proposal_ideas.md",
+      "bytes": 962,
+      "sha256": "475d8d1673728a380b059016f02f89022d27c4c05836f8113b680618ea880847"
+    },
+    {
+      "path": "Raw_notes/14_Oct-moser_abstract.md",
+      "bytes": 2831,
+      "sha256": "750c3c3860ae10fb91ec534d38fab682c00b4513ee15447e80b3de5083cac357"
+    },
+    {
+      "path": "Raw_notes/20_Oct_lit_rev_ideas.md",
+      "bytes": 1089,
+      "sha256": "6fe24bf7f02ce064f3532e4be7dfdca4598eff2371039947711a315193717a74"
+    },
+    {
+      "path": "Raw_notes/Tim_head.md",
+      "bytes": 1749,
+      "sha256": "910790d7d8b4c3124d57dc1434f8414a32f1282fd00c363a152edabbc4694f76"
+    },
+    {
+      "path": "Raw_notes/rough_timeline_proposal.md",
+      "bytes": 440,
+      "sha256": "175837f362901ff1e03c0951c793d4120acf50234613a469ff8d9f3808166c02"
+    }
+  ]
+}

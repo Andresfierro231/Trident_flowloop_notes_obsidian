@@ -1,0 +1,66 @@
+5. Post-processing: Extract probe values, velocity profiles, wall heat fluxes, mass flow
+rates, compute error metrics, before finally generating a report PDF file.
+5.7
+Input Uncertainty
+As there are several sources of uncertainty and not all contributions are universally applicable
+to each of the examined QoI, the components used for the calculation of the overall value
+of uinput are outlined as follows. Each input was assigned a bound from the data that was
+used to create the model. For the uncertainty distributions used, each quantity is assumed
+to be a rectangular distribution, with the exception of the thermocouple and heater power
+uncertainty, which are represented by a standard Gaussian distribution.
+The u column
+of Table 5.1 was determined by (u = a/
+√
+3 for a rectangular distribution, where a is the
+half-width). The uncertain inputs and their adopted bounds are collected in Table 5.1.
+Table 5.1: Uncertain Simulation Inputs and Their Standard Uncertainties
+Input
+Modeled Value
+Bounds
+u
+Loop pipe ID, Dpipe
+0.93 in
+±0.005 in
+0.31%
+Test section bore, Dtest
+0.83 in
+±0.005 in
+0.35%
+Loop length, L
+4.353 m
+±2 cm
+0.27%
+Insulation thickness (salt)
+2.00 in
+[1.65, 2.35] in
+0.202 in
+Insulation thickness (water)
+0.40 in
+[0.30, 0.50] in
+0.058 in
+Ambient temperature, Tamb
+measured, per case
+—
+1.1 K
+Heater power, Pheater
+measured, per case
+—
+0.93% or 1%
+External convection, hext
+Churchill-Chu
+±11.1%
+6.4%
+Insulation emissivity, εins
+0.95
+±0.05
+0.029
+Aluminum emissivity, εAl
+0.10
+±0.05
+0.029
+The diameters reflect the significant figures attributed to the reported dimensions for
+diameter. The bounds set for the loop length are an estimate that comes from the CAD
+reconstruction in Figure 5.2 and the approximate 1 cm misalignment of the left, riser leg of
+the loop between the CAD and image, multiplied by two for the length uncertainty to account
+for the top and bottom leg. The insulation bounds initially come from pixel measurements
+67

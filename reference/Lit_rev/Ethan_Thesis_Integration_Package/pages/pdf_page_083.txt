@@ -1,0 +1,28 @@
+For the emissivities, engineering values were picked from Table 10.1 in Lienhard and
+Lienhard [20] as a baseline for aluminum, quartz glass, and insulation emissivities. The entry
+for quartz glass is very near to the experimental cases, so has been neglected for uncertainty
+analysis. Similar uncertainty was not provided for the heat exchanger’s flowrate, so has been
+excluded from the uncertainty analysis here.
+With each input expressed in terms of the QoI, we can summarize their contributions in
+Table 5.2. The entries ugeo, uins, umat and uenv are the geometric, insulation, material, and
+environmental contributions above, with the propagated QoI given in the subscript. The
+geometric uncertainty is calculated from the uncertainties in both test-section and loop-pipe
+diameters as well as the loop length. To propagate ugeo to the QoIs of velocity and mass
+flow rate, Poiseuille pipe flow scaling laws were assumed applicable; an assumption that is
+undermined by the under-developed flow discussed in Section 2.1, but is retained here as an
+attempt to bound input uncertainty.
+The insulation uncertainty is determined from the first order model being tested with
+±0.05 inch insulation perturbations from the modeled thickness. By maintaining the same
+boundary conditions, the different insulation configurations produce a different energy flow
+necessary to uphold those conditions condtions, allowing us to quantify the change of energy
+flow as a function of insulation thickness. From this, we can multiply by the value of ut
+to recover an energy flow uncertainty. From here, we can then convert that result to the
+uncertainty introduced to the QoI. For temperature, we return the model to the nominal
+configuration and uniformly perturb the system’s input temperatures by ±1 K, which can
+tell us how the energy flow changes in response to temperature. Dividing our previous energy
+flow uncertainty by this result gives us the propagated uncertainty for temperature for this
+input. The mass flow rate uncertainty similarly comes from the energy flow uncertainty but
+needs to account for the feedback of the fluid viscosity’s response to the predicted change
+in temperature for such a predicted change in energy flow in addition to the typical scaling
+of mass flow rate with resonse to a change in net energy. Beacause the velocity’s response
+69

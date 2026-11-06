@@ -1,0 +1,9 @@
+Chapter 4
+Experimental Setup
+This chapter describes the TAMU natural circulation loop facility as operated by Reis, Seo,
+and Hassan [9], which provides the experimental data used for the validation of the models
+within this thesis. The experimental facility, working fluids, procedures, and test matrix are
+presented.
+Figure 4.1: Facility (Left) and Designed Instrumentation Locations (Right)
+[9]
+32

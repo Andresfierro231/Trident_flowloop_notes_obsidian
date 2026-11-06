@@ -1,0 +1,109 @@
+Table A.3: Mesh refinement levels.
+Level
+First cell [mm]
+Bulk cell [mm]
+c2c ratio
+Kernel factor
+Kernel blend
+Coarse (GCI)
+0.225
+1.125
+1.20
+0.7
+0.5
+Medium (GCI)
+0.150
+0.750
+1.15
+0.7
+0.5
+Fine (GCI)
+0.100
+0.500
+1.10
+0.7
+0.5
+Table A.4: Loop Mesh Statistics
+Metric
+Coarse
+Medium
+Fine
+Number of cells
+2551824
+8241228
+28614208
+Max Aspect Ratio
+10.4841165
+10.035558
+9.95386505
+Max Non-Orthogonality [◦]
+45.1214825
+46.2884874
+47.1364132
+Average Non-Orthogonality [◦]
+6.97850602
+7.23676813
+7.50647319
+Max Skewness
+1.22050041
+1.13456854
+1.18472537
+Minimum Determinant
+0.0846038198
+0.0728796419
+0.0934034923
+Total Volume [m3]
+0.00180937379
+0.00181222443
+0.00181354409
+Representative Cell Size, h [mm]
+0.89171456
+0.60358729
+0.39870235
+Table A.5: BC Verification Mesh Statistics
+Metric
+Coarse
+Medium
+Fine
+xFine
+Number of cells
+11076
+118128
+838880
+5371968
+Max Aspect Ratio
+4.73809805
+4.54713617
+4.9654134
+5.66992619
+Max Non-Orthogonality [◦]
+18.7464067
+24.4333571
+30.0332729
+32.2305369
+Average Non-Orthogonality [◦]
+4.33947838
+5.40885246
+6.63247473
+7.67114781
+Max Skewness
+1.24398863
+0.881361531
+0.501279714
+0.527133118
+Minimum Determinant
+0.12868525
+0.236797053
+0.295047283
+0.307140013
+Total Volume [m3]
+0.000169705627
+0.000186349713
+0.00018810032
+0.000188396703
+Representative Cell Size, h [mm]
+2.4837303
+1.1641045
+0.60752371
+0.32732559
+110

@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-20",
+  "scope": "S10/S48 full supplied articles and original protocols",
+  "queries": [
+    "Exact S50 title +pdf",
+    "Exact S51 title +pdf repository",
+    "S48 exact title +code"
+  ],
+  "primary_routes": [
+    "publisher/DOI records",
+    "Crossref metadata",
+    "uploaded publisher PDFs",
+    "original user-supplied TeX"
+  ],
+  "results": {
+    "S10": "resolved by upload",
+    "S48": "resolved by upload",
+    "S50": "identity/abstract only; full text not retrieved",
+    "S51": "identity/abstract only; full text not retrieved"
+  },
+  "limits": [
+    "not exhaustive",
+    "no subscription access assumed",
+    "no code/operating-data replication",
+    "Phase1 worked examples not fully audited",
+    "physical installed/approved status of protocol requirements not established"
+  ]
+}

@@ -1,0 +1,28 @@
+predecessors cannot match [3].
+One of the characteristics that contribute to the passive safety of some MSR designs is
+natural circulation. Natural circulation is the transport of fluids resultant from the buoy-
+ant forces that arise from the thermal expansion and contraction of a fluid from heating
+and cooling without any external pumping required. Since the driving mechanism of this
+transport is from underlying physics, natural circulation can continue to remove heat from
+a reactor core even in total absence of electrical power or operator action, making it an
+attractive choice for emergency (and sometime normal) heat transport in advanced reactor
+designs [4]. Designing around these physics make the ability to make accurate predictions
+of flow rates, temperature distributions, and stability behavior an essential part of licensing
+and safe operation [5]. This requirement for accurate predictions necessitates accurate data,
+which is sparsely available for designs relying on working fluids other than water, such as
+MSRs.
+Acquiring that predictive ability experimentally is difficult. Performing natural circula-
+tion experiments in reactor-like conditions are expensive and tricky. Molten salts are often
+corrosive to materials that are not specialized to deal with them. This difficulty compounds
+with the high temperatures needed to melt reactor salts like FLiBe, further complicating
+instrumentation for acquiring experimental data. Further still, the thermophysical property
+data necessary to interpret such experiments often carries appreciable uncertainty or is not
+agreed upon in the associated literature [6, 7]. Consequently, high-quality validation data
+for molten salt natural circulation is scarce, leading to a reliance on modeling and simula-
+tion for reactor design and licensing. Models and simulations themselves can only be relied
+upon once they are systematically validated against existing experimental data. Beyond
+that, development of these models is a challenge in and of itself; complications such as the
+tight coupling of buoyancy-driven flow with its own temperature field and the fluid’s own
+temperature dependent properties, conjugate heat transfer through solid domains such as
+pipe walls and external insulation, as well as even subtle geometric details of the facility’s
+4

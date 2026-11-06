@@ -1,0 +1,189 @@
+[
+  {
+    "id": "S50-C01",
+    "claim": "Motivation includes HTR, solar power, instruments and operating/material experience",
+    "sources": [
+      "S50"
+    ],
+    "locator": "§1, PDF 1–2 / 513–514",
+    "limit": "Direct description; not universal MSR similarity",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S50_Srivastava_2016.md"
+  },
+  {
+    "id": "S50-C02",
+    "claim": "Conjugate 1D circulation, trace heating and losses already have precedent",
+    "sources": [
+      "S50"
+    ],
+    "locator": "§3, PDF 3 / 515",
+    "limit": "Described capabilities; implementation deferred to ref. 24",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S50_Srivastava_2016.md"
+  },
+  {
+    "id": "S50-C03",
+    "claim": "S50 uses temperature-dependent property fits and Nu = 4.36",
+    "sources": [
+      "S50"
+    ],
+    "locator": "Eq. 1/Table 3/§3.2, PDF 5 / 517",
+    "limit": "Audit closure validity and viscosity units",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S50_Srivastava_2016.md"
+  },
+  {
+    "id": "S50-C04",
+    "claim": "Loss coefficients use an average-power fit and remain fixed across cases",
+    "sources": [
+      "S50"
+    ],
+    "locator": "§4.1, PDF 7 / 519",
+    "limit": "Calibration dependence limits independence",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S50_Srivastava_2016.md"
+  },
+  {
+    "id": "S50-C05",
+    "claim": "Forced-air interruption retains cooling and has model mismatch",
+    "sources": [
+      "S50"
+    ],
+    "locator": "§4.2.2/Fig. 9, PDF 8 / 520",
+    "limit": "Proposed mechanisms not separately measured",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S50_Srivastava_2016.md"
+  },
+  {
+    "id": "S50-C06",
+    "claim": "Heater-trip mismatch is attributed to omitted tank storage",
+    "sources": [
+      "S50"
+    ],
+    "locator": "§4.2.3/Fig. 10, PDF 8 / 520",
+    "limit": "Existing prior art; causal inference qualified",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S50_Srivastava_2016.md"
+  },
+  {
+    "id": "S50-C07",
+    "claim": "Claimed broad applicability exceeds demonstrated regimes",
+    "sources": [
+      "S50"
+    ],
+    "locator": "§4.2.3–5, PDF 8–9 / 520–521",
+    "limit": "Reviewer's scope appraisal",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S50_Srivastava_2016.md"
+  },
+  {
+    "id": "S50-C08",
+    "claim": "Reported LOHS temperature change/time and hourly rate disagree",
+    "sources": [
+      "S50"
+    ],
+    "locator": "§4.2.2, PDF 8 / 520",
+    "limit": "Source statement plus explicit arithmetic audit",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S50_Srivastava_2016.md"
+  },
+  {
+    "id": "S51-C01",
+    "claim": "NNCL uses DRACS as prototype",
+    "sources": [
+      "S51"
+    ],
+    "locator": "§§1–2, PDF 1–2 / 127–128",
+    "limit": "Conditional system analogy; not liquid-fuel MSR validation",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S51_Jiao_2018.md"
+  },
+  {
+    "id": "S51-C02",
+    "claim": "UQ and model switching for salt-loop reliability predate our proposal",
+    "sources": [
+      "S51"
+    ],
+    "locator": "§§3–4.4/Table 1, PDF 2–6",
+    "limit": "Existing methodology topic; not exhaustive uncertainty",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S51_Jiao_2018.md"
+  },
+  {
+    "id": "S51-C03",
+    "claim": "Failure criteria are high/decomposition and low/melting thresholds",
+    "sources": [
+      "S51"
+    ],
+    "locator": "§4.1, PDF 4 / 130",
+    "limit": "Salt-specific numerical limits",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S51_Jiao_2018.md"
+  },
+  {
+    "id": "S51-C04",
+    "claim": "43 inputs, 229 runs, 11 unsuccessful; reported probability .039",
+    "sources": [
+      "S51"
+    ],
+    "locator": "§§4.4–4.6, PDF 5–7",
+    "limit": "Authors' result, statistical interpretation unresolved",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S51_Jiao_2018.md"
+  },
+  {
+    "id": "S51-C05",
+    "claim": "Stated 229-run 99/95 fifth-order claim conflicts with standard iid one-sided audit",
+    "sources": [
+      "S51"
+    ],
+    "locator": "Eq. 4/§§4.4–4.6, PDF 6–7",
+    "limit": "Our derivation; implementation not inspected",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S51_Jiao_2018.md"
+  },
+  {
+    "id": "S51-C06",
+    "claim": "Shell-side model choice materially affects computed margins",
+    "sources": [
+      "S51"
+    ],
+    "locator": "§4.8/Fig. 11, PDF 8–9",
+    "limit": "Conditional numerical result; inadequate discriminating data acknowledged",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S51_Jiao_2018.md"
+  },
+  {
+    "id": "S51-C07",
+    "claim": "Equation 5 needs separate high/low failure signs",
+    "sources": [
+      "S51"
+    ],
+    "locator": "Eq. 5/prose, PDF 6 / 132",
+    "limit": "Mathematical appraisal, not executed-code finding",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S51_Jiao_2018.md"
+  },
+  {
+    "id": "S51-C08",
+    "claim": "Correlation ranges, joint dependencies and normal-range conventions need qualification",
+    "sources": [
+      "S51"
+    ],
+    "locator": "Tables 1–3/Eq. 7",
+    "limit": "No silent copying as a complete UQ specification",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S51_Jiao_2018.md"
+  },
+  {
+    "id": "S51-C09",
+    "claim": "Independent physical validation is not demonstrated in this article",
+    "sources": [
+      "S51"
+    ],
+    "locator": "§4.2/ref. Cai2017; entire results coverage",
+    "limit": "Cited validation original remains unread",
+    "status": "scoped_source_evidence_or_explicit_dossier_appraisal",
+    "dossier": "dossiers/S51_Jiao_2018.md"
+  }
+]

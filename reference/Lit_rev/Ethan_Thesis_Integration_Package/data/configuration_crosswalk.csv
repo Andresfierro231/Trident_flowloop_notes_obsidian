@@ -1,0 +1,9 @@
+quantity,ours,ethan,consequence
+Pipe ID,0.870 in=22.098mm,"0.930 in=23.622mm, body / A.1; A.2 later says radius11.049mm",14.27%area difference; loss and Re change; direct calibration transfer invalid.
+Quartz ID / length,1D21.209mm; CFD~20.94mm; length185.93mm,mesh bore21.082mm from2*10.541; length186.0mm,Close but distinct geometry records; retain both.
+Slope/path,"idealized36in legs, connectors; total148in in prior loop definition",21.5deg reconstructed incline;4.353m path inTable5.1,Need actual coordinate/arc/junction lengths; do not infer commonloop by case names.
+Cooling length,304.8mm activejacket,nominal1ft;A.1coolersegment262.5mm plusreducers,Active/nominal heated-area ambiguity must be resolved.
+Insulation,CFD1.40in Calzite; baseline1D reference1in  times empirical factor; localized full1.40in,"salt2.00in,water0.40in effective; ceramic manufacturer fit",Different setup and fitted definitions; do not change ouralpha_R by copying thickness.
+HITEC,cp1423.47; exponentialmu; tabulated CFD transport/analyticROM,main modern suite matches; B.1legacycp/mu conflicts,Keep modern package and reconcile actual simulation coefficients.
+Mesh/model,"~2.17M cells,laminar","coarse2.552M,medium8.241M,fine28.614M; selected water SSTLM variants",Source verification uncertainties do not transfer to our mesh.
+Sensor QOI,signed net transport and declaredTP/TW reductions,"PIVproxy/best wall azimuth/meanTP,wallTW10jacket",Match observation operators before comparing errors.

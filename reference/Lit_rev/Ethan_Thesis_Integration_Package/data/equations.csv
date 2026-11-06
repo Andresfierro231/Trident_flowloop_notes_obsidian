@@ -1,0 +1,717 @@
+equation,pdf_page,printed_page,context_image,page_image,source_text_context,latex,title,priority,attribution,units,use_and_cautions,section,verification_status
+2.1,25,11,equation_context/eq_2_1_pdf_025.png,pages/pdf_page_025.png,"local density, whereas cooling causes it to contract, raising its local density. The consequence
+of those density changes can be seen by considering a fluid parcel of volume V and density
+ρ surrounded by fluid of density ρ0. By Archimedes’ principle, the surrounding fluid exerts
+an upward buoyant force equal to the weight of the displaced fluid,
+Fb = ρ0 g V,
+(2.1)",F_b=\rho_0 gV,Archimedean buoyant force,C,"Textbook physics, cited Greif [13]",N,Background only; use integrated loop buoyancy in our solver.,2.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+2.2,25,11,equation_context/eq_2_2_pdf_025.png,pages/pdf_page_025.png,"Fb = ρ0 g V,
+(2.1)
+where g is the gravitational acceleration, while the parcel itself weighs ρgV , leaving a net
+vertical force
+Fnet = (ρ0 −ρ) g V.
+(2.2)",F_{net}=(\rho_0-\rho)gV,Net parcel force,C,"Textbook physics, cited Greif [13]",N,Does not by itself prescribe net loop circulation.,2.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+2.3,25,11,equation_context/eq_2_3_pdf_025.png,pages/pdf_page_025.png,"can drive a continuous, self-sustained flow that requires no external pumping power, which
+is what we called natural circulation [13]. Since the density of a fluid is a function of its
+temperature, engineering analyses over modest temperature ranges often linearize the density
+about a reference state (ρ0, T0) as
+ρ(T) ≈ρ0 + (∂ρ/∂T)p (T −T0),
+(2.3)",\rho(T)\approx\rho_0+(\partial\rho/\partial T)_p(T-T_0),Density linearization,B,"Established approximation, cited [14,15]",kg/m^3,Local linearization; do not impose constant other properties without a sensitivity check.,2.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+2.4,25,11,equation_context/eq_2_4_pdf_025.png,pages/pdf_page_025.png,"ρ(T) ≈ρ0 + (∂ρ/∂T)p (T −T0),
+(2.3)
+which is conventionally rewritten in terms of the volumetric thermal expansion coefficient,
+β = −ρ−1
+0 (∂ρ/∂T)p, as
+ρ(T) ≈ρ0 [ 1 −β (T −T0) ] .
+(2.4)",\rho(T)\approx\rho_0[1-\beta(T-T_0)],Boussinesq density relation,B,"Established approximation, cited [14,15]",kg/m^3,Our model already retains temperature-dependent properties; no replacement proposed.,2.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.1,36,22,equation_context/eq_3_1_pdf_036.png,pages/pdf_page_036.png,"3.2
+Richardson Extrapolation
+Both code verification and solution verification hinge on the same idea that for a consistent,
+pth order discretization a QoI, ϕ, is computed on a mesh with a representative spacing h
+following the form
+ϕ(h) = ϕexact + gphp + O(hp+1),
+(3.1)",\phi(h)=\phi_{exact}+g_p h^p+O(h^{p+1}),Discretization expansion,A,"Richardson/Roache/Celik [12,37,39]",Units of QoI,"Asymptotic assumption, not guaranteed by a good fit.",3.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.2,36,22,equation_context/eq_3_2_pdf_036.png,pages/pdf_page_036.png,"such that the discrete solutions approach the exact solution as h →0.
+Given three
+solutions on systematically refined meshes with spacings h1 < h2 < h3, and refinement
+ratios, r21 and r32, where r21 = h2/h1 and r32 = h3/h2.
+The successive differences are
+defined as
+ε21 = ϕ2 −ϕ1,
+ε32 = ϕ3 −ϕ2.
+(3.2)","\epsilon_{21}=\phi_2-\phi_1,\quad\epsilon_{32}=\phi_3-\phi_2",Mesh differences,A,"Established verification method [12,37]",Units of QoI,Three settled solutions of the same QoI and physical problem required.,3.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.3,36,22,equation_context/eq_3_3_pdf_036.png,pages/pdf_page_036.png,"defined as
+ε21 = ϕ2 −ϕ1,
+ε32 = ϕ3 −ϕ2.
+(3.2)
+The observed order of accuracy then follows from Equation (3.1) to the general form of
+pobs =
+1
+ln r21
+����ln
+����
+ε32
+ε21
+����+ q(pobs)
+����,
+(3.3)",p_{obs}=\frac{1}{\ln r_{21}}\left\lvert\ln\left\lvert\frac{\epsilon_{32}}{\epsilon_{21}}\right\rvert+q(p_{obs})\right\rvert,"Observed order, unequal ratios",A,Celik procedure [12],dimensionless,"Implicit solve; guard zero differences, nonconvergence and non-asymptotic behavior.",3.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.4,36,22,equation_context/eq_3_4_pdf_036.png,pages/pdf_page_036.png,"pobs =
+1
+ln r21
+����ln
+����
+ε32
+ε21
+����+ q(pobs)
+����,
+(3.3)
+where q(pobs) is uses s = sign(ε32/ε21) and is defined as
+q(pobs) = ln
+�rpobs
+21
+−s
+rpobs
+32
+−s
+�
+.
+(3.4)","q(p)=\ln\left(\frac{r_{21}^{p}-s}{r_{32}^{p}-s}\right),\quad s=\mathrm{sign}(\epsilon_{32}/\epsilon_{21})",Unequal-ratio correction,A,Celik procedure [12],dimensionless,"Use realized h ratios, not nominal cell targets.",3.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.5,37,23,equation_context/eq_3_5_pdf_037.png,pages/pdf_page_037.png,"So, if the solutions are in the asymptotic range, for a constant refinement ration r =
+r32 = r21, the term q(pobs) = 0 and Equation 3.3 reduces to the simplified form
+pobs =
+1
+ln r ln
+����
+ε32
+ε21
+����.
+(3.5)",p_{obs}=\ln\left\lvert\epsilon_{32}/\epsilon_{21}\right\rvert/\ln r,Equal-ratio observed order,A,"Richardson/Celik [12,37]",dimensionless,Requires equal ratios and a valid convergence regime; no observed order from two grids.,3.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.6,37,23,equation_context/eq_3_6_pdf_037.png,pages/pdf_page_037.png,"pobs =
+1
+ln r ln
+����
+ε32
+ε21
+����.
+(3.5)
+With this, the Richardson-extrapolated estimate of the QoI’s exact value takes the form
+ϕexact = rpobsϕ1 −ϕ2
+rpobs −1
+.
+(3.6)",\phi_{ext}=\frac{r^{p_{obs}}\phi_1-\phi_2}{r^{p_{obs}}-1},Richardson extrapolation,A,"Established method [12,37]",Units of QoI,"Thesis calls estimate phi_exact; it is an extrapolated estimate, not known exact truth.",3.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.7,37,23,equation_context/eq_3_7_pdf_037.png,pages/pdf_page_037.png,"4. Calculate the extrapolated values for each QoI using Equation 3.6
+5. Calculate and report the following error estimates, the observed order of convergence,
+and the GCI for the fine mesh,
+GCIfine =
+Fs e21
+a
+rpobs
+21
+−1
+(3.7)",GCI_{fine}=\frac{F_s e_a^{21}}{r_{21}^{p_{obs}}-1},Grid Convergence Index,A,"Roache/Celik [12,37]",fraction; multiply by 100 for percent,"Three-grid Fs=1.25, two-grid Fs=3 as reported; assumed p must be documented for two-grid use.",3.3,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.8,38,24,equation_context/eq_3_8_pdf_038.png,pages/pdf_page_038.png,"with three or more meshes, e21
+a is the approximate relative error,
+e21
+a =
+����
+ϕ12
+1 −ϕ2
+ϕ12
+1
+����
+(3.8)",e_a^{21}=\left\lvert(\phi_1^{12}-\phi_2)/\phi_1^{12}\right\rvert,Approximate relative error as printed,A,Celik intended; unusual superscript in source,dimensionless,Source visibly prints phi_1 superscript 12. Intended standard form is abs((phi1-phi2)/phi1); do not propagate undefined superscript into code.,3.3,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.9,38,24,equation_context/eq_3_9_pdf_038.png,pages/pdf_page_038.png,"e21
+a =
+����
+ϕ12
+1 −ϕ2
+ϕ12
+1
+����
+(3.8)
+and eext is the extrapolated relative error,
+e21
+ext =
+����
+ϕ12
+ext −ϕ1
+ϕ12
+ext
+����
+(3.9)",e_{ext}^{21}=\left\lvert(\phi_{ext}^{12}-\phi_1)/\phi_{ext}^{12}\right\rvert,Extrapolated relative error,A,"Established method [12,37]",dimensionless,Superscript 12 labels pair-based extrapolation; define it explicitly.,3.3,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.10,38,24,equation_context/eq_3_10_pdf_038.png,pages/pdf_page_038.png,"With those five steps complete, we can then determine if the solutions are in the asymp-
+totic range where the leading-order error term dominates uncertainty by calculating the
+asymptotic ratio (AR) using the following equation
+AR =
+GCIcoarse
+rpobs
+21 GCIfine
+≈1.
+(3.10)",AR=GCI_{coarse}/(r_{21}^{p_{obs}}GCI_{fine})\approx1,Asymptotic ratio,A,"Established method [12,37]",dimensionless,Consistent triplet and normalization needed; AR near 1 alone is not sufficient verification.,3.3,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.11,39,25,equation_context/eq_3_11_pdf_039.png,pages/pdf_page_039.png,"to compute overall. This relaxation of computing resources allowed expanding the code-
+verification study to a four-level approach using a refinement ratio of r = 2 on a simpler
+geometry which permitted better testing of the asymptotic order. For a 3D case, a single
+value for a representative cell size, hrep can be found using the equation,
+h =
+�
+1
+N
+N
+�
+i=1
+(∆Vi)
+�1/3
+(3.11)",h=\left[\frac{1}{N}\sum_{i=1}^{N}\Delta V_i\right]^{1/3},Representative 3D cell size,A,Celik procedure [12],m,Record geometry/volume changes across meshes; h=(V/N)^(1/3).,3.3.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.12,43,29,equation_context/eq_3_12_pdf_043.png,pages/pdf_page_043.png,"tion and neither does the thermal circuit model.
+With the assumptions stated, the simplest, linear case of mode A can be expressed alge-
+braically with the followed equation:
+Q =
+T∞−Tb,in
+1
++ ln(r1/r0)
++
+ln(r2/r1)
++
+1
+.
+(3.12)","Q=\frac{T_\infty-T_{b,in}}{1/(h_s2\pi r_0L)+\ln(r_1/r_0)/(k_{ss}2\pi L)+\ln(r_2/r_1)/(k_{ins}2\pi L)+1/(h_\infty2\pi r_2L)}",Cylindrical verification circuit,A,Classical resistance network; Ethan applies it,W,Negative for heat leaving hot fluid under Ethan's convention; our outward-positive ledger reverses numerator.,3.4.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.13,43,29,equation_context/eq_3_13_pdf_043.png,pages/pdf_page_043.png,"drodynamically fully developed flow but thermally undeveloped flow, we can correct the
+Nusselt number using S. R. Sellars, M. Tribus, and J. S. Klein’s fit equation [45], reported
+in Lienhard and Lienhard’s A Heat Transfer Textbook [20] for heat transfer from laminar
+flow in pipes with a thermal entry region,
+NuD =
+3.657
+tanh
+�
+2.264 Gz−1/3 + 1.7 Gz−2/3�+ 0.0499 Gz tanh
+�
+Gz−1�
+.
+(3.13)",\overline{Nu}_D=\frac{3.657}{\tanh(2.264Gz^{-1/3}+1.7Gz^{-2/3})}+0.0499Gz\tanh(Gz^{-1}),Thermally developing laminar tube,A,"Sellars/Tribus/Klein via Lienhard [45,20]",dimensionless,"Constant-wall-temperature, hydrodynamically developed straight-tube reference. Gz=Re Pr D/L. At Gz=3554 gives 23.7336, not appendix 26.67. Not a universal loop correlation.",3.4.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.14,44,30,equation_context/eq_3_14_pdf_044.png,pages/pdf_page_044.png,"3.6
+Validation Error Assessment
+Using the ASME standard for Verification and Validation, ASME V&V 20-2009 [40], the
+validation comparison error is defined as:
+E = S −D,
+(3.14)",E=S-D,Validation comparison error,A,ASME V&V 20 [40],"Same units for S,D",Use observation-matched outputs; signed error is not model uncertainty.,3.6,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.15,44,30,equation_context/eq_3_15_pdf_044.png,pages/pdf_page_044.png,"E = S −D,
+(3.14)
+Where S is the simulation prediction and D is the experimental measurement.
+The
+combined validation uncertainty is:
+uval =
+�
+u2
+num + u2
+input + u2
+D,
+(3.15)",u_{val}=\sqrt{u_{num}^2+u_{input}^2+u_D^2},Combined validation uncertainty,A,ASME framework [40],Units of QoI,RSS assumes commensurate uncertainty components and appropriate independence/covariance treatment. Not automatically a 99% interval.,3.6,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.16,45,31,equation_context/eq_3_16_pdf_045.png,pages/pdf_page_045.png,"3.6.1
+Error Metrics for Velocity Profiles
+For single-terms error metrics, the two most commonly used are the L2 and L∞norms, where
+the the metrics are calculated from the following equations:
+L2 =
+�
+�
+�
+�1
+N
+N
+�
+i=1
+(Si −Di)2
+(3.16)",L_2=\sqrt{\frac{1}{N}\sum_{i=1}^{N}(S_i-D_i)^2},Velocity/temperature RMSE,A,Standard statistic; Ethan's application,m/s for velocity; K for temperature,"This is RMS error, not unnormalized Euclidean L2 norm. Match sampling points and disclose normalization of percent error.",3.6.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+3.17,45,31,equation_context/eq_3_17_pdf_045.png,pages/pdf_page_045.png,"the the metrics are calculated from the following equations:
+L2 =
+�
+�
+�
+�1
+N
+N
+�
+i=1
+(Si −Di)2
+(3.16)
+L∞= max |Si −Di|.
+(3.17)",L_\infty=\max_i\lvert S_i-D_i\rvert,Maximum absolute discrepancy,B,Standard statistic,m/s or K,Use alongside signed bias and RMS; grid of comparison points matters.,3.6.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+4.1,51,37,equation_context/eq_4_1_pdf_051.png,pages/pdf_page_051.png,"To determine the heat removed by the heat exchanger, temperature measurements were
+taken by the same K-type thermocouples at the coolant’s inlet and outlet and then Reis et
+al. determined the energy loss from the heat exchanger by evaluating the properties of air
+at the average temperature of the inlet and outlet and using the equation
+Q = ˙mCp(Tout −Tin).
+(4.1)",Q=\dot m c_p(T_{out}-T_{in}),"Air cooler duty, constant/mean cp",A,Experimental method from Reis [9],W,"With cp at midpoint it is an approximation to integral cp dT, often very good over this range.",4.2.3,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+4.2,52,38,equation_context/eq_4_2_pdf_052.png,pages/pdf_page_052.png,"The equation of state reported for dynamic viscosity is a polynomial fit of an exponential
+equation that claims a greater range of validity than the original equation and data the fit
+was made to capture from Kirst et al. [46]
+Reis et al. used the equations:
+ρ
+= 2293.6 −0.7497 T
+(4.2)
+    ",\rho=2293.6-0.7497T,Legacy HITEC density,A,"Reis/Janz [9,26]",kg/m^3; T in K,Same density form retained in 5.15 and our model.,4.3.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+4.3,52,38,equation_context/eq_4_3_pdf_052.png,pages/pdf_page_052.png,"equation that claims a greater range of validity than the original equation and data the fit
+was made to capture from Kirst et al. [46]
+Reis et al. used the equations:
+ρ
+= 2293.6 −0.7497 T
+(4.2)
+µ
+= 0.4737 −2.297 × 10−3 T + 3.731 × 10−6 T 2 −2.019 × 10−9 T 3
+(4.3)
+ ",\mu=0.4737-2.297\times10^{-3}T+3.731\times10^{-6}T^2-2.019\times10^{-9}T^3,Legacy HITEC viscosity,A,"Legacy property compilation/Reis [9,26,46]",Pa s; T in K,Reconstruction-only branch; do not replace modern viscosity. Rounded appendix differs appreciably.,4.3.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+4.4,52,38,equation_context/eq_4_4_pdf_052.png,pages/pdf_page_052.png,"was made to capture from Kirst et al. [46]
+Reis et al. used the equations:
+ρ
+= 2293.6 −0.7497 T
+(4.2)
+µ
+= 0.4737 −2.297 × 10−3 T + 3.731 × 10−6 T 2 −2.019 × 10−9 T 3
+(4.3)
+cp
+= 5806 −10.833 T + 7.2413 × 10−3 T 2
+(4.4)
+  ",c_p=5806-10.833T+7.2413\times10^{-3}T^2,Legacy HITEC heat capacity,A,"Legacy compilation/Reis [9,26,47]",J/(kg K); T in K,Different cp package from our current 1423.47. Retain for explaining historical nondimensional values only.,4.3.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+4.5,52,38,equation_context/eq_4_5_pdf_052.png,pages/pdf_page_052.png,"ρ
+= 2293.6 −0.7497 T
+(4.2)
+µ
+= 0.4737 −2.297 × 10−3 T + 3.731 × 10−6 T 2 −2.019 × 10−9 T 3
+(4.3)
+cp
+= 5806 −10.833 T + 7.2413 × 10−3 T 2
+(4.4)
+k
+= 0.78 −1.25 × 10−3 T + 1.6 × 10−6 T 2
+(4.5)",k=0.78-1.25\times10^{-3}T+1.6\times10^{-6}T^2,HITEC conductivity,A,"Reis/Santini [9,48]",W/(m K); T in K,Same as 5.18; exact coefficient provenance/range remains partly source-limited online.,4.3.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+4.6,55,41,equation_context/eq_4_6_pdf_055.png,pages/pdf_page_055.png,"From Reis et al.’s Equation 25, we can reproduce the full matrix’s range of uncertainty for
+the net heat into the system within roughly 1% of the reported values for the maximally
+heated cases. An uncertainty of 20% was assumed for the heat loss calibration
+σQnet = Qnet
+��σQh
+Qh
+�2
++
+�σQloss
+Qloss
+�2
+(4.6)",\sigma_{Qnet}=Q_{net}\sqrt{(\sigma_{Qh}/Q_h)^2+(\sigma_{Qloss}/Q_{loss})^2},Net-heat uncertainty as printed,A,Attributed to Reis Eq.25 [9]; Ethan reconstructs,W,"Not standard independent propagation for difference Qh-Qloss. Correct absolute RSS is sqrt(sigma_Qh^2+sigma_Qloss^2), with covariance if correlated; use full measurement model for m cp DeltaT.",4.5.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+4.7,55,41,equation_context/eq_4_7_pdf_055.png,pages/pdf_page_055.png,"heated cases. An uncertainty of 20% was assumed for the heat loss calibration
+σQnet = Qnet
+��σQh
+Qh
+�2
++
+�σQloss
+Qloss
+�2
+(4.6)
+Qnet = ˙mCp(TP6 −TP2)
+(4.7)",Q_{net}=\dot m c_p(TP6-TP2),Heater-region energy estimate,A,Experimental reduction [9],W,"Must match actual control volume, cp package and sensor/operator. Table4.4 DeltaT row differs from TableC.1 TP6-TP2.",4.5.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+4.8,56,42,equation_context/eq_4_8_pdf_056.png,pages/pdf_page_056.png,"Qloss = Qh −Qnet
+(4.8)",Q_{loss}=Q_h-Q_{net},Residual inferred loss,A,"Energy accounting, Ethan reconstruction",W,"Negative residual is a consistency diagnostic, not proof of unphysical experiment; propagated property/operator errors can cause it.",4.5.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+4.9,57,43,equation_context/eq_4_9_pdf_057.png,pages/pdf_page_057.png,"˙m [kg/s]
+0.0158
+0.0168
+0.0175
+0.0201
+0.0083
+0.0100
+0.0120
+0.0151
+and the experimentalists, it was determined that the method used to produce the values for
+U∞seen in Table 4.5 was
+UPIV = 2
+R2
+�R
+0
+U(r) r dr,
+(4.9)","U_{PIV}=\frac{2}{R^2}\int_0^R U(r)r\,dr",Axisymmetric PIV-to-area operator,A,Ethan reconstructs experimental processing [9],m/s,Axisymmetry and use of right-half profile are assumptions; not physical net transport in asymmetric recirculating 3D flow.,4.5.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+4.10,57,43,equation_context/eq_4_10_pdf_057.png,pages/pdf_page_057.png,"U∞seen in Table 4.5 was
+UPIV = 2
+R2
+�R
+0
+U(r) r dr,
+(4.9)
+U∞= UPIV
+�Dtest
+Dpipe
+�2
+.
+(4.10)",U_\infty=U_{PIV}(D_{test}/D_{pipe})^2,Test-section to pipe velocity conversion,A,Continuity plus Ethan's reconstruction,m/s,Use signed net mass flux for runtime/ROM targets; keep experimental operator separate.,4.5.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+4.11,60,46,equation_context/eq_4_11_pdf_060.png,pages/pdf_page_060.png,"the profile, as the ends of the profiles have the greatest error associated with them.
+From the results in Table 4.6, the digitization uncertainty assigned to the water velocity
+profiles is rounded up from the tabulated L2 percent error of 1.36% to the assigned value of
+udig = 1.5%
+(4.11)",u_{dig}=1.5\%,Assigned digitization uncertainty,B,Ethan's salt-based reconstruction calibration,percent,"Global assigned RMSE bound, not pointwise guarantee: Table4.6 worst RMSE=3.65%, max discrepancy=14.10%.",4.5.3,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.1,67,53,equation_context/eq_5_1_pdf_067.png,pages/pdf_page_067.png,"• Inner boundary: Fixed temperature from thermocouple reading.
+• Outer boundary: Natural convection using the Churchill-Chu correlation [49] blended
+for pipe orientation (horizontal to vertical), plus Stefan-Boltzmann radiation:
+NuL =
+
+
+
+
+
+
+
+0.825 + 0.387
+
+
+RaL
+�
+1 + (0.492/Pr)9/16�16/9
+
+
+1/6
+
+
+
+
+
+
+2
+(5.1)",\overline{Nu}_L=\left[0.825+\frac{0.387Ra_L^{1/6}}{[1+(0.492/Pr)^{9/16}]^{8/27}}\right]^2,Vertical plate natural convection,A,Churchill-Chu [49],dimensionless,Uses air properties and characteristic L; vertical-cylinder curvature applicability must be checked.,5.1.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.2,67,53,equation_context/eq_5_2_pdf_067.png,pages/pdf_page_067.png,"NuL =
+
+
+
+
+
+
+
+0.825 + 0.387
+
+
+RaL
+�
+1 + (0.492/Pr)9/16�16/9
+
+
+1/6
+
+
+
+
+
+
+2
+(5.1)
+NuD =
+
+
+
+
+
+
+
+0.60 + 0.387
+
+
+RaD
+�
+1 + (0.559/Pr)9/16�16/9
+
+
+1/6
+
+
+
+
+
+
+2
+(5.2)",\overline{Nu}_D=\left[0.60+\frac{0.387Ra_D^{1/6}}{[1+(0.559/Pr)^{9/16}]^{8/27}}\right]^2,Horizontal-cylinder natural convection,A,Churchill-Chu horizontal-cylinder paper; absent as separate [49] entry,dimensionless,Uses outer insulation diameter and air properties. Add correct horizontal-cylinder citation.,5.1.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.3,67,53,equation_context/eq_5_3_pdf_067.png,pages/pdf_page_067.png,"
+
+
+1 + (0.492/Pr)
+
+
+
+NuD =
+
+
+
+
+
+
+
+0.60 + 0.387
+
+
+RaD
+�
+1 + (0.559/Pr)9/16�16/9
+
+
+1/6
+
+
+
+
+
+
+2
+(5.2)
+hext = Nueff k
+D
+(5.3)",h_{ext}=\overline{Nu}_{eff}k/D,Nusselt-to-convection coefficient,A,Definition,W/(m^2 K),For vertical correlation h=Nu_L k/L; do not use D for a vertical Nu_L. Eq5.5's blend of h is safer than a blend of unequal-length Nu values.,5.1.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.4,67,53,equation_context/eq_5_4_pdf_067.png,pages/pdf_page_067.png,"NuD =
+
+
+
+
+
+
+
+0.60 + 0.387
+
+
+RaD
+�
+1 + (0.559/Pr)9/16�16/9
+
+
+1/6
+
+
+
+
+
+
+2
+(5.2)
+hext = Nueff k
+D
+(5.3)
+qouter = hext(Ts −T∞) + εσ(T 4
+s −T 4
+∞),
+(5.4)",q_{outer}=h_{ext}(T_s-T_\infty)+\epsilon\sigma(T_s^4-T_\infty^4),Outside convection plus radiation,A,Established heat transfer,W/m^2 outer surface,Use absolute K in radiation; distinguish air temperature and radiative surroundings when available.,5.1.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.5,68,54,equation_context/eq_5_5_pdf_068.png,pages/pdf_page_068.png,"segments to use only the vertical Nusselt number equation. This work uses p = 2.
+heff = (1 −w) hhorizontal + w hvertical
+(5.5)",h_{eff}=(1-w)h_{horizontal}+wh_{vertical},Orientation blend,B,Ethan's engineering interpolation,W/(m^2 K),w=sin(theta)^2 from horizontal. Not a validated inclined-cylinder law; test endpoints and sensitivity.,5.1.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.6,68,54,equation_context/eq_5_6_pdf_068.png,pages/pdf_page_068.png,"the temperature and heat flux.
+5.1.3
+Cooler Heat Removal
+The cooling power is computed using an energy balance on the air side:
+Qcooler = ˙mair [cp(Tout)Tout −cp(Tin)Tin] ,
+(5.6)",Q_{cooler}=\dot m_{air}[c_p(T_{out})T_{out}-c_p(T_{in})T_{in}],Cooler formula as printed - correction required,A,"Ethan's stated implementation, not valid general enthalpy identity",W,"Replace with mdot integral(cp dT). For AppendixB air cp, 25-to-113 C: printed formula +2.1408% vs integral; midpoint cp differs only -0.0292%.",5.1.3,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.7,70,56,equation_context/eq_5_7_pdf_070.png,pages/pdf_page_070.png,"5.1.5
+Energy Balance Results
+For each test case, the energy balance takes the form:
+Qheater + Qtest section −Qcooler −Qpassive −Qfins = Qunaccounted,
+(5.7)",Q_{heater}+Q_{test\ section}-Q_{cooler}-Q_{passive}-Q_{fins}=Q_{unaccounted},Global energy ledger,A,Conservation; Ethan's component partition,W,Directly useful; keep prescribed electrical input separate from fluid-delivered heat and each loss category.,5.1.5,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.8,71,57,equation_context/eq_5_8_pdf_071.png,pages/pdf_page_071.png,"Conservation of mass is
+∂ρ
+∂t + ∇· (ρU) = 0.
+(5.8)",\partial_t\rho+\nabla\cdot(\rho\mathbf U)=0,Variable-density mass conservation,A,Standard governing equation/OpenFOAM,kg/(m^3 s),"Consistent with rho(T), not strictly constant-density divergence-free incompressibility.",5.2.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.9,71,57,equation_context/eq_5_9_pdf_071.png,pages/pdf_page_071.png,"Conservation of mass is
+∂ρ
+∂t + ∇· (ρU) = 0.
+(5.8)
+Conservation of momentum is
+∂(ρU)
+∂t
++ ∇· (ρU ⊗U) = −∇prgh −(g · r) ∇ρ + ∇· τ eff,
+(5.9)",\partial_t(\rho\mathbf U)+\nabla\cdot(\rho\mathbf U\otimes\mathbf U)=-\nabla p_{rgh}-(\mathbf g\cdot\mathbf r)\nabla\rho+\nabla\cdot\tau_{eff},Buoyant-pressure momentum,A,Standard pressure transformation/OpenFOAM,N/m^3,Reconstruct physical p before pressure-loss reduction; audit g/position reference and signs.,5.2.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.10,71,57,equation_context/eq_5_10_pdf_071.png,pages/pdf_page_071.png,"∂(ρU)
+∂t
++ ∇· (ρU ⊗U) = −∇prgh −(g · r) ∇ρ + ∇· τ eff,
+(5.9)
+where r is the position vector, g is the gravitational acceleration, and the pressure is decom-
+posed as
+prgh ≡p −ρ g · r.
+(5.10)",p_{rgh}=p-\rho\mathbf g\cdot\mathbf r,Pressure decomposition,A,OpenFOAM convention,Pa,Use our actual xref/ghRef; do not compare p_rgh directly with physical static pressure.,5.2.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.11,71,57,equation_context/eq_5_11_pdf_071.png,pages/pdf_page_071.png,"ancy enters Equation (5.9) solely through the (g · r) ∇ρ term. So, for a single-phase, isother-
+mal loop, the ∇ρ term would reduce to zero. This is exactly what we would expect for a
+system with a uniform density gratient: no natural circulation.
+The effective stress tensor is
+τ eff = µeff
+�
+∇U + (∇U)T −2
+3 (∇· U) I
+�
+,
+µeff = µ + µt,
+(5.11)","\tau_{eff}=\mu_{eff}[\nabla\mathbf U+(\nabla\mathbf U)^T-\frac23(\nabla\cdot\mathbf U)\mathbf I],\quad\mu_{eff}=\mu+\mu_t",Variable-viscosity effective stress,A,Newtonian/RANS constitutive law,Pa,Our laminar cases set mu_t=0; do not silently introduce turbulence.,5.2.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.12,71,57,equation_context/eq_5_12_pdf_071.png,pages/pdf_page_071.png,"in which µ = µ(T) is the molecular dynamic viscosity and µt is the turbulent viscosity sup-
+plied by the closure model (Section 5.2.3). The transpose and dilatation terms are retained
+because µ varies appreciably over the operating temperature range and ∇· U ̸= 0.
+Conservation of energy is solved in enthalpy form,
+∂(ρh)
+∂t
++ ∇· (ρUh) + ∂(ρK)
+∂t
++ ∇· (ρUK) −∂p
+∂t = ∇· (αeff∇h) + ρ U · g,
+(5.12)",\partial_t(\rho h)+\nabla\cdot(\rho\mathbf U h)+\partial_t(\rho K)+\nabla\cdot(\rho\mathbf U K)-\partial_t p=\nabla\cdot(\alpha_{eff}\nabla h)+\rho\mathbf U\cdot\mathbf g,Enthalpy/kinetic energy equation,B,OpenFOAM-style equation,W/m^3,Check actual solver source/version and h vs internal-energy selection; not a direct ROM equation replacement.,5.2.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.13,71,57,equation_context/eq_5_13_pdf_071.png,pages/pdf_page_071.png,"∂(ρh)
+∂t
++ ∇· (ρUh) + ∂(ρK)
+∂t
++ ∇· (ρUK) −∂p
+∂t = ∇· (αeff∇h) + ρ U · g,
+(5.12)
+where h is the specific enthalpy, K = |U|2/2 is the specific kinetic energy, and
+αeff = µ
+Pr + µt
+Prt
+(5.13)",\alpha_{eff}=\mu/Pr+\mu_t/Pr_t,Enthalpy diffusion coefficient,A,OpenFOAM transport model convention,"kg/(m s), not m^2/s",For molecular part alpha_eff=k/cp. Distinguish this dynamic diffusivity from kinematic thermal diffusivity k/(rho cp).,5.2.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.14,72,58,equation_context/eq_5_14_pdf_072.png,pages/pdf_page_072.png,"5.2.2
+Thermophysical Model
+Within OpenFOAM, the thermophysical model uses the heRhoThermo class with the icoPolyno
+equation of state, which evaluates density as a polynomial function of temperature:
+ρ(T) =
+N
+�
+i=0
+aiT i.
+(5.14)",\rho(T)=\sum_{i=0}^{N}a_iT^i,Polynomial density model,B,OpenFOAM icoPolynomial,kg/m^3,"Use actual exported coefficients, interpolation and valid temperature range.",5.2.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.15,72,58,equation_context/eq_5_15_pdf_072.png,pages/pdf_page_072.png,"Transport properties (µ, k) and specific heat (cp) are similarly represented as temperature-
+dependent polynomials. This avoids the Boussinesq approximation entirely since tempera-
+ture variations are captured in all terms of the governing equations.
+ρ[kg/m3]
+= 2293.6 −0.7497 T
+(5.15)
+ ",\rho=2293.6-0.7497T,Current HITEC density,A,"Janz [26], as cited by Ethan",kg/m^3; T in K,Our formula matches; PDF p54 nominal temperature has Celsius-to-Kelvin typo.,5.2.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.16,72,58,equation_context/eq_5_16_pdf_072.png,pages/pdf_page_072.png,"dependent polynomials. This avoids the Boussinesq approximation entirely since tempera-
+ture variations are captured in all terms of the governing equations.
+ρ[kg/m3]
+= 2293.6 −0.7497 T
+(5.15)
+µ[Pa s]
+= 1.149 × 10−3 exp (−810.896/T + 7.806 × 105/ T 2)
+(5.16)",\mu=1.149\times10^{-3}\exp(-810.896/T+7.806\times10^5/T^2),Modern HITEC viscosity,A,Jin et al. [50],Pa s; T in K,"Our formula matches; publisher confirms study/2.5% uncertainty, exact fitted coefficients not independently accessible online.",5.2.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.17,72,58,equation_context/eq_5_17_pdf_072.png,pages/pdf_page_072.png,"ture variations are captured in all terms of the governing equations.
+ρ[kg/m3]
+= 2293.6 −0.7497 T
+(5.15)
+µ[Pa s]
+= 1.149 × 10−3 exp (−810.896/T + 7.806 × 105/ T 2)
+(5.16)
+cp[J/kg K]
+≈1423.47
+(5.17)
+  ",c_p\approx1423.47,Modern HITEC constant cp,A,"Parida-Basu [51], base salt measurement",J/(kg K),"Primary article reports 1.42347 J/(g K), confirming unit conversion; +/-4% is Ethan's inferred range, not a measured standard uncertainty.",5.2.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.18,72,58,equation_context/eq_5_18_pdf_072.png,pages/pdf_page_072.png,"ρ[kg/m3]
+= 2293.6 −0.7497 T
+(5.15)
+µ[Pa s]
+= 1.149 × 10−3 exp (−810.896/T + 7.806 × 105/ T 2)
+(5.16)
+cp[J/kg K]
+≈1423.47
+(5.17)
+k[W/m K]
+= 0.78 −1.25 × 10−3 T + 1.6 × 10−6 T 2
+(5.18)",k=0.78-1.25\times10^{-3}T+1.6\times10^{-6}T^2,Current HITEC conductivity,A,"Santini [48], as cited",W/(m K); T in K,Same as4.5. Correct cited year to1984; exact validity and uncertainty need source verification.,5.2.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.19,74,60,equation_context/eq_5_19_pdf_074.png,pages/pdf_page_074.png,"This added term is:
+Gb = −Cg νt (g · ∇ρ) ,
+Cg =
+1
+Prt
+= 1.0
+(5.19)","G_b=-C_g\nu_t(\mathbf g\cdot\nabla\rho),\quad C_g=1/Pr_t=1",Buoyant turbulence production,C,Ethan custom codedFvModel,W/m^3 if volumetric rho-k equation,Check source normalization; divide rho for a per-mass k equation. Fixed Pr_t=1 is a modeling choice. Not justified for current laminar ROM by this expression alone.,5.2.3,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.20,75,61,equation_context/eq_5_20_pdf_075.png,pages/pdf_page_075.png,"bulk_cell_size
+Interior cell target size
+c2c_expansion
+Cell-to-cell expansion ratio
+From these, the number of boundary layer cells, total boundary layer thickness, core
+ratio, and transition ratio are derived automatically:
+n =
+�ln(∆bulk/∆1)
+ln(rexp)
+�
++ 1,
+(5.20)
+rn
+−1",n=\left\lfloor\frac{\ln(\Delta_{bulk}/\Delta_1)}{\ln r_{exp}}\right\rfloor+1,Wall-grading cell count,C,Ethan meshing implementation,integer,Confirm floor operation and degenerate rexp=1; preserve realized mesh metrics.,5.3.3,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.21,75,61,equation_context/eq_5_21_pdf_075.png,pages/pdf_page_075.png,"From these, the number of boundary layer cells, total boundary layer thickness, core
+ratio, and transition ratio are derived automatically:
+n =
+�ln(∆bulk/∆1)
+ln(rexp)
+�
++ 1,
+(5.20)
+δBL = ∆1
+rn
+exp −1
+rexp −1,
+(5.21)",\delta_{BL}=\Delta_1\frac{r_{exp}^{n}-1}{r_{exp}-1},Graded-layer thickness,C,Geometric series,m,Handle rexp=1 limit n Delta1; not measured hydrodynamic boundary layer thickness.,5.3.3,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.22,75,61,equation_context/eq_5_22_pdf_075.png,pages/pdf_page_075.png,"ratio, and transition ratio are derived automatically:
+n =
+�ln(∆bulk/∆1)
+ln(rexp)
+�
++ 1,
+(5.20)
+δBL = ∆1
+rn
+exp −1
+rexp −1,
+(5.21)
+core_ratio = 1 −δBL/Rpipe.
+(5.22)",core\_ratio=1-\delta_{BL}/R_{pipe},O-grid core fraction,C,Ethan meshing implementation,dimensionless,Require 0<core_ratio<1; not a physical closure.,5.3.3,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.23,77,63,equation_context/eq_5_23_pdf_077.png,pages/pdf_page_077.png,"pipe inner surface to the outer surface, coupled with external heat transfer:
+1. Cylindrical wall conduction: The thermal resistance (per unit inner surface area)
+through N concentric layers is:
+Rps =
+N
+�
+i=1
+r0 ln(ri/ri−1)
+ki
+,
+(5.23)",R_{ps}=\sum_{i=1}^{N}\frac{r_0\ln(r_i/r_{i-1})}{k_i},Cylindrical resistance normalized to inner area,A,Classical conduction; Ethan BC implementation,m^2 K/W,Essential area normalization; our model already has annular resistance. Variable k layers require integral-consistent discretization.,5.4.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.24,77,63,equation_context/eq_5_24_pdf_077.png,pages/pdf_page_077.png,"where r0 is the pipe inner radius, ri−1 and ri are the inner and outer radii of layer i
+(so rN is the outermost surface), and ki is the layer conductivity.
+2. External heat transfer: At the outer surface, convection and radiation are applied:
+qout = Aouter
+Ainner
+�
+hext(Ts −Ta) + εσ(T 4
+s −T 4
+sur)
+�
+,
+(5.24)",q_{out}=\frac{A_{outer}}{A_{inner}}[h_{ext}(T_s-T_a)+\epsilon\sigma(T_s^4-T_{sur}^4)],Outside loss referred to inner wall,A,Conservation/geometry; Ethan BC,W/m^2 inner surface,Aout/Ain=rout/r0 for equal axial length. Source names qout but uses inner-area basis.,5.4.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+5.25,77,63,equation_context/eq_5_25_pdf_077.png,pages/pdf_page_077.png,"Ainner
+where Aouter/Ainner = router/r0 is the area ratio for a cylinder.
+3. Energy balance: The heat flux from the fluid into the wall equals the outward heat
+loss:
+Tp −Ts
+Rps
+= qout,
+(5.25)",(T_p-T_s)/R_{ps}=q_{out},Nonlinear wall closure,A,Classical heat balance; Ethan BC,W/m^2 inner surface,"Tp must be fluid-side wall temperature unless internal film resistance is explicitly included. Add layer electrical sources with correct partition, not only this source-free form.",5.4.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+6.1,87,73,equation_context/eq_6_1_pdf_087.png,pages/pdf_page_087.png,"effects of temperature-dependent property evaluation.
+The adiabatic entry length was set after performing a preliminary hydrodynamic entry
+length calculation as mentioned in Section 2.1 to ensure that assumptions of full hydrody-
+namic development were applicable. The hydrodynamic entry length for laminar pipe flow
+is approximately:
+Lh ≈0.05 Re D = 0.05 × 334 × 0.02 = 334mm.
+(6.1)","L_h\approx0.05ReD=0.334\,m",Verification hydrodynamic entry estimate,B,Standard straight-tube estimate; Ethan calculation,m,"Correct arithmetic for Re334,D0.02m. Approximate criterion, not proof in junction-rich loop.",6.1.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+6.2,87,73,equation_context/eq_6_2_pdf_087.png,pages/pdf_page_087.png,"Since Ladiab = 500mm > Lh, the velocity profile is fully developed before the heated section
+begins.
+The thermal entry length, by contrast, is:
+Lt ≈0.05 Re Pr D = 0.05 × 334 × 53.2 × 0.02 = 17.8m,
+(6.2)","L_t\approx0.05RePrD=17.8\,m",Verification thermal entry estimate,B,Standard straight-tube estimate; Ethan calculation,m,"Correct arithmetic; constant-property verification case uses legacy cp and Pr53.2, not modern operating salt cp.",6.1.1,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+6.3,87,73,equation_context/eq_6_3_pdf_087.png,pages/pdf_page_087.png,"6.1.2
+Analytical Reference
+The analytical heat flow was computed from a two-node thermal resistance network. For
+Mode A (convection only), the total resistance is the sum of three series resistances (all per
+unit inner surface area):
+Q = (Tamb −Tf) Ainner
+Rint + Rps + Rext
+.
+(6.3)",Q=(T_{amb}-T_f)A_{inner}/(R_{int}+R_{ps}+R_{ext}),Area-normalized verification heat flow,A,Classical resistance network; Ethan application,W,"Same sign convention as3.12. Reference is correlation-based for internal film, not exact analytic full PDE solution.",6.1.2,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.
+B.1,125,111,equation_context/eq_B_1_pdf_125.png,pages/pdf_page_125.png,"This appendix documents the thermophysical property polynomial coefficients used in the
+OpenFOAM simulations. All properties are expressed as polynomials in temperature T [K]:
+ϕ(T) =
+N
+�
+i=0
+aiT i.
+(B.1)",\phi(T)=\sum_{i=0}^{N}a_iT^i,Generic property polynomial,A,Standard representation,Property-dependent; T in K,"Tables B1,B2,B4 are coefficient sets, included as separate unnumbered equation groups; do not silently use legacy B1 over current5.15-18.",Appendix B opening,Source-page transcription visually checked; primary-source verification and limitations in fact-check register.

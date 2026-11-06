@@ -1,0 +1,43 @@
+100 simulated seconds, the change in the average loop temperature over is less than 10−4 %,
+the variance of the temperature probes changes by less than 0.1 %, (higher threshold set for
+water cases with relatively strong, but still statistically stationary fluctuations) and there is
+less than a 0.01 % change in mass flow rate. Most cases are an order of magnitude or more
+converged beyond these criteria.
+The PIMPLE algorithm is configured with:
+Parameter
+Value
+nOuterCorrectors
+1
+nCorrectors
+2
+nNonOrthogonalCorrectors
+1
+5.5.2
+Discretization Schemes
+Term
+Scheme
+Time (ddt)
+backward
+Gradient (grad)
+Gauss linear
+Divergence (U, h)
+Gauss limitedLinear 1.0
+Laplacian
+Gauss linear corrected
+The limitedLinear scheme is a second-order scheme that provides stability for buoyancy-
+driven flows while maintaining second-order accuracy in smooth regions.
+5.5.3
+Linear Solvers
+Field
+Solver
+Preconditioner
+Tolerance
+prgh
+GAMG
+DIC Gauss-Seidel
+10−6
+U, h
+PBiCGStab
+DILU
+10−6
+65

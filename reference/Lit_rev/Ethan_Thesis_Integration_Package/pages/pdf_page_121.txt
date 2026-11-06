@@ -1,0 +1,45 @@
+Appendix A
+Mesh Details
+This appendix provides additional details on the mesh topology and generation procedure
+described in Section 5.3.
+A.1
+Loop Geometry Specification
+Table A.1 lists all pipe segments in the loop path, including segment type, length, and any
+non-default pipe radius.
+Table A.1: Loop path segments. All dimensions in mm. Default pipe radius is 11.811 mm.
+Segment
+Type
+Length / Angle
+Radius
+Notes
+Lower leg (heater region)
+pipeleg_lower_01_fitting
+straight
+31.5
+—
+Junction patch
+pipeleg_lower_02_straight
+straight
+78.4
+—
+pipeleg_lower_03_bend
+bend
+−21.5◦, r = 25.4
+—
+Negative bend
+pipeleg_lower_04_straight
+straight
+220.0
+—
+Heater zone
+pipeleg_lower_05_straight
+straight
+220.0
+—
+Heater zone
+pipeleg_lower_06_straight
+straight
+220.0
+—
+Heater zone
+107

@@ -1,0 +1,30 @@
+• Heated test section: Ltest = 100.0 mm
+Both the simulation and the analytical reference use constant fluid properties evaluated
+at based on the equations of state used by Reis et al. [9] covered in Chapter 4. T = 440
+K, (ρ = 1964 kg / m3, µ = 0.01176Pa s, cp = 2442J / kg K, k = 0.540W / m K, ε = 0.85,
+Pr = 53.2, Re = 334). This isolates the boundary condition discretization error from any
+effects of temperature-dependent property evaluation.
+The adiabatic entry length was set after performing a preliminary hydrodynamic entry
+length calculation as mentioned in Section 2.1 to ensure that assumptions of full hydrody-
+namic development were applicable. The hydrodynamic entry length for laminar pipe flow
+is approximately:
+Lh ≈0.05 Re D = 0.05 × 334 × 0.02 = 334mm.
+(6.1)
+Since Ladiab = 500mm > Lh, the velocity profile is fully developed before the heated section
+begins.
+The thermal entry length, by contrast, is:
+Lt ≈0.05 Re Pr D = 0.05 × 334 × 53.2 × 0.02 = 17.8m,
+(6.2)
+so the flow is thermally developing throughout the entire 100 mm test section (Ltest ≪
+Lt). This Graetz-corrected thermal development is accounted for in the analytical reference
+(Section 6.1.2).
+6.1.2
+Analytical Reference
+The analytical heat flow was computed from a two-node thermal resistance network. For
+Mode A (convection only), the total resistance is the sum of three series resistances (all per
+unit inner surface area):
+Q = (Tamb −Tf) Ainner
+Rint + Rps + Rext
+.
+(6.3)
+73

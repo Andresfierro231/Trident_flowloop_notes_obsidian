@@ -1,0 +1,23 @@
+that warrants concern at first, but by looking at Figure 6.4, you can see that there is also a
+geometric convergence at play as the cylindrical mesh converges towards a truly cylindrical
+shape. This additional source of convergence results in an artifical inflation of the observed
+order higher than the numerical theory would predict. As for the values of pobs attached to the
+area-averaged heat fluxes, two trends are notable. First, the values of pobs for the finer triplet
+of meshes (M/F/X) are each ≈2. Second order convergence is expected for the temperature
+field and since heat flux is obtained from differentiating the temperature distribution, the
+conservative bounding of heat flux expects pobs. Three factors contribute to the pobs ≈2 that
+we see in Table 6.5: the numerical schemes used in OpenFOAM for simulation are second
+order across the board, the analytic solution for heat flux with rcExternalTemperature
+directly using the second order convergent Temperature field, and the use of high-quality
+meshes contributing towards a smooth, asymptotic expansion of the temperature distribution
+limiting the impact of numerical discretization error.
+To summarize, all three modes satisfy the acceptance criteria:
+• GCIfine < 0.01% (far below the 2% acceptance threshold).
+• Asymptotic ratio ≈1.0 (confirming solutions are in the asymptotic range).
+• Energy balance residual qbalance < 10−12 W/m2 (machine precision).
+• Relative error on the finest mesh < 0.1%.
+With the acceptance criteria met, the verification cases each reproduce the analytical
+solution within 0.1% on the finest mesh and each mode converging strongly, the boundary
+condition rcExternalTemperature can be classified as successfully verified by the V&V
+methodology set in Chapter 3
+78

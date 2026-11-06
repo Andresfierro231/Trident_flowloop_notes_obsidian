@@ -1,0 +1,20 @@
+Figure 3.1: Equivalent cylindrical thermal circuit used to compute the analytical reference
+heat flow for Mode C (Mixed mode, h∞> 0, ε > 0).
+mistakes in the code. The three thermal modes were:
+1. Mode A: External convection only, (h∞> 0, ε = 0)
+2. Mode B: Thermal radiation only, (h∞= 0, ε > 0)
+3. Mode C: Combined convection and radiation (h∞> 0, ε > 0)
+For each mode, the analytical reference heat flow is computed using a thermal circuit ap-
+proach (Figure 3.1) for which the verification case was designed to best-match the assump-
+tions a thermal circuit would use. Those assumptions are:
+• Axisymmetric Geometry: both sections of pipe are straight, co-linear, and cylin-
+drical.
+• Constant Centerline Temperature: the non-adiabatic region being examined is
+short and the flow is fast, resulting in a negligible ∆T from the region’s inlet to outlet.
+• Steady-State Flow: with constant boundary conditions, there is no surviving d/dt
+after the flow develops
+• Constant Material Properties: the simulation and circuit use constant properties.
+• Constant Environmental Conditions: the ambient temperature T∞, convective
+heat transfer coefficient h∞and environmental emissivity (assumed equal to 1), are set
+as constants.
+28

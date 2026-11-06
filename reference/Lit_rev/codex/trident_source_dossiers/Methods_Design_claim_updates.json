@@ -1,0 +1,230 @@
+[
+  {
+    "id": "S07-C01",
+    "claim": "Parameter, prediction and discrimination goals require distinct utility choices.",
+    "sources": [
+      "S07"
+    ],
+    "locator": "§2.1,PDF4",
+    "limit": "Demonstrations target parameter information.",
+    "dossier": "dossiers/S07_Huan_Marzouk_design.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S07-C02",
+    "claim": "Expected parameter-information gain averages posterior/prior KL over prospective data.",
+    "sources": [
+      "S07"
+    ],
+    "locator": "Eqs4–8,PDF6–7",
+    "limit": "Conditional on prior/model/likelihood.",
+    "dossier": "dossiers/S07_Huan_Marzouk_design.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S07-C03",
+    "claim": "Joint experiment information is generally nonadditive.",
+    "sources": [
+      "S07"
+    ],
+    "locator": "§2.2,PDF7;AppendixA,PDF49–50",
+    "limit": "Assumed conditional independence; repetition can serve other goals.",
+    "dossier": "dossiers/S07_Huan_Marzouk_design.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S07-C04",
+    "claim": "Finite inner sampling and sample reuse contribute estimator bias.",
+    "sources": [
+      "S07"
+    ],
+    "locator": "§2.3,PDF8;AppendixB,PDF50–51",
+    "limit": "More outer samples alone do not remove bias.",
+    "dossier": "dossiers/S07_Huan_Marzouk_design.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S07-C05",
+    "claim": "The surrogate spans parameter and design variables and approximates outputs, not internal state reduction.",
+    "sources": [
+      "S07"
+    ],
+    "locator": "§3,PDF10–14",
+    "limit": "Not interchangeable with a physical loop ROM.",
+    "dossier": "dossiers/S07_Huan_Marzouk_design.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S07-C06",
+    "claim": "Observable selection and prior support can change the preferred experiment.",
+    "sources": [
+      "S07"
+    ],
+    "locator": "§§5/6.5,PDF16–17/20–21",
+    "limit": "Example-specific; define TRIDENT observations first.",
+    "dossier": "dossiers/S07_Huan_Marzouk_design.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S07-C07",
+    "claim": "A surrogate adequate for design can be inaccurate for posterior inference.",
+    "sources": [
+      "S07"
+    ],
+    "locator": "§6.7,PDF23–24",
+    "limit": "Need target-specific surrogate verification.",
+    "dossier": "dossiers/S07_Huan_Marzouk_design.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S07-C08",
+    "claim": "Demonstrations infer from simulated data; structural inadequacy remains an explicit limitation.",
+    "sources": [
+      "S07"
+    ],
+    "locator": "§6.5,PDF20;§7,PDF24–25",
+    "limit": "No new loop/combustion experiment validation.",
+    "dossier": "dossiers/S07_Huan_Marzouk_design.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S07-C09",
+    "claim": "Printed SPSA sign and perturbation conventions require checking before implementation.",
+    "sources": [
+      "S07"
+    ],
+    "locator": "Eqs11–13,PDF9",
+    "limit": "Analyst audit, not code verdict.",
+    "dossier": "dossiers/S07_Huan_Marzouk_design.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S18-C01",
+    "claim": "The model couples two buoyancy loops through a conducting/storage wall and Fourier reduction.",
+    "sources": [
+      "S18"
+    ],
+    "locator": "§§2–3,PDF3–10",
+    "limit": "Not a single-loop/prescribed-secondary equivalent.",
+    "dossier": "dossiers/S18_Dass_Gedupudi_conjugate_preprint.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S18-C02",
+    "claim": "CFD uses fictitious fluid at Pr.000125.",
+    "sources": [
+      "S18"
+    ],
+    "locator": "Tables3/5,PDF12",
+    "limit": "No direct glycol/salt material validation.",
+    "dossier": "dossiers/S18_Dass_Gedupudi_conjugate_preprint.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S18-C03",
+    "claim": "Localized thermal coupling produces modal convolutions.",
+    "sources": [
+      "S18"
+    ],
+    "locator": "Eqs24–28,PDF6–7",
+    "limit": "Contrasts restricted S59 closure.",
+    "dossier": "dossiers/S18_Dass_Gedupudi_conjugate_preprint.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S18-C04",
+    "claim": "Three retained mode orders are checked against bulk Re/average temperature.",
+    "sources": [
+      "S18"
+    ],
+    "locator": "§3.6,Fig2,PDF10",
+    "limit": "Not three total states or local-field convergence.",
+    "dossier": "dossiers/S18_Dass_Gedupudi_conjugate_preprint.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S18-C05",
+    "claim": "Main conjugate transient assessment is against CFD; experiment comparison is indirect/single-loop.",
+    "sources": [
+      "S18"
+    ],
+    "locator": "§§4.2.3/4.4,PDF13–17",
+    "limit": "No direct new coupled-loop experiment validation.",
+    "dossier": "dossiers/S18_Dass_Gedupudi_conjugate_preprint.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S18-C06",
+    "claim": "Inclination-dependent heat-transfer correction is informed by the same CFD study.",
+    "sources": [
+      "S18"
+    ],
+    "locator": "Eq55,Figs12–13,PDF17–19",
+    "limit": "Not independent generalization evidence.",
+    "dossier": "dossiers/S18_Dass_Gedupudi_conjugate_preprint.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S18-C07",
+    "claim": "Reported Re/temperature differences are approximately5%/15% for specified cases.",
+    "sources": [
+      "S18"
+    ],
+    "locator": "§4.4.2,PDF16",
+    "limit": "Comparison errors, not uncertainty bounds.",
+    "dossier": "dossiers/S18_Dass_Gedupudi_conjugate_preprint.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S18-C08",
+    "claim": "Printed preprint equations need source/sign/prefactor/conjugacy reconciliation.",
+    "sources": [
+      "S18"
+    ],
+    "locator": "Eqs2–5/19/26/30–36/74,PDF4–7/27",
+    "limit": "Analyst audit; code not evaluated.",
+    "dossier": "dossiers/S18_Dass_Gedupudi_conjugate_preprint.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S18-C09",
+    "claim": "Appendix large-step sensitivity ratios do not prove negligible change of the QoIs.",
+    "sources": [
+      "S18"
+    ],
+    "locator": "Tables6–8,PDF27–28",
+    "limit": "Analyst qualification; endpoint changes calculated above.",
+    "dossier": "dossiers/S18_Dass_Gedupudi_conjugate_preprint.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S18-C10",
+    "claim": "Wall-parameter settling interpretation differs between body and conclusion.",
+    "sources": [
+      "S18"
+    ],
+    "locator": "§5.2,PDF21;§7,PDF26",
+    "limit": "Unresolved preprint inconsistency.",
+    "dossier": "dossiers/S18_Dass_Gedupudi_conjugate_preprint.md",
+    "status": "scoped_manuscript_evidence_or_explicit_analyst_appraisal",
+    "extraction_date": "2026-10-20"
+  }
+]

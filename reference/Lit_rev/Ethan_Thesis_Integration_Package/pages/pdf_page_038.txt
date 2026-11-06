@@ -1,0 +1,44 @@
+with three or more meshes, e21
+a is the approximate relative error,
+e21
+a =
+
+ϕ12
+1 −ϕ2
+ϕ12
+1
+
+(3.8)
+and eext is the extrapolated relative error,
+e21
+ext =
+
+ϕ12
+ext −ϕ1
+ϕ12
+ext
+
+(3.9)
+With those five steps complete, we can then determine if the solutions are in the asymp-
+totic range where the leading-order error term dominates uncertainty by calculating the
+asymptotic ratio (AR) using the following equation
+AR =
+GCIcoarse
+rpobs
+21 GCIfine
+≈1.
+(3.10)
+Where an asymptotic ratio near 1 denotes that the solutions are within the asymptotic range
+and that the GCI provides a reliable estimate of uncertainty.
+3.3.1
+Convergence Classification
+The ratio R = ε21/ε32 classifies the convergence behavior:
+• 0 < R < 1: Monotonic convergence, where the changes in the solution shrink in
+response to mesh refinement.
+• R < 0: Oscillatory convergence, where the signs of the changes in the solution
+alternate in response to mesh refinement.
+• R > 1: Divergence, where the changes in the solution grow in response to mesh
+refinement
+Only when the solutions converge monotonically is clean Richardson extrapolation using
+the GCI estimate permissible. Oscillatory or divergent behavior classifications may signal
+24

@@ -1,0 +1,28 @@
+Abbreviations
+AMI
+Arbitrary Mesh Interface
+BC
+Boundary Condition
+CFD
+Computational Fluid Dynamics
+CHT
+Conjugate Heat Transfer
+GCI
+Grid Convergence Index
+IAPWS
+International Association for the Properties of Water and Steam
+MSR
+Molten Salt Reactor
+NCC
+Non-Conformal Coupling
+NCL
+Natural Circulation Loop
+PIV
+Particle Image Velocimetry
+QoI
+Quantity of Interest
+RANS
+Reynolds-Averaged Navier–Stokes
+V&V
+Verification and Validation
+2

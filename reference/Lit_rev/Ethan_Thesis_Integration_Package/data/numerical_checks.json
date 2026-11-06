@@ -1,0 +1,57 @@
+{
+  "description": "Independent arithmetic checks of source statements; not a simulation or experimental reanalysis.",
+  "temperature_conversion_C200_to_K": 473.15,
+  "modern_properties": [
+    {
+      "T_K": 473.15,
+      "T_C": 200.0,
+      "rho_kg_m3": 1938.879445,
+      "mu_Pa_s": 0.00676592040353571,
+      "cp_J_kgK": 1423.47,
+      "k_W_mK": 0.546755976,
+      "Pr": 17.61496012769868
+    },
+    {
+      "T_K": 493.15,
+      "T_C": 220.0,
+      "rho_kg_m3": 1923.885445,
+      "mu_Pa_s": 0.005497631649402861,
+      "cp_J_kgK": 1423.47,
+      "k_W_mK": 0.552677576,
+      "Pr": 14.15963676437542
+    }
+  ],
+  "cooler": {
+    "Tin_K": 298.15,
+    "Tout_K": 386.15,
+    "integral_J_kg": 88816.38762462465,
+    "printed_eq5_6_J_kg": 90717.77357783174,
+    "midpoint_J_kg": 88790.4720303164,
+    "printed_error_pct": 2.1408053221474654,
+    "midpoint_error_pct": -0.029178843005606137
+  },
+  "Graetz_reference": {
+    "Gz": 3554,
+    "Nu_from_eq3_13": 23.733561345345574,
+    "Nu_appendix": 26.67,
+    "h_recomputed_W_m2K": 640.8061563243306,
+    "Rint_recomputed_m2K_W": 0.001560534320918526
+  },
+  "salt_deltaTP6_minus_TP2_K": [
+    9.26,
+    9.97,
+    9.08,
+    6.8
+  ],
+  "salt_Qnet_diagnostic_modern_cp_W": [
+    208.26504876,
+    238.42553112000002,
+    226.18938300000002,
+    194.55987960000002
+  ],
+  "geometry_scaling": {
+    "area_ratio_093_over_087": 1.1426872770511298,
+    "velocity_ratio_at_fixed_mdot_rho": 0.8751300728407907,
+    "laminar_resistance_ratio_at_fixed_flow": 0.7658526443903277
+  }
+}

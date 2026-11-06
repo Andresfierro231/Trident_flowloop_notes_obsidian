@@ -1,0 +1,28 @@
+exact coefficients are listed in Appendix B.
+5.2.3
+Turbulence Modeling
+Initially, all the simulations in this work were scoped to only examine laminar modeling of
+the experiments as the pipe Reynolds numbers (ReD = 75-1110) are well below the critical
+value for turbulent transition (ReD ≈2300) in typical pipe flow. However, early simulation
+attempts did not recreate the skewed velocity profile shape seen in water tests 3 and 4 and the
+flucuations present in the water tests were much greater than the salt test simulations. The
+idea that the salt tests were "more laminar" than the water tests led to the idea that some
+amount of turbulence was being incurred despite being below the typical critical Reynolds
+number. As mentioned in Section 2.1 the long entry lengths delay or prevent full-velocity
+development, which would give creedance to shifting the characteristic length of the flow
+from the typical dimension of the pipe’s inner diameter, to the height of the loop. Calcu-
+lating the Rayleigh number of the system using this characteristic length produces values
+exceeding 1010, which is known as the critical threshold for turbulence in cases involving
+natural circulation. Typically in a pipe flow such as this, the transition to turbulence pre-
+dicted by a critical Rayleigh number would be suppressed by the full development of the
+laminar velocity profile before the transition could occur, but because of our provably long
+hydrodynamic entry lengths, we can predict to see some level of turbulence, especially in
+water cases 3 and 4; which are exactly the two cases that whose velocity profiles are better
+captured by turbulence modeling than laminar modeling as seen in Chapter 6.
+As any turbulence present was theorized to be in the midst of transitioning from laminar
+flow, the transitional turbulence model, k −ω SSTLM was chosen as the primary modeling
+choice. Secondarily, when researching the k−ω SSTLM model that OpenFOAM uses, it is the
+standard formulation that assumes the production of turbulent kinetic energy from buoyant
+effects is negligible. So, a codedFvModel was made to reintroduce the buoyant production of
+turbulent kinetic energy when the extension "*_Gb" was found on a simulation case name.
+59

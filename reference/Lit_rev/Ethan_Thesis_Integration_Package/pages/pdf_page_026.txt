@@ -1,0 +1,28 @@
+water, limits the allowable temperature difference near room temperature to approximately
+1.25 ◦C. Consistent with those bounds, Bückle and Perić [16] found in simulations of buoy-
+ant convection of ethanol within a square cavity, that Boussinesq-based solutions deviated
+appreciably from both variable-property solutions and experimental observations once the
+temperature difference reached approximately 10 ◦C, and Krishnani and Basu [17] demon-
+strated for natural circulation loops specifically that the approximation can alter predicted
+transient behavior even at modest temperature differences. The experiments studied in this
+thesis do not come close to satisfying these bounds. The published bulk fluid temperature
+differences span 1.29 −1.67 ◦C for the water cases and 5.63 −11.16 ◦C for the salt cases
+(Tables 4.3 and 4.2), so even the mildest water case sits at the water bound of Gray and
+Giorgini. The temperature range the fluid properties must actually be evaluated over an
+evem wider range. Heater-adjacent wall thermocouples read approximately 11 ◦C (water)
+and 28 ◦C (salt) above the coolest fluid probe in the highest-power cases, and across the full
+test matrices the wetted surfaces span approximately 39 −71 ◦C for water and 167 −231 ◦C
+for salt. This temperature span means no single reference state for either fluid can serve the
+whole matrix fluid. That, paired with the desire for a unified modeling approach across both
+working fluids, led to the decision for the present work to retain full temperature dependence
+of every fluid property (Chapter 5).
+NCLs have been studied for decades. For such a system to achieve steady-state circu-
+lation, the buoyancy head is balanced by the frictional losses integrated along the loop’s
+path. From that idea, works such as Vijayan and Austregesilo [18] developed generalized
+scaling laws spanning multiple flow regimes and Vijayan later also published trends of sta-
+bility for NCLs [19]. Analyses such as these are established workhorses of loop design and
+analysis, but also remain contingent on the applicability of the boussinesq approximation
+and the assumption that fully developed flow correlations hold. When performing prelimi-
+nary entry length calculations, the laminar hydrodynamic and thermal entry lengths scale
+as Lh ≈0.03 ReD D and Lt ≈0.043 ReD Pr D [20] to be within 5% of full development. So,
+12

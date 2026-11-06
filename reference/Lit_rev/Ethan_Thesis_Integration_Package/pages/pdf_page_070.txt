@@ -1,0 +1,27 @@
+5.1.5
+Energy Balance Results
+For each test case, the energy balance takes the form:
+Qheater + Qtest section −Qcooler −Qpassive −Qfins = Qunaccounted,
+(5.7)
+where Qpassive is the total convection and radiation loss from the each of the pipe segments,
+and Qfins is the total fin loss.
+The first order model solves each of the 8 experimental cases at once to verify the model’s
+applicability to the test matrix. Initially, this universal approach shared insulation configura-
+tions between all 8 cases as there are no are no mentions of changes in insulation being done
+between the performance of the water and the salt cases. Under this constraint, the global
+energy balance of both the water and salt cases could not be acceptably closed simultane-
+ously, leading to the conclusion that there must have been different insulation configurations
+between the water suite and salt suite of experiments, which was subsequently confirmed by
+the experimentalists.
+With that confirmation, and the use of two different insulation thicknesses, the model
+achieves acceptable energy closure for all test cases, with the exception of salt test 1. The
+anamoloies regarding salt test 1 will be further elaborated on in Chapter 6.
+5.2
+OpenFOAM Simulation
+5.2.1
+Governing Equations
+The simulations solve the steady-state incompressible Navier-Stokes equations with buoyancy
+and temperature-dependent properties. The continuity, momentum, and energy equations
+in the PIMPLE (merged PISO-SIMPLE) framework are: conservation of mass, momentum,
+and energy.
+56

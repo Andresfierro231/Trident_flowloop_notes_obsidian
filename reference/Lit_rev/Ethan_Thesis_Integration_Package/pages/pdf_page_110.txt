@@ -1,0 +1,29 @@
+6.5
+Discrepancies and Possible Explanations
+First, the dataset associated with salt test 1 has been determined as faulty in some unknown
+way, but with several corresponding reasons. The first aberration within the dataset can be
+seen in the Appendix C Table C.1. Specifically, Salt 1’s record of TW10 being greater than
+the value recorded for Salt 2; given that these measurements were asserted to be taken at
+steady-state, and Salt 2’s power input is greater than Salt 1, it should be impossible to record
+a higher temperature baring significantly different environmental effects on account of the
+second reason. Second, given the nominal input heater powers, differing by roughly 30-40 W
+in each successive salt case, the expected increase in temperature between case 2 and 3 and
+then 3 and 4 does not apply between the nominal power increase between salt 1 and salt 2.
+Third, for the salt data that was given by the experimentalists, the numbering ran from 2 to
+9, citing a failed first test with no usable data among the other unpublished cases. For those
+reasons, magnified by the strength of the V&V effort applied to the remaining 7 cases, it
+is believed that Salt 1 suffered from data mislabeling, entry error, or other not-understood
+misalignment from the presented configuration that was not able to be resolved even with the
+help of the experimentalists and has thusly been disqualified from determining the success
+of the current work’s Verification and Validation for this dataset.
+Second, despite being technically validated, the large differences in the magnitudes of
+Umax for salt test 4 leave room for improvement and on a related note, the difference in
+flow development between successive profile heights was much greater for the experimental
+case than predicted in this work. This is most likely attributable to the difference in test-
+section heating. Reis et al. [24] Figure 8 demonstrates the heat applied to the test section
+was concentrated at either end of the quartz glass, whereas the quartz within this model
+assumed a uniform distribution of the heat flux. The heat flux being applied through distinct
+rings likely resulted in a stronger impulse of buoyant force resultant by the more concentrated
+heating at the beginning and end of the test section. The effect of this was potentially further
+amplified by the high Prandtl number of molten HITEC not permitting heat to penetrate
+96

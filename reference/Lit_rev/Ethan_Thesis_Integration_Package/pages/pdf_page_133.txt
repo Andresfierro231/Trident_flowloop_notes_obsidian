@@ -1,0 +1,162 @@
+Table C.6:
+Numerical Uncertainties for CFD Quantities of Interest (water tests, k ω
+SSTLM_Gb turbulence model, two-grid GCI, medium level)
+QoI
+Water 1
+Water 2
+Water 3
+Water 4
+TPmean [K]
+0.019
+0.072
+0.066
+0.021
+TWmean [K]
+0.033
+0.057
+0.053
+0.067
+˙mflow [%]
+0.49
+0.31
+1.23
+0.83
+˙mPIV [%]
+1.43
+14.51
+9.71
+22.37
+UPIV [%]
+1.42
+14.50
+9.71
+22.37
+Umax [%]
+0.30
+7.84
+3.87
+4.05
+Table C.7: Validation uncertainty for the centerline (TPmean) and wall (TWmean) tempera-
+tures. uD = 1.1 K (thermocouple) for both variants.
+TPmean [K]
+TWmean [K]
+Case
+unum
+uinput
+uval
+unum
+uinput
+uval
+Salt 1 (Laminar)
+0.19
+3.63
+3.80
+0.28
+3.63
+3.81
+Salt 2 (Laminar)
+0.96
+3.68
+3.96
+0.30
+3.68
+3.85
+Salt 3 (Laminar)
+1.34
+3.91
+4.28
+0.31
+3.91
+4.07
+Salt 4 (Laminar)
+1.93
+4.20
+4.75
+0.22
+4.20
+4.35
+Water 1 (Laminar)
+0.03
+1.39
+1.77
+0.02
+1.39
+1.77
+Water 2 (Laminar)
+0.04
+1.58
+1.93
+0.05
+1.58
+1.93
+Water 3 (Laminar)
+0.04
+1.73
+2.05
+0.03
+1.73
+2.05
+Water 4 (Laminar)
+0.09
+2.11
+2.38
+0.03
+2.11
+2.38
+Water 1 (k ω SSTLM)
+0.00
+1.39
+1.77
+0.03
+1.39
+1.77
+Water 2 (k ω SSTLM)
+0.02
+1.58
+1.93
+0.05
+1.58
+1.93
+Water 3 (k ω SSTLM)
+0.06
+1.73
+2.05
+0.04
+1.73
+2.05
+Water 4 (k ω SSTLM)
+0.08
+2.11
+2.38
+0.05
+2.11
+2.38
+Water 1 (k ω SSTLM_Gb)
+0.02
+1.39
+1.77
+0.03
+1.39
+1.77
+Water 2 (k ω SSTLM_Gb)
+0.07
+1.58
+1.93
+0.06
+1.58
+1.93
+Water 3 (k ω SSTLM_Gb)
+0.07
+1.73
+2.06
+0.05
+1.73
+2.05
+Water 4 (k ω SSTLM_Gb)
+0.02
+2.11
+2.38
+0.07
+2.11
+2.38
+119

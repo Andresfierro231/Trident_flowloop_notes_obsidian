@@ -1,0 +1,19 @@
+4.5.3
+Velocity Data Extraction
+Rather than being satisfied with only the full-field salt data and giving a best-guess at the
+performance of the simulated water cases, the extraction of three distinct velocity profile
+heights of Y/H = 0.25, 0.50, and 0.75 in Figure 14 of Reis et al.
+[9] was inspired by
+the experience of performing image pixel-measurements for the modeling effort described in
+Chapter 5.
+Source Figures and Axis Calibration
+First, Figure 12 and 14 from Reis et al. [9] were zoomed in on as much as possible to fully
+capture one of the four subfigures for each figure in-frame. From there, the "source" image
+is turned into a "calibration" image to ensure that the axes and origin for the figure are
+set correctly along side the alignment of vertical and horizontal gridlines with the major
+tickmarks along the x and y axes.
+Figure 4.2: Source Image (left) and Calibration Image (right)
+Curve Extraction
+From there, the source image is used again with the calibrated coordinate frame and the
+addition of two "masking" frames to allow for the clean extraction of the line data without
+44

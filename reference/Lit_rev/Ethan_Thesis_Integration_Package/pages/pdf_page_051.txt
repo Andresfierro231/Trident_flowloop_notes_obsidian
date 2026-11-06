@@ -1,0 +1,23 @@
+tracer particles that were introduced to the flow and were visualized using high-speed imaging
+to capture the instantaneous positions of the tracer particles within a 1 mm, radially centered
+laser sheet to record the velocity profile passing through the transparent test section.
+Two different cameras were used to record theses velocity fields, one targeting the full-
+field velocity and another targeting the near-wall velocity field. The full-field PIV camera
+recorded 6000 images at 250 frames per second and the near-wall PIV camera recorded 8000
+images at 1000 frames per second for datasets of roughly 24 and 8 seconds respectively,
+assuming all images were used.
+4.2.3
+Cooling System Measurements
+The cooling system seen on the top leg of the loop is a concentric counter-flow heat exchanger,
+using room temperature air as the coolant for the experimental facility. The heat exchanger
+ran at a constant volumetric flow rate of 188 L/min for the water cases and 37 L/min for
+the salt cases. The heat exchanger jacket was 1 foot long and used two reducer fittings
+(McMaster: 44705K661) on either side of the jacket to mount the cooling jacket onto the
+loop.
+To determine the heat removed by the heat exchanger, temperature measurements were
+taken by the same K-type thermocouples at the coolant’s inlet and outlet and then Reis et
+al. determined the energy loss from the heat exchanger by evaluating the properties of air
+at the average temperature of the inlet and outlet and using the equation
+Q = ˙mCp(Tout −Tin).
+(4.1)
+37

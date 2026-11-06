@@ -17,3 +17,5 @@ Registers and inventories are reference metadata. Preserve source/question IDs a
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/LINK_REPAIR_QUEUE.md|Known scoped link debt]]
 
 - Box literature discovery: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/box_library/README.md|content catalog, bounded search and refresh]]. Tool: python3 tools/box_library.py; original PDFs stay in Box, source-specific notes and curation remain separate from generated records.
+
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/REFERENCE_INPUTS.md|Reference collection and exact move provenance]].

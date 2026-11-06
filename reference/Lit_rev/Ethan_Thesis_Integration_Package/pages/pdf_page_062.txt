@@ -1,0 +1,20 @@
+Chapter 5
+Computational Modeling
+This chapter describes the two computational models developed for this thesis: a first-order
+energy balance model for closing the experimental energy budget, and the three-dimensional
+OpenFOAM CFD simulation of the full loop.
+5.1
+First-Order Energy Balance Model
+5.1.1
+Purpose and Approach
+As seen in Chapter 4, there is considerable uncertainty with respect to the global energy
+balance of the experimental facility. Lacking information such as detailed insulation config-
+urations, external thermal imaging, or insulation temperature measurements, the first step
+that needed to be taken in order to model the system was to improve our understanding
+of the energy flow into and out of the system. Before tackling that though, it was deemed
+prudent to ensure the geometry of the system was well understood as while the publication
+lists some helpful dimensions, they are insufficient for simulated reproduction of the exper-
+imental results. The exact construct of the facility was not available; neither a computer
+model, detailed dimensions, nor Bill of Materials could be provided. Furthermore, the in-
+strumentation diagram did not align with as-constructed images of the experimental facility.
+48

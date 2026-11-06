@@ -1,0 +1,36 @@
+Greek Symbols
+β
+Volumetric thermal expansion coefficient
+1/K
+∆
+Difference
+—
+ε
+Emissivity; relative error
+—
+µ
+Dynamic viscosity
+Pa s
+ν
+Kinematic viscosity
+m2/s
+ρ
+Density
+kg/m3
+σ
+Stefan–Boltzmann constant
+W/(m2 K4)
+Dimensionless Numbers
+Gr = gβ∆TL3/ν2
+Grashof number
+Nu = hD/k
+Nusselt number
+Pr = ν/α = µcp/k
+Prandtl number
+Ra = Gr · Pr
+Rayleigh number
+Re = ρUD/µ
+Reynolds number
+Ri = Gr/Re2
+Richardson number
+1

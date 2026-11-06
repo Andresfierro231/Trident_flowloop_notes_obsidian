@@ -1,0 +1,526 @@
+\documentclass[11pt]{article}
+
+\usepackage[letterpaper,margin=0.88in,headheight=22pt]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Charis SIL}{\setmainfont{Charis SIL}}{\setmainfont{TeX Gyre Pagella}}
+\IfFontExistsTF{Arimo}{\setsansfont{Arimo}}{\setsansfont{TeX Gyre Heros}}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc,decorations.pathreplacing}
+\usepackage[most]{tcolorbox}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lastpage}
+\usepackage{needspace}
+\usepackage{graphbox} % Extends graphicx
+
+% University of Texas at Austin brand palette
+\definecolor{UTBurntOrange}{HTML}{BF5700}
+\definecolor{UTCharcoal}{HTML}{333F48}
+\definecolor{UTLightOrange}{HTML}{F8971F}
+\definecolor{UTWarmGray}{HTML}{D6D2C4}
+\definecolor{UTSlate}{HTML}{9CADB7}
+\definecolor{UTBlue}{HTML}{005F86}
+\definecolor{UTBlueBright}{HTML}{00A9B7}
+\definecolor{UTWarmLight}{HTML}{F6F5F2}
+\definecolor{UTBlueLight}{HTML}{EEF5F7}
+\definecolor{UTGrayLight}{HTML}{F4F5F6}
+
+% Backward-compatible semantic aliases used throughout the document
+\colorlet{Navy}{UTCharcoal}
+\colorlet{Teal}{UTBurntOrange}
+\colorlet{LightTeal}{UTBlueLight}
+\colorlet{LightBlue}{UTWarmLight}
+\colorlet{LightGray}{UTGrayLight}
+\colorlet{MidGray}{UTCharcoal!78}
+\colorlet{RuleGray}{UTWarmGray}
+\colorlet{Warn}{UTLightOrange}
+\colorlet{LightWarn}{UTWarmLight}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=UTBurntOrange,
+  urlcolor=UTBlue,
+  citecolor=UTCharcoal,
+  pdftitle={STNCL Phase-Specific Experimental Plan},
+  pdfauthor={TRIDENT Collaboration (UT Austin, ACU, VCU)}
+}
+
+\sisetup{
+  detect-all,
+  per-mode=symbol,
+  range-phrase=--,
+  range-units=single,
+  group-separator={,},
+  group-minimum-digits=4,
+  group-digits=integer
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5.5pt}
+\setlength{\emergencystretch}{1.5em}
+\setlist[itemize]{leftmargin=1.35em,itemsep=2.5pt,topsep=3pt}
+\setlist[enumerate]{leftmargin=1.55em,itemsep=3pt,topsep=3pt}
+\renewcommand{\arraystretch}{1.18}
+\titlespacing{\paragraph}{0pt}{0.5ex plus 0.5ex minus .2ex}{1em}
+
+\titleformat{\section}
+  {\Large\sffamily\bfseries\color{UTBurntOrange}}
+  {\thesection}{0.65em}{}
+  [\vspace{1pt}\color{UTWarmGray}\titlerule]
+\titleformat{\subsection}
+  {\large\sffamily\bfseries\color{UTCharcoal}}
+  {\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}
+  {\normalsize\sffamily\bfseries\color{UTCharcoal}}
+  {\thesubsubsection}{0.55em}{}
+\titlespacing*{\section}{0pt}{14pt}{7pt}
+\titlespacing*{\subsection}{0pt}{11pt}{4pt}
+\titlespacing*{\subsubsection}{0pt}{8pt}{2pt}
+
+% Keep a heading from being stranded alone at the bottom of a page:
+% require room for the title plus a few body lines, else break to the next page.
+\usepackage{etoolbox}
+\pretocmd{\section}{\needspace{5\baselineskip}}{}{}
+\pretocmd{\subsection}{\needspace{7\baselineskip}}{}{}
+\pretocmd{\subsubsection}{\needspace{5\baselineskip}}{}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily\color{UTCharcoal}Prop-30 Glycol STNCL \textbullet\ TRIDENT}
+\fancyhead[R]{\small\sffamily\color{UTBurntOrange}\PhaseDocShort -- Draft}
+\fancyfoot[L]{\small\sffamily\color{UTCharcoal!78}Revision 0.1}
+\fancyfoot[R]{\small\sffamily\color{UTCharcoal!78}Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.65pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{UTBurntOrange}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0pt}
+
+\newtcolorbox{recommendbox}[1][]{
+  enhanced,
+  breakable,
+  colback=UTWarmLight,
+  colframe=UTBurntOrange,
+  colbacktitle=UTBurntOrange,
+  boxrule=0.7pt,
+  arc=1.2mm,
+  left=3mm,right=3mm,top=2.4mm,bottom=2.4mm,
+  title={#1},
+  fonttitle=\sffamily\bfseries,
+  coltitle=white
+}
+
+\newcommand{\Tavg}{T_{\mathrm{avg},4}}
+\newcommand{\Tdiag}{T_{\mathrm{diag}}}
+\newcommand{\Thot}{T_{\mathrm{hot}}}
+\newcommand{\Tcold}{T_{\mathrm{cold}}}
+\newcommand{\QHs}{\dot Q_{H}^{s}}
+\newcommand{\QCs}{\dot Q_{C}^{s}}
+\newcommand{\mdotp}{\dot m_{p}}
+\newcommand{\mdotpH}{\dot m_{p,H}}
+\newcommand{\mdotpC}{\dot m_{p,C}}
+\newcommand{\Tamb}{T_{\mathrm{amb}}}
+\newcommand{\Rey}{\mathrm{Re}}
+\newcommand{\Realpart}[1]{\Re\left(#1\right)}
+
+\newcommand{\PhaseDocShort}{Phase 4: Initial Test Matrix and Transition Characterization}
+
+% Cross-document names used instead of duplicating material owned by another phase.
+\newcommand{\PhaseZeroDoc}{\textit{Phase 0 --- System Checkout}}
+\newcommand{\PhaseOneDoc}{\textit{Phase 1 --- Ambient-Equilibrium Baseline}}
+\newcommand{\PhaseTwoDoc}{\textit{Phase 2 --- Thermal Relaxation Tests}}
+\newcommand{\PhaseThreeDoc}{\textit{Phase 3 --- Low-Duty Steady Heat-Loss Tests}}
+\newcommand{\PhaseFourDoc}{\textit{Phase 4 --- Initial Test Matrix and Transition Characterization}}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+  \fill[UTBurntOrange] (current page.north west) rectangle ([yshift=-0.16in]current page.north east);
+  \fill[UTWarmLight] ([yshift=1.45in]current page.south west) rectangle (current page.south east);
+  \fill[UTBurntOrange] (current page.south west) rectangle ([yshift=0.16in]current page.south east);
+\end{tikzpicture}
+\noindent\includegraphics[width=2.5in]{images/TRIDENT_logo.png}
+
+{\color{UTWarmGray}\rule{\textwidth}{0.8pt}}
+\vspace{0.24in}
+\begin{tcolorbox}[
+  enhanced, frame hidden, colback=white, boxrule=0pt,
+  borderline west={4pt}{0pt}{UTBurntOrange},
+  left=5mm,right=0mm,top=1mm,bottom=1mm, sharp corners
+]
+{\raggedright\sffamily\bfseries\fontsize{23}{27}\selectfont\color{UTCharcoal}
+Experimental Plan for the Initial Characterization of the Prop-30 Glycol Salt Twin Natural Circulation Loop (STNCL)\par}
+\vspace{0.15in}
+{\sffamily\bfseries\fontsize{16}{20}\selectfont\color{UTBurntOrange}
+Phase 4: Initial Test Matrix and Transition Characterization\par}
+\vspace{0.10in}
+{\sffamily\fontsize{11.5}{15}\selectfont\color{UTCharcoal}
+Operating-state matrix, inferred natural-circulation flow, transitions, repeatability, and path dependence\par}
+\end{tcolorbox}
+
+\vspace{0.30in}
+\begin{tcolorbox}[
+  enhanced, colback=UTWarmLight, colframe=UTWarmGray, boxrule=0.6pt,
+  arc=1.2mm, left=3.5mm,right=3.5mm,top=3mm,bottom=3mm
+]
+{\setlength{\parskip}{0pt}\renewcommand{\arraystretch}{1.28}
+\begin{tabularx}{\textwidth}{@{}>{\sffamily\bfseries\color{UTBurntOrange}}l>{\raggedright\arraybackslash}X@{}}
+Status: & Draft for team review and facility-specific completion \\
+Revision: & 0.1 \\
+Date: & August 17, 2026 \\
+Prepared for: & TRIDENT collaboration \\
+\end{tabularx}}
+\end{tcolorbox}
+
+\vfill
+\noindent
+\includegraphics[height=2.5cm, align=c]{images/ACU.png}\hfill
+\includegraphics[height=1.5cm, align=c]{images/UT.png}\hfill
+\includegraphics[height=1.25cm, align=c]{images/VCU.png}
+\vspace{-0.6in}
+\end{titlepage}
+\clearpage
+\hypersetup{pageanchor=true}
+
+\clearpage
+\pagenumbering{roman}
+\section*{Revision History}
+\addcontentsline{toc}{section}{Revision History}
+\begin{tabularx}{\textwidth}{@{}p{0.75in}p{1.2in}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{1.15in}@{}}
+\toprule
+\textbf{Revision} & \textbf{Date} & \textbf{Description} & \textbf{Status} \\
+\midrule
+0.1 & 2026-08-17 & Phase-specific split of the initial characterization plan; technical content retained with cross-document references where material is owned by an earlier phase. & Draft \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.25in}
+\section*{Approval and Configuration Record}
+\addcontentsline{toc}{section}{Approval and Configuration Record}
+\begin{tabularx}{\textwidth}{@{}p{1.55in}X p{1.25in}p{1.05in}@{}}
+\toprule
+\textbf{Role} & \textbf{Signature} & \textbf{Date} & \textbf{Revision} \\
+\midrule
+Lead, UT & & & \\
+Lead, VCU & & & \\
+Lead, ACU & & & \\
+\bottomrule
+\end{tabularx}
+\clearpage
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+
+\section{Introduction}
+\label{sec:introduction}
+\subsection{Purpose}
+Phase~4 executes the Initial Test Matrix and uses the same runs and transitions to characterize the effects of heater duty and mean temperature, the demonstrated Reynolds-number range, transition time, repeatability, path dependence, and a conservative demonstrated feasible region. It does not map the complete facility operating envelope.
+
+\subsection{Prerequisites and required data}
+Phases~0--3 shall be dispositioned as \textbf{Proceed}. Use the Phase~0 configuration, measurement-plane definitions, fluid-property source and sign conventions; the Phase~1 frozen state-acceptance, uncertainty, covariance, and resolvability methods; the Phase~2 operational settling value $\tau_{\mathrm{slow,op}}$; and the independently validated, frozen Phase~4 reduction model and property database resulting from Phase~3. Those foundations are not repeated here.
+
+Phase~4 requires a heater/cooler control configuration capable of establishing the planned $(\Tavg,\QHs)$ states, synchronized exchanger measurements capable of supporting independent primary-flow estimates, and complete transition, control, environmental, condensation, alarm, and event records.
+
+\clearpage
+\section{Technical Basis}
+\label{sec:technical_basis}
+\subsection{Canonical Coordinates for the Initial Test Matrix}
+
+The \emph{Initial Test Matrix} is the small, structured set of operating states selected for the first characterization campaign. It is not intended to map the complete feasible operating region. Instead, it provides a limited set of well-characterized states for evaluating the effects of mean temperature and heater duty, estimating the attainable Reynolds-number range, measuring transition time, and checking repeatability and path dependence. The results will be used to design a larger follow-on test matrix.
+
+The loop operating state may be described using several equivalent temperature coordinates, including $(\Thot,\Tcold)$ or $(\Tavg,\Delta T_{\mathrm{loop}})$. These quantities are useful for reporting and comparing results, but they are coupled responses of the natural-circulation system and cannot generally be prescribed independently. Their steady-state values depend jointly on heater duty, cooler operation, environmental heat transfer, fluid properties, hydraulic resistance, and the resulting circulation state.
+
+For the Initial Test Matrix, the canonical coordinates shall therefore be
+
+\begin{equation}
+    \left(\Tavg,\,\QHs\right),
+\end{equation}
+
+where $\Tavg$ defines the mean-temperature level and $\QHs$ defines the measured heater-side thermal input. The cooler shall be adjusted as needed to establish and maintain the target mean-temperature range. Thus, $\Tavg$ and $\QHs$ organize the Initial Test Matrix, while $\Thot$, $\Tcold$, $\Delta T_{\mathrm{loop}}$, $\mdotp$, and $\Rey$ characterize the resulting natural-circulation response.
+
+
+
+\subsection{Primary-flow and Reynolds-number inference}
+\label{sec:flow_inference}
+
+For each Phase~4 state, infer primary flow independently from the heater and cooler energy balances for that state, using the ambient-loss corrections from the independently validated and frozen Phase~4 reduction model. The Phase~3 tests establish that correction model; they do not supply the Phase~4 exchanger balances. Quantitative flow shall be reported only for a calibration-quality accepted state that passes the direct exchanger-difference tests of \PhaseOneDoc, Section~2, ``Settling and acceptance of a constant state.
+
+For each fluid, evaluate enthalpy, density, and viscosity from the property source, composition, pressure convention, and version approved in Phase~0 and frozen with the Phase~4 model. Only enthalpy differences enter the balances, so the reference zero cancels. If the approved source provides heat capacity rather than enthalpy directly, calculate
+\begin{equation}
+    h(T_2,c)-h(T_1,c)
+    =
+    \int_{T_1}^{T_2}c_p(T,c)\,dT,
+\end{equation}
+where $c$ denotes the documented fluid composition. Include property-correlation and composition uncertainty in the propagated result.
+
+Let $\dot Q_{a,H}$ and $\dot Q_{a,C}$ be the calibrated ambient losses from the heater and cooler control volumes, with boundaries matched to the primary and secondary measurement planes. Positive ambient loss is to the room. The signed heater- and cooler-side primary-flow estimates are
+\begin{align}
+    \mdotpH
+    &=
+    \frac{\QHs-\dot Q_{a,H}}
+    {\Delta h_H},
+    \label{eq:mdot_h}\\
+    \mdotpC
+    &=
+    \frac{\QCs+\dot Q_{a,C}}
+    {\Delta h_C}.
+    \label{eq:mdot_c}
+\end{align}
+Positive $\mdotp$ denotes the nominal circulation direction documented in \PhaseZeroDoc; a negative estimate indicates inferred reversal and shall be reported explicitly.
+
+Do not report a quantitative estimate from an exchanger unless
+\begin{equation}
+    \frac{|\Delta h|}{u_{\Delta h}}
+    \geq
+    S_{\min},
+    \qquad
+    S_{\min}=5\ \text{(provisional)},
+    \label{eq:enthalpy_conditioning}
+\end{equation}
+and the total relative standard uncertainty satisfies the preapproved requirement
+\begin{equation}
+    \frac{u_{\mdotp}}{|\mdotp|}
+    \leq
+    u_{r,\mdotp,\max}.
+    \label{eq:flow_uncertainty_limit}
+\end{equation}
+Thus a near-isothermal or low-duty state may be useful for heat-loss calibration while being unsuitable for flow inference.
+
+Report both exchanger estimates and their covariance-aware difference. Define
+\begin{equation}
+    u_{\Delta\mdotp}^2
+    =
+    u_{\mdotpH}^2+u_{\mdotpC}^2
+    -2\operatorname{cov}(\mdotpH,\mdotpC),
+\end{equation}
+and require
+\begin{equation}
+    |\mdotpH-\mdotpC|
+    \leq
+    k_{\mathrm{cons}}u_{\Delta\mdotp},
+    \label{eq:flow_consistency}
+\end{equation}
+using a preapproved consistency factor $k_{\mathrm{cons}}$. Reconcile the estimates only after this compatibility test passes. Use covariance-aware generalized least squares; when the estimates are independent, this reduces to inverse-variance weighting. A larger disagreement indicates residual storage, an inadequate ambient-loss correction, a poorly resolved enthalpy change, or a measurement problem and shall be investigated rather than averaged away.
+
+Density is used to convert the signed mass flow to volumetric flow and bulk velocity,
+\begin{equation}
+    \dot V_i=\frac{\mdotp}{\rho(T_{b,i},c)},
+    \qquad
+    u_i=\frac{\mdotp}{\rho(T_{b,i},c)A_i},
+\end{equation}
+where $T_{b,i}$ is the documented local bulk temperature. The local Reynolds number uses the magnitude of the mass flow,
+\begin{equation}
+    \Rey_i
+    =
+    \frac{|\mdotp|D_{h,i}}
+    {A_i\mu(T_{b,i},c)}.
+    \label{eq:re_local}
+\end{equation}
+Report a reference Reynolds number based on the documented nominal diameter and $\Tavg$ for campaign comparisons, and a local range $[\Rey_{\min},\Rey_{\max}]$ based on local diameter and temperature for flow-regime interpretation. Include mass-flow reconciliation, geometry, temperature, density, viscosity, composition, and property-correlation uncertainty.
+
+
+
+\clearpage
+\section{Procedure}
+\label{sec:procedure}
+\label{sec:test_procedure}
+\label{sec:initial_matrix}
+\subsection{Method}
+
+Six states are established in this phase. Each uses the same execution sequence, referred to below as \emph{establishing and recording a state}:
+
+\begin{enumerate}[label=(\alph*),leftmargin=1.9em,itemsep=2pt,topsep=3pt]
+    \item Adjust the heater duty and cooler setting toward the target coordinates conservatively, preserving the complete transition record and monitoring operating limits, alarms, control stability, and condensation.
+    \item Allow at least $\tau_{\mathrm{slow,op}}$ to elapse after the final control or configuration change before evaluation begins, using the conservative value from \PhaseTwoDoc, Section~2, ``Slowest loop time constant.
+    \item Evaluate complete trailing windows against the criteria of \PhaseOneDoc, Section~2, ``Settling and acceptance of a constant state. When the first complete window passes, start the hold clock; all mandatory criteria shall continue to pass for the class hold time.
+    \item Select the reporting interval wholly within the confirmed acceptable span. The reporting interval may overlap the hold interval and does not require a separate additional hold.
+    \item Verify target attainment separately from state constancy using the approved $\Tavg$ and $\QHs$ target bands. A stable off-target state is recorded as such and is not accepted as the intended matrix state.
+    \item Record the online acceptance time, confirmed accepted span, reporting interval, acceptance class, target-band result, and every threshold applied.
+\end{enumerate}
+
+A state that does not reach acceptance within the planned test duration shall be recorded as attempted, with the achieved drift acceptance ratio $\eta_{\mathrm{drift}}$ and the limiting signal reported, rather than accepted at a relaxed threshold.
+
+Each matrix state intended to support quantitative primary-flow inference shall contain a calibration-quality accepted interval. An operating-state interval may still support transition-time, control-behavior, or demonstrated-feasibility results, but it does not satisfy the required quantitative flow output.
+
+Execute the Initial Test Matrix as follows:
+
+\begin{enumerate}
+    \item \textbf{Select the provisional matrix coordinates.}
+    \begin{enumerate}
+        \item Select a middle mean-temperature target, $T_M$, within the approved limits and supported by the earlier phases.
+        \item Select provisional low and high heater duties, $Q_L$ and $Q_H$, expected to be feasible at $T_M$ with conservative operating margin.
+        \item Before executing each state, approve target half-widths $\delta T_{\mathrm{target}}$ and $\delta Q_{\mathrm{target}}$ that are resolvable by the measurements. As $Q_M$, $T_L$, and $T_H$ are selected, confirm that the applicable bands remain narrower than half the spacing between adjacent matrix coordinates. A matrix state attains its target only when
+        \begin{equation}
+            |\overline{\Tavg}-T_{\mathrm{target}}|\leq\delta T_{\mathrm{target}},
+            \qquad
+            |\overline{\QHs}-Q_{\mathrm{target}}|\leq\delta Q_{\mathrm{target}}.
+            \label{eq:target_bands}
+        \end{equation}
+    \end{enumerate}
+
+    \item \textbf{Execute the low- and high-duty anchors.}
+    \begin{enumerate}
+        \item Establish and record State A at $(T_M,Q_L)$.
+        \item Increase heater duty conservatively and establish State C at $(T_M,Q_H)$.
+        \item Preserve the complete transition and record the time required to reach each accepted state.
+    \end{enumerate}
+
+    \item \textbf{Select and execute the intermediate-duty state.}
+    \begin{enumerate}
+        \item Infer the primary mass flow and Reynolds-number ranges for States A and C.
+        \item Select $Q_M$ to provide an intermediate Reynolds-number condition or transition-range candidate while remaining feasible at the planned temperature targets.
+        \item Establish and record State B at $(T_M,Q_M)$.
+    \end{enumerate}
+
+    \item \textbf{Execute the temperature anchors.}
+    \begin{enumerate}
+        \item Select lower and upper mean-temperature targets, $T_L$ and $T_H$, within approved and demonstrated limits.
+        \item Establish and record State D at $(T_L,Q_M)$ and State E at $(T_H,Q_M)$ in an order that minimizes transition time unless safety or control stability requires otherwise.
+    \end{enumerate}
+
+    \item \textbf{Repeat the central state from a different approach.}
+    Return to $(T_M,Q_M)$ from a different prior condition and record the repeat as State B-R using the same acceptance and target-attainment requirements as State B. The response quantities, equivalence limits, combined-uncertainty criterion, and practical-significance thresholds used to judge path dependence shall have been approved before State B is executed. States B and B-R are comparable only when their target coordinates, facility configuration, inventory, and condensation class agree within the approved equivalence limits.
+
+    \item \textbf{Apply hold and termination criteria.}
+    Pause, modify, or terminate a transition if an approved thermal, hydraulic, equipment, secondary-flow, inventory, or condensation limit is approached; sustained instability develops; a required signal fails; an alarm or interlock occurs; or an undocumented configuration change is identified.
+\end{enumerate}
+
+\subsection{Phase 4 Run IDs}
+
+\begin{table}[htbp]
+    \centering
+    \caption{Five-state Initial Test Matrix and path-dependence repeat.}
+    \label{tab:matrix5}
+    \begin{tabularx}{\textwidth}{
+        @{}
+        >{\raggedright\arraybackslash}p{0.90in}
+        >{\raggedright\arraybackslash}p{1.35in}
+        >{\raggedright\arraybackslash}p{1.25in}
+        >{\raggedright\arraybackslash}X
+        @{}
+    }
+        \toprule
+        \textbf{Run ID} &
+        \textbf{Mean temperature} &
+        \textbf{Heater duty} &
+        \textbf{Purpose} \\
+        \midrule
+
+        OP-A & $T_M$ & $Q_L$ & Low-duty and low-Reynolds-number anchor. \\
+        OP-B & $T_M$ & $Q_M$ & Central reference and transition-range candidate. \\
+        OP-C & $T_M$ & $Q_H$ & High-duty and high-Reynolds-number anchor. \\
+        OP-D & $T_L$ & $Q_M$ & Effect of lower mean temperature and higher viscosity. \\
+        OP-E & $T_H$ & $Q_M$ & Effect of higher mean temperature and lower viscosity. \\
+        OP-B-R & $T_M$ & $Q_M$ & Repeatability and path-dependence assessment. \\
+
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+Before executing the remaining states, designate one unique matrix state as the withheld operating-regime applicability case. Evaluate it with the frozen Phase~4 reduction model without refitting. No Phase~4 state shall be used to revise that model in the primary campaign analysis. If the applicability comparison fails, pause quantitative reduction, revise the model under configuration control, and obtain new independent validation before reporting results from the revised model.
+
+\subsection{Analysis and Required Outputs}
+
+The Phase~4 analysis is performed first per state and then across states. For each state, perform the following steps in order:
+
+\begin{enumerate}
+    \item \textbf{Confirm acceptance and target attainment separately.} Confirm each accepted interval with centered windows of \PhaseOneDoc, Section~2, ``Settling and acceptance of a constant state only where a complete centered window is supported by the record, and fix the reporting interval within the confirmed span. Verify target attainment with Equation~\eqref{eq:target_bands}. A stable off-target state is recorded as such and is not accepted as the intended matrix state.
+
+    \item \textbf{Compute accepted-state means and uncertainties} for all measured and derived quantities per \PhaseOneDoc, Section~2, ``Autocorrelation time, number of effective samples, uncertainty, covariance. For a state intended to support quantitative flow inference, this includes the direct-difference quantities $\Delta T_H$, $\Delta T_C$, $\Delta h_H$, and $\Delta h_C$ and their drift and representativeness tests as specified in \PhaseOneDoc, Section~2, ``Settling and acceptance of a constant state; individually flat channels can conceal opposing trends that only the direct differences reveal.
+
+    \item \textbf{Infer primary flow independently from each exchanger} using Equations~\eqref{eq:mdot_h} and \eqref{eq:mdot_c}, with the ambient-loss corrections $\dot Q_{a,H}$ and $\dot Q_{a,C}$ evaluated from the independently validated and frozen Phase~4 reduction model at the conditions of this state. The Phase~3 tests validate that model; they do not supply these corrections. Propagate all uncertainties, including the thermal-model and property-correlation contributions.
+
+    \item \textbf{Apply the conditioning gates.} Report a quantitative estimate from an exchanger only when Equations~\eqref{eq:enthalpy_conditioning} and \eqref{eq:flow_uncertainty_limit} are satisfied. A state failing these gates may still support transition-time, control-behavior, and demonstrated-feasibility outputs, but it does not satisfy the required quantitative flow output.
+
+    \item \textbf{Test consistency, then reconcile.} Evaluate Equation~\eqref{eq:flow_consistency} using the covariance-aware difference. When it passes, reconcile the two estimates by covariance-aware generalized least squares per Section~\ref{sec:flow_inference}. When it fails, investigate residual storage, the ambient-loss correction, the enthalpy resolution, and the measurements rather than averaging the disagreement away.
+
+    \item \textbf{Calculate Reynolds numbers.} From the reconciled flow, report the reference Reynolds number at the documented nominal diameter and $\Tavg$, and the local range per Equation~\eqref{eq:re_local}, with propagated geometry, temperature, density, viscosity, and property-correlation uncertainty.
+\end{enumerate}
+
+Across states, perform the following steps:
+
+\begin{enumerate}
+    \item \textbf{Characterize the duty trend.} Compare States A, B, and C to quantify the effect of heater duty at approximately fixed mean temperature, including where the transition-range candidate falls.
+
+    \item \textbf{Characterize the temperature trend.} Compare States D, B, and E to quantify the effect of mean temperature and temperature-dependent properties at approximately fixed heater duty.
+
+    \item \textbf{Quantify transition cost.} For each transition, report the total transition time from the first commanded departure from the preceding accepted state to the beginning of the new reporting interval, the final-settling time from the last commanded change to that same endpoint, the control effort, and any observed oscillation amplitude and period.
+
+    \item \textbf{Assess repeatability and path dependence.} Confirm that States B and B-R satisfy the approved equivalence limits, then compare the preapproved response set. Classify a difference as path dependent only when it exceeds both the combined-uncertainty criterion and the approved practical-significance threshold; otherwise report the observed difference as repeatability information, which supplies the run-to-run repeatability contribution to later uncertainty budgets.
+
+    \item \textbf{Evaluate the withheld applicability state} with the frozen Phase~4 reduction model, without parameter refitting, and disposition any failure before reporting quantitative flow results.
+
+    \item \textbf{Bound the demonstrated feasible region} using only completed states and observed transitions, and recommend coordinate ranges, state spacing informed by the achieved target bands and observed trend slopes, and a run order informed by the measured transition costs for the follow-on test matrix.
+\end{enumerate}
+
+The required outputs are accepted-state summaries for the five unique states and the repeat, transition records and times, inferred flow and Reynolds-number ranges, path-dependence and validation comparisons, the demonstrated feasible region, and recommendations for the follow-on test matrix. Detailed methods are provided in \PhaseOneDoc, Section~2, ``Settling and acceptance of a constant state, and Section~\ref{sec:flow_inference} of this document.
+
+
+\subsection{Disposition}
+
+Assign \textbf{Proceed} when the completed states and transitions provide adequate temperature, duty, Reynolds-number, transition-cost, repeatability, and path-dependence information for planning the follow-on matrix. Assign \textbf{Repeat} when a required state does not reach an accepted condition, does not attain its approved target band, or does not provide a usable flow estimate. Assign \textbf{Additional work required} when targeted characterization, model revision, or a different sampling strategy is needed before designing the follow-on campaign.
+
+\clearpage
+\appendix
+\section{Nomenclature}
+\label{sec:nomenclature}
+A dot denotes a rate, a hat denotes an estimate or model prediction, an overbar denotes an interval or block mean as stated in context, and $u_x$ denotes the standard uncertainty of quantity $x$. Only symbols used in this phase document are included below.
+
+\begingroup
+\footnotesize
+\setlength{\LTpre}{4pt}
+\setlength{\LTpost}{10pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.10}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.78in}>{\raggedright\arraybackslash}p{1.08in}>{\raggedright\arraybackslash}p{3.62in}@{}}
+\caption{Phase 4 nomenclature.}\label{tab:nomenclature}\\
+\toprule
+\textbf{Symbol} & \textbf{Units} & \textbf{Description} \\
+\midrule
+\endfirsthead
+\multicolumn{3}{l}{\small\itshape Table~\ref{tab:nomenclature} continued from previous page}\\
+\toprule
+\textbf{Symbol} & \textbf{Units} & \textbf{Description} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+$T$ & \si{\degreeCelsius} & Generic measured temperature. \\
+$T_{H,in},T_{H,out},T_{C,in},T_{C,out}$ & \si{\degreeCelsius} & Primary temperatures at the heater and cooler measurement planes. \\
+$\Thot,\,\Tcold,\,\Tavg,\,\Delta T_{\mathrm{loop}}$ & \si{\degreeCelsius} & Hot-leg, cold-leg, four-point mean, and loop temperature-difference coordinates. \\
+$\Delta T_H,\,\Delta T_C$ & \si{\degreeCelsius} & Signed primary temperature changes across the heater and cooler. \\
+$T_L,T_M,T_H,T_{\mathrm{target}},\delta T_{\mathrm{target}}$ & \si{\degreeCelsius} & Matrix mean-temperature levels, target, and approved target half-width. \\
+$T_{b,i}$ & \si{\degreeCelsius} & Local bulk-fluid temperature used for properties in section $i$. \\
+$\QHs,\,\QCs$ & \si{\watt} & Heater duty supplied and cooler duty removed on the secondary side. \\
+$Q,Q_L,Q_M,Q_H,Q_{\mathrm{target}},\delta Q_{\mathrm{target}}$ & \si{\watt} & Generic and matrix heater-duty levels, target, and target half-width. \\
+$\dot Q_{a,H},\,\dot Q_{a,C}$ & \si{\watt} & Ambient losses from the heater and cooler control volumes. \\
+$h(T,c),\,\Delta h_H,\,\Delta h_C$ & \si{\joule\per\kilogram} & Specific enthalpy and signed primary exchanger enthalpy changes. \\
+$c_p(T,c),\,\rho(T,c),\,\mu(T,c)$ & Mixed & Heat capacity, density, and dynamic viscosity for documented composition $c$. \\
+$\dot m_{H,s},\,\dot m_{C,s}$ & \si{\kilogram\per\second} & Heater and cooler secondary mass-flow rates. \\
+$\mdotp,\,\mdotpH,\,\mdotpC,\,\hat{\mdotp}$ & \si{\kilogram\per\second} & Signed primary flow, exchanger estimates, and reconciled estimate. \\
+$\dot V_i,\,u_i,\,A_i,\,D_{h,i}$ & Mixed & Local volumetric flow, bulk velocity, flow area, and hydraulic diameter. \\
+$\Rey,\,\Rey_i,\,\Rey_{\min},\,\Rey_{\max}$ & -- & Reference/local Reynolds numbers and reported local range. \\
+$S_{\min},\,u_{r,\mdotp,\max},\,u_{\Delta\mdotp},\,k_{\mathrm{cons}}$ & Mixed & Flow-conditioning signal ratio, uncertainty limit, exchanger-difference uncertainty, and consistency factor. \\
+$W_{\mathrm{eval}},\,W_{\mathrm{rep}},\,W_{\mathrm{hold}}$ & \si{\minute} & Evaluation, reporting, and continuous-acceptance hold durations. \\
+$\eta_{\mathrm{drift}},\,\rho_i$ & -- & Worst normalized trend ratio and per-signal trend margin ratio. \\
+$\lambda_m,\,\tau_m,\,\tau_{\mathrm{slow}},\,\tau_{\mathrm{slow,op}}$ & Mixed & State-matrix eigenvalue, modal time constant, slowest time constant, and conservative operational settling value. \\
+$i,j,k,m,\ell,\mathcal N_i,c$ & -- & Measurement/model indices, coupled-region set, and documented fluid composition. \\
+\end{longtable}
+\endgroup
+
+\end{document}

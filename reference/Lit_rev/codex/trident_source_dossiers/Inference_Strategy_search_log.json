@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-20",
+  "scope": "Decision-value reading strategy plusS23/S67/S68 extraction",
+  "queries": [
+    "thermal network identifiability Brastein sensor placement2019",
+    "goal oriented experimental design prediction uncertainty model discrepancy thermal",
+    "Quality of grey-box models and identified parameters pdf",
+    "Is stochastic grey-box modelling suited pdf",
+    "Goal-oriented calibration of a model and its modeling errors DOI",
+    "Goal-Oriented Bayesian Optimal Experimental Design24M1649344 authors",
+    "Reynders Diriken Saelens2014 accuracy263 repository",
+    "Deconinck Roels2017 physical properties repository"
+  ],
+  "primary_metadata": [
+    "https://ep.liu.se/en/conference-article.aspx?Article_No=8&issue=170&series=",
+    "https://lirias.kuleuven.be/663455",
+    "https://lirias.kuleuven.be/1615155",
+    "https://doi.org/10.1177/1744259116688384",
+    "https://doi.org/10.1137/24M1649344",
+    "https://doi.org/10.1016/j.cma.2025.118486"
+  ],
+  "new_downloads": [
+    {
+      "id": "S68",
+      "url": "https://www.ep.liu.se/ecp/170/008/ecp19170008.pdf",
+      "status": "retrieval_failed",
+      "error": "<HTTPError 503: 'Service Unavailable'>"
+    },
+    {
+      "id": "S71",
+      "url": "https://arxiv.org/pdf/2403.18072",
+      "status": "pdf_retrieved",
+      "pages": 28,
+      "bytes": 4152948,
+      "cover": "Goal-Oriented Bayesian Optimal Experimental Design for Nonlinear\nModels using Markov Chain Monte Carlo\nShijie Zhong∗, Wanggang Shen†, Tommie Catanach‡, Xun Huan§\nAbstract\nOptimal experimental design (OED) provides a systematic approach to quantify and maximize\nthe value of experimental data. Under a Bayesian approach, conventional OED maximizes the\nexpected information gain (EIG) on model parameters. However, we are often interested in not the\nparameters themselves, but predictive quantities of interest (QoIs) that depend on the parameters in\na nonlinear manner. We present a computational framework of predictive goal-oriented OED (GO-\nOED) suitable for nonlinear observation and prediction models, which seeks the experimental design\nproviding the greatest EIG on the QoIs. In particular, we propose a nested Monte Carlo estimator\nfor the QoI EIG, featuring Markov chain Monte Carlo for posterior sampling and kernel density\nestimation for evaluating the posterior-predictive density and its Kullback-Leibler divergence from\nthe prior-predictive. The GO-OED design is then found by maximizing the EIG over the design\nspace using Bayesian optimization. We demonstrate the effectiveness of the overall nonlinear GO-\nOED method, and illustrate its differences versus conventional non-GO-OED, through various test\nproblems and an application of sensor placement for source inversion in a convection-diffusion field.\n1\nIntroduction\nExperiments play a central role in science and engineering. For example, they can provide data for\nus to better understand the underlying dynamics of a complex syste"
+    },
+    {
+      "id": "S72_thesis",
+      "url": "https://publications.polymtl.ca/59208/1/2024__AntoninPaquette-Rufiange.pdf",
+      "status": "pdf_retrieved",
+      "pages": 163,
+      "bytes": 4813661,
+      "cover": "POLYTECHNIQUE MONTRÉAL\naﬃliée à l’Université de Montréal\nGoal-Oriented Calibration and Validation for Predictive Modeling\nANTONIN PAQUETTE-RUFIANGE\nDépartement de mathématiques et de génie industriel\nThèse présentée en vue de l’obtention du diplôme de Philosophiæ Doctor \nMathématiques de l'ingénieur\nAoût 2024\n© Antonin Paquette-Ruﬁange, 2024.\n"
+    }
+  ],
+  "access_retry": [
+    {
+      "id": "S68",
+      "url": "https://ep.liu.se/ecp/170/008/ecp19170008.pdf",
+      "status": "pdf_retrieved",
+      "pages": 8,
+      "cover": "Sensor placement and parameter identiﬁability in grey-box models\nof building thermal behaviour\nO. M. Brastein∗, R. Sharma, N.-O. Skeie\nDepartment of Electrical Engineering, Information Technology and Cybernetics\nUniversity of South-Eastern Norway, N-3918 Porsgrunn,\n*(ole.m.brastein@usn.no)\nAbstract\nBuilding Energy Management systems can reduce energy\nconsumption for space heating in existing buildings, by\nutilising Model Predictive Control. In such applications,\ngood models of building thermal behaviour is important.\nA popular method for creating such models is creating\nThermal networks, based cognitively on naive physical\ninformation about the building thermal behaviour. Such\nmodels have lumped parameters which must be calibrated\nfrom measured temperatures and weather conditions.\nSince the parameters are calibrated, it is important\nto study the identiﬁability of the parameters, prior to\nanalysing them as physical constants derived from the\nbuilding structure.\nBy utilising a statistica"
+    },
+    {
+      "id": "S69",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378778814005623/pdfft",
+      "status": "failed",
+      "error": "AssertionError()"
+    },
+    {
+      "id": "S70",
+      "url": "https://journals.sagepub.com/doi/pdf/10.1177/1744259116688384",
+      "status": "failed",
+      "error": "<HTTPError 403: 'Forbidden'>"
+    }
+  ],
+  "S69_repository_retry": {
+    "id": "S69",
+    "url": "https://lirias.kuleuven.be/retrieve/62dc6a05-8741-4f8d-965c-94a10a4b648d",
+    "status": "failed",
+    "error": "<HTTPError 503: 'Service Unavailable'>"
+  },
+  "limitations": [
+    "Targeted,non-exhaustive strategy search, not novelty certification.",
+    "S69/S70 metadata/abstract only; S71 cover/abstract only; S72 journalintro/thesischapteropening only.",
+    "S68 date metadata discrepancy explicitly retained. No university subscriptions assumed."
+  ]
+}

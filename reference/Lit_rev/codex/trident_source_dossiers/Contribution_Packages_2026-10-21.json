@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-21",
+  "packages": [
+    {
+      "id": "CP01",
+      "hypothesis_ids": [
+        "H01"
+      ],
+      "gap_type": [
+        "identifiability/theory",
+        "validation implications"
+      ],
+      "narrow_question": "Which parameter/nuisance equivalence classes and target invariants or bounds exist in a specified conservative thermal/transport and observation class?",
+      "falsifiable_hypothesis": "A derived combination/anchor characterization identifies supported targets and improves robustness beyond fitting every physical coefficient.",
+      "strongest_existing": [
+        "S23",
+        "S68",
+        "S70",
+        "S73",
+        "S77"
+      ],
+      "precise_proposed_advance": "Nontrivial additional class-specific information/target-support result including actual energy/observation uncertainties;not elementary G/C or minimum sensors.",
+      "new_understanding": "Which predictions survive internal ambiguity and which independent attainable evidence changes their support.",
+      "domain": "Initially fixed-topology positive constant-property conservative regional/transport class with declared flow/source/observation and initial-state assumptions.",
+      "novelty_counterargument": "Existing state-isomorphism,reparameterization and profile prediction uncertainty may already imply the result.",
+      "required_derivations": "Symmetries/identifiable combinations,target sets or bounds,nuisance/initial-state effects and singular cases.",
+      "required_experiments_CFD": "Later approved independent thermal/duty cases if empirical benefit claimed;no CFD required for tractable theory.",
+      "fair_baselines": [
+        "grouped energy balance",
+        "ordinary covariance-aware constrained fit",
+        "nuisance-reoptimized profiles",
+        "justified S73 stochastic fit"
+      ],
+      "assessment": "Independent synthetic formulations/counterexamples and case-held-out autonomous target tests with same information/bounds.",
+      "without_CFD": "Feasible theory/synthetic and observation-supported thermal assessment,subject to metadata and later evidence.",
+      "limited_CFD": "Conditional observation/discrepancy tests;does not resolve structural ambiguity.",
+      "adequate_CFD": "Adds qualified field-target comparisons with reference uncertainty;not automatic physical truth.",
+      "useful_fallback": "Facility parameter/target-support audit and effective physical model.",
+      "dissertation_threshold": "Additional nontrivial model-class/information-limit result with demonstrated generality or consequential independent assessment.",
+      "rejection": "Immediate known specialization,unstable group under nuisance alternatives,or no consequence for an assessable target.",
+      "generalizable_negative": "Precise class-level impossibility/validity boundary with engineering consequence.",
+      "full_specification_markdown": "### CP01 — Supported predictions under physical-parameter and measurement ambiguity\n\n**Links:** H01; original questions B, F, G, H and relevant C/D. **Gap type:** identifiability/theory, with validation implications. This is a candidate precise problem, not an established vacant field.\n\n**Narrow question and falsifiable hypothesis.** For a defined conservative regional/segmented thermal class with a specified source and centerline/wall observation contract, which parameter/nuisance equivalence classes remain, and which duty or thermal-response predictions are invariant or bounded usefully over them? Hypothesis: an explicitly derived combination/anchor characterization can distinguish supported from unsupported targets and improve robustness over interpreting every fitted coefficient as physical. Absolute energy scale, shared calorimetry and observation bias must be part of that statement, not post-fit caveats.\n\n**Strongest existing result and proposed advance.** S77 already demonstrates ideal observation-dependent equivalence; S68/S70 already identify stable aggregate quantities and effective-parameter limits; S23 supplies profile tools; S73 supplies stochastic fitting. The proposed advance must characterize a **specific additional conservative transport/measurement class**, including a nontrivial target-support or anchor result. Deriving only G/C from passive cooldown, showing correlated parameters or finding two sensors does not qualify.\n\n**Understanding and domain.** A successful result explains why some outputs remain inferable while others do not, what physical/measurement assumptions create that boundary, and what attainable independent evidence changes it. Start with fixed topology, positive constant properties and a declared flow/source approximation; extend nonlinear buoyancy, temperature dependence or uncertain sensor response only after the tractable class is resolved. No global claim for arbitrary networks or regimes.\n\n**Strongest novelty counterargument.** This could be ordinary structural identifiability, reparameterization and profile-based prediction uncertainty packaged for a new loop. The same effect may follow immediately from S77's tools or the cited general theory. Reject the novelty claim unless the extra class/result and practical consequence withstand that comparison; acquire the relevant foundational original before claiming a theorem extends it. S78 additionally rules out passive response fitting alone as a methodological advance;its equivalent realization does not identify material layers.\n\n**Required work and assessment.** Derive symmetries/identifiable combinations including admissible initial states and nuisance inputs; check generic and singular regimes; distinguish state observability from parameter identifiability. Verify algebra against counterexamples and synthetic recovery using independent numerical formulations. Compare grouped balance, ordinary constrained covariance-aware fit, nuisance-reoptimized profiles and an S73-style fit where justified. Use identical information and bounds; assess autonomous, held-out target predictions and ambiguity robustness. An energy-derived flow cannot be treated as independent evidence of its own ingredients.\n\n**Feasibility:** without CFD, substantial theory/synthetic work and assessable thermal/duty tests are possible if metadata/anchors and later approved cases exist. Limited CFD may test observation-map discrepancy, not eliminate structural ambiguity. Adequate CFD adds conditional field targets but still requires reference uncertainty and cannot supply independent material truth by decree. No new instrument is assumed; analyze existing feasible evidence first.\n\n**Fallback versus dissertation threshold.** Useful fallback: a transparent parameter/target-support audit and trustworthy effective model for the facility. Sufficient research would require an additional nontrivial model-class/information-limit result with demonstrated generality or consequential independent predictive assessment; the audit alone is implementation practice. **Rejection:** ambiguities disappear under a known standard result, the proposed grouping is unstable to admissible nuisance uncertainty, or it changes no assessable prediction. A negative result is generalizable only if it establishes a precise impossibility/validity boundary for a class and identifies its engineering consequence.",
+      "status": "candidate_not_established_gap",
+      "assessment_executed": false,
+      "S78_update": "Original now read:passiveRC response fitting and equivalent realizations are strong conditional priors;not a nonlinear loop identification solution."
+    },
+    {
+      "id": "CP02",
+      "hypothesis_ids": [
+        "H02",
+        "H01 supporting"
+      ],
+      "gap_type": [
+        "physical knowledge",
+        "applicability/theory",
+        "computational assessment"
+      ],
+      "narrow_question": "When does omitting a selected storage/source/transport mechanism change a finite-time target beyond tolerance after allowed refitting?",
+      "falsifiable_hypothesis": "An output-weighted retention criterion transfers across conditions better than nominal time-scale rules,sensitivity ranks or indiscriminate added states.",
+      "strongest_existing": [
+        "S59",
+        "S18",
+        "S65",
+        "S66",
+        "S68",
+        "S69",
+        "S75",
+        "S76"
+      ],
+      "precise_proposed_advance": "Qualified additional finite-time adequacy boundary for a restricted physical class and target.",
+      "new_understanding": "When omitted physics is observed,absorbed by fitting,or hidden during calibration but consequential for prediction.",
+      "domain": "Begin constant-property single-phase non-reversing cases and defined thermal/duty targets;stability/reversal/local extrema require new evidence.",
+      "novelty_counterargument": "Existing singular perturbation,output-error estimation,transfer-function reduction and wall-aware loop theory may already cover the proposal.",
+      "required_derivations": "Restricted elimination/error expression with input amplitudes,horizon,initial states,norms/stability and closure derivatives.",
+      "required_experiments_CFD": "Approved independent source/sink/initial-condition cases for empirical assessment;CFD optional enrichment.",
+      "fair_baselines": [
+        "global/regional balances",
+        "quasisteady wall model",
+        "dynamic wall/segmented model",
+        "nominal time-scale criterion",
+        "ordinary sensitivity criterion"
+      ],
+      "assessment": "Predict adequacy on new conditions with matched calibration budgets and target numerical errors controlled.",
+      "without_CFD": "Feasible tractable analysis,conservative1D counterexamples and measured thermal response if available.",
+      "limited_CFD": "Test selected distortion effects conditionally.",
+      "adequate_CFD": "Broader qualified geometry/regime tests;not independent physical validation by itself.",
+      "useful_fallback": "Justified simple-model envelope and reproducible fair comparison.",
+      "dissertation_threshold": "Transferable physical/applicability criterion or bound beyond retrospective fit/sensitivity.",
+      "rejection": "Nonrobust nuisance sensitivity,retrospective-only rule or no improvement over existing criteria.",
+      "generalizable_negative": "Proven counterexample or validity boundary showing why a common criterion fails for a class.",
+      "full_specification_markdown": "### CP02 — When do wall storage, source pathways or transport earn their complexity?\n\n**Links:** H02 and H01. **Gap type:** physical understanding and applicability/theory, with computational assessment.\n\n**Narrow question and falsifiable hypothesis.** Within a restricted single-phase class and operating domain, can a criterion predict when omitting a selected wall/insulation storage or transport mechanism changes a declared finite-time thermal/duty QoI beyond tolerance, after allowed parameter and nuisance re-fitting? Hypothesis: an output-weighted retention criterion using mechanism time scales, source paths and observation support transfers to withheld conditions better than a nominal time-scale rule, sensitivity ranking or adding states indiscriminately.\n\n**Strongest existing result and proposed advance.** S59 already gives a restricted rigorous reduction; S18 conjugate Fourier reduction; S65/S66 source and wall stability; S68/S69 model-order assessment; S75/S76 target-aware assessment. The candidate advance is a **qualified finite-time adequacy boundary** for a declared class/output, not discovering that wall inertia or advection matters. A generic linear transfer-function bound may already cover the intended case and must be checked before a new theorem is claimed.\n\n**Understanding and domain.** Explain the physical distinction between a hidden state that changes an observed trajectory, one whose effect calibration absorbs, and one that leaves calibration nearly unchanged yet changes the intended prediction. Connect that distinction to source location, initial storage and buoyancy/closure feedback. Begin with constant-property, single-phase, non-reversing cases and clear measured targets. A stability boundary, reversal or local maximum is a separate harder target, not a promised extension.\n\n**Strongest novelty counterargument.** A posteriori error estimation, singular perturbation, transfer-function reduction and sensitivity-informed model selection already address model adequacy. Merely defining a dimensionless wall time, showing a richer model fits better or creating a retrospective regime plot is insufficient. S66 and S59 are particularly strong challenges; their technical appendices/proofs need deeper extraction if the claim rests on extending them.\n\n**Required work and assessment.** Derive a restricted mechanism elimination/error expression with stated norms, horizon, initial conditions, input amplitudes and stability assumptions; test its breakdown. Analyze output sensitivity and uncertainty margins, including closure derivatives when flow couples back. Compare global/regional, steady-closure and dynamic-wall/segmented alternatives; use matched calibration budgets. Test criterion predictions on new conditions, not just conditions used to construct it. Numerical mesh/time/modal effects must be smaller than the claimed mechanism effect or explicitly retained.\n\n**Feasibility:** no CFD is needed for a tractable derivation, conservative 1D/synthetic counterexamples or measured thermal-response assessment. Limited qualified CFD can test selected observation/source distortions; it cannot validate a universal boundary. Adequate CFD can broaden regime/geometry testing with solution/input/model uncertainty, still distinct from experimental validation. Required experiments are proposed independently varied source/sink/initial-state cases only if Nick/facility approve and can supply them; no execution presumed.\n\n**Fallback versus dissertation threshold.** Useful fallback: justified retention of the simpler model over a supported envelope and a reproducible fair-comparison specification. A scientifically sufficient contribution needs a transferable physical/applicability result or bound, with evidence distinguishing it from ordinary refit/sensitivity effects. **Rejection:** classification fails under permissible nuisance changes, is only retrospective, or does not outperform existing simple criteria on independent cases. A negative result is useful research if it proves that a common criterion is insufficient under defined physical conditions and provides a general counterexample/boundary, not merely one bad fit.",
+      "status": "candidate_not_established_gap",
+      "assessment_executed": false
+    },
+    {
+      "id": "CP03",
+      "hypothesis_ids": [
+        "H04"
+      ],
+      "gap_type": [
+        "physical knowledge",
+        "scaling/applicability",
+        "uncertainty"
+      ],
+      "narrow_question": "For a named salt circuit and target,when do unavoidable surrogate distortions change what evidence can discriminate?",
+      "falsifiable_hypothesis": "An uncertainty-aware distortion analysis reveals domains where an otherwise unaccounted dominant distortion changes target inference despite familiar matching.",
+      "strongest_existing": [
+        "S56",
+        "S64",
+        "S65",
+        "S66",
+        "S74"
+      ],
+      "precise_proposed_advance": "Additional target-error/applicability or learning limit linked to one specified unavoidable distortion.",
+      "new_understanding": "Why source,solid or loss distortions affect steady,transient and stability inferences differently.",
+      "domain": "Named architecture/fluid/property range,gravity/topology,source/sink and horizon.",
+      "novelty_counterargument": "Existing hierarchical scaling/distortion and target-sensitive assessment may already resolve it.",
+      "required_derivations": "Matched/deliberately distorted cases with consistent groups,property uncertainty and source/solid accounting.",
+      "required_experiments_CFD": "Independent target-relevant comparator or justified bound;not a shared-correlation check.",
+      "fair_baselines": [
+        "established scaling rules",
+        "simple conservative prediction",
+        "richer qualified reference"
+      ],
+      "assessment": "Controlled distortion study with target-relevant reference and separate transfer uncertainty.",
+      "without_CFD": "Nondimensional/uncertainty and1D comparisons after target selection;no asserted reactor accuracy without support.",
+      "limited_CFD": "Conditional isolation of a selected distortion.",
+      "adequate_CFD": "Broader tests with reference/model/input uncertainty and independent assessment.",
+      "useful_fallback": "Mechanism analogy and defensible applicability ledger.",
+      "dissertation_threshold": "Additional scaling relationship,target-bound or validated applicability limit changing an engineering interpretation.",
+      "rejection": "Undefined target,known scaling already answers question,or reference/property uncertainty defeats discrimination.",
+      "generalizable_negative": "Class-level nontransfer region or irreducible distortion with a specified output consequence.",
+      "full_specification_markdown": "### CP03 — When does surrogate-loop evidence discriminate a specified salt-circuit prediction?\n\n**Links:** H04. **Gap type:** physical knowledge/scaling/applicability, with uncertainty.\n\n**Narrow question and falsifiable hypothesis.** For one named target circuit and QoI, do unavoidable fluid/solid/source/loss distortions change the prediction enough to alter what can be learned from the surrogate? Hypothesis: an explicitly derived, uncertainty-aware distortion assessment identifies domains where one dominant distortion changes model discrimination or target inference despite otherwise matched familiar groups. The direction or dominant distortion is not assumed in advance.\n\n**Strongest existing result and proposed advance.** S56/S64 already analyze fluid/solid similarity and distortion; S65/S66 compare sources and stability; S74 supplies a modern high-Pr multigroup study. The advance must connect a specific unavoidable distortion to a nontrivial target error/applicability or learning limit, beyond recalculating Re/Pr, wall ratios or matching Nu from one shared correlation.\n\n**Understanding and domain.** Determine when a seemingly secondary source path, wall time or heat loss changes the selected inference, and why its importance differs between steady duty, transition response and stability. Domain must name target architecture, fluid/property range, gravity/topology, source/sink and horizon. A liquid-fuel primary with distributed generation, a solid-fuel salt-cooled heat path and a secondary transport loop cannot be combined into one universal representation claim.\n\n**Strongest novelty counterargument.** Existing hierarchical scaling/distortion methods and target-sensitive validation may already provide this assessment. A new fluid selection or facility table is usually implementation. No gap is established until the target and the relevant prior applicability analyses are specified.\n\n**Required work and assessment.** Derive matched and deliberately distorted cases with consistent nondimensional definitions, property uncertainty and source/solid accounting. Keep nuisance/source changes controlled; compare existing scaling rules, a simple prediction model and a richer reference under the same target. Use an independent target-relevant comparator or a separately justified bound; a matched correlation is not such a comparator. Distinguish transfer uncertainty from uncertainty internal to the surrogate model.\n\n**Feasibility:** without CFD, nondimensional/uncertainty analysis and selected conservative 1D comparisons can proceed after target selection; quantitative reactor accuracy cannot be asserted without reference support. Limited CFD helps isolate one distortion with conditional comparisons. Adequate CFD or qualified matched experimental evidence can test broader behavior, subject to model/input uncertainty and scope. No target or resources are assumed present.\n\n**Fallback versus dissertation threshold.** Useful fallback: a defensible mechanism analogy and applicability ledger, preserving the value of facility prediction. Sufficient contribution: an additional scaling relationship, target-specific bound or validated applicability limit that changes a consequential interpretation beyond existing methods. **Rejection:** the target stays undefined, previous scaling already resolves it, or reference/property uncertainty overwhelms discrimination. A negative result is generalizable if it identifies a defensible nontransfer region or irreducible distortion for a class; “our loop is not identical to a reactor” is not enough.",
+      "status": "candidate_not_established_gap",
+      "assessment_executed": false
+    },
+    {
+      "id": "CP04",
+      "hypothesis_ids": [
+        "H03"
+      ],
+      "gap_type": [
+        "physical knowledge",
+        "validation/data"
+      ],
+      "narrow_question": "Does a specified local transport descriptor explain a controlled thermal consequence beyond bulk circulation and boundary conditions?",
+      "falsifiable_hypothesis": "A reproducible descriptor adds out-of-case physical explanatory/predictive value after confounder and reference uncertainty.",
+      "strongest_existing": [
+        "S20",
+        "S19",
+        "S29",
+        "S37",
+        "S46",
+        "S60"
+      ],
+      "precise_proposed_advance": "Qualified descriptor/consequence relationship or applicability/information limit;not another recirculation contour.",
+      "new_understanding": "Distinguish net circulation,persistent extent,intermittency and local exchange and relate the appropriate quantity to heat transport.",
+      "domain": "Specified geometry/regime/source with declared frame,threshold,averaging and heat-rate/enthalpy definitions.",
+      "novelty_counterargument": "Known mixed-convection/development effect or proxy for power/throughflow;descriptor may be unidentifiable.",
+      "required_derivations": "Descriptor/observation/energy consistency,convergence and controlled mechanistic alternatives.",
+      "required_experiments_CFD": "Qualified spatial reference or appropriate local observations;physical causal claim needs independent discriminating evidence.",
+      "fair_baselines": [
+        "bulk-only model",
+        "conventional heat/transport measures",
+        "simple descriptor alternatives before learned reconstruction"
+      ],
+      "assessment": "Descriptor-specific mesh/time/model checks,controlled confounders and whole-case/regime holdouts.",
+      "without_CFD": "No quantitative extent validation without local evidence;thermal predictions or rigorous bounds only.",
+      "limited_CFD": "Case-specific conditional hypothesis and descriptor tests.",
+      "adequate_CFD": "Qualified spatial study possible;direct extent/causal validation still needs appropriate independent local evidence.",
+      "useful_fallback": "Explicit inference-limit statement;complete CP01/CP02 without extent promises.",
+      "dissertation_threshold": "Generalizable qualified physical relationship or nontrivial impossibility result with relevant independent evidence.",
+      "rejection": "Descriptor nonconvergence,confounding removes relation,or no declared-domain generalization.",
+      "generalizable_negative": "Quantified missing-information or invalid-descriptor class;missing CFD alone is not a scientific negative result.",
+      "full_specification_markdown": "### CP04 — Local transport descriptors and their thermal consequence\n\n**Links:** H03, optional extension of H02/H04. **Gap type:** physical knowledge and validation/data; method development only if separately justified.\n\n**Narrow question and falsifiable hypothesis.** In a specified geometry/regime, does a well-defined counterflow/exchange descriptor explain a controlled regional thermal consequence beyond what bulk circulation and source/sink conditions explain? Hypothesis: a reproducible local descriptor improves out-of-case explanation/prediction of a declared heat-rate or temperature asymmetry after confounders and reference uncertainty are retained. It is not assumed that recirculation always enhances heat transfer.\n\n**Strongest existing result and proposed advance.** S20 already predicts recirculation in a conceptual internally heated loop; S19/S29 provide local numerical structures and thermal comparisons; S37/S46/S60 contribute experimental diagnostic precedents. The proposed advance would be a qualified descriptor–thermal-effect relationship, applicability limit or discriminating evidence, not the existence of a reverse-flow contour or a new reconstruction network.\n\n**Understanding and domain.** Separate net circulation from persistent reverse-flow extent, intermittency and local exchange. Establish which descriptor has a physical relation to a chosen thermal consequence, under which source/geometry/flow conditions. Define coordinate/frame, threshold, averaging and wall/enthalpy references before comparing cases.\n\n**Strongest novelty counterargument.** The apparent descriptor relation may be known mixed-convection/development physics or a proxy for power/throughflow. The sparse measurements may not identify it at all. Thermal agreement can be achieved by incompatible local structures; interpreting inferred extent as measured would invalidate the claim.\n\n**Required work and assessment.** Obtain qualified fields or direct appropriate measurements; check descriptor-specific mesh/time/model and observation uncertainty. Design controlled source/sink/flow or geometry comparisons where feasible, retaining energy conservation and competing mechanisms. Compare bulk-only, conventional local heat-transfer/transport measures and simple descriptor alternatives before learned reconstruction. Hold out whole cases/regimes, not shuffled field points. A CFD ablation establishes a conditional model effect; physical causality needs independent discriminating evidence and an experimental argument.\n\n**Feasibility:** without qualified CFD/local observations, quantitative local extent cannot be validated; only thermal predictions or carefully proved bounds remain. Limited CFD supports a case-specific hypothesis and descriptor tests, not broad physical validation. Adequate qualified CFD plus independent target-relevant measurements could support a spatial study, but direct extent validation still requires adequate local evidence. No future field campaign is assumed.\n\n**Fallback versus dissertation threshold.** Useful fallback: document the inference limit and exclude unsupported field claims while finishing CP01/CP02. Sufficient research: a generalizable, qualified physical descriptor/consequence or impossibility result beyond known scalar nonuniqueness, with relevant independent evidence. **Rejection:** descriptors fail convergence, lose explanatory value after confounder control, or do not generalize across declared cases. A negative result is valuable if it identifies the missing information or invalid descriptor class quantitatively; an unavailable CFD file alone is not a scientific result.",
+      "status": "candidate_not_established_gap",
+      "assessment_executed": false
+    }
+  ],
+  "provisional_recommendation": [
+    "CP01",
+    "CP02"
+  ],
+  "conditional_extensions": [
+    "CP03",
+    "CP04"
+  ],
+  "final_direction_selected": false
+}

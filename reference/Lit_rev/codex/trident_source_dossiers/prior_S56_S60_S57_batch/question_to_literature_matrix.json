@@ -1,0 +1,506 @@
+{
+  "updated": "2026-10-20",
+  "question_count": 62,
+  "original_document": "Markdown collé.md",
+  "original_sha256": "83d1ce1361aee6892e394f6c9082cccb8aec42e9187f5a5372fe142b7f802f19",
+  "questions": [
+    {
+      "id": "A1",
+      "question": "Which specific MSR heat-transport decisions require the outputs we propose: cooling duty, heat losses, circulation, extrema, freezing margin, response/settling or startup/shutdown predictions? Connect each output to a decision, mechanism and primary source.",
+      "status": "Partial",
+      "provisional_answer": "Duty, component temperature margin, freezing margin and transition recovery need separate decision definitions; owner tolerances remain unknown.",
+      "strongest_evidence_and_depth": "S12 selected Table1/II01; S43; S44; S47",
+      "applicability_contradiction_next": "Heat-rejection motivation transfers conditionally; choose circuit and two or three assessable QoIs."
+    },
+    {
+      "id": "A2",
+      "question": "How do requirements differ for liquid-fueled reactors, salt-cooled solid-fuel systems, primary/secondary loops and test facilities? Avoid one generic MSR justification.",
+      "status": "Partial",
+      "provisional_answer": "Liquid-fuel, solid-fuel salt-cooled, primary, secondary and test loops have different sources/physics.",
+      "strongest_evidence_and_depth": "S12 selected scope; S42; S43; PF01",
+      "applicability_contradiction_next": "No generic MSR-simulator claim. Read S14/S15 and chosen reactor primary report."
+    },
+    {
+      "id": "A3",
+      "question": "What can natural-circulation/surrogate-fluid loops establish, and what requires property, geometric, source-distribution and dimensionless similarity? Compare Re, Pr, buoyancy measures, development lengths and conjugate thermal time scales where relevant. Explain which cannot all be matched simultaneously.",
+      "status": "Partial",
+      "provisional_answer": "Steady similarity does not establish transient/stability similarity; wall storage and source/sink layout matter.",
+      "strongest_evidence_and_depth": "S36 scoped dossier; S09; S44 selected",
+      "applicability_contradiction_next": "Define mechanism-specific ratios and unresolved distortions before transferring parameters."
+    },
+    {
+      "id": "A4",
+      "question": "How do distributed volumetric heating versus externally applied heating, different coolant properties and nonuniform losses affect applicability? Do not imply neutronics, chemistry or other excluded physics are modeled.",
+      "status": "Partial",
+      "provisional_answer": "External wall heating deposits energy through conjugate walls; distributed wall heating is still distinct from volumetric fission heating.",
+      "strongest_evidence_and_depth": "S43; S44 facility/§3; S42",
+      "applicability_contradiction_next": "Source placement and loss/storage paths must be explicit. Reactor coupling remains outside current loop."
+    },
+    {
+      "id": "A5",
+      "question": "Verify the raw-note claim of an approximately “25% MSRE heat-balance discrepancy”: what was compared, which denominator/time period, and what primary report supports it? If unverified or wrong, say so and do not repeat it as motivation. Separately determine whether critical heat flux is relevant to our intended single-phase scope or belongs to a different problem.",
+      "status": "Corrected_scoped",
+      "provisional_answer": "The alleged25% heat-balance metric is unsupported here; Gabbard separates power metrology, primary-HX property correction and radiator performance.",
+      "strongest_evidence_and_depth": "S47 abstract/PDF5 and conclusions/PDF31–32; S43 history",
+      "applicability_contradiction_next": "Use the original metric/date/calibration. Do not infer universal salt-correlation failure or introduce boiling CHF."
+    },
+    {
+      "id": "B1",
+      "question": "What is the minimum input/output contract for a useful steady ROM and its transition extension? Which inputs are measured operationally, inferred, prescribed, or only available from CFD during development?",
+      "status": "Partial",
+      "provisional_answer": "Phase4 controls mean-temperature targets by adjusting cooler; distinguish controlled-condition response from autonomous prediction.",
+      "strongest_evidence_and_depth": "PF06 lines246–254; S16; S48 BC discussion",
+      "applicability_contradiction_next": "Use actual external controls as inputs; do not prescribe the primary target when validating its prediction."
+    },
+    {
+      "id": "B2",
+      "question": "Which QoIs require field reconstruction rather than bulk temperatures? How should bulk, mixing-cup, area-average, centerline, point, wall and sensor-filtered temperatures be related? Can reduction preserve duty while losing local extrema?",
+      "status": "Supported_scoped",
+      "provisional_answer": "Centerline, wall, path, area and enthalpy-weighted temperatures are different; a duty-preserving reduction need not preserve extrema.",
+      "strongest_evidence_and_depth": "S43; S39; S37; S16",
+      "applicability_contradiction_next": "Write observation operator and temperature/QoI definitions; spatial extrema require extra evidence."
+    },
+    {
+      "id": "B3",
+      "question": "How can a model estimate unobserved hot/cold spots with honest uncertainty when experiments sample only a few locations? What supports a location claim versus a conservative bound?",
+      "status": "Open_project",
+      "provisional_answer": "Sparse point data generally cannot establish a unique unobserved hotspot/location without structural assumptions and evidence.",
+      "strongest_evidence_and_depth": "S39/S46 observation limits; analyst identifiability argument",
+      "applicability_contradiction_next": "Test nonuniqueness and conservative scenario bounds; rigorous spatial-bound literature remains needed."
+    },
+    {
+      "id": "B4",
+      "question": "How do interpolation, observation operators, wall conduction and sensor dynamics alter comparisons with experiments? What data would distinguish sensor placement/calibration from missing physical transport?",
+      "status": "Partial",
+      "provisional_answer": "Sensor states/placement/lag and field sampling change apparent model errors.",
+      "strongest_evidence_and_depth": "S08 selected sensor model; S43; S46; S39",
+      "applicability_contradiction_next": "Compare sensor model against physical-state enrichment with feasible independent evidence."
+    },
+    {
+      "id": "B5",
+      "question": "Which tolerances should be set from operating decisions versus statistical/measurement resolution? Identify evidence needed before specifying numerical acceptance thresholds; do not choose arbitrary values for us.",
+      "status": "Open_project",
+      "provisional_answer": "Decision tolerances and measurement resolution must be separated; no numerical TRIDENT threshold is established.",
+      "strongest_evidence_and_depth": "PF01; S01 selected metrology",
+      "applicability_contradiction_next": "Adviser must own tolerances; demonstrate measurement adequacy before declaring success."
+    },
+    {
+      "id": "C1",
+      "question": "Compare lumped RC/thermal networks, segmented conjugate fluid-wall-insulation networks, reduced regional grey-box models, 1D natural-circulation models and quasi-1D/low-order spatial models. State equations, physical meanings and reduction assumptions.",
+      "status": "Partial",
+      "provisional_answer": "S10 provides a conjugate CFD comparator; S48 provides a1D inertial loop, with equation/BC qualifications.",
+      "strongest_evidence_and_depth": "S10 §§3–6; S48 §3; S18 available_not_extracted",
+      "applicability_contradiction_next": "S50 is the closest experimental1D lead; read before claiming a new1D framework."
+    },
+    {
+      "id": "C2",
+      "question": "Which physical states and heat paths are necessary to preserve thermal storage, losses, duty, buoyancy and local temperature gradients? How are axial wall conduction, insulation/contact, radiation, supports and source deposition treated?",
+      "status": "Partial",
+      "provisional_answer": "Tank and solid participation affect transient adequacy; S10 compares trip results with/without expansion tank.",
+      "strongest_evidence_and_depth": "S10 §6.2.3–4/Fig20; S44; PF04",
+      "applicability_contradiction_next": "Case-dependent tank treatment and independent assessment must be explicit."
+    },
+    {
+      "id": "C3",
+      "question": "When do steady momentum closure, transient inertia and advection need separate treatment? Explain circulation branch/reversal, low-flow limits and stability concerns where relevant; do not conflate passive temperature relaxation with full coupled hydrodynamics.",
+      "status": "Partial",
+      "provisional_answer": "S48 has inertia/advection but reported loss laws need a declared positive-flow branch; S10 studies several transitions.",
+      "strongest_evidence_and_depth": "S48 Eqs9–15; S10 §6.2; S09/S36",
+      "applicability_contradiction_next": "Do not apply fixed-branch equations to reversal without signed reformulation and testing."
+    },
+    {
+      "id": "C4",
+      "question": "How should natural/mixed/forced convection, entrance/development effects, curved connections, conjugate heat transfer and property variation inform closure choices? Distinguish established correlation limits from proposed corrections.",
+      "status": "Partial",
+      "provisional_answer": "S10 freezes properties at300°C; S48 shows property-derivative sensitivity but has closure/energy ambiguities.",
+      "strongest_evidence_and_depth": "S10 §3.4/Tables1–2; S48 Eqs11,14,16 and §4.1",
+      "applicability_contradiction_next": "Read S45/development and property originals; neither paper supplies a universal TRIDENT closure."
+    },
+    {
+      "id": "C5",
+      "question": "Compare fixed material/correlation models, a small fitted grouped-parameter network, conventional projection ROMs, operator inference, learned closure hybrids, Gaussian-process surrogates and other credible data-driven baselines. Include a simple model that can defeat an overcomplicated proposed method.",
+      "status": "Partial",
+      "provisional_answer": "Use simple response/energy baseline, constrained network and segmented physics first; learned closures, GP and field ROMs are conditional comparators.",
+      "strongest_evidence_and_depth": "S08; S04 selected; S26; S18/S24/S25 not fully extracted",
+      "applicability_contradiction_next": "Sparse temperatures do not directly supply projected field coordinates. Minimize comparison count."
+    },
+    {
+      "id": "C6",
+      "question": "For each family, explain accessible data requirements, cost, interpretability, conservation/positivity/stability, uncertainty, extrapolation and falsifiable failure modes. Recommend a minimal comparison set rather than requiring every family to be implemented.",
+      "status": "Partial",
+      "provisional_answer": "Minimal set balances data, conservation, identifiable groups and cost; full posterior admissibility is not automatic.",
+      "strongest_evidence_and_depth": "S08; S06; S04 selected conclusion; S26",
+      "applicability_contradiction_next": "Quantify fair data/parameter/runtime budgets and predeclare failure criteria."
+    },
+    {
+      "id": "D1",
+      "question": "What does the reduction actually do: aggregate control volumes, lump resistances/capacities, project fields, infer operators, learn spatial reconstruction, or close unresolved transport? Distinguish those contributions.",
+      "status": "Supported_scoped",
+      "provisional_answer": "Lumping, projection, operator inference, observation reconstruction and transport closure are different reduction operations.",
+      "strongest_evidence_and_depth": "S08; S04 selected §2; S46 POD; S39",
+      "applicability_contradiction_next": "Name the actual operation and isolate its contribution in comparisons."
+    },
+    {
+      "id": "D2",
+      "question": "Can CFD support observable-consistent bulk-to-local temperature and wall-flux maps, or development-conditioned heat-transfer closures that improve predictions beyond fixed averages? What information would those maps require at online inference time?",
+      "status": "Conditional_CFD",
+      "provisional_answer": "CFD can propose bulk-to-local maps only with matched online inputs and observations; no qualified TRIDENT field dataset is established.",
+      "strongest_evidence_and_depth": "S35; S39; S16; PF01",
+      "applicability_contradiction_next": "Define observable contract and held-out case test; unavailable CFD narrows scope."
+    },
+    {
+      "id": "D3",
+      "question": "How do goal-oriented/adjoint, balanced, POD/Galerkin, nonlinear/manifold, structure-preserving and data-driven methods select states to retain? Which are feasible with sparse experiment data and delayed CFD?",
+      "status": "Partial",
+      "provisional_answer": "POD norm and energy content do not guarantee goal fidelity; NEMO has a goal-oriented operator basis under specific assumptions.",
+      "strongest_evidence_and_depth": "S46; S05 selected Eq8; S25 available_or_access_status_in_registry",
+      "applicability_contradiction_next": "Goal/balanced/manifold comparison still needs original theory extraction."
+    },
+    {
+      "id": "D4",
+      "question": "Compare closure correction, state enrichment and explicit extra physics. What diagnostics decide that a closure is inadequate rather than merely poorly calibrated? How do we prevent a fitted coefficient absorbing wrong geometry or boundary conditions?",
+      "status": "Partial",
+      "provisional_answer": "S10 tank enrichment already demonstrates retained-physics consequences; distinguish it from calibrated boundary corrections.",
+      "strongest_evidence_and_depth": "S10 §3.5/§6.2.4/Fig20; S06; PF04",
+      "applicability_contradiction_next": "New contribution must exceed showing that extra storage sometimes helps."
+    },
+    {
+      "id": "D5",
+      "question": "Which methods preserve energy, dissipation, positive capacities and appropriate transport direction? Are passivity/port-Hamiltonian or related frameworks suitable for dissipative thermal-advection networks, and which assumptions prevent direct transfer from mechanical/Hamiltonian examples?",
+      "status": "Partial",
+      "provisional_answer": "PF04 global cancellation is insufficient for uniform-temperature equilibrium/reference invariance in its directed form.",
+      "strongest_evidence_and_depth": "PF04 zonebalance/conductancematrix; reconciliation analyst derivation",
+      "applicability_contradiction_next": "Require node balance or a different physically derived coordinate/network model; passivity theory search remains open."
+    },
+    {
+      "id": "D6",
+      "question": "How should we split cases for closure training, method selection and final unseen assessment to avoid leaking CFD snapshots or experimental targets? Compare leave-regime/geometry/case-out assessment with random time-point splits.",
+      "status": "Proposed_design",
+      "provisional_answer": "Phase2 withheld runs select complexity; preserve Phase3 as separate blind assessment and track later revision.",
+      "strongest_evidence_and_depth": "PF04 lines313–317,458–462; PF05 lines257–267,372",
+      "applicability_contradiction_next": "Selection data are not a final untouched test; existing plan already reclassifies revision data."
+    },
+    {
+      "id": "E1",
+      "question": "Define useful descriptors of extent: reverse-flow volume/area fraction, separation/reattachment length, recirculating region size, signed local axial flow or exchange/transport measures. Which are robust in 3D, sensitive to averaging/frame/threshold, or ambiguous in buoyant curved flow? Distinguish persistent structures from temporal intermittency.",
+      "status": "Partial",
+      "provisional_answer": "Use signed axial reverse fraction with frame/threshold/averaging, plus exchange or topology descriptors where meaningful.",
+      "strongest_evidence_and_depth": "S46 detector/observations; S35; S44 selected",
+      "applicability_contradiction_next": "2D vorticity or negative axial flow does not establish closed3D extent. Validate descriptor numerics."
+    },
+    {
+      "id": "E2",
+      "question": "How can the heat-transfer effect be quantified: changes in wall heat flux, local/region-integrated transfer, fluid/wall extrema, effective transport or temperature asymmetry? HTC definitions may become ill-conditioned when the driving temperature difference is small or changes sign; examine alternatives.",
+      "status": "Partial",
+      "provisional_answer": "Prefer flux, duty, wall/fluid extrema and asymmetry before ill-conditioned HTC ratios.",
+      "strongest_evidence_and_depth": "S43 heat-transfer limits; S46; analyst ratio conditioning",
+      "applicability_contradiction_next": "Read S45/local transfer originals; sparse temperatures do not prove enhancement."
+    },
+    {
+      "id": "E3",
+      "question": "What are valid counterfactual or controlled comparisons for attributing a heat-transfer change to recirculation rather than changed flow rate, geometry, boundary condition or thermal development? Correlation of two CFD outputs is not by itself attribution.",
+      "status": "Open_mechanism",
+      "provisional_answer": "Heat-transfer changes cannot be attributed solely to recirculation when source, properties, geometry or flow also change.",
+      "strongest_evidence_and_depth": "S43 campaigns; S21; S44",
+      "applicability_contradiction_next": "Design controlled/matched comparisons and explain infeasible counterfactuals."
+    },
+    {
+      "id": "E4",
+      "question": "Compare an effective closure, a two-zone exchange model, a local spatial correction and a richer velocity/temperature reconstruction. What is the simplest representation that can predict extent and thermal effect sufficiently for a declared QoI?",
+      "status": "Conditional_CFD",
+      "provisional_answer": "Compare effective closure, two-zone exchange, local correction and field reconstruction only against declared QoIs.",
+      "strongest_evidence_and_depth": "S35/S39/S46; P0 proposed ladder",
+      "applicability_contradiction_next": "Choose smallest adequate representation after held-out evidence, not visual detail."
+    },
+    {
+      "id": "E5",
+      "question": "What can sparse bulk/wall experiments constrain about thermal consequences, and what is structurally unobservable without local flow measurements? Can multiple distinct flow fields explain the same measured temperatures?",
+      "status": "Supported_limit",
+      "provisional_answer": "Multiple local fields can be consistent with sparse thermal observations; unique extent is not experimentally validated here.",
+      "strongest_evidence_and_depth": "S43; S46; S39; analyst null-space test",
+      "applicability_contradiction_next": "Demonstrate nonuniqueness for the actual model/measurement class; do not infer a measured volume fraction."
+    },
+    {
+      "id": "E6",
+      "question": "Specify the Trident CFD dataset needed: fields/integrals, geometry/BCs, source placement, regime coverage, mesh/time/domain sensitivities, uncertainty and descriptors. Explain how we can test descriptor/reconstruction transfer on held-out CFD without claiming experimental local-flow validation.",
+      "status": "Proposed_contract",
+      "provisional_answer": "Need signed fields, integrals, matched observations, BC/source/geometry metadata and QoI-specific verification/holdouts.",
+      "strongest_evidence_and_depth": "S35 audit; S44 selected conclusion; P0 CFD table",
+      "applicability_contradiction_next": "Numerical descriptor transfer is not experimental local-flow validation."
+    },
+    {
+      "id": "E7",
+      "question": "When Ethan's TAMU thesis arrives, what exact evidence should be extracted, and which applicability checks must precede use in Trident? Give a no-CFD/minimal-CFD/adequate-CFD feasibility ladder and a stopping criterion for claims that cannot be supported.",
+      "status": "Partial",
+      "provisional_answer": "S35 has a scoped dossier; discrepancy reconciliation is explicitly deferred to Codex. No-CFD scope remains viable.",
+      "strongest_evidence_and_depth": "S35; user direction; PF01; P0 ladder",
+      "applicability_contradiction_next": "Stop local extent claims when verification/evidence cannot resolve the claimed benefit."
+    },
+    {
+      "id": "F1",
+      "question": "What are the structurally and practically identifiable parameter combinations for steady and passive/transient thermal networks with sparse temperature observations? Compare sensitivity rank, Fisher information, profile likelihood, posterior geometry and synthetic recovery.",
+      "status": "Partial",
+      "provisional_answer": "Need explicit observation/sensitivity-rank tests; large local sensitivity from S48 does not establish parameter identification.",
+      "strongest_evidence_and_depth": "S48 §3–4; PF04; S23 full workflow_not_extracted",
+      "applicability_contradiction_next": "Use identifiable groups, physical constraints and uncertainty in the actual observation model."
+    },
+    {
+      "id": "F2",
+      "question": "Derive the common G–C scale ambiguity, the conditions under which measured steady net power or fixed inventories break it, and the remaining ambiguities in multiregion networks. When is sequential steady-G then transient-C defensible versus a joint fit?",
+      "status": "Derived_not_novel",
+      "provisional_answer": "Phase2 passive fit needs a declared independent capacity/inventory/duty scale; blind Phase3 cannot simultaneously supply calibration without reassignment.",
+      "strongest_evidence_and_depth": "PF04 lines273,309–317,456; PF05; analyst scale argument",
+      "applicability_contradiction_next": "Two branches: independent inventory anchor or duty anchor with new blind validation."
+    },
+    {
+      "id": "F3",
+      "question": "How do uncertain initial insulation/structure temperatures, hidden fluid-wall splits, parameter variation and unknown residual heater/cooler duty confound capacity estimates? Compare approaches for treating those nuisance quantities.",
+      "status": "Partial",
+      "provisional_answer": "Phase2 acknowledges hidden fluid/wall initial states, but two-fill/mixed-tank descriptions conflict with continuous-recirculation procedure.",
+      "strongest_evidence_and_depth": "PF04 lines237,249,355–394,448",
+      "applicability_contradiction_next": "Resolve actual preparation and classify initial-state uncertainty; do not presume repeatability."
+    },
+    {
+      "id": "F4",
+      "question": "Compare deterministic constrained fits, regularization, Bayesian/hierarchical identification and model-discrepancy approaches. Which parameters can remain physical, and when does an effective correction lose that interpretation?",
+      "status": "Partial",
+      "provisional_answer": "Constrained deterministic fits and Bayesian models are alternatives; discrepancy and tuning coefficients need interpretation limits.",
+      "strongest_evidence_and_depth": "S06 selected §§2,4; S08; S26",
+      "applicability_contradiction_next": "Strong priors/regularization do not create physical identification."
+    },
+    {
+      "id": "F5",
+      "question": "How can boundary error, parameter error, observation error and structural discrepancy be distinguished? What priors/independent experiments are required, and how can a flexible discrepancy model conceal missing physics?",
+      "status": "Supported_scoped",
+      "provisional_answer": "Parameter/discrepancy confounding persists without informative restrictions or independent evidence.",
+      "strongest_evidence_and_depth": "S06 Eq17/PDF17 and discussion",
+      "applicability_contradiction_next": "Input/observation/numerical errors may mimic structure; test competing explanations."
+    },
+    {
+      "id": "F6",
+      "question": "How should experiment and CFD be fused without counting the same calibration information twice or treating CFD as exact truth? Compare multi-fidelity, modular/cut approaches and explicit cross-facility discrepancy where appropriate.",
+      "status": "Open_method",
+      "provisional_answer": "Calibrated CFD/derived experiment inputs cannot count twice as independent information.",
+      "strongest_evidence_and_depth": "S16/S35 provenance; S06; P0 proposed contract",
+      "applicability_contradiction_next": "Modular/cut/multifidelity closest-method search incomplete; no final fusion algorithm selected."
+    },
+    {
+      "id": "G1",
+      "question": "Build a source/dependence taxonomy covering random and systematic measurement effects, calibration, drift, correlated channels/time, geometry, material properties, boundaries/power, initial states, parameters, numerics, CFD and reduction/model discrepancy. Distinguish a lack of knowledge from a justified probability distribution.",
+      "status": "Partial",
+      "provisional_answer": "Original Phase1 already separates TypeA/TypeB and model/repeatability uncertainty with covariance.",
+      "strongest_evidence_and_depth": "PF03 lines245–271,555–603",
+      "applicability_contradiction_next": "Requirements are not evidence of completed uncertainty qualification; retain operating-regime checks."
+    },
+    {
+      "id": "G2",
+      "question": "Compare local linear propagation, Monte Carlo/quasi-Monte Carlo, polynomial-chaos/collocation, ensembles, posterior predictive propagation and surrogate-assisted methods. Identify assumptions, computational budgets and failure near strong nonlinearities or regime changes.",
+      "status": "Partial",
+      "provisional_answer": "Linear propagation and joint MC are initial comparators; QMC/PCE/ensembles/surrogates need smoothness and budget checks.",
+      "strongest_evidence_and_depth": "S01/S02 selected prior excerpts; S04 selected",
+      "applicability_contradiction_next": "Branch/threshold events can defeat smooth approximations; full comparative theory extraction remains."
+    },
+    {
+      "id": "G3",
+      "question": "How should covariance from shared instruments, derived duties/flow estimates, common ambient forcing and jointly estimated parameters be retained? Distinguish conditional Type A mean uncertainty from full prediction accuracy.",
+      "status": "Supported_scoped",
+      "provisional_answer": "Phase1 has shared-error covariance; Phase4 reconciles separate correlated balance estimates.",
+      "strongest_evidence_and_depth": "PF03 propagation/covariance equations; PF06 flowinference",
+      "applicability_contradiction_next": "Compatibility is not independent accuracy; regional-loss common-mode ambiguity can remain."
+    },
+    {
+      "id": "G4",
+      "question": "How can uncertain closures/operators be propagated through steady and transient ROMs while maintaining physical constraints? Compare Bayesian operator inference and neural/operator methods against simpler constrained networks with uncertain parameters.",
+      "status": "Partial",
+      "provisional_answer": "Parameter/operator draws must respect physical constraints; BayesOpInf does not automatically guarantee posterior stability.",
+      "strongest_evidence_and_depth": "S04 §3/conclusion; S26",
+      "applicability_contradiction_next": "Compare constrained-network UQ first; basis/input/CFD uncertainties are additional components."
+    },
+    {
+      "id": "G5",
+      "question": "What does “calibrated uncertainty” mean in this setting? Compare coverage, interval width/sharpness, likelihood or proper scores and conditional/regime checks, with small independent sample sets. Avoid equating bootstrap bands, confidence intervals, credible intervals and scenario envelopes.",
+      "status": "Open_assessment",
+      "provisional_answer": "Check held-out coverage plus width, residual dependence and regime performance; small independent sample counts limit conclusions.",
+      "strongest_evidence_and_depth": "P0 assessment proposal; S04/S26 uncertainty audits",
+      "applicability_contradiction_next": "Proper-score/calibration literature not yet fully extracted; do not equate bands and validated probabilities."
+    },
+    {
+      "id": "G6",
+      "question": "How should uncertainty in time/location of extrema, threshold crossing, settling time and freeze margin be reported? What can be bounded if a full probabilistic model is unjustified?",
+      "status": "Proposed_assessment",
+      "provisional_answer": "Propagate joint trajectories to extrema, threshold and timing; report bounded scenarios where a probability model is unjustified.",
+      "strongest_evidence_and_depth": "P0 analyst design; S38/S44 mechanisms",
+      "applicability_contradiction_next": "A fixed-time interval is not an extremum/location interval; spatial bounds still open."
+    },
+    {
+      "id": "G7",
+      "question": "How can we separate numerical/CFD error and model discrepancy, and avoid double-counting residuals? Which uncertainty sources dominate the decision and should guide experimental/CFD effort?",
+      "status": "Partial",
+      "provisional_answer": "S10/S48 numerical checks have specific scope and error limits; neither supplies a complete predictive numerical/discrepancy budget.",
+      "strongest_evidence_and_depth": "S10 §§4–5; S48 §3.3/TablesB1–B3",
+      "applicability_contradiction_next": "Do not confuse solver tolerance or derivative-method agreement with experimental validity."
+    },
+    {
+      "id": "G8",
+      "question": "What exactly can real-time inverse/UQ methods such as NEMO estimate, under what linear/nonlinear parameterization and noise assumptions? Does that match our unknowns and data, or should it remain a later comparator? Differentiate acceleration of inference from a complete treatment of model-form uncertainty.",
+      "status": "Supported_scoped",
+      "provisional_answer": "NEMO inversion is linear in q conditional on externally characterized m, with Gaussian observation noise and reduced-subspace covariance.",
+      "strongest_evidence_and_depth": "S05 §§2.1–2.3/Eqs1–14/PDF3–7; limitations/PDF17",
+      "applicability_contradiction_next": "Unknown G,C and coupled circulation generally alter the operator. Acceleration is not complete UQ."
+    },
+    {
+      "id": "H1",
+      "question": "What is the smallest informative design for separating net heat loss, regional G, participating C, ambient effects and fluid/solid coupling? Compare steady duties at multiple temperatures, warm/cold relaxations, known-power holds/shutdowns and independent heater/cooler changes.",
+      "status": "Proposed_design",
+      "provisional_answer": "Warm/cold preparations and blind steady checks already exist; prioritize resolving scale and regional-loss ambiguities.",
+      "strongest_evidence_and_depth": "PF04; PF05; PF06; S10/S48",
+      "applicability_contradiction_next": "S07 design comparison remains next; no new setpoints or unapproved instruments proposed."
+    },
+    {
+      "id": "H2",
+      "question": "What must be measured to establish an absolute energy scale? Address secondary flow/temperature/property uncertainty, actual versus commanded input, electrical deposition/parasitics, residual duty and common sensor biases.",
+      "status": "Partial",
+      "provisional_answer": "Phase0 declares secondary enthalpy duties; independent scale and actual boundary/instrument qualification still require evidence.",
+      "strongest_evidence_and_depth": "PF02 secondaryduty/wholelooploss; PF04; PF05",
+      "applicability_contradiction_next": "Draft requirements do not establish actual installed calorimetry or effective participation."
+    },
+    {
+      "id": "H3",
+      "question": "What is an evidence-based choice of input excitation, duration, rate, repeat count and sensor placement? Discuss bandwidth, time-scale separation, autocorrelation, thermal equilibrium versus stationary operation, and conditioning. Do not invent facility-safe setpoints or assume arbitrary protocols can be executed.",
+      "status": "Open_project",
+      "provisional_answer": "Protocols supply provisional record/window/run schedules, explicitly subject to resolution and approval.",
+      "strongest_evidence_and_depth": "PF03 acceptance/procedure; PF04 method/run IDs",
+      "applicability_contradiction_next": "Do not replace provisional values with literature numbers; assess actual bandwidth/history/independent repeats."
+    },
+    {
+      "id": "H4",
+      "question": "Compare parameter-information objectives with QoI uncertainty reduction and model-discrimination experimental design. Which is most useful when several model forms fit the same sparse data?",
+      "status": "Partial",
+      "provisional_answer": "S48 already ranks local QoI sensitivities; that is distinct from uncertainty-weighted experimental information or model discrimination.",
+      "strongest_evidence_and_depth": "S48 §§2–4; S07 not fully extracted",
+      "applicability_contradiction_next": "Read S07/S23 and compare objectives for the consequential ambiguity."
+    },
+    {
+      "id": "H5",
+      "question": "Which extra measurements offer the largest benefit, and which claims must be dropped if they cannot be obtained? Separate existing instruments, feasible metadata requests, additional instrument proposals and CFD-only evidence.",
+      "status": "Proposed_design",
+      "provisional_answer": "Use the original plan channel map and qualify actual installation before proposing extra sensors.",
+      "strongest_evidence_and_depth": "PF02 Tablechannels/procedure; PF03; PF06",
+      "applicability_contradiction_next": "Regional loss/bulk enthalpy may remain unresolved without local evidence; no primary meter assumed."
+    },
+    {
+      "id": "H6",
+      "question": "Produce a concrete change-request matrix mapped to Nick's P0–P4. For each row: objective/QoI, exact missing quantity, current coverage/unknown, proposed change, instrument/location, clock/rate/duration/repeats to justify, uncertainty need, calibration/validation role, acceptance check and question for Dr. Luciano. Label every item proposed, not agreed. Identify case reallocation when an originally blind P3 case becomes a calibration anchor.",
+      "status": "Reconciled_proposed_changes",
+      "provisional_answer": "Original P0–P4 documents read; existing UQ/holdout provisions retained and narrower scientific changes proposed.",
+      "strongest_evidence_and_depth": "PF02–PF06; Nick_Plan_Reconciliation_2026-10-20.md",
+      "applicability_contradiction_next": "Originals unchanged; anchor reallocation requires new independent assessment when existing blind data are reused."
+    },
+    {
+      "id": "I1",
+      "question": "Which BCs, material/source details, operating histories and observation operators must experiments provide to CFD? What should CFD return to support closure/reduction work beyond attractive contour plots?",
+      "status": "Proposed_contract",
+      "provisional_answer": "Provide actual BC/source/history and sensor operator metadata; require fields, integrals, uncertainties and verification back.",
+      "strongest_evidence_and_depth": "S35; S16; S44; P0 §6",
+      "applicability_contradiction_next": "Attractive contour plots are insufficient for closure/reduction evidence."
+    },
+    {
+      "id": "I2",
+      "question": "What verification/validation and grid/time/regime sensitivity are needed for local recirculation, wall flux and extrema? Distinguish mesh convergence of integrated duty from convergence of local extent or peak temperatures.",
+      "status": "Partial",
+      "provisional_answer": "S10 has spatial/time-profile checks and laminar benchmark; S48 compares derivatives but lacks a complete grid/time/perturbation audit.",
+      "strongest_evidence_and_depth": "S10 §§4–5; S48 §3.3; S35",
+      "applicability_contradiction_next": "Local/decision QoI verification still separate; no false complete-validation claim."
+    },
+    {
+      "id": "I3",
+      "question": "How do Reynolds/thermal development, transition assumptions, buoyancy treatment, gravity/pressure boundaries and conjugate walls affect applicability? Do not assume a turbulence model or a laminar regime from convenience.",
+      "status": "Partial",
+      "provisional_answer": "Property/regime/CHT and gravity/pressure/tank conditions materially affect transfer; do not choose turbulence treatment by convenience.",
+      "strongest_evidence_and_depth": "S44 boundary sensitivity; S09/S36; S35",
+      "applicability_contradiction_next": "Declared regime evidence and physical versus pseudo-time treatment are required."
+    },
+    {
+      "id": "I4",
+      "question": "How can a limited CFD campaign discriminate candidate closures efficiently? What should be varied independently and held fixed? How should unavailable CFD change the minimum PhD demonstration rather than simply delay all work?",
+      "status": "Proposed_campaign",
+      "provisional_answer": "Use a small contrasting source/sink/loss/development campaign with withheld cases; preserve no-CFD minimum demonstration.",
+      "strongest_evidence_and_depth": "P0 contract/ladder; PF01; S44",
+      "applicability_contradiction_next": "Campaign resources unknown; no promised CFD delivery/date."
+    },
+    {
+      "id": "J1",
+      "question": "Which outputs are actionable, which require prediction versus state estimation, and which can be supported before full transient capability? Distinguish current measured margin from a forecast of future margin.",
+      "status": "Proposed_scope",
+      "provisional_answer": "Current measured margin, estimated state and future forecast are different dashboard outputs.",
+      "strongest_evidence_and_depth": "PF01; P0 decision table",
+      "applicability_contradiction_next": "Forecast requires predictive evidence; thresholds owned by operators/advisers."
+    },
+    {
+      "id": "J2",
+      "question": "What does evidence say about showing uncertainty, unavailable inputs, sensor coverage, out-of-domain predictions, stale measurements and competing model explanations? Separate model credibility from interface polish.",
+      "status": "Open_literature",
+      "provisional_answer": "Show uncertainty meaning, coverage, missing/stale inputs and validity/OOD status explicitly.",
+      "strongest_evidence_and_depth": "P0 proposed contract; S11 not fully extracted",
+      "applicability_contradiction_next": "Operational communication literature still needs primary extraction; UI polish is not model validation."
+    },
+    {
+      "id": "J3",
+      "question": "What result/data contracts should be discussed jointly with Ben Booth and NeutronOS: units, clock, provenance, facility/revision, scenario, horizon, uncertainty, validity and threshold ownership? Do not infer their existing product/stack or contact them.",
+      "status": "Proposed_contract",
+      "provisional_answer": "Discuss units, clocks, provenance, facility revision, scenario/horizon, uncertainty type, validity and threshold ownership with Ben/NeutronOS.",
+      "strongest_evidence_and_depth": "User scope; PF01; P0",
+      "applicability_contradiction_next": "No assumed product stack/contact; contract can be drafted independently."
+    },
+    {
+      "id": "J4",
+      "question": "Which later startup/shutdown, pressure/level, trace-heating and freezing questions require new physics or data? Distinguish single-phase margin prediction from resolving solidification, blockage or multiphase processes. Separate advisory prototypes from actual control or unattended operation.",
+      "status": "Supported_scope_limit",
+      "provisional_answer": "Single-phase temperature margin does not resolve solidification/blockage, pressure/level, trace heating or multiphase dynamics.",
+      "strongest_evidence_and_depth": "S38; S43; PF01",
+      "applicability_contradiction_next": "New physics/evidence and qualified scope are needed for later startup/shutdown claims."
+    },
+    {
+      "id": "K1",
+      "question": "What are the closest prior methods—not only closest fluids/applications—for our proposed reduction/closure/identification/UQ framework? What do they already accomplish that we must not claim as new?",
+      "status": "Partial",
+      "provisional_answer": "S10 already has transient experiment–CFD comparison; S48 already applies adjoint QoI sensitivities.",
+      "strongest_evidence_and_depth": "S10/S48 dossiers; S08/S06/S26/S44/S46",
+      "applicability_contradiction_next": "S50 experimental1D and S51 reliability are new verified full-text priorities."
+    },
+    {
+      "id": "K2",
+      "question": "Identify 2–4 candidate contribution packages, each with a narrow claim, closest prior work, specific methodological difference, required data, fair baselines, testable hypotheses, failure criteria and realistic fallback. Explicitly mark them provisional until the search supports them.",
+      "status": "Provisional_hypotheses",
+      "provisional_answer": "H01–H04 retained but narrowed by actual protocol ambiguities and stronger prior methods.",
+      "strongest_evidence_and_depth": "New_Batch_Synthesis_2026-10-20.md",
+      "applicability_contradiction_next": "No established novelty or final direction; minimal model comparison still conditional on declared QoIs."
+    },
+    {
+      "id": "K3",
+      "question": "Could contributions arise from QoI-driven physical reduction, uncertainty-aware model/closure selection, observable-consistent spatial reconstruction, experiment–CFD identification, or assessment of achievable recirculation extent/thermal-effect prediction? What existing work most strongly challenges each idea?",
+      "status": "Open_novelty",
+      "provisional_answer": "Generic transient/sensitivity/UQ framework claims face S10/S48 and S50/S51 leads.",
+      "strongest_evidence_and_depth": "S10/S48; S50/S51 metadata_abstract_only",
+      "applicability_contradiction_next": "Test a specific new identifiability/selection/transfer result, not first application of established machinery."
+    },
+    {
+      "id": "K4",
+      "question": "Distinguish method development, a reproducible procedure, new empirical physics, and a facility demonstration. Which combination would advance knowledge beyond a software integration/application exercise?",
+      "status": "Proposed_criteria",
+      "provisional_answer": "Theorem, new reproducible procedure, controlled empirical mechanism and facility demonstration are distinct contributions.",
+      "strongest_evidence_and_depth": "P0 contribution framework",
+      "applicability_contradiction_next": "A software integration/demo needs additional knowledge gain to be a theory/physics claim."
+    },
+    {
+      "id": "K5",
+      "question": "What could be a valuable negative result—for example, proving limits of sparse-data identification or showing when a richer spatial closure is unnecessary—and what evidence would make it publishable?",
+      "status": "Provisional_negative_result",
+      "provisional_answer": "A regional-loss perturbation can leave total balance and compatible exchanger flow estimates unresolved.",
+      "strongest_evidence_and_depth": "New batch analyst counterexample; PF06 equations",
+      "applicability_contradiction_next": "Elementary algebra is not novelty; define a useful model-class result and independent empirical consequences."
+    }
+  ],
+  "interpretation": "Coverage of all IDs, not a claim of completed answers or exhaustive literature.",
+  "latest_pass": "S10/S48 and original protocols"
+}

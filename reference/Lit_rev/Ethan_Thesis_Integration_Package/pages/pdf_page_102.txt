@@ -1,0 +1,12 @@
+Figure 6.10: Temperature Distribution in Lower Left Junction of Salt 4 (medium refinement)
+exception to be discussed momentarily. Water 2 and Water 4 have their velocity profiles
+best captured by turbulence models. The full set of water velocity profiles is in Appendix
+C. The standard SSTLM velocity profiles seemed to prefer to skew to the right, where the
+addition of buoyant production in the Gb variant shifted the skew to the left for most cases.
+Due to the odd shape of the recorded velocity profile for water 3, it is thought that the
+captured profile was in the midst of some fluctuation, but this idea is unquantified beyond
+visual inspection.
+Among the most experimentally insightful discoveries of the modeling efforts within this
+work are the insights in to the three-dimensional flow profile within the system. From taking
+a slice of the loop, we can see that the flow is practically swept up the rise leg along the
+88

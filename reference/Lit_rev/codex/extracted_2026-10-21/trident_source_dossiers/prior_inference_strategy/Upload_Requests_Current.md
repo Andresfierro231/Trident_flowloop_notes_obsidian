@@ -1,0 +1,14 @@
+# Current document requests —20October2026
+
+Please upload these two articles if convenient. S07 and S18 now have scoped dossiers, and the remaining motivation sources S64/S65/S13 are available for useful work while acquisition proceeds. Earlier blanket no-upload status is superseded by current retrieval failures.
+
+| Rank / ID | Verified citation and retrieval | Exact document | What to inspect | Decision | Why abstract/alternative insufficient | If unavailable | Action |
+|---|---|---|---|---|---|---|---|
+| 1 / S23 | Raue et al.(2009),Bioinformatics25(15),1923–1929;10.1093/bioinformatics/btp358; https://doi.org/10.1093/bioinformatics/btp358 | Complete published article or author accepted manuscript; supplement if obtainable | Likelihood and observation setup; profile construction/reoptimization; confidence thresholds; structural/practical examples; limitations | Choose defensible identifiability and confidence diagnostics for thermal parameter groups. | Need actual objective, nuisance optimization and threshold/regularity assumptions; metadata does not supply them. | Keep inference procedure provisional and explicit; use exact symmetry/sensitivity analysis while reading qualified alternatives. | Upload full PDF; include supplementary PDF if available. Main paper is the first priority. |
+| 2 / S67 | Brastein et al.(2019),Energy and Buildings191,200–210;10.1016/j.enbuild.2019.03.018; https://doi.org/10.1016/j.enbuild.2019.03.018 | Complete published article preferred; accepted manuscript acceptable with version label | Thermal network and observations; likelihood/filter residual covariance; parameter constraints;1D/2D profiles; calibration/assessment and computation comparisons | Determine what thermal-network identification/uncertainty combinations already exist and which can transfer to TRIDENT. | Abstract establishes relevance, not exact identifiability conditions, tests, covariance treatment or independently demonstrated performance. | Cannot settle the closest thermal-network novelty comparison; S08/S26 are useful but do not replace this exact method comparison. | Upload article PDF or accepted manuscript. Replaceable for generic methods, important for adjudicating this specific prior-art claim. |
+
+S23 current checks: publisher PDF403; Freiburg and Augsburg PDFs503/timeouts; no university subscription assumed. S67: publisher metadata advertises open access, but usable full text was not retrieved; the institutional thesis lead was not verified as a usable paper copy.
+
+Unavailable is distinguished from unread: S64/S65/S13/S15/S61 remain an available reading backlog. S18/S07 journal-versus-manuscript comparisons are unfinished, but the inspected manuscripts already support qualified synthesis.
+
+No FlowTests5/6, bulk operating data or Ethan-thesis discrepancy material is requested.

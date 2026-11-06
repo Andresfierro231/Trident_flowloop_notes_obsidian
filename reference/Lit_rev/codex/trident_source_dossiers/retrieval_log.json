@@ -1,0 +1,26 @@
+[
+  {
+    "source_id": "S43",
+    "url": "https://www.osti.gov/servlets/purl/1495055",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "source_id": "S44",
+    "url": "https://eprints.whiterose.ac.uk/id/eprint/184726/1/2021%20-%20CES%20237%20-%20Development%20of%20a%20CFD%20-%20LES%20model%20for%20the%20dynamic%20analysis%20of%20the%20DYNASTY%20natural%20circulation%20loop.pdf",
+    "status": "local_pdf_ready_not_extracted",
+    "bytes": 3437083,
+    "pdf_pages": 14,
+    "identity_page": "eprints@whiterose.ac.uk\nhttps://eprints.whiterose.ac.uk\nUniversities of Leeds, Sheffield and York\nDeposited via The University of Sheffield.\nWhite Rose Research Online URL for this paper:\nhttps://eprints.whiterose.ac.uk/id/eprint/184726/\nVersion: Published Version\nArticle:\nBattistini, A., Cammi, A., Lorenzi, S. et al. (2021) Development of a CFD \u2013 LES model for \nthe dynamic analysis of the DYNASTY natural circulation loop. Chemical Engineering \nScience, 237. 116520. ISSN: 0009-2509 \nhttps://doi.org/10.1016/j.ces.2021.116520\nReuse \nThis article is distributed under the terms of the Creative Commons Attribution (CC BY) licence. This licence \nallows you to distribute, remix, tweak, and build upon the work, even commercially, as long as you credit the \nauthors for the original work. More information and the full terms of the licence here: \nhttps://creativecommons.org/licenses/ \nTakedown \nIf you consider content in White Rose Research Online to be in breach of UK law, please notify us by \nemailing eprints@whiterose.ac.uk including the URL of the record and the reason for the withdrawal request. \n",
+    "path": "/workspace/scratch/24d300ddb639/trident_source_dossiers/available/S44.pdf"
+  },
+  {
+    "source_id": "S45",
+    "url": "https://repository.up.ac.za/bitstreams/953eee89-6d2f-4165-9709-bc7f71becaa3/download",
+    "status": "local_pdf_ready_not_extracted",
+    "bytes": 3208820,
+    "pdf_pages": 36,
+    "identity_page": "1\u00a0\n\u00a0\nSimultaneous development of the hydrodynamic and thermal boundary layers of mixed \nconvective laminar flow through a horizontal tube with a constant heat flux  \nMarilize Everts1,*, Mostafa Mahdavi1, Mohsen Sharifpur1,2,* and Josua P. Meyer1 \n1Department\u00a0of\u00a0Mechanical\u00a0and\u00a0Aeronautical\u00a0Engineering,\u00a0University\u00a0of\u00a0Pretoria,\u00a0Private\u00a0Bag\u00a0X20,\u00a0\nHatfield\u00a00028,\u00a0Pretoria,\u00a0South\u00a0Africa.\u00a0\n2Department\u00a0of\u00a0Medical\u00a0Research,\u00a0China\u00a0Medical\u00a0University\u00a0Hospital,\u00a0China\u00a0Medical\u00a0University,\u00a0\nTaichung,\u00a0Taiwan.\u00a0\n*Corresponding\u00a0authors\u00a0email:\u00a0marilize.everts@up.ac.za\u00a0(M.\u00a0Everts)\u00a0\n\u00a0and\u00a0mohsen.sharifpur@up.ac.za\u00a0(M.\u00a0Sharifpur)\u00a0\nAbstract\u00a0\nThe\u00a0 thermal\u00a0 and\u00a0 hydrodynamic\u00a0 features\u00a0 of\u00a0 developing\u00a0 mixed\u00a0 convective\u00a0 laminar\u00a0 flow\u00a0 in\u00a0 a\u00a0 long\u00a0\nhorizontal\u00a0tube\u00a0were\u00a0numerically\u00a0and\u00a0experimentally\u00a0investigated.\u00a0The\u00a0tube\u00a0was\u00a0heated\u00a0at\u00a0different\u00a0\nconstant\u00a0heat\u00a0fluxes\u00a0and\u00a0had\u00a0an\u00a0inner\u00a0diameter\u00a0of\u00a011.52\u00a0mm\u00a0and\u00a0a\u00a0total\u00a0length\u00a0of\u00a09.5\u00a0m.\u00a0\u00a0Numerical\u00a0\nsimulations\u00a0were\u00a0conducted\u00a0using\u00a0ANSYS\u2010Fluent\u00a019.3\u00a0with\u00a0a\u00a0highly\u00a0structured\u00a0mesh\u00a0and\u00a0accurate\u00a0\ntemperature\u2010dependant\u00a0thermophysical\u00a0properties\u00a0for\u00a0water.\u00a0The\u00a0studied\u00a0parameters\u00a0consisted\u00a0of\u00a0\nthe\u00a0wall\u00a0temperatures,\u00a0Nusselt\u00a0numbers,\u00a0vorticity,\u00a0velocity\u00a0and\u00a0temperature\u00a0gradients,\u00a0hydrodynamic\u00a0\nand\u00a0thermal\u00a0boundary\u00a0layer\u00a0development,\u00a0secondary\u00a0flow,\u00a0as\u00a0well\u00a0as\u00a0significant\u00a0momentum\u00a0terms.\u00a0By\u00a0\nanalysing\u00a0 the\u00a0 vorticity\u00a0 characteristics,\u00a0 it\u00a0 was\u00a0 found\u00a0 that\u00a0 our\u00a0 conventional\u00a0 understanding\u00a0 of\u00a0 the\u00a0\nmerging\u00a0 boundary\u00a0 layer\u00a0 in\u00a0 internal\u00a0 tube\u00a0 flows\u00a0 had\u00a0 to\u00a0 be\u00a0 modified.\u00a0 Subsequently,\u00a0 methods\u00a0 were\u00a0\nproposed\u00a0to\u00a0determine\u00a0the\u00a0development\u00a0of\u00a0the\u00a0hydrodynamic\u00a0and\u00a0",
+    "path": "/workspace/scratch/24d300ddb639/trident_source_dossiers/available/S45.pdf"
+  }
+]

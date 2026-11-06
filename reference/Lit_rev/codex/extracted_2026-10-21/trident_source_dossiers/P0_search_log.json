@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-20",
+  "review_type": "targeted continuation; not exhaustive/systematic",
+  "original_brief_available": true,
+  "queries": [
+    "\"MSRE\" \"heat balance\" \"25\" discrepancy",
+    "\"MSRE\" \"ORNL-4037\" heat transfer radiator",
+    "\"Reactor Power Measurement and Heat Transfer Performance in the MSRE\"",
+    "\"Natural circulation FLiBe loop overview\" supplementary data Britsch",
+    "\"Britsch\" \"Operation Data\" FLiBe data",
+    "\"Real-time inverse solutions via neural matrix operators\"",
+    "\"Computational and experimental investigation of steady state and transient characteristics of molten salt natural circulation loop\" pdf",
+    "\"Application of adjoint-based sensitivity analysis to natural circulation\" pdf",
+    "\"DYNASTY\" \"distributed heating\" natural circulation Battistini 2021"
+  ],
+  "repositories": [
+    "publisher pages",
+    "OSTI/ORNL",
+    "Crossref",
+    "institutional Polimi/WhiteRose/DTU",
+    "author manuscript repository",
+    "arXiv fixedv1",
+    "GitHub fixedcommit",
+    "Mendeley catalogue",
+    "identified historical-report mirror"
+  ],
+  "inclusion": "primary studies/reports directly informing declared questions; reviews only for discovery",
+  "exclusion": "duplicate works; unverified metadata; unavailable files treated as evidence; abstract-only mechanism/performance claims",
+  "backward_tracing": [
+    "S43→S47 original report",
+    "S43→S49 dataset",
+    "S46→S48 sensitivity paper"
+  ],
+  "limits": [
+    "no subscription assumed",
+    "403/429 and catalogue-only routes",
+    "selected-section extraction explicit",
+    "novelty search incomplete",
+    "no ACU data processing",
+    "Nick original protocols absent"
+  ],
+  "recent_discovery_only": [
+    {
+      "id": "L-P0-01",
+      "doi": "10.1016/j.net.2026.104438",
+      "label": "MARS/MSRE transient benchmarking lead; full methods unread"
+    },
+    {
+      "id": "L-P0-02",
+      "doi": "10.3390/en19010013",
+      "label": "MSRE Modelica/TRANSFORM transient lead; full methods unread"
+    }
+  ]
+}

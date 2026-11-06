@@ -1,0 +1,26 @@
+[25] J. Reis and Y. A. Hassan.
+SAM code validation for high Prandtl number flow in
+molten salt natural circulation facility. Nuclear Technology, 211(9):2135–2144, 2025.
+doi: 10.1080/00295450.2025.2480974.
+[26] G. J. Janz and R. P. T. Tomkins. Physical properties data compilations relevant to
+energy storage: IV. Molten salts. Technical Report NSRDS-NBS 61, Part IV, National
+Bureau of Standards, 1981.
+[27] International Association for the Properties of Water and Steam. Revised release on
+the IAPWS industrial formulation 1997 for the thermodynamic properties of water and
+steam. Release R7-97(2012), International Association for the Properties of Water and
+Steam, 8 2007. URL https://iapws.org/documents/release/IF97-Rev. The revision
+relates only to the extension of region 5 to 50 MPa; further editorial revisions in 2009,
+2010 and 2012.
+[28] M. L. Huber, R. A. Perkins, A. Laesecke, D. G. Friend, J. V. Sengers, M. J. Assael,
+et al. New international formulation for the viscosity of H2O. Journal of Physical and
+Chemical Reference Data, 38(2):101–125, 2009. doi: 10.1063/1.3088050.
+[29] L. Luzzi et al. Assessment of analytical and numerical models on experimental data
+for the study of single-phase natural circulation dynamics in a vertical loop. Chemical
+Engineering Science, 162:262–283, 2017.
+[30] A. Pini et al. MATLAB-OpenFOAM coupling for stability analysis of natural circulation
+loops. Nuclear Engineering and Design, 2019.
+[31] A. Battistini et al. Development of a cfd - LES model for the dynamic analysis of the
+DYNASTY natural circulation loop. Chemical Engineering Science, 2021.
+[32] A. Nalbandyan et al. RANS assessment on the DYNASTY natural circulation facility.
+Nuclear Engineering and Design, 2022.
+103

@@ -1,0 +1,29 @@
+"validated" in the sense the the comparison error cannot be distinguished from other error
+sources.
+The blue bands seen in Figure 6.8 and 6.9 correspond to the four orientation
+extremes (front/back top/bottom or left/right) for a given segment of pipe at the nominal
+axial point of the wall temperature measurement. With the azimuthal orientations of the
+wall thermocouples being lost, the bounds of those four points on the perimeter allow us
+to see the effects thermal stratification may have had on the experimental measurements,
+which at times is considerable. The temperature parity plots the two turbulence models are
+not considerably different from the laminar parity seen in Figure 6.9, so have been excluded
+for brevity.
+To pre-empt the next series of plots, it is useful to see the temperature distribution typical
+of a molten salt test in the bottom left junction, following just after the heater leg and before
+the test section. When looking at the previous parity plots for salt, you may notice that
+TP3 is often an outlier with relation to nearly all other measurements and that this trend
+is not visible in the water cases. That is because: following the heater leg, the molten salt’s
+high Prandtl number results in a steep temperature gradient as the freshly heated, relatively
+fast-flowing salt moves up the riser leg, slips past the largely stagnant fluid in the lower
+junction. Figure 6.10 shows the steep temperature gradient (specifically for salt test 4 on
+the medium mesh), along with a 0.1" radius sphere centered in the cross junction. From
+this visual, we can then quantify the potential impact on the temperature measurement in
+the event of a small bump or other perturbation away from the true center of the junction,
+which as we can see from Figures 6.11 and 6.12 that such a small change in location can
+impact the recorded temperature by over 10 K in some cases.
+The final set of QoI figures represents the most difficult batch to acceptably match. In
+order to produce a serviceable prediction of the PIV data, the location of the PIV plane must
+be replicated appropriately. Beyond the PIV’s location, the velocity profiles have historically
+been the most sensitive to changes throughout the modeling effort but the current work
+validates each test within uncertainty, with the glaring exception of salt 1 as the primary
+85

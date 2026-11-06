@@ -1,0 +1,278 @@
+[
+  {
+    "id": "S23-C01",
+    "claim": "Initial states and observation scale/offset can belong to the parameter vector.",
+    "sources": [
+      "S23"
+    ],
+    "locator": "Eqs1–3,PDF2/1924",
+    "limit": "Appropriate likelihood/inputs still needed.",
+    "dossier": "dossiers/S23_Raue_2009.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S23-C02",
+    "claim": "Profile construction reoptimizes all remaining parameters.",
+    "sources": [
+      "S23"
+    ],
+    "locator": "Eq10,PDF4/1926",
+    "limit": "Not a fixed-parameter slice or posterior integral.",
+    "dossier": "dossiers/S23_Raue_2009.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S23-C03",
+    "claim": "Structural invariance differs from shallow practical uncertainty.",
+    "sources": [
+      "S23"
+    ],
+    "locator": "Eq9/§2.3,PDF3/1925",
+    "limit": "Finite numerical flatness alone is not proof.",
+    "dossier": "dossiers/S23_Raue_2009.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S23-C04",
+    "claim": "Hessian and profile intervals can differ substantially in a practical ambiguity.",
+    "sources": [
+      "S23"
+    ],
+    "locator": "Table1,PDF6/1928",
+    "limit": "Biological example, not thermal uncertainty magnitude.",
+    "dossier": "dossiers/S23_Raue_2009.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S23-C05",
+    "claim": "Profile trajectories guide suggested measurements and reduction.",
+    "sources": [
+      "S23"
+    ],
+    "locator": "§4,PDF4/1926",
+    "limit": "Predictive validity under changed conditions remains to be tested.",
+    "dossier": "dossiers/S23_Raue_2009.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S23-C06",
+    "claim": "Added measurement effects are demonstrated with hypothetical data.",
+    "sources": [
+      "S23"
+    ],
+    "locator": "§5,PDF6/1928",
+    "limit": "Not a newly executed experiment.",
+    "dossier": "dossiers/S23_Raue_2009.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S23-C07",
+    "claim": "One-dimensional relation recovery has an explicit manifold-dimension restriction.",
+    "sources": [
+      "S23"
+    ],
+    "locator": "§5,PDF5/1927",
+    "limit": "Higher-dimensional ambiguity needs more analysis.",
+    "dossier": "dossiers/S23_Raue_2009.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S23-C08",
+    "claim": "Detailed profile algorithm/runtime analysis is in uninspected supplementary material.",
+    "sources": [
+      "S23"
+    ],
+    "locator": "§§4–6,PDF4–6/1926–1928",
+    "limit": "Main-paper readiness does not cover supplement.",
+    "dossier": "dossiers/S23_Raue_2009.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S67-C01",
+    "claim": "The demonstration is a two-state R3C2 building network with measured power/outdoor inputs.",
+    "sources": [
+      "S67"
+    ],
+    "locator": "Fig1/§3.1/Eq24,PDF6–7/205–206",
+    "limit": "No circulation/advection physics.",
+    "dossier": "dossiers/S67_Brastein_2019.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S67-C02",
+    "claim": "Likelihood uses innovations and their covariance including a log determinant.",
+    "sources": [
+      "S67"
+    ],
+    "locator": "Eqs7–14,PDF3–4/202–203",
+    "limit": "Conditional Gaussian/filter approximation.",
+    "dossier": "dossiers/S67_Brastein_2019.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S67-C03",
+    "claim": "Data are filtered/resampled and artificial temperature noise added.",
+    "sources": [
+      "S67"
+    ],
+    "locator": "§3.2,PDF6/205",
+    "limit": "Not a reconstruction of traceable original metrology.",
+    "dossier": "dossiers/S67_Brastein_2019.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S67-C04",
+    "claim": "UKF is efficient relative to EnKF in this small linear example.",
+    "sources": [
+      "S67"
+    ],
+    "locator": "Tables3–6/§4.5,PDF7–9",
+    "limit": "Not general algorithm dominance.",
+    "dossier": "dossiers/S67_Brastein_2019.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S67-C05",
+    "claim": "Calibration replay and fitted bands are used as validation evidence.",
+    "sources": [
+      "S67"
+    ],
+    "locator": "§4.4/Figs5–6,PDF8/207",
+    "limit": "No independent predictive coverage established.",
+    "dossier": "dossiers/S67_Brastein_2019.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S67-C06",
+    "claim": "Bounds and parameter dependence materially alter reported profiles.",
+    "sources": [
+      "S67"
+    ],
+    "locator": "§4.6/Figs8–11,PDF9–10",
+    "limit": "Global identifiability/coverage needs further justification.",
+    "dossier": "dossiers/S67_Brastein_2019.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S67-C07",
+    "claim": "The printed likelihood-ratio normalization needs reconciliation.",
+    "sources": [
+      "S67"
+    ],
+    "locator": "Eqs12/14/20/21,PDF3–5",
+    "limit": "Analyst mathematical audit; executed objective unknown.",
+    "dossier": "dossiers/S67_Brastein_2019.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S67-C08",
+    "claim": "Serial residual diagnostics alone do not establish Gaussianity or held-out validity.",
+    "sources": [
+      "S67"
+    ],
+    "locator": "§§2.5/4.4,PDF5/8 plus analyst qualification",
+    "limit": "Preserve separate statistical questions.",
+    "dossier": "dossiers/S67_Brastein_2019.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S67-C09",
+    "claim": "Exhaustive pair profiles have substantial optimization cost.",
+    "sources": [
+      "S67"
+    ],
+    "locator": "§4.5.1,PDF9",
+    "limit": "Select consequential groups before exhaustive scans.",
+    "dossier": "dossiers/S67_Brastein_2019.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S68-C01",
+    "claim": "Sensor comparison also changes wall construction and observed physical component.",
+    "sources": [
+      "S68"
+    ],
+    "locator": "§3,Fig2,PDF4–5/54–55",
+    "limit": "Placement/material effects are not isolated.",
+    "dossier": "dossiers/S68_Brastein_sensor_placement.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S68-C02",
+    "claim": "Warm-started pair-profile calculations reduce reported computation.",
+    "sources": [
+      "S68"
+    ],
+    "locator": "§2.1,PDF3/53",
+    "limit": "Local/implementation-specific result, not guaranteed global coverage.",
+    "dossier": "dossiers/S68_Brastein_sensor_placement.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S68-C03",
+    "claim": "Sensor choice changes selected parameter profiles and reveals bound-related dependence.",
+    "sources": [
+      "S68"
+    ],
+    "locator": "§§4.1–4.2,Figs6–7,PDF5–6",
+    "limit": "A calibration/inference result, not universal sensor ranking.",
+    "dossier": "dossiers/S68_Brastein_sensor_placement.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S68-C04",
+    "claim": "One proposed storage reduction fails residual assessment; removing a loss branch is retained after refitting.",
+    "sources": [
+      "S68"
+    ],
+    "locator": "§§4.3/4.5,PDF6–7",
+    "limit": "No unchanged independent holdout demonstrated.",
+    "dossier": "dossiers/S68_Brastein_sensor_placement.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S68-C05",
+    "claim": "Total resistance/time-scale combinations remain stable across different fitted components.",
+    "sources": [
+      "S68"
+    ],
+    "locator": "§4.4,Table3,PDF7/57",
+    "limit": "Direct prior art for grouped inference; no material-property proof.",
+    "dossier": "dossiers/S68_Brastein_sensor_placement.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  },
+  {
+    "id": "S68-C06",
+    "claim": "Observation choice, model structure and identifiability are already treated jointly.",
+    "sources": [
+      "S68"
+    ],
+    "locator": "§5,PDF8/58;§§3–4",
+    "limit": "TRIDENT novelty must go beyond combining these ingredients.",
+    "dossier": "dossiers/S68_Brastein_sensor_placement.md",
+    "status": "scoped_primary_article_evidence_with_explicit_appraisal",
+    "extraction_date": "2026-10-20"
+  }
+]

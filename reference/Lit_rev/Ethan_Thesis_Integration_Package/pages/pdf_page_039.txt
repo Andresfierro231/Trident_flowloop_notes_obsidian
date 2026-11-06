@@ -1,0 +1,34 @@
+that the solutions are not yet within the asymptotic range or that there may be other issues
+within the solution and that calculated uncertainty estimates for solution sets with these
+behavior classifications should be treated with caution or using specialized methods. This
+work’s solutions converge monotonically under mesh refinement so the methods within this
+chapter are discussed and later applied with monotonic convergence in mind.
+3.3.2
+Mesh Refinement Strategy
+With the methodology established and in-line with the first step of determining the GCI
+discussed above, we can discuss the mesh refinement strategy used within this work.
+The full-loop meshes form a three-level family by uniformly scaling the boundary-layer
+and bulk cell size in a hybridized approach to preserve block topology and ensure that a
+topologically blind refinement strategy would not muddy refinement where it was important
+as in the boundary layer or to overly refine the bulk flow regions since the full-loop mesh
+is expensive to compute, especially since pseudo-transient timestepping was needed, which
+will be further elaborated on Chapter 5.
+For the BC-verification family, a similar approach was used to maintain a consistent
+methodology, however, the BC-verification family of meshes were smaller and much faster
+to compute overall. This relaxation of computing resources allowed expanding the code-
+verification study to a four-level approach using a refinement ratio of r = 2 on a simpler
+geometry which permitted better testing of the asymptotic order. For a 3D case, a single
+value for a representative cell size, hrep can be found using the equation,
+h =
+"
+1
+N
+N
+X
+i=1
+(∆Vi)
+#1/3
+(3.11)
+Where h is the representative cell size, ∆Vi is the volume of the ith cell, and N is the total
+number of simulated cells.
+25

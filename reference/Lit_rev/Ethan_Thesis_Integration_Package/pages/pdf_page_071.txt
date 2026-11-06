@@ -1,0 +1,43 @@
+Conservation of mass is
+∂ρ
+∂t + ∇· (ρU) = 0.
+(5.8)
+Conservation of momentum is
+∂(ρU)
+∂t
++ ∇· (ρU ⊗U) = −∇prgh −(g · r) ∇ρ + ∇· τ eff,
+(5.9)
+where r is the position vector, g is the gravitational acceleration, and the pressure is decom-
+posed as
+prgh ≡p −ρ g · r.
+(5.10)
+This decomposition removes the hydrostatic head from the pressure variable, so that buoy-
+ancy enters Equation (5.9) solely through the (g · r) ∇ρ term. So, for a single-phase, isother-
+mal loop, the ∇ρ term would reduce to zero. This is exactly what we would expect for a
+system with a uniform density gratient: no natural circulation.
+The effective stress tensor is
+τ eff = µeff
+
+∇U + (∇U)T −2
+3 (∇· U) I
+
+,
+µeff = µ + µt,
+(5.11)
+in which µ = µ(T) is the molecular dynamic viscosity and µt is the turbulent viscosity sup-
+plied by the closure model (Section 5.2.3). The transpose and dilatation terms are retained
+because µ varies appreciably over the operating temperature range and ∇· U ̸= 0.
+Conservation of energy is solved in enthalpy form,
+∂(ρh)
+∂t
++ ∇· (ρUh) + ∂(ρK)
+∂t
++ ∇· (ρUK) −∂p
+∂t = ∇· (αeff∇h) + ρ U · g,
+(5.12)
+where h is the specific enthalpy, K = |U|2/2 is the specific kinetic energy, and
+αeff = µ
+Pr + µt
+Prt
+(5.13)
+57

@@ -1,0 +1,7 @@
+The overlay seen in Figure 5.1 was performed by importing both images into Blender 5.1.2,
+setting both image origins to the center of the lower left fitting, and scaling the image of the
+instrumentation diagram until both left legs were overlaid while ensuring the aspect ratios
+of both images was kept throughout the process.
+Figure 5.1: Overlaid Instrumentation Diagram with Constructed Facility
+While a full Bill of Materials was not available for how the loop was constructed, collabo-
+49

@@ -1,0 +1,31 @@
+assembly [8].
+The Texas A&M University (TAMU) natural circulation loop, operated by Reis, Seo,
+and Hassan [9], represents the state of the art for such validation data. The experiment used
+particle image velocimetry (PIV) to measure two-dimensional velocity fields midway up the
+riser leg of the loop and recorded steady-state thermocouple readings around the loop, for
+two working fluids: water as a baseline, and HITEC, a eutectic molten salt mixture. These
+experiments were conducted in identical loop geometries at four constant heater powers each
+until thermal equilibrium was achieved. This two-fluid approach allows us to isolate the
+effects of the fluid properties from those of the loop geometry, making the TAMU dataset an
+attractive validation target, especially for demonstrating the unique difficulties and different
+approaches needed for properly modeling the natural circulation of molten salt.
+The need for validated models increases further when the development of new, digital-
+twin technology for advanced nuclear systems is considered; particularly relevant for this
+thesis are those in development at the University of Texas at Austin.
+Digital twins are
+anticipated to improve both the efficiency and safety of operating nuclear systems [10], but
+the reduced-order models and neural networks used for these applications must, at their
+core, be trained and evaluated against data with known quality.
+A rigorously validated
+CFD model can serve as both a reference solution and synthetic training data generator
+for quantities and locations that physical instrumentation cannot reach or did not measure.
+That intention increases the pressure for present work, as models developed downstream
+from this work inherit the quality of the data produced here, whose credibility must be
+quantified.
+This thesis attempts to help fill the need for modeling and simulation of molten salt
+natural circulation loops (NCLs).
+To do so, a complete, automated computational fluid
+dynamics (CFD) verification and validation (V&V) pipeline for NCLs has been developed
+using OpenFOAM V13 [11] and tested against all eight published test cases from TAMU’s
+experimental facility [9]. In doing so, this thesis documents challenges particular to an NCL
+5

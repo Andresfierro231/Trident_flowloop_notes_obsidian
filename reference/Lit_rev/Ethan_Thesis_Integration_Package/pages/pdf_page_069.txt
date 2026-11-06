@@ -1,0 +1,26 @@
+5.1.4
+Composite Fin Model
+At each of the corners around the loop, there are structural components that are necessary
+to account for in order to close the energy balance of the system. These components are:
+three caps for unconnected legs of cross junctions, the drain valve, the melting pot valve,
+the bubble injection valve used for other experiments, and the off-gas valve. No temperature
+data exsists for any of these regions, so the first order model approximates each of them
+as composite, cylindrical fins with a fixed-temperature base. Using this approach, the solid
+"fins" away from the system account for between 9-16% of the energy leaving the system.
+The seven cylindrical composite fins were modeled using a two-dimensional axisymmetric
+solver:
+• Geometry: Stainless steel core pipe surrounded by insulation sheath of the same
+thickness as the insulation used on the rest of the loop, with an isothermal base held
+at the temperature of the nearest thermocouple reading.
+• Physics: Radial and axial conduction, side-surface natural convection using the same
+cylindrical correlations as above plus radiation, and using horizontal/vertical plate
+correlation for the far-end surface depending on fin orientation.
+• Discretization: Adaptive radial/axial grid (target cell size 0.8 mm, minimum 25 cells
+per direction).
+• Solver: Sparse matrix with linearized radiation, up to 400 iterations, using the same
+tolerances as the radial conduction solver detailed above.
+The total fin heat loss summed over all seven fins is included in the energy balance
+closure. The solid-core modeling overestimates the heat transfer for non-solid fins, such as
+the off-gas and drain tank valves, but lacking a full-fidelity geometry and additional data in
+those regions, this compomise has been made.
+55

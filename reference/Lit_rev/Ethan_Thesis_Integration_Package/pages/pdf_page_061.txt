@@ -1,0 +1,130 @@
+Table 4.6: Digitized VS Raw Residuals for Salt Tests
+Test
+Y/H
+L2 [10−4 m/s]
+L2 [%]
+L2, bulk [%]
+L∞[%]
+Salt 1
+0.25
+1.44
+0.55
+0.27
+2.09
+0.50
+3.17
+1.26
+0.46
+6.83
+0.75
+1.92
+0.81
+0.36
+4.73
+Salt 2
+0.25
+1.59
+0.57
+0.38
+2.20
+0.50
+2.84
+1.06
+0.89
+4.20
+0.75
+1.55
+0.60
+0.31
+3.50
+Salt 3
+0.25
+3.33
+1.13
+0.31
+6.96
+0.50
+10.39
+3.65
+0.85
+14.10
+0.75
+2.60
+0.95
+0.66
+3.48
+Salt 4
+0.25
+2.33
+0.72
+0.39
+2.96
+0.50
+2.78
+0.89
+0.24
+4.07
+0.75
+2.04
+0.67
+0.30
+2.45
+All Tests
+All Heights
+3.79
+1.36
+0.50
+14.10
+thermocouple, so Reis’s ∆T uncertainty of 1.56 K is not included, favored instead by the
+1.1 K uncertainty for each thermocouple (referred to as utc below). The row for umeth is the
+RMS of the methodology using Equations 4.9 and 4.10, rounded up from 0.85% to 0.9% and
+still below the conservative upper bound of 1.3%. Then, udig is the uncertainty associated
+with the full-field PIV data for the water cases resultant from the digitization effort; which
+has a value of zero for each salt case since that data did not need to be extracted.
+Table 4.7: Contributions to Data Uncertainty (uD)
+Quantity
+Salt 1
+Salt 2
+Salt 3
+Salt 4
+Water 1
+Water 2
+Water 3
+Water 4
+uPIV [%]
+2.33
+2.17
+2.06
+1.91
+2.11
+1.80
+1.60
+1.38
+utc [K]
+1.1
+1.1
+1.1
+1.1
+1.1
+1.1
+1.1
+1.1
+umeth [%]
+0.9
+0.9
+0.9
+0.9
+0.9
+0.9
+0.9
+0.9
+udig [%]
+0
+0
+0
+0
+1.5
+1.5
+1.5
+1.5
+47

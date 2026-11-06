@@ -14,3 +14,5 @@ Extend the existing topic before adding another. A study folder is optional for 
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/WORKING_UNDERSTANDING.md|Current cross-source interpretation]]
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/RECONCILIATION.md|Contradictions and proposed resolution]]
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/PLANNING_COVERAGE.md|Historical plan/sub-task disposition]]
+
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/MOSER_PROPOSAL_THROUGHLINE.md|Moser proposal throughline and draft gaps]].

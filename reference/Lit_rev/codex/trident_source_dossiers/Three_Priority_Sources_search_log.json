@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-20",
+  "queries": [
+    "Three uploadedDOIs",
+    "Brown MSR phenomena PDF OSTI",
+    "Huan Marzouk Bayesian design arxiv/MIT",
+    "Keller Welander publisher pages and PDF routes",
+    "Fichera author/institutional full text",
+    "Diffusion chaos author/SIAM/CiteSeer",
+    "Goyal nonlinear loop institutional manuscript",
+    "Bardet scaled salt helium experiments PDF",
+    "Internal heating and wall inertia source titles"
+  ],
+  "retrievals": [
+    {
+      "source_id": "S13",
+      "url": "https://www.osti.gov/servlets/purl/1600470",
+      "date": "2026-10-20",
+      "status": "PDF_retrieved_identity_pending",
+      "path": "/workspace/scratch/24d300ddb639/trident_source_dossiers/available/S13_access20261020.pdf",
+      "pages": 47,
+      "first_text": "U.S. Department of Energy\nNotice: This manuscript has been authored by employees of Brookhaven Science Associates, LLC under \nContract No.                              with the U.S. Department of Energy. The publisher by accepting the \nmanuscript for publication acknowledges that the United States Government retains a non-exclusive, paid-up, \nirrev"
+    },
+    {
+      "source_id": "S07",
+      "url": "https://arxiv.org/pdf/1108.4146",
+      "date": "2026-10-20",
+      "status": "The read operation timed out"
+    },
+    {
+      "source_id": "S54",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1B537BF7FFBFB06CF1CE50A719C436E0/S0022112066001423a.pdf/periodic_oscillations_in_a_model_of_thermal_convection.pdf",
+      "date": "2026-10-20",
+      "status": "non_PDF_response_not_publication",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "S55",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/787E818EE7062B6283C9DC08F26AFC95/S0022112067000606a.pdf/on_the_oscillatory_instability_of_a_differentially_heated_fluid_loop.pdf",
+      "date": "2026-10-20",
+      "status": "non_PDF_response_not_publication",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "S59",
+      "url": "https://epubs.siam.org/doi/pdf/10.1137/S0036139996304184",
+      "date": "2026-10-20",
+      "status": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source_id": "S62",
+      "url": "https://journals.aps.org/pre/pdf/10.1103/42pn-wttx",
+      "date": "2026-10-20",
+      "status": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "source_id": "S63",
+      "url": "https://www.sciencedirect.com/science/article/pii/S014919702030278X/pdfft",
+      "date": "2026-10-20",
+      "status": "non_PDF_response_not_publication",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "S58",
+      "url": "https://www.iris.unict.it/retrieve/dfe4d227-1ef7-bb0a-e053-d805fe0a78d9/IJHMT-ModContNCL-Fichera-Pagano.pdf",
+      "date": "2026-10-20",
+      "status": "non_PDF_response_not_publication",
+      "content_type": "text/html;charset=utf-8"
+    }
+  ],
+  "additional_retrievals": [
+    {
+      "id": "S64",
+      "status": "PDF",
+      "pages": 14,
+      "identity": "THERMAL HYDRAULICS\nKEYWORDS: liquid and molten\nsalts, very high-temperature reac-\ntors, scaled experiments\nOPTIONS FOR SCALED EXPERIMENTS\nFOR HIGH TEMPERATURE LIQUID SALT\nAND HELIUM FLUID MECHANICS AND\nCONVECTIVE HEAT TRANSFER\nPHILIPPE M. BARDET and PER F. PETERSON*\nUniversity of California, Nuclear Engineering Department, Berkeley, California 94720\nReceived October 11, 2006\nAccepted for Publication June 29, 2007\nLiquid fluoride salts and helium have desirable prop-\nerties for use as working fluids for high-temperature (500\nto 10008C) heat transport in fission and fusion applica-\ntions. This paper presents recent progress in the design\nand analysis of scaled thermal-hydraulic experiments for\nfluid mechanics and convective heat transfer in liquid\nsalt and helium systems. It presents a category of heat\ntransfer fluids and a category of light mineral oils that\ncan be used for scaled experiments simulating convec-\ntive heat transfer in liquid salts. By optimally selecting\nthe length, veloc",
+      "url": "https://fhr.nuc.berkeley.edu/wp-content/uploads/2015/08/Bardet-Peterson-2008-Options-for-Scaled-Experiments-for-High-Temperature-Liquid-Salt-and-Helium-Fluid-Mechanics-and-Convective-Heat-Transfer.pdf"
+    },
+    {
+      "id": "S59",
+      "status": "HTTP Error 503: Service Unavailable",
+      "url": "https://citeseerx.ist.psu.edu/document?doi=b20f3e397577375e7c750a28f984a9ef906d9b62&repid=rep1&type=pdf"
+    },
+    {
+      "id": "S65",
+      "status": "HTML",
+      "file_links": [
+        "/retrieve/e0c31c07-be2b-4599-e053-1705fe0aef77/Chemical_Engineering_Science_126_%282015%29_573-583.pdf",
+        "/retrieve/e0c31c07-be2b-4599-e053-1705fe0aef77/Chemical_Engineering_Science_126_%282015%29_573-583.pdf",
+        "/retrieve/e0c31c0e-6273-4599-e053-1705fe0aef77/Dynamic%20stability%20of%20natural%20circulation%20loops%20for%20single%20phase%20fluids_11311-886997_Luzzi.pdf",
+        "/retrieve/e0c31c0e-6273-4599-e053-1705fe0aef77/Dynamic%20stability%20of%20natural%20circulation%20loops%20for%20single%20phase%20fluids_11311-886997_Luzzi.pdf"
+      ],
+      "url": "https://re.public.polimi.it/handle/11311/886997"
+    },
+    {
+      "id": "S66",
+      "status": "HTML",
+      "file_links": [
+        "/retrieve/e0c31c09-c079-4599-e053-1705fe0aef77/Chemical_Engineering_Science_153_%282016%29_411-433.pdf",
+        "/retrieve/e0c31c09-c079-4599-e053-1705fe0aef77/Chemical_Engineering_Science_153_%282016%29_411-433.pdf"
+      ],
+      "url": "https://re.public.polimi.it/handle/11311/1013724"
+    }
+  ],
+  "internal_heating_retrievals": [
+    {
+      "id": "S65",
+      "status": "PDF",
+      "pages": 11,
+      "identity": "Dynamic stability of natural circulation loops for single phase ﬂuids\nwith internal heat generation\nD. E. Ruiz a, A. Cammi b, L. Luzzi b,n\na Princeton University, Department of Astrophysical Sciences, Princeton, NJ 08544, USA\nb Politecnico di Milano, Department of Energy, CeSNEF (Enrico Fermi Center for Nuclear Studies), via La Masa 34, 20156 Milano, Italy\nReceived 4 August 2014 \nReceived in revised form\n2 December 2014\nAccepted 17 December 2014 \nAvailable online 1 January 2015\n1. Introduction\nIn a natural circulation loop, the circulating ﬂuid removes heat from a \nsource and transports it to a heat sink. The driving force is the ﬂuid \nbuoyancy force. In a closed loop, steady state natural circulation is \nachieved when the driving buoyancy forces are in balance with the \nfrictional forces. However, under certain circumstances, the achieved \nsteady state can be dynamically unstable. The possible instabilities  can \nlead to large oscillations in the ﬂuid ﬂow and on the temperature ﬁeld \nand cause an inconvenient operation of the closed loop system. Since \nnatural circulation has gained importance in many engineering appli-\ncations, such as in the chemical and nuclear engineering communities, it \nis important to determine the dependence of the stability maps on the \nexternal paramet",
+      "url": "https://re.public.polimi.it/retrieve/e0c31c0e-6273-4599-e053-1705fe0aef77/Dynamic%20stability%20of%20natural%20circulation%20loops%20for%20single%20phase%20fluids_11311-886997_Luzzi.pdf"
+    },
+    {
+      "id": "S66",
+      "status": "non_PDF_response",
+      "url": "https://re.public.polimi.it/retrieve/e0c31c09-c079-4599-e053-1705fe0aef77/Chemical_Engineering_Science_153_%282016%29_411-433.pdf"
+    }
+  ],
+  "web_full_text_resolutions": {
+    "S07": "arxiv1108.4146v3,53pages accessible; local fetch timeout not lack of technical access",
+    "S58": "author-uploaded full text viaResearchGate; institutional authentication no longer a blocker"
+  },
+  "limitations": "Targeted discovery/access continuation; no exhaustive database coverage; unread version differences maintained"
+}

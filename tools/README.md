@@ -29,3 +29,8 @@ Mac-specific historical inventory/link helpers are documented in
 `X.Chat/tools/README.md`; inspect their paths and side effects before using them.
 
 - Box literature discovery: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/box_library/README.md|content catalog, bounded search and refresh]]. Tool: python3 tools/box_library.py; original PDFs stay in Box, source-specific notes and curation remain separate from generated records.
+
+
+## Reference relocation / verification
+
+`python3 tools/relocate_reference_inputs.py --check` verifies all original reference files against the notes-owned migration manifest after an HPC or local pull. `--source /verified/initiative/reference` previews the original move; adding `--apply` performs an atomic rename and creates the legacy HPC link. Existing destinations/aliases are refused. No archive/image/CAD/scientific interpretation occurs. See [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/reference_migration/2026-11-06/README.md|move receipt]].

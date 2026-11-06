@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "queries": [
+    "new source DOIs",
+    "exact S52 title + DOI/PDF",
+    "exact S30 title + PDF/Purdue/repository",
+    "IAEA passive-reliability report title/1752",
+    "Wilks first-order99/95 sample-size checks"
+  ],
+  "sources": [
+    {
+      "id": "S50",
+      "publisher": "https://www.sciencedirect.com/science/article/pii/S1359431115014465",
+      "status": "identity discovery; uploaded full text used"
+    },
+    {
+      "id": "S51",
+      "publisher": "https://www.sciencedirect.com/science/article/abs/pii/S002954931830308X",
+      "status": "identity discovery; uploaded full text used"
+    },
+    {
+      "id": "S52",
+      "publisher": "https://www.sciencedirect.com/science/article/abs/pii/S0149197010001897",
+      "status": "publisher403; abstract metadata indexed; no full manuscript"
+    },
+    {
+      "id": "S30",
+      "publisher": "https://www.sciencedirect.com/science/article/pii/S001793102500393X",
+      "status": "publisher403; indexed metadata; no full manuscript"
+    },
+    {
+      "id": "S53",
+      "url": "https://www-pub.iaea.org/MTCD/publications/PDF/TE-1752_web.pdf",
+      "status": "official PDF238pages accessible; front matter only read"
+    }
+  ],
+  "limitations": "Focused continuation; no systematic database exhaustiveness; failed retrieval is not proof of unavailability"
+}

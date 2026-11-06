@@ -1,0 +1,26 @@
+4. To perform systematic code verification using multiple mesh refinement levels to con-
+duct grid convergence studies, using Richardson extrapolation and the Grid Conver-
+gence Index (GCI), following the procedure of Celi´k et al. [12] to ensure not only that
+the results presented here are accurate and reliable, but to also provide high-quality
+data for the continued Digital-Twin efforts for advanced nuclear systems developed at
+the University of Texas at Austin.
+5. Lastly, the ultimate goal of this work is to fully validate the simulation pipeline against
+all eight experimental test cases from Reis et al. [9], comparing simulated temperatures,
+time-averaged velocity profiles, and mass flow rates against experimental measure-
+ments, with the goal of replicating those results within 1σ of uncertainty or otherwise
+determining the source of any remaining discrepancy in the results.
+1.3
+Thesis Outline
+The remainder of this thesis is organized as follows:
+• Chapter 2 reviews the historical and modern literature regarding natural circulation
+loop experiments and simulation, CFD simulation methods, especially pertaining to the
+simulation of closed-loop natural circulation, molten salt thermal hydraulics, material
+properties of molten HITEC salt and water, and V&V methodology.
+• Chapter 3 presents the methodology used from beginning to end of the V&V pipeline.
+In this chapter the structure of the pipeline is displayed along with the procedure for
+using the pipeline. This procedure includes a summary of the configuration file struc-
+ture, integration and discussion of how the first order model works and is implemented
+to the simulation pipeline from the experimental data, along with the implementation
+of Richardson extrapolation, the Grid Convergence Index, and the validation error
+assessment procedure.
+7

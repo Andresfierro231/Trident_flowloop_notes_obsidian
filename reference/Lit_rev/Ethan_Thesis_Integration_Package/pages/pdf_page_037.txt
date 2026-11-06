@@ -1,0 +1,35 @@
+So, if the solutions are in the asymptotic range, for a constant refinement ration r =
+r32 = r21, the term q(pobs) = 0 and Equation 3.3 reduces to the simplified form
+pobs =
+1
+ln r ln
+
+ε32
+ε21
+ .
+(3.5)
+With this, the Richardson-extrapolated estimate of the QoI’s exact value takes the form
+ϕexact = rpobsϕ1 −ϕ2
+rpobs −1
+.
+(3.6)
+3.3
+Grid Convergence Index
+The Grid Convergence Index, introduced by Roache [37], provides a standardized measure of
+discretization uncertainty expressed as a percentage error band. The standardized, five-step
+procedure for determining the GCI as determined in Celi´k et al. [12].
+1. Define three systemically refined meshes with refinement ratio r ≥1.3.
+2. Compute the QoIs on each mesh.
+3. Calculate the observed order of convergence, pobs using Equation 3.5.
+4. Calculate the extrapolated values for each QoI using Equation 3.6
+5. Calculate and report the following error estimates, the observed order of convergence,
+and the GCI for the fine mesh,
+GCIfine =
+Fs e21
+a
+rpobs
+21
+−1
+(3.7)
+Where Fs is the safety factor, which has the recommended value of 1.25 for studies
+23

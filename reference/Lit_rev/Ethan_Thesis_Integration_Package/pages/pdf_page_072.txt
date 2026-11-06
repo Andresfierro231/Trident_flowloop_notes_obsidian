@@ -1,0 +1,37 @@
+5.2.2
+Thermophysical Model
+Within OpenFOAM, the thermophysical model uses the heRhoThermo class with the icoPolynomial
+equation of state, which evaluates density as a polynomial function of temperature:
+ρ(T) =
+N
+X
+i=0
+aiT i.
+(5.14)
+Transport properties (µ, k) and specific heat (cp) are similarly represented as temperature-
+dependent polynomials. This avoids the Boussinesq approximation entirely since tempera-
+ture variations are captured in all terms of the governing equations.
+ρ[kg/m3]
+= 2293.6 −0.7497 T
+(5.15)
+µ[Pa s]
+= 1.149 × 10−3 exp (−810.896/T + 7.806 × 105/ T 2)
+(5.16)
+cp[J/kg K]
+≈1423.47
+(5.17)
+k[W/m K]
+= 0.78 −1.25 × 10−3 T + 1.6 × 10−6 T 2
+(5.18)
+Each of the above equations are evaluated using T in Kelvin. The equation for density
+comes from Janz et al. [26] and has a 2% uncertainty within the applicable temperature
+range of 470-870 K. The equation for dynamic viscosity comes from Jin et al. [50] and has
+a 2.5% uncertainty within the applicable temperature range of 420-695 K. The equation for
+specific heat capacity provided by Parida et al. [51] does not have a quantified uncertainty,
+but does report the specific heat range found within the literature they found. Using that as
+the bounds for uncertainty, the uncertainty is approximately ±4% for the liquid phase and is
+weakly dependent on temperature, so has been modeled as a constant property. The equation
+for thermal conductivity comes from Santini et al. [48] and has an reported uncertainty and
+an applicable temperature range of 420-770 K.
+For water, the equations used higher-order fits against the IAPWS-IF97 standard. The
+58

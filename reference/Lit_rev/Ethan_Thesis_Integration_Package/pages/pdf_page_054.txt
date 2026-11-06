@@ -1,0 +1,23 @@
+While not an inherent flaw in the experimental results, it does introduce an additional
+source of uncertainty for modeling efforts such as this one and attempting to differentiate
+between methodology differences, rounding errors, or other unknowns when trying to recreate
+reporting methodologies exactly can be difficult.
+The equations reported by Janz et al. for density and thermal conductivity do not have
+any clear, modern superiors so have been retained for the present analysis. Curiously, Sohal
+et al. states there are no correlations for the thermal conductivity of HITEC despite it being
+listed alongside the other properties and equations reported in Janz et al. [26]. Reis uses a
+correlation reported by Santini et al. 1984, which is also used for this work [48].
+The modern suite of thermophysical properties chosen for this study is outlined in Chapter
+5, but for comparison’s sake, are evaluated below.
+Key properties at the nominal operating temperature (200 ◦C, 493.15 K):
+• Density: ρ ≈1938.88 kg/m3
+• Dynamic viscosity: µ ≈6.77 × 10−3 Pa s
+• Specific heat: cp ≈1423.47 J/(kg K)
+• Thermal conductivity: k ≈0.547 W/(m K)
+4.3.2
+Water
+The properties used for water are from the IAPWS [27] and use high-order fits within Region
+1 of their classification structure, where Region 1 is inclusive of liquid water at below its
+saturation temperature for pressures from 0 to 100 MPa. The exact coefficients used can be
+found in Appendix B.2
+40

@@ -1,0 +1,32 @@
+This added term is:
+Gb = −Cg νt (g · ∇ρ) ,
+Cg =
+1
+Prt
+= 1.0
+(5.19)
+5.3
+Mesh Generation
+5.3.1
+Overview
+The computational mesh is generated procedurally using classy_blocks [52], a Python
+wrapper around OpenFOAM’s blockMesh utility. The mesh is fully structured hexahedral,
+avoiding the numerical diffusion and poor convergence rates associated with tetrahedral or
+polyhedral meshes in pipe-flow geometries [34].
+5.3.2
+Cross-Section Topology
+Every pipe segment uses either a 12-block or 20-block O-grid cross-section. The standard
+12-block topology is composed of:
+• 4 core blocks form a central square, avoiding the singular axis point of polar meshes.
+• 8 shell blocks form the annular region between the core and the pipe wall.
+The 20-block topology is the same as the 12-block topology with an additional 8 blocks
+composing a second annular layer when step transitions are required throughout the loop’s
+geometry, as when fitting pipes together.
+This topological approach produces bounded aspect ratios across the entire cross-section
+and ensures smooth boundary layer resolution at the wall. The core-to-pipe radius ratio is
+derived from the boundary layer grading parameters to ensure a smooth transition from the
+graded boundary layer region to the uniform core.
+5.3.3
+Boundary Layer Inflation
+Wall-normal mesh grading is controlled by three input parameters:
+60

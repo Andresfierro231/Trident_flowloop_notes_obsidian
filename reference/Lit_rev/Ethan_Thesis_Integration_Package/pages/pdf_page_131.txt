@@ -1,0 +1,111 @@
+C.2
+Nondimensional Parameters
+Table C.3 and Table C.4 provide the full set of nondimensional parameters for each test case.
+Table C.3: Nondimensional parameters for salt test cases (global and local).
+Parameter
+Salt 1
+Salt 2
+Salt 3
+Salt 4
+Pr (global)
+54.29
+54.07
+53.89
+53.63
+ReL (global)
+2715
+3044
+3778
+5491
+GrL (global)
+7.86 × 108
+7.96 × 108
+8.78 × 108
+9.84 × 108
+RiL (global)
+106.7
+85.86
+61.50
+32.64
+RaL (global)
+4.27 × 1010
+4.04 × 1010
+3.66 × 1010
+3.12 × 1010
+PrD (local)
+50.45
+46.48
+37.46
+27.93
+ReD (local)
+74.86
+86.0
+96.7
+110.2
+RaD (local)
+1.25 × 106
+1.42 × 106
+1.76 × 106
+2.23 × 106
+Cf (friction)
+0.153
+0.162
+0.114
+0.088
+Numean
+6.76
+6.82
+7.14
+7.53
+Table C.4: Nondimensional parameters for water test cases (global and local).
+Parameter
+Water 1
+Water 2
+Water 3
+Water 4
+Pr (global)
+4.23
+3.78
+3.5
+2.96
+ReL (global)
+27100
+36200
+46500
+68100
+RiL (global)
+6.69
+5.09
+3.81
+2.58
+RaL (global)
+2.07 × 1010
+2.51 × 1010
+2.88 × 1010
+3.54 × 1010
+ReD (local)
+711.8
+953.19
+1228
+1806.52
+RaD (local)
+7.95 × 105
+1.09 × 106
+1.33 × 106
+1.90 × 106
+f (friction)
+0.016
+0.013
+0.012
+0.010
+Numean
+8.69
+9.17
+10.33
+11.02
+C.3
+Boundary Condition Verification Data
+The complete verification results for the rcExternalTemperature boundary condition are
+documented in Section 6.1. Key intermediate values for the analytical reference calculation
+are reproduced here for traceability.
+117

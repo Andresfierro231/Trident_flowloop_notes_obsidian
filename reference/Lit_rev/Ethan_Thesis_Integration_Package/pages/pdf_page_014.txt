@@ -1,0 +1,60 @@
+Nomenclature
+Roman Symbols
+A
+Area
+m2
+cp
+Specific heat capacity at constant pressure
+J/(kg K)
+D
+Pipe inner diameter
+m
+f
+Friction factor
+—
+Fs
+Safety factor (GCI)
+—
+g
+Gravitational acceleration
+m/s2
+h
+Heat transfer coefficient
+W/(m2 K)
+H
+Loop height
+m
+k
+Thermal conductivity
+W/(m K)
+L
+Length; loop perimeter
+m
+˙m
+Mass flow rate
+kg/s
+p
+Observed order of convergence
+—
+prgh
+Pressure minus hydrostatic head
+Pa
+Q
+Heat transfer rate
+W
+q
+Heat flux
+W/m2
+r
+Radius; mesh refinement ratio
+m; —
+R
+Thermal resistance
+m2 K/W
+T
+Temperature
+K
+U
+Velocity magnitude
+m/s
+xiii

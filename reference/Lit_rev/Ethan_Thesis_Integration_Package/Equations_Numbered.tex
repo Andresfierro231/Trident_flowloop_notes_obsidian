@@ -1,0 +1,367 @@
+% REFERENCE TRANSCRIPTION. Not a drop-in manuscript patch. Source/corrections in equations.json.
+
+% Eq 2.1; PDF 25; printed 11; priority C: Archimedean buoyant force
+% Background only; use integrated loop buoyancy in our solver.
+\[
+F_b=\rho_0 gV
+\]
+
+% Eq 2.2; PDF 25; printed 11; priority C: Net parcel force
+% Does not by itself prescribe net loop circulation.
+\[
+F_{net}=(\rho_0-\rho)gV
+\]
+
+% Eq 2.3; PDF 25; printed 11; priority B: Density linearization
+% Local linearization; do not impose constant other properties without a sensitivity check.
+\[
+\rho(T)\approx\rho_0+(\partial\rho/\partial T)_p(T-T_0)
+\]
+
+% Eq 2.4; PDF 25; printed 11; priority B: Boussinesq density relation
+% Our model already retains temperature-dependent properties; no replacement proposed.
+\[
+\rho(T)\approx\rho_0[1-\beta(T-T_0)]
+\]
+
+% Eq 3.1; PDF 36; printed 22; priority A: Discretization expansion
+% Asymptotic assumption, not guaranteed by a good fit.
+\[
+\phi(h)=\phi_{exact}+g_p h^p+O(h^{p+1})
+\]
+
+% Eq 3.2; PDF 36; printed 22; priority A: Mesh differences
+% Three settled solutions of the same QoI and physical problem required.
+\[
+\epsilon_{21}=\phi_2-\phi_1,\quad\epsilon_{32}=\phi_3-\phi_2
+\]
+
+% Eq 3.3; PDF 36; printed 22; priority A: Observed order, unequal ratios
+% Implicit solve; guard zero differences, nonconvergence and non-asymptotic behavior.
+\[
+p_{obs}=\frac{1}{\ln r_{21}}\left\lvert\ln\left\lvert\frac{\epsilon_{32}}{\epsilon_{21}}\right\rvert+q(p_{obs})\right\rvert
+\]
+
+% Eq 3.4; PDF 36; printed 22; priority A: Unequal-ratio correction
+% Use realized h ratios, not nominal cell targets.
+\[
+q(p)=\ln\left(\frac{r_{21}^{p}-s}{r_{32}^{p}-s}\right),\quad s=\mathrm{sign}(\epsilon_{32}/\epsilon_{21})
+\]
+
+% Eq 3.5; PDF 37; printed 23; priority A: Equal-ratio observed order
+% Requires equal ratios and a valid convergence regime; no observed order from two grids.
+\[
+p_{obs}=\ln\left\lvert\epsilon_{32}/\epsilon_{21}\right\rvert/\ln r
+\]
+
+% Eq 3.6; PDF 37; printed 23; priority A: Richardson extrapolation
+% Thesis calls estimate phi_exact; it is an extrapolated estimate, not known exact truth.
+\[
+\phi_{ext}=\frac{r^{p_{obs}}\phi_1-\phi_2}{r^{p_{obs}}-1}
+\]
+
+% Eq 3.7; PDF 37; printed 23; priority A: Grid Convergence Index
+% Three-grid Fs=1.25, two-grid Fs=3 as reported; assumed p must be documented for two-grid use.
+\[
+GCI_{fine}=\frac{F_s e_a^{21}}{r_{21}^{p_{obs}}-1}
+\]
+
+% Eq 3.8; PDF 38; printed 24; priority A: Approximate relative error as printed
+% Source visibly prints phi_1 superscript 12. Intended standard form is abs((phi1-phi2)/phi1); do not propagate undefined superscript into code.
+\[
+e_a^{21}=\left\lvert(\phi_1^{12}-\phi_2)/\phi_1^{12}\right\rvert
+\]
+
+% Eq 3.9; PDF 38; printed 24; priority A: Extrapolated relative error
+% Superscript 12 labels pair-based extrapolation; define it explicitly.
+\[
+e_{ext}^{21}=\left\lvert(\phi_{ext}^{12}-\phi_1)/\phi_{ext}^{12}\right\rvert
+\]
+
+% Eq 3.10; PDF 38; printed 24; priority A: Asymptotic ratio
+% Consistent triplet and normalization needed; AR near 1 alone is not sufficient verification.
+\[
+AR=GCI_{coarse}/(r_{21}^{p_{obs}}GCI_{fine})\approx1
+\]
+
+% Eq 3.11; PDF 39; printed 25; priority A: Representative 3D cell size
+% Record geometry/volume changes across meshes; h=(V/N)^(1/3).
+\[
+h=\left[\frac{1}{N}\sum_{i=1}^{N}\Delta V_i\right]^{1/3}
+\]
+
+% Eq 3.12; PDF 43; printed 29; priority A: Cylindrical verification circuit
+% Negative for heat leaving hot fluid under Ethan's convention; our outward-positive ledger reverses numerator.
+\[
+Q=\frac{T_\infty-T_{b,in}}{1/(h_s2\pi r_0L)+\ln(r_1/r_0)/(k_{ss}2\pi L)+\ln(r_2/r_1)/(k_{ins}2\pi L)+1/(h_\infty2\pi r_2L)}
+\]
+
+% Eq 3.13; PDF 43; printed 29; priority A: Thermally developing laminar tube
+% Constant-wall-temperature, hydrodynamically developed straight-tube reference. Gz=Re Pr D/L. At Gz=3554 gives 23.7336, not appendix 26.67. Not a universal loop correlation.
+\[
+\overline{Nu}_D=\frac{3.657}{\tanh(2.264Gz^{-1/3}+1.7Gz^{-2/3})}+0.0499Gz\tanh(Gz^{-1})
+\]
+
+% Eq 3.14; PDF 44; printed 30; priority A: Validation comparison error
+% Use observation-matched outputs; signed error is not model uncertainty.
+\[
+E=S-D
+\]
+
+% Eq 3.15; PDF 44; printed 30; priority A: Combined validation uncertainty
+% RSS assumes commensurate uncertainty components and appropriate independence/covariance treatment. Not automatically a 99% interval.
+\[
+u_{val}=\sqrt{u_{num}^2+u_{input}^2+u_D^2}
+\]
+
+% Eq 3.16; PDF 45; printed 31; priority A: Velocity/temperature RMSE
+% This is RMS error, not unnormalized Euclidean L2 norm. Match sampling points and disclose normalization of percent error.
+\[
+L_2=\sqrt{\frac{1}{N}\sum_{i=1}^{N}(S_i-D_i)^2}
+\]
+
+% Eq 3.17; PDF 45; printed 31; priority B: Maximum absolute discrepancy
+% Use alongside signed bias and RMS; grid of comparison points matters.
+\[
+L_\infty=\max_i\lvert S_i-D_i\rvert
+\]
+
+% Eq 4.1; PDF 51; printed 37; priority A: Air cooler duty, constant/mean cp
+% With cp at midpoint it is an approximation to integral cp dT, often very good over this range.
+\[
+Q=\dot m c_p(T_{out}-T_{in})
+\]
+
+% Eq 4.2; PDF 52; printed 38; priority A: Legacy HITEC density
+% Same density form retained in 5.15 and our model.
+\[
+\rho=2293.6-0.7497T
+\]
+
+% Eq 4.3; PDF 52; printed 38; priority A: Legacy HITEC viscosity
+% Reconstruction-only branch; do not replace modern viscosity. Rounded appendix differs appreciably.
+\[
+\mu=0.4737-2.297\times10^{-3}T+3.731\times10^{-6}T^2-2.019\times10^{-9}T^3
+\]
+
+% Eq 4.4; PDF 52; printed 38; priority A: Legacy HITEC heat capacity
+% Different cp package from our current 1423.47. Retain for explaining historical nondimensional values only.
+\[
+c_p=5806-10.833T+7.2413\times10^{-3}T^2
+\]
+
+% Eq 4.5; PDF 52; printed 38; priority A: HITEC conductivity
+% Same as 5.18; exact coefficient provenance/range remains partly source-limited online.
+\[
+k=0.78-1.25\times10^{-3}T+1.6\times10^{-6}T^2
+\]
+
+% Eq 4.6; PDF 55; printed 41; priority A: Net-heat uncertainty as printed
+% Not standard independent propagation for difference Qh-Qloss. Correct absolute RSS is sqrt(sigma_Qh^2+sigma_Qloss^2), with covariance if correlated; use full measurement model for m cp DeltaT.
+\[
+\sigma_{Qnet}=Q_{net}\sqrt{(\sigma_{Qh}/Q_h)^2+(\sigma_{Qloss}/Q_{loss})^2}
+\]
+
+% Eq 4.7; PDF 55; printed 41; priority A: Heater-region energy estimate
+% Must match actual control volume, cp package and sensor/operator. Table4.4 DeltaT row differs from TableC.1 TP6-TP2.
+\[
+Q_{net}=\dot m c_p(TP6-TP2)
+\]
+
+% Eq 4.8; PDF 56; printed 42; priority A: Residual inferred loss
+% Negative residual is a consistency diagnostic, not proof of unphysical experiment; propagated property/operator errors can cause it.
+\[
+Q_{loss}=Q_h-Q_{net}
+\]
+
+% Eq 4.9; PDF 57; printed 43; priority A: Axisymmetric PIV-to-area operator
+% Axisymmetry and use of right-half profile are assumptions; not physical net transport in asymmetric recirculating 3D flow.
+\[
+U_{PIV}=\frac{2}{R^2}\int_0^R U(r)r\,dr
+\]
+
+% Eq 4.10; PDF 57; printed 43; priority A: Test-section to pipe velocity conversion
+% Use signed net mass flux for runtime/ROM targets; keep experimental operator separate.
+\[
+U_\infty=U_{PIV}(D_{test}/D_{pipe})^2
+\]
+
+% Eq 4.11; PDF 60; printed 46; priority B: Assigned digitization uncertainty
+% Global assigned RMSE bound, not pointwise guarantee: Table4.6 worst RMSE=3.65%, max discrepancy=14.10%.
+\[
+u_{dig}=1.5\%
+\]
+
+% Eq 5.1; PDF 67; printed 53; priority A: Vertical plate natural convection
+% Uses air properties and characteristic L; vertical-cylinder curvature applicability must be checked.
+\[
+\overline{Nu}_L=\left[0.825+\frac{0.387Ra_L^{1/6}}{[1+(0.492/Pr)^{9/16}]^{8/27}}\right]^2
+\]
+
+% Eq 5.2; PDF 67; printed 53; priority A: Horizontal-cylinder natural convection
+% Uses outer insulation diameter and air properties. Add correct horizontal-cylinder citation.
+\[
+\overline{Nu}_D=\left[0.60+\frac{0.387Ra_D^{1/6}}{[1+(0.559/Pr)^{9/16}]^{8/27}}\right]^2
+\]
+
+% Eq 5.3; PDF 67; printed 53; priority A: Nusselt-to-convection coefficient
+% For vertical correlation h=Nu_L k/L; do not use D for a vertical Nu_L. Eq5.5's blend of h is safer than a blend of unequal-length Nu values.
+\[
+h_{ext}=\overline{Nu}_{eff}k/D
+\]
+
+% Eq 5.4; PDF 67; printed 53; priority A: Outside convection plus radiation
+% Use absolute K in radiation; distinguish air temperature and radiative surroundings when available.
+\[
+q_{outer}=h_{ext}(T_s-T_\infty)+\epsilon\sigma(T_s^4-T_\infty^4)
+\]
+
+% Eq 5.5; PDF 68; printed 54; priority B: Orientation blend
+% w=sin(theta)^2 from horizontal. Not a validated inclined-cylinder law; test endpoints and sensitivity.
+\[
+h_{eff}=(1-w)h_{horizontal}+wh_{vertical}
+\]
+
+% Eq 5.6; PDF 68; printed 54; priority A: Cooler formula as printed - correction required
+% Replace with mdot integral(cp dT). For AppendixB air cp, 25-to-113 C: printed formula +2.1408% vs integral; midpoint cp differs only -0.0292%.
+\[
+Q_{cooler}=\dot m_{air}[c_p(T_{out})T_{out}-c_p(T_{in})T_{in}]
+\]
+
+% Eq 5.7; PDF 70; printed 56; priority A: Global energy ledger
+% Directly useful; keep prescribed electrical input separate from fluid-delivered heat and each loss category.
+\[
+Q_{heater}+Q_{test\ section}-Q_{cooler}-Q_{passive}-Q_{fins}=Q_{unaccounted}
+\]
+
+% Eq 5.8; PDF 71; printed 57; priority A: Variable-density mass conservation
+% Consistent with rho(T), not strictly constant-density divergence-free incompressibility.
+\[
+\partial_t\rho+\nabla\cdot(\rho\mathbf U)=0
+\]
+
+% Eq 5.9; PDF 71; printed 57; priority A: Buoyant-pressure momentum
+% Reconstruct physical p before pressure-loss reduction; audit g/position reference and signs.
+\[
+\partial_t(\rho\mathbf U)+\nabla\cdot(\rho\mathbf U\otimes\mathbf U)=-\nabla p_{rgh}-(\mathbf g\cdot\mathbf r)\nabla\rho+\nabla\cdot\tau_{eff}
+\]
+
+% Eq 5.10; PDF 71; printed 57; priority A: Pressure decomposition
+% Use our actual xref/ghRef; do not compare p_rgh directly with physical static pressure.
+\[
+p_{rgh}=p-\rho\mathbf g\cdot\mathbf r
+\]
+
+% Eq 5.11; PDF 71; printed 57; priority A: Variable-viscosity effective stress
+% Our laminar cases set mu_t=0; do not silently introduce turbulence.
+\[
+\tau_{eff}=\mu_{eff}[\nabla\mathbf U+(\nabla\mathbf U)^T-\frac23(\nabla\cdot\mathbf U)\mathbf I],\quad\mu_{eff}=\mu+\mu_t
+\]
+
+% Eq 5.12; PDF 71; printed 57; priority B: Enthalpy/kinetic energy equation
+% Check actual solver source/version and h vs internal-energy selection; not a direct ROM equation replacement.
+\[
+\partial_t(\rho h)+\nabla\cdot(\rho\mathbf U h)+\partial_t(\rho K)+\nabla\cdot(\rho\mathbf U K)-\partial_t p=\nabla\cdot(\alpha_{eff}\nabla h)+\rho\mathbf U\cdot\mathbf g
+\]
+
+% Eq 5.13; PDF 71; printed 57; priority A: Enthalpy diffusion coefficient
+% For molecular part alpha_eff=k/cp. Distinguish this dynamic diffusivity from kinematic thermal diffusivity k/(rho cp).
+\[
+\alpha_{eff}=\mu/Pr+\mu_t/Pr_t
+\]
+
+% Eq 5.14; PDF 72; printed 58; priority B: Polynomial density model
+% Use actual exported coefficients, interpolation and valid temperature range.
+\[
+\rho(T)=\sum_{i=0}^{N}a_iT^i
+\]
+
+% Eq 5.15; PDF 72; printed 58; priority A: Current HITEC density
+% Our formula matches; PDF p54 nominal temperature has Celsius-to-Kelvin typo.
+\[
+\rho=2293.6-0.7497T
+\]
+
+% Eq 5.16; PDF 72; printed 58; priority A: Modern HITEC viscosity
+% Our formula matches; publisher confirms study/2.5% uncertainty, exact fitted coefficients not independently accessible online.
+\[
+\mu=1.149\times10^{-3}\exp(-810.896/T+7.806\times10^5/T^2)
+\]
+
+% Eq 5.17; PDF 72; printed 58; priority A: Modern HITEC constant cp
+% Primary article reports 1.42347 J/(g K), confirming unit conversion; +/-4% is Ethan's inferred range, not a measured standard uncertainty.
+\[
+c_p\approx1423.47
+\]
+
+% Eq 5.18; PDF 72; printed 58; priority A: Current HITEC conductivity
+% Same as4.5. Correct cited year to1984; exact validity and uncertainty need source verification.
+\[
+k=0.78-1.25\times10^{-3}T+1.6\times10^{-6}T^2
+\]
+
+% Eq 5.19; PDF 74; printed 60; priority C: Buoyant turbulence production
+% Check source normalization; divide rho for a per-mass k equation. Fixed Pr_t=1 is a modeling choice. Not justified for current laminar ROM by this expression alone.
+\[
+G_b=-C_g\nu_t(\mathbf g\cdot\nabla\rho),\quad C_g=1/Pr_t=1
+\]
+
+% Eq 5.20; PDF 75; printed 61; priority C: Wall-grading cell count
+% Confirm floor operation and degenerate rexp=1; preserve realized mesh metrics.
+\[
+n=\left\lfloor\frac{\ln(\Delta_{bulk}/\Delta_1)}{\ln r_{exp}}\right\rfloor+1
+\]
+
+% Eq 5.21; PDF 75; printed 61; priority C: Graded-layer thickness
+% Handle rexp=1 limit n Delta1; not measured hydrodynamic boundary layer thickness.
+\[
+\delta_{BL}=\Delta_1\frac{r_{exp}^{n}-1}{r_{exp}-1}
+\]
+
+% Eq 5.22; PDF 75; printed 61; priority C: O-grid core fraction
+% Require 0<core_ratio<1; not a physical closure.
+\[
+core\_ratio=1-\delta_{BL}/R_{pipe}
+\]
+
+% Eq 5.23; PDF 77; printed 63; priority A: Cylindrical resistance normalized to inner area
+% Essential area normalization; our model already has annular resistance. Variable k layers require integral-consistent discretization.
+\[
+R_{ps}=\sum_{i=1}^{N}\frac{r_0\ln(r_i/r_{i-1})}{k_i}
+\]
+
+% Eq 5.24; PDF 77; printed 63; priority A: Outside loss referred to inner wall
+% Aout/Ain=rout/r0 for equal axial length. Source names qout but uses inner-area basis.
+\[
+q_{out}=\frac{A_{outer}}{A_{inner}}[h_{ext}(T_s-T_a)+\epsilon\sigma(T_s^4-T_{sur}^4)]
+\]
+
+% Eq 5.25; PDF 77; printed 63; priority A: Nonlinear wall closure
+% Tp must be fluid-side wall temperature unless internal film resistance is explicitly included. Add layer electrical sources with correct partition, not only this source-free form.
+\[
+(T_p-T_s)/R_{ps}=q_{out}
+\]
+
+% Eq 6.1; PDF 87; printed 73; priority B: Verification hydrodynamic entry estimate
+% Correct arithmetic for Re334,D0.02m. Approximate criterion, not proof in junction-rich loop.
+\[
+L_h\approx0.05ReD=0.334\,m
+\]
+
+% Eq 6.2; PDF 87; printed 73; priority B: Verification thermal entry estimate
+% Correct arithmetic; constant-property verification case uses legacy cp and Pr53.2, not modern operating salt cp.
+\[
+L_t\approx0.05RePrD=17.8\,m
+\]
+
+% Eq 6.3; PDF 87; printed 73; priority A: Area-normalized verification heat flow
+% Same sign convention as3.12. Reference is correlation-based for internal film, not exact analytic full PDE solution.
+\[
+Q=(T_{amb}-T_f)A_{inner}/(R_{int}+R_{ps}+R_{ext})
+\]
+
+% Eq B.1; PDF 125; printed 111; priority A: Generic property polynomial
+% Tables B1,B2,B4 are coefficient sets, included as separate unnumbered equation groups; do not silently use legacy B1 over current5.15-18.
+\[
+\phi(T)=\sum_{i=0}^{N}a_iT^i
+\]

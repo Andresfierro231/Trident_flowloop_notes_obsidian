@@ -1,0 +1,26 @@
+5.5.4
+Initial Conditions
+The temperature field is initialized uniformly at the mean of the experimental thermocouple
+readings for each case. The velocity and pressure fields are initialized to zero. Gravity is
+g = (0, −9.81, 0) m/s2. The simulated loop itself lies within the x-y plane, where views
+within this such as Figures 5.1 and 5.2 observe with the z axis oriented towards the camera.
+5.5.5
+Parallel Execution
+Domain decomposition uses the scotch algorithm. The -copyUniform flag is required during
+decomposePar to ensure the custom boundary condition can access uniform field data in
+parallel. Simulations were run using the Texas Advanced Computer Center (TACC) and
+specifically their LoneStar6 computer cluster, simulations were ran with up to 128 cores.
+Scaling performance is reported in Section ??.
+5.6
+Execution Pipeline
+The simulation pipeline is fully automated through the custom foam-vv Python framework,
+which orchestrates the following steps for each case:
+1. Case generation: Read YAML configuration files (geometry, physics, study defi-
+nition), create a blockMeshDict via classy_blocks for subsequent mesh generation,
+then rendering OpenFOAM dictionaries from Jinja2 templates.
+2. Mesh generation: Run blockMesh →transformPoints (mm →m) →topoSet (to
+assist with postprocessing objects such as the faceZones for collecting mass flow rate
+data).
+3. Domain decomposition: decomposePar -copyUniform.
+4. Simulation: foamRun in parallel.
+66

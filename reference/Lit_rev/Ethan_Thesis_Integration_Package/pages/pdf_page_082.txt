@@ -1,0 +1,31 @@
+of Figure 3 from Reis et al.
+[9].
+Estimates from that image against the nominal outer
+diameter of the quartz test section being 1" place the insulation thickness at roughly 1.65".
+As mentioned in Section 4.5.1, attempting to close the energy balance across all 8 cases
+with this thickness applied to the first order model was unsuccessful, leading to the two
+different insulation uncertainties above. The bounds for those insulation thicknesses were
+chosen ultimately because of the conflicting information from the reported McMaster entry
+(nominally 2" thick of ceramic fiber per layer) and Reis et al. [9] claiming to use 3 layers of
+fiberglass insulation; ultimately settling to model the salt cases using the provided McMaster
+item and using the difference between the stated and estimated as the thickness bounds. For
+water, after establishing that the water cases used a different insulation configuration, the
+thinnest variant of the reported insulation was used (a distinctly different part on McMaster-
+Carr). The insulation was also sold in thicknesses of 2", 1", and 0.5" under different part
+numbers, so the idea for modeling the water’s insulation was an unrecorded purchase of
+the thinnest variation. With this though, the first order model and follow-on CFD results
+ran too hot, being better served with a modeled thickness of 0.40".
+So, barring better
+information, the modeled 0.40" configuration was used as the center of the distribution with
+the purchasable 0.5" thickness serving as the upper bound, and a symmetric bound being set
+at 0.3" as a possible "effective insulation thickness" in the event the insulation was poorly
+mounted and caused the system to lose more heat than would otherwise be predicted.
+The ambient temperatures use the same ±1.1 K thermocouple uncertainty for the gaus-
+sian representing the ambient temperature confidence. There is no data for the ambient
+conditions of the experimental facility, so the estimate of the inlet temperature of the heat
+exchanger was used. For the external convection coefficient, the Churchill-Chu bounds are
+centered between 0.12 and 0.15 for the value of A used in their published fits, where 0.12
+was derived for air and 0.15 was used for the general fit. The heater power was reported by
+the experimentalists to have a standard uncertainty of 0.93% for powers between 100 and
+999 W and an uncertainty of 1% for powers between 1 and 100 W.
+68

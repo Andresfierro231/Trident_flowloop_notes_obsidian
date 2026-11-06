@@ -1,0 +1,21 @@
+Chapter 2
+Literature Review
+This chapter reviews literature relevant to the present work. Topics covered are: the funda-
+mentals of natural circulation and how temperature variations in thermophysical properties
+complicates modeling it.
+Next, part of the experimental record for molten salt natural
+circulation loops, including the TAMU facility this work targets, along with the thermo-
+physical property data needed to interpret it. That is followed by a selection of previous
+computational studies of such loops, along with meshing choices that control discretization
+error. Then, literature outlining the reduction from full conjugate heat transfer to thermal
+boundary conditions followed by the V&V methodology adopted for this work along with
+a selection of digital twin applications that consume validated models. Lastly, the chapter
+concludes by stating the reseach gaps this thesis addresses.
+2.1
+Natural Circulation Fundamentals
+Before examining what’s required to model and simulate natural circulation, the quirks of
+molten salt, or how to best determine if a simulated result is even correct, it is important to
+first understand the fundamentals of natural circulation.
+Natural circulation is the transport of a fluid resulting from heating and cooling that fluid
+at different locations within a closed system. Heating causes the fluid to expand, lowering its
+10
