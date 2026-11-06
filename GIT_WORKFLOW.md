@@ -41,12 +41,15 @@ current vault configuration. Git pull happens at session start; **every notes
 Git push requires an immediate Box update**, including direct pushes outside
 this helper. There is no timer: the Git push is the publication trigger.
 
-1. Verify the actual active Box notes folder from the author's current route.
-   Do not infer it from the November 3 alias. Record the full remote/mounted
-   path. As of the November 6 check, Box listed only
-   `Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes_pre_git_2026-11-03`; the
-   original `Trident_FlowLoop_Notes` folder was absent. The active target is
-   awaiting author clarification. Never silently choose or rename a vault.
+1. The author confirmed the active folder on November 6 as
+   `Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`.
+   Its rclone destination is
+   **`box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`**.
+   Use this folder after every push; preserve the separate dated `pre_git`
+   snapshot. The folder was absent on the service before this publication;
+   the author-confirmed path authorizes restoring it. Verify service access
+   and existing content each time. Do not substitute a historical alias or
+   reconfigure the Obsidian vault.
 2. Before editing/publishing, inspect active Box notes for independent author
    edits against the last successful Box publication manifest. Pull changed
    or new Box notes into separate staging, preserve their hashes and reconcile
@@ -59,7 +62,17 @@ this helper. There is no timer: the Git push is the publication trigger.
    folder, preserving relative note/attachment paths. Exclude `.git`, secrets,
    untracked scratch/raw data and symlink targets; do not dereference repository
    aliases. Record skipped symlinks and any link limitations. The export must
-   not be a later dirty worktree or a broad workspace copy.
+   not be a later dirty worktree or a broad workspace copy. Use the portable
+   exporter (destination must be new; receipt stays outside the export):
+
+   ```bash
+   python3 tools/export_box_notes.py --revision HEAD \
+     --destination /verified/new/notes_export \
+     --receipt /verified/new/export_manifest.json --workers 4
+   ```
+
+   It verifies each copied regular file against the pushed Git blob identifier,
+   records SHA-1/SHA-256, and skips rather than follows tracked symlinks.
 4. Preview the copy to the verified active Box folder. Preserve differing
    destination files under a unique dated/versioned notes-publication backup
    outside the active folder. With `NOTES_EXPORT`, `NOTES_BOX_TARGET` and
@@ -85,6 +98,11 @@ this helper. There is no timer: the Git push is the publication trigger.
    separately. Failed/unavailable Box publication remains pending even after a
    successful Git push; retry the same committed export after reconciliation.
    Never claim the full communication triangle is synchronized on Git alone.
+   Publish the successful receipt as `X.Chat/01_sources/BOX_PUBLICATION.json`
+   in the active Box folder (operational Box-only metadata, not a Git input),
+   including the verified commit and source manifest location. Preserve the
+   previous receipt alongside versioned publication evidence. Do not write a
+   success receipt before the full file check passes.
 
 The November 6 original-snapshot check is still valid within its historical
 scope: all 371 original files matched the cutover manifest. See the

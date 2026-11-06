@@ -57,6 +57,9 @@ Obsidian notes. November 6 explicit author direction supersedes the earlier
 archive-only assumption: **after every successful notes Git push, update the
 confirmed active Box Trident notes folder with that exact pushed revision**.
 This applies to direct Git pushes as well as `tools/git_session.py finish`.
+Confirmed active destination: `box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`
+(author’s `Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`). Preserve the
+separate dated `pre_git` snapshot.
 A notes handoff is incomplete until both GitHub and Box are verified, or the
 Box failure/blocker is reported explicitly. Follow GIT_WORKFLOW.md for the
 required Box-edit reconciliation, preserved versions and hash receipt. Never

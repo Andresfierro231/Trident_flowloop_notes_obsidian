@@ -47,3 +47,11 @@ including direct Git commands, requires the checked publication in
 copy the exact committed notes with preservation, then verify/checksum and
 record GitHub and Box results separately. Target verification is required;
 never use a historical alias or dated snapshot by assumption.
+
+`python3 tools/export_box_notes.py --revision HEAD --destination /new/export
+--receipt /new/manifest.json --workers 4` prepares the exact committed regular
+files with Git blob verification and SHA-1/SHA-256; it refuses an existing
+export directory or receipt and skips symlinks without following them. It does
+not write Box. Run from the notes checkout after pushing the requested revision;
+then follow GIT_WORKFLOW.md to publish to the author-confirmed destination
+`box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes` and verify the copy.

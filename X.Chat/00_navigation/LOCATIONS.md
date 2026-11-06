@@ -71,7 +71,9 @@
 Earlier alias paths are historical receipts, not proof of the active vault.
 The author explicitly says current Obsidian uses Box. Verify its actual folder
 on the Mac; the November6 Box listing showed only the dated pre_git folder and
-OPS-014 awaits clarification of the intended active target. Agents must update
+The author confirmed `Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`
+(rclone `box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`); restore/update
+this active folder and preserve the separate dated pre_git snapshot. Agents must update
 and checksum-verify that confirmed Box notes folder after EVERY notes Git push,
 under root GIT_WORKFLOW.md. GitHub publication and local aliases alone do not
 establish cloud delivery. Do not rewire the author's vault during this task.

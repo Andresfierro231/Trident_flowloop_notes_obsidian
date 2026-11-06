@@ -60,5 +60,7 @@ single workflow: reconcile independent Box edits, preserve differing versions,
 copy only committed notes/attachments with no deletion mirror or alias/Git/raw
 data export, and record destination, commit and copy/check results. GitHub-only
 success leaves Box publication pending. Verify the actual target rather than
-using the historical alias; OPS-014 currently awaits that author clarification.
+using the historical alias. Author-confirmed destination:
+`box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`; preserve the dated
+pre_git snapshot. Restore/update the confirmed folder if absent.
 Do not alter Obsidian/Box client setup or unrelated repositories as part of it.

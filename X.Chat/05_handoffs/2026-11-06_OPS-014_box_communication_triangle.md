@@ -28,13 +28,22 @@ files automatically. Direct Git pushes carry the same duty.
 
 ## Active destination and delivery
 
-The latest Box listing contained only
-`Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes_pre_git_2026-11-03`.
-The author has been asked whether to restore the standard active
-`Trident_FlowLoop_Notes` folder or use that dated folder as active. This target
-clarification is pending; no Box publication has been attempted, and no
-Obsidian path/client has been reconfigured. Do not claim Box delivery until the
-exact intended folder and checked copy are recorded.
+The author confirmed the active folder as
+`Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`.
+The rclone destination is
+`box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`.
+The service listing found that path absent; restore/update this confirmed
+folder and preserve the separate dated `pre_git` original. The author is not
+being asked again for permission. Do not reconfigure the Obsidian client.
+
+Publication uses an immutable export of this handoff's actual pushed commit.
+`tools/export_box_notes.py` copies only regular Git-tracked files whose blob
+hash matches that revision, records SHA-1/SHA-256, and skips tracked symlinks.
+A fresh target inventory, dry-run, preserved-version or immutable copy and
+one-way checksum check establish service delivery. The successful Box-only
+`X.Chat/01_sources/BOX_PUBLICATION.json` records the verified commit and final
+outcome; the modeling run retains full logs and source manifests. Until that
+receipt exists, Git publication alone does not prove Box delivery.
 
 Current task evidence is owned by Trident modeling at
 `runs/2026-11-06_OPS-014_box_triangle/`. The resulting notes commit identifies
