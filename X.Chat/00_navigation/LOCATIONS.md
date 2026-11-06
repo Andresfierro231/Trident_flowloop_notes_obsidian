@@ -65,3 +65,13 @@
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/06_hpc_exchange/2026-11-03/PROPOSAL_RESULTS_REQUEST.md|Specific HPC result request]] supplies plots, tables and insertion slots for the committee draft.
 
 - Four chapter jobs: motivation and why it matters → experiments/CFD and preliminary evidence → integrated methods (model, sensors, learning, assessment, uncertainty) → formal aims, twelve-month plan and deliverables. Proposal doc_support/committee/STRUCTURE.md owns the rationale and concept sequence. This supersedes the earlier Chapter 3 aims arrangement.
+
+## November 6 author clarification: actual Obsidian is Box-backed
+
+Earlier alias paths are historical receipts, not proof of the active vault.
+The author explicitly says current Obsidian uses Box. Verify its actual folder
+on the Mac; the November6 Box listing showed only the dated pre_git folder and
+OPS-014 awaits clarification of the intended active target. Agents must update
+and checksum-verify that confirmed Box notes folder after EVERY notes Git push,
+under root GIT_WORKFLOW.md. GitHub publication and local aliases alone do not
+establish cloud delivery. Do not rewire the author's vault during this task.

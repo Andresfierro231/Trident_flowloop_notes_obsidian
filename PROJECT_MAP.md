@@ -28,9 +28,12 @@ claim of Mac access. Name **HPC Trident** or **Trident Notes** in handoffs and
 retain exact owner/path/revision. A source from the other side does not silently
 supersede current direction or change authoring ownership.
 
-Trident Notes is synchronized through GitHub. Its original Box source/snapshot
-is preserved separately. The `box/` directory name and Mac vault alias do not
-configure Box synchronization of this Git checkout.
+Agents synchronize Trident Notes through GitHub; the author uses Box-backed
+Obsidian. After every notes Git push, agents must publish and checksum-verify
+the exact revision in the confirmed active Box notes folder. The original
+snapshot remains historical; old alias records do not establish the active
+folder. See [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/GIT_WORKFLOW.md|Git and Box publication workflow]]
+and [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/05_handoffs/2026-11-06_OPS-014_box_communication_triangle.md|November6 author amendment and publication status]].
 
 Start with the question below, then read the named note and its exact sources.
 This map locates evidence; scientific status remains with its owner. Keep this

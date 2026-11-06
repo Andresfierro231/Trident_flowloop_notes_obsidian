@@ -43,3 +43,10 @@
 - Latest author structure supersedes that aim-linked order: Chapter 1 motivation/impact; Chapter 2 experiments, existing/planned CFD and preliminary evidence; Chapter 3 integrated methods with theory, physical model, sensors, learning, assessment and uncertainty; Chapter 4 formal aims, one-year plan and deliverables. Define concepts just before use. Proposal doc_support/committee/STRUCTURE.md owns the current first-use map.
 
 - Proposal authoring format is bullet points for now. Preserve this during restructuring; switch to narrative prose only when explicitly requested. Equations, tables and the four-chapter structure remain.
+
+## Controlling author amendment — November 6 Box communication triangle
+
+- The author says Obsidian still uses Box. Earlier November3 alias/archive-only assumptions are historical and do not establish the active vault path.
+- After EVERY successful notes Git push, including direct pushes, update the confirmed active Box Trident notes folder with that exact committed revision. GitHub success alone does not complete the notes handoff.
+- Follow root GIT_WORKFLOW.md: reconcile independent Box edits first, preserve differing versions, copy only the committed notes/attachments, exclude Git metadata/raw data/external aliases, avoid deletion mirrors, checksum-verify and record the exact Box destination/commit/receipt. If Box publication fails, report it separately as pending.
+- Verify the real active folder; the target is awaiting author clarification in OPS-014. Do not silently use the dated snapshot, create/rename a vault or rewire Obsidian. Scope is notes publication, not unrelated Box writes.

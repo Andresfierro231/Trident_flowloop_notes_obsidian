@@ -1,7 +1,8 @@
 # Trident FlowLoop notes
 
-Writer, literature and research-note collaboration for Trident. Git is the
-primary synchronization route. The HPC initiative retains current research
+Writer, literature and research-note collaboration for Trident. Agents use GitHub; the author uses Box-backed Obsidian. After every notes
+Git push, agents must update and verify the active Box notes folder under
+[GIT_WORKFLOW.md](GIT_WORKFLOW.md). The HPC initiative retains current research
 direction and project/evidence authority; see [agent instructions](AGENTS.md)
 and [HPC context](HPC_CONTEXT.md).
 
@@ -15,7 +16,7 @@ Remote: `git@github.com:Andresfierro231/Trident_flowloop_notes_obsidian.git`.
 The original Box folder was copied, not deleted or modified. Changes remaining
 only on Box/local Obsidian after the intake require deliberate Git reconciliation.
 
-- November 3 local reconciliation: X.Chat/05_handoffs/2026-11-03_03_notes_git_sync.md. Active local notes live in the outside-Box Git checkout, exposed at the original vault route by a local alias; original Box snapshot preserved.
+- November 3 local reconciliation: X.Chat/05_handoffs/2026-11-03_03_notes_git_sync.md. That historical receipt records an outside-Box Git checkout and alias. November6 author clarification controls current behavior: Obsidian uses Box; agents must publish every notes push to the verified active Box folder. Original snapshot preserved.
 
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/REFERENCE_INPUTS.md|Reference inputs and proposal feedback]]: the complete former HPC reference collection now travels in this Git repository.
 

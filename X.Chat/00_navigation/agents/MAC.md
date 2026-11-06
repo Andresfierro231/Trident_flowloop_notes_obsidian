@@ -2,7 +2,7 @@
 title: Mac notes-agent map
 status: maintained
 owner: Mac writer
-updated: 2026-11-03
+updated: 2026-11-06
 tags: [project/trident, doc/specification]
 ---
 
@@ -15,7 +15,9 @@ tags: [project/trident, doc/specification]
   Read its `doc_support/agent/LOCAL.md` for its own source/library routes.
 - Existing vault root is `/Users/andres/ObsidianVaults`; `MainVault` is inside it.
   Stable notes route: `MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/`,
-  a per-machine alias to the Git checkout. Preserve the original dated Box snapshot.
+  was recorded as a per-machine alias on November3. The author clarified
+  November6 that active Obsidian uses Box. Re-verify the actual active folder;
+  preserve the dated snapshot and do not redirect the vault by assumption.
 - The library and Papers aliases belong to this Mac. Verify them before use;
   keep `X.Chat/80_repository_links/` and `03_proposal/current` outside recursive
   writers/staging. Recreate aliases only through the existing explicit setup
@@ -44,3 +46,16 @@ The command and collision/ignore rules are in
 `.agents/skills/_support/README.md` inside this repository. Setup is once per
 machine/checkout; never guess another machine's paths. Existing Git and research
 ownership rules still apply.
+
+## Required notes Box publication — November 6
+
+The author reads Box-backed Obsidian while agents collaborate through Git.
+After EVERY successful notes Git push, publish the exact pushed revision to
+the confirmed active Box notes folder and verify its file hashes. This applies
+to direct pushes and git_session.py alike. Root GIT_WORKFLOW.md controls the
+single workflow: reconcile independent Box edits, preserve differing versions,
+copy only committed notes/attachments with no deletion mirror or alias/Git/raw
+data export, and record destination, commit and copy/check results. GitHub-only
+success leaves Box publication pending. Verify the actual target rather than
+using the historical alias; OPS-014 currently awaits that author clarification.
+Do not alter Obsidian/Box client setup or unrelated repositories as part of it.

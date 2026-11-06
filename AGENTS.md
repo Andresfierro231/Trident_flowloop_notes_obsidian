@@ -52,10 +52,17 @@ messages to third parties.
 
 ## Source and storage boundaries
 
-Git is the primary edit and communication route for this repository after
-the initial Box intake. Do not use Box/rclone/rsync as a second bidirectional
-sync engine. Before moving a local Box working copy to Git, reconcile its
-unpublished edits; the original Box source is preserved by this cutover.
+Agents collaborate through Git; the author reads and may edit the Box-backed
+Obsidian notes. November 6 explicit author direction supersedes the earlier
+archive-only assumption: **after every successful notes Git push, update the
+confirmed active Box Trident notes folder with that exact pushed revision**.
+This applies to direct Git pushes as well as `tools/git_session.py finish`.
+A notes handoff is incomplete until both GitHub and Box are verified, or the
+Box failure/blocker is reported explicitly. Follow GIT_WORKFLOW.md for the
+required Box-edit reconciliation, preserved versions and hash receipt. Never
+mirror `.git`, follow external aliases, delete Box-only files or overwrite
+unreconciled author edits. This authorizes notes publication, not experimental
+deposit uploads or unattended bidirectional synchronization.
 Large experimental raw data live outside this repository under the initiative's
 `box/data/`; do not add them to Git here.
 
@@ -68,7 +75,7 @@ external CAD without the applicable explicit approval. Do not expose secrets.
 
 ## November 3 local cutover
 
-- Local notes owner: /Users/andres/projects/research/Trident/Trident_flowloop_notes_obsidian/. Existing Obsidian route is a local symlink; original Box folder preserved as Trident_FlowLoop_Notes_pre_git_2026-11-03. Git is primary transport; do not edit the snapshot or merge Box changes automatically.
+- Local notes owner: /Users/andres/projects/research/Trident/Trident_flowloop_notes_obsidian/. The November3 receipt recorded a local alias and preserved Trident_FlowLoop_Notes_pre_git_2026-11-03. That receipt is historical: the author clarified November6 that current Obsidian uses Box. Verify the actual active Box folder; do not infer it from the old alias or change the vault setup. Preserve the dated original unless the author identifies it as the active folder. Reconcile Box edits before publication.
 - Read X.Chat/05_handoffs/2026-11-03_03_notes_git_sync.md for reconciliation, source move map and receipt limits. Preserve both local and HPC directions; latest explicit author instructions control intent.
 
 ## Committee proposal direction — November 3

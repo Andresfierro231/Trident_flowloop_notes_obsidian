@@ -37,3 +37,13 @@ Mac-specific historical inventory/link helpers are documented in
 
 
 `python3 tools/resolve_reference_path.py reference/MANIFEST.sha256 --json` prints the canonical existing path. It accepts canonical paths, recorded old HPC/notes paths and original bootstrap names; `--sha256 DIGEST` verifies the resolved source. It never rewrites issued manifests. [Canonical-source receipt](../X.Chat/01_sources/reference_migration/2026-11-06/X_REFERENCE_RENAME/README.md).
+
+## Mandatory Box step after notes Git push
+
+`git_session.py finish` performs the Git operation and prints the required Box
+publication reminder; it does not transfer to Box itself. Every notes push,
+including direct Git commands, requires the checked publication in
+[the controlling workflow](../GIT_WORKFLOW.md). Reconcile author edits first;
+copy the exact committed notes with preservation, then verify/checksum and
+record GitHub and Box results separately. Target verification is required;
+never use a historical alias or dated snapshot by assumption.

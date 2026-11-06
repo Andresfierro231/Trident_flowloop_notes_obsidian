@@ -50,7 +50,7 @@ def main():
         parser.error('Uncommitted work remains; include/reconcile intended paths before the handoff.')
     git('pull', '--ff-only', 'origin', branch)
     git('push', '--set-upstream', 'origin', branch)
-    print('Push completed. Record the resulting commit in the task handoff.')
+    print('GitHub push completed. REQUIRED: publish this exact pushed revision to the confirmed active Box notes folder, verify it and record the receipt per GIT_WORKFLOW.md. The notes handoff remains incomplete until Box is verified; report any Box failure separately.')
 
 
 if __name__ == '__main__':
