@@ -8,7 +8,6 @@ archive/** -whitespace
 "M. Meeting Notes/'26 Oct 14 - Moser meeting feedback on abstract.md" -whitespace
 
 # Imported reference sources and pre-move navigation retain their original bytes.
-reference/** -text -whitespace
 X.Chat/01_sources/reference_migration/** -text -whitespace
 
 # Canonical reference collection; retain exact original source bytes.

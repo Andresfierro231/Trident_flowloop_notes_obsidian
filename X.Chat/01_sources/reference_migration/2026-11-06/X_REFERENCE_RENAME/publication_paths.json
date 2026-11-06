@@ -1,0 +1,17 @@
+[
+  ".gitattributes",
+  "AGENTS.md",
+  "PROJECT_MAP.md",
+  "README.md",
+  "STATUS.md",
+  "X.Reference/INDEX.md",
+  "X.Chat/00_navigation/LOCATIONS.md",
+  "X.Chat/01_sources/REFERENCE_INPUTS.md",
+  "X.Chat/01_sources/reference_migration",
+  "X.Chat/02_synthesis/MOSER_PROPOSAL_THROUGHLINE.md",
+  "X.Chat/05_handoffs/README.md",
+  "X.Chat/05_handoffs/2026-11-06_REFMOVE-002_X_Reference.md",
+  "tools/README.md",
+  "tools/relocate_reference_inputs.py",
+  "tools/resolve_reference_path.py"
+]

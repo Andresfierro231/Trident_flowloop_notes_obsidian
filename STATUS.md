@@ -40,6 +40,10 @@ tasks; the proposal's agent status owns manuscript claims.
 - LIB-001 review: Box literature catalog covers175files/173content identities;102abstract candidates, bounded search and repeatable change tracking. Handoff X.Chat/05_handoffs/2026-11-04_LIB-001_box_library_catalog.md. No active edit claim; original Box assets and unrelated local material-note whitespace preserved.
 
 
-- REFMOVE-001 / agent-root-reference-notes-20261106: review — completed move of the initiative reference collection into notes-owned `reference/`; byte-preserving move map, compatibility route, maps and Moser feedback interpretation. No source-content rewrite or scientific execution.
+- REFMOVE-001 / agent-root-reference-notes-20261106: review — completed move of the initiative reference collection into notes-owned `X.Reference/`; byte-preserving move map, compatibility route, maps and Moser feedback interpretation. No source-content rewrite or scientific execution.
 
-- REFMOVE-001 handoff: `X.Chat/05_handoffs/2026-11-06_REFMOVE-001_reference_git_and_moser.md`. All 1,003 source files are byte-preserved under `reference/`; notes source/map/feedback checks pass. Proposal `0c3a274` is pushed and its local PDF has 45 pages. Notes push is performed at closeout; local pull remains unobserved.
+- REFMOVE-001 handoff: `X.Chat/05_handoffs/2026-11-06_REFMOVE-001_reference_git_and_moser.md`. All 1,003 source files are byte-preserved under `X.Reference/`; notes source/map/feedback checks pass. Proposal `0c3a274` is pushed and its local PDF has 45 pages. Notes push is performed at closeout; local pull remains unobserved.
+
+- REFMOVE-002 / agent-root-xreference-20261106: review — complete the author’s X.Reference rename, canonical links/tools and legacy HPC symlink; preserve original source bytes and issued manifests.
+
+- REFMOVE-002 checks pass: 1,003 original hashes, 3,009 source routes, 15 bootstrap routes/digests, 9 existing tests/21 subtests and 82 current links. One physical collection: X.Reference. See `X.Chat/01_sources/reference_migration/2026-11-06/X_REFERENCE_RENAME/README.md`. Proposal `19127c6` is pushed; local PDF 45 pages. Notes publication is the commit containing this update; local-machine pull remains unobserved.

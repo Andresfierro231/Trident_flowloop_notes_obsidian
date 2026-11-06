@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-06",
+  "canonical_relative_to_notes": "X.Reference",
+  "original_source_manifest": "../MOVE_MANIFEST.json",
+  "legacy_prefixes": [
+    "reference",
+    "/scratch/09748/andresfierro231/projects_scratch/Trident/andrew_WorkSpace/trident_modeling_initiative/box/Trident_FlowLoop_Notes/reference",
+    "/scratch/09748/andresfierro231/projects_scratch/Trident/andrew_WorkSpace/trident_modeling_initiative/reference"
+  ],
+  "compatibility_link": "/scratch/09748/andresfierro231/projects_scratch/Trident/andrew_WorkSpace/trident_modeling_initiative/reference",
+  "previous_link_target": "box/Trident_FlowLoop_Notes/reference",
+  "current_link_target": "box/Trident_FlowLoop_Notes/X.Reference",
+  "policy": "Original/frozen source content and manifests remain unchanged; use resolver for recorded old paths. Only X.Reference holds physical source files."
+}

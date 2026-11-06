@@ -10,9 +10,9 @@ tags: [project/trident, doc/index]
 
 ## Reference collection now transported by Git — November6
 
-[[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/REFERENCE_INPUTS.md|Current reference/source guide]] routes all 1,003 original files under `reference/`. [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/reference_migration/2026-11-06/README.md|Exact move and byte-preservation receipt]] records the former HPC path and compatibility link. Notes Git owns storage/transport; HPC retains research authority, and separate PhD_internal_litRev retains current literature ownership.
+[[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/REFERENCE_INPUTS.md|Current X.Reference/source guide]] routes all 1,003 original files under `X.Reference/`. [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/reference_migration/2026-11-06/README.md|Exact move and byte-preservation receipt]] records the former HPC path and compatibility link. Notes Git owns storage/transport; HPC retains research authority, and separate PhD_internal_litRev retains current literature ownership.
 
-[[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/MOSER_PROPOSAL_THROUGHLINE.md|Moser feedback: choices, parameters, validation and remaining gaps]] combines the newly supplied part2 note with the October14 meeting context. Original feedback lives at `reference/phD_goals/Feedback_historic/`; no source wording or names changed.
+[[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/02_synthesis/MOSER_PROPOSAL_THROUGHLINE.md|Moser feedback: choices, parameters, validation and remaining gaps]] combines the newly supplied part2 note with the October14 meeting context. Original feedback lives at `X.Reference/phD_goals/Feedback_historic/`; no source wording or names changed.
 
 ## Which Trident workspace?
 

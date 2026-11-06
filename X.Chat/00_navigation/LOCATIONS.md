@@ -8,7 +8,7 @@
 | Material | Where / exact owner | Role and authority |
 |---|---|---|
 | Current editable literature reviews | [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/lit_rev_codex/PhD_internal_litRev/README.md\|PhD_internal_litRev]] | Current LaTeX A/B, source registry, dossiers and canonical 62-question JSON |
-| Literature parent folder | lit_rev_codex — `MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/lit_rev_codex/` (folder) | Container for current checkout, frozen releases and reference/acquisition packages |
+| Literature parent folder | lit_rev_codex — `MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/lit_rev_codex/` (folder) | Container for current checkout, frozen releases and X.Reference/acquisition packages |
 | Frozen final review delivery | [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/lit_rev_codex/final_2026-10-21/README.md\|final_2026-10-21]] | Issued snapshot; does not replace later editable LaTeX |
 | Reference/acquisition context | [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Trident_papers/lit_rev_codex/reference_2026-10-21/START_HERE.md\|reference_2026-10-21]] | Historical source intake/dossiers/PDF locations; current registry controls source identities |
 | Canonical editable proposal | [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/80_repository_links/Papers/Andres_Fierro_Dissertation_Proposal/main.tex\|proposal]] | Single manuscript authoring owner; shared through Git |

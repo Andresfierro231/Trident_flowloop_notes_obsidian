@@ -33,4 +33,7 @@ Mac-specific historical inventory/link helpers are documented in
 
 ## Reference relocation / verification
 
-`python3 tools/relocate_reference_inputs.py --check` verifies all original reference files against the notes-owned migration manifest after an HPC or local pull. `--source /verified/initiative/reference` previews the original move; adding `--apply` performs an atomic rename and creates the legacy HPC link. Existing destinations/aliases are refused. No archive/image/CAD/scientific interpretation occurs. See [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/reference_migration/2026-11-06/README.md|move receipt]].
+`python3 tools/relocate_reference_inputs.py --check` verifies all original files under X.Reference against the notes-owned migration manifest after an HPC or local pull. `--source /verified/initiative/reference` previews the original move; adding `--apply` performs an atomic rename and creates the legacy HPC link. Existing destinations/aliases are refused. No archive/image/CAD/scientific interpretation occurs. See [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/reference_migration/2026-11-06/README.md|move receipt]].
+
+
+`python3 tools/resolve_reference_path.py reference/MANIFEST.sha256 --json` prints the canonical existing path. It accepts canonical paths, recorded old HPC/notes paths and original bootstrap names; `--sha256 DIGEST` verifies the resolved source. It never rewrites issued manifests. [Canonical-source receipt](../X.Chat/01_sources/reference_migration/2026-11-06/X_REFERENCE_RENAME/README.md).

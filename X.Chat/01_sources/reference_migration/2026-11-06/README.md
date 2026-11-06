@@ -10,6 +10,8 @@ tags: [project/trident, doc/index]
 
 Tags: #project/trident #doc/index
 
+**Current canonical location:** `X.Reference/`. See the [completed rename and source-path repairs](X_REFERENCE_RENAME/README.md). The first-move paths and hashes below record the earlier operation; its raw manifests remain unchanged.
+
 The author explicitly requested this move so references travel through the notes Git repository to the local computer. The physical folder was moved, not copied into a second editable collection.
 
 | Role | Path |

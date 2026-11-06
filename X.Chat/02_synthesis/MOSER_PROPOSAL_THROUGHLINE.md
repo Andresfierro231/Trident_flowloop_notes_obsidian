@@ -10,7 +10,7 @@ tags: [project/trident, doc/index]
 
 Tags: #project/trident #doc/index
 
-**Sources read:** the unchanged [November 4 part2 feedback](../../reference/phD_goals/Feedback_historic/'26_nov_04_moser_feedback_proposal_pt2) and the [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/'26 Oct 14 - Moser meeting feedback on abstract.md|October 14 Moser meeting note]]. Received in the November6 session; the filename is not an inferred new meeting date. This document interprets the advice; it is not new committee approval or a scientific result.
+**Sources read:** the unchanged [November 4 part2 feedback](../../X.Reference/phD_goals/Feedback_historic/'26_nov_04_moser_feedback_proposal_pt2) and the [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/M. Meeting Notes/'26 Oct 14 - Moser meeting feedback on abstract.md|October 14 Moser meeting note]]. Received in the November6 session; the filename is not an inferred new meeting date. This document interprets the advice; it is not new committee approval or a scientific result.
 
 ## Tell one connected story
 

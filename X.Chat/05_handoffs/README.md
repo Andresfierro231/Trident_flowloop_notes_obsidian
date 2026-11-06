@@ -20,3 +20,5 @@ Use YYYY-MM-DD_TASK-ID_short_topic.md for new coherent tasks. Keep old handoffs 
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/05_handoffs/2026-11-04_LIB-001_box_library_catalog.md|LIB-001: Box literature intake, search and change tracking]].
 
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/05_handoffs/2026-11-06_REFMOVE-001_reference_git_and_moser.md|REFMOVE-001: reference collection now on notes Git; Moser feedback integration]].
+
+- [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/05_handoffs/2026-11-06_REFMOVE-002_X_Reference.md|REFMOVE-002: completed X.Reference rename, source paths and compatibility repairs]].

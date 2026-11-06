@@ -18,3 +18,5 @@ only on Box/local Obsidian after the intake require deliberate Git reconciliatio
 - November 3 local reconciliation: X.Chat/05_handoffs/2026-11-03_03_notes_git_sync.md. Active local notes live in the outside-Box Git checkout, exposed at the original vault route by a local alias; original Box snapshot preserved.
 
 - [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/REFERENCE_INPUTS.md|Reference inputs and proposal feedback]]: the complete former HPC reference collection now travels in this Git repository.
+
+- [Canonical reference collection](X.Reference/INDEX.md): use X.Reference only; legacy HPC source paths are supported by the compatibility symlink and resolver.

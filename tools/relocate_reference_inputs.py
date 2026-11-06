@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Move the explicitly supplied reference tree into this notes repo, or verify it.
+"""Verify X.Reference or move an explicitly supplied reference tree into it.
 Dry run: python3 tools/relocate_reference_inputs.py --source /verified/initiative/reference
 Apply: same command with --apply. Verify later: --check (works after local Git pull).
 No image/CAD/archive interpretation, network transfer or scientific processing.
@@ -8,7 +8,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 import argparse,hashlib,json,os,time
 ROOT=Path(__file__).resolve().parents[1]
-DEST=ROOT/'reference'
+DEST=ROOT/'X.Reference'
 RECORD=ROOT/'X.Chat/01_sources/reference_migration/2026-11-06'
 MANIFEST=RECORD/'MOVE_MANIFEST.json'
 def digest(p):
@@ -47,7 +47,7 @@ def main():
  if source==ROOT or source.is_relative_to(ROOT) or ROOT.is_relative_to(source):ap.error('Source/destination roots must be disjoint')
  rows=inventory(source,workers)
  if any(x['bytes']>=100*1024*1024 for x in rows):ap.error('A file exceeds the regular Git blob limit; reconcile before moving')
- plan={'schema':1,'date':'2026-11-06','source':str(source),'destination_relative_to_notes':'reference','compatibility_target':os.path.relpath(DEST,source.parent),'files':rows,'workers':workers,'total_bytes':sum(x['bytes'] for x in rows),'reading_depth':'filenames/bytes/SHA256 only; no image, native CAD, archive contents or source-paper interpretation'}
+ plan={'schema':1,'date':'2026-11-06','source':str(source),'destination_relative_to_notes':'X.Reference','compatibility_target':os.path.relpath(DEST,source.parent),'files':rows,'workers':workers,'total_bytes':sum(x['bytes'] for x in rows),'reading_depth':'filenames/bytes/SHA256 only; no image, native CAD, archive contents or source-paper interpretation'}
  RECORD.mkdir(parents=True,exist_ok=True)
  if not args.apply:
   (RECORD/'PLAN.json').write_text(json.dumps(plan,indent=2)+'\n');print(json.dumps({'mode':'dry-run','files':len(rows),'bytes':plan['total_bytes'],'destination':str(DEST),'workers':workers}));return

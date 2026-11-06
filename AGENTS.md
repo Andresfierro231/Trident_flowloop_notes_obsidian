@@ -99,3 +99,8 @@ Owning AGENTS.md and explicit user scope still control. If local links are missi
 use the notes checkout from the current machine map and its documented catalog
 `link` command; preserve existing catalogs/skills. No global installation is needed.
 <!-- END TRIDENT_SKILL_DISCOVERY -->
+
+
+## Canonical reference collection — November6
+
+`X.Reference/` is the sole physical and editable source collection. Use [its current index](X.Reference/INDEX.md) and the [current migration record](X.Chat/01_sources/reference_migration/2026-11-06/X_REFERENCE_RENAME/README.md). Do not create another notes `reference/` folder. The modeling repository’s `reference` symlink is compatibility only. Preserve immutable sources and issued manifests; `python3 tools/resolve_reference_path.py ORIGINAL_PATH --json` resolves recorded old names and bootstrap relocations without changing the records.

@@ -1,0 +1,52 @@
+{
+  "source_integrity": {
+    "status": "passed",
+    "files": 1003,
+    "additional_files": 1,
+    "bytes": 209346794,
+    "workers": 4,
+    "elapsed_s": 1.962,
+    "content": "all original bytes preserved",
+    "visual_or_scientific_inspection": false
+  },
+  "path_routes": {
+    "status": "passed",
+    "original_source_paths": 3009,
+    "bootstrap_filename_routes": 15,
+    "invalid_paths_rejected": 2,
+    "current_links_checked": 82,
+    "external_machine_aliases_classified": 9,
+    "elapsed_s": 7.37,
+    "visual_inspection": false
+  },
+  "notes_organization": {
+    "status": "passed",
+    "scope": "maintained navigation",
+    "documents_checked": 17,
+    "limits": "External machine/library pointers are classified, not verified; aliases/archives are not traversed. No image/CAD content inspected.",
+    "error_count": 0,
+    "broader_local_link_debt_count": 0
+  },
+  "bootstrap_canonical": {
+    "status": "passed",
+    "digests": 15
+  },
+  "bootstrap_legacy": {
+    "status": "passed",
+    "digests": 15
+  },
+  "existing_geometry_and_ignore_tests": "9 passed, 21 subtests passed",
+  "symlink": {
+    "path": "/scratch/09748/andresfierro231/projects_scratch/Trident/andrew_WorkSpace/trident_modeling_initiative/reference",
+    "target": "box/Trident_FlowLoop_Notes/X.Reference",
+    "resolves_to_canonical": true
+  },
+  "proposal": {
+    "commit": "19127c682e519ee911ee4a1308bf89af152c8fc1",
+    "pages": 45,
+    "build": "passed; no undefined references/citations or overfull boxes",
+    "source_changes": "active paths only; no scientific values, figures or bibliography changed"
+  },
+  "rename_checkpoint": "895874a1d8030213d4acef36888a42dc3045381d",
+  "scope": "Original/frozen sources stay unchanged; current paths are repaired. External per-machine repository aliases are classified, not reconfigured."
+}
