@@ -30,9 +30,10 @@ supersede current direction or change authoring ownership.
 
 Agents synchronize Trident Notes through GitHub; the author uses Box-backed
 Obsidian. After every notes Git push, agents must publish and checksum-verify
-the exact revision in the confirmed active Box notes folder. The original
-snapshot remains historical; old alias records do not establish the active
-folder. See [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/GIT_WORKFLOW.md|Git and Box publication workflow]]
+the exact revision in the confirmed active Box notes folder. Latest direct
+author confirmation (OPS-015): this is `Trident_FlowLoop_Notes_pre_git_2026-11-03`.
+Despite its name it is actively edited; preserve a verified backup before
+updates. The undated Mac path is a symlink to the agent Git checkout. See [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/GIT_WORKFLOW.md|Git and Box publication workflow]]
 and [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/05_handoffs/2026-11-06_OPS-014_box_communication_triangle.md|November6 author amendment and publication status]].
 
 Start with the question below, then read the named note and its exact sources.
@@ -122,3 +123,5 @@ proposal and notes retain their separate owners/instructions; skills do not
 activate research tasks, auto-run experiments or add a second task registry.
 
 - Box literature discovery: [[MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/X.Chat/01_sources/box_library/README.md|content catalog, bounded search and refresh]]. Tool: python3 tools/box_library.py; original PDFs stay in Box, source-specific notes and curation remain separate from generated records.
+
+- [OPS-015: active dated Box folder and verified local reconciliation](X.Chat/05_handoffs/2026-11-06_OPS-015_active_box_reconciliation.md). Existing undated vault-root links still resolve through the local Git alias; they can open the Git copy. No vault rewiring or frozen-link rewrite was performed.

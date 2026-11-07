@@ -40,7 +40,7 @@
 ## Notes Git owner — November 3
 
 - Canonical local notes: /Users/andres/projects/research/Trident/Trident_flowloop_notes_obsidian/; origin git@github.com:Andresfierro231/Trident_flowloop_notes_obsidian.git.
-- Existing vault-root wikilinks keep MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/ through a local alias. Original Box source preserved at sibling Trident_FlowLoop_Notes_pre_git_2026-11-03; do not edit it.
+- Existing vault-root wikilinks keep MainVault/Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes/ through a local alias. The dated sibling was initially preserved, but the author confirms it is now the active Obsidian editing folder (OPS-015). Back it up before updates.
 - Remote notes handoff reports HPC owner under initiative box/Trident_FlowLoop_Notes/ as of November 2; verify on actual host.
 
 ## Author-specified program context and feedback — November 3
@@ -70,10 +70,12 @@
 
 Earlier alias paths are historical receipts, not proof of the active vault.
 The author explicitly says current Obsidian uses Box. Verify its actual folder
-on the Mac; the November6 Box listing showed only the dated pre_git folder and
-The author confirmed `Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`
-(rclone `box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`); restore/update
-this active folder and preserve the separate dated pre_git snapshot. Agents must update
+on the Mac. The earlier November 6 service listing showed the dated folder.
+Latest author confirmation (OPS-015): the active editing folder is
+`Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes_pre_git_2026-11-03`
+(rclone `box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes_pre_git_2026-11-03`). This supersedes the undated
+target recorded by OPS-014. Preserve a verified backup before updating this
+actively edited dated folder. Agents must update
 and checksum-verify that confirmed Box notes folder after EVERY notes Git push,
 under root GIT_WORKFLOW.md. GitHub publication and local aliases alone do not
 establish cloud delivery. Do not rewire the author's vault during this task.

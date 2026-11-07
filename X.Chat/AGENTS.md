@@ -30,7 +30,7 @@
 
 - Author requests pull and push for BOTH Trident_FlowLoop_Notes and the canonical LaTeX proposal. Treat them as separate synchronization checks; success in one never establishes the other's state.
 - At startup/task boundaries inspect each actual Git root, origin, branch and worktree; fetch, pull --ff-only on clean main, and push reviewed task commits per proposal SHARED.md. Never discard unrelated work or force synchronization.
-- Notes Git owner is /Users/andres/projects/research/Trident/Trident_flowloop_notes_obsidian/; origin git@github.com:Andresfierro231/Trident_flowloop_notes_obsidian.git. Existing vault route is a local alias to that checkout; original Box snapshot is read-only history by convention. Root AGENTS.md/GIT_WORKFLOW.md and tools/git_session.py define the notes session.
+- Notes Git owner is /Users/andres/projects/research/Trident/Trident_flowloop_notes_obsidian/; origin git@github.com:Andresfierro231/Trident_flowloop_notes_obsidian.git. Existing vault route is a local alias to that checkout; the dated Box folder was originally preserved as history, but the author now confirms it is the active editing folder (OPS-015). Root AGENTS.md/GIT_WORKFLOW.md and tools/git_session.py define the notes session.
 
 - Git now carries the notes/HPC exchange, incorporating the remote November 2 cutover. Historical Box records and HX acknowledgment states remain unchanged. HPC initiative controls current research evidence/direction subject to explicit author instructions; local writing does not supersede it by date alone.
 
@@ -49,4 +49,4 @@
 - The author says Obsidian still uses Box. Earlier November3 alias/archive-only assumptions are historical and do not establish the active vault path.
 - After EVERY successful notes Git push, including direct pushes, update the confirmed active Box Trident notes folder with that exact committed revision. GitHub success alone does not complete the notes handoff.
 - Follow root GIT_WORKFLOW.md: reconcile independent Box edits first, preserve differing versions, copy only the committed notes/attachments, exclude Git metadata/raw data/external aliases, avoid deletion mirrors, checksum-verify and record the exact Box destination/commit/receipt. If Box publication fails, report it separately as pending.
-- Author-confirmed active folder: `box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`. Restore/update this exact folder; preserve the separate dated pre_git snapshot. Do not substitute another folder or rewire Obsidian. Scope is notes publication, not unrelated Box writes.
+- Latest author-confirmed active folder (OPS-015): `box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes_pre_git_2026-11-03`. This supersedes the earlier undated target. Back up and reconcile this actively edited dated folder before updating it; keep the vault setup unchanged. Scope is notes publication.

@@ -3,7 +3,7 @@
 Agents use GitHub for notes, literature work and HPC/writer handoffs. The
 author uses Box-backed Obsidian. After every successful notes Git push, publish
 the exact pushed notes revision to the confirmed active Box folder and verify
-it. Original dated snapshots remain preserved. Raw experimental data and the
+it. Preserve verified backups before updating the active dated folder. Raw experimental data and the
 initiative's code/reports are separate from this repository.
 
 ## Each work session
@@ -41,15 +41,15 @@ current vault configuration. Git pull happens at session start; **every notes
 Git push requires an immediate Box update**, including direct pushes outside
 this helper. There is no timer: the Git push is the publication trigger.
 
-1. The author confirmed the active folder on November 6 as
-   `Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`.
-   Its rclone destination is
-   **`box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`**.
-   Use this folder after every push; preserve the separate dated `pre_git`
-   snapshot. The folder was absent on the service before this publication;
-   the author-confirmed path authorizes restoring it. Verify service access
-   and existing content each time. Do not substitute a historical alias or
-   reconfigure the Obsidian vault.
+1. Latest direct author confirmation on November 6 (OPS-015): the author
+   opens and edits `Trident_FlowLoop_Notes_pre_git_2026-11-03`. Use
+   **`box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes_pre_git_2026-11-03`** after every push.
+   This supersedes OPS-014’s undated target; the dated name does not make
+   this folder an archive. Verified Mac mount:
+   `/Users/andres/Library/CloudStorage/Box-Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes_pre_git_2026-11-03`.
+   Save a hash-verified backup before changing it. The undated local path
+   is a symlink to Git, so writing through it does not publish to Box.
+   Verify service access and current content without changing vault setup.
 2. Before editing/publishing, inspect active Box notes for independent author
    edits against the last successful Box publication manifest. Pull changed
    or new Box notes into separate staging, preserve their hashes and reconcile
@@ -104,8 +104,7 @@ this helper. There is no timer: the Git push is the publication trigger.
    previous receipt alongside versioned publication evidence. Do not write a
    success receipt before the full file check passes.
 
-The November 6 original-snapshot check is still valid within its historical
-scope: all 371 original files matched the cutover manifest. See the
+The earlier November 6 original-snapshot check remains historical evidence: all 371 original files matched the cutover manifest. See the
 [original check](X.Chat/05_handoffs/2026-11-06_OPS-013_box_git_reconciliation.md)
 and [current author amendment](X.Chat/05_handoffs/2026-11-06_OPS-014_box_communication_triangle.md).
 Neither checking that snapshot nor pushing Git proves delivery to the author's
@@ -133,9 +132,9 @@ the Box snapshot at its recorded time. Verify internal links/attachment paths
 in the local vault after choosing the arrangement; vault-wide references outside
 this folder are not repaired by creating this repository.
 
-Preserve the original dated snapshot as history unless the author identifies
-it as the current active folder. Current Box notes may contain author edits;
-reconcile them through the workflow above.
+The author has now identified the dated folder as active. Preserve its
+before-publication backup as history and reconcile its current author edits
+through the workflow above.
 Git synchronization does not wake another chat; the other session must pull and
 read the current handoff. Repository visibility/access are controlled in GitHub;
 this task does not alter the supplied repository's access settings.

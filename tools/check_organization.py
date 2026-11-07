@@ -74,7 +74,8 @@ def check(all_active=False):
         p = ROOT / 'X.Chat' / name
         if not p.is_dir() or p.is_symlink() or not (p / 'README.md').is_file():
             errors.append({'path': str(p.relative_to(ROOT)), 'problem': 'missing owned folder/index'})
-    root_files = {p.name for p in (ROOT / 'X.Chat').iterdir() if p.is_file() and not p.is_symlink()}
+    root_files = {p.name for p in (ROOT / 'X.Chat').iterdir()
+                  if p.is_file() and not p.is_symlink() and p.name != '.DS_Store'}
     for name in sorted(root_files - {'README.md', 'AGENTS.md'}):
         errors.append({'path': 'X.Chat/' + name, 'problem': 'loose file needs an owning layer or documented exception'})
     for rel in MANAGED:

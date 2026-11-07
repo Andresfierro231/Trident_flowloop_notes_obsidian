@@ -62,3 +62,5 @@ python3 tools/obsidian_links.py --vault-root "$HOME/ObsidianVaults"
 ## November 3 live proposal route
 
 - setup_repository_link.py now also creates 03_proposal/current pointing through Papers to canonical proposal. Dated staged aliases point only to frozen archive/staged snapshots for historical link compatibility. Box does not synchronize these symlinks; recreate them on each local computer.
+
+- [OPS-015: active dated Box folder and verified local reconciliation](../05_handoffs/2026-11-06_OPS-015_active_box_reconciliation.md). Existing undated vault-root links still resolve through the local Git alias; they can open the Git copy. No vault rewiring or frozen-link rewrite was performed.

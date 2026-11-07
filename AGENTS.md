@@ -57,9 +57,11 @@ Obsidian notes. November 6 explicit author direction supersedes the earlier
 archive-only assumption: **after every successful notes Git push, update the
 confirmed active Box Trident notes folder with that exact pushed revision**.
 This applies to direct Git pushes as well as `tools/git_session.py finish`.
-Confirmed active destination: `box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`
-(author’s `Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`). Preserve the
-separate dated `pre_git` snapshot.
+Latest author confirmation (OPS-015, November 6): active destination is
+`box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes_pre_git_2026-11-03`. The author opens and edits the dated folder.
+It is active despite its name; the earlier undated-folder confirmation is
+superseded. Back up its current bytes before publication and reconcile author
+edits first. The undated local path remains a symlink to the Git checkout.
 A notes handoff is incomplete until both GitHub and Box are verified, or the
 Box failure/blocker is reported explicitly. Follow GIT_WORKFLOW.md for the
 required Box-edit reconciliation, preserved versions and hash receipt. Never
@@ -78,7 +80,7 @@ external CAD without the applicable explicit approval. Do not expose secrets.
 
 ## November 3 local cutover
 
-- Local notes owner: /Users/andres/projects/research/Trident/Trident_flowloop_notes_obsidian/. The November3 receipt recorded a local alias and preserved Trident_FlowLoop_Notes_pre_git_2026-11-03. That receipt is historical: the author clarified November6 that current Obsidian uses Box. Verify the actual active Box folder; do not infer it from the old alias or change the vault setup. Preserve the dated original unless the author identifies it as the active folder. Reconcile Box edits before publication.
+- Local notes owner: /Users/andres/projects/research/Trident/Trident_flowloop_notes_obsidian/. The November3 receipt recorded a local alias and preserved Trident_FlowLoop_Notes_pre_git_2026-11-03. That receipt is historical: the author clarified November6 that current Obsidian uses Box. Verify the actual active Box folder; do not infer it from the old alias or change the vault setup. The author now identifies the dated folder as active (OPS-015); reconcile its edits and publish there after backing it up. See X.Chat/05_handoffs/2026-11-06_OPS-015_active_box_reconciliation.md.
 - Read X.Chat/05_handoffs/2026-11-03_03_notes_git_sync.md for reconciliation, source move map and receipt limits. Preserve both local and HPC directions; latest explicit author instructions control intent.
 
 ## Committee proposal direction — November 3

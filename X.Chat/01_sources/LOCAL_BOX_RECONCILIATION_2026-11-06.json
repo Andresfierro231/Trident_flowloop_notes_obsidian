@@ -1,0 +1,2252 @@
+{
+  "task": "OPS-015",
+  "date": "2026-11-06",
+  "user_confirmation": "The dated pre_git folder",
+  "active_box_root": "/Users/andres/Library/CloudStorage/Box-Box/Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes_pre_git_2026-11-03",
+  "box_service_target": "box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes_pre_git_2026-11-03",
+  "git_root": "/Users/andres/projects/research/Trident/Trident_flowloop_notes_obsidian",
+  "git_revision_before": "579f8505123a4df14896e2ccecf900588186a69f",
+  "backup_directory": "/Users/andres/projects/research/Trident/reconciliation/20261107T000512Z_active_box_notes",
+  "baseline_unchanged": 371,
+  "box_files_before": 372,
+  "git_files_before": 1534,
+  "identical_shared_files": 352,
+  "git_newer_shared_files": 18,
+  "git_only_files_before": 1164,
+  "conflicting_author_content_edits": 0,
+  "files": [
+    {
+      "path": "0. Overview and intro/Digital I&C - Andres Notes.md",
+      "box_sha256": "a12c36ee294f411b8f63bab6a33af92f8bc4ffbdd1bc271bdde8d116f2ad63eb",
+      "git_worktree_before_sha256": "a12c36ee294f411b8f63bab6a33af92f8bc4ffbdd1bc271bdde8d116f2ad63eb",
+      "resolution": "identical"
+    },
+    {
+      "path": "0. Overview and intro/Home Note.md",
+      "box_sha256": "c22af1d012e4786b04f188e7ab8248dc6503342098c91ab8052439ed67651e82",
+      "git_worktree_before_sha256": "c22af1d012e4786b04f188e7ab8248dc6503342098c91ab8052439ed67651e82",
+      "resolution": "identical"
+    },
+    {
+      "path": "0. Overview and intro/Trident - STNCL Loops.md",
+      "box_sha256": "a42df9414346fe3167c3557813bb63143f2becf5ca2c1cdf00409a78ad63bd75",
+      "git_worktree_before_sha256": "a42df9414346fe3167c3557813bb63143f2becf5ca2c1cdf00409a78ad63bd75",
+      "resolution": "identical"
+    },
+    {
+      "path": "0. Overview and intro/Trident Notes, Questions, and follow ups.md",
+      "box_sha256": "403d5651f856ddcb8cf29b7a629f09b3f9000cf853e043b8c09ba73ef0cf839b",
+      "git_worktree_before_sha256": "403d5651f856ddcb8cf29b7a629f09b3f9000cf853e043b8c09ba73ef0cf839b",
+      "resolution": "identical"
+    },
+    {
+      "path": "0. Overview and intro/Update from git repo.md",
+      "box_sha256": "99dc1aab9cb93b27d6cb148a7685e87160bf045b5fcbdd97613e493bf523de07",
+      "git_worktree_before_sha256": null,
+      "resolution": "import_box_only"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.0 Geometry notes.md",
+      "box_sha256": "8a54e3ab2b0287bd44042067c47045ac14d56fbf2c61cb99d1d683c5698ea155",
+      "git_worktree_before_sha256": "8a54e3ab2b0287bd44042067c47045ac14d56fbf2c61cb99d1d683c5698ea155",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.0 Heaters and coolers.md",
+      "box_sha256": "4abf5ca2c924aea9b63ffb8dd4b31831a6e652e2cb3c6df36174fb353927c33a",
+      "git_worktree_before_sha256": "4abf5ca2c924aea9b63ffb8dd4b31831a6e652e2cb3c6df36174fb353927c33a",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.1 Geometry pics.md",
+      "box_sha256": "4004a725433fd43e06556bf6a847c0a67dc548c9a198b6d71706808158527910",
+      "git_worktree_before_sha256": "4004a725433fd43e06556bf6a847c0a67dc548c9a198b6d71706808158527910",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.2 Sensors.md",
+      "box_sha256": "49f882e979b7451699dc3de77c40a7dfb6fff059e0fbcac161e7080020aae59f",
+      "git_worktree_before_sha256": "49f882e979b7451699dc3de77c40a7dfb6fff059e0fbcac161e7080020aae59f",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/1.1.2.1 EPIC ACU Senor Names.md",
+      "box_sha256": "35f200b3be9fa45bca3faee02bfce7ac782838bd1e3a2d7dbe05d36ee6b8e7a7",
+      "git_worktree_before_sha256": "35f200b3be9fa45bca3faee02bfce7ac782838bd1e3a2d7dbe05d36ee6b8e7a7",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/1.2 Main Material Props.md",
+      "box_sha256": "9bbfeb6527fd3787b05f28ecb8c0654deeb89b0252889d73429cfb0bc1c5ae18",
+      "git_worktree_before_sha256": "9e54de8375da586cc85a3ab1610e523efc99492c23615e807e8e632a97ff7f05",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "1. Setup and Geometry/1.2.1 Prop 30 ThermoPhys Props.md",
+      "box_sha256": "95532e4fd96351d882b17632200c05ea533981d280ff58df43beccaaa5ee25db",
+      "git_worktree_before_sha256": "95532e4fd96351d882b17632200c05ea533981d280ff58df43beccaaa5ee25db",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/1.2.2 Steel Pipe Properties.md",
+      "box_sha256": "e700df5bea4486003f76b1a8759f2c1c3d985da70ca0011963dbd99ac4e8ebf2",
+      "git_worktree_before_sha256": "e700df5bea4486003f76b1a8759f2c1c3d985da70ca0011963dbd99ac4e8ebf2",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/1.A Appendix Notes.md",
+      "box_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_worktree_before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/1.A.1 ACU Loop is bigger than VCU loop.md",
+      "box_sha256": "3eb2a18da3ce3e17417bc62e7e28eacc89dec7205a8a53cf7d45b8e7919c2e16",
+      "git_worktree_before_sha256": "3eb2a18da3ce3e17417bc62e7e28eacc89dec7205a8a53cf7d45b8e7919c2e16",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/316L_correlations_vs_NRC (1).pdf",
+      "box_sha256": "2e548de69c463a490c83f3a4f952ae80f2263b34d8abd948b6952980f4944102",
+      "git_worktree_before_sha256": "2e548de69c463a490c83f3a4f952ae80f2263b34d8abd948b6952980f4944102",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/316L_correlations_vs_NRC.pdf",
+      "box_sha256": "3b2009f57ce1b8d14e7804fd3514ba6e9eb8243f9d5dd0b6ed0c0ffea6fb063e",
+      "git_worktree_before_sha256": "3b2009f57ce1b8d14e7804fd3514ba6e9eb8243f9d5dd0b6ed0c0ffea6fb063e",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260911080943.png",
+      "box_sha256": "7e96315ac04809bdba51a89934f70ba3650082a464f6be2b3cf19c35491bf351",
+      "git_worktree_before_sha256": "7e96315ac04809bdba51a89934f70ba3650082a464f6be2b3cf19c35491bf351",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916145752.png",
+      "box_sha256": "132d783f2b3a8df9352fde1de88f572790f533b7ff14f24ccc97756212fb0223",
+      "git_worktree_before_sha256": "132d783f2b3a8df9352fde1de88f572790f533b7ff14f24ccc97756212fb0223",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916150018.png",
+      "box_sha256": "0ad140d68019c55d58458294aec735fd39e1460f21cb41fad96c9ba9af1a920f",
+      "git_worktree_before_sha256": "0ad140d68019c55d58458294aec735fd39e1460f21cb41fad96c9ba9af1a920f",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916154132.png",
+      "box_sha256": "29bc49315564a3cfd258ecee8fc8bf9d280c557f5f3ba189394f58a4347baec1",
+      "git_worktree_before_sha256": "29bc49315564a3cfd258ecee8fc8bf9d280c557f5f3ba189394f58a4347baec1",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916165634.png",
+      "box_sha256": "82c728300fa57626a20fc1f98d9e94c762ab35615b83e8ff687abcea9f475b4b",
+      "git_worktree_before_sha256": "82c728300fa57626a20fc1f98d9e94c762ab35615b83e8ff687abcea9f475b4b",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916171707.png",
+      "box_sha256": "e92662b86d67f62df44f5e04671ae92290e32b934f6229a24a7ccf2c36b966ad",
+      "git_worktree_before_sha256": "e92662b86d67f62df44f5e04671ae92290e32b934f6229a24a7ccf2c36b966ad",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260916171722.png",
+      "box_sha256": "dd19b9ea59cec21aeb90527f11c7f368770060cb1ed2417c7e312cf9a61433da",
+      "git_worktree_before_sha256": "dd19b9ea59cec21aeb90527f11c7f368770060cb1ed2417c7e312cf9a61433da",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260918112110.png",
+      "box_sha256": "00f8698af092d0d042b36e3c5a5c92a8ce78369061cb4b9bfc773c5da7ae9ad9",
+      "git_worktree_before_sha256": "00f8698af092d0d042b36e3c5a5c92a8ce78369061cb4b9bfc773c5da7ae9ad9",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260918112233.png",
+      "box_sha256": "893e6e8aea261401783cde770b479f779f673dd7c71d6d6d6088b982716dddab",
+      "git_worktree_before_sha256": "893e6e8aea261401783cde770b479f779f673dd7c71d6d6d6088b982716dddab",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260918162121.png",
+      "box_sha256": "92e3dc2d84bd2edc6d2a4aa85d5fa6316dd4facd895197b34b43c3484004695a",
+      "git_worktree_before_sha256": "92e3dc2d84bd2edc6d2a4aa85d5fa6316dd4facd895197b34b43c3484004695a",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260918162620.png",
+      "box_sha256": "abed7689eeb814897804058929fc78b6492724e8722c4a4e583b033261c9ff19",
+      "git_worktree_before_sha256": "abed7689eeb814897804058929fc78b6492724e8722c4a4e583b033261c9ff19",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260921122948.png",
+      "box_sha256": "fb37a59e9365ccdb6c84aca025c3e43b603b565b7e87bcfc85a836158e18ae3a",
+      "git_worktree_before_sha256": "fb37a59e9365ccdb6c84aca025c3e43b603b565b7e87bcfc85a836158e18ae3a",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260921123601.png",
+      "box_sha256": "68e22430d7933ed7eeb6fa4d82c923c0f1a9a4d6643a52cdd1659a0f9d6115f2",
+      "git_worktree_before_sha256": "68e22430d7933ed7eeb6fa4d82c923c0f1a9a4d6643a52cdd1659a0f9d6115f2",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260921123630.png",
+      "box_sha256": "b56feb945338bac20e5ef26ae244a83af50876f5fee5fed0178929451b07de36",
+      "git_worktree_before_sha256": "b56feb945338bac20e5ef26ae244a83af50876f5fee5fed0178929451b07de36",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260921124359.png",
+      "box_sha256": "03e9cf6368d54bbe1a9aca1077b7c7b75e4b75c2e9fbf07c01c47459cf4bbfa8",
+      "git_worktree_before_sha256": "03e9cf6368d54bbe1a9aca1077b7c7b75e4b75c2e9fbf07c01c47459cf4bbfa8",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260924212606.png",
+      "box_sha256": "0f8dc4f97800433598f47be75069a77be8391dfd523f11710f7219b0ebe1c351",
+      "git_worktree_before_sha256": "0f8dc4f97800433598f47be75069a77be8391dfd523f11710f7219b0ebe1c351",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260924212642.png",
+      "box_sha256": "e2c732e28d54cca8925436b606affa3c83e7cd96e8868035f7860c9d287d3ee3",
+      "git_worktree_before_sha256": "e2c732e28d54cca8925436b606affa3c83e7cd96e8868035f7860c9d287d3ee3",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260924212656.png",
+      "box_sha256": "997127747301fd6a1dd8a7219f666122221dcbee61b757bd57b004a5c0db4b71",
+      "git_worktree_before_sha256": "997127747301fd6a1dd8a7219f666122221dcbee61b757bd57b004a5c0db4b71",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260925081141.png",
+      "box_sha256": "5ed864de6905e8ccc5017082e7579b24e2cfab4b25106dd6a28adae27e576aa0",
+      "git_worktree_before_sha256": "5ed864de6905e8ccc5017082e7579b24e2cfab4b25106dd6a28adae27e576aa0",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260925081737.png",
+      "box_sha256": "e0bd6135131c42c250c34534b4e3cb803130d7db9509471804bcbf639706900f",
+      "git_worktree_before_sha256": "e0bd6135131c42c250c34534b4e3cb803130d7db9509471804bcbf639706900f",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260925211935.png",
+      "box_sha256": "84c6d1aa7f3f3533b88e20543b0531e63108a70dcb0d4614bfb3e561f62176e5",
+      "git_worktree_before_sha256": "84c6d1aa7f3f3533b88e20543b0531e63108a70dcb0d4614bfb3e561f62176e5",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180243.png",
+      "box_sha256": "2aa174a0662cf441d413e92ca15e75515e8b3ca68b2228013fcd4719b78f66f5",
+      "git_worktree_before_sha256": "2aa174a0662cf441d413e92ca15e75515e8b3ca68b2228013fcd4719b78f66f5",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180745.png",
+      "box_sha256": "09d109df92f2f0435ccc528b931e909111c92372c304097276c0cf50534de084",
+      "git_worktree_before_sha256": "09d109df92f2f0435ccc528b931e909111c92372c304097276c0cf50534de084",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180810.png",
+      "box_sha256": "8ade08b0b18f03daff210f3f90db5d80e104a6da794b1b803305db43644233a7",
+      "git_worktree_before_sha256": "8ade08b0b18f03daff210f3f90db5d80e104a6da794b1b803305db43644233a7",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180902.png",
+      "box_sha256": "0ce66e997bb298cabd255a64ec407a35eaa2ebbd403dfd8716dc7ae270c1d9f5",
+      "git_worktree_before_sha256": "0ce66e997bb298cabd255a64ec407a35eaa2ebbd403dfd8716dc7ae270c1d9f5",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20260926180930.png",
+      "box_sha256": "eb8c2ce8290a14a0c30d00033aea80af74f2a31c241896943f8e10cbab84aa3b",
+      "git_worktree_before_sha256": "eb8c2ce8290a14a0c30d00033aea80af74f2a31c241896943f8e10cbab84aa3b",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006125106.png",
+      "box_sha256": "9dfa9a80ecbda9e96a909b9fc4bc8c9305d638c6a236a54afffe2667a2d728f1",
+      "git_worktree_before_sha256": "9dfa9a80ecbda9e96a909b9fc4bc8c9305d638c6a236a54afffe2667a2d728f1",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006125128.png",
+      "box_sha256": "9ff7699f893d1f5df0f0fa5a7286ca3804cbb8e6e6cfc6568b10991e28e9efd4",
+      "git_worktree_before_sha256": "9ff7699f893d1f5df0f0fa5a7286ca3804cbb8e6e6cfc6568b10991e28e9efd4",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006125244.png",
+      "box_sha256": "39d9ed6a2aa30fc6624484de9b8990337197dd11c586a4c26d378c4f7edd475a",
+      "git_worktree_before_sha256": "39d9ed6a2aa30fc6624484de9b8990337197dd11c586a4c26d378c4f7edd475a",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006125306.png",
+      "box_sha256": "d4c9aa5f5322b765899d2e6bba59a6fc9732793a339e055dda8fe7c325031d7a",
+      "git_worktree_before_sha256": "d4c9aa5f5322b765899d2e6bba59a6fc9732793a339e055dda8fe7c325031d7a",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006130427.png",
+      "box_sha256": "6278b4d854f162e5ce1519e2556fe88eda63aeb7dd0f6c41fddd37b656cdffde",
+      "git_worktree_before_sha256": "6278b4d854f162e5ce1519e2556fe88eda63aeb7dd0f6c41fddd37b656cdffde",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006130451.png",
+      "box_sha256": "15ce033f09e86f2491ace76cd08a15bb0cd83abcdb29378ab0294b351d4551b2",
+      "git_worktree_before_sha256": "15ce033f09e86f2491ace76cd08a15bb0cd83abcdb29378ab0294b351d4551b2",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006130522.png",
+      "box_sha256": "15ce033f09e86f2491ace76cd08a15bb0cd83abcdb29378ab0294b351d4551b2",
+      "git_worktree_before_sha256": "15ce033f09e86f2491ace76cd08a15bb0cd83abcdb29378ab0294b351d4551b2",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006132553.png",
+      "box_sha256": "7024c29730ab87deeba75f6d651d0a66c62c034b8037e56374bde0066ce0643d",
+      "git_worktree_before_sha256": "7024c29730ab87deeba75f6d651d0a66c62c034b8037e56374bde0066ce0643d",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006133638.png",
+      "box_sha256": "c557a35fad5d98992b0b162fdd512e29d23d69c28f10ce2e9608085f93f1a635",
+      "git_worktree_before_sha256": "c557a35fad5d98992b0b162fdd512e29d23d69c28f10ce2e9608085f93f1a635",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006134025.png",
+      "box_sha256": "8abadafe09ef5dda400732f6f9278196c7b8e2b4bcc9fa4f43d55608854b9250",
+      "git_worktree_before_sha256": "8abadafe09ef5dda400732f6f9278196c7b8e2b4bcc9fa4f43d55608854b9250",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006134600.png",
+      "box_sha256": "22b79341d97f74e3e128165a22efb6f7256430c04d003373d0988bbe76549608",
+      "git_worktree_before_sha256": "22b79341d97f74e3e128165a22efb6f7256430c04d003373d0988bbe76549608",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006134905.png",
+      "box_sha256": "6926d6701e0f8f398c46c314e9eef6b7fbf7f29ff5f25f3318edb6ae95f5249d",
+      "git_worktree_before_sha256": "6926d6701e0f8f398c46c314e9eef6b7fbf7f29ff5f25f3318edb6ae95f5249d",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006134932.png",
+      "box_sha256": "f1fd6b431e3c299177416f8ad2628f7240d4859b109e90eb97bfcee447c83147",
+      "git_worktree_before_sha256": "f1fd6b431e3c299177416f8ad2628f7240d4859b109e90eb97bfcee447c83147",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261006140846.png",
+      "box_sha256": "7d84a9c353ff7a082a7d4b0bebb5a66387f7bfdb57a4abafd637253a5a324901",
+      "git_worktree_before_sha256": "7d84a9c353ff7a082a7d4b0bebb5a66387f7bfdb57a4abafd637253a5a324901",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261014092143.png",
+      "box_sha256": "9269c73b8a33ef5366683b61af1d754037a022517911eb83fb13c2b6f45c37a5",
+      "git_worktree_before_sha256": "9269c73b8a33ef5366683b61af1d754037a022517911eb83fb13c2b6f45c37a5",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261014094551.png",
+      "box_sha256": "112089a761705fa9c3eb0f665eb0c6d8a0582cebc4fdb9f8e6ae6eba3c49541c",
+      "git_worktree_before_sha256": "112089a761705fa9c3eb0f665eb0c6d8a0582cebc4fdb9f8e6ae6eba3c49541c",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261014105153.png",
+      "box_sha256": "2306d29f2f01eb2c2f31df6f9b5c365168367474b9f2ded19b37cecb85867333",
+      "git_worktree_before_sha256": "2306d29f2f01eb2c2f31df6f9b5c365168367474b9f2ded19b37cecb85867333",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/Pasted image 20261022173050.png",
+      "box_sha256": "038b13380c8c128a977dd392e92313969e8903c01a21bda4753bc3a94825dbc3",
+      "git_worktree_before_sha256": "038b13380c8c128a977dd392e92313969e8903c01a21bda4753bc3a94825dbc3",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev7_Rev8_CAD_Comparison.md",
+      "box_sha256": "a08a3293d97bf7b56eb035acea121dc7f6592a27d0c9c7f8e53481d264154100",
+      "git_worktree_before_sha256": "a08a3293d97bf7b56eb035acea121dc7f6592a27d0c9c7f8e53481d264154100",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev7_Rev8_CAD_Comparison.pdf",
+      "box_sha256": "2a65b2862781c6c372ce1dfd332c4ec2bf0a8f766f35513660cc4cad54ad52c3",
+      "git_worktree_before_sha256": "2a65b2862781c6c372ce1dfd332c4ec2bf0a8f766f35513660cc4cad54ad52c3",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev7_Rev8_CAD_Comparison.xlsx",
+      "box_sha256": "69ed1bddc8405b6efb189fa981a0ba1c543ad52e344d80f91fd46169809b1a2e",
+      "git_worktree_before_sha256": "69ed1bddc8405b6efb189fa981a0ba1c543ad52e344d80f91fd46169809b1a2e",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Engineering_Drawings 1.pdf",
+      "box_sha256": "a2846b87a8cf1d6732bdb7a61731e04140bb1b6ff446dd11bce11538b992714a",
+      "git_worktree_before_sha256": "a2846b87a8cf1d6732bdb7a61731e04140bb1b6ff446dd11bce11538b992714a",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Engineering_Drawings.pdf",
+      "box_sha256": "490e7192f553838c87f6368e462878f852c0cde0d89206040f31f5f796ecdae0",
+      "git_worktree_before_sha256": "490e7192f553838c87f6368e462878f852c0cde0d89206040f31f5f796ecdae0",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/README.md",
+      "box_sha256": "32237e4fd961727387ac2476c5a6c3ed64cdb122916ae84dccdc39aea6866140",
+      "git_worktree_before_sha256": "32237e4fd961727387ac2476c5a6c3ed64cdb122916ae84dccdc39aea6866140",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Contact_Solutions.csv",
+      "box_sha256": "e995623edf73cc3c269127a3d8c881b88dac3294a68b757fe791c57544b8f0be",
+      "git_worktree_before_sha256": "e995623edf73cc3c269127a3d8c881b88dac3294a68b757fe791c57544b8f0be",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Coordinates.csv",
+      "box_sha256": "2dc5e5907139e902809d56d0f31696de9c27c64687e6ebcfbe965382f14c3f3e",
+      "git_worktree_before_sha256": "2dc5e5907139e902809d56d0f31696de9c27c64687e6ebcfbe965382f14c3f3e",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Diameters.csv",
+      "box_sha256": "0ce1cc104d737b069db7d4759698509d663dd38d3bf0aec62af6430f382afa3d",
+      "git_worktree_before_sha256": "0ce1cc104d737b069db7d4759698509d663dd38d3bf0aec62af6430f382afa3d",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Engineering_Data.json",
+      "box_sha256": "66aa8e58e6fdad8370d41c1b9f0da022ad0ae1d968c1b1c8e155e1eb82278605",
+      "git_worktree_before_sha256": "66aa8e58e6fdad8370d41c1b9f0da022ad0ae1d968c1b1c8e155e1eb82278605",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Probe_Shafts.csv",
+      "box_sha256": "66efb22547dd769a26b41d632e0df3b7fa22b24de7e6b148fecd8728b4260c43",
+      "git_worktree_before_sha256": "66efb22547dd769a26b41d632e0df3b7fa22b24de7e6b148fecd8728b4260c43",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Segments.csv",
+      "box_sha256": "b97095fa974987ff2bc518825b85402767453ae37aec72ceebad42fd894deb70",
+      "git_worktree_before_sha256": "b97095fa974987ff2bc518825b85402767453ae37aec72ceebad42fd894deb70",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/VCU_Rev8_Sensor_Stations.csv",
+      "box_sha256": "71c8dfa3fad0292377171b4b9f9afa0b7c00f513933f757195e6bddd63443afe",
+      "git_worktree_before_sha256": "71c8dfa3fad0292377171b4b9f9afa0b7c00f513933f757195e6bddd63443afe",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/deliverable_validation.json",
+      "box_sha256": "cd0c73dcd31c317d6bc56a92ee6ab795eec4ad3a1a2513330ef54c54c37f5f20",
+      "git_worktree_before_sha256": "cd0c73dcd31c317d6bc56a92ee6ab795eec4ad3a1a2513330ef54c54c37f5f20",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/derived.json",
+      "box_sha256": "118a7a6e609c66ced81b7858321def4e84fc091fb10ab7a4d1dbed075212a34f",
+      "git_worktree_before_sha256": "118a7a6e609c66ced81b7858321def4e84fc091fb10ab7a4d1dbed075212a34f",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/reconstructed_bends.json",
+      "box_sha256": "9959c177a435569222aac77804b8edfb9e246342902efb16a305f7cd8b9a7db8",
+      "git_worktree_before_sha256": "9959c177a435569222aac77804b8edfb9e246342902efb16a305f7cd8b9a7db8",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/data/surface_contact_solutions.json",
+      "box_sha256": "c22980f42bc9c06dd80c7aebc2de8c5cb1a845f1807169ff78df12125aa0fbe0",
+      "git_worktree_before_sha256": "c22980f42bc9c06dd80c7aebc2de8c5cb1a845f1807169ff78df12125aa0fbe0",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/drawings/VCU_Rev8_CAD_Engineering_Drawings.pdf",
+      "box_sha256": "a2846b87a8cf1d6732bdb7a61731e04140bb1b6ff446dd11bce11538b992714a",
+      "git_worktree_before_sha256": "a2846b87a8cf1d6732bdb7a61731e04140bb1b6ff446dd11bce11538b992714a",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/cad_projection.json",
+      "box_sha256": "decce50c264a00e42686f6098422b817dedc68be8e6de57332aa7e36d8d3e352",
+      "git_worktree_before_sha256": "decce50c264a00e42686f6098422b817dedc68be8e6de57332aa7e36d8d3e352",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/contact_audit.log",
+      "box_sha256": "1c260e46fb4448a8089f3c61e4a19391a4e17e8df147a43e2dda259d8087c19d",
+      "git_worktree_before_sha256": "1c260e46fb4448a8089f3c61e4a19391a4e17e8df147a43e2dda259d8087c19d",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/extraction.log",
+      "box_sha256": "4c990beac9b110a0f14df409d4c889546da3087a780fa393ae745c9bb1b71e5a",
+      "git_worktree_before_sha256": "4c990beac9b110a0f14df409d4c889546da3087a780fa393ae745c9bb1b71e5a",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/projection.log",
+      "box_sha256": "13292ec8d73bdba6bce1ddd45d4003d90088e85165a28e620b7343c2a020ec02",
+      "git_worktree_before_sha256": "13292ec8d73bdba6bce1ddd45d4003d90088e85165a28e620b7343c2a020ec02",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/rev8.json",
+      "box_sha256": "32ed7f2eb833a07bf8e168643882d150c8bb33bd9873f0f057d39b1e87c3fba4",
+      "git_worktree_before_sha256": "32ed7f2eb833a07bf8e168643882d150c8bb33bd9873f0f057d39b1e87c3fba4",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/rev8_mesh.json",
+      "box_sha256": "450561923984155da37ca53b5b7d6b67836cf5766246d94f742e4f67f6e405a6",
+      "git_worktree_before_sha256": "450561923984155da37ca53b5b7d6b67836cf5766246d94f742e4f67f6e405a6",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/raw/rev8_verification.json",
+      "box_sha256": "c57f20155c1c8abc126d6f9c95c915d384a7f18049a01cdf41d3215cad8202be",
+      "git_worktree_before_sha256": "c57f20155c1c8abc126d6f9c95c915d384a7f18049a01cdf41d3215cad8202be",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/audit_surface_contacts.py",
+      "box_sha256": "70d88f26fe475b8e80185041415b0ac4abd106fb3e06c26a60ddebd91d5d2ed5",
+      "git_worktree_before_sha256": "70d88f26fe475b8e80185041415b0ac4abd106fb3e06c26a60ddebd91d5d2ed5",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/build_model_data.py",
+      "box_sha256": "c3365b311b79eeb3c5f6bed6aae09b969f37c75a1c7d299fa0f26b7bef0c8106",
+      "git_worktree_before_sha256": "c3365b311b79eeb3c5f6bed6aae09b969f37c75a1c7d299fa0f26b7bef0c8106",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/cad_model.py",
+      "box_sha256": "8fb67808c0f6ef6bbe5a0c530e4ca372f2ffbdf498fb6ea99e27bca6eaf63c02",
+      "git_worktree_before_sha256": "8fb67808c0f6ef6bbe5a0c530e4ca372f2ffbdf498fb6ea99e27bca6eaf63c02",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/derive_rev8.py",
+      "box_sha256": "22d706b9a5195a26287593366f48435eaf19a228bd8dfba8ec22b378a82a5f20",
+      "git_worktree_before_sha256": "22d706b9a5195a26287593366f48435eaf19a228bd8dfba8ec22b378a82a5f20",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/draw_engineering.py",
+      "box_sha256": "8b11e5099d7a7e3a40e4511c6944086449bf31b5c703d8553ad82ef26e8436ae",
+      "git_worktree_before_sha256": "8b11e5099d7a7e3a40e4511c6944086449bf31b5c703d8553ad82ef26e8436ae",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/extract_rev8.py",
+      "box_sha256": "5d61d5572e16a6d0cf5c8df4e6eee82cee98e767a397643ab288ba84d56f2b58",
+      "git_worktree_before_sha256": "5d61d5572e16a6d0cf5c8df4e6eee82cee98e767a397643ab288ba84d56f2b58",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/inspect_step.py",
+      "box_sha256": "fa431e31ba62e7dd6bcc2ac60c007adc2a31876fd30ed52e8d0b8e247c0cce20",
+      "git_worktree_before_sha256": "fa431e31ba62e7dd6bcc2ac60c007adc2a31876fd30ed52e8d0b8e247c0cce20",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/project_cad.py",
+      "box_sha256": "480bbd09b969a4a5302fef143baf4bee54c4f270baaaa7ea72f6bf137861b695",
+      "git_worktree_before_sha256": "480bbd09b969a4a5302fef143baf4bee54c4f270baaaa7ea72f6bf137861b695",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/reconstruct_bends.py",
+      "box_sha256": "ec5cb194362d9a78fd2d193b8dd409f559392236ba71956b45d677faf559b52a",
+      "git_worktree_before_sha256": "ec5cb194362d9a78fd2d193b8dd409f559392236ba71956b45d677faf559b52a",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/validate_deliverable.py",
+      "box_sha256": "c63c58cd21ca2bd4435dcf42e200ecdaba58ee7ac744c6725e409baa22f40982",
+      "git_worktree_before_sha256": "c63c58cd21ca2bd4435dcf42e200ecdaba58ee7ac744c6725e409baa22f40982",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/scripts/verify_rev8.py",
+      "box_sha256": "482a0e2fda8034216e87de729e1742521fb7ffb4001e7a903f6076583eebef02",
+      "git_worktree_before_sha256": "482a0e2fda8034216e87de729e1742521fb7ffb4001e7a903f6076583eebef02",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev8_CAD_Model_Package/source/UTDTloopWithOpticsAndHXRev8(1).STEP",
+      "box_sha256": "c40a7e6ce597a35cdaa9d7358835b242df408750b021385c1653d02a0871bf1e",
+      "git_worktree_before_sha256": "c40a7e6ce597a35cdaa9d7358835b242df408750b021385c1653d02a0871bf1e",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package copy.zip",
+      "box_sha256": "7a9f62432e7ecf61d2b8588d590d24d6f8dbb9af43b78b675c35535953a41ca8",
+      "git_worktree_before_sha256": "7a9f62432e7ecf61d2b8588d590d24d6f8dbb9af43b78b675c35535953a41ca8",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/MANIFEST.json",
+      "box_sha256": "9f4d9b3773e25933899f1072aafdb5b3c886045ec1d7f0bd7e249703bdba250d",
+      "git_worktree_before_sha256": "9f4d9b3773e25933899f1072aafdb5b3c886045ec1d7f0bd7e249703bdba250d",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/README.txt",
+      "box_sha256": "e97a863f482927daaa8c8afd331c093e977255e96b261dde643057a052309d7c",
+      "git_worktree_before_sha256": "e97a863f482927daaa8c8afd331c093e977255e96b261dde643057a052309d7c",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/VCU_Rev9_CAD_Engineering_Drawings.pdf",
+      "box_sha256": "c7078accde01cc9f6ab3ab6c8ff6a509a2b73ef64b8ac9f92db28357772d4963",
+      "git_worktree_before_sha256": "c7078accde01cc9f6ab3ab6c8ff6a509a2b73ef64b8ac9f92db28357772d4963",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev8_to_Rev9_Dimension_Changes.csv",
+      "box_sha256": "1a5c3281d52e4452021fe71aedba83e10a5ca56fb11b58435a627597aab2bc5f",
+      "git_worktree_before_sha256": "1a5c3281d52e4452021fe71aedba83e10a5ca56fb11b58435a627597aab2bc5f",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev8_to_Rev9_Sensor_Changes.csv",
+      "box_sha256": "1cf711b9121a873d9e964bd229996f237aafa98fea2c20125d66d390be5dd773",
+      "git_worktree_before_sha256": "1cf711b9121a873d9e964bd229996f237aafa98fea2c20125d66d390be5dd773",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_All_Cylindrical_Faces.csv",
+      "box_sha256": "e96057cb22d6a79ab3b70cb17ccb03937fb7d8e2186b115db4ea14dc5d97bcd2",
+      "git_worktree_before_sha256": "e96057cb22d6a79ab3b70cb17ccb03937fb7d8e2186b115db4ea14dc5d97bcd2",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Branch_Connections.csv",
+      "box_sha256": "0557ae71ec61a6ae23b14e8cdc1e8d8a0c88b090b407e45cd3106e4f603596de",
+      "git_worktree_before_sha256": "0557ae71ec61a6ae23b14e8cdc1e8d8a0c88b090b407e45cd3106e4f603596de",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Contact_Solutions.csv",
+      "box_sha256": "785ecadf96b4fd0889504252dc88cc87d6f8a9cbabc6d0e904e638b04aee4cee",
+      "git_worktree_before_sha256": "785ecadf96b4fd0889504252dc88cc87d6f8a9cbabc6d0e904e638b04aee4cee",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Coordinates.csv",
+      "box_sha256": "391fa473e51f9bbd75eff8e04c2cc584eca28bf9c8b5bd571161f813a80af381",
+      "git_worktree_before_sha256": "391fa473e51f9bbd75eff8e04c2cc584eca28bf9c8b5bd571161f813a80af381",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Data_Dictionary.json",
+      "box_sha256": "b1f77780a6c37b340eedbd573dc40b6adc319afaebf60e1ed2373da6689f73e0",
+      "git_worktree_before_sha256": "b1f77780a6c37b340eedbd573dc40b6adc319afaebf60e1ed2373da6689f73e0",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Diameters.csv",
+      "box_sha256": "a88686538e5f21ce98ea3bbe8ddd65f3f863753f96610043a272f988d4bda88c",
+      "git_worktree_before_sha256": "a88686538e5f21ce98ea3bbe8ddd65f3f863753f96610043a272f988d4bda88c",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Dimensions.csv",
+      "box_sha256": "247297d201ded23e712a92687e0e85cfb84b8bbeb96c46d569ffad4c44233882",
+      "git_worktree_before_sha256": "247297d201ded23e712a92687e0e85cfb84b8bbeb96c46d569ffad4c44233882",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Engineering_Data.json",
+      "box_sha256": "559be6084e75b7811bf0c017c03f6fdda800163d880b1951cafb113cea8ceade",
+      "git_worktree_before_sha256": "559be6084e75b7811bf0c017c03f6fdda800163d880b1951cafb113cea8ceade",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Heater_Clamps.csv",
+      "box_sha256": "2d5c020b68557fd34c3028752c6fbb986771ef084d472d8ae1bff324501883c2",
+      "git_worktree_before_sha256": "2d5c020b68557fd34c3028752c6fbb986771ef084d472d8ae1bff324501883c2",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Pipe_Axes.csv",
+      "box_sha256": "3418e4d2be4ddb4ab0c00ba2aa1032a7b88a28e8d9a32554f8dc37c9ae85e98c",
+      "git_worktree_before_sha256": "3418e4d2be4ddb4ab0c00ba2aa1032a7b88a28e8d9a32554f8dc37c9ae85e98c",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Probe_Shafts.csv",
+      "box_sha256": "9b897b7aac4997b04d015b48bd2558fe44c9aa545645ab73ed4355d3756edbe1",
+      "git_worktree_before_sha256": "9b897b7aac4997b04d015b48bd2558fe44c9aa545645ab73ed4355d3756edbe1",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Segments.csv",
+      "box_sha256": "e9cd8f4bd40d1d1fbd97d89a4452d2ba31312cd4d53db4e3a3c1a87c1c483022",
+      "git_worktree_before_sha256": "e9cd8f4bd40d1d1fbd97d89a4452d2ba31312cd4d53db4e3a3c1a87c1c483022",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/VCU_Rev9_Sensor_Stations.csv",
+      "box_sha256": "70c53f4920252a2c63c64bac303c150b84ec8094b7fd7060f4933d9aa97c03df",
+      "git_worktree_before_sha256": "70c53f4920252a2c63c64bac303c150b84ec8094b7fd7060f4933d9aa97c03df",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/deliverable_validation.json",
+      "box_sha256": "b0f50cd605680e517f03b3b2cbd6c1410a9fd0ed0f3572d847896f1ebb85fb9f",
+      "git_worktree_before_sha256": "b0f50cd605680e517f03b3b2cbd6c1410a9fd0ed0f3572d847896f1ebb85fb9f",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/geometry.json",
+      "box_sha256": "44b5ffe88ab65f510ee1693c00351d371559eceaa4826153209b930e8e391836",
+      "git_worktree_before_sha256": "44b5ffe88ab65f510ee1693c00351d371559eceaa4826153209b930e8e391836",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/data/reconstructed_bends.json",
+      "box_sha256": "1811ca42f05cac76c6f9648e7f52cd1665ac840c686b869e171679924995b3be",
+      "git_worktree_before_sha256": "1811ca42f05cac76c6f9648e7f52cd1665ac840c686b869e171679924995b3be",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/bend_reconstruction.log",
+      "box_sha256": "1d94ca38923bafbcfde365447a4040a8f361908bfd1e13089738e3dce226e3c8",
+      "git_worktree_before_sha256": "1d94ca38923bafbcfde365447a4040a8f361908bfd1e13089738e3dce226e3c8",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/cad_projection.json",
+      "box_sha256": "7f99b789c757a355d922c120e65535a3629403d9f9035598e8242bf74535f925",
+      "git_worktree_before_sha256": "7f99b789c757a355d922c120e65535a3629403d9f9035598e8242bf74535f925",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/contacts.log",
+      "box_sha256": "a5e225e9882aca6d801c62a7ef7c4e0923cb1a2c49655660a0c093c76de74c35",
+      "git_worktree_before_sha256": "a5e225e9882aca6d801c62a7ef7c4e0923cb1a2c49655660a0c093c76de74c35",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/derived_summary.txt",
+      "box_sha256": "0781dd22e5bb85ee7518b67560a32b04c9b4e5ae6eb21503e9aae36e662a0417",
+      "git_worktree_before_sha256": "0781dd22e5bb85ee7518b67560a32b04c9b4e5ae6eb21503e9aae36e662a0417",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/inventory.log",
+      "box_sha256": "306d2bd3b65958313d156b54292fdb0c08e0811f4072794d50aca2ade12a0779",
+      "git_worktree_before_sha256": "306d2bd3b65958313d156b54292fdb0c08e0811f4072794d50aca2ade12a0779",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/projection.log",
+      "box_sha256": "a800963dbb8a9ac0fa1b66e1e507aae1f7b38c330b056c84aa73f9e28671e169",
+      "git_worktree_before_sha256": "a800963dbb8a9ac0fa1b66e1e507aae1f7b38c330b056c84aa73f9e28671e169",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/rev9.json",
+      "box_sha256": "5a4c8731af50f52bc8e2d43aeafc17a869f599d0cb0b6ed302521e141fa7891e",
+      "git_worktree_before_sha256": "5a4c8731af50f52bc8e2d43aeafc17a869f599d0cb0b6ed302521e141fa7891e",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/rev9_inventory.json",
+      "box_sha256": "8eb7481e55df4ac0f041f1ccb4301205cbd34652b15d745a6b07583474a9d113",
+      "git_worktree_before_sha256": "8eb7481e55df4ac0f041f1ccb4301205cbd34652b15d745a6b07583474a9d113",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/raw/rev9_verification.json",
+      "box_sha256": "d33bc01b33b28d954bb1a7576b0fda26861e9df50a4d521067e407bf977c8841",
+      "git_worktree_before_sha256": "d33bc01b33b28d954bb1a7576b0fda26861e9df50a4d521067e407bf977c8841",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/reference/README.txt",
+      "box_sha256": "e1cf4990abdf3b8008ac8ed26cb7efaa1c18fcbf29946c89c021f3ceaceefbf3",
+      "git_worktree_before_sha256": "e1cf4990abdf3b8008ac8ed26cb7efaa1c18fcbf29946c89c021f3ceaceefbf3",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/reference/VCU_Rev8_Engineering_Data.json",
+      "box_sha256": "66aa8e58e6fdad8370d41c1b9f0da022ad0ae1d968c1b1c8e155e1eb82278605",
+      "git_worktree_before_sha256": "66aa8e58e6fdad8370d41c1b9f0da022ad0ae1d968c1b1c8e155e1eb82278605",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/build_model_data.py",
+      "box_sha256": "2e347fcc4154dc62b6fefcd70f13e07ffed6aa54aff31bfaca63e1a270607527",
+      "git_worktree_before_sha256": "2e347fcc4154dc62b6fefcd70f13e07ffed6aa54aff31bfaca63e1a270607527",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/cad_model.py",
+      "box_sha256": "aa1bfda670f62d91ee0574224f2058453c119a32bda4416529a72094d612ac83",
+      "git_worktree_before_sha256": "aa1bfda670f62d91ee0574224f2058453c119a32bda4416529a72094d612ac83",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/derive_geometry.py",
+      "box_sha256": "47e22272b144011bffc1b72b814a9bb4cce8120f75c5b29987cb737604fc499c",
+      "git_worktree_before_sha256": "47e22272b144011bffc1b72b814a9bb4cce8120f75c5b29987cb737604fc499c",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/draw_engineering.py",
+      "box_sha256": "06a381f27e7035438f4897cbfd1c526fd080b8d38faa7acb16721e42f31f1dd9",
+      "git_worktree_before_sha256": "06a381f27e7035438f4897cbfd1c526fd080b8d38faa7acb16721e42f31f1dd9",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/enrich_data.py",
+      "box_sha256": "23f8c44fd16802906da42cd953fb2f007ab925dab162ef8a6ac43b42b2cac77f",
+      "git_worktree_before_sha256": "23f8c44fd16802906da42cd953fb2f007ab925dab162ef8a6ac43b42b2cac77f",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/environment_versions.json",
+      "box_sha256": "364da25daed7a814e5199a4330c6fd3e62eb82289af383d661af03355aa919d4",
+      "git_worktree_before_sha256": "364da25daed7a814e5199a4330c6fd3e62eb82289af383d661af03355aa919d4",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/extract_contacts.py",
+      "box_sha256": "2baf41cf1bc33cc174f7b76eefc6d7b6888ea5d91e1cce8ab72d53770249ec70",
+      "git_worktree_before_sha256": "2baf41cf1bc33cc174f7b76eefc6d7b6888ea5d91e1cce8ab72d53770249ec70",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/extract_inventory.py",
+      "box_sha256": "b37601f929ddd63427bb6c762fed26c650e170e5aca65ea1888e69f7b1b3510a",
+      "git_worktree_before_sha256": "b37601f929ddd63427bb6c762fed26c650e170e5aca65ea1888e69f7b1b3510a",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/inspect_step.py",
+      "box_sha256": "fa431e31ba62e7dd6bcc2ac60c007adc2a31876fd30ed52e8d0b8e247c0cce20",
+      "git_worktree_before_sha256": "fa431e31ba62e7dd6bcc2ac60c007adc2a31876fd30ed52e8d0b8e247c0cce20",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/load_vcu_rev9.py",
+      "box_sha256": "9922f388aa88ea39f1afcabd026247cba0b86c2a7d59028197fcb3c1a8b44af3",
+      "git_worktree_before_sha256": "9922f388aa88ea39f1afcabd026247cba0b86c2a7d59028197fcb3c1a8b44af3",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/project_cad.py",
+      "box_sha256": "f3bbbe7ae1668cc67c02cae7f1d19b0c97981f1c0a2decab0c5421ffaaaedef9",
+      "git_worktree_before_sha256": "f3bbbe7ae1668cc67c02cae7f1d19b0c97981f1c0a2decab0c5421ffaaaedef9",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/rebuild.py",
+      "box_sha256": "2c1adef2b6ac3b5dadf7a8ca19b21ef87f441a75bb06cc7bc3d45742da38373c",
+      "git_worktree_before_sha256": "2c1adef2b6ac3b5dadf7a8ca19b21ef87f441a75bb06cc7bc3d45742da38373c",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/reconstruct_bends.py",
+      "box_sha256": "6b3dd5e30e2ef34fd505eb24875279ca7f844d86763995f6272c86c1673b55d2",
+      "git_worktree_before_sha256": "6b3dd5e30e2ef34fd505eb24875279ca7f844d86763995f6272c86c1673b55d2",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/validate_deliverable.py",
+      "box_sha256": "3a1c7b8b44186cf66336c9a4fa2bf02942e83aa2849c837f0d353a926775b171",
+      "git_worktree_before_sha256": "3a1c7b8b44186cf66336c9a4fa2bf02942e83aa2849c837f0d353a926775b171",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/scripts/verify_rev9.py",
+      "box_sha256": "482a0e2fda8034216e87de729e1742521fb7ffb4001e7a903f6076583eebef02",
+      "git_worktree_before_sha256": "482a0e2fda8034216e87de729e1742521fb7ffb4001e7a903f6076583eebef02",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_CAD_Model_Package/source/_STEPFILE_UTDTloopWithOpticsAndHXRev9_9_18_26.step",
+      "box_sha256": "78c6ae52bf39084fbd9b1306d28dcbe2c1c4d5fccd334b0e68c861022a1bfbcf",
+      "git_worktree_before_sha256": "78c6ae52bf39084fbd9b1306d28dcbe2c1c4d5fccd334b0e68c861022a1bfbcf",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_Compact_Sensors_Heights.pdf",
+      "box_sha256": "de44220f11831df3a5ad2e6174d69c447564b5fc8c13889de2e94c98ca6474cc",
+      "git_worktree_before_sha256": "de44220f11831df3a5ad2e6174d69c447564b5fc8c13889de2e94c98ca6474cc",
+      "resolution": "identical"
+    },
+    {
+      "path": "1. Setup and Geometry/attachments/VCU_Rev9_Simplified_Sensors_Lengths.pdf",
+      "box_sha256": "f2f1876bc0fc9e0ec52fbfc51dc99ac48d51433879441e6aa41cbdac462cb022",
+      "git_worktree_before_sha256": "f2f1876bc0fc9e0ec52fbfc51dc99ac48d51433879441e6aa41cbdac462cb022",
+      "resolution": "identical"
+    },
+    {
+      "path": "2. Model Notes/0.0 Intro to Model.md",
+      "box_sha256": "6ddfd46ad8e783bd186729f3daadeaa050009ed8f4e122e437990225c9b86aa9",
+      "git_worktree_before_sha256": "6ddfd46ad8e783bd186729f3daadeaa050009ed8f4e122e437990225c9b86aa9",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/A.1 Interesting Pictures and drawing.md",
+      "box_sha256": "24ed18ce196ab0c1700b118b79a237eaa22a98cdbbfc1bcdfa37a36892453978",
+      "git_worktree_before_sha256": "24ed18ce196ab0c1700b118b79a237eaa22a98cdbbfc1bcdfa37a36892453978",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/ACU_Engineering_Reference_RevB (1).pdf",
+      "box_sha256": "6c6d067be064cc542518c1ac655d8825df0aa87c7d741df9d17cd210a92437b0",
+      "git_worktree_before_sha256": "6c6d067be064cc542518c1ac655d8825df0aa87c7d741df9d17cd210a92437b0",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/ACU_Loop_Section.png",
+      "box_sha256": "c3e6297ed027f426e3c885cd9a0d1a0f8a4aa5301e6595d0b8b2f9a3ed87f417",
+      "git_worktree_before_sha256": "c3e6297ed027f426e3c885cd9a0d1a0f8a4aa5301e6595d0b8b2f9a3ed87f417",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/ACU_Loop_Simple (1).png",
+      "box_sha256": "1e31dc52af5a31940ee5a34d53fd1e38c59fb0287918a6944b0d32a91bbd5cb0",
+      "git_worktree_before_sha256": "1e31dc52af5a31940ee5a34d53fd1e38c59fb0287918a6944b0d32a91bbd5cb0",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/Loop_Images_Editable (1).zip",
+      "box_sha256": "71ec9bbc3c0f842b0f0bc287369551f7c3e38df2910ca639aaad066f63041b8f",
+      "git_worktree_before_sha256": "71ec9bbc3c0f842b0f0bc287369551f7c3e38df2910ca639aaad066f63041b8f",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/VCU_Loop_Engineering_Blueprint_Rev8.pdf",
+      "box_sha256": "826532f1d03c2d1c543a262aae948747a3ed659cdb5cba5726c317cb4525f7c6",
+      "git_worktree_before_sha256": "826532f1d03c2d1c543a262aae948747a3ed659cdb5cba5726c317cb4525f7c6",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/VCU_Loop_Section.png",
+      "box_sha256": "f2588e125c2a335d3c9e5566935277af2c3aa956e1bcf7065e364145fdd17db2",
+      "git_worktree_before_sha256": "f2588e125c2a335d3c9e5566935277af2c3aa956e1bcf7065e364145fdd17db2",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/Interesting_pictures_local/VCU_style_simplified_sensor_locations.png",
+      "box_sha256": "99292e82d7320b494fca79777566db1048f46a682077d2bf7ca4ce663e858f61",
+      "git_worktree_before_sha256": "99292e82d7320b494fca79777566db1048f46a682077d2bf7ca4ce663e858f61",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/A-000109_CHK1.pdf",
+      "box_sha256": "0057bac299ce74bc3461c40ae04c7b5a22145ebd39c04db7c355767377376367",
+      "git_worktree_before_sha256": "0057bac299ce74bc3461c40ae04c7b5a22145ebd39c04db7c355767377376367",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/As designed documentation.md",
+      "box_sha256": "9ab9081c32135ffac47eec1f6dda6313761841341ccdd2fac3174b0e5efcfd0e",
+      "git_worktree_before_sha256": "9ab9081c32135ffac47eec1f6dda6313761841341ccdd2fac3174b0e5efcfd0e",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/Base.base",
+      "box_sha256": "f10365450dd9894b1b60f5c972b5cde6a42e05b0b7d8fe45ccd55bc1dbeb266e",
+      "git_worktree_before_sha256": "f10365450dd9894b1b60f5c972b5cde6a42e05b0b7d8fe45ccd55bc1dbeb266e",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000117a 1.pdf",
+      "box_sha256": "ba7e20171922efb2a5ccc79f84ecec169c2257291d7a359e2bab82e218b33149",
+      "git_worktree_before_sha256": "ba7e20171922efb2a5ccc79f84ecec169c2257291d7a359e2bab82e218b33149",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000117b 1.pdf",
+      "box_sha256": "9c51fa902eb72d88b103c0a21c5035f23a04cc1d43066735c7dbd1371f038ea2",
+      "git_worktree_before_sha256": "9c51fa902eb72d88b103c0a21c5035f23a04cc1d43066735c7dbd1371f038ea2",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000118 1.pdf",
+      "box_sha256": "d824b438aa434bd7d3bdac8fab0bf212abdc1ece3a065045c7fbc19f9f1ef732",
+      "git_worktree_before_sha256": "d824b438aa434bd7d3bdac8fab0bf212abdc1ece3a065045c7fbc19f9f1ef732",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000118 updated.pdf",
+      "box_sha256": "d824b438aa434bd7d3bdac8fab0bf212abdc1ece3a065045c7fbc19f9f1ef732",
+      "git_worktree_before_sha256": "d824b438aa434bd7d3bdac8fab0bf212abdc1ece3a065045c7fbc19f9f1ef732",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000118.pdf",
+      "box_sha256": "f4b4b3ea74d2708a296a411732c570c2e55062989576c7db5df82f63cebdbd11",
+      "git_worktree_before_sha256": "f4b4b3ea74d2708a296a411732c570c2e55062989576c7db5df82f63cebdbd11",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000151.pdf",
+      "box_sha256": "d8c5d614ef08336953756a7723683b1dae35981c06a690212d59c5c6b3862616",
+      "git_worktree_before_sha256": "d8c5d614ef08336953756a7723683b1dae35981c06a690212d59c5c6b3862616",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000153.pdf",
+      "box_sha256": "6aed16f0f127b8051b9823318ce9751e458326c941152a59410bd01c7aa6509d",
+      "git_worktree_before_sha256": "6aed16f0f127b8051b9823318ce9751e458326c941152a59410bd01c7aa6509d",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000158.pdf",
+      "box_sha256": "7745a8ea32bdacdf719a09fbb9eba28515a7fc68c344743d17e8c1b88efb0fc2",
+      "git_worktree_before_sha256": "7745a8ea32bdacdf719a09fbb9eba28515a7fc68c344743d17e8c1b88efb0fc2",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000159.pdf",
+      "box_sha256": "10e8be833a21096aa5cb6b2ebe21cb1264547a62a7a455a0b3621043840eeb2c",
+      "git_worktree_before_sha256": "10e8be833a21096aa5cb6b2ebe21cb1264547a62a7a455a0b3621043840eeb2c",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000164.pdf",
+      "box_sha256": "be5f8f93209f0dea9408a00d7877c31f8e0b0f3ffe46a938388dd826640da86a",
+      "git_worktree_before_sha256": "be5f8f93209f0dea9408a00d7877c31f8e0b0f3ffe46a938388dd826640da86a",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000167 1.pdf",
+      "box_sha256": "bdced28dfae281e3108349a992c8883cb7f253bdbe59f653fa097f52e383a39f",
+      "git_worktree_before_sha256": "bdced28dfae281e3108349a992c8883cb7f253bdbe59f653fa097f52e383a39f",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000167.pdf",
+      "box_sha256": "bdced28dfae281e3108349a992c8883cb7f253bdbe59f653fa097f52e383a39f",
+      "git_worktree_before_sha256": "bdced28dfae281e3108349a992c8883cb7f253bdbe59f653fa097f52e383a39f",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000167_SENSOR SECTION VIEW_CHK1.pdf",
+      "box_sha256": "02e05b0f8c4c60172b5ff566ffada1a8f5d4e89211f1caf54570a17de215229f",
+      "git_worktree_before_sha256": "02e05b0f8c4c60172b5ff566ffada1a8f5d4e89211f1caf54570a17de215229f",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000183 1.pdf",
+      "box_sha256": "578127e380c17fbfa2c9a26bc836c358ee24e14dfb492b5ced0a7b5424c46cd4",
+      "git_worktree_before_sha256": "578127e380c17fbfa2c9a26bc836c358ee24e14dfb492b5ced0a7b5424c46cd4",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/D-000187_CHK1.pdf",
+      "box_sha256": "ed4909116c7f148dfa8beb0e1319c39dc52b8d2ce0e7bc6b9c1273f2fbd26be6",
+      "git_worktree_before_sha256": "ed4909116c7f148dfa8beb0e1319c39dc52b8d2ce0e7bc6b9c1273f2fbd26be6",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/Gentry's ACU Flow-Loop Specifications.md",
+      "box_sha256": "a70a64c13a6a26cfd4ba16a35a9ba2553f7384be9e08a70ac73efa1f629e3d81",
+      "git_worktree_before_sha256": "a70a64c13a6a26cfd4ba16a35a9ba2553f7384be9e08a70ac73efa1f629e3d81",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/SaltLoopV1BDrawing.pdf",
+      "box_sha256": "620a24e3fb7c3cc7fc788542d623fdf1ce4d27bbb8abeaf0c0627867297bf509",
+      "git_worktree_before_sha256": "620a24e3fb7c3cc7fc788542d623fdf1ce4d27bbb8abeaf0c0627867297bf509",
+      "resolution": "identical"
+    },
+    {
+      "path": "A. Appendix/local_version_drawings_frozen/What things are.md",
+      "box_sha256": "cba83e6a17c53769da67b42cf1eb6e10bf53e82fddd6eb64670208bf94a89a41",
+      "git_worktree_before_sha256": "cba83e6a17c53769da67b42cf1eb6e10bf53e82fddd6eb64670208bf94a89a41",
+      "resolution": "identical"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 08 - Comp Trident Flow Loop Team.md",
+      "box_sha256": "01187c26d118bfc2ec661d99630b8bb91b89b570ba1991579ddf9ff6e59d7e32",
+      "git_worktree_before_sha256": "01187c26d118bfc2ec661d99630b8bb91b89b570ba1991579ddf9ff6e59d7e32",
+      "resolution": "identical"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 13 - Neutron OS with Ben booth.md",
+      "box_sha256": "c78c372b942d04f815afd9124c6fe18811bb0dca32c08ce2a27bc2c6eb24f830",
+      "git_worktree_before_sha256": "c78c372b942d04f815afd9124c6fe18811bb0dca32c08ce2a27bc2c6eb24f830",
+      "resolution": "identical"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 14 - ACU desired ROM capabilities - Tim Head.md",
+      "box_sha256": "64d217953eca07a41a848630596da446335515bbfcad0116e63f80dc901fd5b7",
+      "git_worktree_before_sha256": "64d217953eca07a41a848630596da446335515bbfcad0116e63f80dc901fd5b7",
+      "resolution": "identical"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 14 - feedback abstract - Clarno meeting.md",
+      "box_sha256": "b3293f3b08b7a342fb72d662d4dbf0da94166162f63bd92909359e643d9f3b17",
+      "git_worktree_before_sha256": "b3293f3b08b7a342fb72d662d4dbf0da94166162f63bd92909359e643d9f3b17",
+      "resolution": "identical"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 16 - Luciano Ideas.md",
+      "box_sha256": "3b725bd61e3cce34271684d0db1f3fee7975522f3efb762e6dac6568e3e32a07",
+      "git_worktree_before_sha256": "3b725bd61e3cce34271684d0db1f3fee7975522f3efb762e6dac6568e3e32a07",
+      "resolution": "identical"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Oct 16 - VCU exp team meeting.md",
+      "box_sha256": "10d97d29edfb69fa3771874aeb6496aec7b0436dc7453904a86af3221fffcb25",
+      "git_worktree_before_sha256": "10d97d29edfb69fa3771874aeb6496aec7b0436dc7453904a86af3221fffcb25",
+      "resolution": "identical"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Sep 08 - Dilan Trident VCU.md",
+      "box_sha256": "c71750f661a8971f076050f0c831f9d9ad84330d0a360110bdfa0d66c958e324",
+      "git_worktree_before_sha256": "c71750f661a8971f076050f0c831f9d9ad84330d0a360110bdfa0d66c958e324",
+      "resolution": "identical"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Sep 09 - Carasik Email.md",
+      "box_sha256": "b380796bc823ca8b29b1243a7fea6124c7c46b24640371e3549dfe08d85554e0",
+      "git_worktree_before_sha256": "b380796bc823ca8b29b1243a7fea6124c7c46b24640371e3549dfe08d85554e0",
+      "resolution": "identical"
+    },
+    {
+      "path": "M. Meeting Notes/'26 Sep 29 - Group Meeting.md",
+      "box_sha256": "5ebb0f16b17e77a260cce34d1ca9e78682d93a52e6ae5847143d859714fee078",
+      "git_worktree_before_sha256": "5ebb0f16b17e77a260cce34d1ca9e78682d93a52e6ae5847143d859714fee078",
+      "resolution": "identical"
+    },
+    {
+      "path": "M. Meeting Notes/Attachments/Pasted image 20261013142511.png",
+      "box_sha256": "03997c7ab245ce49ef357dc800dc425d34fb5bf88e8fa726bd2e3ce862717bb7",
+      "git_worktree_before_sha256": "03997c7ab245ce49ef357dc800dc425d34fb5bf88e8fa726bd2e3ce862717bb7",
+      "resolution": "identical"
+    },
+    {
+      "path": "M. Meeting Notes/Attachments/Pasted image 20261013142523.png",
+      "box_sha256": "03997c7ab245ce49ef357dc800dc425d34fb5bf88e8fa726bd2e3ce862717bb7",
+      "git_worktree_before_sha256": "03997c7ab245ce49ef357dc800dc425d34fb5bf88e8fa726bd2e3ce862717bb7",
+      "resolution": "identical"
+    },
+    {
+      "path": "M. Meeting Notes/Attachments/Pasted image 20261022171306.png",
+      "box_sha256": "b02068abb8f6cfc9544fa2291fa0691a7f201dd630037a438ced2228f750507a",
+      "git_worktree_before_sha256": "b02068abb8f6cfc9544fa2291fa0691a7f201dd630037a438ced2228f750507a",
+      "resolution": "identical"
+    },
+    {
+      "path": "Research/Clarno's Special assignment/Instructions.md",
+      "box_sha256": "5b86bbc94145818423434195d850a22c66918c04c6ff22344e88b90701c26c7b",
+      "git_worktree_before_sha256": "5b86bbc94145818423434195d850a22c66918c04c6ff22344e88b90701c26c7b",
+      "resolution": "identical"
+    },
+    {
+      "path": "Research/Clarno's Special assignment/Nick's Steady State Heat Transfer Analysis.md",
+      "box_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_worktree_before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "resolution": "identical"
+    },
+    {
+      "path": "Table of Contents.base",
+      "box_sha256": "128a35308d106f0f06ebdc9f8a91c3b8587719a877f5796f424b3dc8facd58ca",
+      "git_worktree_before_sha256": "128a35308d106f0f06ebdc9f8a91c3b8587719a877f5796f424b3dc8facd58ca",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/00_navigation/AGENT_START.md",
+      "box_sha256": "d354756e2f6c9fc78803e2a74d3b5ce9abfd6d3a20d0fcddcc2d5843f1225faf",
+      "git_worktree_before_sha256": "36a8d3928ff98ac09c5073b3fdcb374928d7e96144ab353ae8e532e3a3a8f44f",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/00_navigation/BOX_LITERATURE.md",
+      "box_sha256": "0bc1372746cd595f949f6596b2e283e56eb27e508e3c375fd6f7ba596d3d99f3",
+      "git_worktree_before_sha256": "ec46e57bcd8576bda468226314226a0526c5ce4f741f201761e20dbf152e8087",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/00_navigation/LITERATURE_FOUNDATION.md",
+      "box_sha256": "536acb3b6b55a272ccbe5fcea0200e2e9980886b25bdfb9b147637cb0bf82e74",
+      "git_worktree_before_sha256": "536acb3b6b55a272ccbe5fcea0200e2e9980886b25bdfb9b147637cb0bf82e74",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/00_navigation/LITERATURE_RESOURCES.md",
+      "box_sha256": "1d9e10e0f481f45e6d47f478a580245b3f9c698d0d2bac0d7e680e83b45badf2",
+      "git_worktree_before_sha256": "50ea1e994850897d400ddce3943f12b3667aff41290111d87793ee813764a66f",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/00_navigation/LOCATIONS.md",
+      "box_sha256": "77b36a4e472d72785dd60d8e771e1be26832249f0fdea0034631f8375860fadd",
+      "git_worktree_before_sha256": "a9939d4c50f2e89352e9c2498f0def160a217577f79aa6737ff03cdd6ed4e1ce",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/00_navigation/OBSIDIAN_LINKS.md",
+      "box_sha256": "0e3dae2bab4f0c960e52caea7da9d0febf1e19b6afa69f9c53c9e1b2a6b6a035",
+      "git_worktree_before_sha256": "0e3dae2bab4f0c960e52caea7da9d0febf1e19b6afa69f9c53c9e1b2a6b6a035",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/00_navigation/ORGANIZATION.md",
+      "box_sha256": "92c89d40e9cfbb0c1be407b7eed3d7e21aec20df58fe33e30853e5b1bbeb90eb",
+      "git_worktree_before_sha256": "4c71bf66aa56c1068e32a3ae65ab404ee18ed6d1c7fa793e614535830854cef8",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/00_navigation/RESEARCH_MAP.md",
+      "box_sha256": "905d31829442e3ea275b6a88573834df80dd09e170c1db8c7faa1dea894344d8",
+      "git_worktree_before_sha256": "2dd5c4c4f20b66c1ec67e891d8374d7ca6f8230832c4e9006f98298ec03f261e",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/00_navigation/VSCODE.md",
+      "box_sha256": "0457124f64c454a0b15009110c63a674f8bbab3db6206a0af329b8dd6dd3adbc",
+      "git_worktree_before_sha256": "0457124f64c454a0b15009110c63a674f8bbab3db6206a0af329b8dd6dd3adbc",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/01_sources/BOX_FILENAME_REVIEW.md",
+      "box_sha256": "c129d0ae887a65580b718d9694c441aa1da63590dccb8ddd6d1c4372a40afabb",
+      "git_worktree_before_sha256": "b98b30549c65d381b889eb0a39a0a388a06ff75f10c3494c3bb7c3b11df62619",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/01_sources/FIGURE_ROUTES.md",
+      "box_sha256": "d18f38a8d7492b72970921b56a50cd3491b13aad17757f9b7f440e3195a59ee1",
+      "git_worktree_before_sha256": "d18f38a8d7492b72970921b56a50cd3491b13aad17757f9b7f440e3195a59ee1",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/01_sources/HPC_REPORT_MAP.md",
+      "box_sha256": "adfe2381be6c3ed07c59ac50ce8feac46ee56dd83ec3acd47806fd28d3f0e2a2",
+      "git_worktree_before_sha256": "adfe2381be6c3ed07c59ac50ce8feac46ee56dd83ec3acd47806fd28d3f0e2a2",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/01_sources/LINK_REPAIR_QUEUE.md",
+      "box_sha256": "b210c57c4b0ec749c620767bc1dc4deef2e9ddcb1cdeb4c3b3cd0f6315418cef",
+      "git_worktree_before_sha256": "b210c57c4b0ec749c620767bc1dc4deef2e9ddcb1cdeb4c3b3cd0f6315418cef",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/01_sources/SOURCE_REGISTER.md",
+      "box_sha256": "26bbbe680327297108962083ba8953a0e50ec2687d4cef2df4981c4e637bbc0b",
+      "git_worktree_before_sha256": "630b1f7fe3c0068549c7122463edbd49bd5253b7a36efb33cb05fc50943f9ea3",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/01_sources/box_literature_inventory.csv",
+      "box_sha256": "77e05175cfcaf3e2d30398ba16cb6b5fe24afe7dc13e2ea736fe4406e3864357",
+      "git_worktree_before_sha256": "372a665be428e93d2cbb0c105e30548ff27139c41b3b2251fd13f30ef6d0a72c",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/01_sources/google_plan_locators.json",
+      "box_sha256": "9c6226cf569491ecab8cfc7b2cdd2b7b7ec22183f1002420be94b03748cde1fd",
+      "git_worktree_before_sha256": "9c6226cf569491ecab8cfc7b2cdd2b7b7ec22183f1002420be94b03748cde1fd",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/01_sources/hpc_report_catalog.csv",
+      "box_sha256": "44a10e0af0787f92aca285d6d496589a37673695fa269fc375695c80fcbd9dd7",
+      "git_worktree_before_sha256": "44a10e0af0787f92aca285d6d496589a37673695fa269fc375695c80fcbd9dd7",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/01_sources/hpc_source_manifest.json",
+      "box_sha256": "4b27177604a3b47cfaa388b706ae08cc38964635f6265ddb3ebc6d429b5a6f91",
+      "git_worktree_before_sha256": "4b27177604a3b47cfaa388b706ae08cc38964635f6265ddb3ebc6d429b5a6f91",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/01_sources/inventory_summary.json",
+      "box_sha256": "d4d93f4c77c19f23b7969d681461cfb189f4721191614fd1fab9761b780defde",
+      "git_worktree_before_sha256": "d4d93f4c77c19f23b7969d681461cfb189f4721191614fd1fab9761b780defde",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/01_sources/obsidian_link_repair.json",
+      "box_sha256": "0240a5027340dfbf715e03e9c591d12bf345a86ddd42c56b74e6a0165e3bbef7",
+      "git_worktree_before_sha256": "0240a5027340dfbf715e03e9c591d12bf345a86ddd42c56b74e6a0165e3bbef7",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/01_sources/obsidian_links.csv",
+      "box_sha256": "b5977c28f1a56c7fddcb138d366f2a4df906455de212d831909fb123b4ff885a",
+      "git_worktree_before_sha256": "b5977c28f1a56c7fddcb138d366f2a4df906455de212d831909fb123b4ff885a",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/01_sources/planning_item_coverage.csv",
+      "box_sha256": "5264c1d14d808240d19258107581a442c8af5c5b3e5df35dab2a099b31a3364a",
+      "git_worktree_before_sha256": "5264c1d14d808240d19258107581a442c8af5c5b3e5df35dab2a099b31a3364a",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/01_sources/research_question_proposal_crosswalk.csv",
+      "box_sha256": "852f633349ba70b08aff2ee6cdf2fbf3fb6ed834fb1b88c65ba92c183dbc4fbc",
+      "git_worktree_before_sha256": "852f633349ba70b08aff2ee6cdf2fbf3fb6ed834fb1b88c65ba92c183dbc4fbc",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/01_sources/resource_inventory.csv",
+      "box_sha256": "d0679770b24489d36ad97757ec18bcba8d11b0c0b34c349e8e1c2fcd67c9c2e6",
+      "git_worktree_before_sha256": "d0679770b24489d36ad97757ec18bcba8d11b0c0b34c349e8e1c2fcd67c9c2e6",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/02_synthesis/PLANNING_COVERAGE.md",
+      "box_sha256": "dd4172f4948a81bfc9cb7709c7a2d51090b863ee667832d9c0016c75e2563c84",
+      "git_worktree_before_sha256": "dd4172f4948a81bfc9cb7709c7a2d51090b863ee667832d9c0016c75e2563c84",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/02_synthesis/RECONCILIATION.md",
+      "box_sha256": "01fd3f1a096d24fc0d0a4d7067ae9ca4ccea55f007b7d3d9cd68ca1a0fa61b76",
+      "git_worktree_before_sha256": "01fd3f1a096d24fc0d0a4d7067ae9ca4ccea55f007b7d3d9cd68ca1a0fa61b76",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/02_synthesis/RESEARCH_QUESTIONS_TO_PROPOSAL.md",
+      "box_sha256": "34a3efd8db529329e3430958285cd9f41bb19723a0545dbcd9b21222720c5db7",
+      "git_worktree_before_sha256": "34a3efd8db529329e3430958285cd9f41bb19723a0545dbcd9b21222720c5db7",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/02_synthesis/WORKING_UNDERSTANDING.md",
+      "box_sha256": "4ab60c9fcab56846a76052c99a15302ff1702af95d2ee65f169958a693c01d9b",
+      "git_worktree_before_sha256": "4ab60c9fcab56846a76052c99a15302ff1702af95d2ee65f169958a693c01d9b",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/EXPANDED_OUTLINE.md",
+      "box_sha256": "e3e29792594594aca2bd0a0dfc0bc2f02d5dbf1bbed818081d965539b1273154",
+      "git_worktree_before_sha256": "e3e29792594594aca2bd0a0dfc0bc2f02d5dbf1bbed818081d965539b1273154",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "box_sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc",
+      "git_worktree_before_sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/README.md",
+      "box_sha256": "af4067b96f1eefa88fea9a1e256ed72965e9297cd0bb73b1eacb774d5e5db909",
+      "git_worktree_before_sha256": "af4067b96f1eefa88fea9a1e256ed72965e9297cd0bb73b1eacb774d5e5db909",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "box_sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5",
+      "git_worktree_before_sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/PROPOSAL_OUTLINE.md",
+      "box_sha256": "e3e29792594594aca2bd0a0dfc0bc2f02d5dbf1bbed818081d965539b1273154",
+      "git_worktree_before_sha256": "e3e29792594594aca2bd0a0dfc0bc2f02d5dbf1bbed818081d965539b1273154",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/README.md",
+      "box_sha256": "8a539cd9ba6282592612c0006c09531997270b922c2ebbae3b605529895f2b9e",
+      "git_worktree_before_sha256": "8a539cd9ba6282592612c0006c09531997270b922c2ebbae3b605529895f2b9e",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/coverage/2026-11-02/COVERAGE.md",
+      "box_sha256": "b9d55985bdb5ddb8c9c5c344f2a1aac32e14a1421306a4579f9c531c9d087c68",
+      "git_worktree_before_sha256": "b9d55985bdb5ddb8c9c5c344f2a1aac32e14a1421306a4579f9c531c9d087c68",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/coverage/2026-11-02/planning_coverage.csv",
+      "box_sha256": "3cb85c289555563827a9d23c9104e9f836238b82316df17e1406fa7c7db07649",
+      "git_worktree_before_sha256": "3cb85c289555563827a9d23c9104e9f836238b82316df17e1406fa7c7db07649",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/coverage/2026-11-02/question_coverage.csv",
+      "box_sha256": "791b8062a1c56a9275ef0648bdc6b0af748b1b06d5c14ef446ae745534ddbb05",
+      "git_worktree_before_sha256": "791b8062a1c56a9275ef0648bdc6b0af748b1b06d5c14ef446ae745534ddbb05",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/coverage/2026-11-02/research_insertion_slots.csv",
+      "box_sha256": "a7e63c33a5bddc151d8021aed0d54cee29397aa26ea3fd2a78b1150417c9dcec",
+      "git_worktree_before_sha256": "a7e63c33a5bddc151d8021aed0d54cee29397aa26ea3fd2a78b1150417c9dcec",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/packages.tex",
+      "box_sha256": "1dabbb2773866cb374d5b54de7c246394e2d4483fd955f2165aea112e72dcff0",
+      "git_worktree_before_sha256": "1dabbb2773866cb374d5b54de7c246394e2d4483fd955f2165aea112e72dcff0",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md",
+      "box_sha256": "4484b7857162f85cfb2c31fc921792578c62af353b45fba208e7f866011f4004",
+      "git_worktree_before_sha256": "4484b7857162f85cfb2c31fc921792578c62af353b45fba208e7f866011f4004",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/FOLLOWUP_DECISIONS.md",
+      "box_sha256": "4bdce180da5478bbe314fb3da97a07743162992fdee3e328e13ec4278ffa881f",
+      "git_worktree_before_sha256": "4bdce180da5478bbe314fb3da97a07743162992fdee3e328e13ec4278ffa881f",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "box_sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc",
+      "git_worktree_before_sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "box_sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5",
+      "git_worktree_before_sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/doc_support/reconciliation/2026-11-02/SOURCES.md",
+      "box_sha256": "983e18031615be95abd0ff6845dafd844026c115b3a2164a672cb4ccd488773a",
+      "git_worktree_before_sha256": "983e18031615be95abd0ff6845dafd844026c115b3a2164a672cb4ccd488773a",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/main.tex",
+      "box_sha256": "896399e934664b227b87b7180dbcc619d353fd4c4581b5bcfe0cd08100be91f6",
+      "git_worktree_before_sha256": "896399e934664b227b87b7180dbcc619d353fd4c4581b5bcfe0cd08100be91f6",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/proposal_outline_preview.pdf",
+      "box_sha256": "db6357c17654efdc3b7f3b9b506198b8967b11276a2d3d3d97eed82aec548962",
+      "git_worktree_before_sha256": "db6357c17654efdc3b7f3b9b506198b8967b11276a2d3d3d97eed82aec548962",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/00_working_summary.tex",
+      "box_sha256": "854d25b618757d874ede5def09acd0fb9a0fe03f76195fe5c95327e947b0d258",
+      "git_worktree_before_sha256": "854d25b618757d874ede5def09acd0fb9a0fe03f76195fe5c95327e947b0d258",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/01_motivation.tex",
+      "box_sha256": "a14ad284292e073bf2091cdf384c8ad6e047939a199bcbb88f221db5dfbe37d9",
+      "git_worktree_before_sha256": "a14ad284292e073bf2091cdf384c8ad6e047939a199bcbb88f221db5dfbe37d9",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/02_goals.tex",
+      "box_sha256": "10ce2f50659dd02a4f898c888d0c6cb9d21eaf87c8233a3dea042dc9c706b4d7",
+      "git_worktree_before_sha256": "10ce2f50659dd02a4f898c888d0c6cb9d21eaf87c8233a3dea042dc9c706b4d7",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/03_evidence.tex",
+      "box_sha256": "3282f1cba4a2d574ea2ac79938a236fa85d4a4e0d5abe8ce0be93045a88a8ad9",
+      "git_worktree_before_sha256": "3282f1cba4a2d574ea2ac79938a236fa85d4a4e0d5abe8ce0be93045a88a8ad9",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/04_model.tex",
+      "box_sha256": "8bf55abb3b70df25e40fcb989144029d3846d7ed3629c59d97c91a43d51c09e5",
+      "git_worktree_before_sha256": "8bf55abb3b70df25e40fcb989144029d3846d7ed3629c59d97c91a43d51c09e5",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/05_methods.tex",
+      "box_sha256": "db76305e5fea5c79f0f8131a043e2fd847ea2e72c154eed04aba36d3524f46d5",
+      "git_worktree_before_sha256": "db76305e5fea5c79f0f8131a043e2fd847ea2e72c154eed04aba36d3524f46d5",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/06_preliminary.tex",
+      "box_sha256": "866339dfdc00de46a574ce31ae6fb3bfffa836843eee4798d16cff32f0786eae",
+      "git_worktree_before_sha256": "866339dfdc00de46a574ce31ae6fb3bfffa836843eee4798d16cff32f0786eae",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/07_assessment.tex",
+      "box_sha256": "3ce4a68bd711b2d2ec13d0f4bd42481b8bf3f34414b39684d8e403e0f090ce9b",
+      "git_worktree_before_sha256": "3ce4a68bd711b2d2ec13d0f4bd42481b8bf3f34414b39684d8e403e0f090ce9b",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/08_plan.tex",
+      "box_sha256": "d766f3f764d209afce18bb8ebabdef980ba9179e15fa98931e1148e0ffec4643",
+      "git_worktree_before_sha256": "d766f3f764d209afce18bb8ebabdef980ba9179e15fa98931e1148e0ffec4643",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/outline/90_coverage.tex",
+      "box_sha256": "a5af8271d87a405fa086974986a6d83fc5415c287df65dbf1429dfe5cb05c194",
+      "git_worktree_before_sha256": "a5af8271d87a405fa086974986a6d83fc5415c287df65dbf1429dfe5cb05c194",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/archive/staged/sections/refs/bib.tex",
+      "box_sha256": "e30edbbbd97d40953753ff576666896be29054b621f1eb0e4eb12fc619b374d7",
+      "git_worktree_before_sha256": "e30edbbbd97d40953753ff576666896be29054b621f1eb0e4eb12fc619b374d7",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/build.log",
+      "box_sha256": "6255c75783e68eeaffa4f807cf8231689761111d1fa34bf0e2d970fd983bf53a",
+      "git_worktree_before_sha256": "6255c75783e68eeaffa4f807cf8231689761111d1fa34bf0e2d970fd983bf53a",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/committee_proposal.pdf",
+      "box_sha256": "db6357c17654efdc3b7f3b9b506198b8967b11276a2d3d3d97eed82aec548962",
+      "git_worktree_before_sha256": "db6357c17654efdc3b7f3b9b506198b8967b11276a2d3d3d97eed82aec548962",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/committee_proposal_sources.zip",
+      "box_sha256": "12bdf7d0fa923b4c3c2fb406f582b2cffe437d5063f5154d909006cf5476c416",
+      "git_worktree_before_sha256": "12bdf7d0fa923b4c3c2fb406f582b2cffe437d5063f5154d909006cf5476c416",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/committee_verification.json",
+      "box_sha256": "5c209fb0c12ee6e45dcc953b1cb5c0b600f7b528e316839c926462770a5e5443",
+      "git_worktree_before_sha256": "5c209fb0c12ee6e45dcc953b1cb5c0b600f7b528e316839c926462770a5e5443",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/COVERAGE.md",
+      "box_sha256": "b9d55985bdb5ddb8c9c5c344f2a1aac32e14a1421306a4579f9c531c9d087c68",
+      "git_worktree_before_sha256": "b9d55985bdb5ddb8c9c5c344f2a1aac32e14a1421306a4579f9c531c9d087c68",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/build_location.json",
+      "box_sha256": "6bd563fe1d4ebf82b9269a19b1653ff5767e0b90b319ce1cef4fb00fae556736",
+      "git_worktree_before_sha256": "6bd563fe1d4ebf82b9269a19b1653ff5767e0b90b319ce1cef4fb00fae556736",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/planning_coverage.csv",
+      "box_sha256": "3cb85c289555563827a9d23c9104e9f836238b82316df17e1406fa7c7db07649",
+      "git_worktree_before_sha256": "3cb85c289555563827a9d23c9104e9f836238b82316df17e1406fa7c7db07649",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/question_coverage.csv",
+      "box_sha256": "791b8062a1c56a9275ef0648bdc6b0af748b1b06d5c14ef446ae745534ddbb05",
+      "git_worktree_before_sha256": "791b8062a1c56a9275ef0648bdc6b0af748b1b06d5c14ef446ae745534ddbb05",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/question_slot_specification.json",
+      "box_sha256": "d24311de6bed70f960c436c64297a7ee6d16c223e465b24d86d0a2bd66d16821",
+      "git_worktree_before_sha256": "d24311de6bed70f960c436c64297a7ee6d16c223e465b24d86d0a2bd66d16821",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/research_insertion_slots.csv",
+      "box_sha256": "a7e63c33a5bddc151d8021aed0d54cee29397aa26ea3fd2a78b1150417c9dcec",
+      "git_worktree_before_sha256": "a7e63c33a5bddc151d8021aed0d54cee29397aa26ea3fd2a78b1150417c9dcec",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/scope_and_counts.json",
+      "box_sha256": "bb18d4156f64b0412b7a1f24b9656beaf8ccbc9fd4f0015feaebf71e92e67a9d",
+      "git_worktree_before_sha256": "bb18d4156f64b0412b7a1f24b9656beaf8ccbc9fd4f0015feaebf71e92e67a9d",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/coverage/verification.json",
+      "box_sha256": "5c209fb0c12ee6e45dcc953b1cb5c0b600f7b528e316839c926462770a5e5443",
+      "git_worktree_before_sha256": "5c209fb0c12ee6e45dcc953b1cb5c0b600f7b528e316839c926462770a5e5443",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/00_working_summary.tex",
+      "box_sha256": "10c93548ccc84f45c09410ba309d950a2ae9e043704c3f26232cfba9b4cf6eb7",
+      "git_worktree_before_sha256": "10c93548ccc84f45c09410ba309d950a2ae9e043704c3f26232cfba9b4cf6eb7",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/90_coverage.tex",
+      "box_sha256": "5ed80b5f27340bdfb45c4287f80b3694d35e239c386f2d9dc528bc7a5e41ed57",
+      "git_worktree_before_sha256": "5ed80b5f27340bdfb45c4287f80b3694d35e239c386f2d9dc528bc7a5e41ed57",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/AUTHOR_QUESTIONS.md",
+      "box_sha256": "aca122ff8b4f5ff7248e3bb1728308d3fe1415f6db7f5654d8055e4f785a8e1e",
+      "git_worktree_before_sha256": "aca122ff8b4f5ff7248e3bb1728308d3fe1415f6db7f5654d8055e4f785a8e1e",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/CITATION_NOTES.md",
+      "box_sha256": "41bd0e55478456ac4c276ddf0e1e7d962d37c7c37b56e42d5015f9112dd6f672",
+      "git_worktree_before_sha256": "41bd0e55478456ac4c276ddf0e1e7d962d37c7c37b56e42d5015f9112dd6f672",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/README.md",
+      "box_sha256": "7d0298f15099face2e2e14ca827051cc256849bff5370cbd7a4b5fd1121a333c",
+      "git_worktree_before_sha256": "7d0298f15099face2e2e14ca827051cc256849bff5370cbd7a4b5fd1121a333c",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/01_motivation.md",
+      "box_sha256": "e3dc6cd9597e487384246c3f632377e910d7350afdeaa7486339d9f9f0a72d82",
+      "git_worktree_before_sha256": "e3dc6cd9597e487384246c3f632377e910d7350afdeaa7486339d9f9f0a72d82",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/02_goals.md",
+      "box_sha256": "c924d6ebf25d08a94cb5deb24eb8e13bb7654d2997ef587a2e0dd831e0cef2a2",
+      "git_worktree_before_sha256": "c924d6ebf25d08a94cb5deb24eb8e13bb7654d2997ef587a2e0dd831e0cef2a2",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/03_evidence.md",
+      "box_sha256": "01c7bac0df1a91e6355500a6551f7e3ea7bc2e83ad6f438c586c37124214f3d4",
+      "git_worktree_before_sha256": "01c7bac0df1a91e6355500a6551f7e3ea7bc2e83ad6f438c586c37124214f3d4",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/04_model.md",
+      "box_sha256": "033a5ce7d353eaa27ade411ef2ca4f76210a166ac450d81e90038c73750051a2",
+      "git_worktree_before_sha256": "033a5ce7d353eaa27ade411ef2ca4f76210a166ac450d81e90038c73750051a2",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/05_methods.md",
+      "box_sha256": "12988896ee72b7c814bc0714478c7327d66da768e33c521ccb8aff38d475c60f",
+      "git_worktree_before_sha256": "12988896ee72b7c814bc0714478c7327d66da768e33c521ccb8aff38d475c60f",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/06_preliminary.md",
+      "box_sha256": "4ba6076675ecda49e90a99137a4f97b6039b069b55ab6b711a5ded641f20aa24",
+      "git_worktree_before_sha256": "4ba6076675ecda49e90a99137a4f97b6039b069b55ab6b711a5ded641f20aa24",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/07_assessment.md",
+      "box_sha256": "ed95063753af6fc33c5d2c590284d91950092629016834839b700b7217989c02",
+      "git_worktree_before_sha256": "ed95063753af6fc33c5d2c590284d91950092629016834839b700b7217989c02",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/internal/section_notes/08_plan.md",
+      "box_sha256": "e0b8142ee05fce429da69fcb894263880128a5609e9e61c6a20fe5dc155e44c7",
+      "git_worktree_before_sha256": "e0b8142ee05fce429da69fcb894263880128a5609e9e61c6a20fe5dc155e44c7",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/manifest.json",
+      "box_sha256": "bd3dc79d18a839a107e6819e7979a62f433c53a37a9effbbad0f003b90886cdd",
+      "git_worktree_before_sha256": "bd3dc79d18a839a107e6819e7979a62f433c53a37a9effbbad0f003b90886cdd",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/proposal_expansion.patch",
+      "box_sha256": "86bd3bc16a2b7d5a932d798e92d7888cb7f41ab66da1c9458e538fa42248ab9b",
+      "git_worktree_before_sha256": "86bd3bc16a2b7d5a932d798e92d7888cb7f41ab66da1c9458e538fa42248ab9b",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/proposal_outline_preview.pdf",
+      "box_sha256": "db6357c17654efdc3b7f3b9b506198b8967b11276a2d3d3d97eed82aec548962",
+      "git_worktree_before_sha256": "db6357c17654efdc3b7f3b9b506198b8967b11276a2d3d3d97eed82aec548962",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/proposal_source.zip",
+      "box_sha256": "12bdf7d0fa923b4c3c2fb406f582b2cffe437d5063f5154d909006cf5476c416",
+      "git_worktree_before_sha256": "12bdf7d0fa923b4c3c2fb406f582b2cffe437d5063f5154d909006cf5476c416",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-02/verification.json",
+      "box_sha256": "5c209fb0c12ee6e45dcc953b1cb5c0b600f7b528e316839c926462770a5e5443",
+      "git_worktree_before_sha256": "5c209fb0c12ee6e45dcc953b1cb5c0b600f7b528e316839c926462770a5e5443",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/EXPANDED_OUTLINE.md",
+      "box_sha256": "78d2456f9a590450b0d51c4ece54071ab2fd68c37c5cd9b15a27e16e6ff3bec1",
+      "git_worktree_before_sha256": "78d2456f9a590450b0d51c4ece54071ab2fd68c37c5cd9b15a27e16e6ff3bec1",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/README.md",
+      "box_sha256": "0f447ebaad8fc616ae3764e1a608f9a9e28453ae6d64bbacf0c4f8336c3a059a",
+      "git_worktree_before_sha256": "0f447ebaad8fc616ae3764e1a608f9a9e28453ae6d64bbacf0c4f8336c3a059a",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/application_receipt.json",
+      "box_sha256": "ad2c75cdf6f04941f361d161c0a8242a1fce9c98e0384a22003d8f2a59844fc9",
+      "git_worktree_before_sha256": "ad2c75cdf6f04941f361d161c0a8242a1fce9c98e0384a22003d8f2a59844fc9",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/PROPOSAL_OUTLINE.md",
+      "box_sha256": "78d2456f9a590450b0d51c4ece54071ab2fd68c37c5cd9b15a27e16e6ff3bec1",
+      "git_worktree_before_sha256": "78d2456f9a590450b0d51c4ece54071ab2fd68c37c5cd9b15a27e16e6ff3bec1",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/README.md",
+      "box_sha256": "bde9eb7e23c4158225f34af55cb4d8ee1cc50e6b617b8ca8434f564a30b0870e",
+      "git_worktree_before_sha256": "bde9eb7e23c4158225f34af55cb4d8ee1cc50e6b617b8ca8434f564a30b0870e",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/coverage/2026-11-02/COVERAGE.md",
+      "box_sha256": "6a6716e32dd091324e585426ed17f0f9579cc6c21ba43fa827409b1869219411",
+      "git_worktree_before_sha256": "6a6716e32dd091324e585426ed17f0f9579cc6c21ba43fa827409b1869219411",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/coverage/2026-11-02/planning_coverage.csv",
+      "box_sha256": "34818349a922113a32cd0cb4444ea4bc0e45740cd43497f867e516b3b862eeed",
+      "git_worktree_before_sha256": "34818349a922113a32cd0cb4444ea4bc0e45740cd43497f867e516b3b862eeed",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/coverage/2026-11-02/question_coverage.csv",
+      "box_sha256": "cb8016983c677daa3060689a56798e0f10eeb674d0de0f1a09382884269e0a17",
+      "git_worktree_before_sha256": "cb8016983c677daa3060689a56798e0f10eeb674d0de0f1a09382884269e0a17",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/coverage/2026-11-02/research_insertion_slots.csv",
+      "box_sha256": "80714bd85c8d13a20f901b50063f85c28e4a83a0aa852ce01271f30bec654ed8",
+      "git_worktree_before_sha256": "80714bd85c8d13a20f901b50063f85c28e4a83a0aa852ce01271f30bec654ed8",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/packages.tex",
+      "box_sha256": "1dabbb2773866cb374d5b54de7c246394e2d4483fd955f2165aea112e72dcff0",
+      "git_worktree_before_sha256": "1dabbb2773866cb374d5b54de7c246394e2d4483fd955f2165aea112e72dcff0",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/FIGURE_POINTERS.md",
+      "box_sha256": "4484b7857162f85cfb2c31fc921792578c62af353b45fba208e7f866011f4004",
+      "git_worktree_before_sha256": "4484b7857162f85cfb2c31fc921792578c62af353b45fba208e7f866011f4004",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/FOLLOWUP_DECISIONS.md",
+      "box_sha256": "4bdce180da5478bbe314fb3da97a07743162992fdee3e328e13ec4278ffa881f",
+      "git_worktree_before_sha256": "4bdce180da5478bbe314fb3da97a07743162992fdee3e328e13ec4278ffa881f",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/MASTER_AND_CITATION_POINTERS.md",
+      "box_sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc",
+      "git_worktree_before_sha256": "1385a8f77e5438a8a7508f6bf2d2b44a22b271d591e8a0a99c4dd406652affbc",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/RESEARCH_CONTEXT_EXPANSION.md",
+      "box_sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5",
+      "git_worktree_before_sha256": "817a53650e1707e67b20e4f76b2c9a14eb81d60a6e7cdcf662d464ccab1cfdc5",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/doc_support/reconciliation/2026-11-02/SOURCES.md",
+      "box_sha256": "983e18031615be95abd0ff6845dafd844026c115b3a2164a672cb4ccd488773a",
+      "git_worktree_before_sha256": "983e18031615be95abd0ff6845dafd844026c115b3a2164a672cb4ccd488773a",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/main.tex",
+      "box_sha256": "6f559f4b3c402a4b0ceb71493367a6918c3aa14b426268f8867b1979921844dc",
+      "git_worktree_before_sha256": "6f559f4b3c402a4b0ceb71493367a6918c3aa14b426268f8867b1979921844dc",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/proposal_outline_preview.pdf",
+      "box_sha256": "e804ccec84eb656c56482b8baa513c7e3dfaf1797004ff1152e04770d9090c03",
+      "git_worktree_before_sha256": "e804ccec84eb656c56482b8baa513c7e3dfaf1797004ff1152e04770d9090c03",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/00_working_summary.tex",
+      "box_sha256": "854d25b618757d874ede5def09acd0fb9a0fe03f76195fe5c95327e947b0d258",
+      "git_worktree_before_sha256": "854d25b618757d874ede5def09acd0fb9a0fe03f76195fe5c95327e947b0d258",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/01_motivation.tex",
+      "box_sha256": "cce548670c0714b78846767620805b0ba1758692a636f77a9fdb45bdb640663b",
+      "git_worktree_before_sha256": "cce548670c0714b78846767620805b0ba1758692a636f77a9fdb45bdb640663b",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/02_goals.tex",
+      "box_sha256": "0dc91cad0e720a480753988b90d98e0ac4cf1e47dc985ee2f44eedcadb66c2da",
+      "git_worktree_before_sha256": "0dc91cad0e720a480753988b90d98e0ac4cf1e47dc985ee2f44eedcadb66c2da",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/03_evidence.tex",
+      "box_sha256": "ca1939e1594f89d1a5c95dac639d50d8ed2b06740d811422ab3a3028e05ebc3f",
+      "git_worktree_before_sha256": "ca1939e1594f89d1a5c95dac639d50d8ed2b06740d811422ab3a3028e05ebc3f",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/04_model.tex",
+      "box_sha256": "5fc70d7c6ea415e54ef0e7033b3ea02b896dc307337cafb9b549910f455a932a",
+      "git_worktree_before_sha256": "5fc70d7c6ea415e54ef0e7033b3ea02b896dc307337cafb9b549910f455a932a",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/05_methods.tex",
+      "box_sha256": "8696d72ad033d8aa89e005269fcb795fcaf6a0ca5e80ac7e642a50466ce18613",
+      "git_worktree_before_sha256": "8696d72ad033d8aa89e005269fcb795fcaf6a0ca5e80ac7e642a50466ce18613",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/06_preliminary.tex",
+      "box_sha256": "ee11b072b8b426a659acaa86870e03eb1470b382b2dc92e42145122c189b514a",
+      "git_worktree_before_sha256": "ee11b072b8b426a659acaa86870e03eb1470b382b2dc92e42145122c189b514a",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/07_assessment.tex",
+      "box_sha256": "1b3227e85cab6298702664575bbf071ad44e354edec7452dd3a8f3836f74cd25",
+      "git_worktree_before_sha256": "1b3227e85cab6298702664575bbf071ad44e354edec7452dd3a8f3836f74cd25",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/08_plan.tex",
+      "box_sha256": "2c019bf74c0e94fa9cfab7605d2137b715b40e21df4e2cdfa354a2eeb261f404",
+      "git_worktree_before_sha256": "2c019bf74c0e94fa9cfab7605d2137b715b40e21df4e2cdfa354a2eeb261f404",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/outline/90_coverage.tex",
+      "box_sha256": "a5af8271d87a405fa086974986a6d83fc5415c287df65dbf1429dfe5cb05c194",
+      "git_worktree_before_sha256": "a5af8271d87a405fa086974986a6d83fc5415c287df65dbf1429dfe5cb05c194",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/archive/staged/sections/refs/bib.tex",
+      "box_sha256": "8468a6cec3a21edd47b267c153183be396bd914d731c91a3ae84ad99ac718c97",
+      "git_worktree_before_sha256": "8468a6cec3a21edd47b267c153183be396bd914d731c91a3ae84ad99ac718c97",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/build.log",
+      "box_sha256": "43747015f28bbd4528a3d27b5a9ef4c2eafcffe8086c86157eb4a8b635de4571",
+      "git_worktree_before_sha256": "43747015f28bbd4528a3d27b5a9ef4c2eafcffe8086c86157eb4a8b635de4571",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/committee_proposal.pdf",
+      "box_sha256": "e804ccec84eb656c56482b8baa513c7e3dfaf1797004ff1152e04770d9090c03",
+      "git_worktree_before_sha256": "e804ccec84eb656c56482b8baa513c7e3dfaf1797004ff1152e04770d9090c03",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/committee_proposal_sources.zip",
+      "box_sha256": "ad9b71d3a5a8593e03faba29302d44dfec63a9f90c35183ecd4e19a0e5132a88",
+      "git_worktree_before_sha256": "ad9b71d3a5a8593e03faba29302d44dfec63a9f90c35183ecd4e19a0e5132a88",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/committee_verification.json",
+      "box_sha256": "81ed87984dbf068cc8da43794fa27f1db82a773601cfdb6a5873e6f5be2c81f5",
+      "git_worktree_before_sha256": "81ed87984dbf068cc8da43794fa27f1db82a773601cfdb6a5873e6f5be2c81f5",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/COVERAGE.md",
+      "box_sha256": "6a6716e32dd091324e585426ed17f0f9579cc6c21ba43fa827409b1869219411",
+      "git_worktree_before_sha256": "6a6716e32dd091324e585426ed17f0f9579cc6c21ba43fa827409b1869219411",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/build_location.json",
+      "box_sha256": "c669e16bdb9fe51352f1b9ad9c1c81aaf70a9d975af78f9fbd8749888b119ee6",
+      "git_worktree_before_sha256": "c669e16bdb9fe51352f1b9ad9c1c81aaf70a9d975af78f9fbd8749888b119ee6",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/planning_coverage.csv",
+      "box_sha256": "34818349a922113a32cd0cb4444ea4bc0e45740cd43497f867e516b3b862eeed",
+      "git_worktree_before_sha256": "34818349a922113a32cd0cb4444ea4bc0e45740cd43497f867e516b3b862eeed",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/question_coverage.csv",
+      "box_sha256": "cb8016983c677daa3060689a56798e0f10eeb674d0de0f1a09382884269e0a17",
+      "git_worktree_before_sha256": "cb8016983c677daa3060689a56798e0f10eeb674d0de0f1a09382884269e0a17",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/question_slot_specification.json",
+      "box_sha256": "d24311de6bed70f960c436c64297a7ee6d16c223e465b24d86d0a2bd66d16821",
+      "git_worktree_before_sha256": "d24311de6bed70f960c436c64297a7ee6d16c223e465b24d86d0a2bd66d16821",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/research_insertion_slots.csv",
+      "box_sha256": "80714bd85c8d13a20f901b50063f85c28e4a83a0aa852ce01271f30bec654ed8",
+      "git_worktree_before_sha256": "80714bd85c8d13a20f901b50063f85c28e4a83a0aa852ce01271f30bec654ed8",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/scope_and_counts.json",
+      "box_sha256": "bb18d4156f64b0412b7a1f24b9656beaf8ccbc9fd4f0015feaebf71e92e67a9d",
+      "git_worktree_before_sha256": "bb18d4156f64b0412b7a1f24b9656beaf8ccbc9fd4f0015feaebf71e92e67a9d",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/coverage/verification.json",
+      "box_sha256": "81ed87984dbf068cc8da43794fa27f1db82a773601cfdb6a5873e6f5be2c81f5",
+      "git_worktree_before_sha256": "81ed87984dbf068cc8da43794fa27f1db82a773601cfdb6a5873e6f5be2c81f5",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/internal/00_working_summary.tex",
+      "box_sha256": "10c93548ccc84f45c09410ba309d950a2ae9e043704c3f26232cfba9b4cf6eb7",
+      "git_worktree_before_sha256": "10c93548ccc84f45c09410ba309d950a2ae9e043704c3f26232cfba9b4cf6eb7",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/internal/90_coverage.tex",
+      "box_sha256": "5ed80b5f27340bdfb45c4287f80b3694d35e239c386f2d9dc528bc7a5e41ed57",
+      "git_worktree_before_sha256": "5ed80b5f27340bdfb45c4287f80b3694d35e239c386f2d9dc528bc7a5e41ed57",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/internal/AUTHOR_ANSWER_STATUS.md",
+      "box_sha256": "1f4b848d2432439b7d1462fa938c383c89d6fe00dc79ce8f9bc85853b91d15dd",
+      "git_worktree_before_sha256": "1f4b848d2432439b7d1462fa938c383c89d6fe00dc79ce8f9bc85853b91d15dd",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/internal/CITATION_NOTES.md",
+      "box_sha256": "3257c8045370a02f418beb87063ca586f33d4da8c478e82d3e4b6a4156cab092",
+      "git_worktree_before_sha256": "3257c8045370a02f418beb87063ca586f33d4da8c478e82d3e4b6a4156cab092",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/internal/EXPANSION_NOTES.md",
+      "box_sha256": "22980d5d43350d23c8f5d4ffcd1b084ecd2502f3f0a2a7ca77ce392470ae7363",
+      "git_worktree_before_sha256": "22980d5d43350d23c8f5d4ffcd1b084ecd2502f3f0a2a7ca77ce392470ae7363",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/internal/README.md",
+      "box_sha256": "893ac6acedea794a2c3e2f38031b112ff3d806cd0631424d66646fb1f4a2adc1",
+      "git_worktree_before_sha256": "893ac6acedea794a2c3e2f38031b112ff3d806cd0631424d66646fb1f4a2adc1",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/internal/source_snapshot.json",
+      "box_sha256": "b3f8a59fc4ae2b33ba424b5c57cbf1100a1ed45fc5ea86e3340b524ab761ee52",
+      "git_worktree_before_sha256": "b3f8a59fc4ae2b33ba424b5c57cbf1100a1ed45fc5ea86e3340b524ab761ee52",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/manifest.json",
+      "box_sha256": "d002002ff7beff825ba8c43c8721bb2de182105647b66fbdd4f7f0ebeb012ed9",
+      "git_worktree_before_sha256": "d002002ff7beff825ba8c43c8721bb2de182105647b66fbdd4f7f0ebeb012ed9",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/proposal_expansion.patch",
+      "box_sha256": "79982b38a2ab5542df6a9e996f2f53fcd32085ddf3fd54a262a7b7369d663558",
+      "git_worktree_before_sha256": "79982b38a2ab5542df6a9e996f2f53fcd32085ddf3fd54a262a7b7369d663558",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/proposal_outline_preview.pdf",
+      "box_sha256": "e804ccec84eb656c56482b8baa513c7e3dfaf1797004ff1152e04770d9090c03",
+      "git_worktree_before_sha256": "e804ccec84eb656c56482b8baa513c7e3dfaf1797004ff1152e04770d9090c03",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/proposal_source.zip",
+      "box_sha256": "ad9b71d3a5a8593e03faba29302d44dfec63a9f90c35183ecd4e19a0e5132a88",
+      "git_worktree_before_sha256": "ad9b71d3a5a8593e03faba29302d44dfec63a9f90c35183ecd4e19a0e5132a88",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/2026-11-03/verification.json",
+      "box_sha256": "81ed87984dbf068cc8da43794fa27f1db82a773601cfdb6a5873e6f5be2c81f5",
+      "git_worktree_before_sha256": "81ed87984dbf068cc8da43794fa27f1db82a773601cfdb6a5873e6f5be2c81f5",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/ARCHIVE_MOVE_MAP.json",
+      "box_sha256": "26eaf1e93a5fe6ee654c0fd9293499046c768124513179f47f180efe95b2e15d",
+      "git_worktree_before_sha256": "26eaf1e93a5fe6ee654c0fd9293499046c768124513179f47f180efe95b2e15d",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/03_proposal/README.md",
+      "box_sha256": "6d462115173b44e868f05b634d19a0c8d7adab28d34ff9a93c3704f063a9cd09",
+      "git_worktree_before_sha256": "6d462115173b44e868f05b634d19a0c8d7adab28d34ff9a93c3704f063a9cd09",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/04_decisions/DECISIONS.md",
+      "box_sha256": "07049070051848b4bb5e0bf3b7aaf72269c18d1045dd6e722eb61674c0d41fee",
+      "git_worktree_before_sha256": "11dc6b39cbc566666d7a40a7454f16a050a92b6d02b936f9dd9ead1deb079138",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02.md",
+      "box_sha256": "e41ae5182f95fec9ddd5f7cf9688049c6fe24d180d09dc8c682e2096018028ee",
+      "git_worktree_before_sha256": "e41ae5182f95fec9ddd5f7cf9688049c6fe24d180d09dc8c682e2096018028ee",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02_02_hpc_context.md",
+      "box_sha256": "0f7e6df31def51db6a2a9f188e5d7a2afc2173bd9008105107049929d386d3ed",
+      "git_worktree_before_sha256": "0f7e6df31def51db6a2a9f188e5d7a2afc2173bd9008105107049929d386d3ed",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02_03_question_integration.md",
+      "box_sha256": "9f494b4389b0969cc753a91ee03b4ce7f52ce8fd424e2b09fd661db765dbe28d",
+      "git_worktree_before_sha256": "9f494b4389b0969cc753a91ee03b4ce7f52ce8fd424e2b09fd661db765dbe28d",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02_04_obsidian_links.md",
+      "box_sha256": "971da23bd016ea2e7293adeceeac472f27ed903a88a643fc8b6f4ca15b9cf79b",
+      "git_worktree_before_sha256": "971da23bd016ea2e7293adeceeac472f27ed903a88a643fc8b6f4ca15b9cf79b",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02_05_proposal_structure.md",
+      "box_sha256": "20984ad435a12c933085dec90cddd393d96ce75b8fdba1cac6d34b73a83a6ee5",
+      "git_worktree_before_sha256": "20984ad435a12c933085dec90cddd393d96ce75b8fdba1cac6d34b73a83a6ee5",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-02_06_committee_cleanup.md",
+      "box_sha256": "543d07db708a99aecd466d7df65cdfd2c9c17934902662a84bf74c13e8126fa9",
+      "git_worktree_before_sha256": "543d07db708a99aecd466d7df65cdfd2c9c17934902662a84bf74c13e8126fa9",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-03_01_expanded_committee_proposal.md",
+      "box_sha256": "15ac69f044449fe33b12f1ee8947daab40060a44814ec145103ad76e197ff397",
+      "git_worktree_before_sha256": "15ac69f044449fe33b12f1ee8947daab40060a44814ec145103ad76e197ff397",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-03_02_local_hpc_consolidation.md",
+      "box_sha256": "25eacbec2179f1f8e4f99c7653e09fa2ac41053303aed1a4d153eb4295b80ef2",
+      "git_worktree_before_sha256": "25eacbec2179f1f8e4f99c7653e09fa2ac41053303aed1a4d153eb4295b80ef2",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/05_handoffs/2026-11-03_README_before_consolidation.md",
+      "box_sha256": "67b8db5d92286f843e8cb05de0290b60347138c717187427e513ea529c427309",
+      "git_worktree_before_sha256": "67b8db5d92286f843e8cb05de0290b60347138c717187427e513ea529c427309",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/01_to_hpc.md",
+      "box_sha256": "215ad561c520f600ed6f8c020e86e8d4a4d4483a8c473b9e6cf8e6069f6d30f7",
+      "git_worktree_before_sha256": "215ad561c520f600ed6f8c020e86e8d4a4d4483a8c473b9e6cf8e6069f6d30f7",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/01_to_hpc_v2.md",
+      "box_sha256": "ff56151d6262c740bae767724755a7e2729caaed2a6040016e616e9fe2694521",
+      "git_worktree_before_sha256": "ff56151d6262c740bae767724755a7e2729caaed2a6040016e616e9fe2694521",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/01_to_hpc_v3.md",
+      "box_sha256": "5a0ecfc11efd7b2a8022303f33b9147962d5e02db5782543032a66383394d1ec",
+      "git_worktree_before_sha256": "5a0ecfc11efd7b2a8022303f33b9147962d5e02db5782543032a66383394d1ec",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/02_from_hpc_TEMPLATE.md",
+      "box_sha256": "dedd124bd3e2d3deed2133853b772d4e79c9775d770caf8549c73966fb59f8d4",
+      "git_worktree_before_sha256": "dedd124bd3e2d3deed2133853b772d4e79c9775d770caf8549c73966fb59f8d4",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/03_local_followup.md",
+      "box_sha256": "cd4b080414c7f0e2c64724272556e18b7536a229a17cfb83309f65101370779e",
+      "git_worktree_before_sha256": "cd4b080414c7f0e2c64724272556e18b7536a229a17cfb83309f65101370779e",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/HX-20261102_local_to_hpc.zip",
+      "box_sha256": "ac698a6ac5d1decc4cf5a4565a97e164c08624d64dd9c80a9f054a67c6b5e9e9",
+      "git_worktree_before_sha256": "ac698a6ac5d1decc4cf5a4565a97e164c08624d64dd9c80a9f054a67c6b5e9e9",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/HX-20261102_local_to_hpc_v2.zip",
+      "box_sha256": "32ff9bc0f801bbe9946e35ca8fb37f780ebcb82d049ef3ecd3242ffd6311cca8",
+      "git_worktree_before_sha256": "32ff9bc0f801bbe9946e35ca8fb37f780ebcb82d049ef3ecd3242ffd6311cca8",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/HX-20261102_local_to_hpc_v3.zip",
+      "box_sha256": "43b165c99d56963aedf272c959de3251074417a290a47bf3119412ede9620870",
+      "git_worktree_before_sha256": "43b165c99d56963aedf272c959de3251074417a290a47bf3119412ede9620870",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/export_receipt.json",
+      "box_sha256": "baa25306d75598993679af0032e0d972582cc04590917592492e52f661f6adf7",
+      "git_worktree_before_sha256": "baa25306d75598993679af0032e0d972582cc04590917592492e52f661f6adf7",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/export_receipt_v2.json",
+      "box_sha256": "7d707912a752fbf7e8e1de9c07be419e510ff2cb8da5e9eed55f5aa44c051ad1",
+      "git_worktree_before_sha256": "7d707912a752fbf7e8e1de9c07be419e510ff2cb8da5e9eed55f5aa44c051ad1",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/exports/export_receipt_v3.json",
+      "box_sha256": "0ed88d0026795bcd5f32b268fb968b15019633023080b6f4096fe8ded2e088b0",
+      "git_worktree_before_sha256": "0ed88d0026795bcd5f32b268fb968b15019633023080b6f4096fe8ded2e088b0",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/2026-11-02/incoming/README.md",
+      "box_sha256": "cd156ef3aee6f9e9ea2f54323d6ce5e287b01f8a75b1039ba1ee023a744f892f",
+      "git_worktree_before_sha256": "cd156ef3aee6f9e9ea2f54323d6ce5e287b01f8a75b1039ba1ee023a744f892f",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/QUESTION_REGISTER.md",
+      "box_sha256": "160538433baa412e7b425072b2cbf7abc111c5ae3cf765209108a8e49d141a55",
+      "git_worktree_before_sha256": "f00f90eee018dcde4b0cfd5bc4d590e14dd7f4e9499804fd00c18db687c011ba",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/06_hpc_exchange/README.md",
+      "box_sha256": "988a653c038ea2f49705fd01142b93349523c064f3700cd2a99e07297c7b1f4d",
+      "git_worktree_before_sha256": "d381bca871734fc3bfb80875031e71feca39c868c4242475dae03810ebd7fa4c",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/80_repository_links/README.md",
+      "box_sha256": "b6100c3f1727e866ccd865cbb34666e41a641cf55f9aca0e2b4ec4a54aee5b7a",
+      "git_worktree_before_sha256": "b6100c3f1727e866ccd865cbb34666e41a641cf55f9aca0e2b4ec4a54aee5b7a",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/90_templates/WORKING_NOTE.md",
+      "box_sha256": "b91cc7d3da888521f6665a9840eeff62de662988fbf5c7963c70ea51735c85f7",
+      "git_worktree_before_sha256": "9fa597fdc7e91f0c315eb186814ef7985d4c024873534170cee68e37f719982a",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/AGENTS.md",
+      "box_sha256": "e4cd5f429ef669b81f29b5f435b12273508cb6ae4128f817e2ca84e45595a89f",
+      "git_worktree_before_sha256": "2af9d4f3b388a7e23e9f257ca36a36adea2f81788bafdb0cb236c91baf7fe402",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/README.md",
+      "box_sha256": "f52bba36c79fc0006a15c59c739e2f8429040c8fd4ab31c4080e99b0d847ea4b",
+      "git_worktree_before_sha256": "a93c225fb1f7a5fe5298554c3ae0c67663921c860f4637542073eb0889d1e224",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/codex_markdown_test.md",
+      "box_sha256": "3a59dc884be8c2fca446f235b451d51455ee364dfa91c2cd289a45938e195ef5",
+      "git_worktree_before_sha256": null,
+      "resolution": "already_archived_in_git_keep_box_extra"
+    },
+    {
+      "path": "X.Chat/tools/inventory_box_literature.py",
+      "box_sha256": "20053aa62ccaa95c5af26a87fabe4b3c803e4d0579312808e9a20e71d767c016",
+      "git_worktree_before_sha256": "5e1dd2e84c7e0f6da3107cb1eb28ddcaf4646a0c55413b4298fd00f1311ffd7f",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/tools/obsidian_links.py",
+      "box_sha256": "5b4563b904fb8d06980a82d86eed7d868918e547cfde8d933fceb6d6c3f29aa3",
+      "git_worktree_before_sha256": "15eb921c0fd702e1925e4bc57be0628ad37466e1baad0bb809921c978d153f88",
+      "resolution": "git_newer_box_equals_cutover"
+    },
+    {
+      "path": "X.Chat/tools/refresh_inventory.py",
+      "box_sha256": "e9515c6fac3f8fcb25a462953529d7a7400033bf43f504fe6b9a606712276916",
+      "git_worktree_before_sha256": "e9515c6fac3f8fcb25a462953529d7a7400033bf43f504fe6b9a606712276916",
+      "resolution": "identical"
+    },
+    {
+      "path": "X.Chat/tools/setup_repository_link.py",
+      "box_sha256": "6cded8d0b834882a7d08caa1ea95d720edf3ed96d8e5177a35bb0b084b27b35c",
+      "git_worktree_before_sha256": "6cded8d0b834882a7d08caa1ea95d720edf3ed96d8e5177a35bb0b084b27b35c",
+      "resolution": "identical"
+    },
+    {
+      "path": "attachments/Pasted image 20260821141504.png",
+      "box_sha256": "7c4fe916d9094ae23b5ca282d5b2cd6d5321e986b3ac58a63ffb128dd9fd0660",
+      "git_worktree_before_sha256": "7c4fe916d9094ae23b5ca282d5b2cd6d5321e986b3ac58a63ffb128dd9fd0660",
+      "resolution": "identical"
+    },
+    {
+      "path": "attachments/Slack message documentation.md",
+      "box_sha256": "aef85a491e461eb375c4375880abdd4888d901d557d4373419d5fa9baa252b2a",
+      "git_worktree_before_sha256": "aef85a491e461eb375c4375880abdd4888d901d557d4373419d5fa9baa252b2a",
+      "resolution": "identical"
+    },
+    {
+      "path": "attachments/attachments/Slack message documentation.png",
+      "box_sha256": "c4d1d4a047dac03d135a68c7084fcc5003884160448ad8ea2f895e1ee7d0ece3",
+      "git_worktree_before_sha256": "c4d1d4a047dac03d135a68c7084fcc5003884160448ad8ea2f895e1ee7d0ece3",
+      "resolution": "identical"
+    },
+    {
+      "path": "attachments/trident_longhorn_I_hate.png",
+      "box_sha256": "53204a5f58cef7f65b893006bfb82e4f4db8228181cce1ecfeb7a36f5f3ba23d",
+      "git_worktree_before_sha256": "53204a5f58cef7f65b893006bfb82e4f4db8228181cce1ecfeb7a36f5f3ba23d",
+      "resolution": "identical"
+    }
+  ],
+  "source_limits": "Text, metadata and hashes only. No image viewing, CAD parsing or scientific assessment. Backup excludes .git and .DS_Store; symlink targets not followed. Local mounted-file verification does not prove cloud delivery."
+}

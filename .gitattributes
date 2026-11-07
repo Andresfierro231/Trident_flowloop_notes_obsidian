@@ -12,3 +12,9 @@ X.Chat/01_sources/reference_migration/** -text -whitespace
 
 # Canonical reference collection; retain exact original source bytes.
 X.Reference/** -text -whitespace
+
+# OPS-015: preserve original author-note bytes during reconciliation.
+"0. Overview and intro/Update from git repo.md" -whitespace
+"1. Setup and Geometry/1.2 Main Material Props.md" -whitespace
+"M. Meeting Notes/'26 Nov 05 - biweekly comp meeting.md" -whitespace
+"Research/Reports along the way/'26 Nov 04.md" -whitespace

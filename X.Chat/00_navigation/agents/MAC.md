@@ -58,6 +58,8 @@ copy only committed notes/attachments with no deletion mirror or alias/Git/raw
 data export, and record destination, commit and copy/check results. GitHub-only
 success leaves Box publication pending. Verify the actual target rather than
 using the historical alias. Author-confirmed destination:
-`box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes`; preserve the dated
-pre_git snapshot. Restore/update the confirmed folder if absent.
+`box:Andres_Obsidian_Notes_Box/Trident_FlowLoop_Notes_pre_git_2026-11-03` (latest direct author
+confirmation, OPS-015). The dated folder is actively edited; earlier undated
+publication instructions are superseded. Preserve a hash-verified backup
+before updating it. The undated Mac path is a symlink to the Git checkout.
 Do not alter Obsidian/Box client setup or unrelated repositories as part of it.
